@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ÎncăUnCapitol</title>
+<meta name="description" content="Recomandări de cărți pentru dezvoltare personală, educație financiară și antreprenoriat.">
+<meta property="og:title" content="ÎncăUnCapitol">
+<meta property="og:description" content="O carte bună costă mai puțin decât o greșeală repetată.">
+<style>
+:root{
+--primary:#111827;--accent:#f59e0b;--bg:#ffffff;--soft:#f8fafc;--muted:#6b7280;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,Arial,sans-serif;background:#fff;color:var(--primary);line-height:1.6}
+.container{width:min(1200px,92%);margin:auto}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:999}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-size:1.8rem;font-weight:800}.logo span{color:var(--accent)}
+.hero{padding:120px 0;text-align:center;background:linear-gradient(rgba(255,255,255,.92),rgba(255,255,255,.95)),url('imagini/biblioteca.jpg') center/cover}
+.hero h1{font-size:clamp(2rem,5vw,4.5rem);margin-bottom:20px}
+.hero-line{font-size:1.4rem;margin:8px 0}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:16px 28px;border-radius:10px;font-weight:700}
+.slogan{margin-top:25px;color:var(--muted);font-style:italic}
+.section{padding:80px 0}
+.title{text-align:center;font-size:2rem;margin-bottom:40px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,.05);transition:.25s}
+.card:hover{transform:translateY(-5px)}
+.card img{width:100%;height:340px;object-fit:cover}
+.content{padding:18px}
+.badge{display:inline-block;background:var(--accent);color:#fff;padding:5px 10px;border-radius:20px;font-size:.8rem}
+.score{font-weight:700;margin:10px 0}
+.price{display:flex;gap:10px;align-items:center;margin:14px 0}
+.old{text-decoration:line-through;color:#888}
+.discount{background:#dc2626;color:#fff;padding:3px 8px;border-radius:5px}
+.buy{display:block;text-align:center;background:#111827;color:#fff;text-decoration:none;padding:12px;border-radius:8px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:20px}
+.filter{padding:10px 16px;background:#f3f4f6;border-radius:30px;cursor:pointer}
+.search{width:100%;padding:14px;border:1px solid #ddd;border-radius:10px;margin-bottom:20px}
+.highlight{background:#fef3c7;padding:25px;border-radius:15px;text-align:center}
+.newsletter{background:#111827;color:#fff;text-align:center}
+.newsletter input{width:min(500px,100%);padding:14px;margin:8px;border-radius:8px;border:none}
+.newsletter button{padding:14px 24px;background:var(--accent);border:none;border-radius:8px;color:#fff}
+.footer{background:#111827;color:#fff;text-align:center;padding:40px}
+.topbooks{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.topbooks span{background:#f3f4f6;padding:12px 16px;border-radius:30px}
+</style>
+</head>
+<body>
+<header><div class="container"><nav><div class="logo">Încă<span>UnCapitol</span></div><a href="#carti" class="btn">Recomandarea lunii</a></nav></div></header>
+
+<section class="hero">
+<div class="container">
+<h1>Îți dai seama că ai intrat „doar să te uiți”, nu? Noi știm cum se termină asta.</h1>
+<div class="hero-line">Încă un capitol.</div>
+<div class="hero-line">Încă o idee.</div>
+<div class="hero-line">Încă o carte care îți poate schimba perspectiva.</div>
+<br><a href="#carti" class="btn">Găsește o carte care merită timpul tău</a>
+<div class="slogan">ÎncăUnCapitol — pentru că o carte bună costă mai puțin decât o greșeală repetată.</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2 class="title">Cititorii aleg cel mai des</h2>
+<div id="featured" class="cards"></div>
+</div>
+</section>
+
+<section class="section" style="background:#f8fafc">
+<div class="container">
+<h2 class="title">Cum aleg cărțile pe care le recomand?</h2>
+<p style="max-width:850px;margin:auto;text-align:center">
+Nu recomand orice bestseller. Nu recomand cărți doar pentru că sunt populare.
+Recomand doar cărțile care mi-au oferit idei utile, aplicabile și care merită timpul investit pentru a fi citite.
+</p>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2 class="title">Cărțile care m-au influențat cel mai mult</h2>
+<div class="topbooks">
+<span>Inamicul este egoul</span>
+<span>Psihologia banilor</span>
+<span>Principii</span>
+<span>Jurnalul tău călăuzitor</span>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2 class="title">Recomandarea lunii</h2>
+<div class="highlight">
+<h3>Adaugă aici cartea lunii</h3>
+<p>Poți introduce descrierea extinsă și linkul de afiliere.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="carti">
+<div class="container">
+<h2 class="title">Catalog de cărți</h2>
+<input id="search" class="search" placeholder="Caută după titlu sau autor">
+<div class="filters">
+<div class="filter" onclick="filterBooks('all')">Toate</div>
+<div class="filter" onclick="filterBooks('financiar')">Educație financiară</div>
+<div class="filter" onclick="filterBooks('dezvoltare')">Dezvoltare personală</div>
+<div class="filter" onclick="filterBooks('business')">Antreprenoriat</div>
+</div>
+<div id="books" class="cards"></div>
+</div>
+</section>
+
+<section class="section newsletter">
+<div class="container">
+<h2>Primește o recomandare bună înainte să pierzi timp pe una slabă</h2>
+<p>În fiecare lună trimit o recomandare de carte, promoțiile active și câteva idei care merită păstrate.</p><br>
+<input placeholder="Nume"><br>
+<input placeholder="Email"><br>
+<button>Abonează-mă</button>
+</div>
+</section>
+
+<div class="footer">
+<h3>ÎncăUnCapitol</h3>
+<p>Oamenii care nu citesc au o singură sursă de informație: propria experiență.</p>
+<p>Eu prefer să împrumut și experiența altora.</p>
+</div>
+
+<script>
+const books=[
+{title:"Psihologia Banilor",author:"Morgan Housel",category:"financiar",score:"9.7/10",oldPrice:"79 Lei",price:"49 Lei",discount:"-38%",image:"imagini/psihologia-banilor.jpg",affiliate:"#",description:"Despre bani și comportament."},
+{title:"Inamicul este Egoul",author:"Ryan Holiday",category:"dezvoltare",score:"9.5/10",oldPrice:"69 Lei",price:"45 Lei",discount:"-35%",image:"imagini/inamicul.jpg",affiliate:"#",description:"Cum îți sabotează egoul progresul."},
+{title:"Principii",author:"Ray Dalio",category:"business",score:"9.4/10",oldPrice:"99 Lei",price:"69 Lei",discount:"-30%",image:"imagini/principii.jpg",affiliate:"#",description:"Principii pentru viață și afaceri."}
+];
+function card(b){return `<div class='card'><img src='${b.image}'><div class='content'><span class='badge'>Recomandarea mea</span><h3>${b.title}</h3><div>${b.author}</div><div class='score'>Scor ÎncăUnCapitol: ${b.score}</div><p>${b.description}</p><div class='price'><span class='old'>${b.oldPrice}</span><strong>${b.price}</strong><span class='discount'>${b.discount}</span></div><a class='buy' href='${b.affiliate}' target='_blank'>Cumpără acum</a></div></div>`}
+function render(arr){document.getElementById('books').innerHTML=arr.map(card).join('')}
+function filterBooks(cat){render(cat==='all'?books:books.filter(x=>x.category===cat))}
+render(books);
+document.getElementById('featured').innerHTML=books.map(card).join('');
+document.getElementById('search').addEventListener('input',e=>{
+const v=e.target.value.toLowerCase();
+render(books.filter(b=>b.title.toLowerCase().includes(v)||b.author.toLowerCase().includes(v)));
+});
+</script>
+</body>
+</html>
