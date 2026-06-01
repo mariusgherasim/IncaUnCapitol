@@ -133,7 +133,57 @@ id="newsletter">
 <h2>Primește o recomandare bună înainte să pierzi timp pe una slabă</h2>
 <p>În fiecare lună trimit o recomandare de carte,
 promoțiile active și câteva idei care merită păstrate.</p>
-<form id="newsletterForm">
+<form
+id="newsletterForm"
+action="https://api.web3forms.com/submit"
+method="POST"
+>
+
+<input
+type="hidden"
+name="access_key"
+value="0e0d8a26-7a45-44f6-a3fc-97c19e72884c"
+>
+
+<input
+type="hidden"
+name="subject"
+value="Abonare nouă ÎncăUnCapitol"
+>
+
+<input
+type="hidden"
+name="from_name"
+value="ÎncăUnCapitol"
+>
+
+<input
+type="text"
+name="name"
+placeholder="Nume"
+required
+>
+
+<input
+type="email"
+name="email"
+placeholder="Email"
+required
+>
+<textarea
+name="message"
+placeholder="Ce tip de cărți te interesează?"
+rows="4"
+></textarea>
+<button type="submit">
+Abonează-mă
+</button>
+</form>
+<div
+id="successMessage"
+class="success-message"
+></div>
+
 <input
 type="text"
 placeholder="Nume"

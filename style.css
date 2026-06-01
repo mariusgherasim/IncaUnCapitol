@@ -74,6 +74,7 @@ cursor:pointer;font-weight:600;}
 .newsletter-section{background:var(--primary);color:white;text-align:center;padding:90px 0;}
 .newsletter-section h2{margin-bottom:15px;}
 .newsletter-section p{max-width:700px;margin:auto auto 25px;}
+.success-message{margin-top:20px;padding:20px;border-radius:10px;background:#dcfce7;color:#166534;font-weight:600;display:none;}
 #newsletterForm{max-width:500px;margin:auto;}
 #newsletterForm input{width:100%;padding:15px;margin-bottom:12px;border:none;border-radius:8px;}
 #newsletterForm button{width:100%;padding:15px;border:none;background:var(--secondary);color:white;
