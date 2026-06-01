@@ -92,13 +92,7 @@ function createBookCard(book) {
 
             <div class="book-content">
 
-                <span class="badge">
-
-                    Recomandarea mea
-
-                </span>
-
-                <h3 class="book-title">
+                 <h3 class="book-title">
 
                     ${book.title}
 
