@@ -268,32 +268,6 @@ function filterBooks(category) {
 }
 
 // ========================================
-// CELE MAI CUMPĂRATE
-// ========================================
-
-function renderFeaturedBooks() {
-
-    const container =
-        document.getElementById(
-            "featuredBooks"
-        );
-
-    if (!container)
-        return;
-
-    const featuredBooks =
-        books.slice(0, 3);
-
-    container.innerHTML =
-        featuredBooks
-            .map(book =>
-                createBookCard(book)
-            )
-            .join("");
-
-}
-
-// ========================================
 // CĂUTARE
 // ========================================
 
@@ -354,9 +328,8 @@ async function loadBooks() {
         books =
             await response.json();
 
-        renderFeaturedBooks();
-
         renderBooks(books);
+      
 
     }
     catch (error) {
