@@ -1,54 +1,73 @@
 [
-  {
-    "title": "Psihologia Banilor",
-    "author": "Morgan Housel",
-    "category": "financiar",
-    "score": "9.7/10",
-    "oldPrice": "",
-    "price": "52 Lei",
-    "discount": "",
-    "image": "imagini/psihologia-banilor.jpg",
-    "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
-    "description": "Cum comportamentul influențează mai mult succesul financiar decât inteligența."
-  },
+ {
+  "title": "Principii: Jurnalul tău călăuzitor",
+  "author": "Ray Dalio",
+  "category": "dezvoltare",
+  "score": "9.7 / 10",
+  "oldPrice": "71.88 Lei",
+  "price": "53.91 Lei",
+  "discount": "25%",
+  "image": "imagini/principii.jpg",
+  "affiliate": "https://www.actsipoliton.ro/ray-dalio-principii-jurnalul-tau-calauzitor-carte?tracking=69a17509d7810",
+  "description": "",
+  "offerEnds": "2026-06-11T23:59:59"
+},
 
-  {
-    "title": "Inamicul este Egoul",
-    "author": "Ryan Holiday",
-    "category": "dezvoltare",
-    "score": "9.5/10",
-    "oldPrice": "",
-    "price": "51.80 Lei",
-    "discount": "",
-    "image": "imagini/inamicul-este-egoul.jpg",
-    "affiliate": "https://www.actsipoliton.ro/ryan-holiday-inamicul-este-ego-ul-carte?tracking=69a17509d7810",
-    "description": "O lecție despre cum egoul îți poate sabota succesul."
-  },
+ {
+  "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
+  "author": "Morgan Housel",
+  "category": "dezvoltare",
+  "score": "9.7 / 10",
+  "oldPrice": "54.00 Lei",
+  "price": "40.50 Lei",
+  "discount": "25%",
+  "image": "imagini/arta-cheltui-banii.jpg",
+  "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
+  "description": "",
+  "offerEnds": "2026-06-11T23:59:59"
+},
 
-{
-    "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
-    "author": "Morgan Housel",
-    "category": "dezvoltare",
-    "score": "9.8/10",
-    "oldPrice": "54.00 Lei",
-    "price": "37.80 Lei",
-    "discount": "30%",
-    "image": "imagini/arta-cheltui-banii.jpg",
-    "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
-    "description": "Dacă în „Psihologia banilor”, autorul ne învăța cum să acumulăm avere, în cartea de față Morgan Housel ne învață cum să o folosim."
-  },
+ {
+  "title": "Inamicul este egoul",
+  "author": "Ryan Holiday",
+  "category": "dezvoltare",
+  "score": "9.7 / 10",
+  "oldPrice": "51.80 Lei",
+  "price": "38.85 Lei",
+  "discount": "25%",
+  "image": "imagini/inamicul-este-egoul.jpg",
+  "affiliate": "https://www.actsipoliton.ro/ryan-holiday-inamicul-este-ego-ul-carte?tracking=69a17509d7810",
+  "description": "",
+  "offerEnds": "2026-06-11T23:59:59"
+},
 
-{
-    "title": "Pachet cărți Wim Hof",
-    "author": "Wim Hof",
-    "category": "dezvoltare",
-    "score": "9.8/10",
-    "oldPrice": "178.74 Lei",
-    "price": "107.24 Lei",
-    "discount": "40%",
-    "image": "imagini/Pachet Wim Hof.jpg",
-    "affiliate": "https://www.actsipoliton.ro/pachet-carti-wim-hof?tracking=69a17509d7810",
-    "description": "„Poți face, efectiv, imposibilul. Poți să învingi boala, să-ți îmbunătățești sănătatea mintală și performanța fizică, ba chiar să-ți controlezi organismul în așa fel încât să-ți fie bine în orice situație stresantă”. (Wim Hof)"
-  }  
+ {
+  "title": "Pachet cărți Wim Hof",
+  "author": "Wim Hof",
+  "category": "dezvoltare",
+  "score": "9.7 / 10",
+  "oldPrice": "178.74 Lei",
+  "price": "116.18 Lei",
+  "discount": "35%",
+  "image": "imagini/pachet-wim-hof.jpg",
+  "affiliate": "https://www.actsipoliton.ro/pachet-carti-wim-hof?tracking=69a17509d7810",
+  "description": "",
+  "offerEnds": "2026-06-11T23:59:59"
+},
+
+ {
+  "title": "Psihologia banilor: Lecții nemuritoare despre avuție, lăcomie și fericire",
+  "author": "Morgan Housel",
+  "category": "dezvoltare",
+  "score": "9.7 / 10",
+  "oldPrice": "52.00 Lei",
+  "price": "39.00 Lei",
+  "discount": "25%",
+  "image": "imagini/psihologia-banilor.jpg",
+  "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
+  "description": "",
+  "offerEnds": "2026-06-11T23:59:59"
+}
+
 
 ]

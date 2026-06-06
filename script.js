@@ -53,7 +53,12 @@ function renderMonthlyBook() {
                 </div>
 
                 <p>
+
+                <em>
                     ${monthlyBook.description}
+
+                </em>
+
                 </p>
 
                 <br>
@@ -152,7 +157,11 @@ function createBookCard(book) {
 
                 <p class="book-description">
 
+                <em>
+
                     ${book.description}
+
+                </em>    
 
                 </p>
 
@@ -197,6 +206,39 @@ function createBookCard(book) {
                     </span>
 
                 </div>
+
+                ${
+                    book.offerEnds
+                    ?
+                    `
+                    <div class="countdown-wrapper">
+
+                    <div class="countdown-labels">
+
+                    <span>ZILE</span>
+
+                    <span>ORE</span>
+
+                    <span>MINUTE</span>
+
+                    <span>SECUNDE</span>
+
+                    </div>
+
+                    <div
+                    class="countdown-time"
+                    id="countdown-${book.title.replaceAll(' ','-')}"
+                    >
+
+                    00 : 00 : 00 : 00
+
+                    </div>
+
+                    </div>
+                    `
+                    :
+                    ""
+                }
 
                 <a
                     href="${book.affiliate}"
@@ -322,8 +364,11 @@ async function loadBooks() {
         books =
             await response.json();
 
+        books.reverse();
+
         renderBooks(books);
-      
+
+        startCountdowns();      
 
     }
     catch (error) {
@@ -453,5 +498,161 @@ newsletterForm.reset();
 
 }
 );
+
+}
+
+// ========================================
+// Footer cu Politica GDPR si Contact
+// ========================================
+
+function togglePrivacy(){
+
+const box =
+document.getElementById(
+"privacyBox"
+);
+
+box.style.display =
+box.style.display==="block"
+?
+"none"
+:
+"block";
+
+}
+
+function toggleContact(){
+
+const box =
+document.getElementById(
+"contactBox"
+);
+
+box.style.display =
+box.style.display==="block"
+?
+"none"
+:
+"block";
+
+}
+
+// ========================================
+// startCountdowns
+// ========================================
+
+function startCountdowns(){
+
+books.forEach(book=>{
+
+if(!book.offerEnds)
+return;
+
+const element =
+document.getElementById(
+`countdown-${book.title.replaceAll(' ','-')}`
+);
+
+if(!element)
+return;
+
+const interval =
+setInterval(()=>{
+
+const now =
+new Date().getTime();
+
+const endDate =
+new Date(
+book.offerEnds
+).getTime();
+
+const distance =
+endDate - now;
+
+if(distance <= 0){
+
+clearInterval(interval);
+
+const card =
+element.closest(
+".book-card"
+);
+
+if(card){
+
+card.remove();
+
+}
+
+return;
+
+}
+
+const days =
+Math.floor(
+distance /
+(1000*60*60*24)
+);
+
+const hours =
+Math.floor(
+(distance %
+(1000*60*60*24))
+/
+(1000*60*60)
+);
+
+const minutes =
+Math.floor(
+(distance %
+(1000*60*60))
+/
+(1000*60)
+);
+
+const seconds =
+Math.floor(
+(distance %
+(1000*60))
+/
+1000
+);
+
+element.innerHTML =
+
+String(days)
+.padStart(2,'0')
+
++
+
+' : '
+
++
+
+String(hours)
+.padStart(2,'0')
+
++
+
+' : '
+
++
+
+String(minutes)
+.padStart(2,'0')
+
++
+
+' : '
+
++
+
+String(seconds)
+.padStart(2,'0');
+
+},1000);
+
+});
 
 }
