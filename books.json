@@ -9,7 +9,7 @@
   "discount": "25%",
   "image": "imagini/principii.jpg",
   "affiliate": "https://www.actsipoliton.ro/ray-dalio-principii-jurnalul-tau-calauzitor-carte?tracking=69a17509d7810",
-  "description": "",
+  "description": "Jurnalul acesta nu e pentru cei care vor să citească ceva inspirațional. E pentru cei care vor să înțeleagă cum iau decizii — și să le ia mai bine data viitoare.",
   "offerEnds": "2026-06-11T23:59:59"
 },
 
@@ -23,7 +23,7 @@
   "discount": "25%",
   "image": "imagini/arta-cheltui-banii.jpg",
   "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
-  "description": "",
+  "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă.",
   "offerEnds": "2026-06-11T23:59:59"
 },
 
@@ -37,7 +37,7 @@
   "discount": "25%",
   "image": "imagini/inamicul-este-egoul.jpg",
   "affiliate": "https://www.actsipoliton.ro/ryan-holiday-inamicul-este-ego-ul-carte?tracking=69a17509d7810",
-  "description": "",
+  "description": "Știi senzația că ai muncit enorm, ai ajuns undeva — și totuși ceva sabotează tot ce construiești? Există un nume pentru lucrul acela. Și nu e ghinionul.",
   "offerEnds": "2026-06-11T23:59:59"
 },
 
@@ -65,7 +65,35 @@
   "discount": "25%",
   "image": "imagini/psihologia-banilor.jpg",
   "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
-  "description": "",
+  "description": "10 milioane de exemplare vândute în lume. Nu pentru că le-a spus oamenilor cum să investească. Ci pentru că le-a explicat de ce nu aplică ce știu deja.",
+  "offerEnds": "2026-06-11T23:59:59"
+},
+
+ {
+  "title": "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența",
+  "author": "Anthony Iannarino, Jeb Blount",
+  "category": "dezvoltare",
+  "score": "9.7 / 10",
+  "oldPrice": "54.00 Lei",
+  "price": "40.50 Lei",
+  "discount": "25%",
+  "image": "imagini/avantajul-ai.jpg",
+  "affiliate": "https://www.actsipoliton.ro/anthony-iannarino-jeb-blount-avantajul-ai-carte?tracking=69a17509d7810",
+  "description": "AI nu îți ia job-ul de vânzări. Colegul tău care folosește AI îți ia job-ul de vânzări. Diferența dintre cele două propoziții e mai mare decât pare.",
+  "offerEnds": "2026-06-11T23:59:59"
+},
+
+ {
+  "title": "Putere nemărginită. Descoperă știința împlinirii personale!",
+  "author": "Tony Robbins",
+  "category": "dezvoltare",
+  "score": "9.7 / 10",
+  "oldPrice": "59.20 Lei",
+  "price": "44.40 Lei",
+  "discount": "25%",
+  "image": "imagini/putere-nemarginita.jpg",
+  "affiliate": "https://www.actsipoliton.ro/tony-robbins-putere-nemarginita.html?tracking=69a17509d7810",
+  "description": "Cu cât cauți mai multă motivație, cu atât mai puțin avansezi. Tony Robbins explică de ce — și ce funcționează în loc.",
   "offerEnds": "2026-06-11T23:59:59"
 }
 
