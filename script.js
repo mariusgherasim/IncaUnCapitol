@@ -246,7 +246,7 @@ function createBookCard(book) {
                     class="buy-btn"
                 >
 
-                    Cumpără acum
+                    Cumpără
 
                 </a>
 
