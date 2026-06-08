@@ -244,6 +244,7 @@ function createBookCard(book) {
                     href="${book.affiliate}"
                     target="_blank"
                     class="buy-btn"
+                    onclick="trackBookClick('${book.title}','${book.author}','${book.category}')"
                 >
 
                     Cumpără
@@ -654,5 +655,19 @@ String(seconds)
 },1000);
 
 });
+
+}
+
+function trackBookClick(bookTitle, author, category){
+
+    if(typeof gtag === "function"){
+
+        gtag("event","click_cumpara",{
+            book_title: bookTitle,
+            author: author,
+            category: category
+        });
+
+    }
 
 }
