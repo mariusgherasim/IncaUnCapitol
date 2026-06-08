@@ -665,7 +665,8 @@ window.trackBookClick = function(bookTitle, author, category){
         gtag("event","click_cumpara",{
             book_title: bookTitle,
             author: author,
-            category: category
+            category: category,
+            value: 1
         });
 
         console.log(
