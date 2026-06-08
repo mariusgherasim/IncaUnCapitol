@@ -658,7 +658,7 @@ String(seconds)
 
 }
 
-function trackBookClick(bookTitle, author, category){
+window.trackBookClick = function(bookTitle, author, category){
 
     if(typeof gtag === "function"){
 
@@ -667,6 +667,11 @@ function trackBookClick(bookTitle, author, category){
             author: author,
             category: category
         });
+
+        console.log(
+            "Click înregistrat:",
+            bookTitle
+        );
 
     }
 
