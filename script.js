@@ -187,23 +187,33 @@ function createBookCard(book) {
 
                 <div class="price-box">
 
-                    <span class="old-price">
-
-                        ${book.oldPrice}
-
-                    </span>
+                    ${
+                        book.oldPrice
+                        ?
+                        `
+                        <span class="old-price">
+                            ${book.oldPrice}
+                        </span>
+                        `
+                        :
+                        ""
+                    }
 
                     <span class="new-price">
-
                         ${book.price}
-
                     </span>
 
-                    <span class="discount">
-
-                        ${book.discount}
-
-                    </span>
+                    ${
+                        book.discount
+                        ?
+                        `
+                        <span class="discount">
+                            ${book.discount}
+                        </span>
+                        `
+                        :
+                        ""
+                    }
 
                 </div>
 
@@ -676,4 +686,4 @@ window.trackBookClick = function(bookTitle, author, category){
 
     }
 
-}
+};
