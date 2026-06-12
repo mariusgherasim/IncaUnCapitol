@@ -1,101 +1,119 @@
 [
- {
-  "title": "Principii: Jurnalul tău călăuzitor",
-  "author": "Ray Dalio",
-  "category": "dezvoltare",
-  "score": "9.7 / 10",
-  "oldPrice": "71.88 Lei",
-  "price": "53.91 Lei",
-  "discount": "25%",
-  "image": "imagini/principii.jpg",
-  "affiliate": "https://www.actsipoliton.ro/ray-dalio-principii-jurnalul-tau-calauzitor-carte?tracking=69a17509d7810",
-  "description": "Jurnalul acesta nu e pentru cei care vor să citească ceva inspirațional. E pentru cei care vor să înțeleagă cum iau decizii — și să le ia mai bine data viitoare.",
-  "offerEnds": "2026-06-11T23:59:59"
-},
-
- {
-  "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
-  "author": "Morgan Housel",
-  "category": "dezvoltare",
-  "score": "9.7 / 10",
-  "oldPrice": "54.00 Lei",
-  "price": "40.50 Lei",
-  "discount": "25%",
-  "image": "imagini/arta-cheltui-banii.jpg",
-  "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
-  "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă.",
-  "offerEnds": "2026-06-11T23:59:59"
-},
-
- {
-  "title": "Inamicul este egoul",
-  "author": "Ryan Holiday",
-  "category": "dezvoltare",
-  "score": "9.7 / 10",
-  "oldPrice": "51.80 Lei",
-  "price": "38.85 Lei",
-  "discount": "25%",
-  "image": "imagini/inamicul-este-egoul.jpg",
-  "affiliate": "https://www.actsipoliton.ro/ryan-holiday-inamicul-este-ego-ul-carte?tracking=69a17509d7810",
-  "description": "Știi senzația că ai muncit enorm, ai ajuns undeva — și totuși ceva sabotează tot ce construiești? Există un nume pentru lucrul acela. Și nu e ghinionul.",
-  "offerEnds": "2026-06-11T23:59:59"
-},
-
- {
-  "title": "Pachet cărți Wim Hof",
-  "author": "Wim Hof",
-  "category": "dezvoltare",
-  "score": "9.7 / 10",
-  "oldPrice": "178.74 Lei",
-  "price": "116.18 Lei",
-  "discount": "35%",
-  "image": "imagini/pachet-wim-hof.jpg",
-  "affiliate": "https://www.actsipoliton.ro/pachet-carti-wim-hof?tracking=69a17509d7810",
-  "description": "De câte ori ai ales confortul termic, cafeaua în plus, pastila pentru durere? Ce ar fi dacă corpul tău putea gestiona toate astea singur, fără niciun adaos?",
-  "offerEnds": "2026-06-11T23:59:59"
-},
-
- {
-  "title": "Psihologia banilor: Lecții nemuritoare despre avuție, lăcomie și fericire",
-  "author": "Morgan Housel",
-  "category": "dezvoltare",
-  "score": "9.7 / 10",
-  "oldPrice": "52.00 Lei",
-  "price": "39.00 Lei",
-  "discount": "25%",
-  "image": "imagini/psihologia-banilor.jpg",
-  "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
-  "description": "10 milioane de exemplare vândute în lume. Nu pentru că le-a spus oamenilor cum să investească. Ci pentru că le-a explicat de ce nu aplică ce știu deja.",
-  "offerEnds": "2026-06-11T23:59:59"
-},
-
- {
-  "title": "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența",
-  "author": "Anthony Iannarino, Jeb Blount",
-  "category": "dezvoltare",
-  "score": "9.7 / 10",
-  "oldPrice": "54.00 Lei",
-  "price": "40.50 Lei",
-  "discount": "25%",
-  "image": "imagini/avantajul-ai.jpg",
-  "affiliate": "https://www.actsipoliton.ro/anthony-iannarino-jeb-blount-avantajul-ai-carte?tracking=69a17509d7810",
-  "description": "AI nu îți ia job-ul de vânzări. Colegul tău care folosește AI îți ia job-ul de vânzări. Diferența dintre cele două propoziții e mai mare decât pare.",
-  "offerEnds": "2026-06-11T23:59:59"
-},
-
- {
-  "title": "Putere nemărginită. Descoperă știința împlinirii personale!",
-  "author": "Tony Robbins",
-  "category": "dezvoltare",
-  "score": "9.7 / 10",
-  "oldPrice": "59.20 Lei",
-  "price": "44.40 Lei",
-  "discount": "25%",
-  "image": "imagini/putere-nemarginita.jpg",
-  "affiliate": "https://www.actsipoliton.ro/tony-robbins-putere-nemarginita.html?tracking=69a17509d7810",
-  "description": "Cu cât cauți mai multă motivație, cu atât mai puțin avansezi. Tony Robbins explică de ce — și ce funcționează în loc.",
-  "offerEnds": "2026-06-11T23:59:59"
-}
-
-
+  {
+    "title": "Principii: Jurnalul tău călăuzitor",
+    "author": "Ray Dalio",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "71,88 Lei",
+    "price": "71,88 Lei",
+    "discount": "0%",
+    "image": "imagini/principii.jpg",
+    "affiliate": "https://www.actsipoliton.ro/ray-dalio-principii-jurnalul-tau-calauzitor-carte?tracking=69a17509d7810",
+    "description": "Jurnalul acesta nu e pentru cei care vor să citească ceva inspirațional. E pentru cei care vor să înțeleagă cum iau decizii — și să le ia mai bine data viitoare.",
+    "offerEnds": ""
+  },
+  {
+    "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
+    "author": "Morgan Housel",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "54,00 Lei",
+    "price": "54,00 Lei",
+    "discount": "0%",
+    "image": "imagini/arta-cheltui-banii.jpg",
+    "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
+    "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă.",
+    "offerEnds": ""
+  },
+  {
+    "title": "Inamicul este egoul",
+    "author": "Ryan Holiday",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "51,80 Lei",
+    "price": "51,80 Lei",
+    "discount": "0%",
+    "image": "imagini/inamicul-este-egoul.jpg",
+    "affiliate": "https://www.actsipoliton.ro/ryan-holiday-inamicul-este-ego-ul-carte?tracking=69a17509d7810",
+    "description": "Știi senzația că ai muncit enorm, ai ajuns undeva — și totuși ceva sabotează tot ce construiești? Există un nume pentru lucrul acela. Și nu e ghinionul.",
+    "offerEnds": ""
+  },
+  {
+    "title": "Pachet cărți Wim Hof",
+    "author": "Wim Hof",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "178,74 Lei",
+    "price": "160,86 Lei",
+    "discount": "10%",
+    "image": "imagini/pachet-wim-hof.jpg",
+    "affiliate": "https://www.actsipoliton.ro/pachet-carti-wim-hof?tracking=69a17509d7810",
+    "description": "De câte ori ai ales confortul termic, cafeaua în plus, pastila pentru durere? Ce ar fi dacă corpul tău putea gestiona toate astea singur, fără niciun adaos?",
+    "offerEnds": ""
+  },
+  {
+    "title": "Psihologia banilor: Lecții nemuritoare despre avuție, lăcomie și fericire",
+    "author": "Morgan Housel",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "52,00 Lei",
+    "price": "52,00 Lei",
+    "discount": "0%",
+    "image": "imagini/psihologia-banilor.jpg",
+    "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
+    "description": "10 milioane de exemplare vândute în lume. Nu pentru că le-a spus oamenilor cum să investească. Ci pentru că le-a explicat de ce nu aplică ce știu deja.",
+    "offerEnds": ""
+  },
+  {
+    "title": "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența",
+    "author": "Anthony Iannarino, Jeb Blount",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "54,00 Lei",
+    "price": "54,00 Lei",
+    "discount": "0%",
+    "image": "imagini/avantajul-ai.jpg",
+    "affiliate": "https://www.actsipoliton.ro/anthony-iannarino-jeb-blount-avantajul-ai-carte?tracking=69a17509d7810",
+    "description": "AI nu îți ia job-ul de vânzări. Colegul tău care folosește AI îți ia job-ul de vânzări. Diferența dintre cele două propoziții e mai mare decât pare.",
+    "offerEnds": ""
+  },
+  {
+    "title": "Putere nemărginită. Descoperă știința împlinirii personale!",
+    "author": "Tony Robbins",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "59,20 Lei",
+    "price": "59,20 Lei",
+    "discount": "0%",
+    "image": "imagini/putere-nemarginita.jpg",
+    "affiliate": "https://www.actsipoliton.ro/tony-robbins-putere-nemarginita.html?tracking=69a17509d7810",
+    "description": "Cu cât cauți mai multă motivație, cu atât mai puțin avansezi. Tony Robbins explică de ce — și ce funcționează în loc.",
+    "offerEnds": ""
+  },
+  {
+    "title": "Banii. Stăpânește jocul: 7 pași simpli spre libertate financiară.",
+    "author": "Tony Robbins",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "oldPrice": "93,03 Lei",
+    "price": "93,03 Lei",
+    "discount": "0%",
+    "image": "imagini/banii-stapaneste-jocul.jpg",
+    "affiliate": "https://www.actsipoliton.ro/tony-robbins-banii-stapaneste-jocul.html?tracking=69a17509d7810",
+    "description": "",
+    "offerEnds": ""
+  },
+  {
+    "title": "Sfântul Graal al investițiilor: cei mai mari investitori ai lumii își dezvăluie strategiile supreme pentru dobândirea libertății financiare",
+    "author": "Tony Robbins, Christopher Zook",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "oldPrice": "74,00 Lei",
+    "price": "74,00 Lei",
+    "discount": "0%",
+    "image": "imagini/Sfantul Graal al investitiilor.jpg",
+    "affiliate": "https://www.actsipoliton.ro/tony-robbins-christopher-zook-sfantul-graal-al-investitiilor-carte?tracking=69a17509d7810",
+    "description": "",
+    "offerEnds": ""
+  }
 ]
