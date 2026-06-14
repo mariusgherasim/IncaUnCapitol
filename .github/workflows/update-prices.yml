@@ -1,1 +1,43 @@
+name: Actualizare preturi carti
+
+on:
+schedule:
+- cron: '0 3 * * *'
+workflow_dispatch:
+
+permissions:
+contents: write
+
+jobs:
+update-prices:
+runs-on: ubuntu-latest
+
+```
+steps:
+  - name: Clone repository
+    uses: actions/checkout@v4
+
+  - name: Instalare Node.js
+    uses: actions/setup-node@v4
+    with:
+      node-version: 20
+
+  - name: Instalare dependinte
+    run: npm install
+
+  - name: Actualizare preturi
+    run: node update-prices.js
+
+  - name: Commit modificari
+    run: |
+      git config --global user.name "github-actions[bot]"
+      git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      git add books.json
+
+      git diff --staged --quiet || git commit -m "Actualizare automata preturi"
+
+  - name: Push modificari
+    run: git push
+```
 
