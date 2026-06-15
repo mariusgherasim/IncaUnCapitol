@@ -43,7 +43,18 @@ async function updatePrices() {
         );
 
     for (const book of books) {
+        if (
+            book.source &&
+            book.source !== "actsipoliton"
+        ) {
 
+            console.log(
+                "⏭ Ignor:",
+                book.title
+            );
+
+            continue;
+        }   
         try {
 
             const cleanUrl =

@@ -1,6 +1,7 @@
 [
   {
     "title": "Principii: Jurnalul tău călăuzitor",
+    "source": "actsipoliton",
     "author": "Ray Dalio",
     "category": "dezvoltare",
     "score": "9.7 / 10",
@@ -11,6 +12,7 @@
   },
   {
     "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
+    "source": "actsipoliton",
     "author": "Morgan Housel",
     "category": "dezvoltare",
     "score": "9.7 / 10",
@@ -21,6 +23,7 @@
   },
   {
     "title": "Inamicul este egoul",
+    "source": "actsipoliton",
     "author": "Ryan Holiday",
     "category": "dezvoltare",
     "score": "9.7 / 10",
@@ -31,6 +34,7 @@
   },
   {
     "title": "Pachet cărți Wim Hof",
+    "source": "manual",
     "author": "Wim Hof",
     "category": "dezvoltare",
     "score": "9.7 / 10",
@@ -43,6 +47,7 @@
   },
   {
     "title": "Psihologia banilor: Lecții nemuritoare despre avuție, lăcomie și fericire",
+    "source": "actsipoliton",
     "author": "Morgan Housel",
     "category": "dezvoltare",
     "score": "9.7 / 10",
@@ -53,6 +58,7 @@
   },
   {
     "title": "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența",
+    "source": "actsipoliton",
     "author": "Anthony Iannarino, Jeb Blount",
     "category": "dezvoltare",
     "score": "9.7 / 10",
@@ -63,6 +69,7 @@
   },
   {
     "title": "Putere nemărginită. Descoperă știința împlinirii personale!",
+    "source": "actsipoliton",
     "author": "Tony Robbins",
     "category": "dezvoltare",
     "score": "9.7 / 10",
@@ -73,6 +80,7 @@
   },
   {
     "title": "Banii. Stăpânește jocul: 7 pași simpli spre libertate financiară.",
+    "source": "actsipoliton",
     "author": "Tony Robbins",
     "category": "dezvoltare",
     "score": "9.8 / 10",
@@ -83,6 +91,7 @@
   },
   {
     "title": "Sfântul Graal al investițiilor: cei mai mari investitori ai lumii își dezvăluie strategiile supreme pentru dobândirea libertății financiare",
+    "source": "actsipoliton",
     "author": "Tony Robbins, Christopher Zook",
     "category": "dezvoltare",
     "score": "9.8 / 10",
@@ -93,6 +102,7 @@
   },
   {
     "title": "Anatomia scuzelor: Cine ai fi fără scuzele tale? Ghid practic pentru cei care știu că între mâine și niciodată nu e mare diferență",
+    "source": "actsipoliton",
     "author": "Gina Veveriță",
     "category": "dezvoltare",
     "score": "9.7 / 10",
@@ -100,5 +110,18 @@
     "image": "imagini/anatomia_scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/gina-veverita-anatomia-scuzelor-carte?tracking=69a17509d7810",
     "description": "Fiecare „mâine încep” pe care l-ai spus vreodată a avut un preț. Nu neapărat vizibil. Dar acumulat. Anatomia scuzelor calculează ce înseamnă cu adevărat acel preț — și arată cum ieși din el."
-  }
+  },
+  {
+  "title": "Atomic Habits",
+  "source": "edituratrei",
+  "author": "James Clear",
+  "category": "dezvoltare",
+  "score": "9.8 / 10",
+  "oldPrice": "75,00 Lei",
+  "discount": "30%",
+  "price": "52,50 Lei",
+  "image": "imagini/Atomic Habits.jpg",
+  "affiliate": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=4dc37856e&redirect_to=https%253A//www.edituratrei.ro/",
+  "description": "Nu te ridici la nivelul obiectivelor tale. Cazi la nivelul sistemelor tale. James Clear, Atomic Habits — cartea citită de antrenorii și jucătorii din NBA și NFL."
+  }  
 ]
