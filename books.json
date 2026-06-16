@@ -16,10 +16,12 @@
     "author": "Morgan Housel",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "price": "54,00 Lei",
+    "price": "43,20 Lei",
     "image": "imagini/arta-cheltui-banii.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
-    "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă."
+    "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă.",
+    "oldPrice": "54,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Inamicul este egoul",
@@ -84,10 +86,12 @@
     "author": "Tony Robbins",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "price": "93,03 Lei",
+    "price": "74,42 Lei",
     "image": "imagini/banii-stapaneste-jocul.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-banii-stapaneste-jocul.html?tracking=69a17509d7810",
-    "description": "România ocupă locul 122 din 143 de țări la cunoștințe financiare. Nu e rușine. E o gaură în educație pe care nimeni n-a umplut-o vreodată cu ceva practic."
+    "description": "România ocupă locul 122 din 143 de țări la cunoștințe financiare. Nu e rușine. E o gaură în educație pe care nimeni n-a umplut-o vreodată cu ceva practic.",
+    "oldPrice": "93,03 Lei",
+    "discount": "20%"
   },
   {
     "title": "Sfântul Graal al investițiilor: cei mai mari investitori ai lumii își dezvăluie strategiile supreme pentru dobândirea libertății financiare",
@@ -95,10 +99,12 @@
     "author": "Tony Robbins, Christopher Zook",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "price": "74,00 Lei",
+    "price": "59,20 Lei",
     "image": "imagini/Sfantul Graal al investitiilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-christopher-zook-sfantul-graal-al-investitiilor-carte?tracking=69a17509d7810",
-    "description": "Dacă băncile, fondurile suverane și miliardarii au acces la o categorie de investiții cu randamente semnificativ mai mari decât bursa — de ce tu nu ai auzit niciodată de ea?"
+    "description": "Dacă băncile, fondurile suverane și miliardarii au acces la o categorie de investiții cu randamente semnificativ mai mari decât bursa — de ce tu nu ai auzit niciodată de ea?",
+    "oldPrice": "74,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Anatomia scuzelor: Cine ai fi fără scuzele tale? Ghid practic pentru cei care știu că între mâine și niciodată nu e mare diferență",
@@ -114,11 +120,12 @@
   {
     "title": "Atomic Habits",
     "source": "edituratrei",
+    "productUrl": "https://www.edituratrei.ro/carte/atomic-habits/10004/",
     "author": "James Clear",
     "category": "dezvoltare",
     "score": "9.8 / 10",
     "oldPrice": "75,00 Lei",
-    "discount": "30%",
+    "discount": "-30%",
     "price": "52,50 Lei",
     "image": "imagini/Atomic Habits.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=48e1610b5",
