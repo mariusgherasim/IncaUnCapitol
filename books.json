@@ -211,5 +211,47 @@
     "image": "imagini/alegerea-accepta-cu-bucurie-posibilul-5017.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=788d9828a",
     "description": "Închisoarea din minte se dărâmă cărămidă cu cărămidă. Nu există un moment de „click” al vindecării. Există alegeri mici, repetate — de a nu rămâne în trecut, de a nu trăi pentru răzbunare, de a te privi fără judecată. Libertatea nu e o stare. E o practică."
+  },
+  {
+    "title": "Când corpul spune nu",
+    "source": "curteaveche",
+    "productUrl": "https://www.curteaveche.ro/p/cand-corpul-spune-nu",
+    "author": "Gabor Maté",
+    "category": "dezvoltare",
+    "score": "9.6 / 10",
+    "oldPrice": "63,43 Lei",
+    "discount": "25%",
+    "price": "47,57 Lei",
+    "image": "imagini/Cand_corpul_spune_nu.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=mTnlq24DpS_I",
+    "description": "Știi senzația că ești bine, că faci față, că „nu e cazul să te plângi”? Gabor Maté — medic cu zeci de ani în îngrijire paliativă — spune că exact asta e semnalul de alarmă pe care îl ignorăm cel mai des."
+  },
+  {
+    "title": "Oamenii fericiţi citesc şi beau cafea",
+    "source": "edituratrei",
+    "productUrl": "https://www.edituratrei.ro/carte/oamenii-fericiti-citesc-si-beau-cafea/12034/",
+    "author": "Agnès Martin-Lugand",
+    "category": "dezvoltare",
+    "score": "9.5 / 10",
+    "oldPrice": "49,00 Lei",
+    "discount": "-30%",
+    "price": "34,30 Lei",
+    "image": "imagini/oamenii-fericiti-citesc.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=c0730d82a",
+    "description": "O cafenea numită „Oamenii fericiți citesc și beau cafea”. Proprietara ei nu mai citește, nu mai bea cafea și cu siguranță nu mai e fericită. Uneori titlul e o ironie, nu o promisiune. "
+  },
+  {
+    "title": "Mică filosofie a siestei",
+    "source": "actsipoliton",
+    "author": "Sébastien Spitzer",
+    "category": "dezvoltare",
+    "score": "9.3 / 10",
+    "price": "30,80 Lei",
+    "oldPrice": "44,00 Lei",
+    "discount": "30%",
+    "offerEnds": "2026-07-09T23:59:59",
+    "image": "imagini/Mica_filosofie_a_siestei.jpg",
+    "affiliate": "https://www.actsipoliton.ro/sebastien-spitzer-mica-filosofie-a-siestei-carte?tracking=69a17509d7810",
+    "description": "Einstein trăgea pui de somn după-amiaza. La fel și Edison, da Vinci, Picasso și Newton. Dacă geniul lor venea din muncă neîntreruptă, de ce niciuna dintre marile lor idei nu a apărut la birou, la ora 3 după-amiaza?"
   }
 ]
