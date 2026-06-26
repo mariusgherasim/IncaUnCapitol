@@ -66,7 +66,11 @@ function renderMonthlyBook() {
                     href="${monthlyBook.affiliate}"
                     target="_blank"
                     class="cta-btn"
-                >
+
+                    onclick="trackMonthlyBook(
+                    '${monthlyBook.title}',
+                    '${monthlyBook.author}'
+                    )">
 
                     Cumpără acum
 
@@ -253,7 +257,7 @@ function createBookCard(book) {
                     href="${book.affiliate}"
                     target="_blank"
                     class="buy-btn"
-                    onclick="trackBookClick('${book.title}','${book.author}','${book.category}')"
+                    onclick="trackBookClick('${book.title}','${book.author}','${book.source}')"
                 >
 
                     Cumpără
@@ -504,6 +508,14 @@ document
 
 newsletterForm.reset();
 
+trackEvent("newsletter_signup",{
+
+    source:"newsletter",
+
+    site:"carti"
+
+});
+
 }
 
 }
@@ -667,22 +679,49 @@ String(seconds)
 
 }
 
-window.trackBookClick = function(bookTitle, author, category){
+/* ========================================
+   GOOGLE ANALYTICS
+======================================== */
 
-    if(typeof gtag === "function"){
+function trackEvent(eventName, parameters = {}) {
 
-        gtag("event","click_cumpara",{
-            book_title: bookTitle,
-            author: author,
-            category: category,
-            value: 1
-        });
+    if (typeof gtag === "function") {
 
-        console.log(
-            "Click înregistrat:",
-            bookTitle
-        );
+        gtag("event", eventName, parameters);
+
+        console.log("GA4:", eventName, parameters);
 
     }
+
+}
+
+
+window.trackBookClick = function(title, author, source){
+
+    trackEvent("click_cumpara",{
+        title: title,
+        author: author,
+        source: source
+    });
+
+    trackEvent("affiliate_click",{
+        title: title,
+        author: author,
+        source: source
+    });
+
+    console.log("Click înregistrat:", title);
+
+};
+
+window.trackMonthlyBook = function(title, author){
+
+    trackEvent("featured_book_click",{
+
+        book_title:title,
+
+        author:author
+
+    });
 
 };
