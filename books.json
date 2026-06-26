@@ -253,5 +253,19 @@
     "image": "imagini/Mica_filosofie_a_siestei.jpg",
     "affiliate": "https://www.actsipoliton.ro/sebastien-spitzer-mica-filosofie-a-siestei-carte?tracking=69a17509d7810",
     "description": "Einstein trăgea pui de somn după-amiaza. La fel și Edison, da Vinci, Picasso și Newton. Dacă geniul lor venea din muncă neîntreruptă, de ce niciuna dintre marile lor idei nu a apărut la birou, la ora 3 după-amiaza?"
+  },
+  {
+    "title": "Bulgărele de zăpadă. Warren Buffett și școala vieții",
+    "source": "curteaveche",
+    "productUrl": "https://www.curteaveche.ro/bulgarele-de-zapada",
+    "author": "Alice Schroeder",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "oldPrice": "169,14 Lei",
+    "discount": "25%",
+    "price": "126,86 Lei",
+    "image": "imagini/Bulgarele_de_zapada.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=KR0MgdBQ2Bq1",
+    "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând."
   }
 ]
