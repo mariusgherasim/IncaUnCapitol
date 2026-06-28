@@ -32,6 +32,30 @@ function calculateDiscount(oldPrice, newPrice) {
     return discount + "%";
 }
 
+function getFirstText($, selectors) {
+
+    for (const selector of selectors) {
+
+        const value =
+            $(selector)
+                .first()
+                .clone()
+                .children()
+                .remove()
+                .end()
+                .text()
+                .trim();
+
+        if (value) {
+            return value;
+        }
+
+    }
+
+    return "";
+
+}
+
 async function updatePrices() {
 
     const books =
@@ -136,7 +160,6 @@ async function updatePrices() {
 
                         book.discount =
                             discount;
-
                     }
 
                     console.log(
@@ -151,11 +174,9 @@ async function updatePrices() {
                         "⚠ Nu am găsit prețul:",
                         book.title
                     );
-
                 }
 
                 continue;
-
             }
 
             if (
@@ -215,7 +236,6 @@ async function updatePrices() {
 
                         delete book.oldPrice;
                         delete book.discount;
-
                     }
 
                     console.log(
@@ -230,20 +250,9 @@ async function updatePrices() {
                         "⚠ Nu am găsit prețul:",
                         book.title
                     );
-
                 }
-
                 continue;
-
             }
-
-
-
-
-
-
-
-
 
             const response =
                 await axios.get(
@@ -262,34 +271,67 @@ async function updatePrices() {
                 );
 
             const currentPrice =
-                $(".product-main-type-item.active .product-main-type-item-price")
-                    .first()
-                    .clone()
-                    .children()
-                    .remove()
-                    .end()
-                    .text()
-                    .trim();
+                getFirstText($, [
+
+                    ".product-main-type-item.active .product-main-type-item-price",
+
+                    ".pp-action-price-value",
+
+                    ".product-price",
+
+                    ".price"
+
+                ]);
 
             const oldPrice =
-                $(".product-main-type-item-price-old")
-                    .first()
-                    .text()
-                    .trim();
+                getFirstText($, [
+
+                    ".product-main-type-item-price-old",
+
+                    ".pp-action-price-old-value"
+
+                ]);
+
+            const discountText =
+                getFirstText($, [
+
+                    ".pp-action-price-old-title"
+
+                ]);
 
             if (currentPrice) {
 
-                book.price = currentPrice;
+                book.price =
+                    currentPrice
+                        .replace(/\s+/g, " ")
+                        .trim();
 
-                if (oldPrice && oldPrice !== currentPrice) {
+                if (oldPrice) {
 
-                    book.oldPrice = oldPrice;
+                    book.oldPrice =
+                        oldPrice
+                            .replace(/\s+/g, " ")
+                            .trim();
 
-                    book.discount =
-                        calculateDiscount(
-                            oldPrice,
-                            currentPrice
-                        );
+                    if (
+                        discountText &&
+                        discountText.includes("Economisești")
+                    ) {
+
+                        book.discount =
+                            discountText
+                                .replace("Economisești", "")
+                                .trim();
+
+                    } else {
+
+                        book.discount =
+                            calculateDiscount(
+                                book.oldPrice,
+                                book.price
+                            );
+
+                    }
 
                 } else {
 
@@ -313,7 +355,6 @@ async function updatePrices() {
                 );
 
             }
-
         }
         catch (error) {
 
@@ -321,9 +362,7 @@ async function updatePrices() {
                 "❌ Eroare:",
                 book.title
             );
-
         }
-
     }
 
     fs.writeFileSync(
@@ -338,7 +377,6 @@ async function updatePrices() {
     console.log(
         "\nToate prețurile au fost actualizate."
     );
-
 }
 
 updatePrices();

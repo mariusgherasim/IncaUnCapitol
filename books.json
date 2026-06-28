@@ -118,7 +118,7 @@
     "author": "Gina Veveriță",
     "category": "dezvoltare",
     "score": "9.1 / 10",
-    "price": "52,00 Lei",
+    "price": "52,00",
     "image": "imagini/anatomia_scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/gina-veverita-anatomia-scuzelor-carte?tracking=69a17509d7810",
     "description": "Fiecare „mâine încep” pe care l-ai spus vreodată a avut un preț. Nu neapărat vizibil. Dar acumulat. Anatomia scuzelor calculează ce înseamnă cu adevărat acel preț — și arată cum ieși din el."
@@ -267,5 +267,61 @@
     "image": "imagini/Bulgarele_de_zapada.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=KR0MgdBQ2Bq1",
     "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând."
+  },
+  {
+    "title": "Inteligenta emotionala",
+    "source": "bookzone",
+    "productUrl": "https://bookzone.ro/carte/inteligenta-emotionala-1",
+    "author": "Daniel Goleman",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "48,30 Lei",
+    "image": "imagini/inteligenta_emotionala.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=eb9c4ff5c",
+    "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând."
+  },
+  {
+    "title": "Mindset",
+    "source": "curteaveche",
+    "productUrl": "https://www.curteaveche.ro/mindset",
+    "author": "Carol S. Dweck",
+    "category": "dezvoltare",
+    "score": "9.3 / 10",
+    "oldPrice": "69,00 Lei",
+    "discount": "25%",
+    "price": "51,75 Lei",
+    "image": "imagini/Mindset_coperta.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=kbSOZyL1c_2s",
+    "description": "Toată viața ai fost lăudat că ești deștept. Și asta, spune o cercetătoare de la Stanford, e exact ce te ține pe loc."
+  },
+  {
+    "title": "Pachet 10 cărți de leadership",
+    "source": "actsipoliton",
+    "productUrl": "https://www.actsipoliton.ro/pachet-10-carti-de-leadership?tracking=69a17509d7810",
+    "author": "David Marquet, Ray Dalio, Mike Michalowicz, Patrick Lencioni",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "price": "508,82",
+    "oldPrice": "565,36",
+    "discount": "10%",
+    "offerEnds": "",
+    "image": "imagini/Pachet_10_carti.jpg",
+    "affiliate": "https://www.actsipoliton.ro/pachet-10-carti-de-leadership?tracking=69a17509d7810",
+    "description": "Toată lumea îți spune că un lider bun știe toate răspunsurile. 10 dintre cele mai citate cărți de leadership din ultimii 20 de ani demonstrează exact contrariul."
+  },
+  {
+    "title": "De la Angajat la Antreprenor [Pachet 7 cărți]",
+    "source": "actsipoliton",
+    "author": "Gino Wickman, Ray Dalio, David Marquet",
+    "category": "dezvoltare",
+    "score": "9.5 / 10",
+    "oldPrice": "438,80",
+    "discount": "10%",
+    "price": "394,92",
+    "image": "imagini/De la Angajat la Antreprenor.jpg",
+    "affiliate": "https://www.actsipoliton.ro/de-la-angajat-la-antreprenor-pachet-7-carti?tracking=69a17509d7810",
+    "description": "O cafenea numită „Oamenii fericiți citesc și beau cafea”. Proprietara ei nu mai citește, nu mai bea cafea și cu siguranță nu mai e fericită. Uneori titlul e o ironie, nu o promisiune. "
   }
 ]
