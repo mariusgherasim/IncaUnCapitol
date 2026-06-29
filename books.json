@@ -312,16 +312,56 @@
     "description": "Toată lumea îți spune că un lider bun știe toate răspunsurile. 10 dintre cele mai citate cărți de leadership din ultimii 20 de ani demonstrează exact contrariul."
   },
   {
-    "title": "De la Angajat la Antreprenor [Pachet 7 cărți]",
+    "title": "Nu scuzelor. Puterea autodisciplinei",
     "source": "actsipoliton",
-    "author": "Gino Wickman, Ray Dalio, David Marquet",
+    "author": "Brian Tracy",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "oldPrice": "438,80",
-    "discount": "10%",
-    "price": "394,92",
-    "image": "imagini/De la Angajat la Antreprenor.jpg",
-    "affiliate": "https://www.actsipoliton.ro/de-la-angajat-la-antreprenor-pachet-7-carti?tracking=69a17509d7810",
-    "description": "Afacerea ta ar funcționa o lună fără tine, sau s-ar opri? Răspunsul îți spune mai mult despre unde ești decât orice analiză financiară."
+    "price": "54,00 Lei",
+    "image": "imagini/Nu scuzelor.jpg",
+    "affiliate": "https://www.actsipoliton.ro/brian-tracy-nu-scuzelor-carte-tiparita?tracking=69a17509d7810",
+    "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?"
+  },
+  {
+    "title": "Metoda Ask",
+    "source": "curteaveche",
+    "productUrl": "https://www.curteaveche.ro/metoda-ask",
+    "author": "Jeff Wetzler",
+    "category": "dezvoltare",
+    "score": "9.3 / 10",
+    "oldPrice": "72,00 Lei",
+    "discount": "25%",
+    "price": "54,00 Lei",
+    "image": "imagini/metoda-ask.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=H1fEitI90ezx",
+    "description": "Toată lumea vorbește despre comunicare deschisă. Nimeni nu explică de ce oamenii tac de fapt — chiar și când ar fi în interesul tuturor să vorbească. Această carte explică mecanismul tăcerii și cum îl desfaci."
+  },
+  {
+    "title": "Tata bogat, tata sarac. Educatia financiara in familie",
+    "source": "bookzone",
+    "productUrl": "https://bookzone.ro/carte/tata-bogat-tata-sarac-editie-de-colectie",
+    "author": "Robert T. Kiyosaki",
+    "category": "dezvoltare",
+    "score": "9.7 / 10",
+    "oldPrice": "",
+    "discount": "15%",
+    "price": "62,90 Lei",
+    "image": "imagini/tata-bogat-tata-sarac.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=41136faff",
+    "description": "Ai stat 16 ani în școală. Ți-au predat matematică, geografie, literatură. Nimeni nu te-a învățat ce e un activ. Nimeni nu ți-a explicat de ce a doua zi după salariu tot nu ajunge. Și asta nu e din greșeală."
+  },
+  {
+    "title": "Pachet Gândire critică. Ce ne facem cu atâția proști?/Cum să gândești ca Socrate",
+    "source": "edituratrei",
+    "productUrl": "https://www.edituratrei.ro/carte/pachet-gandire-critica/14908/",
+    "author": "Theodor Paleologu, Donald J. Robertson",
+    "category": "dezvoltare",
+    "score": "9.5 / 10",
+    "oldPrice": "130,00 Lei",
+    "discount": "-27%",
+    "price": "94,90 Lei",
+    "image": "imagini/gandire_critica.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=nHLYFz8BycW9",
+    "description": "Ai intrat vreodată într-o conversație convins că ai dreptate și ai ieșit nedumerit că nu mai știi nimic sigur? Ăsta e semnul că gândești bine. Cele mai multe persoane nu ajung acolo niciodată."
   }
 ]
