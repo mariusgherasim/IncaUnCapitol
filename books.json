@@ -277,7 +277,7 @@
     "score": "9.7 / 10",
     "oldPrice": "",
     "discount": "",
-    "price": "48,30 Lei",
+    "price": "56,90 Lei",
     "image": "imagini/inteligenta_emotionala.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=eb9c4ff5c",
     "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând."
@@ -363,5 +363,45 @@
     "image": "imagini/gandire_critica.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=nHLYFz8BycW9",
     "description": "Ai intrat vreodată într-o conversație convins că ai dreptate și ai ieșit nedumerit că nu mai știi nimic sigur? Ăsta e semnul că gândești bine. Cele mai multe persoane nu ajung acolo niciodată."
+  },
+  {
+    "title": "Tu eşti placebo",
+    "source": "actsipoliton",
+    "author": "Dr. Joe Dispenza",
+    "productUrl": "",
+    "category": "dezvoltare",
+    "score": "9.5 / 10",
+    "price": "67,65 Lei",
+    "image": "imagini/placebo.jpg",
+    "affiliate": "https://www.actsipoliton.ro/tu-esti-placebo-carte-tiparita?tracking=69a17509d7810",
+    "description": "Cartea asta nu e pentru cei care vor confirmare. E pentru cei dispuși să-și pună la îndoială propriile credințe despre sănătate."
+  },
+  {
+    "title": "Lebăda neagră",
+    "source": "curteaveche",
+    "author": "Nassim Nicholas Taleb",
+    "productUrl": "https://www.curteaveche.ro/lebada-neagra-ed-iv",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "oldPrice": "89,86 Lei",
+    "discount": "25%",
+    "price": "67,39 Lei",
+    "image": "imagini/lebada_neagra.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=fiYUxnpZK6JG",
+    "description": "3 milioane de exemplare vândute, 31 de limbi, 40 de săptămâni pe lista New York Times. Și totuși ideea ei centrală e simplă: nu știi ce nu știi."
+  },
+  {
+    "title": "Mindshift, învață să înveți altfel",
+    "source": "bookzone",
+    "author": "Barbara Oakley",
+    "productUrl": "https://bookzone.ro/carte/mindshift",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "40,40 Lei",
+    "image": "imagini/Mindshift.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=e47568444",
+    "description": "Toată lumea îți spune să te specializezi ca să fii în siguranță. Mindshift demonstrează că exact asta te ține pe loc."
   }
 ]
