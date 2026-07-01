@@ -391,5 +391,50 @@
     "image": "imagini/Mindshift.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=e47568444",
     "description": "Toată lumea îți spune să te specializezi ca să fii în siguranță. Mindshift demonstrează că exact asta te ține pe loc."
+  },
+  {
+    "title": "Instrumentele titanilor: tacticile, rutinele și obiceiurile miliardarilor, figurilor publice și artiștilor de talie mondială",
+    "source": "actsipoliton",
+    "author": "Timothy Ferriss",
+    "productUrl": "",
+    "category": "dezvoltare",
+    "score": "9.5 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "72,94 Lei",
+    "image": "imagini/Instrumentele titanilor.jpg",
+    "offerEnds": "",
+    "affiliate": "https://www.actsipoliton.ro/tim-ferriss-instrumentele-titanilor-carte?tracking=69a17509d7810",
+    "description": "Cartea asta nu se citește de la pagina 1 la 736. Se citește de unde te doare azi."
+  },
+  {
+    "title": "De la idee la bani. Pentru secolul 21",
+    "source": "curteaveche",
+    "author": "Napoleon Hill",
+    "productUrl": "https://www.curteaveche.ro/de-la-idee-la-bani-pentru-secolul-21",
+    "category": "dezvoltare",
+    "score": "9.4 / 10",
+    "oldPrice": "62,37 Lei",
+    "discount": "25%",
+    "price": "46,78 Lei",
+    "image": "imagini/delaidee.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=dHzl6t30z4_r",
+    "description": "Ai o idee bună de câțiva ani. De ce n-ai făcut nimic cu ea?"
+  },
+  {
+    "title": "Investitorul inteligent",
+    "source": "bookzone",
+    "author": "Benjamin Graham",
+    "productUrl": "https://bookzone.ro/carte/investitorul-inteligent",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "94 Lei",
+    "image": "imagini/investitorul_inteligent.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=981de12ba",
+    "description": "Am deschis-o crezând că învăț formule. Am închis-o realizând că cel mai mare risc din portofoliul meu eram eu."
   }
 ]
