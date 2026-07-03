@@ -72,7 +72,8 @@ async function updatePrices() {
                 ![
                     "actsipoliton",
                     "edituratrei",
-                    "curteaveche"
+                    "curteaveche",
+                    "bookzone"
                 ].includes(
                     book.source
                 )
@@ -253,6 +254,98 @@ async function updatePrices() {
                 }
                 continue;
             }
+                /* Adăugat toată sintaxa if, in data de 03/07/2026, pentru editura bookzone  */
+            if (
+                book.source ===
+                "bookzone"
+            ) {
+
+                const response =
+                    await axios.get(
+                        book.productUrl,
+                        {
+                            headers: {
+                                "User-Agent":
+                                    "Mozilla/5.0"
+                            }
+                        }
+                    );
+
+                const $ =
+                    cheerio.load(
+                        response.data
+                    );
+
+                const currentPrice =
+                    $(".details__info__price__new")
+                        .first()
+                        .text()
+                        .trim();
+
+                const oldPrice =
+                    getFirstText($, [
+                        "span.details__info__price__old"
+                    ])
+                    .replace("PRP:", "")
+                    .trim();
+                                  
+                    /*$(".details__info__price__old")
+                        .first()
+                        .text()
+                        .replace("PRP:", "")
+                        .trim();*/
+
+                if (currentPrice) {
+
+                    book.price =
+                        currentPrice
+                            .replace(".", ",")
+                            .replace("lei", "Lei")
+                            .trim();
+
+                    if (
+                        oldPrice &&
+                        oldPrice !== book.price
+                    ) {
+
+                        book.oldPrice =
+                            oldPrice
+                                .replace(".", ",")
+                                .replace("lei", "Lei")
+                                .trim();
+
+                        book.discount =
+                            calculateDiscount(
+                                book.oldPrice,
+                                book.price
+                            );
+
+                    } else {
+
+                        delete book.oldPrice;
+                        delete book.discount;
+                        delete book.offerEnds;
+
+                    }
+
+                    console.log(
+                        "✔",
+                        book.title,
+                        book.price
+                    );
+
+                } else {
+
+                    console.log(
+                        "⚠ Nu am găsit prețul:",
+                        book.title
+                    );
+
+                }
+
+                continue;
+
+            }
 
             const response =
                 await axios.get(
@@ -357,10 +450,18 @@ async function updatePrices() {
             }
         }
         catch (error) {
-
+            /* Am scos asta in data de 03/07/2026 si am inlocuit cu ce este mai jos,pentru -Astfel, dacă Bookzone schimbă vreodată selectorii sau apare o eroare HTTP (403, 404 etc.), vei vedea imediat cauza exactă.
             console.log(
                 "❌ Eroare:",
                 book.title
+            );
+            */
+            /* am adăugat in data de 03/07/2026: console.log( "\n❌", book.title ); +  console.log(error.message); pentru a vedea ce eroare este:403, 404 sau Cannot read property... */
+            
+            console.log( "\n❌", book.title );
+                        
+            console.log(
+                error.message
             );
         }
     }
