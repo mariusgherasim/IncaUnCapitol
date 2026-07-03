@@ -463,5 +463,47 @@
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=09ee0c629",
     "description": "Toată lumea crede că viața se împlinește devreme, cât mai ai timp înainte. Neagu Djuvara și-a găsit-o abia la 73 de ani, când majoritatea oamenilor se pregătesc să se retragă."
+  },
+  {
+    "title": "Elixirul viselor: Povestea familiei Campari",
+    "source": "actsipoliton",
+    "author": "Silvia Cinelli",
+    "productUrl": "",
+    "category": "beletristică",
+    "score": "9.8 / 10",
+    "price": "51,80 Lei",
+    "image": "imagini/Elixirul viselor.jpg",
+    "affiliate": "https://www.actsipoliton.ro/silvia-cinelli-elixirul-viselor-carte?tracking=69a17509d7810",
+    "description": "Fiul cel mare a ales biserica. Al doilea n-avea nicio pregătire. Așa a ajuns Bitter Campari pe rafturile din toată lumea."
+  },
+  {
+    "title": "Efectul Gaslight",
+    "source": "curteaveche",
+    "author": "Dr. Robin Stern",
+    "productUrl": "https://www.curteaveche.ro/efectul-gaslight",
+    "category": "dezvoltare",
+    "score": "9.5 / 10",
+    "oldPrice": "69,00 Lei",
+    "discount": "25%",
+    "price": "51,75 Lei",
+    "image": "imagini/Gaslight_coperta.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=IMu7v0PPW9om",
+    "description": "În 2022, căutările pentru cuvântul «gaslighting» au crescut cu 1740%. Cartea care a popularizat termenul explică de ce te simți mereu vinovată."
+  },
+  {
+    "title": "Alchimistul",
+    "source": "bookzone",
+    "author": "Paulo Coelho",
+    "productUrl": "https://bookzone.ro/carte/alchimistul",
+    "category": "beletristică",
+    "score": "9.8 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "49,40 Lei",
+    "image": "imagini/Alchimistul.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=D-Qy1sNgEwVL",
+    "description": "Alchimistul nu e pentru cei care vor un roman complicat. E pentru cei care au uitat să-și mai asculte inima și au nevoie de un motiv să se oprească din fugă."
   }
 ]
