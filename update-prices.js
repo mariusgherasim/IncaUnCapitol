@@ -1,6 +1,7 @@
 const fs = require("fs");
 const axios = require("axios");
 const cheerio = require("cheerio");
+const { chromium } = require("playwright");
 
 function calculateDiscount(oldPrice, newPrice) {
 
@@ -66,6 +67,31 @@ async function updatePrices() {
             )
         );
 
+    let humanitasBrowser = null;
+    let humanitasContext = null;
+
+    async function getHumanitasContext() {
+        if (!humanitasBrowser) {
+            console.log("🌐 Pornesc Chromium pentru Humanitas...");
+
+            humanitasBrowser = await chromium.launch({
+                headless: true
+            });
+
+            humanitasContext = await humanitasBrowser.newContext({
+                userAgent:
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+                locale: "ro-RO",
+                viewport: {
+                    width: 1366,
+                    height: 768
+                }
+            });
+        }
+
+        return humanitasContext;
+    }
+
     for (const book of books) {
             if (
                 book.source &&
@@ -73,7 +99,8 @@ async function updatePrices() {
                     "actsipoliton",
                     "edituratrei",
                     "curteaveche",
-                    "bookzone"
+                    "bookzone",
+                    "humanitas"
                 ].includes(
                     book.source
                 )
@@ -347,6 +374,151 @@ async function updatePrices() {
 
             }
 
+            if (
+                book.source ===
+                "humanitas"
+            ) {
+
+                let page = null;
+
+                try {
+                    console.log(
+                        "🌐 Humanitas:",
+                        book.title
+                    );
+
+                    const context =
+                        await getHumanitasContext();
+
+                    page =
+                        await context.newPage();
+
+                    await page.goto(
+                        book.productUrl,
+                        {
+                            waitUntil: "domcontentloaded",
+                            timeout: 60000
+                        }
+                    );
+
+                    await page.waitForSelector(
+                        ".price-box.price-final_price",
+                        {
+                            timeout: 30000
+                        }
+                    );
+
+                    let currentPrice =
+                        await page
+                            .locator(".special-price .price")
+                            .first()
+                            .textContent()
+                            .catch(() => null);
+
+                    if (!currentPrice) {
+                        currentPrice =
+                            await page
+                                .locator(
+                                    ".price-box.price-final_price .price"
+                                )
+                                .first()
+                                .textContent()
+                                .catch(() => null);
+                    }
+
+                    const oldPrice =
+                        await page
+                            .locator(".old-price .price")
+                            .first()
+                            .textContent()
+                            .catch(() => null);
+
+                    if (currentPrice) {
+                        currentPrice =
+                            currentPrice.trim();
+
+                        book.price =
+                            currentPrice
+                                .replace(".", ",")
+                                .replace("LEI", "Lei")
+                                .trim();
+
+                        if (
+                            oldPrice &&
+                            oldPrice.trim() !== currentPrice
+                        ) {
+                            book.oldPrice =
+                                oldPrice
+                                    .trim()
+                                    .replace(".", ",")
+                                    .replace("LEI", "Lei");
+
+                            book.discount =
+                                calculateDiscount(
+                                    book.oldPrice,
+                                    book.price
+                                );
+                        } else {
+                            delete book.oldPrice;
+                            delete book.discount;
+                            delete book.offerEnds;
+                        }
+
+                        console.log(
+                            "✔",
+                            book.title,
+                            book.price
+                        );
+
+                        if (book.oldPrice) {
+                            console.log(
+                                "   Preț vechi:",
+                                book.oldPrice
+                            );
+
+                            console.log(
+                                "   Reducere:",
+                                book.discount
+                            );
+                        }
+                    } else {
+                        console.log(
+                            "⚠ Nu am găsit prețul:",
+                            book.title
+                        );
+                    }
+
+                } catch (error) {
+                    console.log(
+                        "❌ Humanitas:",
+                        book.title
+                    );
+
+                    console.log(
+                        error.message
+                    );
+
+                } finally {
+                    if (page) {
+                        await page.close();
+                    }
+                }
+
+                continue;
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
             const response =
                 await axios.get(
                     cleanUrl,
@@ -464,6 +636,14 @@ async function updatePrices() {
                 error.message
             );
         }
+    }
+
+    if (humanitasBrowser) {
+        await humanitasBrowser.close();
+
+        console.log(
+            "🌐 Chromium Humanitas închis."
+        );
     }
 
     fs.writeFileSync(
