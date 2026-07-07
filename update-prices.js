@@ -382,141 +382,503 @@ async function updatePrices() {
                 let page = null;
 
                 try {
+
                     console.log(
                         "🌐 Humanitas:",
                         book.title
                     );
 
+
                     const context =
                         await getHumanitasContext();
+
 
                     page =
                         await context.newPage();
 
-                    await page.goto(
-                        book.productUrl,
-                        {
-                            waitUntil: "domcontentloaded",
-                            timeout: 60000
-                        }
-                    );
 
-                    await page.waitForSelector(
-                        ".price-box.price-final_price",
-                        {
-                            timeout: 30000
-                        }
-                    );
+                    // =====================================
+                    // FUNCȚIE ÎNCĂRCARE PAGINĂ
+                    // =====================================
 
-                    let currentPrice =
-                        await page
-                            .locator(".special-price .price")
-                            .first()
-                            .textContent()
-                            .catch(() => null);
+                    const loadHumanitasPage =
+                        async () => {
 
-                    if (!currentPrice) {
-                        currentPrice =
-                            await page
-                                .locator(
-                                    ".price-box.price-final_price .price"
-                                )
-                                .first()
-                                .textContent()
-                                .catch(() => null);
-                    }
+                            await page.goto(
+                                book.productUrl,
+                                {
+                                    waitUntil:
+                                        "domcontentloaded",
 
-                    const oldPrice =
-                        await page
-                            .locator(".old-price .price")
-                            .first()
-                            .textContent()
-                            .catch(() => null);
+                                    timeout:
+                                        60000
+                                }
+                            );
 
-                    if (currentPrice) {
-                        currentPrice =
-                            currentPrice.trim();
 
-                        book.price =
-                            currentPrice
-                                .replace(".", ",")
-                                .replace("LEI", "Lei")
-                                .trim();
+                            await page.waitForTimeout(
+                                3000
+                            );
 
-                        if (
-                            oldPrice &&
-                            oldPrice.trim() !== currentPrice
-                        ) {
-                            book.oldPrice =
-                                oldPrice
-                                    .trim()
-                                    .replace(".", ",")
-                                    .replace("LEI", "Lei");
 
-                            book.discount =
-                                calculateDiscount(
-                                    book.oldPrice,
-                                    book.price
-                                );
-                        } else {
-                            delete book.oldPrice;
-                            delete book.discount;
-                            delete book.offerEnds;
-                        }
+                            return await page.title();
+
+                        };
+
+
+                    // =====================================
+                    // PRIMA ÎNCERCARE
+                    // =====================================
+
+                    let pageTitle =
+                        await loadHumanitasPage();
+
+
+                    // =====================================
+                    // DETECTARE PAGINĂ DE VERIFICARE
+                    // =====================================
+
+                    if (
+                        pageTitle
+                            .toLowerCase()
+                            .includes(
+                                "doar un moment"
+                            )
+                    ) {
 
                         console.log(
-                            "✔",
-                            book.title,
+                            "⏳ Verificare temporară:",
+                            book.title
+                        );
+
+
+                        // Așteptăm ca pagina reală să apară
+
+                        await page.waitForTimeout(
+                            8000
+                        );
+
+
+                        pageTitle =
+                            await page.title();
+
+
+                        // Dacă verificarea este încă activă,
+                        // facem un singur retry controlat
+
+                        if (
+                            pageTitle
+                                .toLowerCase()
+                                .includes(
+                                    "doar un moment"
+                                )
+                        ) {
+
+                            console.log(
+                                "🔄 Retry Humanitas:",
+                                book.title
+                            );
+
+
+                            await page.waitForTimeout(
+                                5000
+                            );
+
+
+                            pageTitle =
+                                await loadHumanitasPage();
+
+                        }
+
+                    }
+
+
+                    // =====================================
+                    // VERIFICARE FINALĂ
+                    // =====================================
+
+                    if (
+                        pageTitle
+                            .toLowerCase()
+                            .includes(
+                                "doar un moment"
+                            )
+                    ) {
+
+                        console.log(
+                            "⏭ Humanitas indisponibil temporar:",
+                            book.title
+                        );
+
+
+                        console.log(
+                            "   Păstrez prețul existent:",
                             book.price
                         );
 
-                        if (book.oldPrice) {
-                            console.log(
-                                "   Preț vechi:",
-                                book.oldPrice
+
+                        continue;
+
+                    }
+
+
+                    // =====================================
+                    // PREȚ ACTUAL
+                    // =====================================
+
+                    let currentPrice = null;
+
+                    let oldPrice = null;
+
+
+                    // 1. data-price-amount
+
+                    currentPrice =
+                        await page
+                            .locator(
+                                '[data-price-type="finalPrice"]'
+                            )
+                            .first()
+                            .getAttribute(
+                                "data-price-amount"
+                            )
+                            .catch(
+                                () => null
                             );
 
-                            console.log(
-                                "   Reducere:",
-                                book.discount
-                            );
-                        }
-                    } else {
-                        console.log(
-                            "⚠ Nu am găsit prețul:",
-                            book.title
-                        );
+
+                    // =====================================
+                    // 2. FALLBACK META PRICE
+                    // =====================================
+
+                    if (!currentPrice) {
+
+                        currentPrice =
+                            await page
+                                .locator(
+                                    'meta[itemprop="price"]'
+                                )
+                                .first()
+                                .getAttribute(
+                                    "content"
+                                )
+                                .catch(
+                                    () => null
+                                );
+
                     }
+
+
+                    // =====================================
+                    // 3. FALLBACK TEXT PREȚ
+                    // =====================================
+
+                    if (!currentPrice) {
+
+                        currentPrice =
+                            await page
+                                .locator(
+                                    ".product-info-price .price"
+                                )
+                                .first()
+                                .textContent()
+                                .catch(
+                                    () => null
+                                );
+
+                    }
+
+
+                    // =====================================
+                    // PREȚ VECHI
+                    // =====================================
+
+                    oldPrice =
+                        await page
+                            .locator(
+                                '[data-price-type="oldPrice"]'
+                            )
+                            .first()
+                            .getAttribute(
+                                "data-price-amount"
+                            )
+                            .catch(
+                                () => null
+                            );
+
+
+                    // FALLBACK PREȚ VECHI
+
+                    if (!oldPrice) {
+
+                        oldPrice =
+                            await page
+                                .locator(
+                                    ".old-price .price"
+                                )
+                                .first()
+                                .textContent()
+                                .catch(
+                                    () => null
+                                );
+
+                    }
+
+
+                    // =====================================
+                    // NORMALIZARE PREȚ
+                    // =====================================
+
+                    const formatHumanitasPrice =
+                        (value) => {
+
+                            if (!value) {
+
+                                return null;
+
+                            }
+
+
+                            const cleanedValue =
+                                String(value)
+
+                                    .replace(
+                                        ",",
+                                        "."
+                                    )
+
+                                    .replace(
+                                        /[^\d.]/g,
+                                        ""
+                                    );
+
+
+                            const numericValue =
+                                parseFloat(
+                                    cleanedValue
+                                );
+
+
+                            if (
+                                Number.isNaN(
+                                    numericValue
+                                )
+                            ) {
+
+                                return null;
+
+                            }
+
+
+                            return (
+
+                                numericValue
+
+                                    .toFixed(2)
+
+                                    .replace(
+                                        ".",
+                                        ","
+                                    )
+
+                                +
+
+                                " Lei"
+
+                            );
+
+                        };
+
+
+                    // =====================================
+                    // SALVARE PREȚ
+                    // =====================================
+
+                    if (currentPrice) {
+
+
+                        const formattedCurrentPrice =
+
+                            formatHumanitasPrice(
+                                currentPrice
+                            );
+
+
+                        const formattedOldPrice =
+
+                            formatHumanitasPrice(
+                                oldPrice
+                            );
+
+
+                        if (formattedCurrentPrice) {
+
+
+                            book.price =
+                                formattedCurrentPrice;
+
+
+                            // =============================
+                            // PREȚ VECHI + DISCOUNT
+                            // =============================
+
+                            if (
+
+                                formattedOldPrice &&
+
+                                formattedOldPrice !==
+                                formattedCurrentPrice
+
+                            ) {
+
+
+                                book.oldPrice =
+                                    formattedOldPrice;
+
+
+                                book.discount =
+
+                                    calculateDiscount(
+
+                                        book.oldPrice,
+
+                                        book.price
+
+                                    );
+
+
+                            } else {
+
+
+                                delete book.oldPrice;
+
+                                delete book.discount;
+
+                                delete book.offerEnds;
+
+                            }
+
+
+                            console.log(
+
+                                "✔",
+
+                                book.title,
+
+                                book.price
+
+                            );
+
+
+                            if (book.oldPrice) {
+
+
+                                console.log(
+
+                                    "   Preț vechi:",
+
+                                    book.oldPrice
+
+                                );
+
+
+                                console.log(
+
+                                    "   Reducere:",
+
+                                    book.discount
+
+                                );
+
+                            }
+
+                        }
+
+
+                    } else {
+
+
+                        console.log(
+
+                            "⚠ Nu am găsit prețul:",
+
+                            book.title
+
+                        );
+
+
+                        console.log(
+
+                            "   Păstrez prețul existent:",
+
+                            book.price
+
+                        );
+
+
+                        console.log(
+
+                            "   URL final:",
+
+                            page.url()
+
+                        );
+
+
+                        console.log(
+
+                            "   Titlu pagină:",
+
+                            await page.title()
+
+                        );
+
+                    }
+
 
                 } catch (error) {
-                    console.log(
-                        "❌ Humanitas:",
-                        book.title
-                    );
+
 
                     console.log(
-                        error.message
+
+                        "❌ Humanitas:",
+
+                        book.title
+
                     );
+
+
+                    console.log(
+
+                        error.message
+
+                    );
+
+
+                    console.log(
+
+                        "   Păstrez prețul existent:",
+
+                        book.price
+
+                    );
+
 
                 } finally {
+
+
                     if (page) {
+
                         await page.close();
+
                     }
+
                 }
+
 
                 continue;
 
             }
-
-
-
-
-
-
-
-
-
-
 
 
             const response =

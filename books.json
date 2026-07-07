@@ -642,5 +642,35 @@
     "image": "https://www.libhumanitas.ro/media/catalog/product/m/a/malala.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=bee30bffd",
     "description": "Ce anume sperie mai tare un regim înarmat decât o armă? Un stilou, în mâna unei fete de cincisprezece ani."
+  },
+  {
+    "title": "Librăreasa din Paris",
+    "source": "humanitas",
+    "author": "kerri Maher",
+    "productUrl": "https://www.libhumanitas.ro/librareasa-din-paris-kerri-maher-fi000776-1.html",
+    "category": "beletristică",
+    "score": "9.8 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "51,80 Lei",
+    "image": "imagini/Librareasa.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=8881777fd",
+    "description": "Nu e cartea lui Hemingway. Nu e cartea lui Joyce. E cartea femeii fără de care niciunul dintre ei n-ar fi ajuns exact cine a ajuns."
+  },
+  {
+    "title": "Cum merge lumea",
+    "source": "curteaveche",
+    "author": "Noam Chomsky",
+    "productUrl": "https://www.curteaveche.ro/cum-merge-lumea",
+    "category": "business",
+    "score": "9.6 / 10",
+    "oldPrice": "63,43 Lei",
+    "discount": "25%",
+    "price": "47,57 Lei",
+    "image": "imagini/Cum merge lumea.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=kw29A2QeLJcb",
+    "description": "Chomsky e, potrivit MIT și Chicago Tribune, cel mai citat autor în viață. Al optulea din toată istoria. Nu pentru că spune ce vrea lumea să audă."
   }
 ]
