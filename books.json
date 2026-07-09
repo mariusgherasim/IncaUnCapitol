@@ -646,14 +646,14 @@
   {
     "title": "Librăreasa din Paris",
     "source": "humanitas",
-    "author": "kerri Maher",
+    "author": "Kerri Maher",
     "productUrl": "https://www.libhumanitas.ro/librareasa-din-paris-kerri-maher-fi000776-1.html",
     "category": "beletristică",
     "score": "9.8 / 10",
     "oldPrice": "",
     "discount": "",
     "price": "51,80 Lei",
-    "image": "imagini/Librareasa.jpg",
+    "image": "imagini/Librareasa_2.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=8881777fd",
     "description": "Nu e cartea lui Hemingway. Nu e cartea lui Joyce. E cartea femeii fără de care niciunul dintre ei n-ar fi ajuns exact cine a ajuns."
@@ -672,5 +672,59 @@
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=kw29A2QeLJcb",
     "description": "Chomsky e, potrivit MIT și Chicago Tribune, cel mai citat autor în viață. Al optulea din toată istoria. Nu pentru că spune ce vrea lumea să audă."
+  },
+  {
+    "title": "Marele Gatsby",
+    "source": "bookzone",
+    "author": "F. SCOTT FITZGERALD",
+    "productUrl": "https://bookzone.ro/carte/marele-gatsby-f-scott-fitzgerald",
+    "category": "beletristică",
+    "score": "9.7 / 10",
+    "oldPrice": "43,87 Lei",
+    "discount": "33%",
+    "price": "29,4 Lei",
+    "image": "imagini/Gatsby (1).jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=63f0fa508",
+    "description": "„Marele Gatsby” a vândut sub 20.000 de exemplare cât a trăit Fitzgerald. A murit crezând că a scris o carte ratată. Astăzi vinde jumătate de milion de exemplare pe an."
+  },
+  {
+    "title": "Sindromul impostorului",
+    "source": "humanitas",
+    "author": "Dr. Jessamy Hibberd",
+    "productUrl": "https://www.libhumanitas.ro/sindromul-impostorului-jessamy-hibberd-a279728.html",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "price": "65,00 Lei",
+    "image": "https://www.libhumanitas.ro/media/catalog/product/s/i/sindromul-impostorului-jessamy-hibberd-.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=bee30bffd",
+    "description": "De ce oamenii cei mai competenți sunt și cei mai convinși că nu merită unde au ajuns?"
+  },
+  {
+    "title": "Chemarea tribului",
+    "source": "humanitas",
+    "author": "Mario Vargas Llosa",
+    "productUrl": "https://www.libhumanitas.ro/sindromul-impostorului-jessamy-hibberd-a279728.html",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "price": "37,00 Lei",
+    "image": "https://www.libhumanitas.ro/media/catalog/product/c/h/chemarea_tribului.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=bee30bffd",
+    "description": "Una din ultimele cărți scrise de un laureat Nobel, înainte să ne părăsească în 2025. Și e despre un singur lucru: de ce renunțăm la gândirea proprie."
+  },
+  {
+    "title": "Draga, unde-s banii?",
+    "source": "bookzone",
+    "author": "Adrian Asoltanie",
+    "productUrl": "https://bookzone.ro/carte/draga-unde-s-banii",
+    "category": "financiar",
+    "score": "9.7 / 10",
+    "oldPrice": "59 Lei",
+    "discount": "40%",
+    "price": "35,4 Lei",
+    "image": "imagini/asoltanie.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=843a9cf4c",
+    "description": "Câți bani ai câștigat anul trecut? Și câți dintre ei poți explica unde s-au dus?"
   }
 ]
