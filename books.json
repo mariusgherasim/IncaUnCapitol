@@ -106,10 +106,12 @@
     "author": "Gina Veveriță",
     "category": "dezvoltare",
     "score": "9.1 / 10",
-    "price": "52,00",
+    "price": "36,40",
     "image": "imagini/anatomia_scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/gina-veverita-anatomia-scuzelor-carte?tracking=69a17509d7810",
-    "description": "Fiecare „mâine încep” pe care l-ai spus vreodată a avut un preț. Nu neapărat vizibil. Dar acumulat. Anatomia scuzelor calculează ce înseamnă cu adevărat acel preț — și arată cum ieși din el."
+    "description": "Fiecare „mâine încep” pe care l-ai spus vreodată a avut un preț. Nu neapărat vizibil. Dar acumulat. Anatomia scuzelor calculează ce înseamnă cu adevărat acel preț — și arată cum ieși din el.",
+    "oldPrice": "52,00",
+    "discount": "30%"
   },
   {
     "title": "Atomic Habits",
@@ -145,10 +147,12 @@
     "author": "Wim Hof",
     "category": "dezvoltare",
     "score": "9.0 / 10",
-    "price": "50,74 Lei",
+    "price": "35,52 Lei",
     "image": "imagini/Metoda_Wim_Hof.jpg",
     "affiliate": "https://www.actsipoliton.ro/wim-hof-metoda-wim-hof-carte?tracking=69a17509d7810",
-    "description": "Toată lumea îți spune să respiri „normal” ca să te calmezi. Olandezul ăsta a demonstrat știi­n­ți­fic că exact respirația normală te ține blocat în stres."
+    "description": "Toată lumea îți spune să respiri „normal” ca să te calmezi. Olandezul ăsta a demonstrat știi­n­ți­fic că exact respirația normală te ține blocat în stres.",
+    "oldPrice": "50,74 Lei",
+    "discount": "30%"
   },
   {
     "title": "Blocajul. Cum să scapi de inerție și să mergi mai departe",
@@ -234,10 +238,7 @@
     "author": "Sébastien Spitzer",
     "category": "dezvoltare",
     "score": "9.3 / 10",
-    "price": "30,80 Lei",
-    "oldPrice": "44,00 Lei",
-    "discount": "30%",
-    "offerEnds": "2026-07-09T23:59:59",
+    "price": "44,00 Lei",
     "image": "imagini/Mica_filosofie_a_siestei.jpg",
     "affiliate": "https://www.actsipoliton.ro/sebastien-spitzer-mica-filosofie-a-siestei-carte?tracking=69a17509d7810",
     "description": "Einstein trăgea pui de somn după-amiaza. La fel și Edison, da Vinci, Picasso și Newton. Dacă geniul lor venea din muncă neîntreruptă, de ce niciuna dintre marile lor idei nu a apărut la birou, la ora 3 după-amiaza?"
@@ -305,10 +306,12 @@
     "author": "Brian Tracy",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "price": "54,00 Lei",
+    "price": "37,80 Lei",
     "image": "imagini/Nu scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/brian-tracy-nu-scuzelor-carte-tiparita?tracking=69a17509d7810",
-    "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?"
+    "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?",
+    "oldPrice": "54,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "Metoda Ask",
@@ -359,10 +362,12 @@
     "productUrl": "",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "price": "67,65 Lei",
+    "price": "47,36 Lei",
     "image": "imagini/placebo.jpg",
     "affiliate": "https://www.actsipoliton.ro/tu-esti-placebo-carte-tiparita?tracking=69a17509d7810",
-    "description": "Cartea asta nu e pentru cei care vor confirmare. E pentru cei dispuși să-și pună la îndoială propriile credințe despre sănătate."
+    "description": "Cartea asta nu e pentru cei care vor confirmare. E pentru cei dispuși să-și pună la îndoială propriile credințe despre sănătate.",
+    "oldPrice": "67,65 Lei",
+    "discount": "30%"
   },
   {
     "title": "Lebăda neagră",
@@ -513,10 +518,12 @@
     "productUrl": "",
     "category": "dezvoltare",
     "score": "9.4 / 10",
-    "price": "54,00 Lei",
+    "price": "37,80 Lei",
     "image": "imagini/Smarter.jpg",
     "affiliate": "https://www.actsipoliton.ro/emily-austen-metoda-smarter-carte?tracking=69a17509d7810",
-    "description": "Cartea a câștigat Business Book Award 2025. Nu pentru că spune să muncești mai mult, ci pentru că-ți explică de ce să te oprești."
+    "description": "Cartea a câștigat Business Book Award 2025. Nu pentru că spune să muncești mai mult, ci pentru că-ți explică de ce să te oprești.",
+    "oldPrice": "54,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "Blind Date with a Book #2",
@@ -764,9 +771,9 @@
     "productUrl": "https://bookzone.ro/carte/jurnalul-fericirii-manuscrisul-de-la-rohia",
     "category": "jurnale",
     "score": "9.8 / 10",
-    "oldPrice": "",
-    "discount": "",
-    "price": "85,10 Lei",
+    "oldPrice": "89,86 Lei",
+    "discount": "5%",
+    "price": "85,1 Lei",
     "image": "imagini/jurnalul.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=5de8fa966",
