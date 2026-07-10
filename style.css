@@ -143,6 +143,12 @@ footer h3{margin-bottom:10px;}
 .hero{padding:90px 0;}
 .monthly-book{padding:20px;}
 .section{padding:60px 0;}
-.nav-btn{font-size:0.8rem;}
-.footer-btn{width:100%;font-size:1.1rem;padding:16px;}
+
+/* HEADER MOBILE */
+
+.navbar{ flex-direction:column; align-items:center; gap:14px; padding:16px 15px;}
+.logo{ text-align:center;}
+.nav-actions{ width:100%; display:flex; justify-content:center; }
+.nav-btn{ display:inline-flex; align-items:center; justify-content:center; width:auto; max-width:280px; padding:12px 22px; font-size:0.9rem; line-height:1.3; text-align:center; white-space:nowrap; border-radius:8px;}
+.footer-btn{ width:100%; font-size:1.1rem; padding:16px; }
 }
