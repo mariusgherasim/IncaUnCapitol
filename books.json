@@ -234,7 +234,10 @@
     "author": "Sébastien Spitzer",
     "category": "dezvoltare",
     "score": "9.3 / 10",
-    "price": "44,00 Lei",
+    "price": "30,80 Lei",
+    "oldPrice": "44,00 Lei",
+    "discount": "30%",
+    "offerEnds": "2026-07-09T23:59:59",
     "image": "imagini/Mica_filosofie_a_siestei.jpg",
     "affiliate": "https://www.actsipoliton.ro/sebastien-spitzer-mica-filosofie-a-siestei-carte?tracking=69a17509d7810",
     "description": "Einstein trăgea pui de somn după-amiaza. La fel și Edison, da Vinci, Picasso și Newton. Dacă geniul lor venea din muncă neîntreruptă, de ce niciuna dintre marile lor idei nu a apărut la birou, la ora 3 după-amiaza?"
@@ -694,7 +697,7 @@
     "score": "9.8 / 10",
     "price": "65,00 Lei",
     "image": "https://www.libhumanitas.ro/media/catalog/product/s/i/sindromul-impostorului-jessamy-hibberd-.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=cfe72c96d",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=4ae2f9291",
     "description": "De ce oamenii cei mai competenți sunt și cei mai convinși că nu merită unde au ajuns?"
   },
   {
@@ -706,7 +709,7 @@
     "score": "9.8 / 10",
     "price": "37,00 Lei",
     "image": "https://www.libhumanitas.ro/media/catalog/product/c/h/chemarea_tribului.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=4ae2f9291",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=bee30bffd",
     "description": "Una din ultimele cărți scrise de un laureat Nobel, înainte să ne părăsească în 2025. Și e despre un singur lucru: de ce renunțăm la gândirea proprie."
   },
   {
@@ -723,5 +726,50 @@
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=843a9cf4c",
     "description": "Câți bani ai câștigat anul trecut? Și câți dintre ei poți explica unde s-au dus?"
+  },
+  {
+    "title": "Autoportretul scriitorului ca alergător de cursă lungă",
+    "source": "humanitas",
+    "author": "Haruki Murakami",
+    "productUrl": "https://www.libhumanitas.ro/autoportretul-scriitorului-ca-alergator-de-cursa-lunga-haruki-murakami-a280095.html",
+    "category": "jurnale",
+    "score": "9.7 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "39,95 Lei",
+    "image": "imagini/autoportret.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=d0f3282e7",
+    "description": "213.290 de oameni au evaluat această carte pe Goodreads. 22.305 au scris și de ce. Câți dintre ei se așteptau la un jurnal de alergare și au primit, de fapt, o lecție de disciplină?"
+  },
+  {
+    "title": "De veghe în lanul de secară",
+    "source": "humanitas",
+    "author": "J.D. SALINGER",
+    "productUrl": "https://www.libhumanitas.ro/de-veghe-in-lanul-de-secara-j-d-salinger-a267048.html",
+    "category": "beletristică",
+    "score": "9.8 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "49,95 Lei",
+    "image": "imagini/secara.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=fee20ea70",
+    "description": "65 de milioane de exemplare vândute din 1951 încoace. Un milion pe an, în fiecare an, inclusiv acum. Cum rămâne relevantă o carte scrisă acum 75 de ani? De ce o recunosc exact aceiași adolescenți, generație după generație? Și de ce n-a reușit nimeni s-o înlocuiască?"
+  },
+  {
+    "title": "Jurnalul fericirii. Manuscrisul de la Rohia",
+    "source": "bookzone",
+    "author": "N. Steinhardt",
+    "productUrl": "https://bookzone.ro/carte/jurnalul-fericirii-manuscrisul-de-la-rohia",
+    "category": "jurnale",
+    "score": "9.8 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "85,10 Lei",
+    "image": "imagini/jurnalul.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=5de8fa966",
+    "description": "Cartea asta nu e pentru cine caută liniște ușoară. E pentru cine vrea să înțeleagă ce rămâne dintr-un om când i se ia absolut tot."
   }
 ]
