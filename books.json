@@ -111,7 +111,8 @@
     "affiliate": "https://www.actsipoliton.ro/gina-veverita-anatomia-scuzelor-carte?tracking=69a17509d7810",
     "description": "Fiecare „mâine încep” pe care l-ai spus vreodată a avut un preț. Nu neapărat vizibil. Dar acumulat. Anatomia scuzelor calculează ce înseamnă cu adevărat acel preț — și arată cum ieși din el.",
     "oldPrice": "52,00",
-    "discount": "30%"
+    "discount": "30%",
+    "offerEnds": "2026-08-05T23:59:59"
   },
   {
     "title": "Atomic Habits",
@@ -152,7 +153,8 @@
     "affiliate": "https://www.actsipoliton.ro/wim-hof-metoda-wim-hof-carte?tracking=69a17509d7810",
     "description": "Toată lumea îți spune să respiri „normal” ca să te calmezi. Olandezul ăsta a demonstrat știi­n­ți­fic că exact respirația normală te ține blocat în stres.",
     "oldPrice": "50,74 Lei",
-    "discount": "30%"
+    "discount": "30%",
+    "offerEnds": "2026-08-05T23:59:59"
   },
   {
     "title": "Blocajul. Cum să scapi de inerție și să mergi mai departe",
@@ -311,7 +313,8 @@
     "affiliate": "https://www.actsipoliton.ro/brian-tracy-nu-scuzelor-carte-tiparita?tracking=69a17509d7810",
     "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?",
     "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "discount": "30%",
+    "offerEnds": "2026-08-05T23:59:59"
   },
   {
     "title": "Metoda Ask",
@@ -367,7 +370,8 @@
     "affiliate": "https://www.actsipoliton.ro/tu-esti-placebo-carte-tiparita?tracking=69a17509d7810",
     "description": "Cartea asta nu e pentru cei care vor confirmare. E pentru cei dispuși să-și pună la îndoială propriile credințe despre sănătate.",
     "oldPrice": "67,65 Lei",
-    "discount": "30%"
+    "discount": "30%",
+    "offerEnds": "2026-08-05T23:59:59"
   },
   {
     "title": "Lebăda neagră",
@@ -523,7 +527,8 @@
     "affiliate": "https://www.actsipoliton.ro/emily-austen-metoda-smarter-carte?tracking=69a17509d7810",
     "description": "Cartea a câștigat Business Book Award 2025. Nu pentru că spune să muncești mai mult, ci pentru că-ți explică de ce să te oprești.",
     "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "discount": "30%",
+    "offerEnds": "2026-08-05T23:59:59"
   },
   {
     "title": "Blind Date with a Book #2",
@@ -711,7 +716,7 @@
     "productUrl": "https://www.libhumanitas.ro/sindromul-impostorului-jessamy-hibberd-a279728.html",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "price": "65,00 Lei",
+    "price": "37,00 Lei",
     "image": "https://www.libhumanitas.ro/media/catalog/product/c/h/chemarea_tribului.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=4ae2f9291",
     "description": "Una din ultimele cărți scrise de un laureat Nobel, înainte să ne părăsească în 2025. Și e despre un singur lucru: de ce renunțăm la gândirea proprie."
@@ -769,5 +774,44 @@
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=5de8fa966",
     "description": "Cartea asta nu e pentru cine caută liniște ușoară. E pentru cine vrea să înțeleagă ce rămâne dintr-un om când i se ia absolut tot."
+  },
+  {
+    "title": "Pachet „Învață cum să înveți“",
+    "source": "curteaveche",
+    "author": "Barbara Oakley & Olav Schewe (Learn Like a Pro), David Robson (The Expectation Effect), Gloria Mark (Attention Span), Susan Magsamen & Ivy Ross (Your Brain on Art)",
+    "productUrl": "https://www.curteaveche.ro/pachet-invata-cum-sa-inveti",
+    "category": "dezvoltare",
+    "score": "9.8 / 10",
+    "oldPrice": "290,51 Lei",
+    "discount": "40%",
+    "price": "174,31 Lei",
+    "image": "imagini/altfel.jpg",
+    "offerEnds": "",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=0ucg5C1DWbzQ",
+    "description": "Citești mult. Iei notițe. Sublimezi cu markerul. Și tot uiți totul în două zile. Nu tu ești problema — tehnicile pe care le-ai învățat la 7 ani sunt problema."
+  },
+  {
+    "title": "Utopia",
+    "source": "humanitas",
+    "author": "Thomas Morus",
+    "productUrl": "https://www.libhumanitas.ro/utopia-thomas-morus-a106749.html",
+    "category": "beletristică",
+    "score": "9.9 / 10",
+    "price": "26,64 Lei",
+    "image": "imagini/utopia.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=cd4807352",
+    "description": "Un cuvânt inventat de un singur om, într-o singură carte, în 1516, e folosit azi — în 2026, 510 ani mai târziu — în aproape fiecare limbă de pe planetă. Cine a fost omul și de ce a ajuns să fie executat pentru felul în care gândea?"
+  },
+  {
+    "title": "Maestrul și Margareta",
+    "source": "humanitas",
+    "author": "Mihail Bulgacov",
+    "productUrl": "https://www.libhumanitas.ro/maestrul-si-margareta-mihail-bulgakov-fi000254-7c.html",
+    "category": "beletristică",
+    "score": "9.9 / 10",
+    "price": "70,83 Lei",
+    "image": "imagini/margareta.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=2f614f269",
+    "description": "A ars propriul manuscris cu mâinile lui. Regimul i-a interzis fiecare rând. Și totuși cartea asta a ajuns una dintre cele mai citite ale secolului XX"
   }
 ]
