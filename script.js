@@ -7,6 +7,39 @@ let books = [];
 let monthlyBook = {};
 
 // ========================================
+// UTILITARE
+// ========================================
+
+// Scapă textul pentru a putea fi inserat în siguranță în HTML
+// (evită ruperea marcajului dacă un titlu conține <, >, &, " sau ')
+function escapeHtml(value) {
+
+    if (value === null || value === undefined)
+        return "";
+
+    return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+
+}
+
+// Generează un id valid de element HTML dintr-un titlu de carte
+// (înlocuiește orice caracter care nu e literă/cifră, nu doar spațiul)
+function slugifyForId(title) {
+
+    return String(title)
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "") // elimină diacriticele
+        .replace(/[^a-zA-Z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+        .toLowerCase();
+
+}
+
+// ========================================
 // RECOMANDAREA LUNII
 // ========================================
 
@@ -27,8 +60,10 @@ function renderMonthlyBook() {
             <div class="monthly-book-image">
 
                 <img
-                    src="${monthlyBook.image}"
-                    alt="${monthlyBook.title}"
+                    src="${escapeHtml(monthlyBook.image)}"
+                    alt="${escapeHtml(monthlyBook.title)}"
+                    loading="lazy"
+                    decoding="async"
                 >
 
             </div>
@@ -40,22 +75,22 @@ function renderMonthlyBook() {
                 </span>
 
                 <h3 class="book-title">
-                    ${monthlyBook.title}
+                    ${escapeHtml(monthlyBook.title)}
                 </h3>
 
                 <p class="book-author">
-                    ${monthlyBook.author}
+                    ${escapeHtml(monthlyBook.author)}
                 </p>
 
                 <div class="book-score">
                     Scor ÎncăUnCapitol:
-                    ${monthlyBook.score}
+                    ${escapeHtml(monthlyBook.score)}
                 </div>
 
                 <p>
 
                 <em>
-                    ${monthlyBook.description.replace(/\n\n/g, "<br><br>")}
+                    ${escapeHtml(monthlyBook.description).replace(/\n\n/g, "<br><br>")}
                 </em>
 
                 </p>
@@ -63,14 +98,14 @@ function renderMonthlyBook() {
                 <br>
 
                 <a
-                    href="${monthlyBook.affiliate}"
+                    href="${escapeHtml(monthlyBook.affiliate)}"
                     target="_blank"
+                    rel="noopener sponsored"
                     class="cta-btn"
-
-                    onclick="trackMonthlyBook(
-                    '${monthlyBook.title}',
-                    '${monthlyBook.author}'
-                    )">
+                    data-track="monthly"
+                    data-title="${escapeHtml(monthlyBook.title)}"
+                    data-author="${escapeHtml(monthlyBook.author)}"
+                >
 
                     Cumpără acum
 
@@ -94,28 +129,30 @@ function createBookCard(book) {
         <div class="book-card">
 
             <img
-                src="${book.image}"
-                alt="${book.title}"
+                src="${escapeHtml(book.image)}"
+                alt="${escapeHtml(book.title)}"
+                loading="lazy"
+                decoding="async"
             >
 
             <div class="book-content">
 
                  <h3 class="book-title">
 
-                    ${book.title}
+                    ${escapeHtml(book.title)}
 
                 </h3>
 
                 <p class="book-author">
 
-                    ${book.author}
+                    ${escapeHtml(book.author)}
 
                 </p>
 
                 <div class="book-score">
 
                     Scor ÎncăUnCapitol:
-                    ${book.score}
+                    ${escapeHtml(book.score)}
 
                 </div>
 
@@ -125,7 +162,7 @@ function createBookCard(book) {
                     `
                     <p>
                     <strong>Editura:</strong>
-                    ${book.publisher}
+                    ${escapeHtml(book.publisher)}
                     </p>
                     `
                     :
@@ -138,7 +175,7 @@ function createBookCard(book) {
                     `
                     <p>
                     <strong>Pagini:</strong>
-                    ${book.pages}
+                    ${escapeHtml(book.pages)}
                     </p>
                     `
                     :
@@ -151,7 +188,7 @@ function createBookCard(book) {
                     `
                     <p>
                     <strong>Format:</strong>
-                    ${book.format}
+                    ${escapeHtml(book.format)}
                     </p>
                     `
                     :
@@ -162,7 +199,7 @@ function createBookCard(book) {
 
                 <em>
 
-                    ${book.description}
+                    ${escapeHtml(book.description)}
 
                 </em>    
 
@@ -180,7 +217,7 @@ function createBookCard(book) {
 
                         <br>
 
-                        ${book.why}
+                        ${escapeHtml(book.why)}
 
                     </div>
                     `
@@ -195,7 +232,7 @@ function createBookCard(book) {
                         ?
                         `
                         <span class="old-price">
-                            ${book.oldPrice}
+                            ${escapeHtml(book.oldPrice)}
                         </span>
                         `
                         :
@@ -203,7 +240,7 @@ function createBookCard(book) {
                     }
 
                     <span class="new-price">
-                        ${book.price}
+                        ${escapeHtml(book.price)}
                     </span>
 
                     ${
@@ -211,7 +248,7 @@ function createBookCard(book) {
                         ?
                         `
                         <span class="discount">
-                            ${book.discount}
+                            ${escapeHtml(book.discount)}
                         </span>
                         `
                         :
@@ -240,7 +277,7 @@ function createBookCard(book) {
 
                     <div
                     class="countdown-time"
-                    id="countdown-${book.title.replaceAll(' ','-')}"
+                    id="countdown-${slugifyForId(book.title)}"
                     >
 
                     00 : 00 : 00 : 00
@@ -254,10 +291,14 @@ function createBookCard(book) {
                 }
 
                 <a
-                    href="${book.affiliate}"
+                    href="${escapeHtml(book.affiliate)}"
                     target="_blank"
+                    rel="noopener sponsored"
                     class="buy-btn"
-                    onclick="trackBookClick('${book.title}','${book.author}','${book.source}')"
+                    data-track="book"
+                    data-title="${escapeHtml(book.title)}"
+                    data-author="${escapeHtml(book.author)}"
+                    data-source="${escapeHtml(book.source)}"
                 >
 
                     Cumpără
@@ -291,6 +332,8 @@ function renderBooks(bookList) {
                 createBookCard(book)
             )
             .join("");
+
+    injectBooksSchema(bookList);
 
 }
 
@@ -370,9 +413,12 @@ async function loadBooks() {
 
     try {
 
+        // cache-busting: evită servirea unei versiuni vechi din
+        // cache-ul browserului/CDN-ului după actualizarea automată de preț
         const response =
             await fetch(
-                "books.json"
+                "books.json?v=" + Date.now(),
+                { cache: "no-store" }
             );
 
         books =
@@ -392,6 +438,18 @@ async function loadBooks() {
             error
         );
 
+        const container =
+            document.getElementById(
+                "booksContainer"
+            );
+
+        if (container) {
+
+            container.innerHTML =
+                `<p class="load-error">Catalogul de cărți nu a putut fi încărcat momentan. Reîncearcă mai târziu.</p>`;
+
+        }
+
     }
 
 }
@@ -406,7 +464,8 @@ async function loadMonthlyBook() {
 
         const response =
             await fetch(
-                "monthly-book.json"
+                "monthly-book.json?v=" + Date.now(),
+                { cache: "no-store" }
             );
 
         monthlyBook =
@@ -439,6 +498,8 @@ document.addEventListener(
         await loadBooks();
 
         initializeSearch();
+
+        initializeTrackingDelegation();
 
     }
 );
@@ -572,7 +633,7 @@ return;
 
 const element =
 document.getElementById(
-`countdown-${book.title.replaceAll(' ','-')}`
+`countdown-${slugifyForId(book.title)}`
 );
 
 if(!element)
@@ -696,7 +757,7 @@ function trackEvent(eventName, parameters = {}) {
 }
 
 
-window.trackBookClick = function(title, author, source){
+function trackBookClick(title, author, source){
 
     trackEvent("click_cumpara",{
         title: title,
@@ -714,7 +775,7 @@ window.trackBookClick = function(title, author, source){
 
 };
 
-window.trackMonthlyBook = function(title, author){
+function trackMonthlyBook(title, author){
 
     trackEvent("featured_book_click",{
 
@@ -725,3 +786,90 @@ window.trackMonthlyBook = function(title, author){
     });
 
 };
+
+// Delegare de evenimente pe container-ele care se re-randează
+// (books.json/monthly-book.json) — evită onclick inline cu string-uri
+// interpolate, care se pot rupe dacă titlul conține apostrof/ghilimele.
+function initializeTrackingDelegation(){
+
+    document.addEventListener("click", function(e){
+
+        const link = e.target.closest("[data-track]");
+
+        if (!link) return;
+
+        if (link.dataset.track === "book") {
+
+            trackBookClick(
+                link.dataset.title,
+                link.dataset.author,
+                link.dataset.source
+            );
+
+        } else if (link.dataset.track === "monthly") {
+
+            trackMonthlyBook(
+                link.dataset.title,
+                link.dataset.author
+            );
+
+        }
+
+    });
+
+}
+
+/* ========================================
+   JSON-LD (SEO) — ItemList de cărți
+======================================== */
+
+function injectBooksSchema(bookList){
+
+    const existing =
+        document.getElementById("books-schema");
+
+    if (existing) existing.remove();
+
+    if (!bookList || !bookList.length) return;
+
+    const schema = {
+
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": bookList.slice(0, 50).map((book, index) => ({
+
+            "@type": "ListItem",
+            "position": index + 1,
+            "item": {
+
+                "@type": "Book",
+                "name": book.title,
+                "author": {
+                    "@type": "Person",
+                    "name": book.author
+                },
+                "image": book.image
+                    ? new URL(book.image, window.location.href).href
+                    : undefined,
+                "offers": book.price
+                    ? {
+                        "@type": "Offer",
+                        "price": String(book.price).replace(/[^\d.,]/g, "").replace(",", "."),
+                        "priceCurrency": "RON",
+                        "url": book.affiliate
+                    }
+                    : undefined
+
+            }
+
+        }))
+
+    };
+
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "books-schema";
+    script.textContent = JSON.stringify(schema);
+    document.head.appendChild(script);
+
+}
