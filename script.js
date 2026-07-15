@@ -313,10 +313,26 @@ function createBookCard(book) {
 }
 
 // ========================================
-// AFIȘARE CĂRȚI
+// AFIȘARE CĂRȚI + PAGINARE
 // ========================================
 
+const PAGE_SIZE = 12;
+
+let currentBookList = [];
+let currentPage = 1;
+
+// Punctul de intrare folosit de filtrare/căutare: primește lista
+// (deja filtrată/căutată) și resetează mereu la pagina 1.
 function renderBooks(bookList) {
+
+    currentBookList = bookList;
+    currentPage = 1;
+
+    renderCurrentPage();
+
+}
+
+function renderCurrentPage() {
 
     const container =
         document.getElementById(
@@ -326,14 +342,129 @@ function renderBooks(bookList) {
     if (!container)
         return;
 
+    const totalPages =
+        Math.max(
+            1,
+            Math.ceil(currentBookList.length / PAGE_SIZE)
+        );
+
+    if (currentPage > totalPages)
+        currentPage = totalPages;
+
+    const start = (currentPage - 1) * PAGE_SIZE;
+
+    const pageBooks =
+        currentBookList.slice(start, start + PAGE_SIZE);
+
     container.innerHTML =
-        bookList
+        pageBooks.length
+        ?
+        pageBooks
             .map(book =>
                 createBookCard(book)
             )
-            .join("");
+            .join("")
+        :
+        `<p class="load-error">Nicio carte găsită.</p>`;
 
-    injectBooksSchema(bookList);
+    injectBooksSchema(currentBookList);
+
+    renderPagination(totalPages);
+
+    stopCountdowns();
+
+    startCountdowns(pageBooks);
+
+}
+
+function renderPagination(totalPages) {
+
+    const container =
+        document.getElementById(
+            "paginationContainer"
+        );
+
+    if (!container)
+        return;
+
+    if (totalPages <= 1) {
+
+        container.innerHTML = "";
+        return;
+
+    }
+
+    let html = `
+        <button
+            type="button"
+            class="page-btn"
+            data-page="${currentPage - 1}"
+            ${currentPage === 1 ? "disabled" : ""}
+        >&laquo; Anterior</button>
+    `;
+
+    for (let i = 1; i <= totalPages; i++) {
+
+        html += `
+            <button
+                type="button"
+                class="page-btn ${i === currentPage ? "active" : ""}"
+                data-page="${i}"
+            >${i}</button>
+        `;
+
+    }
+
+    html += `
+        <button
+            type="button"
+            class="page-btn"
+            data-page="${currentPage + 1}"
+            ${currentPage === totalPages ? "disabled" : ""}
+        >Următor &raquo;</button>
+    `;
+
+    container.innerHTML = html;
+
+}
+
+function goToPage(page) {
+
+    currentPage = page;
+
+    renderCurrentPage();
+
+    const catalogSection =
+        document.getElementById("carti");
+
+    if (catalogSection) {
+
+        catalogSection.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+
+    }
+
+}
+
+function initializePaginationDelegation() {
+
+    document.addEventListener("click", function (e) {
+
+        const btn = e.target.closest(".page-btn");
+
+        if (!btn || btn.disabled)
+            return;
+
+        const page = parseInt(btn.dataset.page, 10);
+
+        if (!page || page < 1)
+            return;
+
+        goToPage(page);
+
+    });
 
 }
 
@@ -428,8 +559,6 @@ async function loadBooks() {
 
         renderBooks(books);
 
-        startCountdowns();      
-
     }
     catch (error) {
 
@@ -500,6 +629,10 @@ document.addEventListener(
         initializeSearch();
 
         initializeTrackingDelegation();
+
+        initializeCookieBanner();
+
+        initializePaginationDelegation();
 
     }
 );
@@ -621,12 +754,27 @@ box.style.display==="block"
 }
 
 // ========================================
-// startCountdowns
+// startCountdowns / stopCountdowns
 // ========================================
+// La fiecare schimbare de pagină/filtru se randează doar un subset de
+// cărți — countdown-urile trebuie pornite doar pentru cărțile vizibile
+// acum, iar cele de la randarea anterioară trebuie oprite explicit
+// (altfel se acumulează interval-uri fantomă care rulează pe elemente
+// care nu mai există în DOM).
 
-function startCountdowns(){
+let activeCountdownIntervals = [];
 
-books.forEach(book=>{
+function stopCountdowns(){
+
+activeCountdownIntervals.forEach(id => clearInterval(id));
+
+activeCountdownIntervals = [];
+
+}
+
+function startCountdowns(visibleBooks){
+
+visibleBooks.forEach(book=>{
 
 if(!book.offerEnds)
 return;
@@ -735,6 +883,8 @@ String(seconds)
 .padStart(2,'0');
 
 },1000);
+
+activeCountdownIntervals.push(interval);
 
 });
 
@@ -871,5 +1021,51 @@ function injectBooksSchema(bookList){
     script.id = "books-schema";
     script.textContent = JSON.stringify(schema);
     document.head.appendChild(script);
+
+}
+
+/* ========================================
+   COOKIE BANNER (informativ, non-blocant —
+   consecvent cu shop.gherasimmarius.com)
+======================================== */
+
+function initializeCookieBanner(){
+
+    const STORAGE_KEY = "cookie-consent-dismissed";
+
+    const banner = document.getElementById("cookie-banner");
+    const dismissBtn = document.getElementById("cookie-banner-dismiss");
+    const detailsLink = document.getElementById("cookie-banner-details");
+
+    if (!banner || !dismissBtn) return;
+
+    if (!localStorage.getItem(STORAGE_KEY)) {
+
+        banner.hidden = false;
+
+    }
+
+    dismissBtn.addEventListener("click", () => {
+
+        localStorage.setItem(STORAGE_KEY, "1");
+        banner.hidden = true;
+
+    });
+
+    if (detailsLink) {
+
+        detailsLink.addEventListener("click", (e) => {
+
+            e.preventDefault();
+
+            togglePrivacy();
+
+            document
+                .getElementById("privacyBox")
+                .scrollIntoView({ behavior: "smooth", block: "start" });
+
+        });
+
+    }
 
 }

@@ -97,6 +97,16 @@ border-radius:20px;}
 .search-input{width:100%;padding:16px;border:1px solid var(--border); border-radius:10px;margin-bottom:25px;font-size:1rem;}
 
 /* ========================================
+ PAGINARE
+ ======================================== */
+
+.pagination{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin-top:35px;}
+.page-btn{background:#f3f4f6;border:none;padding:10px 16px;border-radius:8px;cursor:pointer;font-weight:600;min-width:42px;transition:.2s;}
+.page-btn:hover:not(:disabled):not(.active){background:#e5e7eb;}
+.page-btn.active{background:var(--secondary);color:#000;}
+.page-btn:disabled{opacity:.35;cursor:default;}
+
+/* ========================================
  TOP CARTI
  ======================================== */
 
@@ -151,4 +161,64 @@ footer h3{margin-bottom:10px;}
 .nav-actions{ width:100%; display:flex; justify-content:center; }
 .nav-btn{ display:inline-flex; align-items:center; justify-content:center; width:auto; max-width:280px; padding:12px 22px; font-size:0.9rem; line-height:1.3; text-align:center; white-space:nowrap; border-radius:8px;}
 .footer-btn{ width:100%; font-size:1.1rem; padding:16px; }
+}
+/* ========================================
+ COOKIE BANNER (informativ, non-blocant)
+ ======================================== */
+
+.cookie-banner{
+position:fixed;
+left:0;
+right:0;
+bottom:0;
+z-index:1000;
+background:var(--primary);
+color:#fff;
+padding:16px 20px;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+border-top:1px solid rgba(255,255,255,.1);
+box-shadow:0 -6px 20px rgba(0,0,0,.15);
+}
+.cookie-banner[hidden]{
+display:none;
+}
+.cookie-banner p{
+margin:0;
+font-size:.9rem;
+max-width:60ch;
+color:rgba(255,255,255,.88);
+}
+.cookie-banner button{
+font-weight:700;
+font-size:.85rem;
+padding:10px 20px;
+border:none;
+border-radius:8px;
+background:var(--secondary);
+color:#000;
+cursor:pointer;
+white-space:nowrap;
+transition:.2s;
+}
+.cookie-banner button:hover{
+background:#fbbf24;
+transform:translateY(-2px);
+}
+.cookie-banner a{
+color:var(--secondary);
+text-decoration:underline;
+cursor:pointer;
+background:none;
+border:none;
+padding:0;
+font:inherit;
+}
+
+@media(max-width:600px){
+.cookie-banner{padding:14px 16px;text-align:center;}
+.cookie-banner button{width:100%;}
 }
