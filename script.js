@@ -718,24 +718,8 @@ trackEvent("newsletter_signup",{
 }
 
 // ========================================
-// Footer cu Politica GDPR si Contact
+// Footer cu Contact
 // ========================================
-
-function togglePrivacy(){
-
-const box =
-document.getElementById(
-"privacyBox"
-);
-
-box.style.display =
-box.style.display==="block"
-?
-"none"
-:
-"block";
-
-}
 
 function toggleContact(){
 
@@ -1035,7 +1019,6 @@ function initializeCookieBanner(){
 
     const banner = document.getElementById("cookie-banner");
     const dismissBtn = document.getElementById("cookie-banner-dismiss");
-    const detailsLink = document.getElementById("cookie-banner-details");
 
     if (!banner || !dismissBtn) return;
 
@@ -1051,21 +1034,5 @@ function initializeCookieBanner(){
         banner.hidden = true;
 
     });
-
-    if (detailsLink) {
-
-        detailsLink.addEventListener("click", (e) => {
-
-            e.preventDefault();
-
-            togglePrivacy();
-
-            document
-                .getElementById("privacyBox")
-                .scrollIntoView({ behavior: "smooth", block: "start" });
-
-        });
-
-    }
 
 }

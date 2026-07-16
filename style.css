@@ -128,8 +128,26 @@ border-radius:20px;}
 
 footer{background:#0f172a;color:white;text-align:center;padding:40px 20px;}
 footer h3{margin-bottom:10px;}
-.footer-btn{background:#f59e0b;color:#000000;border:none;padding:14px 24px;border-radius:10px;cursor:pointer;font-size:1.05rem;font-weight:700;transition:0.3s;}
+.footer-btn{display:inline-block;text-decoration:none;background:#f59e0b;color:#000000;border:none;padding:14px 24px;border-radius:10px;cursor:pointer;font-size:1.05rem;font-weight:700;transition:0.3s;}
 .footer-btn:hover{background:#fbbf24;transform:translateY(-2px);}
+.footer-sal{display:flex;justify-content:center;margin-top:20px;}
+.footer-sal img{display:block;border-radius:4px;}
+
+/* ========================================
+ PAGINI LEGALE (privacy.html, termeni.html)
+ ======================================== */
+
+.legal-content{max-width:76ch;margin:0 auto;padding:50px 0 80px;}
+.legal-content h1{font-size:2rem;margin-bottom:10px;}
+.legal-content .legal-updated{color:var(--text-light);font-size:.9rem;margin-bottom:40px;}
+.legal-content h2{font-size:1.3rem;margin-top:40px;margin-bottom:12px;border-bottom:2px solid var(--secondary-light);padding-bottom:8px;}
+.legal-content p, .legal-content li{margin-bottom:12px;}
+.legal-content ul, .legal-content ol{padding-left:22px;margin-bottom:16px;}
+.legal-content table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:.92rem;}
+.legal-content th, .legal-content td{text-align:left;padding:10px 12px;border:1px solid var(--border);vertical-align:top;}
+.legal-content th{background:var(--background-soft);}
+.legal-content .back-link{display:inline-block;margin-bottom:20px;color:var(--text-light);}
+.legal-content .todo-note{background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:14px 18px;margin:20px 0;font-size:.92rem;}
 .footer-box{display:none;margin-top:25px;padding:25px;background:#fff7ed;border:2px solid #f59e0b;border-radius:12px;text-align:left;color:#111827;font-size:1rem;line-height:1.7;}
 .footer-row{display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap;}
 
