@@ -365,11 +365,11 @@
     "productUrl": "",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "price": "47,36 Lei",
+    "price": "47,60 Lei",
     "image": "imagini/placebo.jpg",
     "affiliate": "https://www.actsipoliton.ro/tu-esti-placebo-carte-tiparita?tracking=69a17509d7810",
     "description": "Cartea asta nu e pentru cei care vor confirmare. E pentru cei dispuși să-și pună la îndoială propriile credințe despre sănătate.",
-    "oldPrice": "67,65 Lei",
+    "oldPrice": "68,00 Lei",
     "discount": "30%",
     "offerEnds": "2026-08-05T23:59:59"
   },
@@ -453,10 +453,12 @@
     "productUrl": "",
     "category": "jurnale",
     "score": "9.8 / 10",
-    "price": "54,00 Lei",
+    "price": "43,20 Lei",
     "image": "imagini/Guinness.jpg",
     "affiliate": "https://www.actsipoliton.ro/stephen-mansfield-in-cautarea-lui-dumnezeu-si-a-guinness-carte?tracking=69a17509d7810",
-    "description": "În 1900, muncitorii de la fabrica Guinness aveau beneficii pe care Google și Microsoft nu le oferă nici azi. Povestea din spate nu are legătură cu marketingul."
+    "description": "În 1900, muncitorii de la fabrica Guinness aveau beneficii pe care Google și Microsoft nu le oferă nici azi. Povestea din spate nu are legătură cu marketingul.",
+    "oldPrice": "54,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "444 de fragmente memorabile ale lui Neagu Djuvara",
@@ -883,5 +885,47 @@
     "image": "imagini/padurea.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=b67130724",
     "description": "4 milioane de exemplare. Vândute doar în Japonia. Doar în 1987. Autorul a fugit din țară timp de un an ca să scape de faima pe care el însuși n-a vrut-o."
+  },
+  {
+    "title": "Jurnalul Annei Frank",
+    "source": "librarienet",
+    "author": "Anne Frank",
+    "productUrl": "https://www.librarie.net/p/451894/nia=1693",
+    "category": "jurnale",
+    "score": "9.9 / 10",
+    "oldPrice": "59,00 Lei",
+    "discount": "15%",
+    "price": "50,15 Lei",
+    "image": "imagini/JurnalulAnnei.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=DhpZBeEChMuv",
+    "description": "Câți dintre noi am scrie sincer în jurnal dacă am ști că, într-o zi, îl va citi toată lumea? Anne Frank a scris-o oricum. La 13 ani. Ascunsă în Amsterdam, în 1942. "
+  },
+  {
+    "title": "Elevul Dima dintr-a saptea",
+    "source": "librarienet",
+    "author": "Mihail Drumes",
+    "productUrl": "https://www.librarie.net/p/451894/nia=1693",
+    "category": "beletristică",
+    "score": "9.4 / 10",
+    "oldPrice": "59,00 Lei",
+    "discount": "15%",
+    "price": "50,15 Lei",
+    "image": "imagini/Dima.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=hlLNPL4FcHut",
+    "description": "Toată lumea îți spune că adolescența e cea mai frumoasă perioadă. Drumeș a scris în 1946 o carte care demonstrează că noi, adulții, am uitat ce înseamnă să trăiești cu adevărat."
+  },
+  {
+    "title": "Micul Print",
+    "source": "librarienet",
+    "author": "Antoine de Saint-Exupery",
+    "productUrl": "https://www.librarie.net/p/215695/nia=1693",
+    "category": "beletristică",
+    "score": "9.4 / 10",
+    "oldPrice": "10,00 Lei",
+    "discount": "25%",
+    "price": "7,50 Lei",
+    "image": "imagini/micul.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=388d8fae7",
+    "description": "Toată lumea îți spune că e o carte pentru copii. 140 de milioane de oameni au citit-o și au descoperit că e, de fapt, un diagnostic precis al vieții lor de adult."
   }
 ]
