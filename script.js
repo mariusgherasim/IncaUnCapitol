@@ -640,82 +640,10 @@ document.addEventListener(
 // ========================================
 // NEWSLETTER
 // ========================================
-
-const newsletterForm =
-document.getElementById(
-"newsletterForm"
-);
-
-if(newsletterForm){
-
-newsletterForm.addEventListener(
-"submit",
-async function(e){
-
-e.preventDefault();
-
-const formData =
-new FormData(
-newsletterForm
-);
-
-const response =
-await fetch(
-newsletterForm.action,
-{
-method:"POST",
-body:formData
-}
-);
-
-const result =
-await response.json();
-
-if(result.success){
-
-document
-.getElementById(
-"successMessage"
-)
-.innerHTML = `
-
-<h3>
-Bine ai venit la ÎncăUnCapitol!
-</h3>
-
-<p>
-Abonarea a fost înregistrată cu succes.
-</p>
-
-<p>
-În curând vei primi recomandările mele de cărți și promoțiile disponibile.
-</p>
-
-`;
-
-document
-.getElementById(
-"successMessage"
-)
-.style.display =
-"block";
-
-newsletterForm.reset();
-
-trackEvent("newsletter_signup",{
-
-    source:"newsletter",
-
-    site:"carti"
-
-});
-
-}
-
-}
-);
-
-}
+// Abonarea e gestionată acum nativ de formularul MailerLite (embed
+// direct în index.html) — nu mai are nevoie de cod aici. Evenimentul
+// GA4 "newsletter_signup" e trimis din callback-ul de succes al
+// MailerLite (ml_webform_success_44026818), definit inline lângă embed.
 
 // ========================================
 // Footer cu Contact

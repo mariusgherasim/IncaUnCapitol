@@ -134,6 +134,38 @@ footer h3{margin-bottom:10px;}
 .footer-sal img{display:block;border-radius:4px;}
 
 /* ========================================
+ FORMULAR MAILERLITE — suprascriere culori brand
+ (peste CSS-ul de baza generat de MailerLite in <head>)
+ ======================================== */
+
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper{
+background-color:transparent!important;
+}
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input{
+font-family:"Segoe UI",Arial,Helvetica,sans-serif!important;
+}
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{
+background-color:var(--secondary)!important;
+color:#000000!important;
+font-family:"Segoe UI",Arial,Helvetica,sans-serif!important;
+}
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{
+background-color:#fbbf24!important;
+}
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description{
+color:rgba(255,255,255,.85)!important;
+font-weight:400!important;
+}
+#mlb2-44026818 input[type="checkbox"]:checked ~ .label-description::before{
+border-color:var(--secondary)!important;
+background-color:var(--secondary)!important;
+}
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4,
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p{
+color:#ffffff!important;
+}
+
+/* ========================================
  PAGINI LEGALE (privacy.html, termeni.html)
  ======================================== */
 
