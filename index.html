@@ -66,6 +66,20 @@ gtag('config', 'G-HS59YL4Y3D');
 #mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox label { font-weight: normal; margin: 0; padding: 0; position: relative; display: block; min-height: 24px; padding-left: 24px; }
 #mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description { color: #000000; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; text-align: left; margin-bottom: 0; position: relative; vertical-align: top; font-style: normal; font-weight: 700; }
 #mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type="checkbox"] { box-sizing: border-box; padding: 0; position: absolute; z-index: -1; opacity: 0; margin-top: 5px; margin-left: -1.5rem; overflow: visible; }
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+  position: absolute; top: 4px; left: -1.5rem; display: block; width: 16px; height: 16px;
+  pointer-events: none; content: ""; background-color: #ffffff; border: #adb5bd solid 1px; border-radius: 4px;
+}
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after {
+  position: absolute; top: 4px; left: -1.5rem; display: block; width: 16px; height: 16px;
+  content: ""; background: no-repeat 50%/50% 50%;
+}
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::before {
+  border-color: #000000!important; background-color: #000000!important;
+}
 #mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit { margin: 0 0 20px 0; float: left; width: 100%; }
 #mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button { background-color: #000000 !important; border: none !important; border-radius: 4px !important; box-shadow: none !important; color: #ffffff !important; cursor: pointer; font-family: 'Open Sans', Arial, Helvetica, sans-serif !important; font-size: 14px !important; font-weight: 700 !important; line-height: 21px !important; height: auto; padding: 10px !important; width: 100% !important; box-sizing: border-box !important; }
 #mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading { display: none; }
@@ -74,6 +88,18 @@ gtag('config', 'G-HS59YL4Y3D');
 .ml-error .custom-checkbox-radio-list { border: 1px solid red !important; border-radius: 4px; padding: 10px; }
 .ml-error .label-description, .ml-error .label-description p, .ml-error .label-description p a, .ml-error label:first-child { color: #ff0000 !important; }
 @media only screen and (max-width: 400px){ .ml-form-embedWrapper.embedDefault, .ml-form-embedWrapper.embedPopup { width: 100%!important; } }
+</style>
+
+<!-- Suprapunere culori brand — trebuie sa ramana DUPA CSS-ul MailerLite
+     de mai sus, altfel regulile !important de acolo castiga cascada -->
+<style type="text/css">
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper{ background-color: transparent!important; }
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input{ font-family:"Segoe UI",Arial,Helvetica,sans-serif!important; }
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{ background-color:#f59e0b!important; color:#000000!important; font-family:"Segoe UI",Arial,Helvetica,sans-serif!important; }
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{ background-color:#fbbf24!important; }
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description{ color:rgba(255,255,255,.85)!important; font-weight:400!important; }
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::before{ border-color:#f59e0b!important; background-color:#f59e0b!important; }
+#mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4, #mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p{ color:#ffffff!important; }
 </style>
 </head>
 <body>
