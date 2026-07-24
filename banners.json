@@ -1,0 +1,15 @@
+[
+  {
+    "_readme": "Cum se folosește: fiecare banner are startDate și endDate (format AAAA-LL-ZZ, ex. 2026-08-01). Ambele sunt opționale și independente: lași gol la amândouă -> bannerul e mereu valabil; pui doar endDate -> valabil pana la acea data, apoi dispare automat; pui doar startDate -> apare abia de la acea data inainte; pui ambele -> valabil strict in intervalul respectiv. Acest obiect e doar informativ, nu e un banner real - nu are 'channels', deci codul din script.js il ignora mereu, nu va aparea niciodata pe site."
+  },
+  {
+    "id": "libris-01",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271437/original/271437.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=f50d5d40c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": ["site", "email"],
+    "startDate": "",
+    "endDate": ""
+  }
+]

@@ -97,6 +97,29 @@ border-radius:20px;}
 .search-input{width:100%;padding:16px;border:1px solid var(--border); border-radius:10px;margin-bottom:25px;font-size:1rem;}
 
 /* ========================================
+ BANNER-SLOT (bannere-imagine de afiliere)
+ ======================================== */
+
+.banner-section{padding:20px 0 0;}
+.banner-slot{position:relative;}
+.banner-slot .banner-label{
+position:absolute;
+top:8px;
+left:8px;
+background:rgba(17,24,39,.75);
+color:#fff;
+font-size:.7rem;
+font-weight:700;
+text-transform:uppercase;
+letter-spacing:.05em;
+padding:3px 8px;
+border-radius:4px;
+z-index:2;
+}
+.banner-slot a{display:block;border-radius:12px;overflow:hidden;box-shadow:var(--shadow);}
+.banner-slot img{display:block;width:100%;height:auto;}
+
+/* ========================================
  PAGINARE
  ======================================== */
 

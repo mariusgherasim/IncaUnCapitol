@@ -626,6 +626,8 @@ document.addEventListener(
 
         await loadBooks();
 
+        await loadBanner();
+
         initializeSearch();
 
         initializeTrackingDelegation();
@@ -875,6 +877,12 @@ function initializeTrackingDelegation(){
                 link.dataset.author
             );
 
+        } else if (link.dataset.track === "banner") {
+
+            trackEvent("banner_click", {
+                merchant: link.dataset.merchant
+            });
+
         }
 
     });
@@ -962,5 +970,89 @@ function initializeCookieBanner(){
         banner.hidden = true;
 
     });
+
+}
+
+/* ========================================
+   BANNER-SLOT (bannere-imagine de afiliere)
+   — rotatie pe zi, fara server, acelasi hash
+   folosit si la generate-carti-email.cjs
+======================================== */
+
+function hashSeed(str){
+
+    let hash = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        hash = (hash * 31 + str.charCodeAt(i)) | 0;
+    }
+
+    return Math.abs(hash);
+
+}
+
+// Un banner e valabil daca data de azi cade in intervalul
+// startDate..endDate. Ambele campuri sunt optionale si independente:
+// - startDate lipsa/gol -> nu are prag de inceput (valabil de oricand)
+// - endDate lipsa/gol -> nu are prag de sfarsit (valabil la nesfarsit)
+// Nu exista countdown vizual pentru bannere (spre deosebire de
+// offerEnds la carti) — doar se ascunde/arata in functie de interval.
+function isBannerActive(banner, todayStr){
+
+    if (banner.startDate && todayStr < banner.startDate) return false;
+
+    if (banner.endDate && todayStr > banner.endDate) return false;
+
+    return true;
+
+}
+
+async function loadBanner(){
+
+    const container = document.getElementById("bannerSlot");
+
+    if (!container) return;
+
+    try {
+
+        const response = await fetch(
+            "banners.json?v=" + Date.now(),
+            { cache: "no-store" }
+        );
+
+        const allBanners = await response.json();
+
+        const today = new Date().toISOString().slice(0, 10);
+
+        const siteBanners = allBanners.filter(b =>
+            Array.isArray(b.channels) &&
+            b.channels.includes("site") &&
+            isBannerActive(b, today)
+        );
+
+        if (!siteBanners.length) return;
+
+        const index = hashSeed(today + "-banner-site") % siteBanners.length;
+        const banner = siteBanners[index];
+
+        container.innerHTML = `
+            <span class="banner-label">Publicitate</span>
+            <a
+                href="${escapeHtml(banner.link)}"
+                target="_blank"
+                rel="nofollow sponsored noopener"
+                data-track="banner"
+                data-merchant="${escapeHtml(banner.merchant)}"
+            >
+                <img src="${escapeHtml(banner.image)}" alt="${escapeHtml(banner.alt || banner.merchant)}" loading="lazy">
+            </a>
+        `;
+
+    } catch (error) {
+
+        console.error("Eroare încărcare banners.json:", error);
+
+
+    }
 
 }
