@@ -934,8 +934,8 @@
     "image": "imagini/pribegie.jpg",
     "score": "9.8 / 10",
     "category": "jurnale",
-    "price": "0 Lei",
-    "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg." 
+    "price": "83,52 Lei",
+    "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg."
   },
   {
     "title": "Viața pe un peron",
@@ -946,7 +946,7 @@
     "image": "imagini/peron.jpg",
     "score": "9.8 / 10",
     "category": "beletristică",
-    "price": "0 Lei",
+    "price": "47,58 Lei",
     "description": "4.383 de cititori au dat rating acestei cărți pe Goodreads — o carte publicată în 1981, în plină paranoia ceaușistă, cu o medie de 4,14 din 5. Întrebarea e simplă: ce anume dintr-un roman scris acum 45 de ani continuă să fie atât de actual? Răspunsul: cartea nu e despre comunism. E despre frică. Și frica n-are epocă."
   },
   {
@@ -958,8 +958,10 @@
     "image": "imagini/dejun.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "0 Lei",
-    "description": "288.000 de oameni au evaluat această carte pe Goodreads. Norman Mailer — unul dintre cei mai importanți scriitori americani ai secolului XX — a spus că nu ar schimba două cuvinte din ea. Truman Capote a scris-o în 1958, la 34 de ani. A publicat-o prima dată în Esquire, în noiembrie același an. Lumea literară nu a mai fost la fel după."
+    "price": "35,10 Lei",
+    "description": "288.000 de oameni au evaluat această carte pe Goodreads. Norman Mailer — unul dintre cei mai importanți scriitori americani ai secolului XX — a spus că nu ar schimba două cuvinte din ea. Truman Capote a scris-o în 1958, la 34 de ani. A publicat-o prima dată în Esquire, în noiembrie același an. Lumea literară nu a mai fost la fel după.",
+    "oldPrice": "36,95 Lei",
+    "discount": "-5%"
   },
   {
     "title": "Lolita",
@@ -970,7 +972,9 @@
     "image": "imagini/lolita.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "0 Lei",
-    "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?"
+    "price": "30,08 Lei",
+    "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?",
+    "oldPrice": "31,66 Lei",
+    "discount": "-5%"
   }
 ]
