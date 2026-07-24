@@ -761,21 +761,6 @@
     "description": "65 de milioane de exemplare vândute din 1951 încoace. Un milion pe an, în fiecare an, inclusiv acum. Cum rămâne relevantă o carte scrisă acum 75 de ani? De ce o recunosc exact aceiași adolescenți, generație după generație? Și de ce n-a reușit nimeni s-o înlocuiască?"
   },
   {
-    "title": "Jurnalul fericirii. Manuscrisul de la Rohia",
-    "source": "bookzone",
-    "author": "N. Steinhardt",
-    "productUrl": "https://bookzone.ro/carte/jurnalul-fericirii-manuscrisul-de-la-rohia",
-    "category": "jurnale",
-    "score": "9.8 / 10",
-    "oldPrice": "89,86 Lei",
-    "discount": "5%",
-    "price": "85,1 Lei",
-    "image": "imagini/jurnalul_1.jpg",
-    "offerEnds": "",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=5de8fa966",
-    "description": "Cartea asta nu e pentru cine caută liniște ușoară. E pentru cine vrea să înțeleagă ce rămâne dintr-un om când i se ia absolut tot."
-  },
-  {
     "title": "Pachet „Învață cum să înveți“",
     "source": "curteaveche",
     "author": "Barbara Oakley & Olav Schewe (Learn Like a Pro), David Robson (The Expectation Effect), Gloria Mark (Attention Span), Susan Magsamen & Ivy Ross (Your Brain on Art)",
@@ -815,20 +800,6 @@
     "description": "A ars propriul manuscris cu mâinile lui. Regimul i-a interzis fiecare rând. Și totuși cartea asta a ajuns una dintre cele mai citite ale secolului XX"
   },
   {
-    "title": "Hotul de carti",
-    "source": "librarienet",
-    "author": "Markus Zusak",
-    "productUrl": "https://www.librarie.net/p/169731/nia=1693",
-    "category": "beletristică",
-    "score": "9.9 / 10",
-    "oldPrice": "56,00 Lei",
-    "discount": "40%",
-    "price": "33,60 Lei",
-    "image": "imagini/hotul.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=028b8e1f9",
-    "description": "München, 1939. O fetiță de 9 ani își pierde fratele într-un tren. Lângă mormântul lui, ridică din zăpadă primul obiect pe care avea să-l fure vreodată: un manual pentru gropari."
-  },
-  {
     "title": "Fahrenheit 451",
     "source": "librarienet",
     "author": "Ray Bradbury",
@@ -855,20 +826,6 @@
     "image": "imagini/jocul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=d7df32678",
     "description": "11 ani. Atât i-a luat lui Hermann Hesse să scrie o singură carte. A câștigat Premiul Nobel pentru Literatură. Câți ani ai fi dispus să investești într-un singur lucru făcut ireproșabil?"
-  },
-  {
-    "title": "Jurnalizarea gandurilor, trairilor, simturilor si sentimentelor liderilor",
-    "source": "librarienet",
-    "author": "Petre Nicolae, Violeta-Marta Nicolae",
-    "productUrl": "https://www.librarie.net/p/469920/nia=1693",
-    "category": "jurnale",
-    "score": "9.8 / 10",
-    "oldPrice": "296,00 Lei",
-    "discount": "28%",
-    "price": "213,12 Lei",
-    "image": "imagini/Jurnalizare.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=jI0Np6ShsUku",
-    "description": "120 de antreprenori. 3 zile. Un singur program. 260 de companii reorganizate în doi ani. 3.800 de certificate de competențe în conducerea afacerii. Un singur om din România deține licența metodologiei din spatele acestor cifre."
   },
   {
     "title": "Padurea norvegiana",
@@ -899,20 +856,6 @@
     "description": "Câți dintre noi am scrie sincer în jurnal dacă am ști că, într-o zi, îl va citi toată lumea? Anne Frank a scris-o oricum. La 13 ani. Ascunsă în Amsterdam, în 1942. "
   },
   {
-    "title": "Elevul Dima dintr-a saptea",
-    "source": "librarienet",
-    "author": "Mihail Drumes",
-    "productUrl": "https://www.librarie.net/p/451894/nia=1693",
-    "category": "beletristică",
-    "score": "9.4 / 10",
-    "oldPrice": "59,00 Lei",
-    "discount": "15%",
-    "price": "50,15 Lei",
-    "image": "imagini/Dima.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=hlLNPL4FcHut",
-    "description": "Toată lumea îți spune că adolescența e cea mai frumoasă perioadă. Drumeș a scris în 1946 o carte care demonstrează că noi, adulții, am uitat ce înseamnă să trăiești cu adevărat."
-  },
-  {
     "title": "Micul Print",
     "source": "librarienet",
     "author": "Antoine de Saint-Exupery",
@@ -925,5 +868,61 @@
     "image": "imagini/micul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=388d8fae7",
     "description": "Toată lumea îți spune că e o carte pentru copii. 140 de milioane de oameni au citit-o și au descoperit că e, de fapt, un diagnostic precis al vieții lor de adult."
+  },
+  {
+    "title": "1984",
+    "source": "librarienet",
+    "author": "George Orwell",
+    "productUrl": "https://www.librarie.net/p/468806/nia=1693",
+    "category": "beletristică",
+    "score": "9.5 / 10",
+    "oldPrice": "59,00 Lei",
+    "discount": "40%",
+    "price": "35,40 Lei",
+    "image": "imagini/1984.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=MHIFxC5p0SY6",
+    "description": "Crezi că 1984 e o carte despre un an care a trecut. Nu e. E o carte despre ce se întâmplă când oamenii acceptă că adevărul poate fi rescris. Orwell a scris-o în 1948. 30 de milioane de exemplare vândute. O creștere de 9.500% a vânzărilor într-o singură săptămână — în ianuarie 2017, după ce un politician american a folosit sintagma „fapte alternative”. Cărțile nu se vând așa din accident. Oamenii știu când realitatea din jurul lor miroase a Orwell."
+  },
+  {
+    "title": "Batranul si marea",
+    "source": "librarienet",
+    "author": "Ernest Hemingway",
+    "productUrl": "https://www.librarie.net/p/200887/nia=1693",
+    "category": "beletristică",
+    "score": "9.5 / 10",
+    "oldPrice": "44,95 Lei",
+    "discount": "10%",
+    "price": "40,45 Lei",
+    "image": "imagini/marea.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=1611a22f6",
+    "description": "În septembrie 1952, revista Life Magazine a publicat integral textul acestei cărți. Ediția s-a vândut în 5 milioane de exemplare în 2 zile. Un an mai târziu: Premiul Pulitzer. Încă un an: Premiul Nobel. 176 de pagini. Nicio altă carte a secolului XX n-a făcut asta."
+  },
+  {
+    "title": "Panza de paianjen",
+    "source": "librarienet",
+    "author": "Cella Serghi",
+    "productUrl": "https://www.librarie.net/p/512991/nia=1693",
+    "category": "beletristică",
+    "score": "9.5 / 10",
+    "oldPrice": "59,00 Lei",
+    "discount": "10%",
+    "price": "53,10 Lei",
+    "image": "imagini/panza.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=VBeuuZkSh_zU",
+    "description": "Există cărți pe care le citești și te uiți în urmă. Nu la personaj — la tine. La deciziile luate din frică, la iubirile care nu s-au mai terminat bine, la momentele în care ai ales aparența în locul adevărului. Pânza de păianjen e una din acele cărți. Tocmai de asta e greu de uitat."
+  },
+  {
+    "title": "Magicianul",
+    "source": "librarienet",
+    "author": "John Fowles",
+    "productUrl": "https://www.librarie.net/p/191384/nia=1693",
+    "category": "beletristică",
+    "score": "9.5 / 10",
+    "oldPrice": "",
+    "discount": "",
+    "price": "42,20 Lei",
+    "image": "imagini/magicianul.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=06fd3d526",
+    "description": "Locul 67 în The Big Read al BBC. Top 100 cele mai bune romane ale secolului XX după Modern Library. 64.000 de recenzii pe Goodreads. Și totuși — puțini știu că Fowles a scris cartea asta înainte să fie scriitor. A lucrat la ea ani de zile. A publicat alte două romane înaintea ei. Când a apărut în 1966, New York Times a scris: „Imposibil de oprit.” Aveau dreptate."
   }
 ]
