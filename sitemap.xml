@@ -4,9 +4,23 @@
 
   <url>
     <loc>https://carti.gherasimmarius.com/</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://carti.gherasimmarius.com/privacy.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://carti.gherasimmarius.com/termeni.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>
