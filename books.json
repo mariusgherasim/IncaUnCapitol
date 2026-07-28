@@ -267,8 +267,8 @@
     "category": "dezvoltare",
     "score": "9.7 / 10",
     "oldPrice": "71 Lei",
-    "discount": "36%",
-    "price": "45,4 Lei",
+    "discount": "20%",
+    "price": "56,8 Lei",
     "image": "imagini/inteligenta_emotionala.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=eb9c4ff5c",
     "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând."
@@ -338,8 +338,8 @@
     "category": "dezvoltare",
     "score": "9.7 / 10",
     "oldPrice": "74 Lei",
-    "discount": "36%",
-    "price": "47,4 Lei",
+    "discount": "20%",
+    "price": "59,2 Lei",
     "image": "imagini/tata-bogat-tata-sarac.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=41136faff",
     "description": "Ai stat 16 ani în școală. Ți-au predat matematică, geografie, literatură. Nimeni nu te-a învățat ce e un activ. Nimeni nu ți-a explicat de ce a doua zi după salariu tot nu ajunge. Și asta nu e din greșeală."
@@ -395,8 +395,8 @@
     "category": "dezvoltare",
     "score": "9.8 / 10",
     "oldPrice": "47,57 Lei",
-    "discount": "36%",
-    "price": "30,4 Lei",
+    "discount": "20%",
+    "price": "38,1 Lei",
     "image": "imagini/Mindshift.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=e47568444",
     "description": "Toată lumea îți spune să te specializezi ca să fii în siguranță. Mindshift demonstrează că exact asta te ține pe loc."
@@ -439,8 +439,8 @@
     "category": "financiar",
     "score": "9.8 / 10",
     "oldPrice": "146,94 Lei",
-    "discount": "36%",
-    "price": "94 Lei",
+    "discount": "20%",
+    "price": "117,6 Lei",
     "image": "imagini/investitorul_inteligent.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=981de12ba",
@@ -466,8 +466,8 @@
     "category": "jurnale",
     "score": "9.8 / 10",
     "oldPrice": "51,8 Lei",
-    "discount": "28%",
-    "price": "37,3 Lei",
+    "discount": "12%",
+    "price": "45,6 Lei",
     "image": "imagini/fragmente.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=09ee0c629",
@@ -508,8 +508,8 @@
     "category": "beletristică",
     "score": "9.8 / 10",
     "oldPrice": "65 Lei",
-    "discount": "28%",
-    "price": "46,8 Lei",
+    "discount": "12%",
+    "price": "57,2 Lei",
     "image": "imagini/Alchimistul.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=D-Qy1sNgEwVL",
@@ -636,8 +636,8 @@
     "category": "leadership",
     "score": "9.7 / 10",
     "oldPrice": "47,57 Lei",
-    "discount": "36%",
-    "price": "30,4 Lei",
+    "discount": "20%",
+    "price": "38,1 Lei",
     "image": "https://api.bookzone.ro/upload/produse/ZJHKDF3DW/bg1.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=c3262a293",
@@ -690,8 +690,8 @@
     "category": "beletristică",
     "score": "9.7 / 10",
     "oldPrice": "43,87 Lei",
-    "discount": "38%",
-    "price": "27,2 Lei",
+    "discount": "20%",
+    "price": "35,1 Lei",
     "image": "imagini/Gatsby (1).jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=63f0fa508",
@@ -729,8 +729,8 @@
     "category": "financiar",
     "score": "9.7 / 10",
     "oldPrice": "59 Lei",
-    "discount": "36%",
-    "price": "37,8 Lei",
+    "discount": "20%",
+    "price": "47,2 Lei",
     "image": "imagini/asoltanie.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=843a9cf4c",
@@ -934,10 +934,8 @@
     "image": "imagini/pribegie.jpg",
     "score": "9.8 / 10",
     "category": "jurnale",
-    "price": "70,99 Lei",
-    "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg.",
-    "oldPrice": "83,52 Lei",
-    "discount": "-15%"
+    "price": "83,52 Lei",
+    "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg."
   },
   {
     "title": "Viața pe un peron",
@@ -948,10 +946,8 @@
     "image": "imagini/peron.jpg",
     "score": "9.8 / 10",
     "category": "beletristică",
-    "price": "40,44 Lei",
-    "description": "4.383 de cititori au dat rating acestei cărți pe Goodreads — o carte publicată în 1981, în plină paranoia ceaușistă, cu o medie de 4,14 din 5. Întrebarea e simplă: ce anume dintr-un roman scris acum 45 de ani continuă să fie atât de actual? Răspunsul: cartea nu e despre comunism. E despre frică. Și frica n-are epocă.",
-    "oldPrice": "47,58 Lei",
-    "discount": "-15%"
+    "price": "47,58 Lei",
+    "description": "4.383 de cititori au dat rating acestei cărți pe Goodreads — o carte publicată în 1981, în plină paranoia ceaușistă, cu o medie de 4,14 din 5. Întrebarea e simplă: ce anume dintr-un roman scris acum 45 de ani continuă să fie atât de actual? Răspunsul: cartea nu e despre comunism. E despre frică. Și frica n-are epocă."
   },
   {
     "title": "Mic dejun la Tiffany",
@@ -962,10 +958,10 @@
     "image": "imagini/dejun.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "31,41 Lei",
+    "price": "35,10 Lei",
     "description": "288.000 de oameni au evaluat această carte pe Goodreads. Norman Mailer — unul dintre cei mai importanți scriitori americani ai secolului XX — a spus că nu ar schimba două cuvinte din ea. Truman Capote a scris-o în 1958, la 34 de ani. A publicat-o prima dată în Esquire, în noiembrie același an. Lumea literară nu a mai fost la fel după.",
     "oldPrice": "36,95 Lei",
-    "discount": "-15%"
+    "discount": "-5%"
   },
   {
     "title": "Lolita",
@@ -976,10 +972,10 @@
     "image": "imagini/lolita.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "26,91 Lei",
+    "price": "30,08 Lei",
     "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?",
     "oldPrice": "31,66 Lei",
-    "discount": "-15%"
+    "discount": "-5%"
   },
   {
     "title": "Străinul",
@@ -988,12 +984,12 @@
     "productUrl": "https://www.libris.ro/carte/strainul-albert-camus/1254194?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=6bd4aff53",
     "image": "imagini/strainul.jpg",
-    "score": "",
+    "score": "9.8 / 10",
     "category": "beletristică",
-    "price": "38,25 Lei",
+    "price": "42,75 Lei",
     "description": "Tirajul inițial: 4.400 de exemplare. Paris, 1942, sub ocupație nazistă. Până azi: peste 6 milioane de exemplare vândute, tradus în 68 de limbi, ecranizat de două ori. Cine a decis că o carte despre un om indiferent la propria viață merită să supraviețuiască un secol?",
     "oldPrice": "45,00 Lei",
-    "discount": "-15%"
+    "discount": "-5%"
   },
   {
     "title": "Omul în căutarea sensului vieții. Ediția pentru tinerii cititori",
@@ -1002,12 +998,10 @@
     "productUrl": "https://www.libris.ro/carte/omul-in-cautarea-sensului-vietii-editia-pentru-tinerii-cititori-viktor-e-frankl/28728210?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=c795f71e1",
     "image": "imagini/sesnsul.jpg",
-    "score": "",
+    "score": "9.6 / 10",
     "category": "jurnale",
-    "price": "35,95 Lei",
-    "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat.",
-    "oldPrice": "42,30 Lei",
-    "discount": "-15%"
+    "price": "42,30 Lei",
+    "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat."
   },
   {
     "title": "Stephen Hawking, o viață dedicată științei",
@@ -1016,7 +1010,7 @@
     "productUrl": "https://www.libris.ro/carte/stephen-hawking-o-viata-dedicata-stiintei-michael-white/27749281?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=8657ccdcf",
     "image": "imagini/stephen.jpg",
-    "score": "",
+    "score": "9.2 / 10",
     "category": "jurnale",
     "price": "15,00 Lei",
     "description": "Știi câte săptămâni a stat o carte de fizică pe lista de bestsellere britanice? 237. Știi câte ecuații conținea? Una singură. Știi câte exemplare s-au vândut la nivel mondial? Peste 25 de milioane. Dar știi cine era omul care a scris-o — cu ego-ul lui colosal, cu căsniciile lui complicate, cu obiceiul de a trece cu scaunul peste picioarele celor care îl enervau? Asta e o altă poveste.",
@@ -1030,11 +1024,23 @@
     "productUrl": "https://www.libris.ro/carte/sa-ucizi-o-pasare-cintatoare-harper-lee/815605?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=ba1f793af",
     "image": "imagini/pasare.jpg",
-    "score": "",
-    "category": "jurnale",
-    "price": "33,96 Lei",
+    "score": "9.1 / 10",
+    "category": "beletristică",
+    "price": "35,96 Lei",
     "description": "Câte decizii ai amânat pentru că „oricum nu schimb nimic”? De câte ori ai tăcut ca să nu deranjezi? De câte ori ai ales confortul în locul a ceea ce știai că e drept? Atticus Finch a apărat un om condamnat dinainte. Știa că va pierde. A apărat indiferent. O carte scrisă în 1960, în Alabama, îți explică astăzi ce înseamnă să ai coloană vertebrală.",
     "oldPrice": "39,95 Lei",
-    "discount": "-15%"
+    "discount": "-10%"
+  },
+  {
+  "title": "Adio, arme",
+  "author": "Ernest Hemingway",
+  "source": "libris",
+  "productUrl": "https://www.libris.ro/carte/adio-arme-ernest-hemingway/44749208?utm_source=2parale&utm_medium=feed",
+  "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=dOXx8QRiQZGx",
+  "image": "imagini/arme.jpg",
+  "score": "9.2 / 10",
+  "category": "beletristică",
+  "price": "0 Lei",
+  "description": "Toată lumea îți spune că Adio, arme e o poveste de dragoste. Nu e. E demonstrația că lumea nu îți datorează nimic — nici viața, nici pe cei pe care îi iubești."
   }
 ]
