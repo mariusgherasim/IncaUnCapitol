@@ -1092,5 +1092,33 @@
     "description": "11 milioane de exemplare vândute în 80 de ani. Interzisă în URSS din 1945 până în 1989. Interzisă în România până la Revoluție. Interzisă azi în Cuba, Coreea de Nord și parțial China. Și are doar 112 pagini. Ce scrie în ea de sperie atâtea regimuri — asta merită să afli singur.",
     "oldPrice": "35,00 Lei",
     "discount": "-20%"
+  },
+  {
+    "title": "Scrisori către Luciliu",
+    "author": "Seneca",
+    "source": "libris",
+    "productUrl": "https://www.libris.ro/carte/scrisori-catre-luciliu-seneca/44974846?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=RpMo9sA09b-N",
+    "image": "imagini/seneca.jpg",
+    "score": "9.9/10",
+    "category": "jurnale",
+    "price": "79,20 Lei",
+    "description": "De 2.000 de ani există o carte despre urgența timpului. Scrisă de un om care știa că mâine i se poate cere să moară. Și totuși noi continuăm să credem că avem timp.",
+    "oldPrice": "99,00 Lei",
+    "discount": "-20%"
+  },
+  {
+    "title": "Ulise",
+    "author": "James Joyce",
+    "source": "libris",
+    "productUrl": "https://www.libris.ro/carte/ulise-james-joyce/28055398?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=15b82adc0",
+    "image": "imagini/ulise.jpg",
+    "score": "9.9/10",
+    "category": "jurnale",
+    "price": "106,93 Lei",
+    "description": "Există cărți pe care le respecți fără să le fi citit. Ulise e probabil pe lista ta. Poate că azi e momentul să schimbi asta.",
+    "oldPrice": "125,80 Lei",
+    "discount": "-15%"
   }
 ]
