@@ -1120,65 +1120,6 @@
     "description": "Există cărți pe care le respecți fără să le fi citit. Ulise e probabil pe lista ta. Poate că azi e momentul să schimbi asta.",
     "oldPrice": "125,80 Lei",
     "discount": "-15%"
-  },
-  {
-    "title": "Femei",
-    "author": "Charles Bukowski",
-    "source": "carturesti",
-    "productUrl": "https://carturesti.ro/carte/femei-158585",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=ffb923803",
-    "image": "imagini/femei.jpg",
-    "score": "",
-    "category": "beletristică",
-    "price": "0 Lei",
-    "description": "Unii, îți vor spune că „Femei” e o carte despre sex și alcool. După 88.000 de recenzii și 33 de tiraje în 45 de ani, adevărul e altul: e poate cel mai sincer roman scris vreodată despre un bărbat căruia îi e frică să fie iubit. "
-  },
-  {
-    "title": "Gripa spaniolă din 1918",
-    "author": "Laura Spinney",
-    "source": "carturesti",
-    "productUrl": "https://carturesti.ro/carte/gripa-spaniola-din-1918-738334771",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=00a8b8407",
-    "image": "imagini/gripa.jpg",
-    "score": "",
-    "category": "jurnale",
-    "price": "0 Lei",
-    "description": "Știi câte cărți s-au scris despre Primul Război Mondial? Zeci de mii. Știi câte victime a făcut gripa spaniolă față de același război? De 5 ori mai multe. Între 50 și 100 de milioane de oameni morți în mai puțin de 2 ani, și totuși în manualele noastre apare ca o notă de subsol."
-  },
-  {
-    "title": "Splendida cetate a celor o mie de sori",
-    "author": "Khaled Hosseini",
-    "source": "carturesti",
-    "productUrl": "https://carturesti.ro/carte/splendida-cetate-a-celor-o-mie-de-sori-773677448",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=2acf8c4dd",
-    "image": "imagini/cetate.jpg",
-    "score": "",
-    "category": "beletristică",
-    "price": "0 Lei",
-    "description": "1,75 milioane de recenzii pe Goodreads. 103 săptămâni pe lista NYT Bestseller. 57 de limbi. Și totuși, întrebarea care rămâne după ultima pagină nu e despre Afganistan — e despre tine. Câte sacrificii faci pentru cineva care nici nu era în planurile tale? "
-  },
-  {
-    "title": "Salonul Roșu",
-    "author": "August Strindberg",
-    "source": "carturesti",
-    "productUrl": "https://carturesti.ro/carte/salonul-rosu-saloanele-gotice-875422866",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=9ca5bb35b",
-    "image": "imagini/salonul.jpg",
-    "score": "",
-    "category": "beletristică",
-    "price": "0 Lei",
-    "description": "Un ziar suedez a numit cartea asta „murdărie” în 1879. Franz Kafka a numit-o „furie câștigată într-un pumn.” Knut Hamsun — laureat Nobel pentru Literatură — a spus că nu știe scriitori care să-l egaleze intelectual pe Strindberg. Cine avea dreptate? "
-  },
-  {
-    "title": "De la idee la bani",
-    "author": "Napoleon Hill",
-    "source": "carturesti",
-    "productUrl": "https://carturesti.ro/carte/de-la-idee-la-bani-1284853162",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=6e6877594",
-    "image": "imagini/IDEE.jpg",
-    "score": "",
-    "category": "financiar",
-    "price": "0 Lei",
-    "description": "100 de milioane de exemplare vândute. 40 de limbi. 500 de oameni studiați timp de 20 de ani. Când ai citit ultima oară o carte susținută de un research mai serios decât teza ta de doctorat?"
-  }
+  }  
+ 
 ]
