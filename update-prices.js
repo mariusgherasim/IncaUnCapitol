@@ -15,20 +15,23 @@ async function updatePrices() {
             fs.readFileSync("books.json", "utf8")
         );
 
-    // Chromium pentru Humanitas se pornește o singură dată, lazy,
-    // doar dacă apare efectiv o carte cu source "humanitas"
-    let humanitasBrowser = null;
-    let humanitasContext = null;
+    // Chromium se pornește o singură dată, lazy, doar dacă apare
+    // efectiv o carte de la o sursă care are nevoie de browser real
+    // (nu doar axios) — momentan: humanitas, carturesti. Ambele au
+    // protecție anti-bot care respinge cererile axios simple cu 403,
+    // chiar cu User-Agent setat corect.
+    let sharedBrowser = null;
+    let sharedContext = null;
 
-    async function getHumanitasContext() {
+    async function getBrowserContext() {
 
-        if (!humanitasBrowser) {
+        if (!sharedBrowser) {
 
-            console.log("🌐 Pornesc Chromium pentru Humanitas...");
+            console.log("🌐 Pornesc Chromium (folosit de humanitas/carturesti)...");
 
-            humanitasBrowser = await chromium.launch({ headless: true });
+            sharedBrowser = await chromium.launch({ headless: true });
 
-            humanitasContext = await humanitasBrowser.newContext({
+            sharedContext = await sharedBrowser.newContext({
                 userAgent:
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
                 locale: "ro-RO",
@@ -37,7 +40,7 @@ async function updatePrices() {
 
         }
 
-        return humanitasContext;
+        return sharedContext;
 
     }
 
@@ -66,7 +69,7 @@ async function updatePrices() {
             await scrape(book, {
                 axios,
                 cheerio,
-                getHumanitasContext
+                getBrowserContext
             });
 
         } catch (error) {
@@ -77,10 +80,10 @@ async function updatePrices() {
 
     }
 
-    if (humanitasBrowser) {
+    if (sharedBrowser) {
 
-        await humanitasBrowser.close();
-        console.log("🌐 Chromium Humanitas închis.");
+        await sharedBrowser.close();
+        console.log("🌐 Chromium închis.");
 
     }
 
