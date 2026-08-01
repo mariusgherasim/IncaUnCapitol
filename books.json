@@ -934,8 +934,10 @@
     "image": "imagini/pribegie.jpg",
     "score": "9.8 / 10",
     "category": "jurnale",
-    "price": "83,52 Lei",
-    "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg."
+    "price": "70,99 Lei",
+    "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg.",
+    "oldPrice": "83,52 Lei",
+    "discount": "-15%"
   },
   {
     "title": "Viața pe un peron",
@@ -946,8 +948,10 @@
     "image": "imagini/peron.jpg",
     "score": "9.8 / 10",
     "category": "beletristică",
-    "price": "47,58 Lei",
-    "description": "4.383 de cititori au dat rating acestei cărți pe Goodreads — o carte publicată în 1981, în plină paranoia ceaușistă, cu o medie de 4,14 din 5. Întrebarea e simplă: ce anume dintr-un roman scris acum 45 de ani continuă să fie atât de actual? Răspunsul: cartea nu e despre comunism. E despre frică. Și frica n-are epocă."
+    "price": "40,44 Lei",
+    "description": "4.383 de cititori au dat rating acestei cărți pe Goodreads — o carte publicată în 1981, în plină paranoia ceaușistă, cu o medie de 4,14 din 5. Întrebarea e simplă: ce anume dintr-un roman scris acum 45 de ani continuă să fie atât de actual? Răspunsul: cartea nu e despre comunism. E despre frică. Și frica n-are epocă.",
+    "oldPrice": "47,58 Lei",
+    "discount": "-15%"
   },
   {
     "title": "Mic dejun la Tiffany",
@@ -958,10 +962,10 @@
     "image": "imagini/dejun.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "35,10 Lei",
+    "price": "31,41 Lei",
     "description": "288.000 de oameni au evaluat această carte pe Goodreads. Norman Mailer — unul dintre cei mai importanți scriitori americani ai secolului XX — a spus că nu ar schimba două cuvinte din ea. Truman Capote a scris-o în 1958, la 34 de ani. A publicat-o prima dată în Esquire, în noiembrie același an. Lumea literară nu a mai fost la fel după.",
     "oldPrice": "36,95 Lei",
-    "discount": "-5%"
+    "discount": "-15%"
   },
   {
     "title": "Lolita",
@@ -972,10 +976,10 @@
     "image": "imagini/lolita.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "30,08 Lei",
+    "price": "26,91 Lei",
     "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?",
     "oldPrice": "31,66 Lei",
-    "discount": "-5%"
+    "discount": "-15%"
   },
   {
     "title": "Străinul",
@@ -986,10 +990,10 @@
     "image": "imagini/strainul.jpg",
     "score": "9.8 / 10",
     "category": "beletristică",
-    "price": "42,75 Lei",
+    "price": "38,25 Lei",
     "description": "Tirajul inițial: 4.400 de exemplare. Paris, 1942, sub ocupație nazistă. Până azi: peste 6 milioane de exemplare vândute, tradus în 68 de limbi, ecranizat de două ori. Cine a decis că o carte despre un om indiferent la propria viață merită să supraviețuiască un secol?",
     "oldPrice": "45,00 Lei",
-    "discount": "-5%"
+    "discount": "-15%"
   },
   {
     "title": "Omul în căutarea sensului vieții. Ediția pentru tinerii cititori",
@@ -1000,8 +1004,10 @@
     "image": "imagini/sesnsul.jpg",
     "score": "9.6 / 10",
     "category": "jurnale",
-    "price": "42,30 Lei",
-    "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat."
+    "price": "35,95 Lei",
+    "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat.",
+    "oldPrice": "42,30 Lei",
+    "discount": "-15%"
   },
   {
     "title": "Stephen Hawking, o viață dedicată științei",
@@ -1026,10 +1032,10 @@
     "image": "imagini/pasare.jpg",
     "score": "9.1 / 10",
     "category": "beletristică",
-    "price": "35,96 Lei",
+    "price": "33,96 Lei",
     "description": "Câte decizii ai amânat pentru că „oricum nu schimb nimic”? De câte ori ai tăcut ca să nu deranjezi? De câte ori ai ales confortul în locul a ceea ce știai că e drept? Atticus Finch a apărat un om condamnat dinainte. Știa că va pierde. A apărat indiferent. O carte scrisă în 1960, în Alabama, îți explică astăzi ce înseamnă să ai coloană vertebrală.",
     "oldPrice": "39,95 Lei",
-    "discount": "-10%"
+    "discount": "-15%"
   },
   {
     "title": "Adio, arme",
@@ -1040,8 +1046,10 @@
     "image": "imagini/arme.jpg",
     "score": "9.2/10",
     "category": "beletristică",
-    "price": "44,96 Lei",
-    "description": "Toată lumea îți spune că Adio, arme e o poveste de dragoste. Nu e. E demonstrația că lumea nu îți datorează nimic — nici viața, nici pe cei pe care îi iubești."
+    "price": "38,22 Lei",
+    "description": "Toată lumea îți spune că Adio, arme e o poveste de dragoste. Nu e. E demonstrația că lumea nu îți datorează nimic — nici viața, nici pe cei pe care îi iubești.",
+    "oldPrice": "44,96 Lei",
+    "discount": "-15%"
   },
   {
     "title": "Homo Deus. Scurtă istorie a viitorului",
@@ -1052,10 +1060,10 @@
     "image": "imagini/deus.jpg",
     "score": "9.8/10",
     "category": "all",
-    "price": "89,39 Lei",
+    "price": "79,98 Lei",
     "description": "Cu cât omenirea devine mai puternică, cu atât viața unui om individual devine mai puțin importantă. Homo Deus explică de ce progresul și sensul personal sunt, poate, incompatibile.",
     "oldPrice": "94,09 Lei",
-    "discount": "-5%"
+    "discount": "-15%"
   },
   {
     "title": "Sapiens. Scurtă istorie a omenirii",
@@ -1066,10 +1074,10 @@
     "image": "imagini/istorie.jpg",
     "score": "9.8/10",
     "category": "all",
-    "price": "89,10 Lei",
+    "price": "84,15 Lei",
     "description": "25 de milioane de exemplare vândute. 65 de limbi. 220 de săptămâni pe lista NYT Bestseller. Barack Obama a citit-o. Bill Gates a recomandat-o. Ridley Scott o transformă în film. Ce dezvăluie Sapiens despre noi, lucruri pe care noi refuzăm să le știm despre noi înșine?",
     "oldPrice": "99,00 Lei",
-    "discount": "-10%"
+    "discount": "-15%"
   },
   {
     "title": "Ferma animalelor",
@@ -1108,8 +1116,10 @@
     "image": "imagini/ulise.jpg",
     "score": "9.9/10",
     "category": "jurnale",
-    "price": "125,80 Lei",
-    "description": "Există cărți pe care le respecți fără să le fi citit. Ulise e probabil pe lista ta. Poate că azi e momentul să schimbi asta."
+    "price": "106,93 Lei",
+    "description": "Există cărți pe care le respecți fără să le fi citit. Ulise e probabil pe lista ta. Poate că azi e momentul să schimbi asta.",
+    "oldPrice": "125,80 Lei",
+    "discount": "-15%"
   },
   {
     "title": "Femei",
