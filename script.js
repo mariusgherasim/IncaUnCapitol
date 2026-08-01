@@ -626,15 +626,21 @@ document.addEventListener(
 
         await loadBooks();
 
+        await loadRechizite();
+
         await loadBanner();
 
         initializeSearch();
+
+        initializeRechiziteSearch();
 
         initializeTrackingDelegation();
 
         initializeCookieBanner();
 
         initializePaginationDelegation();
+
+        initializeRechizitePaginationDelegation();
 
     }
 );
@@ -883,6 +889,14 @@ function initializeTrackingDelegation(){
                 merchant: link.dataset.merchant
             });
 
+        } else if (link.dataset.track === "rechizita") {
+
+            trackEvent("click_cumpara_rechizita", {
+                title: link.dataset.title,
+                brand: link.dataset.brand,
+                source: link.dataset.source
+            });
+
         }
 
     });
@@ -1007,6 +1021,37 @@ function isBannerActive(banner, todayStr){
 
 }
 
+// La cât timp se schimbă bannerul vizibil, cât timp pagina rămâne
+// deschisă (nu doar o dată pe zi la încărcare, ci și în timp real).
+const BANNER_ROTATION_INTERVAL_MS = 2 * 60 * 1000; // 2 minute
+
+let activeBanners = [];
+let currentBannerIndex = 0;
+let bannerRotationTimer = null;
+
+function renderCurrentBanner(){
+
+    const container = document.getElementById("bannerSlot");
+
+    if (!container || !activeBanners.length) return;
+
+    const banner = activeBanners[currentBannerIndex];
+
+    container.innerHTML = `
+        <span class="banner-label">Publicitate</span>
+        <a
+            href="${escapeHtml(banner.link)}"
+            target="_blank"
+            rel="nofollow sponsored noopener"
+            data-track="banner"
+            data-merchant="${escapeHtml(banner.merchant)}"
+        >
+            <img src="${escapeHtml(banner.image)}" alt="${escapeHtml(banner.alt || banner.merchant)}" loading="lazy">
+        </a>
+    `;
+
+}
+
 async function loadBanner(){
 
     const container = document.getElementById("bannerSlot");
@@ -1024,29 +1069,36 @@ async function loadBanner(){
 
         const today = new Date().toISOString().slice(0, 10);
 
-        const siteBanners = allBanners.filter(b =>
+        activeBanners = allBanners.filter(b =>
             Array.isArray(b.channels) &&
             b.channels.includes("site") &&
             isBannerActive(b, today)
         );
 
-        if (!siteBanners.length) return;
+        if (!activeBanners.length) return;
 
-        const index = hashSeed(today + "-banner-site") % siteBanners.length;
-        const banner = siteBanners[index];
+        // bannerul de pornire ramane ales prin hash-ul zilei (acelasi
+        // banner "de baza" in aceeasi zi, pentru toti vizitatorii),
+        // apoi rotatia de mai jos avanseaza secvential de-acolo
+        currentBannerIndex = hashSeed(today + "-banner-site") % activeBanners.length;
 
-        container.innerHTML = `
-            <span class="banner-label">Publicitate</span>
-            <a
-                href="${escapeHtml(banner.link)}"
-                target="_blank"
-                rel="nofollow sponsored noopener"
-                data-track="banner"
-                data-merchant="${escapeHtml(banner.merchant)}"
-            >
-                <img src="${escapeHtml(banner.image)}" alt="${escapeHtml(banner.alt || banner.merchant)}" loading="lazy">
-            </a>
-        `;
+        renderCurrentBanner();
+
+        if (bannerRotationTimer) {
+            clearInterval(bannerRotationTimer);
+        }
+
+        // rotatia in timp real nu are sens cu un singur banner activ
+        if (activeBanners.length > 1) {
+
+            bannerRotationTimer = setInterval(() => {
+
+                currentBannerIndex = (currentBannerIndex + 1) % activeBanners.length;
+                renderCurrentBanner();
+
+            }, BANNER_ROTATION_INTERVAL_MS);
+
+        }
 
     } catch (error) {
 
@@ -1054,5 +1106,316 @@ async function loadBanner(){
 
 
     }
+
+}
+
+/* ========================================
+   RECHIZITE, MANUALE, ARTICOLE ȘCOLARE
+   — sectiune separata de catalogul de carti,
+   date proprii (rechizite.json), dar refolosind
+   acelasi model de randare/filtrare/paginare/
+   countdown ca la carti, adaptat (brand in loc
+   de autor, fara "scor").
+======================================== */
+
+const RECHIZITE_CATEGORII_VALIDE = ["rechizite", "manuale", "articole-scolare"];
+
+let allRechizite = [];
+let currentRechizitaList = [];
+let currentRechizitaPage = 1;
+let activeRechizitaCountdownIntervals = [];
+
+function createProductCard(item){
+
+    return `
+
+        <div class="book-card">
+
+            <img
+                src="${escapeHtml(item.image)}"
+                alt="${escapeHtml(item.title)}"
+                loading="lazy"
+                decoding="async"
+            >
+
+            <div class="book-content">
+
+                <h3 class="book-title">
+                    ${escapeHtml(item.title)}
+                </h3>
+
+                ${
+                    item.brand
+                    ?
+                    `<p class="book-author">${escapeHtml(item.brand)}</p>`
+                    :
+                    ""
+                }
+
+                <p class="book-description">
+                    <em>${escapeHtml(item.description || "")}</em>
+                </p>
+
+                <div class="price-box">
+
+                    ${
+                        item.oldPrice
+                        ?
+                        `<span class="old-price">${escapeHtml(item.oldPrice)}</span>`
+                        :
+                        ""
+                    }
+
+                    <span class="new-price">${escapeHtml(item.price)}</span>
+
+                    ${
+                        item.discount
+                        ?
+                        `<span class="discount">${escapeHtml(item.discount)}</span>`
+                        :
+                        ""
+                    }
+
+                </div>
+
+                ${
+                    item.offerEnds
+                    ?
+                    `
+                    <div class="countdown-wrapper">
+                    <div class="countdown-labels">
+                    <span>ZILE</span><span>ORE</span><span>MINUTE</span><span>SECUNDE</span>
+                    </div>
+                    <div class="countdown-time" id="countdown-rechizita-${slugifyForId(item.title)}">
+                    00 : 00 : 00 : 00
+                    </div>
+                    </div>
+                    `
+                    :
+                    ""
+                }
+
+                <a
+                    href="${escapeHtml(item.affiliate)}"
+                    target="_blank"
+                    rel="noopener sponsored"
+                    class="buy-btn"
+                    data-track="rechizita"
+                    data-title="${escapeHtml(item.title)}"
+                    data-brand="${escapeHtml(item.brand)}"
+                    data-source="${escapeHtml(item.source)}"
+                >
+                    Cumpără
+                </a>
+
+            </div>
+
+        </div>
+
+    `;
+
+}
+
+const RECHIZITE_PAGE_SIZE = 12;
+
+function renderRechizite(list){
+
+    currentRechizitaList = list;
+    currentRechizitaPage = 1;
+
+    renderCurrentRechizitaPage();
+
+}
+
+function renderCurrentRechizitaPage(){
+
+    const container = document.getElementById("rechiziteContainer");
+
+    if (!container) return;
+
+    const totalPages =
+        Math.max(1, Math.ceil(currentRechizitaList.length / RECHIZITE_PAGE_SIZE));
+
+    if (currentRechizitaPage > totalPages) currentRechizitaPage = totalPages;
+
+    const start = (currentRechizitaPage - 1) * RECHIZITE_PAGE_SIZE;
+    const pageItems = currentRechizitaList.slice(start, start + RECHIZITE_PAGE_SIZE);
+
+    container.innerHTML =
+        pageItems.length
+        ?
+        pageItems.map(item => createProductCard(item)).join("")
+        :
+        `<p class="load-error">Niciun produs găsit.</p>`;
+
+    renderRechizitePagination(totalPages);
+
+    stopRechiziteCountdowns();
+    startRechiziteCountdowns(pageItems);
+
+}
+
+function renderRechizitePagination(totalPages){
+
+    const container = document.getElementById("rechizitePaginationContainer");
+
+    if (!container) return;
+
+    if (totalPages <= 1) {
+        container.innerHTML = "";
+        return;
+    }
+
+    let html = `<button type="button" class="page-btn" data-rechizite-page="${currentRechizitaPage - 1}" ${currentRechizitaPage === 1 ? "disabled" : ""}>&laquo; Anterior</button>`;
+
+    for (let i = 1; i <= totalPages; i++) {
+        html += `<button type="button" class="page-btn ${i === currentRechizitaPage ? "active" : ""}" data-rechizite-page="${i}">${i}</button>`;
+    }
+
+    html += `<button type="button" class="page-btn" data-rechizite-page="${currentRechizitaPage + 1}" ${currentRechizitaPage === totalPages ? "disabled" : ""}>Următor &raquo;</button>`;
+
+    container.innerHTML = html;
+
+}
+
+function goToRechizitaPage(page){
+
+    currentRechizitaPage = page;
+    renderCurrentRechizitaPage();
+
+    const section = document.getElementById("rechizite");
+    if (section) section.scrollIntoView({ behavior: "smooth", block: "start" });
+
+}
+
+function initializeRechizitePaginationDelegation(){
+
+    document.addEventListener("click", function(e){
+
+        const btn = e.target.closest(".page-btn[data-rechizite-page]");
+
+        if (!btn || btn.disabled) return;
+
+        const page = parseInt(btn.dataset.rechizitePage, 10);
+
+        if (!page || page < 1) return;
+
+        goToRechizitaPage(page);
+
+    });
+
+}
+
+function filterRechizite(category){
+
+    if (category === "all") {
+        renderRechizite(allRechizite);
+        return;
+    }
+
+    renderRechizite(allRechizite.filter(item => item.category === category));
+
+}
+
+function initializeRechiziteSearch(){
+
+    const input = document.getElementById("rechiziteSearchInput");
+
+    if (!input) return;
+
+    input.addEventListener("keyup", function(){
+
+        const value = this.value.toLowerCase();
+
+        renderRechizite(
+            allRechizite.filter(item =>
+                (item.title || "").toLowerCase().includes(value) ||
+                (item.brand || "").toLowerCase().includes(value)
+            )
+        );
+
+    });
+
+}
+
+async function loadRechizite(){
+
+    try {
+
+        const response = await fetch(
+            "rechizite.json?v=" + Date.now(),
+            { cache: "no-store" }
+        );
+
+        const raw = await response.json();
+
+        allRechizite = raw.filter(item =>
+            RECHIZITE_CATEGORII_VALIDE.includes(item.category)
+        );
+
+        renderRechizite(allRechizite);
+
+    } catch (error) {
+
+        console.error("Eroare încărcare rechizite.json:", error);
+
+        const container = document.getElementById("rechiziteContainer");
+
+        if (container) {
+            container.innerHTML = `<p class="load-error">Catalogul de rechizite nu a putut fi încărcat momentan.</p>`;
+        }
+
+    }
+
+}
+
+function stopRechiziteCountdowns(){
+
+    activeRechizitaCountdownIntervals.forEach(id => clearInterval(id));
+    activeRechizitaCountdownIntervals = [];
+
+}
+
+function startRechiziteCountdowns(visibleItems){
+
+    visibleItems.forEach(item => {
+
+        if (!item.offerEnds) return;
+
+        const element = document.getElementById(`countdown-rechizita-${slugifyForId(item.title)}`);
+
+        if (!element) return;
+
+        const interval = setInterval(() => {
+
+            const now = new Date().getTime();
+            const endDate = new Date(item.offerEnds).getTime();
+            const distance = endDate - now;
+
+            if (distance <= 0) {
+
+                clearInterval(interval);
+                const card = element.closest(".book-card");
+                if (card) card.remove();
+                return;
+
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            element.innerHTML =
+                String(days).padStart(2, '0') + ' : ' +
+                String(hours).padStart(2, '0') + ' : ' +
+                String(minutes).padStart(2, '0') + ' : ' +
+                String(seconds).padStart(2, '0');
+
+        }, 1000);
+
+        activeRechizitaCountdownIntervals.push(interval);
+
+    });
 
 }

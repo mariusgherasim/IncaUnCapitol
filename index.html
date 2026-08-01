@@ -255,6 +255,47 @@ class="pagination">
 </section>
 
 <section
+class="section gray-section"
+id="rechizite">
+<div class="container">
+<h2 class="section-title">
+Rechizite, manuale și articole școlare
+</h2>
+<p class="section-subtitle">
+Selecție de la toate editurile și librăriile partenere — rechizite, manuale școlare și articole pentru elevi, cu prețuri actualizate automat.
+</p>
+<input
+type="text"
+id="rechiziteSearchInput"
+class="search-input"
+placeholder="Caută după nume sau brand..."
+>
+<div class="filters">
+<button onclick="filterRechizite('all')">
+Toate
+</button>
+<button onclick="filterRechizite('rechizite')">
+Rechizite
+</button>
+<button onclick="filterRechizite('manuale')">
+Manuale
+</button>
+<button onclick="filterRechizite('articole-scolare')">
+Articole școlare
+</button>
+</div>
+<div
+id="rechiziteContainer"
+class="books-grid">
+</div>
+<div
+id="rechizitePaginationContainer"
+class="pagination">
+</div>
+</div>
+</section>
+
+<section
 class="newsletter-section"
 id="newsletter">
 <div class="container">

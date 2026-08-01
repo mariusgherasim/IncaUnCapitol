@@ -8,18 +8,74 @@ const { logError } = require("./lib/helpers");
 
 const ALLOWED_SOURCES = Object.keys(scrapers);
 
-async function updatePrices() {
+// Fisierele de date procesate: catalogul de carti + cel de
+// rechizite/manuale/articole scolare. Ambele folosesc EXACT aceleasi
+// scrapere (lib/scrapers/) — logica de citire a pretului e generica,
+// nu conteaza daca produsul e o carte sau un ghiozdan.
+const DATA_FILES = ["books.json", "rechizite.json"];
 
-    const books =
+async function updatePricesInFile(filePath, getBrowserContext) {
+
+    if (!fs.existsSync(filePath)) {
+
+        console.log(`⏭ ${filePath} nu există, sar peste.`);
+        return;
+
+    }
+
+    const items =
         JSON.parse(
-            fs.readFileSync("books.json", "utf8")
+            fs.readFileSync(filePath, "utf8")
         );
 
-    // Chromium se pornește o singură dată, lazy, doar dacă apare
-    // efectiv o carte de la o sursă care are nevoie de browser real
-    // (nu doar axios) — momentan: humanitas, carturesti. Ambele au
-    // protecție anti-bot care respinge cererile axios simple cu 403,
-    // chiar cu User-Agent setat corect.
+    console.log(`\n=== ${filePath} (${items.length} intrări) ===\n`);
+
+    for (const item of items) {
+
+        // intrarile "_readme" (fara source) sunt ignorate silentios
+        if (!item.source) {
+            continue;
+        }
+
+        if (!ALLOWED_SOURCES.includes(item.source)) {
+
+            console.log("⏭ Ignor:", item.title);
+            continue;
+
+        }
+
+        const scrape = scrapers[item.source];
+
+        try {
+
+            console.log("Actualizez:", item.title);
+
+            await scrape(item, {
+                axios,
+                cheerio,
+                getBrowserContext
+            });
+
+        } catch (error) {
+
+            logError(item, error);
+
+        }
+
+    }
+
+    fs.writeFileSync(
+        filePath,
+        JSON.stringify(items, null, 2)
+    );
+
+}
+
+async function updatePrices() {
+
+    // Chromium se pornește o singură dată, lazy, partajat între toate
+    // sursele care au nevoie de browser real (humanitas, carturesti),
+    // indiferent din care fișier de date vine produsul.
     let sharedBrowser = null;
     let sharedContext = null;
 
@@ -44,55 +100,20 @@ async function updatePrices() {
 
     }
 
-    for (const book of books) {
+    for (const filePath of DATA_FILES) {
 
-        if (book.source && !ALLOWED_SOURCES.includes(book.source)) {
-
-            console.log("⏭ Ignor:", book.title);
-            continue;
-
-        }
-
-        const scrape = scrapers[book.source];
-
-        if (!scrape) {
-
-            console.log("⏭ Sursă necunoscută, ignor:", book.title);
-            continue;
-
-        }
-
-        try {
-
-            console.log("Actualizez:", book.title);
-
-            await scrape(book, {
-                axios,
-                cheerio,
-                getBrowserContext
-            });
-
-        } catch (error) {
-
-            logError(book, error);
-
-        }
+        await updatePricesInFile(filePath, getBrowserContext);
 
     }
 
     if (sharedBrowser) {
 
         await sharedBrowser.close();
-        console.log("🌐 Chromium închis.");
+        console.log("\n🌐 Chromium închis.");
 
     }
 
-    fs.writeFileSync(
-        "books.json",
-        JSON.stringify(books, null, 2)
-    );
-
-    console.log("\nToate prețurile au fost actualizate.");
+    console.log("\nToate prețurile au fost actualizate (cărți + rechizite).");
 
 }
 
