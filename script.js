@@ -642,6 +642,8 @@ document.addEventListener(
 
         initializeRechizitePaginationDelegation();
 
+        await initGenericCatalogPage();
+
     }
 );
 
@@ -1417,5 +1419,246 @@ function startRechiziteCountdowns(visibleItems){
         activeRechizitaCountdownIntervals.push(interval);
 
     });
+
+}
+
+/* ========================================
+   PAGINA GENERICA DE SUBCATEGORIE
+   — folosita de paginile separate (manuale-scolare.html,
+   carti-copii.html, etc). Fiecare pagina indica propriul
+   fisier JSON prin atributul data-json-file de pe
+   #catalogContainer; restul e identic pe toate paginile.
+   Nu are butoane de filtrare pe categorie — fiecare pagina
+   reprezinta deja o singura subcategorie.
+======================================== */
+
+const GENERIC_CATALOG_PAGE_SIZE = 12;
+
+let genericCatalogAll = [];
+let genericCatalogFiltered = [];
+let genericCatalogPage = 1;
+let genericCountdownIntervals = [];
+
+function createGenericProductCard(item){
+
+    return `
+        <div class="book-card">
+            <img
+                src="${escapeHtml(item.image)}"
+                alt="${escapeHtml(item.title)}"
+                loading="lazy"
+                decoding="async"
+            >
+            <div class="book-content">
+                <h3 class="book-title">${escapeHtml(item.title)}</h3>
+                ${item.brand ? `<p class="book-author">${escapeHtml(item.brand)}</p>` : ""}
+                <div class="price-box">
+                    ${item.oldPrice ? `<span class="old-price">${escapeHtml(item.oldPrice)}</span>` : ""}
+                    <span class="new-price">${escapeHtml(item.price)}</span>
+                    ${item.discount ? `<span class="discount">-${escapeHtml(item.discount)}</span>` : ""}
+                </div>
+                <a
+                    href="${escapeHtml(item.affiliate)}"
+                    target="_blank"
+                    rel="noopener sponsored"
+                    class="buy-btn"
+                    data-track="rechizita"
+                    data-title="${escapeHtml(item.title)}"
+                    data-brand="${escapeHtml(item.brand || item.sourceSite)}"
+                    data-source="${escapeHtml(item.sourceSite)}"
+                >
+                    Cumpără
+                </a>
+            </div>
+        </div>
+    `;
+
+}
+
+function renderGenericCatalogPage(){
+
+    const container = document.getElementById("catalogContainer");
+
+    if (!container) return;
+
+    const totalPages =
+        Math.max(1, Math.ceil(genericCatalogFiltered.length / GENERIC_CATALOG_PAGE_SIZE));
+
+    if (genericCatalogPage > totalPages) genericCatalogPage = totalPages;
+
+    const start = (genericCatalogPage - 1) * GENERIC_CATALOG_PAGE_SIZE;
+    const pageItems = genericCatalogFiltered.slice(start, start + GENERIC_CATALOG_PAGE_SIZE);
+
+    container.innerHTML =
+        pageItems.length
+        ? pageItems.map(item => createGenericProductCard(item)).join("")
+        : `<p class="load-error">Niciun produs găsit.</p>`;
+
+    renderGenericPagination(totalPages);
+
+    stopGenericCountdowns();
+    startGenericCountdowns(pageItems);
+
+}
+
+function renderGenericPagination(totalPages){
+
+    const container = document.getElementById("catalogPagination");
+
+    if (!container) return;
+
+    if (totalPages <= 1) {
+        container.innerHTML = "";
+        return;
+    }
+
+    // pentru cataloage mari (sute de pagini), afisam un numar limitat
+    // de butoane in jurul paginii curente, nu toate deodata
+    const WINDOW = 2;
+    let html = `<button type="button" class="page-btn" data-generic-page="${genericCatalogPage - 1}" ${genericCatalogPage === 1 ? "disabled" : ""}>&laquo; Anterior</button>`;
+
+    const start = Math.max(1, genericCatalogPage - WINDOW);
+    const end = Math.min(totalPages, genericCatalogPage + WINDOW);
+
+    if (start > 1) {
+        html += `<button type="button" class="page-btn" data-generic-page="1">1</button>`;
+        if (start > 2) html += `<span class="pagination-ellipsis">…</span>`;
+    }
+
+    for (let i = start; i <= end; i++) {
+        html += `<button type="button" class="page-btn ${i === genericCatalogPage ? "active" : ""}" data-generic-page="${i}">${i}</button>`;
+    }
+
+    if (end < totalPages) {
+        if (end < totalPages - 1) html += `<span class="pagination-ellipsis">…</span>`;
+        html += `<button type="button" class="page-btn" data-generic-page="${totalPages}">${totalPages}</button>`;
+    }
+
+    html += `<button type="button" class="page-btn" data-generic-page="${genericCatalogPage + 1}" ${genericCatalogPage === totalPages ? "disabled" : ""}>Următor &raquo;</button>`;
+
+    container.innerHTML = html;
+
+}
+
+function initializeGenericPaginationDelegation(){
+
+    document.addEventListener("click", function(e){
+
+        const btn = e.target.closest(".page-btn[data-generic-page]");
+
+        if (!btn || btn.disabled) return;
+
+        const page = parseInt(btn.dataset.genericPage, 10);
+
+        if (!page || page < 1) return;
+
+        genericCatalogPage = page;
+        renderGenericCatalogPage();
+
+        const container = document.getElementById("catalogContainer");
+        if (container) container.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    });
+
+}
+
+function initializeGenericCatalogSearch(){
+
+    const input = document.getElementById("catalogSearchInput");
+
+    if (!input) return;
+
+    input.addEventListener("keyup", function(){
+
+        const value = this.value.toLowerCase();
+
+        genericCatalogFiltered = genericCatalogAll.filter(item =>
+            (item.title || "").toLowerCase().includes(value) ||
+            (item.brand || "").toLowerCase().includes(value)
+        );
+
+        genericCatalogPage = 1;
+        renderGenericCatalogPage();
+
+    });
+
+}
+
+function stopGenericCountdowns(){
+
+    genericCountdownIntervals.forEach(id => clearInterval(id));
+    genericCountdownIntervals = [];
+
+}
+
+function startGenericCountdowns(visibleItems){
+
+    visibleItems.forEach(item => {
+
+        if (!item.offerEnds) return;
+
+        const element = document.getElementById(`countdown-generic-${slugifyForId(item.title)}`);
+
+        if (!element) return;
+
+        const interval = setInterval(() => {
+
+            const now = new Date().getTime();
+            const endDate = new Date(item.offerEnds).getTime();
+            const distance = endDate - now;
+
+            if (distance <= 0) {
+                clearInterval(interval);
+                const card = element.closest(".book-card");
+                if (card) card.remove();
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            element.innerHTML =
+                String(days).padStart(2, '0') + ' : ' +
+                String(hours).padStart(2, '0') + ' : ' +
+                String(minutes).padStart(2, '0') + ' : ' +
+                String(seconds).padStart(2, '0');
+
+        }, 1000);
+
+        genericCountdownIntervals.push(interval);
+
+    });
+
+}
+
+async function initGenericCatalogPage(){
+
+    const container = document.getElementById("catalogContainer");
+
+    if (!container) return;
+
+    const jsonFile = container.dataset.jsonFile;
+
+    if (!jsonFile) return;
+
+    try {
+
+        const response = await fetch(jsonFile + "?v=" + Date.now(), { cache: "no-store" });
+
+        genericCatalogAll = await response.json();
+        genericCatalogFiltered = genericCatalogAll;
+
+        renderGenericCatalogPage();
+        initializeGenericCatalogSearch();
+        initializeGenericPaginationDelegation();
+
+    } catch (error) {
+
+        console.error("Eroare încărcare catalog:", error);
+        container.innerHTML = `<p class="load-error">Catalogul nu a putut fi încărcat momentan.</p>`;
+
+    }
 
 }
