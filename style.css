@@ -131,13 +131,6 @@ z-index:2;
 .page-btn:disabled{opacity:.35;cursor:default;}
 
 /* ========================================
- TOP CARTI
- ======================================== */
-
-.top-books{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;}
-.top-books div{background:#f3f4f6;padding:12px 18px;border-radius:30px;font-weight:600;}
-
-/* ========================================
  COUNTDOWN
  ======================================== */
 
