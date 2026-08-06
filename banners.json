@@ -16,7 +16,7 @@
     "endDate": "2026-07-26"
   },
   {
-    "id": "libris-01",
+    "id": "libris-02",
     "merchant": "libris.ro",
     "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271645/original/271645.png",
     "link": "https://event.2performant.com/events/click?ad_type=banner&unique=59da9ab4c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
@@ -33,7 +33,7 @@
     "merchant": "carturesti.ro",
     "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271649/original/271649.jpg",
     "link": "https://event.2performant.com/events/click?ad_type=banner&unique=2563f2fd4&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "alt": "lcarturesti.ro",
+    "alt": "carturesti.ro",
     "channels": [
       "site",
       "email"
@@ -42,19 +42,54 @@
     "endDate": "2026-09-30"
   },
   {
-    "id": "carturesti-01",
+    "id": "carturesti-02",
     "merchant": "carturesti.ro",
     "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/260095/original/260095.jpg",
     "link": "https://event.2performant.com/events/click?ad_type=banner&unique=672e05c85&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "alt": "lcarturesti.ro",
+    "alt": "carturesti.ro",
     "channels": [
       "site",
       "email"
     ],
     "startDate": "2026-07-28",
     "endDate": "2026-09-30"
+  },
+  {
+    "id": "libris-03",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271706/original/271706.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=5521ccfce&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-06",
+    "endDate": "2026-08-07"
+  },
+  {
+    "id": "libris-04",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271705/original/271705.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=8858fc771&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-08-06",
+    "endDate": "2026-08-07"
+  },
+  {
+    "id": "libris-05",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271704/original/271704.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=5655d538e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-06",
+    "endDate": "2026-08-07"
   }
-
 ]
-
-
