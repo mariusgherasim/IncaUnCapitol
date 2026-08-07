@@ -800,12 +800,11 @@
     "productUrl": "https://www.librarie.net/p/266397/nia=1693",
     "category": "beletristică",
     "score": "9.9 / 10",
-    "oldPrice": "58,00 Lei",
-    "discount": "20%",
-    "price": "46,40 Lei",
+    "price": null,
     "image": "imagini/fahrenheit.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=XrpinvFz1lNo",
-    "description": "9 zile. 9,80 dolari în monede de 10 cenți. Atât i-a luat lui Ray Bradbury să scrie prima variantă a uneia dintre cele mai vândute cărți din istorie — peste 10 milioane de exemplare, traduse în peste 33 de limbi. Câte idei importante amâni tu pentru că nu ai „condițiile perfecte”?"
+    "description": "9 zile. 9,80 dolari în monede de 10 cenți. Atât i-a luat lui Ray Bradbury să scrie prima variantă a uneia dintre cele mai vândute cărți din istorie — peste 10 milioane de exemplare, traduse în peste 33 de limbi. Câte idei importante amâni tu pentru că nu ai „condițiile perfecte”?",
+    "available": false
   },
   {
     "title": "Jocul cu mărgele de sticlă",
@@ -842,12 +841,11 @@
     "productUrl": "https://www.librarie.net/p/451894/nia=1693",
     "category": "jurnale",
     "score": "9.9 / 10",
-    "oldPrice": "59,00 Lei",
-    "discount": "15%",
-    "price": "50,15 Lei",
+    "price": null,
     "image": "imagini/JurnalulAnnei.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=DhpZBeEChMuv",
-    "description": "Câți dintre noi am scrie sincer în jurnal dacă am ști că, într-o zi, îl va citi toată lumea? Anne Frank a scris-o oricum. La 13 ani. Ascunsă în Amsterdam, în 1942. "
+    "description": "Câți dintre noi am scrie sincer în jurnal dacă am ști că, într-o zi, îl va citi toată lumea? Anne Frank a scris-o oricum. La 13 ani. Ascunsă în Amsterdam, în 1942. ",
+    "available": false
   },
   {
     "title": "Micul Prinț",
@@ -912,12 +910,11 @@
     "productUrl": "https://www.librarie.net/p/191384/nia=1693",
     "category": "beletristică",
     "score": "9.5 / 10",
-    "oldPrice": "",
-    "discount": "",
-    "price": "42,20 Lei",
+    "price": null,
     "image": "imagini/magicianul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=06fd3d526",
-    "description": "Locul 67 în The Big Read al BBC. Top 100 cele mai bune romane ale secolului XX după Modern Library. 64.000 de recenzii pe Goodreads. Și totuși — puțini știu că Fowles a scris cartea asta înainte să fie scriitor. A lucrat la ea ani de zile. A publicat alte două romane înaintea ei. Când a apărut în 1966, New York Times a scris: „Imposibil de oprit.” Aveau dreptate."
+    "description": "Locul 67 în The Big Read al BBC. Top 100 cele mai bune romane ale secolului XX după Modern Library. 64.000 de recenzii pe Goodreads. Și totuși — puțini știu că Fowles a scris cartea asta înainte să fie scriitor. A lucrat la ea ani de zile. A publicat alte două romane înaintea ei. Când a apărut în 1966, New York Times a scris: „Imposibil de oprit.” Aveau dreptate.",
+    "available": false
   },
   {
     "title": "Amintiri din pribegie",
