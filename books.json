@@ -650,7 +650,9 @@
     "productUrl": "https://www.libhumanitas.ro/librareasa-din-paris-kerri-maher-fi000776-1.html",
     "category": "beletristică",
     "score": "9.8 / 10",
-    "price": "51,80 Lei",
+    "oldPrice": "51,80 Lei",
+    "discount": "25%",
+    "price": "38,85 Lei",
     "image": "imagini/Librareasa_2.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=8881777fd",
     "description": "Nu e cartea lui Hemingway. Nu e cartea lui Joyce. E cartea femeii fără de care niciunul dintre ei n-ar fi ajuns exact cine a ajuns."
@@ -704,7 +706,9 @@
     "productUrl": "https://www.libhumanitas.ro/sindromul-impostorului-jessamy-hibberd-a279728.html",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "price": "65,00 Lei",
+    "oldPrice": "37,00 Lei",
+    "discount": "20%",
+    "price": "27,75 Lei",
     "image": "https://www.libhumanitas.ro/media/catalog/product/c/h/chemarea_tribului.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=4ae2f9291",
     "description": "Una din ultimele cărți scrise de un laureat Nobel, înainte să ne părăsească în 2025. Și e despre un singur lucru: de ce renunțăm la gândirea proprie."
@@ -782,7 +786,9 @@
     "productUrl": "https://www.libhumanitas.ro/maestrul-si-margareta-mihail-bulgakov-fi000254-7c.html",
     "category": "beletristică",
     "score": "9.9 / 10",
-    "price": "70,83 Lei",
+    "oldPrice": "70,83 Lei",
+    "discount": "20%",
+    "price": "53,12 Lei",
     "image": "imagini/margareta.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=2f614f269",
     "description": "A ars propriul manuscris cu mâinile lui. Regimul i-a interzis fiecare rând. Și totuși cartea asta a ajuns una dintre cele mai citite ale secolului XX"
