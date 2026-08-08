@@ -8,7 +8,8 @@
     "price": "71,88 Lei",
     "image": "imagini/principii.jpg",
     "affiliate": "https://www.actsipoliton.ro/ray-dalio-principii-jurnalul-tau-calauzitor-carte?tracking=69a17509d7810",
-    "description": "Jurnalul acesta nu e pentru cei care vor să citească ceva inspirațional. E pentru cei care vor să înțeleagă cum iau decizii — și să le ia mai bine data viitoare."
+    "description": "Jurnalul acesta nu e pentru cei care vor să citească ceva inspirațional. E pentru cei care vor să înțeleagă cum iau decizii — și să le ia mai bine data viitoare.",
+    "available": true
   },
   {
     "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
@@ -19,7 +20,8 @@
     "price": "54,00 Lei",
     "image": "imagini/arta-cheltui-banii.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
-    "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă."
+    "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă.",
+    "available": true
   },
   {
     "title": "Inamicul este egoul",
@@ -30,7 +32,8 @@
     "price": "51,80 Lei",
     "image": "imagini/inamicul-este-egoul.jpg",
     "affiliate": "https://www.actsipoliton.ro/ryan-holiday-inamicul-este-ego-ul-carte?tracking=69a17509d7810",
-    "description": "Știi senzația că ai muncit enorm, ai ajuns undeva — și totuși ceva sabotează tot ce construiești? Există un nume pentru lucrul acela. Și nu e ghinionul."
+    "description": "Știi senzația că ai muncit enorm, ai ajuns undeva — și totuși ceva sabotează tot ce construiești? Există un nume pentru lucrul acela. Și nu e ghinionul.",
+    "available": true
   },
   {
     "title": "Pachet cărți Wim Hof",
@@ -43,7 +46,8 @@
     "discount": "10%",
     "image": "imagini/pachet-wim-hof.jpg",
     "affiliate": "https://www.actsipoliton.ro/pachet-carti-wim-hof?tracking=69a17509d7810",
-    "description": "De câte ori ai ales confortul termic, cafeaua în plus, pastila pentru durere? Ce ar fi dacă corpul tău putea gestiona toate astea singur, fără niciun adaos?"
+    "description": "De câte ori ai ales confortul termic, cafeaua în plus, pastila pentru durere? Ce ar fi dacă corpul tău putea gestiona toate astea singur, fără niciun adaos?",
+    "available": true
   },
   {
     "title": "Psihologia banilor: Lecții nemuritoare despre avuție, lăcomie și fericire",
@@ -54,7 +58,8 @@
     "price": "52,00 Lei",
     "image": "imagini/psihologia-banilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
-    "description": "10 milioane de exemplare vândute în lume. Nu pentru că le-a spus oamenilor cum să investească. Ci pentru că le-a explicat de ce nu aplică ce știu deja."
+    "description": "10 milioane de exemplare vândute în lume. Nu pentru că le-a spus oamenilor cum să investească. Ci pentru că le-a explicat de ce nu aplică ce știu deja.",
+    "available": true
   },
   {
     "title": "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența",
@@ -65,7 +70,8 @@
     "price": "54,00 Lei",
     "image": "imagini/avantajul-ai.jpg",
     "affiliate": "https://www.actsipoliton.ro/anthony-iannarino-jeb-blount-avantajul-ai-carte?tracking=69a17509d7810",
-    "description": "AI nu îți ia job-ul de vânzări. Colegul tău care folosește AI îți ia job-ul de vânzări. Diferența dintre cele două propoziții e mai mare decât pare."
+    "description": "AI nu îți ia job-ul de vânzări. Colegul tău care folosește AI îți ia job-ul de vânzări. Diferența dintre cele două propoziții e mai mare decât pare.",
+    "available": true
   },
   {
     "title": "Putere nemărginită. Descoperă știința împlinirii personale!",
@@ -76,7 +82,8 @@
     "price": "59,20 Lei",
     "image": "imagini/putere-nemarginita.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-putere-nemarginita.html?tracking=69a17509d7810",
-    "description": "Cu cât cauți mai multă motivație, cu atât mai puțin avansezi. Tony Robbins explică de ce — și ce funcționează în loc."
+    "description": "Cu cât cauți mai multă motivație, cu atât mai puțin avansezi. Tony Robbins explică de ce — și ce funcționează în loc.",
+    "available": true
   },
   {
     "title": "Banii. Stăpânește jocul: 7 pași simpli spre libertate financiară.",
@@ -87,7 +94,8 @@
     "price": "93,03 Lei",
     "image": "imagini/banii-stapaneste-jocul.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-banii-stapaneste-jocul.html?tracking=69a17509d7810",
-    "description": "România ocupă locul 122 din 143 de țări la cunoștințe financiare. Nu e rușine. E o gaură în educație pe care nimeni n-a umplut-o vreodată cu ceva practic."
+    "description": "România ocupă locul 122 din 143 de țări la cunoștințe financiare. Nu e rușine. E o gaură în educație pe care nimeni n-a umplut-o vreodată cu ceva practic.",
+    "available": true
   },
   {
     "title": "Sfântul Graal al investițiilor: cei mai mari investitori ai lumii își dezvăluie strategiile supreme pentru dobândirea libertății financiare",
@@ -98,7 +106,8 @@
     "price": "74,00 Lei",
     "image": "imagini/Sfantul Graal al investitiilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-christopher-zook-sfantul-graal-al-investitiilor-carte?tracking=69a17509d7810",
-    "description": "Dacă băncile, fondurile suverane și miliardarii au acces la o categorie de investiții cu randamente semnificativ mai mari decât bursa — de ce tu nu ai auzit niciodată de ea?"
+    "description": "Dacă băncile, fondurile suverane și miliardarii au acces la o categorie de investiții cu randamente semnificativ mai mari decât bursa — de ce tu nu ai auzit niciodată de ea?",
+    "available": true
   },
   {
     "title": "Anatomia scuzelor: Cine ai fi fără scuzele tale? Ghid practic pentru cei care știu că între mâine și niciodată nu e mare diferență",
@@ -109,7 +118,8 @@
     "price": "52,00",
     "image": "imagini/anatomia_scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/gina-veverita-anatomia-scuzelor-carte?tracking=69a17509d7810",
-    "description": "Fiecare „mâine încep” pe care l-ai spus vreodată a avut un preț. Nu neapărat vizibil. Dar acumulat. Anatomia scuzelor calculează ce înseamnă cu adevărat acel preț — și arată cum ieși din el."
+    "description": "Fiecare „mâine încep” pe care l-ai spus vreodată a avut un preț. Nu neapărat vizibil. Dar acumulat. Anatomia scuzelor calculează ce înseamnă cu adevărat acel preț — și arată cum ieși din el.",
+    "available": true
   },
   {
     "title": "Atomic Habits",
@@ -123,7 +133,8 @@
     "price": "52,50 Lei",
     "image": "imagini/Atomic Habits.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=48e1610b5",
-    "description": "Nu te ridici la nivelul obiectivelor tale. Cazi la nivelul sistemelor tale. James Clear, Atomic Habits — cartea citită de antrenorii și jucătorii din NBA și NFL."
+    "description": "Nu te ridici la nivelul obiectivelor tale. Cazi la nivelul sistemelor tale. James Clear, Atomic Habits — cartea citită de antrenorii și jucătorii din NBA și NFL.",
+    "available": true
   },
   {
     "title": "Emoțiile distructive",
@@ -137,7 +148,8 @@
     "price": "62,64 Lei",
     "image": "imagini/emotiile-distructive.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=b_KuXhiu1jvx",
-    "description": "Ți s-a spus toată viața să îți controlezi emoțiile. Problema e că „control” înseamnă suprimare — iar suprimarea nu dispare. Se acumulează, se transformă și revine, de obicei în cel mai prost moment posibil."
+    "description": "Ți s-a spus toată viața să îți controlezi emoțiile. Problema e că „control” înseamnă suprimare — iar suprimarea nu dispare. Se acumulează, se transformă și revine, de obicei în cel mai prost moment posibil.",
+    "available": true
   },
   {
     "title": "Metoda Wim Hof: Activează-ți întregul potențial uman",
@@ -148,7 +160,8 @@
     "price": "50,74 Lei",
     "image": "imagini/Metoda_Wim_Hof.jpg",
     "affiliate": "https://www.actsipoliton.ro/wim-hof-metoda-wim-hof-carte?tracking=69a17509d7810",
-    "description": "Toată lumea îți spune să respiri „normal” ca să te calmezi. Olandezul ăsta a demonstrat știi­n­ți­fic că exact respirația normală te ține blocat în stres."
+    "description": "Toată lumea îți spune să respiri „normal” ca să te calmezi. Olandezul ăsta a demonstrat știi­n­ți­fic că exact respirația normală te ține blocat în stres.",
+    "available": true
   },
   {
     "title": "Blocajul. Cum să scapi de inerție și să mergi mai departe",
@@ -162,7 +175,8 @@
     "price": "49,95 Lei",
     "image": "imagini/Blocajul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=xoFEWyRaNK3I",
-    "description": "Nu ești leneș. Nu ești nemotivat. Ești blocat de un mecanism de supraviețuire pe care creierul tău l-a învățat să-l folosească împotriva ta."
+    "description": "Nu ești leneș. Nu ești nemotivat. Ești blocat de un mecanism de supraviețuire pe care creierul tău l-a învățat să-l folosească împotriva ta.",
+    "available": true
   },
   {
     "title": "Manager 80/20. Zece metode pentru a deveni un lider grozav.",
@@ -173,7 +187,8 @@
     "price": "51,80 Lei",
     "image": "imagini/Manager 80_20.jpg",
     "affiliate": "https://www.actsipoliton.ro/richard-koch-manager-80-20.html?tracking=69a17509d7810",
-    "description": "Inbox plin. Listă de task-uri care nu se termină. Ședințe care nu duc nicăieri. Dacă ți se pare familiară descrierea, problema nu e disciplina ta. E cadrul mental în care lucrezi."
+    "description": "Inbox plin. Listă de task-uri care nu se termină. Ședințe care nu duc nicăieri. Dacă ți se pare familiară descrierea, problema nu e disciplina ta. E cadrul mental în care lucrezi.",
+    "available": true
   },
   {
     "title": "4 ore-Săptămana de lucru.",
@@ -184,7 +199,8 @@
     "price": "67,65 Lei",
     "image": "imagini/4 ore-Săptămana de lucru.jpg",
     "affiliate": "https://www.actsipoliton.ro/tim-ferriss-4-ore-saptamana-de-lucru.html?tracking=69a17509d7810",
-    "description": "Câte ore pe săptămână muncești acum? Și câte ore vrei să muncești peste 10 ani? Dacă răspunsul e același — există o problemă."
+    "description": "Câte ore pe săptămână muncești acum? Și câte ore vrei să muncești peste 10 ani? Dacă răspunsul e același — există o problemă.",
+    "available": true
   },
   {
     "title": "Alegerea. Acceptă cu bucurie posibilul",
@@ -198,7 +214,8 @@
     "price": "48,10 Lei",
     "image": "imagini/alegerea-accepta-cu-bucurie-posibilul-5017.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=788d9828a",
-    "description": "Închisoarea din minte se dărâmă cărămidă cu cărămidă. Nu există un moment de „click” al vindecării. Există alegeri mici, repetate — de a nu rămâne în trecut, de a nu trăi pentru răzbunare, de a te privi fără judecată. Libertatea nu e o stare. E o practică."
+    "description": "Închisoarea din minte se dărâmă cărămidă cu cărămidă. Nu există un moment de „click” al vindecării. Există alegeri mici, repetate — de a nu rămâne în trecut, de a nu trăi pentru răzbunare, de a te privi fără judecată. Libertatea nu e o stare. E o practică.",
+    "available": true
   },
   {
     "title": "Când corpul spune nu",
@@ -212,7 +229,8 @@
     "price": "47,57 Lei",
     "image": "imagini/Cand_corpul_spune_nu.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=mTnlq24DpS_I",
-    "description": "Știi senzația că ești bine, că faci față, că „nu e cazul să te plângi”? Gabor Maté — medic cu zeci de ani în îngrijire paliativă — spune că exact asta e semnalul de alarmă pe care îl ignorăm cel mai des."
+    "description": "Știi senzația că ești bine, că faci față, că „nu e cazul să te plângi”? Gabor Maté — medic cu zeci de ani în îngrijire paliativă — spune că exact asta e semnalul de alarmă pe care îl ignorăm cel mai des.",
+    "available": true
   },
   {
     "title": "Oamenii fericiţi citesc şi beau cafea",
@@ -226,7 +244,8 @@
     "price": "34,30 Lei",
     "image": "imagini/oamenii-fericiti-citesc.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=c0730d82a",
-    "description": "O cafenea numită „Oamenii fericiți citesc și beau cafea”. Proprietara ei nu mai citește, nu mai bea cafea și cu siguranță nu mai e fericită. Uneori titlul e o ironie, nu o promisiune. "
+    "description": "O cafenea numită „Oamenii fericiți citesc și beau cafea”. Proprietara ei nu mai citește, nu mai bea cafea și cu siguranță nu mai e fericită. Uneori titlul e o ironie, nu o promisiune. ",
+    "available": true
   },
   {
     "title": "Mică filosofie a siestei",
@@ -237,7 +256,8 @@
     "price": "44,00 Lei",
     "image": "imagini/Mica_filosofie_a_siestei.jpg",
     "affiliate": "https://www.actsipoliton.ro/sebastien-spitzer-mica-filosofie-a-siestei-carte?tracking=69a17509d7810",
-    "description": "Einstein trăgea pui de somn după-amiaza. La fel și Edison, da Vinci, Picasso și Newton. Dacă geniul lor venea din muncă neîntreruptă, de ce niciuna dintre marile lor idei nu a apărut la birou, la ora 3 după-amiaza?"
+    "description": "Einstein trăgea pui de somn după-amiaza. La fel și Edison, da Vinci, Picasso și Newton. Dacă geniul lor venea din muncă neîntreruptă, de ce niciuna dintre marile lor idei nu a apărut la birou, la ora 3 după-amiaza?",
+    "available": true
   },
   {
     "title": "Bulgărele de zăpadă. Warren Buffett și școala vieții",
@@ -251,7 +271,8 @@
     "price": "126,86 Lei",
     "image": "imagini/Bulgarele_de_zapada.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=KR0MgdBQ2Bq1",
-    "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând."
+    "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând.",
+    "available": true
   },
   {
     "title": "Inteligența emoțională",
@@ -265,7 +286,8 @@
     "price": "56,8 Lei",
     "image": "imagini/inteligenta_emotionala.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=eb9c4ff5c",
-    "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând."
+    "description": "Toată lumea caută secretul lui Buffett. Secretul e că nu există niciun secret. Există doar un principiu pe care nimeni nu vrea să-l audă: răbdare calculată, decenii la rând.",
+    "available": true
   },
   {
     "title": "Mindset",
@@ -279,7 +301,8 @@
     "price": "51,75 Lei",
     "image": "imagini/Mindset_coperta.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=kbSOZyL1c_2s",
-    "description": "Toată viața ai fost lăudat că ești deștept. Și asta, spune o cercetătoare de la Stanford, e exact ce te ține pe loc."
+    "description": "Toată viața ai fost lăudat că ești deștept. Și asta, spune o cercetătoare de la Stanford, e exact ce te ține pe loc.",
+    "available": true
   },
   {
     "title": "Pachet 10 cărți de leadership",
@@ -294,7 +317,8 @@
     "offerEnds": "",
     "image": "imagini/Pachet_10_carti.jpg",
     "affiliate": "https://www.actsipoliton.ro/pachet-10-carti-de-leadership?tracking=69a17509d7810",
-    "description": "Toată lumea îți spune că un lider bun știe toate răspunsurile. 10 dintre cele mai citate cărți de leadership din ultimii 20 de ani demonstrează exact contrariul."
+    "description": "Toată lumea îți spune că un lider bun știe toate răspunsurile. 10 dintre cele mai citate cărți de leadership din ultimii 20 de ani demonstrează exact contrariul.",
+    "available": true
   },
   {
     "title": "Nu scuzelor. Puterea autodisciplinei",
@@ -305,7 +329,8 @@
     "price": "54,00 Lei",
     "image": "imagini/Nu scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/brian-tracy-nu-scuzelor-carte-tiparita?tracking=69a17509d7810",
-    "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?"
+    "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?",
+    "available": true
   },
   {
     "title": "Metoda Ask",
@@ -319,7 +344,8 @@
     "price": "54,00 Lei",
     "image": "imagini/metoda-ask.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=H1fEitI90ezx",
-    "description": "Toată lumea vorbește despre comunicare deschisă. Nimeni nu explică de ce oamenii tac de fapt — chiar și când ar fi în interesul tuturor să vorbească. Această carte explică mecanismul tăcerii și cum îl desfaci."
+    "description": "Toată lumea vorbește despre comunicare deschisă. Nimeni nu explică de ce oamenii tac de fapt — chiar și când ar fi în interesul tuturor să vorbească. Această carte explică mecanismul tăcerii și cum îl desfaci.",
+    "available": true
   },
   {
     "title": "Tată bogat, tată sărac. Educația financiară în familie",
@@ -333,7 +359,8 @@
     "price": "59,2 Lei",
     "image": "imagini/tata-bogat-tata-sarac.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=41136faff",
-    "description": "Ai stat 16 ani în școală. Ți-au predat matematică, geografie, literatură. Nimeni nu te-a învățat ce e un activ. Nimeni nu ți-a explicat de ce a doua zi după salariu tot nu ajunge. Și asta nu e din greșeală."
+    "description": "Ai stat 16 ani în școală. Ți-au predat matematică, geografie, literatură. Nimeni nu te-a învățat ce e un activ. Nimeni nu ți-a explicat de ce a doua zi după salariu tot nu ajunge. Și asta nu e din greșeală.",
+    "available": true
   },
   {
     "title": "Pachet Gândire critică. Ce ne facem cu atâția proști?/Cum să gândești ca Socrate",
@@ -347,7 +374,8 @@
     "price": "94,90 Lei",
     "image": "imagini/gandire_critica.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=4dc37856e&unique=nHLYFz8BycW9",
-    "description": "Ai intrat vreodată într-o conversație convins că ai dreptate și ai ieșit nedumerit că nu mai știi nimic sigur? Ăsta e semnul că gândești bine. Cele mai multe persoane nu ajung acolo niciodată."
+    "description": "Ai intrat vreodată într-o conversație convins că ai dreptate și ai ieșit nedumerit că nu mai știi nimic sigur? Ăsta e semnul că gândești bine. Cele mai multe persoane nu ajung acolo niciodată.",
+    "available": true
   },
   {
     "title": "Tu eşti placebo",
@@ -359,7 +387,8 @@
     "price": "68,00 Lei",
     "image": "imagini/placebo.jpg",
     "affiliate": "https://www.actsipoliton.ro/tu-esti-placebo-carte-tiparita?tracking=69a17509d7810",
-    "description": "Cartea asta nu e pentru cei care vor confirmare. E pentru cei dispuși să-și pună la îndoială propriile credințe despre sănătate."
+    "description": "Cartea asta nu e pentru cei care vor confirmare. E pentru cei dispuși să-și pună la îndoială propriile credințe despre sănătate.",
+    "available": true
   },
   {
     "title": "Lebăda neagră",
@@ -373,7 +402,8 @@
     "price": "67,39 Lei",
     "image": "imagini/lebada_neagra.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=fiYUxnpZK6JG",
-    "description": "3 milioane de exemplare vândute, 31 de limbi, 40 de săptămâni pe lista New York Times. Și totuși ideea ei centrală e simplă: nu știi ce nu știi."
+    "description": "3 milioane de exemplare vândute, 31 de limbi, 40 de săptămâni pe lista New York Times. Și totuși ideea ei centrală e simplă: nu știi ce nu știi.",
+    "available": true
   },
   {
     "title": "Mindshift, învață să înveți altfel",
@@ -387,7 +417,8 @@
     "price": "38,1 Lei",
     "image": "imagini/Mindshift.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=e47568444",
-    "description": "Toată lumea îți spune să te specializezi ca să fii în siguranță. Mindshift demonstrează că exact asta te ține pe loc."
+    "description": "Toată lumea îți spune să te specializezi ca să fii în siguranță. Mindshift demonstrează că exact asta te ține pe loc.",
+    "available": true
   },
   {
     "title": "Instrumentele titanilor: tacticile, rutinele și obiceiurile miliardarilor, figurilor publice și artiștilor de talie mondială",
@@ -402,7 +433,8 @@
     "image": "imagini/Instrumentele titanilor.jpg",
     "offerEnds": "",
     "affiliate": "https://www.actsipoliton.ro/tim-ferriss-instrumentele-titanilor-carte?tracking=69a17509d7810",
-    "description": "Cartea asta nu se citește de la pagina 1 la 736. Se citește de unde te doare azi."
+    "description": "Cartea asta nu se citește de la pagina 1 la 736. Se citește de unde te doare azi.",
+    "available": true
   },
   {
     "title": "De la idee la bani. Pentru secolul 21",
@@ -417,7 +449,8 @@
     "image": "imagini/delaidee.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=dHzl6t30z4_r",
-    "description": "Ai o idee bună de câțiva ani. De ce n-ai făcut nimic cu ea?"
+    "description": "Ai o idee bună de câțiva ani. De ce n-ai făcut nimic cu ea?",
+    "available": true
   },
   {
     "title": "Investitorul inteligent",
@@ -432,7 +465,8 @@
     "image": "imagini/investitorul_inteligent.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=981de12ba",
-    "description": "Am deschis-o crezând că învăț formule. Am închis-o realizând că cel mai mare risc din portofoliul meu eram eu."
+    "description": "Am deschis-o crezând că învăț formule. Am închis-o realizând că cel mai mare risc din portofoliul meu eram eu.",
+    "available": true
   },
   {
     "title": "În căutarea lui Dumnezeu și a Guinness: O biografie a berii care a schimbat lumea",
@@ -444,7 +478,8 @@
     "price": "54,00 Lei",
     "image": "imagini/Guinness.jpg",
     "affiliate": "https://www.actsipoliton.ro/stephen-mansfield-in-cautarea-lui-dumnezeu-si-a-guinness-carte?tracking=69a17509d7810",
-    "description": "În 1900, muncitorii de la fabrica Guinness aveau beneficii pe care Google și Microsoft nu le oferă nici azi. Povestea din spate nu are legătură cu marketingul."
+    "description": "În 1900, muncitorii de la fabrica Guinness aveau beneficii pe care Google și Microsoft nu le oferă nici azi. Povestea din spate nu are legătură cu marketingul.",
+    "available": true
   },
   {
     "title": "444 de fragmente memorabile ale lui Neagu Djuvara",
@@ -459,7 +494,8 @@
     "image": "imagini/fragmente.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=09ee0c629",
-    "description": "Toată lumea crede că viața se împlinește devreme, cât mai ai timp înainte. Neagu Djuvara și-a găsit-o abia la 73 de ani, când majoritatea oamenilor se pregătesc să se retragă."
+    "description": "Toată lumea crede că viața se împlinește devreme, cât mai ai timp înainte. Neagu Djuvara și-a găsit-o abia la 73 de ani, când majoritatea oamenilor se pregătesc să se retragă.",
+    "available": true
   },
   {
     "title": "Elixirul viselor: Povestea familiei Campari",
@@ -471,7 +507,8 @@
     "price": "51,80 Lei",
     "image": "imagini/Elixirul viselor.jpg",
     "affiliate": "https://www.actsipoliton.ro/silvia-cinelli-elixirul-viselor-carte?tracking=69a17509d7810",
-    "description": "Fiul cel mare a ales biserica. Al doilea n-avea nicio pregătire. Așa a ajuns Bitter Campari pe rafturile din toată lumea."
+    "description": "Fiul cel mare a ales biserica. Al doilea n-avea nicio pregătire. Așa a ajuns Bitter Campari pe rafturile din toată lumea.",
+    "available": true
   },
   {
     "title": "Efectul Gaslight",
@@ -486,7 +523,8 @@
     "image": "imagini/Gaslight_coperta.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=IMu7v0PPW9om",
-    "description": "În 2022, căutările pentru cuvântul «gaslighting» au crescut cu 1740%. Cartea care a popularizat termenul explică de ce te simți mereu vinovată."
+    "description": "În 2022, căutările pentru cuvântul «gaslighting» au crescut cu 1740%. Cartea care a popularizat termenul explică de ce te simți mereu vinovată.",
+    "available": true
   },
   {
     "title": "Alchimistul",
@@ -501,7 +539,8 @@
     "image": "imagini/Alchimistul.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=D-Qy1sNgEwVL",
-    "description": "Alchimistul nu e pentru cei care vor un roman complicat. E pentru cei care au uitat să-și mai asculte inima și au nevoie de un motiv să se oprească din fugă."
+    "description": "Alchimistul nu e pentru cei care vor un roman complicat. E pentru cei care au uitat să-și mai asculte inima și au nevoie de un motiv să se oprească din fugă.",
+    "available": true
   },
   {
     "title": "Smarter: 10 lecții pentru o viață mai productivă și mai puțin stresantă",
@@ -516,7 +555,8 @@
     "description": "Cartea a câștigat Business Book Award 2025. Nu pentru că spune să muncești mai mult, ci pentru că-ți explică de ce să te oprești.",
     "oldPrice": "54,00 Lei",
     "discount": "30%",
-    "offerEnds": "2026-08-05T23:59:59"
+    "offerEnds": "2026-08-05T23:59:59",
+    "available": true
   },
   {
     "title": "Blind Date with a Book #2",
@@ -530,7 +570,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=eUAqmpBJ9Dze",
     "description": "INDICIU NR. 1 o bunică pe care ți-ai dori-o INDICIU NR. 2 o lume care a dispărut într-o singură noapte INDICIU NR. 3 o casă care miroase a scorțișoară",
     "oldPrice": "62,37 Lei",
-    "discount": "28%"
+    "discount": "28%",
+    "available": true
   },
   {
     "title": "Blind Date with a Book #4",
@@ -544,7 +585,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=UQEKeC3kkKa7",
     "description": "INDICIU NR. 1 un bărbat care citește scrisorile altora  INDICIU NR. 2 o iubire scrisă în haiku-uri  INDICIU NR. 3 un final pe care n-o să-l ierți",
     "oldPrice": "40,17 Lei",
-    "discount": "50%"
+    "discount": "50%",
+    "available": true
   },
   {
     "title": "Blind Date with a Book #8",
@@ -558,7 +600,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=xTWOEqjHDbPt",
     "description": "INDICIU NR. 1 o lume în care cărțile sunt interzise  INDICIU NR. 2 un funcționar care copiază literatura din amintire  INDICIU NR. 3 vizionară, înspăimântător de actuală",
     "oldPrice": "58,14 Lei",
-    "discount": "66%"
+    "discount": "66%",
+    "available": true
   },
   {
     "title": "Blind Date with a Book #9",
@@ -572,7 +615,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=3dtTivEArRkQ",
     "description": "INDICIU NR. 1 un fiu care își caută tatăl într-un sat de morți   INDICIU NR. 2 cartea care l-a învățat pe García Márquez să scrie  INDICIU NR. 3 130 de pagini care au schimbat literatura",
     "oldPrice": "72,94 Lei",
-    "discount": "52%"
+    "discount": "52%",
+    "available": true
   },
   {
     "title": "Blind Date with a Book #13",
@@ -586,7 +630,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=N8VCxh0eXq_r",
     "description": "INDICIU NR. 1 o distopie în care bărbații sunt reeducați  INDICIU NR. 2 un manifest deghizat în roman INDICIU NR. 3 feminism cu colți",
     "oldPrice": "58,14 Lei",
-    "discount": "66%"
+    "discount": "66%",
+    "available": true
   },
   {
     "title": "Blind Date with a Book #19",
@@ -600,7 +645,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=IKSWzZLaUxCL",
     "description": "INDICIU NR. 1 pentru cei cărora li s-a spus prea des „ești prea sensibil”. INDICIU NR. 2 vulnerabilitatea ca formă de curaj INDICIU NR. 3 manualul oamenilor care simt totul la maximum",
     "oldPrice": "58,14 Lei",
-    "discount": "31%"
+    "discount": "31%",
+    "available": true
   },
   {
     "title": "Blind Date with a Book #5",
@@ -614,7 +660,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=POdlxM3nLwy6",
     "description": "INDICIU NR. 1 manipulare care te face să te îndoiești de propria minte INDICIU NR. 2 un termen intrat în vocabular pornind de la un film din 1944 INDICIU NR. 3 numele unei dureri fără rană",
     "oldPrice": "69,00 Lei",
-    "discount": "35%"
+    "discount": "35%",
+    "available": true
   },
   {
     "title": "Liderul poți fi tu.",
@@ -629,7 +676,8 @@
     "image": "https://api.bookzone.ro/upload/produse/ZJHKDF3DW/bg1.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=c3262a293",
-    "description": "85% din succesul tău profesional nu ține de cât de bun ești la job. Ține de cum tratezi oamenii din jurul tău."
+    "description": "85% din succesul tău profesional nu ține de cât de bun ești la job. Ține de cum tratezi oamenii din jurul tău.",
+    "available": true
   },
   {
     "title": "Eu sunt Malala",
@@ -641,7 +689,8 @@
     "price": "55,00 Lei",
     "image": "https://www.libhumanitas.ro/media/catalog/product/m/a/malala.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=bee30bffd",
-    "description": "Ce anume sperie mai tare un regim înarmat decât o armă? Un stilou, în mâna unei fete de cincisprezece ani."
+    "description": "Ce anume sperie mai tare un regim înarmat decât o armă? Un stilou, în mâna unei fete de cincisprezece ani.",
+    "available": true
   },
   {
     "title": "Librăreasa din Paris",
@@ -670,7 +719,8 @@
     "image": "imagini/Cum merge lumea.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=kw29A2QeLJcb",
-    "description": "Chomsky e, potrivit MIT și Chicago Tribune, cel mai citat autor în viață. Al optulea din toată istoria. Nu pentru că spune ce vrea lumea să audă."
+    "description": "Chomsky e, potrivit MIT și Chicago Tribune, cel mai citat autor în viață. Al optulea din toată istoria. Nu pentru că spune ce vrea lumea să audă.",
+    "available": true
   },
   {
     "title": "Marele Gatsby",
@@ -685,7 +735,8 @@
     "image": "imagini/Gatsby (1).jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=63f0fa508",
-    "description": "„Marele Gatsby” a vândut sub 20.000 de exemplare cât a trăit Fitzgerald. A murit crezând că a scris o carte ratată. Astăzi vinde jumătate de milion de exemplare pe an."
+    "description": "„Marele Gatsby” a vândut sub 20.000 de exemplare cât a trăit Fitzgerald. A murit crezând că a scris o carte ratată. Astăzi vinde jumătate de milion de exemplare pe an.",
+    "available": true
   },
   {
     "title": "Sindromul impostorului",
@@ -726,7 +777,8 @@
     "image": "imagini/asoltanie.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=50e9adcf3&unique=843a9cf4c",
-    "description": "Câți bani ai câștigat anul trecut? Și câți dintre ei poți explica unde s-au dus?"
+    "description": "Câți bani ai câștigat anul trecut? Și câți dintre ei poți explica unde s-au dus?",
+    "available": true
   },
   {
     "title": "Autoportretul scriitorului ca alergător de cursă lungă",
@@ -765,7 +817,8 @@
     "image": "imagini/altfel.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=0ucg5C1DWbzQ",
-    "description": "Citești mult. Iei notițe. Sublimezi cu markerul. Și tot uiți totul în două zile. Nu tu ești problema — tehnicile pe care le-ai învățat la 7 ani sunt problema."
+    "description": "Citești mult. Iei notițe. Sublimezi cu markerul. Și tot uiți totul în două zile. Nu tu ești problema — tehnicile pe care le-ai învățat la 7 ani sunt problema.",
+    "available": true
   },
   {
     "title": "Utopia",
@@ -818,7 +871,8 @@
     "price": "39,96 Lei",
     "image": "imagini/jocul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=d7df32678",
-    "description": "11 ani. Atât i-a luat lui Hermann Hesse să scrie o singură carte. A câștigat Premiul Nobel pentru Literatură. Câți ani ai fi dispus să investești într-un singur lucru făcut ireproșabil?"
+    "description": "11 ani. Atât i-a luat lui Hermann Hesse să scrie o singură carte. A câștigat Premiul Nobel pentru Literatură. Câți ani ai fi dispus să investești într-un singur lucru făcut ireproșabil?",
+    "available": true
   },
   {
     "title": "Pădurea norvegiană",
@@ -832,7 +886,8 @@
     "price": "53,10 Lei",
     "image": "imagini/padurea.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=b67130724",
-    "description": "4 milioane de exemplare. Vândute doar în Japonia. Doar în 1987. Autorul a fugit din țară timp de un an ca să scape de faima pe care el însuși n-a vrut-o."
+    "description": "4 milioane de exemplare. Vândute doar în Japonia. Doar în 1987. Autorul a fugit din țară timp de un an ca să scape de faima pe care el însuși n-a vrut-o.",
+    "available": true
   },
   {
     "title": "Jurnalul Annei Frank",
@@ -859,7 +914,8 @@
     "price": "7,50 Lei",
     "image": "imagini/micul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=388d8fae7",
-    "description": "Toată lumea îți spune că e o carte pentru copii. 140 de milioane de oameni au citit-o și au descoperit că e, de fapt, un diagnostic precis al vieții lor de adult."
+    "description": "Toată lumea îți spune că e o carte pentru copii. 140 de milioane de oameni au citit-o și au descoperit că e, de fapt, un diagnostic precis al vieții lor de adult.",
+    "available": true
   },
   {
     "title": "1984",
@@ -873,7 +929,8 @@
     "price": "35,40 Lei",
     "image": "imagini/1984.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=MHIFxC5p0SY6",
-    "description": "Crezi că 1984 e o carte despre un an care a trecut. Nu e. E o carte despre ce se întâmplă când oamenii acceptă că adevărul poate fi rescris. Orwell a scris-o în 1948. 30 de milioane de exemplare vândute. O creștere de 9.500% a vânzărilor într-o singură săptămână — în ianuarie 2017, după ce un politician american a folosit sintagma „fapte alternative”. Cărțile nu se vând așa din accident. Oamenii știu când realitatea din jurul lor miroase a Orwell."
+    "description": "Crezi că 1984 e o carte despre un an care a trecut. Nu e. E o carte despre ce se întâmplă când oamenii acceptă că adevărul poate fi rescris. Orwell a scris-o în 1948. 30 de milioane de exemplare vândute. O creștere de 9.500% a vânzărilor într-o singură săptămână — în ianuarie 2017, după ce un politician american a folosit sintagma „fapte alternative”. Cărțile nu se vând așa din accident. Oamenii știu când realitatea din jurul lor miroase a Orwell.",
+    "available": true
   },
   {
     "title": "Bătrânul și marea",
@@ -887,7 +944,8 @@
     "price": "40,45 Lei",
     "image": "imagini/marea.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=1611a22f6",
-    "description": "În septembrie 1952, revista Life Magazine a publicat integral textul acestei cărți. Ediția s-a vândut în 5 milioane de exemplare în 2 zile. Un an mai târziu: Premiul Pulitzer. Încă un an: Premiul Nobel. 176 de pagini. Nicio altă carte a secolului XX n-a făcut asta."
+    "description": "În septembrie 1952, revista Life Magazine a publicat integral textul acestei cărți. Ediția s-a vândut în 5 milioane de exemplare în 2 zile. Un an mai târziu: Premiul Pulitzer. Încă un an: Premiul Nobel. 176 de pagini. Nicio altă carte a secolului XX n-a făcut asta.",
+    "available": true
   },
   {
     "title": "Pânza de păianjen",
@@ -901,7 +959,8 @@
     "price": "53,10 Lei",
     "image": "imagini/panza.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=da1148931&unique=VBeuuZkSh_zU",
-    "description": "Există cărți pe care le citești și te uiți în urmă. Nu la personaj — la tine. La deciziile luate din frică, la iubirile care nu s-au mai terminat bine, la momentele în care ai ales aparența în locul adevărului. Pânza de păianjen e una din acele cărți. Tocmai de asta e greu de uitat."
+    "description": "Există cărți pe care le citești și te uiți în urmă. Nu la personaj — la tine. La deciziile luate din frică, la iubirile care nu s-au mai terminat bine, la momentele în care ai ales aparența în locul adevărului. Pânza de păianjen e una din acele cărți. Tocmai de asta e greu de uitat.",
+    "available": true
   },
   {
     "title": "Magicianul",
@@ -926,7 +985,8 @@
     "score": "9.8 / 10",
     "category": "jurnale",
     "price": "83,52 Lei",
-    "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg."
+    "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg.",
+    "available": true
   },
   {
     "title": "Viața pe un peron",
@@ -938,7 +998,8 @@
     "score": "9.8 / 10",
     "category": "beletristică",
     "price": "47,58 Lei",
-    "description": "4.383 de cititori au dat rating acestei cărți pe Goodreads — o carte publicată în 1981, în plină paranoia ceaușistă, cu o medie de 4,14 din 5. Întrebarea e simplă: ce anume dintr-un roman scris acum 45 de ani continuă să fie atât de actual? Răspunsul: cartea nu e despre comunism. E despre frică. Și frica n-are epocă."
+    "description": "4.383 de cititori au dat rating acestei cărți pe Goodreads — o carte publicată în 1981, în plină paranoia ceaușistă, cu o medie de 4,14 din 5. Întrebarea e simplă: ce anume dintr-un roman scris acum 45 de ani continuă să fie atât de actual? Răspunsul: cartea nu e despre comunism. E despre frică. Și frica n-are epocă.",
+    "available": true
   },
   {
     "title": "Mic dejun la Tiffany",
@@ -952,7 +1013,8 @@
     "price": "35,10 Lei",
     "description": "288.000 de oameni au evaluat această carte pe Goodreads. Norman Mailer — unul dintre cei mai importanți scriitori americani ai secolului XX — a spus că nu ar schimba două cuvinte din ea. Truman Capote a scris-o în 1958, la 34 de ani. A publicat-o prima dată în Esquire, în noiembrie același an. Lumea literară nu a mai fost la fel după.",
     "oldPrice": "36,95 Lei",
-    "discount": "-5%"
+    "discount": "-5%",
+    "available": true
   },
   {
     "title": "Lolita",
@@ -966,7 +1028,8 @@
     "price": "30,08 Lei",
     "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?",
     "oldPrice": "31,66 Lei",
-    "discount": "-5%"
+    "discount": "-5%",
+    "available": true
   },
   {
     "title": "Străinul",
@@ -980,7 +1043,8 @@
     "price": "42,75 Lei",
     "description": "Tirajul inițial: 4.400 de exemplare. Paris, 1942, sub ocupație nazistă. Până azi: peste 6 milioane de exemplare vândute, tradus în 68 de limbi, ecranizat de două ori. Cine a decis că o carte despre un om indiferent la propria viață merită să supraviețuiască un secol?",
     "oldPrice": "45,00 Lei",
-    "discount": "-5%"
+    "discount": "-5%",
+    "available": true
   },
   {
     "title": "Omul în căutarea sensului vieții. Ediția pentru tinerii cititori",
@@ -992,7 +1056,8 @@
     "score": "9.6 / 10",
     "category": "jurnale",
     "price": "42,30 Lei",
-    "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat."
+    "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat.",
+    "available": true
   },
   {
     "title": "Stephen Hawking, o viață dedicată științei",
@@ -1006,7 +1071,8 @@
     "price": "15,00 Lei",
     "description": "Știi câte săptămâni a stat o carte de fizică pe lista de bestsellere britanice? 237. Știi câte ecuații conținea? Una singură. Știi câte exemplare s-au vândut la nivel mondial? Peste 25 de milioane. Dar știi cine era omul care a scris-o — cu ego-ul lui colosal, cu căsniciile lui complicate, cu obiceiul de a trece cu scaunul peste picioarele celor care îl enervau? Asta e o altă poveste.",
     "oldPrice": "51,81 Lei",
-    "discount": "-71%"
+    "discount": "-71%",
+    "available": true
   },
   {
     "title": "Să ucizi o pasăre cîntătoare",
@@ -1020,7 +1086,8 @@
     "price": "35,96 Lei",
     "description": "Câte decizii ai amânat pentru că „oricum nu schimb nimic”? De câte ori ai tăcut ca să nu deranjezi? De câte ori ai ales confortul în locul a ceea ce știai că e drept? Atticus Finch a apărat un om condamnat dinainte. Știa că va pierde. A apărat indiferent. O carte scrisă în 1960, în Alabama, îți explică astăzi ce înseamnă să ai coloană vertebrală.",
     "oldPrice": "39,95 Lei",
-    "discount": "-10%"
+    "discount": "-10%",
+    "available": true
   },
   {
     "title": "Adio, arme",
@@ -1032,7 +1099,8 @@
     "score": "9.2/10",
     "category": "beletristică",
     "price": "44,96 Lei",
-    "description": "Toată lumea îți spune că Adio, arme e o poveste de dragoste. Nu e. E demonstrația că lumea nu îți datorează nimic — nici viața, nici pe cei pe care îi iubești."
+    "description": "Toată lumea îți spune că Adio, arme e o poveste de dragoste. Nu e. E demonstrația că lumea nu îți datorează nimic — nici viața, nici pe cei pe care îi iubești.",
+    "available": true
   },
   {
     "title": "Homo Deus. Scurtă istorie a viitorului",
@@ -1046,7 +1114,8 @@
     "price": "89,39 Lei",
     "description": "Cu cât omenirea devine mai puternică, cu atât viața unui om individual devine mai puțin importantă. Homo Deus explică de ce progresul și sensul personal sunt, poate, incompatibile.",
     "oldPrice": "94,09 Lei",
-    "discount": "-5%"
+    "discount": "-5%",
+    "available": true
   },
   {
     "title": "Sapiens. Scurtă istorie a omenirii",
@@ -1060,7 +1129,8 @@
     "price": "89,10 Lei",
     "description": "25 de milioane de exemplare vândute. 65 de limbi. 220 de săptămâni pe lista NYT Bestseller. Barack Obama a citit-o. Bill Gates a recomandat-o. Ridley Scott o transformă în film. Ce dezvăluie Sapiens despre noi, lucruri pe care noi refuzăm să le știm despre noi înșine?",
     "oldPrice": "99,00 Lei",
-    "discount": "-10%"
+    "discount": "-10%",
+    "available": true
   },
   {
     "title": "Ferma animalelor",
@@ -1074,7 +1144,8 @@
     "price": "28,00 Lei",
     "description": "11 milioane de exemplare vândute în 80 de ani. Interzisă în URSS din 1945 până în 1989. Interzisă în România până la Revoluție. Interzisă azi în Cuba, Coreea de Nord și parțial China. Și are doar 112 pagini. Ce scrie în ea de sperie atâtea regimuri — asta merită să afli singur.",
     "oldPrice": "35,00 Lei",
-    "discount": "-20%"
+    "discount": "-20%",
+    "available": true
   },
   {
     "title": "Scrisori către Luciliu",
@@ -1088,7 +1159,8 @@
     "price": "79,20 Lei",
     "description": "De 2.000 de ani există o carte despre urgența timpului. Scrisă de un om care știa că mâine i se poate cere să moară. Și totuși noi continuăm să credem că avem timp.",
     "oldPrice": "99,00 Lei",
-    "discount": "-20%"
+    "discount": "-20%",
+    "available": true
   },
   {
     "title": "Ulise",
@@ -1100,7 +1172,8 @@
     "score": "9.9/10",
     "category": "jurnale",
     "price": "125,80 Lei",
-    "description": "Există cărți pe care le respecți fără să le fi citit. Ulise e probabil pe lista ta. Poate că azi e momentul să schimbi asta."
+    "description": "Există cărți pe care le respecți fără să le fi citit. Ulise e probabil pe lista ta. Poate că azi e momentul să schimbi asta.",
+    "available": true
   },
   {
     "title": "Femei",
@@ -1124,7 +1197,8 @@
     "score": "",
     "category": "jurnale",
     "price": "43,00 Lei",
-    "description": "Știi câte cărți s-au scris despre Primul Război Mondial? Zeci de mii. Știi câte victime a făcut gripa spaniolă față de același război? De 5 ori mai multe. Între 50 și 100 de milioane de oameni morți în mai puțin de 2 ani, și totuși în manualele noastre apare ca o notă de subsol."
+    "description": "Știi câte cărți s-au scris despre Primul Război Mondial? Zeci de mii. Știi câte victime a făcut gripa spaniolă față de același război? De 5 ori mai multe. Între 50 și 100 de milioane de oameni morți în mai puțin de 2 ani, și totuși în manualele noastre apare ca o notă de subsol.",
+    "available": true
   },
   {
     "title": "Splendida cetate a celor o mie de sori",
@@ -1174,7 +1248,8 @@
     "price": "65,27 Lei",
     "description": "Toată lumea îți spune să fii rezistent. Să reziști crizelor, eșecurilor, haosului. Nassim Taleb a petrecut 21 de ani ca trader pe Wall Street și a ajuns la o concluzie diferită: rezistența nu e suficientă. Rezistentul supraviețuiește. Antifragilul câștigă.",
     "oldPrice": "68,71 Lei",
-    "discount": "-5%"
+    "discount": "-5%",
+    "available": true
   },
   {
     "title": "Lumea Sofiei",
@@ -1186,7 +1261,8 @@
     "score": "9.6/10",
     "category": "beletristică",
     "price": "69,00 Lei",
-    "description": "În 1991, un profesor norvegian de filozofie a scris o carte pe care era convins că o vor citi doar câteva sute de specialiști. Până azi, au citit-o 50 de milioane de oameni. Ce știa el noi și noi nu știm?"
+    "description": "În 1991, un profesor norvegian de filozofie a scris o carte pe care era convins că o vor citi doar câteva sute de specialiști. Până azi, au citit-o 50 de milioane de oameni. Ce știa el noi și noi nu știm?",
+    "available": true
   },
   {
     "title": "Însemnări din subterană",
@@ -1200,7 +1276,8 @@
     "price": "31,46 Lei",
     "description": "În 1864, un om fără nume, singur într-un apartament din Sankt-Petersburg, a scris 160 de pagini despre cum rațiunea nu ne salvează. 160 de ani mai târziu, Nietzsche, Freud, Kafka și Sartre au confirmat că avea dreptate. Tu nu ai citit-o încă.",
     "oldPrice": "34,95 Lei",
-    "discount": "-10%"
+    "discount": "-10%",
+    "available": true
   },
   {
     "title": "Despre mânie",
@@ -1212,7 +1289,8 @@
     "score": "9.7/10",
     "category": "beletristică",
     "price": "41,00 Lei",
-    "description": "Scrisă acum aproape 2.000 de ani, de un om care lucra zilnic lângă un împărat imprevizibil și violent. Nicio carte de anger management publicată în ultimii 50 de ani nu a rezistat atât. Ce știa Seneca și nu știm noi?"
+    "description": "Scrisă acum aproape 2.000 de ani, de un om care lucra zilnic lângă un împărat imprevizibil și violent. Nicio carte de anger management publicată în ultimii 50 de ani nu a rezistat atât. Ce știa Seneca și nu știm noi?",
+    "available": true
   },
   {
     "title": "Ciuma",
@@ -1226,7 +1304,8 @@
     "price": "35,10 Lei",
     "description": "În februarie 2020, un editor japonez a tipărit într-o singură lună echivalentul vânzărilor din 31 de ani. O carte scrisă în 1947. De ce tocmai atunci? De ce tocmai ea? Pentru că Albert Camus știa deja tot ce aveam să trăim — și scrisese răspunsul cu 73 de ani înainte.",
     "oldPrice": "36,95 Lei",
-    "discount": "-5%"
+    "discount": "-5%",
+    "available": true
   },
   {
     "title": "Un veac de singurătate",
@@ -1240,7 +1319,8 @@
     "price": "47,37 Lei",
     "description": "De ce repeți aceleași greșeli pe care le-ai văzut la părinții tăi? De ce iei aceleași decizii proaste, în aceleași situații, deși știi cum se termină? De ce singurătatea ta seamănă atât de mult cu singurătatea lor? García Márquez a scris un roman despre asta în 1967. 50 de milioane de oameni s-au recunoscut în el.",
     "oldPrice": "59,21 Lei",
-    "discount": "-20%"
+    "discount": "-20%",
+    "available": true
   },
   {
     "title": "Citadela",
@@ -1254,7 +1334,8 @@
     "price": "50,33 Lei",
     "description": "De ce repeți aceleași greșeli pe care le-ai văzut la părinții tăi? De ce iei aceleași decizii proaste, în aceleași situații, deși știi cum se termină? De ce singurătatea ta seamănă atât de mult cu singurătatea lor? García Márquez a scris un roman despre asta în 1967. 50 de milioane de oameni s-au recunoscut în el.",
     "oldPrice": "59,21 Lei",
-    "discount": "-15%"
+    "discount": "-15%",
+    "available": true
   },
   {
     "title": "Minighid de comportament investitional",
@@ -1268,6 +1349,7 @@
     "price": "52,25 Lei",
     "description": "Ben Graham, tatăl investițiilor în valoare, a spus-o acum 90 de ani. Nimeni nu l-a ascultat. „Principala problemă a investitorului — și chiar dușmanul său cel mai mare — e probabil el însuși.” Ai citit zeci de cărți despre piețe. Câte ai citit despre propria ta minte?",
     "oldPrice": "55,00 Lei",
-    "discount": "-5%"
+    "discount": "-5%",
+    "available": true
   }
 ]
