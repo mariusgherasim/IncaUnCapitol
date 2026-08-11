@@ -213,13 +213,21 @@ function parseFeedFile(filePath, campaignFallback) {
             title = title.slice(0, pipeIndex).trim();
         }
 
+        // domeniul din feed (carturesti.ro/img-prod/...) e gresit —
+        // verificat direct pe pagina live a unui produs, imaginile
+        // sunt servite de fapt de pe cdn.dc5.ro/img-prod/... (acelasi
+        // path, alt domeniu — probabil CDN schimbat de carturesti,
+        // fara actualizarea feed-ului)
+        let image = extractField(itemStr, "image_urls").split(",")[0].trim();
+        image = image.replace("https://carturesti.ro/img-prod/", "https://cdn.dc5.ro/img-prod/");
+
         parsed.push({
             title,
             brand: titleAuthor || brand || campaignName.trim(),
             sourceSite: campaignName.trim(),
             productUrl: extractField(itemStr, "url"),
             affiliate: extractField(itemStr, "aff_code"),
-            image: extractField(itemStr, "image_urls").split(",")[0].trim(),
+            image,
             category: bucket,
             price,
             ...(oldPrice ? { oldPrice } : {}),
@@ -292,10 +300,20 @@ function main() {
 
         }
 
-        const seenLinks = new Set(existingItems.map(i => i.affiliate));
-        const newUniqueItems = items.filter(i => !seenLinks.has(i.affiliate));
+        // Merge: produsele din rularea curenta (items) sunt mereu mai
+        // proaspete decat cele existente — daca acelasi produs (dupa
+        // link de afiliere) apare in ambele, castiga versiunea noua
+        // (poate corecta greseli gasite ulterior, ca domeniul de
+        // imagine gresit). Produsele care nu mai apar in feed-ul curent
+        // (au fost scoase de comerciant) raman din versiunea veche —
+        // nu le stergem doar pentru ca lipsesc dintr-o rulare.
+        const itemsByLink = new Map();
 
-        const mergedItems = existingItems.concat(newUniqueItems);
+        existingItems.forEach(i => itemsByLink.set(i.affiliate, i));
+        items.forEach(i => itemsByLink.set(i.affiliate, i));
+
+        const mergedItems = Array.from(itemsByLink.values());
+        const newUniqueItems = items.filter(i => !existingItems.some(e => e.affiliate === i.affiliate));
 
         const outputPath = path.join(OUTPUT_DIR, `${bucket}.json`);
 
