@@ -555,15 +555,6 @@ async function loadBooks() {
         books =
             await response.json();
 
-        // cartile marcate indisponibile de update-prices.js (pret
-        // negasit dupa o incarcare reusita a paginii, nu blocaj
-        // anti-bot temporar) nu se afiseaza pe site — dar raman in
-        // books.json neatinse, ca sa poata reveni automat daca
-        // produsul e din nou pe stoc la o rulare viitoare
-        books = books.filter(book =>
-            book.price !== null && book.available !== false
-        );
-
         books.reverse();
 
         renderBooks(books);
@@ -1030,19 +1021,47 @@ function isBannerActive(banner, todayStr){
 // deschisă (nu doar o dată pe zi la încărcare, ci și în timp real).
 const BANNER_ROTATION_INTERVAL_MS = 2 * 60 * 1000; // 2 minute
 
-let activeBanners = [];
-let currentBannerIndex = 0;
+let activeBanners = [];       // bannerele active azi (fara duplicare)
+let bannerPool = [];          // acelasi banner apare de "weight" ori aici
+let currentBannerIndex = 0;   // index in bannerPool, nu in activeBanners
 let bannerRotationTimer = null;
 
+// Construieste "bazinul" de rotatie: un banner cu weight:3 apare de 3
+// ori in bannerPool, deci are de 3 ori mai multe sanse sa fie ales la
+// fiecare pas, fara sa schimbam deloc mecanismul de rotatie secvential
+// deja existent (doar lista din care alegem e mai lunga pentru cele
+// cu prioritate).
+function buildBannerPool(banners){
+
+    const pool = [];
+
+    banners.forEach(banner => {
+
+        const weight = Math.max(1, parseInt(banner.weight, 10) || 1);
+
+        for (let i = 0; i < weight; i++) {
+            pool.push(banner);
+        }
+
+    });
+
+    return pool;
+
+}
+
+// Randeaza bannerul curent in TOATE sloturile gasite pe pagina (nu
+// doar unul) — homepage poate avea 2 sloturi, fiecare pagina de
+// subcategorie are propriul slot; toate arata acelasi banner curent
+// din rotatie in acelasi moment.
 function renderCurrentBanner(){
 
-    const container = document.getElementById("bannerSlot");
+    const containers = document.querySelectorAll(".banner-mount");
 
-    if (!container || !activeBanners.length) return;
+    if (!containers.length || !bannerPool.length) return;
 
-    const banner = activeBanners[currentBannerIndex];
+    const banner = bannerPool[currentBannerIndex];
 
-    container.innerHTML = `
+    const html = `
         <span class="banner-label">Publicitate</span>
         <a
             href="${escapeHtml(banner.link)}"
@@ -1055,13 +1074,17 @@ function renderCurrentBanner(){
         </a>
     `;
 
+    containers.forEach(container => {
+        container.innerHTML = html;
+    });
+
 }
 
 async function loadBanner(){
 
-    const container = document.getElementById("bannerSlot");
+    const containers = document.querySelectorAll(".banner-mount");
 
-    if (!container) return;
+    if (!containers.length) return;
 
     try {
 
@@ -1082,10 +1105,13 @@ async function loadBanner(){
 
         if (!activeBanners.length) return;
 
+        bannerPool = buildBannerPool(activeBanners);
+
         // bannerul de pornire ramane ales prin hash-ul zilei (acelasi
         // banner "de baza" in aceeasi zi, pentru toti vizitatorii),
-        // apoi rotatia de mai jos avanseaza secvential de-acolo
-        currentBannerIndex = hashSeed(today + "-banner-site") % activeBanners.length;
+        // apoi rotatia de mai jos avanseaza secvential de-acolo, prin
+        // bazinul ponderat
+        currentBannerIndex = hashSeed(today + "-banner-site") % bannerPool.length;
 
         renderCurrentBanner();
 
@@ -1094,11 +1120,11 @@ async function loadBanner(){
         }
 
         // rotatia in timp real nu are sens cu un singur banner activ
-        if (activeBanners.length > 1) {
+        if (bannerPool.length > 1) {
 
             bannerRotationTimer = setInterval(() => {
 
-                currentBannerIndex = (currentBannerIndex + 1) % activeBanners.length;
+                currentBannerIndex = (currentBannerIndex + 1) % bannerPool.length;
                 renderCurrentBanner();
 
             }, BANNER_ROTATION_INTERVAL_MS);
@@ -1108,7 +1134,6 @@ async function loadBanner(){
     } catch (error) {
 
         console.error("Eroare încărcare banners.json:", error);
-
 
     }
 

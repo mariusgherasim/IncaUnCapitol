@@ -76,14 +76,24 @@ const CATEGORY_MAP = {
     "Benzi desenate": "articole-scolare-jocuri",
 
     "Cărţi pentru copii": "carti-copii",
-    "Literatură pentru copii": "carti-copii"
+    "Literatură pentru copii": "carti-copii",
+
+    // --- carturesti-scoala.xml (widget "Back to School 2026") ---
+    // Categoria e generica ("Carte") pe majoritatea produselor — nu
+    // sunt neaparat manuale/rechizite, sunt carti obisnuite incluse
+    // in campania sezoniera. Merg intr-un bucket separat, nu amestecate
+    // cu manualele reale.
+    "Carte": "oferte-carti-scolare",
+    "Audiobook": "oferte-carti-scolare",
+    "Carte copii & adolescenti": "carti-copii"
 
 };
 
 const FEEDS = [
     { file: "libris.xml", campaignFallback: "libris.ro" },
     { file: "librarie-net.xml", campaignFallback: "librarie.net" },
-    { file: "humanitas.xml", campaignFallback: "libhumanitas.ro" }
+    { file: "humanitas.xml", campaignFallback: "libhumanitas.ro" },
+    { file: "carturesti-scoala.xml", campaignFallback: "carturesti.ro" }
 ];
 
 // ========================================
@@ -190,13 +200,26 @@ function parseFeedFile(filePath, campaignFallback) {
         const brand = extractField(itemStr, "brand");
         const campaignName = extractField(itemStr, "campaign_name") || campaignFallback;
 
+        // unele feed-uri (ex. carturesti-scoala.xml) pun "Titlu | Autor"
+        // direct in <title> — separam autorul, ca sa nu apara inghesuit
+        // in titlu si sa avem un "brand" mai relevant decat editura
+        let title = extractField(itemStr, "title");
+        let titleAuthor = "";
+
+        const pipeIndex = title.indexOf(" | ");
+
+        if (pipeIndex !== -1) {
+            titleAuthor = title.slice(pipeIndex + 3).trim();
+            title = title.slice(0, pipeIndex).trim();
+        }
+
         parsed.push({
-            title: extractField(itemStr, "title"),
-            brand: brand || campaignName.trim(),
+            title,
+            brand: titleAuthor || brand || campaignName.trim(),
             sourceSite: campaignName.trim(),
             productUrl: extractField(itemStr, "url"),
             affiliate: extractField(itemStr, "aff_code"),
-            image: extractField(itemStr, "image_urls"),
+            image: extractField(itemStr, "image_urls").split(",")[0].trim(),
             category: bucket,
             price,
             ...(oldPrice ? { oldPrice } : {}),
@@ -241,13 +264,51 @@ function main() {
 
     for (const [bucket, items] of Object.entries(buckets)) {
 
+        // Daca exista deja un fisier <bucket>.json (in folderul curent
+        // sau in output/, de la o rulare anterioara), adaugam produsele
+        // noi peste cele vechi, nu suprascriem — util cand mai vine un
+        // feed nou, fara sa pierdem ce era deja acolo. Deduplicare
+        // dupa link-ul de afiliere (cel mai stabil identificator unic).
+        const existingCandidates = [
+            path.join(__dirname, `${bucket}.json`),
+            path.join(OUTPUT_DIR, `${bucket}.json`)
+        ];
+
+        let existingItems = [];
+
+        for (const candidate of existingCandidates) {
+
+            if (fs.existsSync(candidate)) {
+
+                try {
+                    existingItems = JSON.parse(fs.readFileSync(candidate, "utf8"));
+                } catch (e) {
+                    existingItems = [];
+                }
+
+                break;
+
+            }
+
+        }
+
+        const seenLinks = new Set(existingItems.map(i => i.affiliate));
+        const newUniqueItems = items.filter(i => !seenLinks.has(i.affiliate));
+
+        const mergedItems = existingItems.concat(newUniqueItems);
+
         const outputPath = path.join(OUTPUT_DIR, `${bucket}.json`);
 
-        fs.writeFileSync(outputPath, JSON.stringify(items, null, 2));
+        fs.writeFileSync(outputPath, JSON.stringify(mergedItems, null, 2));
 
         const sizeMb = (fs.statSync(outputPath).size / (1024 * 1024)).toFixed(2);
 
-        console.log(`${bucket}.json`.padEnd(35), `${items.length}`.padStart(6), "produse", `(${sizeMb} MB)`);
+        console.log(
+            `${bucket}.json`.padEnd(35),
+            `${mergedItems.length}`.padStart(6), "produse",
+            `(+${newUniqueItems.length} noi, ${existingItems.length} pastrate)`.padEnd(28),
+            `(${sizeMb} MB)`
+        );
 
     }
 

@@ -1,6 +1,6 @@
 [
   {
-    "_readme": "Cum se folosește: fiecare banner are startDate și endDate (format AAAA-LL-ZZ, ex. 2026-08-01). Ambele sunt opționale și independente: lași gol la amândouă -> bannerul e mereu valabil; pui doar endDate -> valabil pana la acea data, apoi dispare automat; pui doar startDate -> apare abia de la acea data inainte; pui ambele -> valabil strict in intervalul respectiv. Acest obiect e doar informativ, nu e un banner real - nu are 'channels', deci codul din script.js il ignora mereu, nu va aparea niciodata pe site."
+    "_readme": "Cum se folosește: fiecare banner are startDate și endDate (format AAAA-LL-ZZ, ex. 2026-08-01). Ambele sunt opționale și independente: lași gol la amândouă -> bannerul e mereu valabil; pui doar endDate -> valabil pana la acea data, apoi dispare automat; pui doar startDate -> apare abia de la acea data inainte; pui ambele -> valabil strict in intervalul respectiv. Campul 'weight' (numar intreg, implicit 1 daca lipseste) controleaza cat de des apare bannerul in rotatie fata de celelalte active in aceeasi perioada — weight:3 inseamna ca apare de 3 ori mai des decat un banner cu weight:1. Bannerele apar acum in mai multe locuri pe site (homepage + toate cele 6 pagini de subcategorie), fiecare loc randand independent acelasi banner curent din rotatie. Acest obiect e doar informativ, nu e un banner real - nu are 'channels', deci codul din script.js il ignora mereu, nu va aparea niciodata pe site."
   },
   {
     "id": "libris-01",
@@ -13,7 +13,8 @@
       "email"
     ],
     "startDate": "2026-07-24",
-    "endDate": "2026-07-26"
+    "endDate": "2026-07-26",
+    "weight": 1
   },
   {
     "id": "libris-02",
@@ -26,7 +27,8 @@
       "email"
     ],
     "startDate": "2026-07-28",
-    "endDate": "2026-08-05"
+    "endDate": "2026-08-05",
+    "weight": 1
   },
   {
     "id": "carturesti-01",
@@ -39,7 +41,8 @@
       "email"
     ],
     "startDate": "2026-07-28",
-    "endDate": "2026-09-30"
+    "endDate": "2026-09-30",
+    "weight": 1
   },
   {
     "id": "carturesti-02",
@@ -52,7 +55,8 @@
       "email"
     ],
     "startDate": "2026-07-28",
-    "endDate": "2026-09-30"
+    "endDate": "2026-09-30",
+    "weight": 1
   },
   {
     "id": "libris-03",
@@ -65,7 +69,8 @@
       "email"
     ],
     "startDate": "2026-08-06",
-    "endDate": "2026-08-07"
+    "endDate": "2026-08-07",
+    "weight": 1
   },
   {
     "id": "libris-04",
@@ -77,7 +82,8 @@
       "email"
     ],
     "startDate": "2026-08-06",
-    "endDate": "2026-08-07"
+    "endDate": "2026-08-07",
+    "weight": 1
   },
   {
     "id": "libris-05",
@@ -90,6 +96,287 @@
       "email"
     ],
     "startDate": "2026-08-06",
-    "endDate": "2026-08-07"
+    "endDate": "2026-08-07",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-06",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271830/original/271830.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=73d33075c&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-07",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271829/original/271829.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=9d517b199&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-08",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271828/original/271828.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=131de51f2&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-09",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271827/original/271827.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=9f93f4eaa&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "",
+    "endDate": "",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-10",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271826/original/271826.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=f012a368f&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-11",
+    "endDate": "2026-08-17",
+    "weight": 3
+  },
+  {
+    "id": "carturesti-11",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271825/original/271825.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=51af888d6&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-11",
+    "endDate": "2026-08-17",
+    "weight": 3
+  },
+  {
+    "id": "carturesti-12",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271824/original/271824.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=cef0b7fc5&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-11",
+    "endDate": "2026-08-17",
+    "weight": 3
+  },
+  {
+    "id": "carturesti-13",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271823/original/271823.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=5b6247acf&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-11",
+    "endDate": "2026-08-17",
+    "weight": 3
+  },
+  {
+    "id": "carturesti-14",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271822/original/271822.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=91fd7ffb6&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-15",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271821/original/271821.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=103f680cc&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-16",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271820/original/271820.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=bdd6b6b12&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-17",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271819/original/271819.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=a241f6d8f&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-18",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271818/original/271818.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=ce8025021&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-19",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271817/original/271817.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=183efcc7c&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-20",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271816/original/271816.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=96bc57853&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-21",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271815/original/271815.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=fc27b93f0&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-22",
+    "merchant": "carturesti.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271814/original/271814.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=9ccef8ac5&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "alt": "carturesti.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-28",
+    "weight": 1
+  },
+  {
+    "id": "libris-06",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271805/original/271805.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=feefd579d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-11",
+    "endDate": "2026-08-13",
+    "weight": 3
+  },
+  {
+    "id": "libris-07",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271804/original/271804.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=4d185b6a1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-11",
+    "endDate": "2026-08-13",
+    "weight": 3
+  },
+  {
+    "id": "libris-08",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271803/original/271803.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=0b3d2159d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-11",
+    "endDate": "2026-08-13",
+    "weight": 3
   }
 ]
