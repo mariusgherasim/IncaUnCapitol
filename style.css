@@ -220,6 +220,27 @@ footer h3{margin-bottom:10px;}
 .nav-actions{ width:100%; display:flex; justify-content:center; }
 .nav-btn{ display:inline-flex; align-items:center; justify-content:center; width:auto; max-width:280px; padding:12px 22px; font-size:0.9rem; line-height:1.3; text-align:center; white-space:nowrap; border-radius:8px;}
 .footer-btn{ width:100%; font-size:1.1rem; padding:16px; }
+
+/* GRILA DE PRODUSE PE MOBIL — 2 pe rand, nu 1
+   (se aplica la .books-grid oriunde apare: catalogul principal
+   de carti si toate cele 6 pagini noi de subcategorie, care
+   refolosesc aceeasi clasa) */
+
+.books-grid{grid-template-columns:repeat(2,1fr)!important;gap:12px!important;}
+.book-card img{height:150px!important;padding:8px!important;}
+.book-content{padding:12px!important;}
+.book-title{font-size:.9rem!important;margin-bottom:3px!important;line-height:1.25;}
+.book-author{font-size:.78rem!important;margin-bottom:6px!important;}
+.book-score{font-size:.78rem!important;margin-bottom:8px!important;}
+.book-description{font-size:.78rem!important;margin-bottom:8px!important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.why-read{font-size:.75rem!important;margin-bottom:8px!important;}
+.price-box{gap:6px!important;margin-bottom:10px!important;flex-wrap:wrap;}
+.old-price{font-size:.72rem!important;}
+.new-price{font-size:.95rem!important;}
+.discount{font-size:.68rem!important;padding:2px 5px!important;}
+.buy-btn{padding:9px!important;font-size:.82rem!important;}
+.countdown-wrapper{padding:8px!important;}
+.countdown-time{font-size:1rem!important;letter-spacing:0!important;}
 }
 /* ========================================
  COOKIE BANNER (informativ, non-blocant)
