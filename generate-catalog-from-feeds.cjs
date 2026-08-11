@@ -85,15 +85,41 @@ const CATEGORY_MAP = {
     // cu manualele reale.
     "Carte": "oferte-carti-scolare",
     "Audiobook": "oferte-carti-scolare",
-    "Carte copii & adolescenti": "carti-copii"
+    "Carte copii & adolescenti": "carti-copii",
+
+    // --- carturesti-scoala.csv (export COMPLET, CSV, acelasi widget
+    // "Back to School 2026" ca mai sus, dar export diferit de XML —
+    // 5968 produse fata de 992 in XML). Categoriile din CSV sunt
+    // diferite si uneori inselatoare (verificat pe esantioane reale):
+    // "Fashion" contine de fapt rucsacuri, "Ceai & accesorii" contine
+    // termosuri pentru copii, nu ceai.
+    "Papetarie, birotica": "rechizite-papetarie",
+    "Caiete, carnete": "rechizite-papetarie",
+    "ROD": "rechizite-papetarie",
+    "Instrumente de scris": "rechizite-papetarie",
+    "Accesorii de birou": "rechizite-papetarie",
+    "Hobby, arta, DIY": "rechizite-papetarie",
+
+    "Scolaresti": "articole-scolare-accesorii",
+    "Fashion": "articole-scolare-accesorii",
+    "Genti si ghiozdane": "articole-scolare-accesorii",
+    "Ceai & accesorii": "articole-scolare-accesorii",
+    "Gadgeturi si accesorii": "articole-scolare-accesorii",
+    "Accesorii pentru cititori": "articole-scolare-accesorii",
+    "Home & Deco": "articole-scolare-accesorii",
+
+    "Jocuri si Jucarii": "articole-scolare-jocuri",
+    "Board games": "articole-scolare-jocuri",
+    "Jucarii": "articole-scolare-jocuri"
 
 };
 
 const FEEDS = [
-    { file: "libris.xml", campaignFallback: "libris.ro" },
-    { file: "librarie-net.xml", campaignFallback: "librarie.net" },
-    { file: "humanitas.xml", campaignFallback: "libhumanitas.ro" },
-    { file: "carturesti-scoala.xml", campaignFallback: "carturesti.ro" }
+    { file: "libris.xml", campaignFallback: "libris.ro", type: "xml" },
+    { file: "librarie-net.xml", campaignFallback: "librarie.net", type: "xml" },
+    { file: "humanitas.xml", campaignFallback: "libhumanitas.ro", type: "xml" },
+    { file: "carturesti-scoala.xml", campaignFallback: "carturesti.ro", type: "xml" },
+    { file: "carturesti-scoala.csv", campaignFallback: "carturesti.ro", type: "csv" }
 ];
 
 // ========================================
@@ -148,17 +174,82 @@ function calculateDiscountPercent(oldPriceRaw, priceRaw) {
 }
 
 // ========================================
-// PARSARE FEED
+// CONSTRUIRE PRODUS — logica comuna, indiferent daca vine din XML
+// sau CSV (ambele tipuri de feed folosesc aceleasi campuri, doar
+// formatul de fisier difera)
 // ========================================
 
-function parseFeedFile(filePath, campaignFallback) {
+function buildProduct(fields, campaignFallback) {
 
-    if (!fs.existsSync(filePath)) {
+    const category = fields.category;
+    const bucket = CATEGORY_MAP[category];
 
-        console.log(`⏭ ${filePath} nu există, sar peste.`);
-        return [];
+    if (!bucket) return null; // categorie irelevanta pentru initiativa asta
 
+    // XML foloseste "true"/"false", CSV foloseste "1"/"0" — acceptam
+    // ambele conventii
+    const activeRaw = String(fields.product_active || "").trim().toLowerCase();
+    const isActive = activeRaw !== "false" && activeRaw !== "0";
+
+    if (!isActive) return null;
+
+    const priceRaw = fields.price;
+    const oldPriceRaw = fields.old_price;
+
+    const price = normalizePrice(priceRaw);
+
+    if (!price) return null; // fara pret, nu are rost sa afisam produsul
+
+    const oldPrice =
+        oldPriceRaw && parseFloat(oldPriceRaw) > parseFloat(priceRaw)
+            ? normalizePrice(oldPriceRaw)
+            : null;
+
+    const discount = oldPrice ? calculateDiscountPercent(oldPriceRaw, priceRaw) : null;
+
+    const brand = fields.brand;
+    const campaignName = (fields.campaign_name || campaignFallback).trim();
+
+    // unele feed-uri (ex. carturesti-scoala) pun "Titlu | Autor" direct
+    // in title — separam autorul, ca sa nu apara inghesuit in titlu
+    let title = fields.title || "";
+    let titleAuthor = "";
+
+    const pipeIndex = title.indexOf(" | ");
+
+    if (pipeIndex !== -1) {
+        titleAuthor = title.slice(pipeIndex + 3).trim();
+        title = title.slice(0, pipeIndex).trim();
     }
+
+    // domeniul din feed (carturesti.ro/img-prod/...) e gresit —
+    // verificat direct pe pagina live a unui produs, imaginile
+    // sunt servite de fapt de pe cdn.dc5.ro/img-prod/... (acelasi
+    // path, alt domeniu — probabil CDN schimbat de carturesti,
+    // fara actualizarea feed-ului)
+    let image = String(fields.image_urls || "").split(",")[0].trim();
+    image = image.replace("https://carturesti.ro/img-prod/", "https://cdn.dc5.ro/img-prod/");
+
+    return {
+        title,
+        brand: titleAuthor || brand || campaignName,
+        sourceSite: campaignName,
+        productUrl: fields.url,
+        affiliate: fields.aff_code,
+        image,
+        category: bucket,
+        price,
+        ...(oldPrice ? { oldPrice } : {}),
+        ...(discount ? { discount } : {})
+    };
+
+}
+
+// ========================================
+// PARSARE XML
+// ========================================
+
+function parseXmlFile(filePath, campaignFallback) {
 
     console.log(`Citesc ${filePath}...`);
 
@@ -174,71 +265,137 @@ function parseFeedFile(filePath, campaignFallback) {
 
         const itemStr = raw.split("</item>")[0];
 
-        const category = extractField(itemStr, "category");
-        const bucket = CATEGORY_MAP[category];
+        const fields = {
+            category: extractField(itemStr, "category"),
+            product_active: extractField(itemStr, "product_active"),
+            price: extractField(itemStr, "price"),
+            old_price: extractField(itemStr, "old_price"),
+            brand: extractField(itemStr, "brand"),
+            campaign_name: extractField(itemStr, "campaign_name"),
+            title: extractField(itemStr, "title"),
+            image_urls: extractField(itemStr, "image_urls"),
+            url: extractField(itemStr, "url"),
+            aff_code: extractField(itemStr, "aff_code")
+        };
 
-        if (!bucket) continue; // categorie irelevanta pentru initiativa asta
+        const product = buildProduct(fields, campaignFallback);
 
-        const productActive = extractField(itemStr, "product_active");
-
-        if (productActive === "false") continue;
-
-        const priceRaw = extractField(itemStr, "price");
-        const oldPriceRaw = extractField(itemStr, "old_price");
-
-        const price = normalizePrice(priceRaw);
-
-        if (!price) continue; // fara pret, nu are rost sa afisam produsul
-
-        const oldPrice =
-            oldPriceRaw && parseFloat(oldPriceRaw) > parseFloat(priceRaw)
-                ? normalizePrice(oldPriceRaw)
-                : null;
-
-        const discount = oldPrice ? calculateDiscountPercent(oldPriceRaw, priceRaw) : null;
-
-        const brand = extractField(itemStr, "brand");
-        const campaignName = extractField(itemStr, "campaign_name") || campaignFallback;
-
-        // unele feed-uri (ex. carturesti-scoala.xml) pun "Titlu | Autor"
-        // direct in <title> — separam autorul, ca sa nu apara inghesuit
-        // in titlu si sa avem un "brand" mai relevant decat editura
-        let title = extractField(itemStr, "title");
-        let titleAuthor = "";
-
-        const pipeIndex = title.indexOf(" | ");
-
-        if (pipeIndex !== -1) {
-            titleAuthor = title.slice(pipeIndex + 3).trim();
-            title = title.slice(0, pipeIndex).trim();
-        }
-
-        // domeniul din feed (carturesti.ro/img-prod/...) e gresit —
-        // verificat direct pe pagina live a unui produs, imaginile
-        // sunt servite de fapt de pe cdn.dc5.ro/img-prod/... (acelasi
-        // path, alt domeniu — probabil CDN schimbat de carturesti,
-        // fara actualizarea feed-ului)
-        let image = extractField(itemStr, "image_urls").split(",")[0].trim();
-        image = image.replace("https://carturesti.ro/img-prod/", "https://cdn.dc5.ro/img-prod/");
-
-        parsed.push({
-            title,
-            brand: titleAuthor || brand || campaignName.trim(),
-            sourceSite: campaignName.trim(),
-            productUrl: extractField(itemStr, "url"),
-            affiliate: extractField(itemStr, "aff_code"),
-            image,
-            category: bucket,
-            price,
-            ...(oldPrice ? { oldPrice } : {}),
-            ...(discount ? { discount } : {})
-        });
+        if (product) parsed.push(product);
 
     }
 
     console.log(`  ${parsed.length} produse relevante (active, cu preț, categorie mapată).`);
 
     return parsed;
+
+}
+
+// ========================================
+// PARSARE CSV (parser simplu, respecta campuri intre ghilimele
+// cu virgule/ghilimele-duble escapate — fara linii multi-rand,
+// verificat ca formatul feed-ului nu are campuri cu newline literal)
+// ========================================
+
+function parseCsvLine(line) {
+
+    const fields = [];
+    let current = "";
+    let insideQuotes = false;
+
+    for (let i = 0; i < line.length; i++) {
+
+        const char = line[i];
+
+        if (insideQuotes) {
+
+            if (char === '"') {
+
+                if (line[i + 1] === '"') {
+                    current += '"';
+                    i++;
+                } else {
+                    insideQuotes = false;
+                }
+
+            } else {
+
+                current += char;
+
+            }
+
+        } else {
+
+            if (char === '"') {
+                insideQuotes = true;
+            } else if (char === ",") {
+                fields.push(current);
+                current = "";
+            } else {
+                current += char;
+            }
+
+        }
+
+    }
+
+    fields.push(current);
+
+    return fields;
+
+}
+
+function parseCsvFile(filePath, campaignFallback) {
+
+    console.log(`Citesc ${filePath}...`);
+
+    const content = fs.readFileSync(filePath, "utf8");
+
+    const lines = content.split("\n").filter(l => l.trim().length > 0);
+
+    if (!lines.length) return [];
+
+    const headers = parseCsvLine(lines[0]);
+
+    console.log(`  ${lines.length - 1} produse găsite în total.`);
+
+    const parsed = [];
+
+    for (let i = 1; i < lines.length; i++) {
+
+        const values = parseCsvLine(lines[i]);
+
+        const fields = {};
+
+        headers.forEach((h, idx) => {
+            fields[h] = values[idx] || "";
+        });
+
+        const product = buildProduct(fields, campaignFallback);
+
+        if (product) parsed.push(product);
+
+    }
+
+    console.log(`  ${parsed.length} produse relevante (active, cu preț, categorie mapată).`);
+
+    return parsed;
+
+}
+
+function parseFeedFile(feed) {
+
+    const filePath = path.join(__dirname, feed.file);
+
+    if (!fs.existsSync(filePath)) {
+
+        console.log(`⏭ ${filePath} nu există, sar peste.`);
+        return [];
+
+    }
+
+    return feed.type === "csv"
+        ? parseCsvFile(filePath, feed.campaignFallback)
+        : parseXmlFile(filePath, feed.campaignFallback);
 
 }
 
@@ -256,8 +413,7 @@ function main() {
 
     for (const feed of FEEDS) {
 
-        const filePath = path.join(__dirname, feed.file);
-        const items = parseFeedFile(filePath, feed.campaignFallback);
+        const items = parseFeedFile(feed);
 
         for (const item of items) {
 

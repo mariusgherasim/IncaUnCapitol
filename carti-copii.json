@@ -317818,5 +317818,25 @@
     "price": "47,50 Lei",
     "oldPrice": "95,00 Lei",
     "discount": "50%"
+  },
+  {
+    "title": "Coloring Book - My Simple Pleasure |",
+    "brand": "Ohuhu",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/carte/coloring-book-my-simple-pleasure-4758778472",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KjEodgdhbF2P&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/4758778472-1.jpeg",
+    "category": "carti-copii",
+    "price": "54,99 Lei"
+  },
+  {
+    "title": "Exercitii de caligrafie cursiva  |",
+    "brand": "Daco",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/carte/exercitii-de-caligrafie-cursiva-4436134286",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bDrQ4LIq0kE2&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/4436134286-0.png",
+    "category": "carti-copii",
+    "price": "17,00 Lei"
   }
 ]
