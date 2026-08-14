@@ -549,13 +549,10 @@
     "productUrl": "",
     "category": "dezvoltare",
     "score": "9.4 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/Smarter.jpg",
     "affiliate": "https://www.actsipoliton.ro/emily-austen-metoda-smarter-carte?tracking=69a17509d7810",
     "description": "Cartea a câștigat Business Book Award 2025. Nu pentru că spune să muncești mai mult, ci pentru că-ți explică de ce să te oprești.",
-    "oldPrice": "54,00 Lei",
-    "discount": "30%",
-    "offerEnds": "2026-08-05T23:59:59",
     "available": true
   },
   {
@@ -844,7 +841,8 @@
     "price": "53,12 Lei",
     "image": "imagini/margareta.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=2f614f269",
-    "description": "A ars propriul manuscris cu mâinile lui. Regimul i-a interzis fiecare rând. Și totuși cartea asta a ajuns una dintre cele mai citite ale secolului XX"
+    "description": "A ars propriul manuscris cu mâinile lui. Regimul i-a interzis fiecare rând. Și totuși cartea asta a ajuns una dintre cele mai citite ale secolului XX",
+    "available": false
   },
   {
     "title": "Fahrenheit 451",
@@ -1198,8 +1196,7 @@
     "score": "",
     "category": "jurnale",
     "price": "43,00 Lei",
-    "description": "Știi câte cărți s-au scris despre Primul Război Mondial? Zeci de mii. Știi câte victime a făcut gripa spaniolă față de același război? De 5 ori mai multe. Între 50 și 100 de milioane de oameni morți în mai puțin de 2 ani, și totuși în manualele noastre apare ca o notă de subsol.",
-    "available": true
+    "description": "Știi câte cărți s-au scris despre Primul Război Mondial? Zeci de mii. Știi câte victime a făcut gripa spaniolă față de același război? De 5 ori mai multe. Între 50 și 100 de milioane de oameni morți în mai puțin de 2 ani, și totuși în manualele noastre apare ca o notă de subsol."
   },
   {
     "title": "Splendida cetate a celor o mie de sori",
@@ -1345,12 +1342,72 @@
     "productUrl": "https://www.libris.ro/carte/minighid-de-comportament-investitional-james-montier/603352?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=TVWXb967tk4X",
     "image": "imagini/minighid.jpg",
-    "score": "",
+    "score": "9.5/10",
     "category": "jurnale",
     "price": "52,25 Lei",
     "description": "Ben Graham, tatăl investițiilor în valoare, a spus-o acum 90 de ani. Nimeni nu l-a ascultat. „Principala problemă a investitorului — și chiar dușmanul său cel mai mare — e probabil el însuși.” Ai citit zeci de cărți despre piețe. Câte ai citit despre propria ta minte?",
     "oldPrice": "55,00 Lei",
     "discount": "-5%",
+    "available": true
+  },
+  {
+    "title": "Numele trandafirului",
+    "author": "Umberto Eco",
+    "source": "libris",
+    "productUrl": "https://www.libris.ro/carte/numele-trandafirului-umberto-eco/21838116?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=55YJYcy4ENA6",
+    "image": "imagini/numele_trandafirului.jpg",
+    "score": "9.5/10",
+    "category": "beletristică",
+    "price": "47,45 Lei",
+    "description": "Ce se întâmplă când cunoașterea devine mai periculoasă decât ignoranța? Când un manuscris vechi de secole valorează mai mult decât o viață omenească? Când un călugăr franciscan din 1327 înțelege lumea mai bine decât noi, în 2025? Fratele Guglielmo are răspunsuri. Noi mai avem de pus întrebări.",
+    "oldPrice": "49,95 Lei",
+    "discount": "-5%",
+    "available": true
+  },
+  {
+    "title": "Cel mai bogat om din Babilon",
+    "author": "George S. Clason",
+    "source": "libris",
+    "productUrl": "https://www.libris.ro/carte/cel-mai-bogat-om-din-babilon-george-s-clason/28443093?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=ee92438fe",
+    "image": "imagini/BABILON.jpg",
+    "score": "9.8/10",
+    "category": "beletristică",
+    "price": "41,24 Lei",
+    "description": "O carte scrisă acum aproape 100 de ani, distribuită inițial de bănci americane ca material educațional, tradusă în 26 de limbi și vândută în 25 de milioane de exemplare. Principiul ei central are 7 cuvinte: „O parte din tot ce câștigi îți aparține.” Câți ani ai pierdut ignorând asta?",
+    "oldPrice": "54,99 Lei",
+    "discount": "-25%",
+    "available": true
+  },
+  {
+    "title": "Ultimul dans al lui Charlot",
+    "author": "Fabio Stassi",
+    "source": "humanitas",
+    "productUrl": "https://www.libhumanitas.ro/ultimul-dans-al-lui-charlot-fabio-stassi-c204809.html",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=29e1ea54c",
+    "image": "imagini/Charlot.jpg",
+    "score": "9.8/10",
+    "category": "jurnale",
+    "price": "",
+    "description": "Cum convingi Moartea să mai aștepte un an? Ce îi spui unui fiu când știi că s-ar putea să nu mai fii acolo când va crește? Ce rămâne dintr-o viață când nu mai poți filma, nu mai poți performa, nu mai ești decât un om bătrân cu amintiri? Chaplin și-a pus aceste întrebări. Noaptea de Crăciun. La 82 de ani.",
+    "oldPrice": "",
+    "discount": "",
+    "available": false
+  },
+  {
+    "title": "Procesul",
+    "author": "Franz Kafka",
+    "source": "libris",
+    "productUrl": "https://www.libris.ro/carte/procesul-franz-kafka/45323789?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=NanIoB5iNKrE",
+    "image": "imagini/procesul.jpg",
+    "score": "9.6/10",
+    "category": "beletristică",
+    "price": "38,16 Lei",
+    "description": "Scris în 1914 la Praga, publicat postum în 1925 — pentru că autorul a cerut să fie ars. 25 de milioane de exemplare mai târziu, termenul „kafkian” există în dicționarul fiecărei limbi mari. Ce carte produce un cuvânt nou într-o limbă? Una singură.",
+    "oldPrice": "44,90 Lei",
+    "discount": "-15%",
     "available": true
   }
 ]

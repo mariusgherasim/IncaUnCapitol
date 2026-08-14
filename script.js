@@ -555,6 +555,15 @@ async function loadBooks() {
         books =
             await response.json();
 
+        // cartile marcate indisponibile de update-prices.js (pret
+        // negasit dupa o incarcare reusita a paginii, nu blocaj
+        // anti-bot temporar) nu se afiseaza pe site — dar raman in
+        // books.json neatinse, ca sa poata reveni automat daca
+        // produsul e din nou pe stoc la o rulare viitoare
+        books = books.filter(book =>
+            book.price !== null && book.available !== false
+        );
+
         books.reverse();
 
         renderBooks(books);
