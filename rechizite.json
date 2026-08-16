@@ -1,5 +1,0 @@
-[
-  {
-    "_readme": "Structura unui produs: title, brand (producator, ex. Faber-Castell, Herlitz - NU autor, ca la carti), source (una din cele 9 surse deja existente: actsipoliton, edituratrei, curteaveche, bookzone, humanitas, librarienet, nemira, libris, carturesti), productUrl, affiliate, image, category (obligatoriu una din: rechizite, manuale, articole-scolare - altfel produsul nu apare deloc pe site), price (placeholder '0 Lei' la adaugare, se completeaza automat de scraper). oldPrice/discount NU se pun manual - le adauga scraperul singur daca gaseste reducere activa. Acest obiect e doar informativ - nu are 'category', deci codul din script.js il ignora mereu, nu apare niciodata pe site."
-  }
-]
