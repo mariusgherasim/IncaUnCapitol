@@ -475,11 +475,13 @@
     "productUrl": "",
     "category": "jurnale",
     "score": "9.8 / 10",
-    "price": "54,00 Lei",
+    "price": "37,80 Lei",
     "image": "imagini/Guinness.jpg",
     "affiliate": "https://www.actsipoliton.ro/stephen-mansfield-in-cautarea-lui-dumnezeu-si-a-guinness-carte?tracking=69a17509d7810",
     "description": "În 1900, muncitorii de la fabrica Guinness aveau beneficii pe care Google și Microsoft nu le oferă nici azi. Povestea din spate nu are legătură cu marketingul.",
-    "available": true
+    "available": true,
+    "oldPrice": "54,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "444 de fragmente memorabile ale lui Neagu Djuvara",
