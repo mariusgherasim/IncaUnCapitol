@@ -37,6 +37,46 @@ gtag('config', 'G-HS59YL4Y3D');
 
 <link rel="stylesheet" href="style.css">
 
+<!-- JSON-LD static — vizibil fara executie JavaScript, spre deosebire
+     de schema per-carte (injectBooksSchema in script.js, care ruleaza
+     doar dupa incarcarea catalogului si nu e vazuta de crawlere care
+     nu executa JS) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ÎncăUnCapitol",
+  "url": "https://carti.gherasimmarius.com/",
+  "logo": "https://carti.gherasimmarius.com/imagini/og-image.jpg",
+  "description": "Recomandări de cărți de dezvoltare personală, educație financiară, business și psihologie, plus rechizite, manuale și articole școlare, cu prețuri actualizate automat.",
+  "email": "office@gherasimmarius.com",
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "ÎncăUnCapitol",
+  "url": "https://carti.gherasimmarius.com/",
+  "description": "Recomandări de cărți, rechizite, manuale și articole școlare, cu prețuri actualizate automat, de la toate editurile și librăriile partenere.",
+  "inLanguage": "ro-RO",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ÎncăUnCapitol"
+  },
+  "hasPart": [
+    { "@type": "CollectionPage", "name": "Manuale școlare", "url": "https://carti.gherasimmarius.com/manuale-scolare.html" },
+    { "@type": "CollectionPage", "name": "Cărți pentru copii", "url": "https://carti.gherasimmarius.com/carti-copii.html" },
+    { "@type": "CollectionPage", "name": "Materii suplimentare", "url": "https://carti.gherasimmarius.com/materii-suplimentare.html" },
+    { "@type": "CollectionPage", "name": "Rechizite și papetărie", "url": "https://carti.gherasimmarius.com/rechizite-papetarie.html" },
+    { "@type": "CollectionPage", "name": "Accesorii școlare", "url": "https://carti.gherasimmarius.com/articole-scolare-accesorii.html" },
+    { "@type": "CollectionPage", "name": "Jocuri și benzi desenate", "url": "https://carti.gherasimmarius.com/articole-scolare-jocuri.html" },
+    { "@type": "CollectionPage", "name": "Oferte cărți — Back to School", "url": "https://carti.gherasimmarius.com/oferte-carti-scolare.html" }
+  ]
+}
+</script>
+
 <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1784639");</style>
 <style type="text/css">
 .ml-form-embedSubmitLoad { display: inline-block; width: 20px; height: 20px; }
