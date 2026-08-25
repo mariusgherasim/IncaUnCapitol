@@ -378,5 +378,39 @@
     "startDate": "2026-08-11",
     "endDate": "2026-08-13",
     "weight": 3
+  },
+  {
+    "id": "libris-09",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/272082/original/272082.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=8e678ec51&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-25",
+    "endDate": "2026-08-27",
+    "weight": 3
+  },
+  {
+    "id": "libris-08",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/272080/original/272080.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=c62533f4c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-08-25",
+    "endDate": "2026-08-27",
+    "weight": 3
   }
 ]
+
+
+
+
+
+
