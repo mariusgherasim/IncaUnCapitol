@@ -281,8 +281,8 @@
     "author": "Daniel Goleman",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "oldPrice": "99,00 Lei",
-    "discount": "25%",
+    "oldPrice": "99 Lei",
+    "discount": "20%",
     "price": "74,25 Lei",
     "image": "imagini/inteligenta_emotionala.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=wfsgMaCvBpIb",
@@ -354,7 +354,9 @@
     "author": "Robert T. Kiyosaki",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "price": "75,00 Lei",
+    "oldPrice": "",
+    "discount": "",
+    "price": "75 Lei",
     "image": "imagini/tata-bogat-tata-sarac.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=dbf5b0053",
     "description": "Ai stat 16 ani în școală. Ți-au predat matematică, geografie, literatură. Nimeni nu te-a învățat ce e un activ. Nimeni nu ți-a explicat de ce a doua zi după salariu tot nu ajunge. Și asta nu e din greșeală.",
@@ -457,11 +459,14 @@
     "productUrl": "https://www.libris.ro/carte/investitorul-inteligent-benjamin-graham/364959?utm_source=2parale&utm_medium=feed",
     "category": "financiar",
     "score": "9.8 / 10",
-    "price": null,
+    "oldPrice": "",
+    "discount": "",
+    "price": "139,6 Lei",
     "image": "imagini/investitorul_inteligent.jpg",
+    "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=62bb41453",
     "description": "Am deschis-o crezând că învăț formule. Am închis-o realizând că cel mai mare risc din portofoliul meu eram eu.",
-    "available": false
+    "available": true
   },
   {
     "title": "În căutarea lui Dumnezeu și a Guinness: O biografie a berii care a schimbat lumea",
@@ -484,8 +489,8 @@
     "category": "jurnale",
     "score": "9.8 / 10",
     "oldPrice": "51,81 Lei",
-    "discount": "-15%",
-    "price": "44,04 Lei",
+    "discount": "",
+    "price": "49,22 Lei",
     "image": "imagini/fragmente.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=d9fb0f5ef",
@@ -528,9 +533,9 @@
     "productUrl": "https://www.libris.ro/carte/alchimistul-editie-aniversara-paulo-coelho/45156832?utm_source=2parale&utm_medium=feed",
     "category": "beletristică",
     "score": "9.8 / 10",
-    "oldPrice": "65,00 Lei",
-    "discount": "-20%",
-    "price": "52,00 Lei",
+    "oldPrice": "65 Lei",
+    "discount": "12%",
+    "price": "52 Lei",
     "image": "imagini/Alchimistul.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=QM70i9h2vkLT",
@@ -572,12 +577,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-4",
     "category": "",
     "score": "",
-    "price": "10,00 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-04.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=UQEKeC3kkKa7",
     "description": "INDICIU NR. 1 un bărbat care citește scrisorile altora  INDICIU NR. 2 o iubire scrisă în haiku-uri  INDICIU NR. 3 un final pe care n-o să-l ierți",
     "oldPrice": "40,17 Lei",
-    "discount": "75%",
+    "discount": "50%",
     "available": true
   },
   {
@@ -587,12 +592,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-8",
     "category": "",
     "score": "",
-    "price": "14,00 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-08.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=xTWOEqjHDbPt",
     "description": "INDICIU NR. 1 o lume în care cărțile sunt interzise  INDICIU NR. 2 un funcționar care copiază literatura din amintire  INDICIU NR. 3 vizionară, înspăimântător de actuală",
     "oldPrice": "58,14 Lei",
-    "discount": "76%",
+    "discount": "66%",
     "available": true
   },
   {
@@ -617,12 +622,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-13",
     "category": "",
     "score": "",
-    "price": "15,00 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-13.png",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=N8VCxh0eXq_r",
     "description": "INDICIU NR. 1 o distopie în care bărbații sunt reeducați  INDICIU NR. 2 un manifest deghizat în roman INDICIU NR. 3 feminism cu colți",
     "oldPrice": "58,14 Lei",
-    "discount": "74%",
+    "discount": "66%",
     "available": true
   },
   {
@@ -663,7 +668,7 @@
     "category": "leadership",
     "score": "9.7 / 10",
     "oldPrice": "47,57 Lei",
-    "discount": "25%",
+    "discount": "20%",
     "price": "35,68 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Liderul_potifitu_coperta_1.jpg",
     "offerEnds": "",
@@ -723,8 +728,8 @@
     "category": "beletristică",
     "score": "9.7 / 10",
     "oldPrice": "43,87 Lei",
-    "discount": "-30%",
-    "price": "30,71 Lei",
+    "discount": "",
+    "price": "41,68 Lei",
     "image": "imagini/Gatsby (1).jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=b303d0257",
@@ -766,7 +771,7 @@
     "category": "financiar",
     "score": "9.7 / 10",
     "oldPrice": "59,00 Lei",
-    "discount": "-5%",
+    "discount": "20%",
     "price": "56,05 Lei",
     "image": "imagini/asoltanie.jpg",
     "offerEnds": "",
@@ -979,11 +984,9 @@
     "image": "imagini/pribegie.jpg",
     "score": "9.8 / 10",
     "category": "jurnale",
-    "price": "70,99 Lei",
+    "price": "83,52 Lei",
     "description": "42 de ani de exil. 23 de ani în Niger. Rănit lângă Odessa în 1941. Și totuși nu a scris o carte despre suferință — a scris una despre cum rămâi întreg.",
-    "available": true,
-    "oldPrice": "83,52 Lei",
-    "discount": "-15%"
+    "available": true
   },
   {
     "title": "Viața pe un peron",
@@ -994,11 +997,9 @@
     "image": "imagini/peron.jpg",
     "score": "9.8 / 10",
     "category": "beletristică",
-    "price": "40,44 Lei",
+    "price": "47,58 Lei",
     "description": "4.383 de cititori au dat rating acestei cărți pe Goodreads — o carte publicată în 1981, în plină paranoia ceaușistă, cu o medie de 4,14 din 5. Întrebarea e simplă: ce anume dintr-un roman scris acum 45 de ani continuă să fie atât de actual? Răspunsul: cartea nu e despre comunism. E despre frică. Și frica n-are epocă.",
-    "available": true,
-    "oldPrice": "47,58 Lei",
-    "discount": "-15%"
+    "available": true
   },
   {
     "title": "Mic dejun la Tiffany",
@@ -1009,10 +1010,10 @@
     "image": "imagini/dejun.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "31,41 Lei",
+    "price": "35,10 Lei",
     "description": "288.000 de oameni au evaluat această carte pe Goodreads. Norman Mailer — unul dintre cei mai importanți scriitori americani ai secolului XX — a spus că nu ar schimba două cuvinte din ea. Truman Capote a scris-o în 1958, la 34 de ani. A publicat-o prima dată în Esquire, în noiembrie același an. Lumea literară nu a mai fost la fel după.",
     "oldPrice": "36,95 Lei",
-    "discount": "-15%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1024,10 +1025,10 @@
     "image": "imagini/lolita.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "26,91 Lei",
+    "price": "30,08 Lei",
     "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?",
     "oldPrice": "31,66 Lei",
-    "discount": "-15%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1039,10 +1040,10 @@
     "image": "imagini/strainul.jpg",
     "score": "9.8 / 10",
     "category": "beletristică",
-    "price": "38,25 Lei",
+    "price": "40,50 Lei",
     "description": "Tirajul inițial: 4.400 de exemplare. Paris, 1942, sub ocupație nazistă. Până azi: peste 6 milioane de exemplare vândute, tradus în 68 de limbi, ecranizat de două ori. Cine a decis că o carte despre un om indiferent la propria viață merită să supraviețuiască un secol?",
     "oldPrice": "45,00 Lei",
-    "discount": "-15%",
+    "discount": "-10%",
     "available": true
   },
   {
@@ -1054,11 +1055,9 @@
     "image": "imagini/sesnsul.jpg",
     "score": "9.6 / 10",
     "category": "jurnale",
-    "price": "35,95 Lei",
+    "price": "42,30 Lei",
     "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat.",
-    "available": true,
-    "oldPrice": "42,30 Lei",
-    "discount": "-15%"
+    "available": true
   },
   {
     "title": "Stephen Hawking, o viață dedicată științei",
@@ -1084,10 +1083,10 @@
     "image": "imagini/pasare.jpg",
     "score": "9.1 / 10",
     "category": "beletristică",
-    "price": "33,96 Lei",
+    "price": "35,96 Lei",
     "description": "Câte decizii ai amânat pentru că „oricum nu schimb nimic”? De câte ori ai tăcut ca să nu deranjezi? De câte ori ai ales confortul în locul a ceea ce știai că e drept? Atticus Finch a apărat un om condamnat dinainte. Știa că va pierde. A apărat indiferent. O carte scrisă în 1960, în Alabama, îți explică astăzi ce înseamnă să ai coloană vertebrală.",
     "oldPrice": "39,95 Lei",
-    "discount": "-15%",
+    "discount": "-10%",
     "available": true
   },
   {
@@ -1099,11 +1098,9 @@
     "image": "imagini/arme.jpg",
     "score": "9.2/10",
     "category": "beletristică",
-    "price": "38,22 Lei",
+    "price": "44,96 Lei",
     "description": "Toată lumea îți spune că Adio, arme e o poveste de dragoste. Nu e. E demonstrația că lumea nu îți datorează nimic — nici viața, nici pe cei pe care îi iubești.",
-    "available": true,
-    "oldPrice": "44,96 Lei",
-    "discount": "-15%"
+    "available": true
   },
   {
     "title": "Homo Deus. Scurtă istorie a viitorului",
@@ -1114,10 +1111,10 @@
     "image": "imagini/deus.jpg",
     "score": "9.8/10",
     "category": "all",
-    "price": "79,98 Lei",
+    "price": "89,39 Lei",
     "description": "Cu cât omenirea devine mai puternică, cu atât viața unui om individual devine mai puțin importantă. Homo Deus explică de ce progresul și sensul personal sunt, poate, incompatibile.",
     "oldPrice": "94,09 Lei",
-    "discount": "-15%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1132,8 +1129,8 @@
     "price": "94,05 Lei",
     "description": "25 de milioane de exemplare vândute. 65 de limbi. 220 de săptămâni pe lista NYT Bestseller. Barack Obama a citit-o. Bill Gates a recomandat-o. Ridley Scott o transformă în film. Ce dezvăluie Sapiens despre noi, lucruri pe care noi refuzăm să le știm despre noi înșine?",
     "oldPrice": "99,00 Lei",
-    "discount": "-5%",
-    "available": true
+    "discount": "-10%",
+    "available": false
   },
   {
     "title": "Ferma animalelor",
@@ -1174,11 +1171,9 @@
     "image": "imagini/ulise.jpg",
     "score": "9.9/10",
     "category": "jurnale",
-    "price": "106,93 Lei",
+    "price": "125,80 Lei",
     "description": "Există cărți pe care le respecți fără să le fi citit. Ulise e probabil pe lista ta. Poate că azi e momentul să schimbi asta.",
-    "available": true,
-    "oldPrice": "125,80 Lei",
-    "discount": "-15%"
+    "available": true
   },
   {
     "title": "Femei",
@@ -1282,10 +1277,10 @@
     "image": "imagini/subteran.jpg",
     "score": "9.7/10",
     "category": "beletristică",
-    "price": "29,71 Lei",
+    "price": "31,46 Lei",
     "description": "În 1864, un om fără nume, singur într-un apartament din Sankt-Petersburg, a scris 160 de pagini despre cum rațiunea nu ne salvează. 160 de ani mai târziu, Nietzsche, Freud, Kafka și Sartre au confirmat că avea dreptate. Tu nu ai citit-o încă.",
     "oldPrice": "34,95 Lei",
-    "discount": "-15%",
+    "discount": "-10%",
     "available": true
   },
   {
@@ -1297,11 +1292,9 @@
     "image": "imagini/manie.jpg",
     "score": "9.7/10",
     "category": "beletristică",
-    "price": "34,85 Lei",
+    "price": "41,00 Lei",
     "description": "Scrisă acum aproape 2.000 de ani, de un om care lucra zilnic lângă un împărat imprevizibil și violent. Nicio carte de anger management publicată în ultimii 50 de ani nu a rezistat atât. Ce știa Seneca și nu știm noi?",
-    "available": true,
-    "oldPrice": "41,00 Lei",
-    "discount": "-15%"
+    "available": true
   },
   {
     "title": "Ciuma",
@@ -1312,10 +1305,10 @@
     "image": "imagini/ciuma.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "31,41 Lei",
+    "price": "35,10 Lei",
     "description": "În februarie 2020, un editor japonez a tipărit într-o singură lună echivalentul vânzărilor din 31 de ani. O carte scrisă în 1947. De ce tocmai atunci? De ce tocmai ea? Pentru că Albert Camus știa deja tot ce aveam să trăim — și scrisese răspunsul cu 73 de ani înainte.",
     "oldPrice": "36,95 Lei",
-    "discount": "-15%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1327,10 +1320,10 @@
     "image": "imagini/veac.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "35,53 Lei",
+    "price": "47,37 Lei",
     "description": "De ce repeți aceleași greșeli pe care le-ai văzut la părinții tăi? De ce iei aceleași decizii proaste, în aceleași situații, deși știi cum se termină? De ce singurătatea ta seamănă atât de mult cu singurătatea lor? García Márquez a scris un roman despre asta în 1967. 50 de milioane de oameni s-au recunoscut în el.",
     "oldPrice": "59,21 Lei",
-    "discount": "-40%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1342,10 +1335,10 @@
     "image": "imagini/citadela.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "41,45 Lei",
+    "price": "50,33 Lei",
     "description": "De ce repeți aceleași greșeli pe care le-ai văzut la părinții tăi? De ce iei aceleași decizii proaste, în aceleași situații, deși știi cum se termină? De ce singurătatea ta seamănă atât de mult cu singurătatea lor? García Márquez a scris un roman despre asta în 1967. 50 de milioane de oameni s-au recunoscut în el.",
     "oldPrice": "59,21 Lei",
-    "discount": "-30%",
+    "discount": "-15%",
     "available": true
   },
   {
@@ -1372,10 +1365,10 @@
     "image": "imagini/numele_trandafirului.jpg",
     "score": "9.5/10",
     "category": "beletristică",
-    "price": "42,46 Lei",
+    "price": "47,45 Lei",
     "description": "Ce se întâmplă când cunoașterea devine mai periculoasă decât ignoranța? Când un manuscris vechi de secole valorează mai mult decât o viață omenească? Când un călugăr franciscan din 1327 înțelege lumea mai bine decât noi, în 2025? Fratele Guglielmo are răspunsuri. Noi mai avem de pus întrebări.",
     "oldPrice": "49,95 Lei",
-    "discount": "-15%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1387,10 +1380,10 @@
     "image": "imagini/BABILON.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "38,49 Lei",
+    "price": "41,24 Lei",
     "description": "O carte scrisă acum aproape 100 de ani, distribuită inițial de bănci americane ca material educațional, tradusă în 26 de limbi și vândută în 25 de milioane de exemplare. Principiul ei central are 7 cuvinte: „O parte din tot ce câștigi îți aparține.” Câți ani ai pierdut ignorând asta?",
     "oldPrice": "54,99 Lei",
-    "discount": "-30%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1417,10 +1410,10 @@
     "image": "imagini/procesul.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "35,92 Lei",
+    "price": "38,16 Lei",
     "description": "Scris în 1914 la Praga, publicat postum în 1925 — pentru că autorul a cerut să fie ars. 25 de milioane de exemplare mai târziu, termenul „kafkian” există în dicționarul fiecărei limbi mari. Ce carte produce un cuvânt nou într-o limbă? Una singură.",
     "oldPrice": "44,90 Lei",
-    "discount": "-20%",
+    "discount": "-15%",
     "available": true
   },
   {
@@ -1447,10 +1440,10 @@
     "image": "imagini/ramasitele.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "29,75 Lei",
+    "price": "33,25 Lei",
     "description": "Câți ani ai pus munca înaintea a tot ce ți-a mai rămas? Câte conversații ai amânat? Câte momente ai ratat pentru că „nu era momentul potrivit”? Câte dintre ele nu se mai întorc? Stevens, majordomul din Rămășițele zilei, și-a pus aceleași întrebări. La 60 de ani. Când era prea târziu.",
     "oldPrice": "35,00 Lei",
-    "discount": "-15%",
+    "discount": "5%",
     "available": true
   },
   {
@@ -1462,10 +1455,55 @@
     "image": "imagini/mitul.jpg",
     "score": "9.8/10",
     "category": "dezvoltare",
-    "price": "80,75 Lei",
+    "price": "90,25 Lei",
     "description": "70% dintre americani iau cel puțin un medicament prescris. Canada înregistrează hipertensiune la unul din cinci adulți. Marea Britanie a ajuns la o criză de sănătate mintală fără precedent. Și totuși trăim în cele mai „avansate” sisteme de sănătate din istoria omenirii. Poate că problema nu e lipsa tratamentelor. Poate că problema e ce numim „normal”.",
     "oldPrice": "95,00 Lei",
-    "discount": "-15%",
+    "discount": "5%",
+    "available": true
+  },
+  {
+    "title": "Calomnii mitologice",
+    "author": "Octavian Paler",
+    "source": "humanitas",
+    "productUrl": "https://www.libhumanitas.ro/calomnii-mitologice-octavian-paler-a164215.html",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=bd8dc7bbd",
+    "image": "imagini/calomnii.jpg",
+    "score": "9.8/10",
+    "category": "dezvoltare",
+    "price": "31,66 Lei",
+    "description": "Narcis nu era un egoist. Procust nu era un tâlhar. Don Juan nu era un cuceritor. Timp de două milenii, i-am condamnat fără să-i ascultăm. Octavian Paler a scris ultima lui carte ca să le ia apărarea.",
+    "oldPrice": "",
+    "discount": "",
+    "available": true
+  },
+  {
+    "title": "Marii inițiați ai Indiei și părintele Paisie",
+    "author": "Dionysios Farasiotis",
+    "source": "humanitas",
+    "productUrl": "https://www.libris.ro/carte/marii-initiati-ai-indiei-si-parintele-paisie-dionysios-farasiotis/10897466?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=705e3b3ce",
+    "image": "imagini/marii.jpg",
+    "score": "9.8/10",
+    "category": "dezvoltare",
+    "price": "36,00 Lei",
+    "description": "De ce există lumea? Există Dumnezeu? Cine sunt eu? Ce se întâmplă după moarte? Sunt întrebările pe care le-ai pus, le-ai pus din nou, și ai primit fie răspunsuri vagi, fie sfatul să nu le mai pui. Un tânăr grec a decis că nu poate trăi fără răspunsuri reale. Că nu poate accepta „nu știm”. Că trebuie să verifice personal. La 25 de ani a plecat în India cu un caiet și o întrebare: ce e real din toată spiritualitatea lumii?",
+    "oldPrice": "",
+    "discount": "",
+    "available": true
+  },
+  {
+    "title": "21 de lecții pentru secolul XXI",
+    "author": "Yuval Noah Harari",
+    "source": "librarienet",
+    "productUrl": "https://www.librarie.net/p/341927/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=705e3b3ce",
+    "image": "imagini/lectii.jpg",
+    "score": "9.9/10",
+    "category": "dezvoltare",
+    "price": "94,09 Lei",
+    "description": "Cine controlează povestea pe care o crezi despre lume? De ce democrația liberală e în criză exact când ar trebui să fie la apogeu? Ce se întâmplă cu locul tău de muncă când AI face în 10 secunde ce faci tu în 10 ore? De ce știrile false supraviețuiesc mai bine decât adevărul? Ce anume trebuie să îi înveți copilului tău — când nu știi cum va arăta lumea în care va trăi? Harari nu dă răspunsuri simple. Dar pune întrebările pe care nimeni altcineva nu îndrăznește să le pună clar.",
+    "oldPrice": "",
+    "discount": "",
     "available": true
   }
 ]
