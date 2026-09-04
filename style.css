@@ -98,6 +98,8 @@ border-radius:20px;}
 .badge{display:inline-block;background:var(--secondary);color:white;padding:5px 12px;border-radius:25px;font-size:.8rem;font-weight:600;margin-bottom:12px;}
 .book-author{color:var(--text-light);margin-bottom:10px;}
 .book-card{background:white;border:1px solid #e5e7eb; border-radius:16px;overflow:hidden;box-shadow:var(--shadow);}
+a.book-card{display:block;color:inherit;text-decoration:none;}
+a.book-card .book-title{color:var(--primary,#111827);}
 .book-card:hover{transform:translateY(-5px);}
 .book-card img{width:100%;height:400px;object-fit:contain;background:#ffffff; padding: 15px;}
 .book-content{padding:20px;}
