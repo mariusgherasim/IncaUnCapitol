@@ -55,6 +55,7 @@ const CATEGORY_MAP = {
     "Huse Carte, Huse Laptop": "articole-scolare-accesorii",
     "Lampi Pentru Citit": "articole-scolare-accesorii",
     "Semne De Carte": "articole-scolare-accesorii",
+    "Semne de carte": "articole-scolare-accesorii",
     "Seturi Cadou": "articole-scolare-accesorii",
     "Termos, Sticle Apa, Cani Calatorie": "articole-scolare-accesorii",
     "Diverse": "articole-scolare-accesorii",
@@ -110,7 +111,25 @@ const CATEGORY_MAP = {
 
     "Jocuri si Jucarii": "articole-scolare-jocuri",
     "Board games": "articole-scolare-jocuri",
-    "Jucarii": "articole-scolare-jocuri"
+    "Jucarii": "articole-scolare-jocuri",
+
+    // --- cartepedia.ro (4 feed-uri widget diferite, 2 practic
+    // identice ca fond — merge-ul deduplica automat dupa link) ---
+    "Cărți pentru copii": "carti-copii",
+    "Cărți Școlare": "manuale-scolare",
+    "Cărţi în limbi străine": "materii-suplimentare",
+    "Cărți în Engleză": "materii-suplimentare",
+    "Benzi desenate şi romane grafice": "articole-scolare-jocuri",
+    "Jocuri educative": "articole-scolare-jocuri",
+    "Jocuri pentru copii": "articole-scolare-jocuri",
+    "Puzzle": "articole-scolare-jocuri",
+    "Jocuri pentru familie": "articole-scolare-jocuri",
+    "BOARD GAMES": "articole-scolare-jocuri",
+    "Jocuri de cărți": "articole-scolare-jocuri"
+    // Nemapate intentionat: "Cărți Non-ficțiune"/"Cărți Ficțiune"
+    // (catalogul general cartepedia, ~20.000 titluri, nu are legatura
+    // cu scoala), "Cartepedia Shop", "Audiobooks", "Cărţile tale
+    // cadou", "Conflictul Ucraina - Rusia" — irelevante pentru hub.
 
 };
 
@@ -119,7 +138,13 @@ const FEEDS = [
     { file: "librarie-net.xml", campaignFallback: "librarie.net", type: "xml" },
     { file: "humanitas.xml", campaignFallback: "libhumanitas.ro", type: "xml" },
     { file: "carturesti-scoala.xml", campaignFallback: "carturesti.ro", type: "xml" },
-    { file: "carturesti-scoala.csv", campaignFallback: "carturesti.ro", type: "csv" }
+    { file: "carturesti-scoala.csv", campaignFallback: "carturesti.ro", type: "csv" },
+    { file: "libris-accesorii-cadouri.xml", campaignFallback: "libris.ro", type: "xml" },
+    { file: "libris-carti-copii.xml", campaignFallback: "libris.ro", type: "xml" },
+    { file: "cartepedia-general.xml", campaignFallback: "cartepedia.ro", type: "xml", otherDataIsAuthor: true, titleDashCleanup: true },
+    { file: "cartepedia-educationale.xml", campaignFallback: "cartepedia.ro", type: "xml", otherDataIsAuthor: true, titleDashCleanup: true },
+    { file: "cartepedia-copii.xml", campaignFallback: "cartepedia.ro", type: "xml", otherDataIsAuthor: true, titleDashCleanup: true },
+    { file: "cartepedia-instoc2.xml", campaignFallback: "cartepedia.ro", type: "xml", otherDataIsAuthor: true, titleDashCleanup: true }
 ];
 
 // ========================================
@@ -179,7 +204,9 @@ function calculateDiscountPercent(oldPriceRaw, priceRaw) {
 // formatul de fisier difera)
 // ========================================
 
-function buildProduct(fields, campaignFallback) {
+function buildProduct(fields, feed) {
+
+    const campaignFallback = feed.campaignFallback;
 
     const category = fields.category;
     const bucket = CATEGORY_MAP[category];
@@ -207,7 +234,26 @@ function buildProduct(fields, campaignFallback) {
 
     const discount = oldPrice ? calculateDiscountPercent(oldPriceRaw, priceRaw) : null;
 
-    const brand = fields.brand;
+    // cartepedia.ro pune autorul in <other_data>, nu in <brand> (care
+    // e gol la ei) — alte surse folosesc other_data pentru cu totul
+    // altceva (ex. libris il foloseste ocazional pentru JSON cu EAN),
+    // deci tratamentul e activat DOAR per-feed, explicit, nu global
+    // cartepedia.ro pune autorul in <other_data>, nu in <brand> (care
+    // e gol la ei) — alte surse folosesc other_data pentru cu totul
+    // altceva (ex. libris il foloseste ocazional pentru JSON cu EAN),
+    // deci tratamentul e activat DOAR per-feed, explicit, nu global
+    let brand =
+        fields.brand ||
+        (feed.otherDataIsAuthor ? fields.other_data : "") ||
+        "";
+
+    // unele produse (verificat: ~15% din feed-ul libris-carti-copii)
+    // au literalmente "-" in loc de autor lipsa, nu camp gol — tratam
+    // la fel ca lipsa, ca sa nu afisam un "-" inutil pe card
+    if (brand.trim() === "-") {
+        brand = "";
+    }
+
     const campaignName = (fields.campaign_name || campaignFallback).trim();
 
     // unele feed-uri (ex. carturesti-scoala) pun "Titlu | Autor" direct
@@ -220,6 +266,20 @@ function buildProduct(fields, campaignFallback) {
     if (pipeIndex !== -1) {
         titleAuthor = title.slice(pipeIndex + 3).trim();
         title = title.slice(0, pipeIndex).trim();
+    }
+
+    // cartepedia.ro pune "Titlu - Format - Autor - Editura" intr-un
+    // singur camp title — pastram doar partea dinaintea primei
+    // liniute (verificat pe esantion: tiparul e constant), restul e
+    // zgomot (format, autor deja avem din other_data, editura)
+    if (feed.titleDashCleanup) {
+
+        const dashIndex = title.indexOf(" - ");
+
+        if (dashIndex !== -1) {
+            title = title.slice(0, dashIndex).trim();
+        }
+
     }
 
     // domeniul din feed (carturesti.ro/img-prod/...) e gresit —
@@ -249,7 +309,7 @@ function buildProduct(fields, campaignFallback) {
 // PARSARE XML
 // ========================================
 
-function parseXmlFile(filePath, campaignFallback) {
+function parseXmlFile(filePath, feed) {
 
     console.log(`Citesc ${filePath}...`);
 
@@ -271,6 +331,7 @@ function parseXmlFile(filePath, campaignFallback) {
             price: extractField(itemStr, "price"),
             old_price: extractField(itemStr, "old_price"),
             brand: extractField(itemStr, "brand"),
+            other_data: extractField(itemStr, "other_data"),
             campaign_name: extractField(itemStr, "campaign_name"),
             title: extractField(itemStr, "title"),
             image_urls: extractField(itemStr, "image_urls"),
@@ -278,7 +339,7 @@ function parseXmlFile(filePath, campaignFallback) {
             aff_code: extractField(itemStr, "aff_code")
         };
 
-        const product = buildProduct(fields, campaignFallback);
+        const product = buildProduct(fields, feed);
 
         if (product) parsed.push(product);
 
@@ -344,7 +405,7 @@ function parseCsvLine(line) {
 
 }
 
-function parseCsvFile(filePath, campaignFallback) {
+function parseCsvFile(filePath, feed) {
 
     console.log(`Citesc ${filePath}...`);
 
@@ -370,7 +431,7 @@ function parseCsvFile(filePath, campaignFallback) {
             fields[h] = values[idx] || "";
         });
 
-        const product = buildProduct(fields, campaignFallback);
+        const product = buildProduct(fields, feed);
 
         if (product) parsed.push(product);
 
@@ -394,8 +455,8 @@ function parseFeedFile(feed) {
     }
 
     return feed.type === "csv"
-        ? parseCsvFile(filePath, feed.campaignFallback)
-        : parseXmlFile(filePath, feed.campaignFallback);
+        ? parseCsvFile(filePath, feed)
+        : parseXmlFile(filePath, feed);
 
 }
 
