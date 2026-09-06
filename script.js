@@ -1365,15 +1365,31 @@ async function initGenericCatalogPage(){
 
     if (!container) return;
 
-    const jsonFile = container.dataset.jsonFile;
+    // Unele cataloage (ex. carti-copii, prea mare pentru limita de
+    // 25MB per fisier de pe GitHub) sunt impartite in mai multe
+    // fisiere JSON, listate separat prin virgula in data-json-files.
+    // Restul paginilor folosesc in continuare un singur fisier, prin
+    // data-json-file (fara "s") — neschimbat, compatibil cu ce era.
+    const multiFiles = container.dataset.jsonFiles;
+    const singleFile = container.dataset.jsonFile;
 
-    if (!jsonFile) return;
+    const files =
+        multiFiles
+            ? multiFiles.split(",").map(f => f.trim()).filter(Boolean)
+            : (singleFile ? [singleFile] : []);
+
+    if (!files.length) return;
 
     try {
 
-        const response = await fetch(jsonFile + "?v=" + Date.now(), { cache: "no-store" });
+        const responses = await Promise.all(
+            files.map(file =>
+                fetch(file + "?v=" + Date.now(), { cache: "no-store" })
+                    .then(r => r.json())
+            )
+        );
 
-        genericCatalogAll = await response.json();
+        genericCatalogAll = responses.flat();
         genericCatalogFiltered = genericCatalogAll;
 
         renderGenericCatalogPage();
