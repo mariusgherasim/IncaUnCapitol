@@ -27,7 +27,7 @@
       "email"
     ],
     "startDate": "2026-07-28",
-    "endDate": "2026-08-05",
+    "endDate": "2026-09-06",
     "weight": 1
   },
   {
@@ -41,7 +41,7 @@
       "email"
     ],
     "startDate": "2026-07-28",
-    "endDate": "2026-09-30",
+    "endDate": "2026-09-05",
     "weight": 1
   },
   {
@@ -123,8 +123,8 @@
       "site",
       "email"
     ],
-    "startDate": "",
-    "endDate": "",
+    "startDate": "2026-08-06",
+    "endDate": "2026-09-05",
     "weight": 1
   },
   {
@@ -137,8 +137,8 @@
       "site",
       "email"
     ],
-    "startDate": "",
-    "endDate": "",
+    "startDate": "2026-08-06",
+    "endDate": "2026-09-05",
     "weight": 1
   },
   {
@@ -236,7 +236,7 @@
       "email"
     ],
     "startDate": "2026-09-11",
-    "endDate": "2026-09-28",
+    "endDate": "2026-09-05",
     "weight": 1
   },
   {
@@ -264,7 +264,7 @@
       "email"
     ],
     "startDate": "2026-09-11",
-    "endDate": "2026-09-28",
+    "endDate": "2026-09-05",
     "weight": 1
   },
   {
@@ -292,7 +292,7 @@
       "email"
     ],
     "startDate": "2026-09-11",
-    "endDate": "2026-09-28",
+    "endDate": "2026-09-05",
     "weight": 1
   },
   {
@@ -306,7 +306,7 @@
       "email"
     ],
     "startDate": "2026-09-11",
-    "endDate": "2026-09-28",
+    "endDate": "2026-09-05",
     "weight": 1
   },
   {
@@ -334,7 +334,7 @@
       "email"
     ],
     "startDate": "2026-09-11",
-    "endDate": "2026-09-28",
+    "endDate": "2026-09-05",
     "weight": 1
   },
   {
@@ -348,7 +348,7 @@
       "email"
     ],
     "startDate": "2026-08-11",
-    "endDate": "2026-08-13",
+    "endDate": "2026-09-30",
     "weight": 3
   },
   {
@@ -362,7 +362,7 @@
       "email"
     ],
     "startDate": "2026-08-11",
-    "endDate": "2026-08-13",
+    "endDate": "2026-09-30",
     "weight": 3
   },
   {
