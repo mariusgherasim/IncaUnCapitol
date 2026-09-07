@@ -5,11 +5,13 @@
     "author": "Ray Dalio",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "price": "71,88 Lei",
+    "price": "50,32 Lei",
     "image": "imagini/principii.jpg",
     "affiliate": "https://www.actsipoliton.ro/ray-dalio-principii-jurnalul-tau-calauzitor-carte?tracking=69a17509d7810",
     "description": "Jurnalul acesta nu e pentru cei care vor să citească ceva inspirațional. E pentru cei care vor să înțeleagă cum iau decizii — și să le ia mai bine data viitoare.",
-    "available": true
+    "available": true,
+    "oldPrice": "71,88 Lei",
+    "discount": "30%"
   },
   {
     "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
@@ -17,11 +19,13 @@
     "author": "Morgan Housel",
     "category": "financiar",
     "score": "9.7 / 10",
-    "price": "54,00 Lei",
+    "price": "37,80 Lei",
     "image": "imagini/arta-cheltui-banii.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
     "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă.",
-    "available": true
+    "available": true,
+    "oldPrice": "54,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "Inamicul este egoul",
@@ -55,11 +59,13 @@
     "author": "Morgan Housel",
     "category": "financiar",
     "score": "9.5 / 10",
-    "price": "52,00 Lei",
+    "price": "36,40 Lei",
     "image": "imagini/psihologia-banilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
     "description": "10 milioane de exemplare vândute în lume. Nu pentru că le-a spus oamenilor cum să investească. Ci pentru că le-a explicat de ce nu aplică ce știu deja.",
-    "available": true
+    "available": true,
+    "oldPrice": "52,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența",
@@ -67,11 +73,13 @@
     "author": "Anthony Iannarino, Jeb Blount",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "price": "54,00 Lei",
+    "price": "37,80 Lei",
     "image": "imagini/avantajul-ai.jpg",
     "affiliate": "https://www.actsipoliton.ro/anthony-iannarino-jeb-blount-avantajul-ai-carte?tracking=69a17509d7810",
     "description": "AI nu îți ia job-ul de vânzări. Colegul tău care folosește AI îți ia job-ul de vânzări. Diferența dintre cele două propoziții e mai mare decât pare.",
-    "available": true
+    "available": true,
+    "oldPrice": "54,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "Putere nemărginită. Descoperă știința împlinirii personale!",
@@ -95,7 +103,9 @@
     "image": "imagini/banii-stapaneste-jocul.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-banii-stapaneste-jocul.html?tracking=69a17509d7810",
     "description": "România ocupă locul 122 din 143 de țări la cunoștințe financiare. Nu e rușine. E o gaură în educație pe care nimeni n-a umplut-o vreodată cu ceva practic.",
-    "available": true
+    "available": true,
+    "oldPrice": "64,60 Lei",
+    "discount": "-44%"
   },
   {
     "title": "Sfântul Graal al investițiilor: cei mai mari investitori ai lumii își dezvăluie strategiile supreme pentru dobândirea libertății financiare",
@@ -103,11 +113,13 @@
     "author": "Tony Robbins, Christopher Zook",
     "category": "dezvoltare",
     "score": "9.3 / 10",
-    "price": "74,00 Lei",
+    "price": "51,80 Lei",
     "image": "imagini/Sfantul Graal al investitiilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-christopher-zook-sfantul-graal-al-investitiilor-carte?tracking=69a17509d7810",
     "description": "Dacă băncile, fondurile suverane și miliardarii au acces la o categorie de investiții cu randamente semnificativ mai mari decât bursa — de ce tu nu ai auzit niciodată de ea?",
-    "available": true
+    "available": true,
+    "oldPrice": "74,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "Anatomia scuzelor: Cine ai fi fără scuzele tale? Ghid practic pentru cei care știu că între mâine și niciodată nu e mare diferență",
@@ -182,11 +194,13 @@
     "author": "Richard Koch",
     "category": "leadership",
     "score": "9.0 / 10",
-    "price": "51,80 Lei",
+    "price": "36,26 Lei",
     "image": "imagini/Manager 80_20.jpg",
     "affiliate": "https://www.actsipoliton.ro/richard-koch-manager-80-20.html?tracking=69a17509d7810",
     "description": "Inbox plin. Listă de task-uri care nu se termină. Ședințe care nu duc nicăieri. Dacă ți se pare familiară descrierea, problema nu e disciplina ta. E cadrul mental în care lucrezi.",
-    "available": true
+    "available": true,
+    "oldPrice": "51,80 Lei",
+    "discount": "30%"
   },
   {
     "title": "4 ore-Săptămana de lucru.",
@@ -194,11 +208,13 @@
     "author": "Timothy Ferriss",
     "category": "business",
     "score": "9.3 / 10",
-    "price": "67,65 Lei",
+    "price": "47,36 Lei",
     "image": "imagini/4 ore-Săptămana de lucru.jpg",
     "affiliate": "https://www.actsipoliton.ro/tim-ferriss-4-ore-saptamana-de-lucru.html?tracking=69a17509d7810",
     "description": "Câte ore pe săptămână muncești acum? Și câte ore vrei să muncești peste 10 ani? Dacă răspunsul e același — există o problemă.",
-    "available": true
+    "available": true,
+    "oldPrice": "67,65 Lei",
+    "discount": "30%"
   },
   {
     "title": "Alegerea. Acceptă cu bucurie posibilul",
@@ -307,11 +323,13 @@
     "author": "David Marquet, Ray Dalio, Mike Michalowicz, Patrick Lencioni",
     "category": "leadership",
     "score": "9.8 / 10",
-    "price": "565,36",
+    "price": "339,21",
     "image": "imagini/Pachet_10_carti.jpg",
     "affiliate": "https://www.actsipoliton.ro/pachet-10-carti-de-leadership?tracking=69a17509d7810",
     "description": "Toată lumea îți spune că un lider bun știe toate răspunsurile. 10 dintre cele mai citate cărți de leadership din ultimii 20 de ani demonstrează exact contrariul.",
-    "available": true
+    "available": true,
+    "oldPrice": "565,36",
+    "discount": "40%"
   },
   {
     "title": "Nu scuzelor. Puterea autodisciplinei",
@@ -319,11 +337,13 @@
     "author": "Brian Tracy",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "price": "54,00 Lei",
+    "price": "37,80 Lei",
     "image": "imagini/Nu scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/brian-tracy-nu-scuzelor-carte-tiparita?tracking=69a17509d7810",
     "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?",
-    "available": true
+    "available": true,
+    "oldPrice": "54,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "Metoda Ask",
@@ -532,11 +552,13 @@
     "productUrl": "",
     "category": "dezvoltare",
     "score": "9.4 / 10",
-    "price": "54,00 Lei",
+    "price": "37,80 Lei",
     "image": "imagini/Smarter.jpg",
     "affiliate": "https://www.actsipoliton.ro/emily-austen-metoda-smarter-carte?tracking=69a17509d7810",
     "description": "Cartea a câștigat Business Book Award 2025. Nu pentru că spune să muncești mai mult, ci pentru că-ți explică de ce să te oprești.",
-    "available": true
+    "available": true,
+    "oldPrice": "54,00 Lei",
+    "discount": "30%"
   },
   {
     "title": "Blind Date with a Book #2",
@@ -836,13 +858,13 @@
     "productUrl": "https://www.libris.ro/carte-engleza/fahrenheit-451-ray-bradbury/24701236?utm_source=2parale&utm_medium=feed",
     "category": "beletristică",
     "score": "9.9 / 10",
-    "price": "69,19 Lei",
+    "price": "77,84 Lei",
     "image": "imagini/fahrenheit.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=R62AWhTyXIW6",
     "description": "9 zile. 9,80 dolari în monede de 10 cenți. Atât i-a luat lui Ray Bradbury să scrie prima variantă a uneia dintre cele mai vândute cărți din istorie — peste 10 milioane de exemplare, traduse în peste 33 de limbi. Câte idei importante amâni tu pentru că nu ai „condițiile perfecte”?",
     "available": true,
     "oldPrice": "86,49 Lei",
-    "discount": "-20%"
+    "discount": "-10%"
   },
   {
     "title": "Jocul cu mărgele de sticlă",
@@ -1262,10 +1284,10 @@
     "image": "imagini/subteran.jpg",
     "score": "9.7/10",
     "category": "beletristică",
-    "price": "31,46 Lei",
+    "price": "33,20 Lei",
     "description": "În 1864, un om fără nume, singur într-un apartament din Sankt-Petersburg, a scris 160 de pagini despre cum rațiunea nu ne salvează. 160 de ani mai târziu, Nietzsche, Freud, Kafka și Sartre au confirmat că avea dreptate. Tu nu ai citit-o încă.",
     "oldPrice": "34,95 Lei",
-    "discount": "-10%",
+    "discount": "-5%",
     "available": true
   },
   {
