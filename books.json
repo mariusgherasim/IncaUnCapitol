@@ -1772,5 +1772,20 @@
     "price": "62,38 Lei",
     "description": "Știi senzația aia când îți dai seama că repeți aceeași greșeală pentru a cincea oară, în ciuda faptului că ai promis că nu mai faci asta? Neuroștiința are un nume pentru ce se întâmplă acolo. Și, mai important, are și soluția.",
     "available": true
+  },
+  {
+    "title": "Carrie",
+    "author": "Stephen King",
+    "source": "libris",
+    "productUrl": "https://www.libris.ro/carte/carrie-stephen-king/21719881?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=5b051f5d7",
+    "image": "imagini/carrie.jpg",
+    "score": "9.4/10",
+    "category": "beletristică",
+    "price": "44,83 Lei",
+    "description": "Stephen King a aruncat manuscrisul la gunoi. Soția lui l-a scos din coș. Doubleday a plătit 400.000 de dolari pe drepturile paperback. Peste 4 milioane de exemplare vândute în primii ani. Asta e povestea din spatele poveștii.",
+    "oldPrice": "56,04 Lei",
+    "discount": "20%",
+    "available": true
   }
 ]
