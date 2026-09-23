@@ -5,13 +5,11 @@
     "author": "Ray Dalio",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "price": "50,32 Lei",
+    "price": "71,88 Lei",
     "image": "imagini/principii.jpg",
     "affiliate": "https://www.actsipoliton.ro/ray-dalio-principii-jurnalul-tau-calauzitor-carte?tracking=69a17509d7810",
     "description": "Jurnalul acesta nu e pentru cei care vor să citească ceva inspirațional. E pentru cei care vor să înțeleagă cum iau decizii — și să le ia mai bine data viitoare.",
-    "available": true,
-    "oldPrice": "71,88 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
@@ -19,13 +17,11 @@
     "author": "Morgan Housel",
     "category": "financiar",
     "score": "9.7 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/arta-cheltui-banii.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
     "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă.",
-    "available": true,
-    "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Inamicul este egoul",
@@ -59,13 +55,11 @@
     "author": "Morgan Housel",
     "category": "financiar",
     "score": "9.5 / 10",
-    "price": "36,40 Lei",
+    "price": "52,00 Lei",
     "image": "imagini/psihologia-banilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
     "description": "10 milioane de exemplare vândute în lume. Nu pentru că le-a spus oamenilor cum să investească. Ci pentru că le-a explicat de ce nu aplică ce știu deja.",
-    "available": true,
-    "oldPrice": "52,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența",
@@ -73,13 +67,11 @@
     "author": "Anthony Iannarino, Jeb Blount",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/avantajul-ai.jpg",
     "affiliate": "https://www.actsipoliton.ro/anthony-iannarino-jeb-blount-avantajul-ai-carte?tracking=69a17509d7810",
     "description": "AI nu îți ia job-ul de vânzări. Colegul tău care folosește AI îți ia job-ul de vânzări. Diferența dintre cele două propoziții e mai mare decât pare.",
-    "available": true,
-    "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Putere nemărginită. Descoperă știința împlinirii personale!",
@@ -103,9 +95,7 @@
     "image": "imagini/banii-stapaneste-jocul.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-banii-stapaneste-jocul.html?tracking=69a17509d7810",
     "description": "România ocupă locul 122 din 143 de țări la cunoștințe financiare. Nu e rușine. E o gaură în educație pe care nimeni n-a umplut-o vreodată cu ceva practic.",
-    "available": true,
-    "oldPrice": "64,60 Lei",
-    "discount": "-44%"
+    "available": true
   },
   {
     "title": "Sfântul Graal al investițiilor: cei mai mari investitori ai lumii își dezvăluie strategiile supreme pentru dobândirea libertății financiare",
@@ -113,13 +103,11 @@
     "author": "Tony Robbins, Christopher Zook",
     "category": "dezvoltare",
     "score": "9.3 / 10",
-    "price": "51,80 Lei",
+    "price": "74,00 Lei",
     "image": "imagini/Sfantul Graal al investitiilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-christopher-zook-sfantul-graal-al-investitiilor-carte?tracking=69a17509d7810",
     "description": "Dacă băncile, fondurile suverane și miliardarii au acces la o categorie de investiții cu randamente semnificativ mai mari decât bursa — de ce tu nu ai auzit niciodată de ea?",
-    "available": true,
-    "oldPrice": "74,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Anatomia scuzelor: Cine ai fi fără scuzele tale? Ghid practic pentru cei care știu că între mâine și niciodată nu e mare diferență",
@@ -196,13 +184,11 @@
     "author": "Richard Koch",
     "category": "leadership",
     "score": "9.0 / 10",
-    "price": "36,26 Lei",
+    "price": "51,80 Lei",
     "image": "imagini/Manager 80_20.jpg",
     "affiliate": "https://www.actsipoliton.ro/richard-koch-manager-80-20.html?tracking=69a17509d7810",
     "description": "Inbox plin. Listă de task-uri care nu se termină. Ședințe care nu duc nicăieri. Dacă ți se pare familiară descrierea, problema nu e disciplina ta. E cadrul mental în care lucrezi.",
-    "available": true,
-    "oldPrice": "51,80 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "4 ore-Săptămana de lucru.",
@@ -210,13 +196,11 @@
     "author": "Timothy Ferriss",
     "category": "business",
     "score": "9.3 / 10",
-    "price": "47,36 Lei",
+    "price": "67,65 Lei",
     "image": "imagini/4 ore-Săptămana de lucru.jpg",
     "affiliate": "https://www.actsipoliton.ro/tim-ferriss-4-ore-saptamana-de-lucru.html?tracking=69a17509d7810",
     "description": "Câte ore pe săptămână muncești acum? Și câte ore vrei să muncești peste 10 ani? Dacă răspunsul e același — există o problemă.",
-    "available": true,
-    "oldPrice": "67,65 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Alegerea. Acceptă cu bucurie posibilul",
@@ -327,10 +311,7 @@
     "author": "David Marquet, Ray Dalio, Mike Michalowicz, Patrick Lencioni",
     "category": "leadership",
     "score": "9.8 / 10",
-    "price": "339,21",
-    "oldPrice": "565,36",
-    "discount": "40%",
-    "offerEnds": "",
+    "price": "565,36",
     "image": "imagini/Pachet_10_carti.jpg",
     "affiliate": "https://www.actsipoliton.ro/pachet-10-carti-de-leadership?tracking=69a17509d7810",
     "description": "Toată lumea îți spune că un lider bun știe toate răspunsurile. 10 dintre cele mai citate cărți de leadership din ultimii 20 de ani demonstrează exact contrariul.",
@@ -342,13 +323,11 @@
     "author": "Brian Tracy",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/Nu scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/brian-tracy-nu-scuzelor-carte-tiparita?tracking=69a17509d7810",
     "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?",
-    "available": true,
-    "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Metoda Ask",
@@ -562,13 +541,11 @@
     "productUrl": "",
     "category": "dezvoltare",
     "score": "9.4 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/Smarter.jpg",
     "affiliate": "https://www.actsipoliton.ro/emily-austen-metoda-smarter-carte?tracking=69a17509d7810",
     "description": "Cartea a câștigat Business Book Award 2025. Nu pentru că spune să muncești mai mult, ci pentru că-ți explică de ce să te oprești.",
-    "available": true,
-    "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Blind Date with a Book #2",
@@ -592,12 +569,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-4",
     "category": "",
     "score": "",
-    "price": "40,17 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-04.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=UQEKeC3kkKa7",
     "description": "INDICIU NR. 1 un bărbat care citește scrisorile altora  INDICIU NR. 2 o iubire scrisă în haiku-uri  INDICIU NR. 3 un final pe care n-o să-l ierți",
-    "oldPrice": "72,00 Lei",
-    "discount": "44%",
+    "oldPrice": "40,17 Lei",
+    "discount": "50%",
     "available": true
   },
   {
@@ -607,12 +584,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-8",
     "category": "",
     "score": "",
-    "price": "58,14 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-08.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=xTWOEqjHDbPt",
     "description": "INDICIU NR. 1 o lume în care cărțile sunt interzise  INDICIU NR. 2 un funcționar care copiază literatura din amintire  INDICIU NR. 3 vizionară, înspăimântător de actuală",
-    "oldPrice": "62,37 Lei",
-    "discount": "7%",
+    "oldPrice": "58,14 Lei",
+    "discount": "66%",
     "available": true
   },
   {
@@ -637,12 +614,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-13",
     "category": "",
     "score": "",
-    "price": "15,00 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-13.png",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=N8VCxh0eXq_r",
     "description": "INDICIU NR. 1 o distopie în care bărbații sunt reeducați  INDICIU NR. 2 un manifest deghizat în roman INDICIU NR. 3 feminism cu colți",
     "oldPrice": "58,14 Lei",
-    "discount": "74%",
+    "discount": "66%",
     "available": true
   },
   {
@@ -1785,7 +1762,7 @@
     "price": "44,83 Lei",
     "description": "Stephen King a aruncat manuscrisul la gunoi. Soția lui l-a scos din coș. Doubleday a plătit 400.000 de dolari pe drepturile paperback. Peste 4 milioane de exemplare vândute în primii ani. Asta e povestea din spatele poveștii.",
     "oldPrice": "56,04 Lei",
-    "discount": "20%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1800,7 +1777,7 @@
     "price": "59,99 Lei",
     "description": "Toată lumea cunoaște scena cu Jack Nicholson și toporul. Puțini știu că Stephen King consideră acea scenă o trădare. Puțini știu că în carte Jack Torrance nu e nebun de la început — e un om care luptă și pierde. Ce înseamnă asta pentru tine, ca cititor? Ce diferență face între o poveste de groază și o tragedie reală?",
     "oldPrice": "74,99 Lei",
-    "discount": "20%",
+    "discount": "-20%",
     "available": true
   }
 ]
