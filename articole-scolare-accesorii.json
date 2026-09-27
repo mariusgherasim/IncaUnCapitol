@@ -147,7 +147,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ca4d6a73d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28106/28105987-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "59,00 Lei"
+    "price": "54,87 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Cana calatorie: Alliance. World Of Warcraft",
@@ -177,7 +179,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4099c708b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28107/28106057-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "59,00 Lei"
+    "price": "54,87 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Cana calatorie: Crest. Assassin's Creed",
@@ -257,7 +261,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8a5ace026&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28221/28220423-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "59,00 Lei"
+    "price": "54,87 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Cana calatorie: Koro-sensei. Assassination Classroom",
@@ -297,7 +303,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ac7fd6a20&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13320/13319847-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "29,00 Lei"
+    "price": "26,97 Lei",
+    "oldPrice": "29,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Semn de carte: Biserica Neagra. The Black Church",
@@ -337,7 +345,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8e98c565f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24396/24395056-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "27,25 Lei"
+    "price": "25,34 Lei",
+    "oldPrice": "27,25 Lei",
+    "discount": "7%"
   },
   {
     "title": "Unealta multifunctionala pentru bicicleta",
@@ -447,7 +457,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5bf7ad938&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24166/24165645-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "29,00 Lei"
+    "price": "26,97 Lei",
+    "oldPrice": "29,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Agenda Gutenburg 48",
@@ -467,7 +479,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0939cd59b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13320/13319535-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "37,00 Lei"
+    "price": "34,41 Lei",
+    "oldPrice": "37,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Agenda Gutenberg 76",
@@ -477,7 +491,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bccfe0ec1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24376/24375029-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "29,00 Lei"
+    "price": "26,97 Lei",
+    "oldPrice": "29,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Idoablak 2021. Agenda 2021. Lb. maghiara",
@@ -487,7 +503,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=775312144&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21458/21457723-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "44,00 Lei"
+    "price": "40,92 Lei",
+    "oldPrice": "44,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Semn de carte: Etno. Frunzulita",
@@ -1487,7 +1505,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b5730a29e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33492/33491976-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "45,00 Lei"
+    "price": "46,00 Lei"
   },
   {
     "title": "Semn de carte: Vulpita",
@@ -1607,7 +1625,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1d3dd2164&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33977/33976236-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "39,90 Lei"
+    "price": "37,11 Lei",
+    "oldPrice": "39,90 Lei",
+    "discount": "7%"
   },
   {
     "title": "Agenda Gutenberg 12",
@@ -3391,7 +3411,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=12e14bd58&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/37484/37483236-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "58,00 Lei"
+    "price": "59,00 Lei"
   },
   {
     "title": "Organizator documente. Reflective Traveller",
@@ -3923,7 +3943,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b752fd0f7&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38409/38408888-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "29,00 Lei"
+    "price": "35,00 Lei"
   },
   {
     "title": "Set 3 caiete Bullet Journal. Galben",
@@ -3943,7 +3963,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9447de613&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36310/36309294-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "34,00 Lei"
+    "price": "35,00 Lei"
   },
   {
     "title": "Agenda Gutenberg 30",
@@ -3993,7 +4013,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=253903cc9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/37795/37794491-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "34,00 Lei"
+    "price": "35,00 Lei"
   },
   {
     "title": "Planner saptamanal: Glitter Gold",
@@ -5755,7 +5775,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=905e93e86&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36645/36644195-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "62,00 Lei"
+    "price": "64,00 Lei"
   },
   {
     "title": "Husa laptop: Exactive. Africa",
@@ -5765,7 +5785,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c3308904c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38386/38385123-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "177,00 Lei"
+    "price": "184,00 Lei"
   },
   {
     "title": "Husa pentru carte: Glow green",
@@ -6959,7 +6979,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c3370853b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/42143/42142002-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "38,00 Lei"
+    "price": "44,00 Lei"
   },
   {
     "title": "Husa pentru carte: Booklovers. Blue",
@@ -12219,7 +12239,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AxgJnNx3trLH&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28443/28442176-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "44,00 Lei"
+    "price": "40,92 Lei",
+    "oldPrice": "44,00 Lei",
+    "discount": "7%"
   },
   {
     "title": "Agenda Gutenberg 53",
@@ -17357,7 +17379,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vkgnoelJfoDX&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/5/7/5/9/4/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "30,65 Lei"
+    "price": "26,14 Lei"
   },
   {
     "title": "Florilegium, agenda albastra. Aici rasar idei",
@@ -17727,7 +17749,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KNGsmU62FgbE&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/9/8/7/9/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "2,50 Lei"
+    "price": "2,83 Lei"
   },
   {
     "title": "Stilou Ecada Floral 93103F",
@@ -41905,7 +41927,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MxdWMfeDmWH_&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/0/8/5/3/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "81,00 Lei"
+    "price": "83,00 Lei"
   },
   {
     "title": "Caiet A5, tip 2, 36 file, coperta carton DACO, CT5362",
@@ -42925,7 +42947,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0WORxm3qfc1b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/2/4/5/4/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "29,50 Lei"
+    "price": "28,81 Lei"
   },
   {
     "title": "Pix Pensan 1005, Albastru",
@@ -46405,7 +46427,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=VxQelOyp2Mtr&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/2/3/8/7/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "16,76 Lei"
+    "price": "17,34 Lei"
   },
   {
     "title": "Bloc desen Pufosenii nocturne A3, 170g, Aperta",
@@ -46695,7 +46717,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0FNmGIlqxtSR&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/9/4/6/4/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "78,74 Lei"
+    "price": "104,99 Lei"
   },
   {
     "title": "Caiet A4 dictando, 60 file, coperta policromie, Do what makes you happy",
@@ -48759,7 +48781,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2b7b38921&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/5/8/2/3/9/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "33,90 Lei"
+    "price": "24,73 Lei"
   },
   {
     "title": "Stilou de baieti curajosi 93106B",
@@ -48879,7 +48901,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=StyRWCpYJ9k3&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/3/5/6/4/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "10,30 Lei"
+    "price": "10,11 Lei"
   },
   {
     "title": "Cutie Servetele Wooden Tissues Box Home Love, 25x13.5x9cm",
@@ -52389,7 +52411,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HMQ_pj6petsA&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/8/2/8/2/2/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "29,64 Lei"
+    "price": "27,77 Lei"
   },
   {
     "title": "Caiet A5, Tip 1, coperta plastic DACO, CT521, culoare albastru/mov",
@@ -56189,7 +56211,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nEVCYrrGL5yt&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/1/0/3/6/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "15,25 Lei"
+    "price": "11,90 Lei"
   },
   {
     "title": "Set 6 Pahare Vin Cristal Bohemia Angela, 170 ml",
@@ -56770,5 +56792,1585 @@
     "image": "https://www.librarie.net/coperti2/5/0/0/6/6/5/300x300.jpg",
     "category": "articole-scolare-accesorii",
     "price": "17,00 Lei"
+  },
+  {
+    "title": "Merisoare ECO/BIO indulcite cu suc de mere 125g - Niavis",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/merisoare-eco-bio-indulcite-cu-suc-de-mere-125g-niavis/13315700?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=faceefbb3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/13316/13315700-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "36,00 Lei"
+  },
+  {
+    "title": "Suport carte si tableta. Bufnita",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/suport-carte-si-tableta-bufnita/36308874?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b3524b6f3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/36309/36308874-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "163,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Roz pudra",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-roz-pudra/28508774?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4429b99cb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28509/28508774-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "130,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Verde",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-verde/28102529?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=kuvYd0bmugKv&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28103/28102529-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "130,00 Lei"
+  },
+  {
+    "title": "Suport pentru carte: Blue",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/suport-pentru-carte-blue/29119062?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=55Yqr8bNXYKT&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/29120/29119062-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "57,00 Lei"
+  },
+  {
+    "title": "Suport pentru carte: Orange",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/suport-pentru-carte-orange/43633674?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IhpWv1t2aPnV&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43634/43633674-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "57,00 Lei"
+  },
+  {
+    "title": "Mini-jurnal. Breloc si agenda moale: Momomi. Pisicuta neagra",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/mini-jurnal-breloc-si-agenda-moale-momomi-pisicuta-neagra/43698690?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=P7bFKsLobrnf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43699/43698690-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "20,00 Lei"
+  },
+  {
+    "title": "Agenda catel cu squishy. Coperta neagra",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-catel-cu-squishy-coperta-neagra/44140572?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=o_qwSY9SPK_L&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44141/44140572-1-small-1.jpg?ver=1759832607",
+    "category": "articole-scolare-accesorii",
+    "price": "36,49 Lei"
+  },
+  {
+    "title": "Jurnal cu inchidere magnetica. I love my cat. Verde",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-cu-inchidere-magnetica-i-love-my-cat-verde/44670486?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bSymFF1sc61t&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44671/44670486-1-small-1.jpg?ver=1764069904",
+    "category": "articole-scolare-accesorii",
+    "price": "41,55 Lei"
+  },
+  {
+    "title": "Punga din hartie: Elicart. Sunt super elev",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/punga-din-hartie-elicart-sunt-super-elev/46793558?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QPkaTM5TUlJR&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/46794/46793558-1-small-1.jpg?ver=1778575384",
+    "category": "articole-scolare-accesorii",
+    "price": "3,00 Lei"
+  },
+  {
+    "title": "Jurnal 3D cu lacat: Hey Dude Gimme",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-3d-cu-lacat-hey-dude-gimme/46995851?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=NcRcCQcUrumB&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/46996/46995851-1-small-1.jpg?ver=1780902849",
+    "category": "articole-scolare-accesorii",
+    "price": "63,75 Lei"
+  },
+  {
+    "title": "Jurnal cu inchidere magnetica. I love my cat. Roz",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-cu-inchidere-magnetica-i-love-my-cat-roz/44670465?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=A1cyX_CdoZAE&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44671/44670465-1-small-1.jpg?ver=1764069914",
+    "category": "articole-scolare-accesorii",
+    "price": "41,55 Lei"
+  },
+  {
+    "title": "Agenda: Pisici pe carti",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-pisici-pe-carti/47849067?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=oM8HEN9rbfTE&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47850/47849067-1-small-1.jpg?ver=1787292026",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "Agenda: Buchetul de pisici",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-buchetul-de-pisici/47849417?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=aPdEvqNWyI-j&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47850/47849417-1-small-1.jpg?ver=1787292002",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "Agenda: Cateii aduc iubirea",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-cateii-aduc-iubirea/47849424?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=tUSYgaBHcSyC&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47850/47849424-1-small-1.jpg?ver=1790073693",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "Agenda: Creativa foto",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-creativa-foto/47848920?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bPFDPZkYC9R1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47849/47848920-1-small-1.jpg?ver=1790057701",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "Agenda: Bujorii",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-bujorii/47849074?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5plggUvmDBov&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47850/47849074-1-small-1.jpg?ver=1787292041",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "Agenda: Vulpita",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-vulpita/47849081?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3ixxz2lZRznI&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47850/47849081-1-small-1.jpg?ver=1790057948",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "Agenda: Atelierul",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-atelierul/47849088?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FLH3yeErirMI&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47850/47849088-1-small-1.jpg?ver=1790058319",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "Agenda: Gainile",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-gainile/47849431?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=obUDYPu722oX&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47850/47849431-1-small-1.jpg?ver=1790058091",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "Sticla de apa. Kuromi",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-kuromi/47979316?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qSyX94xKTyB3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47980/47979316-1-small-1.jpg?ver=1787563163",
+    "category": "articole-scolare-accesorii",
+    "price": "39,99 Lei"
+  },
+  {
+    "title": "Sticla de apa.  Minecraft",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-minecraft/47979428?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=VspdAb_oQGQm&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47980/47979428-1-small-1.jpg?ver=1787634361",
+    "category": "articole-scolare-accesorii",
+    "price": "39,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Stitch 430 ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-stitch-430-ml/47979323?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=12ThjNsfyOxE&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47980/47979323-1-small-1.jpg?ver=1787576449",
+    "category": "articole-scolare-accesorii",
+    "price": "19,99 Lei"
+  },
+  {
+    "title": "Sticla de apa.  Regatul de gheata 550 ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-regatul-de-gheata-550-ml/47980247?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=awyoVbGUBZhX&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980247-1-small-1.jpg?ver=1787637080",
+    "category": "articole-scolare-accesorii",
+    "price": "54,99 Lei"
+  },
+  {
+    "title": "Pahar cu pai flexibil. Stitch Angel",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/pahar-cu-pai-flexibil-stitch-angel/47980436?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YdqkIF7tolrj&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980436-1-small-1.jpg?ver=1787642765",
+    "category": "articole-scolare-accesorii",
+    "price": "18,99 Lei"
+  },
+  {
+    "title": "Pahar cu pai flexibil. Kuromi",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/pahar-cu-pai-flexibil-kuromi/47980443?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fZdm38Q3uDOV&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980443-1-small-1.jpg?ver=1787641779",
+    "category": "articole-scolare-accesorii",
+    "price": "18,99 Lei"
+  },
+  {
+    "title": "Cana cu maner. Minecraft",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/cana-cu-maner-minecraft/47980450?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=I7zis4jDLS29&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980450-1-small-1.jpg?ver=1787640869",
+    "category": "articole-scolare-accesorii",
+    "price": "35,00 Lei"
+  },
+  {
+    "title": "Cana cu maner. Stitch",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/cana-cu-maner-stitch/47980457?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zJIYjl4Jh4VR&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980457-1-small-1.jpg?ver=1787641492",
+    "category": "articole-scolare-accesorii",
+    "price": "35,00 Lei"
+  },
+  {
+    "title": "Sticla de apa. Minecraft 430 ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-minecraft-430-ml/47980471?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=t7lAH-BUfKew&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980471-1-small-1.jpg?ver=1787635493",
+    "category": "articole-scolare-accesorii",
+    "price": "19,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Kuromi 430 ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-kuromi-430-ml/47980478?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=j7tFzjtvEIdN&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980478-1-small-1.jpg?ver=1787643290",
+    "category": "articole-scolare-accesorii",
+    "price": "19,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Boy Rescue Pups. 430 ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-boy-rescue-pups-430-ml/47980485?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=mQZHcc2dUfNI&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980485-1-small-1.jpg?ver=1787575230",
+    "category": "articole-scolare-accesorii",
+    "price": "19,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Girl Superpowers 430 ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-girl-superpowers-430-ml/47980492?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0bXN7mCBsmFW&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980492-1-small-1.jpg?ver=1787575219",
+    "category": "articole-scolare-accesorii",
+    "price": "19,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Kuromi 475 ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-kuromi-475-ml/47980499?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=La0vEpZLkwZS&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980499-1-small-1.jpg?ver=1787576562",
+    "category": "articole-scolare-accesorii",
+    "price": "39,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Minecraft",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-minecraft/47980506?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vd_qYZzldhAN&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980506-1-small-1.jpg?ver=1787576512",
+    "category": "articole-scolare-accesorii",
+    "price": "39,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Boy Rescue Pups",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-boy-rescue-pups/47980513?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=A3PIJBLl_lvY&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980513-1-small-1.jpg?ver=1787572796",
+    "category": "articole-scolare-accesorii",
+    "price": "39,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Girl Superpowers",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-girl-superpowers/47980520?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lnG6n7fUWdpJ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980520-1-small-1.jpg?ver=1787572755",
+    "category": "articole-scolare-accesorii",
+    "price": "39,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Stitch",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-stitch/47980527?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=eHoWKDk2Hd0K&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980527-1-small-1.jpg?ver=1787572824",
+    "category": "articole-scolare-accesorii",
+    "price": "39,99 Lei"
+  },
+  {
+    "title": "Sticla de apa. Kpop Demon Hunters",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-kpop-demon-hunters/47980534?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2S7Ag7RCcpKC&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980534-1-small-1.jpg?ver=1787559476",
+    "category": "articole-scolare-accesorii",
+    "price": "39,99 Lei"
+  },
+  {
+    "title": "Sticla de apa.  Minecraft 550 ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-minecraft-550-ml/47980541?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Wo56PZej4eL-&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47981/47980541-1-small-1.jpg?ver=1787636838",
+    "category": "articole-scolare-accesorii",
+    "price": "54,99 Lei"
+  },
+  {
+    "title": "Carnet din lemn cu spirala. Cooking Is an Art. Neliniat",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/carnet-din-lemn-cu-spirala-cooking-is-an-art-neliniat/38099201?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MPNaiIyS_NJK&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38100/38099201-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "109,00 Lei"
+  },
+  {
+    "title": "Jurnal cu inchidere magnetica. I love my cat. Albastru",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-cu-inchidere-magnetica-i-love-my-cat-albastru/44670479?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Lt_iCiBrqDs-&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44671/44670479-1-small-1.jpg?ver=1764069832",
+    "category": "articole-scolare-accesorii",
+    "price": "41,55 Lei"
+  },
+  {
+    "title": "Termos: Kook. Catel",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-kook-catel/34361201?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1RNzSI4uvfJa&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/34362/34361201-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "149,00 Lei"
+  },
+  {
+    "title": "Suport carte si tableta. Lenes",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/suport-carte-si-tableta-lenes/38424729?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Bd59b4u9B65a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38425/38424729-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "163,00 Lei"
+  },
+  {
+    "title": "Jurnal secret cu paiete si pix: Girabrilla fashion",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-secret-cu-paiete-si-pix-girabrilla-fashion/43698578?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_b6jUWTpGkCl&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43699/43698578-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "69,00 Lei"
+  },
+  {
+    "title": "Termos: Yoga",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-yoga/39135306?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WMmWRpzER2uh&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/39136/39135306-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "115,00 Lei"
+  },
+  {
+    "title": "Termos: Penguin",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-penguin/44216326?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_WNBAhloVGPR&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44217/44216326-1-small-1.jpg?ver=1760591863",
+    "category": "articole-scolare-accesorii",
+    "price": "125,00 Lei"
+  },
+  {
+    "title": "Termos: Brass. Mat",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-brass-mat/42367906?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0qRlJjCq8BBI&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/42368/42367906-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "130,00 Lei"
+  },
+  {
+    "title": "Jurnal Bookaroo. It's a Good Day",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-bookaroo-it-s-a-good-day/43697297?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Zg2OyM77D-yn&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43698/43697297-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "93,00 Lei"
+  },
+  {
+    "title": "Jurnal. Le petit prince: Enfants rose",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-le-petit-prince-enfants-rose/48138454?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nC3KxaBynSX1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48139/48138454-1-small-1.jpg?ver=1789366004",
+    "category": "articole-scolare-accesorii",
+    "price": "50,00 Lei"
+  },
+  {
+    "title": "Jurnal Bookaroo. Dark Floral",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-bookaroo-dark-floral/43697353?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=N1rsfSuUq8th&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43698/43697353-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "95,00 Lei"
+  },
+  {
+    "title": "Jurnal. Le petit prince: Planetas",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-le-petit-prince-planetas/48138461?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0mCg7EFEwtfp&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48139/48138461-1-small-1.jpg?ver=1789365335",
+    "category": "articole-scolare-accesorii",
+    "price": "50,00 Lei"
+  },
+  {
+    "title": "Jurnal. Warrior Dragon",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-warrior-dragon/48138104?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=NZhAGqJjnXPZ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48139/48138104-1-small-1.jpg?ver=1789366944",
+    "category": "articole-scolare-accesorii",
+    "price": "93,00 Lei"
+  },
+  {
+    "title": "Lampa pentru citit. Spaceman",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/lampa-pentru-citit-spaceman/38387195?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5IqJYTP45gX-&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38388/38387195-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "127,00 Lei"
+  },
+  {
+    "title": "Lampa de citit: Super Bendy. Rosu",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/lampa-de-citit-super-bendy-rosu/48138650?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vZ2M_wBokjKr&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48139/48138650-1-small-1.jpg?ver=1789124732",
+    "category": "articole-scolare-accesorii",
+    "price": "57,00 Lei"
+  },
+  {
+    "title": "Lampa de citit: Super Bendy. Verde",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/lampa-de-citit-super-bendy-verde/48137635?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TaKT87kFmEW7&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48138/48137635-1-small-1.jpg?ver=1789124760",
+    "category": "articole-scolare-accesorii",
+    "price": "57,00 Lei"
+  },
+  {
+    "title": "Lampa de citit: Super Bendy. Violet",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/lampa-de-citit-super-bendy-violet/48138643?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=rtlp4Ni4QFZa&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48139/48138643-1-small-1.jpg?ver=1789124744",
+    "category": "articole-scolare-accesorii",
+    "price": "57,00 Lei"
+  },
+  {
+    "title": "Lampa pentru citit: UFO Book Light",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/lampa-pentru-citit-ufo-book-light/38098767?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=F3hmgMRUF31N&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38099/38098767-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "127,00 Lei"
+  },
+  {
+    "title": "Termos Koala",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-koala/48137719?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=OSOqbRIq9p-v&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48138/48137719-1-small-1.jpg?ver=1789129816",
+    "category": "articole-scolare-accesorii",
+    "price": "164,00 Lei"
+  },
+  {
+    "title": "Termos: Botanic",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-botanic/39135313?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4DUt506VguDE&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/39136/39135313-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "115,00 Lei"
+  },
+  {
+    "title": "Termos: Travel",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-travel/48137726?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=91eYk78qUUux&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48138/48137726-1-small-1.jpg?ver=1789127655",
+    "category": "articole-scolare-accesorii",
+    "price": "125,00 Lei"
+  },
+  {
+    "title": "Termos: Cosmos",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-cosmos/28870569?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=eIaopGP8PurZ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28871/28870569-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "115,00 Lei"
+  },
+  {
+    "title": "Termos. Travel stickers",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-travel-stickers/48138468?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AHhSCSgJNjXu&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48139/48138468-1-small-1.jpg?ver=1789129458",
+    "category": "articole-scolare-accesorii",
+    "price": "130,00 Lei"
+  },
+  {
+    "title": "Termos: Unicorn",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/termos-unicorn/44216298?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=y_sKuG6-xKoZ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44217/44216298-1-small-1.jpg?ver=1760593805",
+    "category": "articole-scolare-accesorii",
+    "price": "130,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Romantasy",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-romantasy/43697339?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9fbiUnTAarj6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43698/43697339-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "164,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Vernil",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-vernil/28508781?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pbRDi3Y7vVo5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28509/28508781-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "130,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Turcoaz",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-turcoaz/28871017?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=w8IndYp1mPdB&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28872/28871017-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "130,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Botanical Mushroom",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-botanical-mushroom/43697276?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=XRj1N8mQycvs&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43698/43697276-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "164,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Warrior Dragon",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-warrior-dragon/43697283?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CaGPURLEb3B1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43698/43697283-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "164,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Dragon",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-dragon/43697325?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=OBb2XgJ8ktoV&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43698/43697325-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "164,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Moon and Stars",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-moon-and-stars/33489750?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=T0Vf0wbZ_fyx&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/33490/33489750-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "164,00 Lei"
+  },
+  {
+    "title": "Husa carte: Bookaroo. Maro",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/husa-carte-bookaroo-maro/34361915?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_6Wv1j_nYbD0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/34362/34361915-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "130,00 Lei"
+  },
+  {
+    "title": "Suport pentru carti: Maini. Verde",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/suport-pentru-carti-maini-verde/28102781?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ldpn4YZLPL-N&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28103/28102781-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "83,00 Lei"
+  },
+  {
+    "title": "Suport pentru carte: Feorest Green",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/suport-pentru-carte-feorest-green/43633681?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=G3Df9hOoPuIw&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43634/43633681-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "57,00 Lei"
+  },
+  {
+    "title": "Coperta caiet a5 transparenta",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/coperta-caiet-a5-transparenta/47020764?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=S6_WPgp6yAYh&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "1,00 Lei"
+  },
+  {
+    "title": "Set scriere: agenda A5, pix, rezerva, port-card si breloc. Albastru",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/set-scriere-agenda-a5-pix-rezerva-port-card-si-breloc-albastru/48138356?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=kePOBfk5PVI9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48139/48138356-1-small-1.jpg?ver=1789381817",
+    "category": "articole-scolare-accesorii",
+    "price": "215,00 Lei"
+  },
+  {
+    "title": "Jurnal secret cu paiete și pix: Girabrilla fashion. Magenta Stars",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-secret-cu-paiete-si-pix-girabrilla-fashion-magenta-stars/48332354?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PwXC90yejUiN&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48333/48332354-1-small-1.jpg?ver=1789648148",
+    "category": "articole-scolare-accesorii",
+    "price": "69,00 Lei"
+  },
+  {
+    "title": "Jurnal secret cu paiete si pix: Girabrilla fashion. Heart",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/jurnal-secret-cu-paiete-si-pix-girabrilla-fashion-heart/48331997?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jI3Sfyjpowhz&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48332/48331997-1-small-1.jpg?ver=1789648103",
+    "category": "articole-scolare-accesorii",
+    "price": "69,00 Lei"
+  },
+  {
+    "title": "Mini-jurnal. Breloc si agenda moale: Momomi. Pisicuta lila",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/mini-jurnal-breloc-si-agenda-moale-momomi-pisicuta-lila/43698606?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7u0DWjRh_Cqd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43699/43698606-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "20,00 Lei"
+  },
+  {
+    "title": "Mini-jurnal. Breloc si agenda moale: Momomi. Pisicuta roz aprins",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/mini-jurnal-breloc-si-agenda-moale-momomi-pisicuta-roz-aprins/43698620?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=W_E0Qsep-r_9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43699/43698620-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "20,00 Lei"
+  },
+  {
+    "title": "Mini-jurnal. Breloc si agenda moale: Momomi. Pisicuta roz pal",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/mini-jurnal-breloc-si-agenda-moale-momomi-pisicuta-roz-pal/43698627?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bfAFmvc-KzXz&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43699/43698627-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "20,00 Lei"
+  },
+  {
+    "title": "Mini-jurnal. Breloc si agenda moale: Momomi. Pisicuta bleu",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/mini-jurnal-breloc-si-agenda-moale-momomi-pisicuta-bleu/43698676?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1pknKof7_9PN&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43699/43698676-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "20,00 Lei"
+  },
+  {
+    "title": "Mini-jurnal. Breloc si agenda moale: Momomi. Pisicuta vernil",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/mini-jurnal-breloc-si-agenda-moale-momomi-pisicuta-vernil/43698683?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=k1YsPbqnFll9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43699/43698683-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "20,00 Lei"
+  },
+  {
+    "title": "Set Agenda. Frozen",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/set-agenda-frozen/42109620?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=o2G_yYzibTSl&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/42110/42109620-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "39,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Frunza",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-frunza/48399876?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ff59SrRET0Tu&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48400/48399876-1-small-1.jpg?ver=1790082063",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Ciuperci",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-ciuperci/48400051?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=F5bRV49-tZan&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400051-1-small-1.jpg?ver=1790082088",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Creioane",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-creioane/48400058?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4NPYjaEExsEp&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400058-1-small-1.jpg?ver=1790140127",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Umbrela",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-umbrela/48400065?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6VutQ3iPdX5X&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400065-1-small-1.jpg?ver=1790082381",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Pisici",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-pisici/48400079?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PWYeXTwJ1lXb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400079-1-small-1.jpg?ver=1790082150",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Cititior",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-cititior/48400086?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cRyT_r0CE-3b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400086-1-small-1.jpg?ver=1790082180",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Papadie",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-papadie/48400093?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=gro5_8GcOo9G&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400093-1-small-1.jpg?ver=1790082210",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Inimioare",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-inimioare/48400100?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=EwAvx1EDo_zg&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400100-1-small-1.jpg?ver=1790082238",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Inimioara rosie",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-inimioara-rosie/48400107?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HYx6e9KGTu_N&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400107-1-small-1.jpg?ver=1790082271",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Ciuperca",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-ciuperca/48400114?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BV-_zBH47hZm&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400114-1-small-1.jpg?ver=1790082305",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu. Suport creioane",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-suport-creioane/48400121?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FKJqzPi8w4qA&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400121-1-small-1.jpg?ver=1790082325",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Soricescu pe flori",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-soricescu-pe-flori/48400128?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=W7yUT6eUtLY5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400128-1-small-1.jpg?ver=1790140448",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Sticla de apa: K-Pop Demon Hunters. Mov",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-de-apa-k-pop-demon-hunters-mov/48400324?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8-N7uHe--OGl&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48401/48400324-1-small-1.jpg?ver=1790165870",
+    "category": "articole-scolare-accesorii",
+    "price": "54,99 Lei"
+  },
+  {
+    "title": "Sticla pentru apa: Bleumarin tritan cu deschidere automata si maner transport 730ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-pentru-apa-bleumarin-tritan-cu-deschidere-automata-si-maner-transport/43574006?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hwl1pdxstcw4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43575/43574006-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "40,00 Lei"
+  },
+  {
+    "title": "Agenda gri. Coffee",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/agenda-gri-coffee/48475007?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9IjkStvsFU9f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48476/48475007-1-small-1.jpg?ver=1790236592",
+    "category": "articole-scolare-accesorii",
+    "price": "28,00 Lei"
+  },
+  {
+    "title": "Sticla pentru apa: Crem tritan cu deschidere automata 730ml",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/sticla-pentru-apa-crem-tritan-cu-deschidere-automata-730ml/48475014?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Z9RXuoXxE0Ll&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48476/48475014-1-small-1.jpg?ver=1790234063",
+    "category": "articole-scolare-accesorii",
+    "price": "40,00 Lei"
+  },
+  {
+    "title": "Hartie glasata a4 12 culori set colour kids pigna",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/hartie-glasata-a4-12-culori-set-colour-kids-pigna/47010271?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8X57tfCPMrCv&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "10,00 Lei"
+  },
+  {
+    "title": "Semn de carte: Fantoma. Time to get cozy!",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-fantoma-time-to-get-cozy/38424470?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Z-uAuAH8TE3n&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38425/38424470-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "16,00 Lei"
+  },
+  {
+    "title": "Carton dublu cretat, A4, alb lucios, 250 g/mp, 50 coli/top",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/294368/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8eaa94c38&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/9/4/3/6/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "33,90 Lei"
+  },
+  {
+    "title": "Banda dublu adeziva 12 mm x 10 m",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/438446/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LqQpHZuMmH9W&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/8/4/4/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "1,40 Lei"
+  },
+  {
+    "title": "Rezerva roller Pilot Frixion Ball, 0.5 mm, 3 bucati/set, Albastru",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/420575/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cKK1OhXxiIGW&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/2/0/5/7/5/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "29,40 Lei"
+  },
+  {
+    "title": "Stilou cu radiera You&amp;amp;Me Lila, ST300L DACO",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/512171/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=T4D7xFdPbwlQ&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/1/2/1/7/1/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "14,62 Lei"
+  },
+  {
+    "title": "Stilou Ecada Trendy 93108, verde",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/375458/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ps2zpXcueEdX&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/7/5/4/5/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "5,79 Lei"
+  },
+  {
+    "title": "Caiet A5 Tip II, 24 file Oxford Kids, hartie Optik 80g/mp, diverse motive (set 10 bucati)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/500708/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=opltc0LjP8Mh&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/0/0/7/0/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "41,30 Lei"
+  },
+  {
+    "title": "Cerneala T51 blue, 30 ml - lavabila, se sterge cu pic cu rescriere",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/400954/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MGs7QefNagTQ&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/0/0/9/5/4/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "35,20 Lei"
+  },
+  {
+    "title": "Convertor Z28 - compatibil gamelor: ABC, Nexx, Safari, Al-star, Vista, LX",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/400973/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6uGC_lvlojT-&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/0/0/9/7/3/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "28,00 Lei"
+  },
+  {
+    "title": "Creioane color Combino lacuite, groase, sectiune triunghiulara, mina 4 mm, set 12 culori",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/366773/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TdGLnIBN0F8t&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/6/6/7/7/3/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "36,67 Lei"
+  },
+  {
+    "title": "Stilou Ecada Trendy 93108, albastru",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/375457/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AS52VmGfQR5T&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/7/5/4/5/7/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "5,79 Lei"
+  },
+  {
+    "title": "Calendar de perete 6 file. Peisaje 2026",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/500410/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jnYg6O9UqF6s&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/0/0/4/1/0/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "13,50 Lei"
+  },
+  {
+    "title": "Piese de schimb. Capac stilou LAMY abc, 009-blue",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/415071/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qAKBMO2CZ8k5&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/1/5/0/7/1/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "19,50 Lei"
+  },
+  {
+    "title": "Stilou retractabil Writech corp alb cu cutie cadou si 5 patroane cerneala albastre",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/518619/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5kXrufLHLYAl&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/1/8/6/1/9/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "29,56 Lei"
+  },
+  {
+    "title": "Mapa prezentare Mitama, 4 inele, 2.5 cm, 10 file de protectie",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/519684/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fOtLSCEHIb7J&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/1/9/6/8/4/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "14,48 Lei"
+  },
+  {
+    "title": "Rezerva marker tabla magnetica RZ231A albastru DACO",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/430126/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Bg4Y4JXP2n-T&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/0/1/2/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "2,10 Lei"
+  },
+  {
+    "title": "Dosar plastic Arhi Design, Rosu, set 5",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/520253/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Jb3Y5-PrfJH6&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/0/2/5/3/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "6,50 Lei"
+  },
+  {
+    "title": "Invelitoare carte 3, dimensiune 49,0 x 22,6 cm, PP, 110 microni, transparenta",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/374681/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=JkLPFLPse6s8&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/7/4/6/8/1/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "1,52 Lei"
+  },
+  {
+    "title": "Hartie creponata hobby 50 x 200 cm set 10 diverse culori (alb, galben, portocaliu, rosu, roz, albastru, verde, verde deschis, maro, albastru deschis)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/386262/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=yHqffI5LDSOb&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/8/6/2/6/2/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "25,25 Lei"
+  },
+  {
+    "title": "DECAPSATOR DIVERSE CULORI",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/173356/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jf1vVFNwCtme&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/7/3/3/5/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "7,08 Lei"
+  },
+  {
+    "title": "Hartie creponata Creative Kids, Galben",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/434766/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=H-8c2IXeQEO9&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/4/7/6/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,30 Lei"
+  },
+  {
+    "title": "Hartie creponata Creative Kids, violet",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/465140/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f851zpSx21Em&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/6/5/1/4/0/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,30 Lei"
+  },
+  {
+    "title": "Invelitoare carte 5, dimensiune 42,0 x 29,0 cm, PP, 110 microni, transparenta",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/372133/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IZdL0G1mUpfS&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/7/2/1/3/3/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "1,42 Lei"
+  },
+  {
+    "title": "Dosar plic carton 230 g/mp , set 5",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/520656/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=GuzPSMXce6I0&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/0/6/5/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "5,90 Lei"
+  },
+  {
+    "title": "Registru A4 192 file DACO RG4192DR",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/439910/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_LsGoOK0JbiM&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/9/9/1/0/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "27,41 Lei"
+  },
+  {
+    "title": "Coperta carte speciala (7) 41007 DACO 41 x 25,7 cm",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/493948/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Vnuap6AOH-oN&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/9/3/9/4/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "2,02 Lei"
+  },
+  {
+    "title": "Stilou retractabil Writech corp portocaliu cu cutie cadou si 5 patroane cerneala albastre",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/518621/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-xvQ7s1MUpNb&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/1/8/6/2/1/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "29,56 Lei"
+  },
+  {
+    "title": "Pix Atlantis retractabil 1 mm Bic albastru",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/165935/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=rW4CYHh0fK3X&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/6/5/9/3/5/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "7,84 Lei"
+  },
+  {
+    "title": "Mapa A4 320 x 225mm, cu capsa, PP, 0.16mm, diverse culori, M&amp;amp;G",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521080/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=DbpXZhb6Fqi2&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/0/8/0/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "2,38 Lei"
+  },
+  {
+    "title": "Rezerva marker tabla magnetica RZ231R rosu DACO",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/430128/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xnKl14F3gzY2&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/0/1/2/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "1,91 Lei"
+  },
+  {
+    "title": "Suport dosare carton A4 motiv Ladylike Flowers",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/366570/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WrPUBSDFjyy7&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/6/6/5/7/0/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "7,84 Lei"
+  },
+  {
+    "title": "Carioca unicorni Faber-Castell 18 + 6 culori /set",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/491197/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QSxCoiiVTJY0&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/9/1/1/9/7/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "23,93 Lei"
+  },
+  {
+    "title": "Mapa de prezentare A4, PP, 0,85mm, albastru, 60 compartimente M&amp;amp;G",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521083/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xxwUDWSGVkI-&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/0/8/3/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "18,20 Lei"
+  },
+  {
+    "title": "Mapa plastic A4 cu burduf si inchidere cu fermoar, culoare alb",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521352/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Dq83x9JCy79y&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/3/5/2/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "5,49 Lei"
+  },
+  {
+    "title": "Set 12 creioane hexagonale colorate, M&amp;amp;G, cu guma de sters, So Many Cats, diverse modele",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521059/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=XEcPQ6Yv8a2q&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/0/5/9/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "12,69 Lei"
+  },
+  {
+    "title": "Tempera Morocolor Primo, 25 ml, 12 culori/cutie",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/439534/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2aTkZtvs86HK&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/9/5/3/4/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "18,90 Lei"
+  },
+  {
+    "title": "Clips negru, 25 mm, 48 bucati/cutie, cutie din PP, M&amp;amp;G",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521050/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=NoodbiBOYAkK&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/0/5/0/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "13,46 Lei"
+  },
+  {
+    "title": "Foarfeca So many cats, lame 13cm din plastic, diverse combinatii de culori, ambalaj din OPP M&amp;amp;G",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521066/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4tiaJx8JVivw&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/0/6/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "3,95 Lei"
+  },
+  {
+    "title": "Pix snap K10, corp din metal, Silver, blister",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/401661/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=y4H7WBjC_Dlv&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/0/1/6/6/1/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "29,21 Lei"
+  },
+  {
+    "title": "Creion mecanic Bold, 1.3 mm, corp roz",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/386640/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=R-X7CYlHISIj&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/8/6/6/4/0/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "8,70 Lei"
+  },
+  {
+    "title": "Stilou retractabil Writech M corp rosu cu cutie cadou si 5 patroane cerneala albastre",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/518612/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=iMkiItMA3hmH&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/1/8/6/1/2/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "29,56 Lei"
+  },
+  {
+    "title": "Stilou LAMY AL-star rollerskate, penita M",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/519046/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5-wPACSIew6t&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/1/9/0/4/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "149,00 Lei"
+  },
+  {
+    "title": "Pensula seria 711 nr. 00, MILAN (set 6 bucati)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/493919/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=uxyj56CF5yrb&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/9/3/9/1/9/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "38,09 Lei"
+  },
+  {
+    "title": "Ascutitoare M&amp;amp;G pernute de pisica, dubla cu container, diverse culori",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521028/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=oXFL4EQXH6oc&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/0/2/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "5,54 Lei"
+  },
+  {
+    "title": "Rigla flexibila 15 cm, cm/inch, moale, albastru/violet M&amp;amp;G",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521578/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=wYcX17-JP7ZX&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/5/7/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "1,99 Lei"
+  },
+  {
+    "title": "Pix Tratto 1 Gel 1.0 mm rosu",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/168362/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=tt03keylTLeI&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/6/8/3/6/2/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,14 Lei"
+  },
+  {
+    "title": "Hartie creponata Creative Kids, Alb",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/434774/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jT2s_Dqpbcff&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/4/7/7/4/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,30 Lei"
+  },
+  {
+    "title": "Creion Lyra Fancy - cu tabla inmultirii",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/167946/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=tbdUN-7-3X3G&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/6/7/9/4/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "2,34 Lei"
+  },
+  {
+    "title": "Hartie creponata Creative Kids, Rosu",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/434762/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=C1k09RwWFcZk&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/4/7/6/2/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,30 Lei"
+  },
+  {
+    "title": "Hartie creponata Creative Kids, Albastru",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/434763/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zUWJfqbPLdvA&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/4/7/6/3/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,30 Lei"
+  },
+  {
+    "title": "Stilou Pilot Plumix Neon negru",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/502717/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nu8LTcR46hro&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/0/2/7/1/7/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "30,30 Lei"
+  },
+  {
+    "title": "Hartie creponata Creative Kids, Verde",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/434765/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=S4STBCgpVeXV&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/4/7/6/5/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,30 Lei"
+  },
+  {
+    "title": "Hartie creponata Creative Kids, Orange",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/434767/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6Sx6F6W8y9Wy&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/4/7/6/7/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,30 Lei"
+  },
+  {
+    "title": "Hartie creponata Creative Kids, Bleu",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/434769/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-cqtdk-XV9SE&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/4/7/6/9/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,30 Lei"
+  },
+  {
+    "title": "Bloc A4 schite 120g 80 file Daco BD412",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/378343/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=uFc81Mc6dq1_&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/7/8/3/4/3/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "27,14 Lei"
+  },
+  {
+    "title": "Caiet Next Level A4, 48 de file, 60g/mp, dictando, diverse modele de coperti",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/510089/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KGFJ68YKLaQl&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/1/0/0/8/9/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "4,65 Lei"
+  },
+  {
+    "title": "Stilou LAMY safari meteorite, penita F",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/520847/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZM3S1ZO2sHtc&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/0/8/4/7/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "113,00 Lei"
+  },
+  {
+    "title": "Evidentiator Tratto Video, corp plat, varf tesit, albastru",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/169317/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vt0X_MUhddsN&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/6/9/3/1/7/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "5,18 Lei"
   }
 ]
