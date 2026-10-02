@@ -5,13 +5,11 @@
     "author": "Ray Dalio",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "price": "50,32 Lei",
+    "price": "71,88 Lei",
     "image": "imagini/principii.jpg",
     "affiliate": "https://www.actsipoliton.ro/ray-dalio-principii-jurnalul-tau-calauzitor-carte?tracking=69a17509d7810",
     "description": "Jurnalul acesta nu e pentru cei care vor să citească ceva inspirațional. E pentru cei care vor să înțeleagă cum iau decizii — și să le ia mai bine data viitoare.",
-    "available": true,
-    "oldPrice": "71,88 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată",
@@ -19,13 +17,11 @@
     "author": "Morgan Housel",
     "category": "financiar",
     "score": "9.7 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/arta-cheltui-banii.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-arta-de-a-ti-cheltui-banii-carte?tracking=69a17509d7810",
     "description": "Dacă te-ai întrebat vreodată de ce câștigul mai mare nu a adus liniștea pe care o așteptai — exact pentru tine a fost scrisă.",
-    "available": true,
-    "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Inamicul este egoul",
@@ -59,13 +55,11 @@
     "author": "Morgan Housel",
     "category": "financiar",
     "score": "9.5 / 10",
-    "price": "36,40 Lei",
+    "price": "52,00 Lei",
     "image": "imagini/psihologia-banilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/morgan-housel-psihologia-banilor-carte?tracking=69a17509d7810",
     "description": "10 milioane de exemplare vândute în lume. Nu pentru că le-a spus oamenilor cum să investească. Ci pentru că le-a explicat de ce nu aplică ce știu deja.",
-    "available": true,
-    "oldPrice": "52,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența",
@@ -73,13 +67,11 @@
     "author": "Anthony Iannarino, Jeb Blount",
     "category": "dezvoltare",
     "score": "9.7 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/avantajul-ai.jpg",
     "affiliate": "https://www.actsipoliton.ro/anthony-iannarino-jeb-blount-avantajul-ai-carte?tracking=69a17509d7810",
     "description": "AI nu îți ia job-ul de vânzări. Colegul tău care folosește AI îți ia job-ul de vânzări. Diferența dintre cele două propoziții e mai mare decât pare.",
-    "available": true,
-    "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Putere nemărginită. Descoperă știința împlinirii personale!",
@@ -103,9 +95,7 @@
     "image": "imagini/banii-stapaneste-jocul.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-banii-stapaneste-jocul.html?tracking=69a17509d7810",
     "description": "România ocupă locul 122 din 143 de țări la cunoștințe financiare. Nu e rușine. E o gaură în educație pe care nimeni n-a umplut-o vreodată cu ceva practic.",
-    "available": true,
-    "oldPrice": "64,60 Lei",
-    "discount": "-44%"
+    "available": true
   },
   {
     "title": "Sfântul Graal al investițiilor: cei mai mari investitori ai lumii își dezvăluie strategiile supreme pentru dobândirea libertății financiare",
@@ -113,13 +103,11 @@
     "author": "Tony Robbins, Christopher Zook",
     "category": "dezvoltare",
     "score": "9.3 / 10",
-    "price": "51,80 Lei",
+    "price": "74,00 Lei",
     "image": "imagini/Sfantul Graal al investitiilor.jpg",
     "affiliate": "https://www.actsipoliton.ro/tony-robbins-christopher-zook-sfantul-graal-al-investitiilor-carte?tracking=69a17509d7810",
     "description": "Dacă băncile, fondurile suverane și miliardarii au acces la o categorie de investiții cu randamente semnificativ mai mari decât bursa — de ce tu nu ai auzit niciodată de ea?",
-    "available": true,
-    "oldPrice": "74,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Anatomia scuzelor: Cine ai fi fără scuzele tale? Ghid practic pentru cei care știu că între mâine și niciodată nu e mare diferență",
@@ -196,13 +184,11 @@
     "author": "Richard Koch",
     "category": "leadership",
     "score": "9.0 / 10",
-    "price": "36,26 Lei",
+    "price": "51,80 Lei",
     "image": "imagini/Manager 80_20.jpg",
     "affiliate": "https://www.actsipoliton.ro/richard-koch-manager-80-20.html?tracking=69a17509d7810",
     "description": "Inbox plin. Listă de task-uri care nu se termină. Ședințe care nu duc nicăieri. Dacă ți se pare familiară descrierea, problema nu e disciplina ta. E cadrul mental în care lucrezi.",
-    "available": true,
-    "oldPrice": "51,80 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "4 ore-Săptămana de lucru.",
@@ -210,13 +196,11 @@
     "author": "Timothy Ferriss",
     "category": "business",
     "score": "9.3 / 10",
-    "price": "47,36 Lei",
+    "price": "67,65 Lei",
     "image": "imagini/4 ore-Săptămana de lucru.jpg",
     "affiliate": "https://www.actsipoliton.ro/tim-ferriss-4-ore-saptamana-de-lucru.html?tracking=69a17509d7810",
     "description": "Câte ore pe săptămână muncești acum? Și câte ore vrei să muncești peste 10 ani? Dacă răspunsul e același — există o problemă.",
-    "available": true,
-    "oldPrice": "67,65 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Alegerea. Acceptă cu bucurie posibilul",
@@ -327,10 +311,7 @@
     "author": "David Marquet, Ray Dalio, Mike Michalowicz, Patrick Lencioni",
     "category": "leadership",
     "score": "9.8 / 10",
-    "price": "339,21",
-    "oldPrice": "565,36",
-    "discount": "40%",
-    "offerEnds": "",
+    "price": "565,36",
     "image": "imagini/Pachet_10_carti.jpg",
     "affiliate": "https://www.actsipoliton.ro/pachet-10-carti-de-leadership?tracking=69a17509d7810",
     "description": "Toată lumea îți spune că un lider bun știe toate răspunsurile. 10 dintre cele mai citate cărți de leadership din ultimii 20 de ani demonstrează exact contrariul.",
@@ -342,13 +323,11 @@
     "author": "Brian Tracy",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/Nu scuzelor.jpg",
     "affiliate": "https://www.actsipoliton.ro/brian-tracy-nu-scuzelor-carte-tiparita?tracking=69a17509d7810",
     "description": "Câte „voi face asta de mâine” ai adunat numai în ultimele 30 de zile?",
-    "available": true,
-    "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Metoda Ask",
@@ -562,13 +541,11 @@
     "productUrl": "",
     "category": "dezvoltare",
     "score": "9.4 / 10",
-    "price": "37,80 Lei",
+    "price": "54,00 Lei",
     "image": "imagini/Smarter.jpg",
     "affiliate": "https://www.actsipoliton.ro/emily-austen-metoda-smarter-carte?tracking=69a17509d7810",
     "description": "Cartea a câștigat Business Book Award 2025. Nu pentru că spune să muncești mai mult, ci pentru că-ți explică de ce să te oprești.",
-    "available": true,
-    "oldPrice": "54,00 Lei",
-    "discount": "30%"
+    "available": true
   },
   {
     "title": "Blind Date with a Book #2",
@@ -592,12 +569,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-4",
     "category": "",
     "score": "",
-    "price": "40,17 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-04.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=UQEKeC3kkKa7",
     "description": "INDICIU NR. 1 un bărbat care citește scrisorile altora  INDICIU NR. 2 o iubire scrisă în haiku-uri  INDICIU NR. 3 un final pe care n-o să-l ierți",
-    "oldPrice": "72,00 Lei",
-    "discount": "44%",
+    "oldPrice": "40,17 Lei",
+    "discount": "50%",
     "available": true
   },
   {
@@ -607,12 +584,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-8",
     "category": "",
     "score": "",
-    "price": "58,14 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-08.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=xTWOEqjHDbPt",
     "description": "INDICIU NR. 1 o lume în care cărțile sunt interzise  INDICIU NR. 2 un funcționar care copiază literatura din amintire  INDICIU NR. 3 vizionară, înspăimântător de actuală",
-    "oldPrice": "62,37 Lei",
-    "discount": "7%",
+    "oldPrice": "58,14 Lei",
+    "discount": "66%",
     "available": true
   },
   {
@@ -637,12 +614,12 @@
     "productUrl": "https://www.curteaveche.ro/blind-date-with-a-book-13",
     "category": "",
     "score": "",
-    "price": "15,00 Lei",
+    "price": "20,00 Lei",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-13.png",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=N8VCxh0eXq_r",
     "description": "INDICIU NR. 1 o distopie în care bărbații sunt reeducați  INDICIU NR. 2 un manifest deghizat în roman INDICIU NR. 3 feminism cu colți",
     "oldPrice": "58,14 Lei",
-    "discount": "74%",
+    "discount": "66%",
     "available": true
   },
   {
@@ -786,8 +763,8 @@
     "category": "financiar",
     "score": "9.7 / 10",
     "oldPrice": "59,00 Lei",
-    "discount": "-5%",
-    "price": "56,05 Lei",
+    "discount": "-20%",
+    "price": "47,20 Lei",
     "image": "imagini/asoltanie.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=4b8966b6b",
@@ -1042,10 +1019,10 @@
     "image": "imagini/lolita.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "29,44 Lei",
+    "price": "30,08 Lei",
     "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?",
     "oldPrice": "31,66 Lei",
-    "discount": "-7%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1072,9 +1049,11 @@
     "image": "imagini/sesnsul.jpg",
     "score": "9.6 / 10",
     "category": "jurnale",
-    "price": "42,30 Lei",
+    "price": "33,84 Lei",
     "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat.",
-    "available": true
+    "available": true,
+    "oldPrice": "42,30 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Stephen Hawking, o viață dedicată științei",
@@ -1085,10 +1064,10 @@
     "image": "imagini/stephen.jpg",
     "score": "9.2 / 10",
     "category": "jurnale",
-    "price": "12,00 Lei",
+    "price": "15,00 Lei",
     "description": "Știi câte săptămâni a stat o carte de fizică pe lista de bestsellere britanice? 237. Știi câte ecuații conținea? Una singură. Știi câte exemplare s-au vândut la nivel mondial? Peste 25 de milioane. Dar știi cine era omul care a scris-o — cu ego-ul lui colosal, cu căsniciile lui complicate, cu obiceiul de a trece cu scaunul peste picioarele celor care îl enervau? Asta e o altă poveste.",
     "oldPrice": "51,81 Lei",
-    "discount": "-77%",
+    "discount": "-71%",
     "available": true
   },
   {
@@ -1322,10 +1301,10 @@
     "image": "imagini/ciuma.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "35,10 Lei",
+    "price": "33,26 Lei",
     "description": "În februarie 2020, un editor japonez a tipărit într-o singură lună echivalentul vânzărilor din 31 de ani. O carte scrisă în 1947. De ce tocmai atunci? De ce tocmai ea? Pentru că Albert Camus știa deja tot ce aveam să trăim — și scrisese răspunsul cu 73 de ani înainte.",
     "oldPrice": "36,95 Lei",
-    "discount": "-5%",
+    "discount": "-10%",
     "available": true
   },
   {
@@ -1337,10 +1316,10 @@
     "image": "imagini/veac.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "41,45 Lei",
+    "price": "47,37 Lei",
     "description": "De ce repeți aceleași greșeli pe care le-ai văzut la părinții tăi? De ce iei aceleași decizii proaste, în aceleași situații, deși știi cum se termină? De ce singurătatea ta seamănă atât de mult cu singurătatea lor? García Márquez a scris un roman despre asta în 1967. 50 de milioane de oameni s-au recunoscut în el.",
     "oldPrice": "59,21 Lei",
-    "discount": "-30%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1367,10 +1346,10 @@
     "image": "imagini/minighid.jpg",
     "score": "9.5/10",
     "category": "financiar",
-    "price": "52,25 Lei",
+    "price": "44,00 Lei",
     "description": "Ben Graham, tatăl investițiilor în valoare, a spus-o acum 90 de ani. Nimeni nu l-a ascultat. „Principala problemă a investitorului — și chiar dușmanul său cel mai mare — e probabil el însuși.” Ai citit zeci de cărți despre piețe. Câte ai citit despre propria ta minte?",
     "oldPrice": "55,00 Lei",
-    "discount": "-5%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1397,10 +1376,10 @@
     "image": "imagini/BABILON.jpg",
     "score": "9.8/10",
     "category": "dezvoltare",
-    "price": "41,24 Lei",
+    "price": "43,99 Lei",
     "description": "O carte scrisă acum aproape 100 de ani, distribuită inițial de bănci americane ca material educațional, tradusă în 26 de limbi și vândută în 25 de milioane de exemplare. Principiul ei central are 7 cuvinte: „O parte din tot ce câștigi îți aparține.” Câți ani ai pierdut ignorând asta?",
     "oldPrice": "54,99 Lei",
-    "discount": "-25%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1427,10 +1406,8 @@
     "image": "imagini/procesul.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "38,16 Lei",
+    "price": "44,90 Lei",
     "description": "Scris în 1914 la Praga, publicat postum în 1925 — pentru că autorul a cerut să fie ars. 25 de milioane de exemplare mai târziu, termenul „kafkian” există în dicționarul fiecărei limbi mari. Ce carte produce un cuvânt nou într-o limbă? Una singură.",
-    "oldPrice": "44,90 Lei",
-    "discount": "-15%",
     "available": true
   },
   {
@@ -1472,10 +1449,10 @@
     "image": "imagini/mitul.jpg",
     "score": "9.8/10",
     "category": "dezvoltare",
-    "price": "90,25 Lei",
+    "price": "76,00 Lei",
     "description": "70% dintre americani iau cel puțin un medicament prescris. Canada înregistrează hipertensiune la unul din cinci adulți. Marea Britanie a ajuns la o criză de sănătate mintală fără precedent. Și totuși trăim în cele mai „avansate” sisteme de sănătate din istoria omenirii. Poate că problema nu e lipsa tratamentelor. Poate că problema e ce numim „normal”.",
     "oldPrice": "95,00 Lei",
-    "discount": "-5%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1528,9 +1505,11 @@
     "image": "imagini/dece.jpg",
     "score": "9.6/10",
     "category": "dezvoltare",
-    "price": "68,71 Lei",
+    "price": "54,97 Lei",
     "description": "Toată lumea îți spune să comunici mai clar, să prezinți mai convingător, să-ți cunoști produsul mai bine. Simon Sinek a studiat zeci de ani de ce exact asta nu funcționează — și ce fac în schimb oamenii care inspiră cu adevărat.",
-    "available": true
+    "available": true,
+    "oldPrice": "68,71 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Elevul Dima dintr-a șaptea",
@@ -1571,10 +1550,10 @@
     "image": "imagini/raspunsuri.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "39,17 Lei",
+    "price": "32,98 Lei",
     "description": "Cărțile lui Allan Pease — același om care în 1991 a fost invitat la Kremlin să predea limbajul trupului unor politicieni printre care Vladimir Putin — au vândut peste 27 de milioane de exemplare în 55 de limbi. Această carte are 120 de pagini. O termini într-o după-amiază. Și schimbă modul în care vei purta orice conversație importantă pentru tot restul vieții.",
     "oldPrice": "41,23 Lei",
-    "discount": "-5%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1642,10 +1621,10 @@
     "image": "imagini/gandire.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "88,97 Lei",
+    "price": "83,74 Lei",
     "description": "Cu cât ești mai inteligent, cu atât ești mai periculos pentru tine însuți. Nu pentru că greșești mai des — ci pentru că ești mai bun la a-ți justifica greșelile cu argumente care sună impecabil. Asta a demonstrat Daniel Kahneman în cei 50 de ani de cercetare care i-au adus Premiul Nobel.",
     "oldPrice": "104,67 Lei",
-    "discount": "-15%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1657,9 +1636,11 @@
     "image": "imagini/factfulness.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "58,15 Lei",
+    "price": "46,52 Lei",
     "description": "Toată lumea spune că lumea merge din rău în mai rău. Că sărăcia crește. Că violența se înmulțește. Că viitorul e întunecat. Dar ce se întâmplă când verifici datele reale — nu știrile, ci cifrele? De ce 35 de milioane de oameni s-au uitat la TED talks-urile unui medic suedez care le demonstra exact contrariul? Și de ce, după ce l-au văzut, tot continuau să se înșele?",
-    "available": true
+    "available": true,
+    "oldPrice": "58,15 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Arta de a gândi limpede",
@@ -1670,9 +1651,11 @@
     "image": "imagini/limpede.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "63,33 Lei",
+    "price": "50,66 Lei",
     "description": "Crezi că iei decizii raționale. Ai 35 de ani, experiență, date, intuiție bună. Dar un elvețian pe nume Rolf Dobelli a identificat 99 de erori de gândire pe care le facem toți — sistematic, zi de zi, fără să știm. Nu greșeli de calcul. Greșeli de arhitectură mentală. Câte din cele 99 crezi că le faci tu?",
-    "available": true
+    "available": true,
+    "oldPrice": "63,33 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Irațional în mod previzibil",
@@ -1683,9 +1666,11 @@
     "image": "imagini/irational.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "68,71 Lei",
+    "price": "54,97 Lei",
     "description": "Toată lumea îți spune să gândești mai clar, să fii mai disciplinat, să iei decizii mai bune. Dan Ariely a petrecut 20 de ani la MIT și Duke studiind mii de oameni inteligenți, raționali, educați — și a descoperit că toți greșesc la fel, previzibil, zi de zi. Nu ești tu problema. E modul în care creierul tău a fost construit.",
-    "available": true
+    "available": true,
+    "oldPrice": "68,71 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Raționamentul logic",
@@ -1696,10 +1681,10 @@
     "image": "imagini/rationamentul.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "99,44 Lei",
+    "price": "83,74 Lei",
     "description": "Toată lumea se teme de proba de drept la INM. Nimeni nu îți spune că proba de logică te elimină din concurs înainte să ajungi acolo.",
     "oldPrice": "104,67 Lei",
-    "discount": "-5%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1769,9 +1754,11 @@
     "image": "imagini/creierul.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "62,38 Lei",
+    "price": "49,90 Lei",
     "description": "Știi senzația aia când îți dai seama că repeți aceeași greșeală pentru a cincea oară, în ciuda faptului că ai promis că nu mai faci asta? Neuroștiința are un nume pentru ce se întâmplă acolo. Și, mai important, are și soluția.",
-    "available": true
+    "available": true,
+    "oldPrice": "62,38 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Carrie",
@@ -1782,10 +1769,8 @@
     "image": "imagini/carrie.jpg",
     "score": "9.4/10",
     "category": "beletristică",
-    "price": "44,83 Lei",
+    "price": "56,04 Lei",
     "description": "Stephen King a aruncat manuscrisul la gunoi. Soția lui l-a scos din coș. Doubleday a plătit 400.000 de dolari pe drepturile paperback. Peste 4 milioane de exemplare vândute în primii ani. Asta e povestea din spatele poveștii.",
-    "oldPrice": "56,04 Lei",
-    "discount": "20%",
     "available": true
   },
   {
@@ -1797,10 +1782,10 @@
     "image": "imagini/shining.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "59,99 Lei",
+    "price": "69,74 Lei",
     "description": "Toată lumea cunoaște scena cu Jack Nicholson și toporul. Puțini știu că Stephen King consideră acea scenă o trădare. Puțini știu că în carte Jack Torrance nu e nebun de la început — e un om care luptă și pierde. Ce înseamnă asta pentru tine, ca cititor? Ce diferență face între o poveste de groază și o tragedie reală?",
     "oldPrice": "74,99 Lei",
-    "discount": "20%",
+    "discount": "-7%",
     "available": true
   },
   {
@@ -1812,10 +1797,10 @@
     "image": "imagini/cimitirul.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "59,99 Lei",
+    "price": "69,74 Lei",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
     "oldPrice": "74,99 Lei",
-    "discount": "20%",
+    "discount": "-7%",
     "available": true
   },
   {
@@ -1827,10 +1812,8 @@
     "image": "imagini/inchisoarea.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "31,99 Lei",
+    "price": "39,99 Lei",
     "description": "Cine primește un cec de 5.000 de dolari și nu-l încasează niciodată? Cine refuză 2,5 milioane ca să nu renunțe la o poveste? Și de ce tocmai povestea asta a ajuns filmul numărul 1 al tuturor timpurilor?",
-    "oldPrice": "39,99 Lei",
-    "discount": "20%",
     "available": true
   },
   {
@@ -1842,10 +1825,8 @@
     "image": "imagini/culoarul.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "50,74 Lei",
+    "price": "63,43 Lei",
     "description": "Vrei o carte de Stephen King de Halloween? Alege „greșit”: ia-o pe asta. N-o să te sperie. O să te doară. Și o să-i ierți asta abia pe la pagina 400.",
-    "oldPrice": "63,43 Lei",
-    "discount": "20%",
     "available": true
   },
   {
@@ -1860,7 +1841,7 @@
     "price": "94,05 Lei",
     "description": "Un om citește prea mult din surse proaste, până nu mai deosebește realitatea de ce vrea să creadă. Apoi iese în lume înarmat. Sună a știri din 2026? E primul capitol al unui roman din 1605.",
     "oldPrice": "99,00 Lei",
-    "discount": "5%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1902,11 +1883,10 @@
     "image": "imagini/muncile.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "38,07 Lei",
+    "price": "35,96 Lei",
     "description": "Nu e Don Quijote. Nu are umorul lui. N-are nici vreun cavaler rătăcit. E cartea pe care Cervantes a pariat totul, în 1616, cu 4 zile înainte să moară.",
-    "oldPrice": "42,30",
-    "discount": "10%",
+    "oldPrice": "4,23 Lei",
+    "discount": "15%",
     "available": true
   }
-
 ]
