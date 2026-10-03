@@ -1769,9 +1769,11 @@
     "image": "imagini/carrie.jpg",
     "score": "9.4/10",
     "category": "beletristică",
-    "price": "56,04 Lei",
+    "price": "42,03 Lei",
     "description": "Stephen King a aruncat manuscrisul la gunoi. Soția lui l-a scos din coș. Doubleday a plătit 400.000 de dolari pe drepturile paperback. Peste 4 milioane de exemplare vândute în primii ani. Asta e povestea din spatele poveștii.",
-    "available": true
+    "available": true,
+    "oldPrice": "56,04 Lei",
+    "discount": "-25%"
   },
   {
     "title": "Shining",
@@ -1782,10 +1784,10 @@
     "image": "imagini/shining.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "69,74 Lei",
+    "price": "56,24 Lei",
     "description": "Toată lumea cunoaște scena cu Jack Nicholson și toporul. Puțini știu că Stephen King consideră acea scenă o trădare. Puțini știu că în carte Jack Torrance nu e nebun de la început — e un om care luptă și pierde. Ce înseamnă asta pentru tine, ca cititor? Ce diferență face între o poveste de groază și o tragedie reală?",
     "oldPrice": "74,99 Lei",
-    "discount": "-7%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1797,10 +1799,10 @@
     "image": "imagini/cimitirul.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "69,74 Lei",
+    "price": "56,24 Lei",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
     "oldPrice": "74,99 Lei",
-    "discount": "-7%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1812,9 +1814,11 @@
     "image": "imagini/inchisoarea.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "39,99 Lei",
+    "price": "29,99 Lei",
     "description": "Cine primește un cec de 5.000 de dolari și nu-l încasează niciodată? Cine refuză 2,5 milioane ca să nu renunțe la o poveste? Și de ce tocmai povestea asta a ajuns filmul numărul 1 al tuturor timpurilor?",
-    "available": true
+    "available": true,
+    "oldPrice": "39,99 Lei",
+    "discount": "-25%"
   },
   {
     "title": "Culoarul morții",
@@ -1825,9 +1829,11 @@
     "image": "imagini/culoarul.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "63,43 Lei",
+    "price": "47,57 Lei",
     "description": "Vrei o carte de Stephen King de Halloween? Alege „greșit”: ia-o pe asta. N-o să te sperie. O să te doară. Și o să-i ierți asta abia pe la pagina 400.",
-    "available": true
+    "available": true,
+    "oldPrice": "63,43 Lei",
+    "discount": "-25%"
   },
   {
     "title": "Don Quijote de la Mancha Vol.1+2",
