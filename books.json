@@ -407,7 +407,7 @@
     "productUrl": "https://www.curteaveche.ro/Mindshift",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "oldPrice": "47,57",
+    "oldPrice": "47,57 Lei",
     "discount": "25%",
     "price": "35,68 Lei",
     "image": "imagini/Mindshift.jpg",
@@ -454,13 +454,11 @@
     "productUrl": "https://www.libris.ro/carte/investitorul-inteligent-benjamin-graham/364959?utm_source=2parale&utm_medium=feed",
     "category": "financiar",
     "score": "9.8 / 10",
-    "price": "139,60 Lei",
-    "oldPrice": "146,95 Lei",
-    "discount": "5%",
+    "price": null,
     "image": "imagini/investitorul_inteligent.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=62bb41453",
     "description": "Am deschis-o crezând că învăț formule. Am închis-o realizând că cel mai mare risc din portofoliul meu eram eu.",
-    "available": true
+    "available": false
   },
   {
     "title": "În căutarea lui Dumnezeu și a Guinness: O biografie a berii care a schimbat lumea",
@@ -1021,10 +1019,10 @@
     "image": "imagini/lolita.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "29,44 Lei",
+    "price": "30,08 Lei",
     "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?",
     "oldPrice": "31,66 Lei",
-    "discount": "-7%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1051,9 +1049,11 @@
     "image": "imagini/sesnsul.jpg",
     "score": "9.6 / 10",
     "category": "jurnale",
-    "price": "42,30 Lei",
+    "price": "33,84 Lei",
     "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat.",
-    "available": true
+    "available": true,
+    "oldPrice": "42,30 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Stephen Hawking, o viață dedicată științei",
@@ -1316,10 +1316,10 @@
     "image": "imagini/veac.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "41,45 Lei",
+    "price": "47,37 Lei",
     "description": "De ce repeți aceleași greșeli pe care le-ai văzut la părinții tăi? De ce iei aceleași decizii proaste, în aceleași situații, deși știi cum se termină? De ce singurătatea ta seamănă atât de mult cu singurătatea lor? García Márquez a scris un roman despre asta în 1967. 50 de milioane de oameni s-au recunoscut în el.",
     "oldPrice": "59,21 Lei",
-    "discount": "-30%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1346,10 +1346,10 @@
     "image": "imagini/minighid.jpg",
     "score": "9.5/10",
     "category": "financiar",
-    "price": "52,25 Lei",
+    "price": "44,00 Lei",
     "description": "Ben Graham, tatăl investițiilor în valoare, a spus-o acum 90 de ani. Nimeni nu l-a ascultat. „Principala problemă a investitorului — și chiar dușmanul său cel mai mare — e probabil el însuși.” Ai citit zeci de cărți despre piețe. Câte ai citit despre propria ta minte?",
     "oldPrice": "55,00 Lei",
-    "discount": "-5%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1376,10 +1376,10 @@
     "image": "imagini/BABILON.jpg",
     "score": "9.8/10",
     "category": "dezvoltare",
-    "price": "41,24 Lei",
+    "price": "43,99 Lei",
     "description": "O carte scrisă acum aproape 100 de ani, distribuită inițial de bănci americane ca material educațional, tradusă în 26 de limbi și vândută în 25 de milioane de exemplare. Principiul ei central are 7 cuvinte: „O parte din tot ce câștigi îți aparține.” Câți ani ai pierdut ignorând asta?",
     "oldPrice": "54,99 Lei",
-    "discount": "-25%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1449,10 +1449,10 @@
     "image": "imagini/mitul.jpg",
     "score": "9.8/10",
     "category": "dezvoltare",
-    "price": "90,25 Lei",
+    "price": "76,00 Lei",
     "description": "70% dintre americani iau cel puțin un medicament prescris. Canada înregistrează hipertensiune la unul din cinci adulți. Marea Britanie a ajuns la o criză de sănătate mintală fără precedent. Și totuși trăim în cele mai „avansate” sisteme de sănătate din istoria omenirii. Poate că problema nu e lipsa tratamentelor. Poate că problema e ce numim „normal”.",
     "oldPrice": "95,00 Lei",
-    "discount": "-5%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1505,9 +1505,11 @@
     "image": "imagini/dece.jpg",
     "score": "9.6/10",
     "category": "dezvoltare",
-    "price": "68,71 Lei",
+    "price": "54,97 Lei",
     "description": "Toată lumea îți spune să comunici mai clar, să prezinți mai convingător, să-ți cunoști produsul mai bine. Simon Sinek a studiat zeci de ani de ce exact asta nu funcționează — și ce fac în schimb oamenii care inspiră cu adevărat.",
-    "available": true
+    "available": true,
+    "oldPrice": "68,71 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Elevul Dima dintr-a șaptea",
@@ -1548,10 +1550,10 @@
     "image": "imagini/raspunsuri.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "39,17 Lei",
+    "price": "32,98 Lei",
     "description": "Cărțile lui Allan Pease — același om care în 1991 a fost invitat la Kremlin să predea limbajul trupului unor politicieni printre care Vladimir Putin — au vândut peste 27 de milioane de exemplare în 55 de limbi. Această carte are 120 de pagini. O termini într-o după-amiază. Și schimbă modul în care vei purta orice conversație importantă pentru tot restul vieții.",
     "oldPrice": "41,23 Lei",
-    "discount": "-5%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1619,10 +1621,10 @@
     "image": "imagini/gandire.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "88,97 Lei",
+    "price": "83,74 Lei",
     "description": "Cu cât ești mai inteligent, cu atât ești mai periculos pentru tine însuți. Nu pentru că greșești mai des — ci pentru că ești mai bun la a-ți justifica greșelile cu argumente care sună impecabil. Asta a demonstrat Daniel Kahneman în cei 50 de ani de cercetare care i-au adus Premiul Nobel.",
     "oldPrice": "104,67 Lei",
-    "discount": "-15%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1634,9 +1636,11 @@
     "image": "imagini/factfulness.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "58,15 Lei",
+    "price": "46,52 Lei",
     "description": "Toată lumea spune că lumea merge din rău în mai rău. Că sărăcia crește. Că violența se înmulțește. Că viitorul e întunecat. Dar ce se întâmplă când verifici datele reale — nu știrile, ci cifrele? De ce 35 de milioane de oameni s-au uitat la TED talks-urile unui medic suedez care le demonstra exact contrariul? Și de ce, după ce l-au văzut, tot continuau să se înșele?",
-    "available": true
+    "available": true,
+    "oldPrice": "58,15 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Arta de a gândi limpede",
@@ -1647,9 +1651,11 @@
     "image": "imagini/limpede.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "63,33 Lei",
+    "price": "50,66 Lei",
     "description": "Crezi că iei decizii raționale. Ai 35 de ani, experiență, date, intuiție bună. Dar un elvețian pe nume Rolf Dobelli a identificat 99 de erori de gândire pe care le facem toți — sistematic, zi de zi, fără să știm. Nu greșeli de calcul. Greșeli de arhitectură mentală. Câte din cele 99 crezi că le faci tu?",
-    "available": true
+    "available": true,
+    "oldPrice": "63,33 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Irațional în mod previzibil",
@@ -1660,9 +1666,11 @@
     "image": "imagini/irational.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "68,71 Lei",
+    "price": "54,97 Lei",
     "description": "Toată lumea îți spune să gândești mai clar, să fii mai disciplinat, să iei decizii mai bune. Dan Ariely a petrecut 20 de ani la MIT și Duke studiind mii de oameni inteligenți, raționali, educați — și a descoperit că toți greșesc la fel, previzibil, zi de zi. Nu ești tu problema. E modul în care creierul tău a fost construit.",
-    "available": true
+    "available": true,
+    "oldPrice": "68,71 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Raționamentul logic",
@@ -1746,9 +1754,11 @@
     "image": "imagini/creierul.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "62,38 Lei",
+    "price": "49,90 Lei",
     "description": "Știi senzația aia când îți dai seama că repeți aceeași greșeală pentru a cincea oară, în ciuda faptului că ai promis că nu mai faci asta? Neuroștiința are un nume pentru ce se întâmplă acolo. Și, mai important, are și soluția.",
-    "available": true
+    "available": true,
+    "oldPrice": "62,38 Lei",
+    "discount": "-20%"
   },
   {
     "title": "Carrie",
@@ -1759,10 +1769,10 @@
     "image": "imagini/carrie.jpg",
     "score": "9.4/10",
     "category": "beletristică",
-    "price": "44,83 Lei",
+    "price": "42,03 Lei",
     "description": "Stephen King a aruncat manuscrisul la gunoi. Soția lui l-a scos din coș. Doubleday a plătit 400.000 de dolari pe drepturile paperback. Peste 4 milioane de exemplare vândute în primii ani. Asta e povestea din spatele poveștii.",
     "oldPrice": "56,04 Lei",
-    "discount": "-20%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1774,10 +1784,10 @@
     "image": "imagini/shining.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "59,99 Lei",
+    "price": "56,24 Lei",
     "description": "Toată lumea cunoaște scena cu Jack Nicholson și toporul. Puțini știu că Stephen King consideră acea scenă o trădare. Puțini știu că în carte Jack Torrance nu e nebun de la început — e un om care luptă și pierde. Ce înseamnă asta pentru tine, ca cititor? Ce diferență face între o poveste de groază și o tragedie reală?",
     "oldPrice": "74,99 Lei",
-    "discount": "-20%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1789,10 +1799,10 @@
     "image": "imagini/cimitirul.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "59,99 Lei",
+    "price": "56,24 Lei",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
     "oldPrice": "74,99 Lei",
-    "discount": "-20%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1804,10 +1814,10 @@
     "image": "imagini/inchisoarea.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "31,99 Lei",
+    "price": "29,99 Lei",
     "description": "Cine primește un cec de 5.000 de dolari și nu-l încasează niciodată? Cine refuză 2,5 milioane ca să nu renunțe la o poveste? Și de ce tocmai povestea asta a ajuns filmul numărul 1 al tuturor timpurilor?",
     "oldPrice": "39,99 Lei",
-    "discount": "-20%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1819,10 +1829,10 @@
     "image": "imagini/culoarul.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "50,74 Lei",
+    "price": "47,57 Lei",
     "description": "Vrei o carte de Stephen King de Halloween? Alege „greșit”: ia-o pe asta. N-o să te sperie. O să te doară. Și o să-i ierți asta abia pe la pagina 400.",
     "oldPrice": "63,43 Lei",
-    "discount": "-20%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1879,10 +1889,10 @@
     "image": "imagini/muncile.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "38,07 Lei",
+    "price": "35,96 Lei",
     "description": "Nu e Don Quijote. Nu are umorul lui. N-are nici vreun cavaler rătăcit. E cartea pe care Cervantes a pariat totul, în 1616, cu 4 zile înainte să moară.",
     "oldPrice": "4,23 Lei",
-    "discount": "10%",
+    "discount": "15%",
     "available": true
   }
 ]
