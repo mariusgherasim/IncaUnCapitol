@@ -763,8 +763,8 @@
     "category": "financiar",
     "score": "9.7 / 10",
     "oldPrice": "59,00 Lei",
-    "discount": "-20%",
-    "price": "47,20 Lei",
+    "discount": "-5%",
+    "price": "56,05 Lei",
     "image": "imagini/asoltanie.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=4b8966b6b",
@@ -1049,11 +1049,9 @@
     "image": "imagini/sesnsul.jpg",
     "score": "9.6 / 10",
     "category": "jurnale",
-    "price": "33,84 Lei",
+    "price": "42,30 Lei",
     "description": "16 milioane de exemplare. 52 de limbi. Aproape 100 de ediții în engleză. Și Viktor Frankl însuși spunea că succesul ăsta nu e o realizare — e un diagnostic. Dacă atâția oameni cumpără o carte cu sensul vieții în titlu, înseamnă că problema îi macină cu adevărat.",
-    "available": true,
-    "oldPrice": "42,30 Lei",
-    "discount": "-20%"
+    "available": true
   },
   {
     "title": "Stephen Hawking, o viață dedicată științei",
@@ -1346,10 +1344,10 @@
     "image": "imagini/minighid.jpg",
     "score": "9.5/10",
     "category": "financiar",
-    "price": "44,00 Lei",
+    "price": "52,25 Lei",
     "description": "Ben Graham, tatăl investițiilor în valoare, a spus-o acum 90 de ani. Nimeni nu l-a ascultat. „Principala problemă a investitorului — și chiar dușmanul său cel mai mare — e probabil el însuși.” Ai citit zeci de cărți despre piețe. Câte ai citit despre propria ta minte?",
     "oldPrice": "55,00 Lei",
-    "discount": "-20%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1449,10 +1447,10 @@
     "image": "imagini/mitul.jpg",
     "score": "9.8/10",
     "category": "dezvoltare",
-    "price": "76,00 Lei",
+    "price": "90,25 Lei",
     "description": "70% dintre americani iau cel puțin un medicament prescris. Canada înregistrează hipertensiune la unul din cinci adulți. Marea Britanie a ajuns la o criză de sănătate mintală fără precedent. Și totuși trăim în cele mai „avansate” sisteme de sănătate din istoria omenirii. Poate că problema nu e lipsa tratamentelor. Poate că problema e ce numim „normal”.",
     "oldPrice": "95,00 Lei",
-    "discount": "-20%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1505,11 +1503,9 @@
     "image": "imagini/dece.jpg",
     "score": "9.6/10",
     "category": "dezvoltare",
-    "price": "54,97 Lei",
+    "price": "68,71 Lei",
     "description": "Toată lumea îți spune să comunici mai clar, să prezinți mai convingător, să-ți cunoști produsul mai bine. Simon Sinek a studiat zeci de ani de ce exact asta nu funcționează — și ce fac în schimb oamenii care inspiră cu adevărat.",
-    "available": true,
-    "oldPrice": "68,71 Lei",
-    "discount": "-20%"
+    "available": true
   },
   {
     "title": "Elevul Dima dintr-a șaptea",
@@ -1550,10 +1546,10 @@
     "image": "imagini/raspunsuri.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "32,98 Lei",
+    "price": "39,17 Lei",
     "description": "Cărțile lui Allan Pease — același om care în 1991 a fost invitat la Kremlin să predea limbajul trupului unor politicieni printre care Vladimir Putin — au vândut peste 27 de milioane de exemplare în 55 de limbi. Această carte are 120 de pagini. O termini într-o după-amiază. Și schimbă modul în care vei purta orice conversație importantă pentru tot restul vieții.",
     "oldPrice": "41,23 Lei",
-    "discount": "-20%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1621,10 +1617,10 @@
     "image": "imagini/gandire.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "83,74 Lei",
+    "price": "88,97 Lei",
     "description": "Cu cât ești mai inteligent, cu atât ești mai periculos pentru tine însuți. Nu pentru că greșești mai des — ci pentru că ești mai bun la a-ți justifica greșelile cu argumente care sună impecabil. Asta a demonstrat Daniel Kahneman în cei 50 de ani de cercetare care i-au adus Premiul Nobel.",
     "oldPrice": "104,67 Lei",
-    "discount": "-20%",
+    "discount": "-15%",
     "available": true
   },
   {
@@ -1636,11 +1632,9 @@
     "image": "imagini/factfulness.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "46,52 Lei",
+    "price": "58,15 Lei",
     "description": "Toată lumea spune că lumea merge din rău în mai rău. Că sărăcia crește. Că violența se înmulțește. Că viitorul e întunecat. Dar ce se întâmplă când verifici datele reale — nu știrile, ci cifrele? De ce 35 de milioane de oameni s-au uitat la TED talks-urile unui medic suedez care le demonstra exact contrariul? Și de ce, după ce l-au văzut, tot continuau să se înșele?",
-    "available": true,
-    "oldPrice": "58,15 Lei",
-    "discount": "-20%"
+    "available": true
   },
   {
     "title": "Arta de a gândi limpede",
@@ -1651,11 +1645,9 @@
     "image": "imagini/limpede.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "50,66 Lei",
+    "price": "63,33 Lei",
     "description": "Crezi că iei decizii raționale. Ai 35 de ani, experiență, date, intuiție bună. Dar un elvețian pe nume Rolf Dobelli a identificat 99 de erori de gândire pe care le facem toți — sistematic, zi de zi, fără să știm. Nu greșeli de calcul. Greșeli de arhitectură mentală. Câte din cele 99 crezi că le faci tu?",
-    "available": true,
-    "oldPrice": "63,33 Lei",
-    "discount": "-20%"
+    "available": true
   },
   {
     "title": "Irațional în mod previzibil",
@@ -1666,11 +1658,9 @@
     "image": "imagini/irational.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "54,97 Lei",
+    "price": "68,71 Lei",
     "description": "Toată lumea îți spune să gândești mai clar, să fii mai disciplinat, să iei decizii mai bune. Dan Ariely a petrecut 20 de ani la MIT și Duke studiind mii de oameni inteligenți, raționali, educați — și a descoperit că toți greșesc la fel, previzibil, zi de zi. Nu ești tu problema. E modul în care creierul tău a fost construit.",
-    "available": true,
-    "oldPrice": "68,71 Lei",
-    "discount": "-20%"
+    "available": true
   },
   {
     "title": "Raționamentul logic",
@@ -1681,10 +1671,10 @@
     "image": "imagini/rationamentul.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "83,74 Lei",
+    "price": "99,44 Lei",
     "description": "Toată lumea se teme de proba de drept la INM. Nimeni nu îți spune că proba de logică te elimină din concurs înainte să ajungi acolo.",
     "oldPrice": "104,67 Lei",
-    "discount": "-20%",
+    "discount": "-5%",
     "available": true
   },
   {
@@ -1754,11 +1744,9 @@
     "image": "imagini/creierul.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "49,90 Lei",
+    "price": "62,38 Lei",
     "description": "Știi senzația aia când îți dai seama că repeți aceeași greșeală pentru a cincea oară, în ciuda faptului că ai promis că nu mai faci asta? Neuroștiința are un nume pentru ce se întâmplă acolo. Și, mai important, are și soluția.",
-    "available": true,
-    "oldPrice": "62,38 Lei",
-    "discount": "-20%"
+    "available": true
   },
   {
     "title": "Carrie",
