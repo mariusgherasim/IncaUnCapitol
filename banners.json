@@ -1,6 +1,6 @@
 [
   {
-    "_readme": "Cum se folosește: fiecare banner are startDate și endDate (format AAAA-LL-ZZ, ex. 2026-08-01). Ambele sunt opționale și independente: lași gol la amândouă -> bannerul e mereu valabil; pui doar endDate -> valabil pana la acea data, apoi dispare automat; pui doar startDate -> apare abia de la acea data inainte; pui ambele -> valabil strict in intervalul respectiv. Campul 'weight' (numar intreg, implicit 1 daca lipseste) controleaza cat de des apare bannerul in rotatie fata de celelalte active in aceeasi perioada — weight:3 inseamna ca apare de 3 ori mai des decat un banner cu weight:1. Bannerele apar acum in mai multe locuri pe site (homepage + toate cele 6 pagini de subcategorie), fiecare loc randand independent acelasi banner curent din rotatie. Acest obiect e doar informativ, nu e un banner real - nu are 'channels', deci codul din script.js il ignora mereu, nu va aparea niciodata pe site."
+    "_readme": "Cum se folosește: fiecare banner are startDate și endDate (format AAAA-LL-ZZ, ex. 2026-08-01). Ambele sunt opționale și independente: lași gol la amândouă -> bannerul e mereu valabil; pui doar endDate -> valabil pana la acea data, apoi dispare automat; pui doar startDate -> apare abia de la acea data inainte; pui ambele -> valabil strict in intervalul respectiv. Campul 'weight' (numar intreg, implicit 1 daca lipseste) controleaza cat de des apare bannerul in rotatie fata de celelalte active in aceeasi perioada — weight:3 inseamna ca apare de 3 ori mai des decat un banner cu weight:1. Bannerele apar acum in mai multe locuri pe site (homepage + toate cele 6 pagini de subcategorie), fiecare loc randand independent acelasi banner curent din rotatie. Acest obiect e doar informativ, nu e un banner real - nu are 'channels', deci codul din script.js il ignora mereu, nu va aparea niciodata pe site. Dimensiune: script.js limiteaza inaltimea oricarui banner la BANNER_MAX_HEIGHT_PX (implicit 250 px), ca bannerele mari sa nu mai ocupe tot ecranul. Daca nu exista niciun banner activ, sectiunea de banner se ascunde automat."
   },
   {
     "id": "libris-01",
@@ -73,20 +73,6 @@
     "weight": 1
   },
   {
-    "id": "carturesti-06",
-    "merchant": "carturesti.ro",
-    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271830/original/271830.jpg",
-    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=73d33075c&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "alt": "carturesti.ro",
-    "channels": [
-      "site",
-      "email"
-    ],
-    "startDate": "",
-    "endDate": "",
-    "weight": 1
-  },
-  {
     "id": "libris-06",
     "merchant": "libris.ro",
     "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/271805/original/271805.png",
@@ -129,9 +115,3 @@
     "weight": 3
   }
 ]
-
-
-
-
-
-

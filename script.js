@@ -1030,6 +1030,10 @@ function isBannerActive(banner, todayStr){
 // deschisă (nu doar o dată pe zi la încărcare, ci și în timp real).
 const BANNER_ROTATION_INTERVAL_MS = 2 * 60 * 1000; // 2 minute
 
+// Inaltimea maxima a unui banner pe site (px). Bannerele mai mari se
+// micsoreaza proportional, ca sa nu mai ocupe tot ecranul.
+const BANNER_MAX_HEIGHT_PX = 250;
+
 let activeBanners = [];       // bannerele active azi (fara duplicare)
 let bannerPool = [];          // acelasi banner apare de "weight" ori aici
 let currentBannerIndex = 0;   // index in bannerPool, nu in activeBanners
@@ -1079,7 +1083,7 @@ function renderCurrentBanner(){
             data-track="banner"
             data-merchant="${escapeHtml(banner.merchant)}"
         >
-            <img src="${escapeHtml(banner.image)}" alt="${escapeHtml(banner.alt || banner.merchant)}" loading="lazy">
+            <img src="${escapeHtml(banner.image)}" alt="${escapeHtml(banner.alt || banner.merchant)}" loading="lazy" style="display:block;width:auto;height:auto;max-width:100%;max-height:${BANNER_MAX_HEIGHT_PX}px;margin:0 auto;">
         </a>
     `;
 
@@ -1112,7 +1116,14 @@ async function loadBanner(){
             isBannerActive(b, today)
         );
 
-        if (!activeBanners.length) return;
+        // niciun banner activ -> ascunde sectiunile de banner (fara spatiu gol pe pagina)
+        if (!activeBanners.length) {
+            containers.forEach(c => {
+                const section = c.closest(".banner-section");
+                if (section) section.hidden = true;
+            });
+            return;
+        }
 
         bannerPool = buildBannerPool(activeBanners);
 
