@@ -213,10 +213,42 @@ Vezi serviciile de copywriting și marketing digital.
 </div>
 </section>
 
-<section class="banner-section">
+<!-- ============================================================
+     PROMO ACTIVA (sectiune mica, inlocuieste primul slot de banner)
+     Pentru o campanie noua schimbi doar: eticheta (-50%), kicker,
+     titlu, textul scurt si linkul butonului.
+     ============================================================ -->
+<section class="promo-strip" aria-label="Reducerea săptămânii">
+<style>
+.promo-strip{padding:24px 0}
+.promo-strip .promo-card{display:flex;align-items:center;gap:22px;background:#fff;border:1px solid #e5e7eb;border-left:5px solid #c4122f;border-radius:10px;padding:16px 22px;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.promo-strip .promo-tag{flex:0 0 auto;background:#d8b98a;color:#c4122f;font-family:'Courier New',monospace;font-weight:700;font-size:1.6rem;line-height:1;padding:14px 12px;border-radius:6px;transform:rotate(-4deg);text-align:center}
+.promo-strip .promo-tag small{display:block;color:#2a2116;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;margin-top:4px}
+.promo-strip .promo-text{flex:1 1 auto;min-width:0}
+.promo-strip .promo-kicker{margin:0;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#c4122f;font-weight:700}
+.promo-strip .promo-title{margin:2px 0 4px;font-size:1.2rem;line-height:1.3}
+.promo-strip .promo-sub{margin:0;font-size:.95rem;color:#4a5264;line-height:1.5}
+.promo-strip .promo-btn{flex:0 0 auto;display:inline-block;background:#c4122f;color:#fff;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:6px;white-space:nowrap}
+.promo-strip .promo-btn:hover{background:#a30e27}
+@media (max-width:700px){
+.promo-strip .promo-card{flex-wrap:wrap;gap:14px;padding:16px}
+.promo-strip .promo-text{flex-basis:calc(100% - 100px)}
+.promo-strip .promo-btn{width:100%;text-align:center}
+}
+</style>
 <div class="container">
-<div id="bannerSlot" class="banner-slot banner-mount"></div>
+<div class="promo-card">
+<div class="promo-tag" aria-hidden="true">-50%<small>minimum</small></div>
+<div class="promo-text">
+<p class="promo-kicker">Reducerea săptămânii · librarie.net</p>
+<h2 class="promo-title">Book-Half: 1.217 cărți la jumătate de preț</h2>
+<p class="promo-sub">294 de titluri la -60% sau mai mult, 815 între 10 și 30 de lei. Tolkien, Márquez, Eco, cărți pentru copii.</p>
 </div>
+<a class="promo-btn" href="book-half-librarie-net.html">Vezi selecția</a>
+</div>
+</div>
+<!-- pastrat gol si ascuns: script.js poate cauta #bannerSlot; fara clasa banner-mount nu se mai incarca banner aici -->
+<div id="bannerSlot" hidden></div>
 </section>
 
 <section class="section">
