@@ -407,7 +407,7 @@
     "productUrl": "https://www.curteaveche.ro/Mindshift",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "oldPrice": "47,57 Lei",
+    "oldPrice": "47,57",
     "discount": "25%",
     "price": "35,68 Lei",
     "image": "imagini/Mindshift.jpg",
@@ -454,11 +454,13 @@
     "productUrl": "https://www.libris.ro/carte/investitorul-inteligent-benjamin-graham/364959?utm_source=2parale&utm_medium=feed",
     "category": "financiar",
     "score": "9.8 / 10",
-    "price": null,
+    "price": "139,60 Lei",
+    "oldPrice": "146,95 Lei",
+    "discount": "5%",
     "image": "imagini/investitorul_inteligent.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=62bb41453",
     "description": "Am deschis-o crezând că învăț formule. Am închis-o realizând că cel mai mare risc din portofoliul meu eram eu.",
-    "available": false
+    "available": true
   },
   {
     "title": "În căutarea lui Dumnezeu și a Guinness: O biografie a berii care a schimbat lumea",
@@ -763,8 +765,8 @@
     "category": "financiar",
     "score": "9.7 / 10",
     "oldPrice": "59,00 Lei",
-    "discount": "-5%",
-    "price": "56,05 Lei",
+    "discount": "-20%",
+    "price": "47,20 Lei",
     "image": "imagini/asoltanie.jpg",
     "offerEnds": "",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=4b8966b6b",
@@ -1019,10 +1021,10 @@
     "image": "imagini/lolita.jpg",
     "score": "9.4 / 10",
     "category": "beletristică",
-    "price": "30,08 Lei",
+    "price": "29,44 Lei",
     "description": "5 edituri americane au refuzat-o în 1953. Interzisă în Franța, confiscată la granița Marii Britanii, interzisă în Argentina și Noua Zeelandă. Și totuși, când a apărut în SUA în 1958, a vândut 100.000 de exemplare în primele 3 săptămâni — prima carte care a făcut asta după „Pe aripile vântului”. Astăzi, peste 60 de milioane de exemplare mai târziu, Lolita e considerată unul dintre cele mai rafinate romane ale secolului XX. Ce știa Nabokov și 5 edituri nu înțelegeau?",
     "oldPrice": "31,66 Lei",
-    "discount": "-5%",
+    "discount": "-7%",
     "available": true
   },
   {
@@ -1314,10 +1316,10 @@
     "image": "imagini/veac.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "47,37 Lei",
+    "price": "41,45 Lei",
     "description": "De ce repeți aceleași greșeli pe care le-ai văzut la părinții tăi? De ce iei aceleași decizii proaste, în aceleași situații, deși știi cum se termină? De ce singurătatea ta seamănă atât de mult cu singurătatea lor? García Márquez a scris un roman despre asta în 1967. 50 de milioane de oameni s-au recunoscut în el.",
     "oldPrice": "59,21 Lei",
-    "discount": "-20%",
+    "discount": "-30%",
     "available": true
   },
   {
@@ -1374,10 +1376,10 @@
     "image": "imagini/BABILON.jpg",
     "score": "9.8/10",
     "category": "dezvoltare",
-    "price": "43,99 Lei",
+    "price": "41,24 Lei",
     "description": "O carte scrisă acum aproape 100 de ani, distribuită inițial de bănci americane ca material educațional, tradusă în 26 de limbi și vândută în 25 de milioane de exemplare. Principiul ei central are 7 cuvinte: „O parte din tot ce câștigi îți aparține.” Câți ani ai pierdut ignorând asta?",
     "oldPrice": "54,99 Lei",
-    "discount": "-20%",
+    "discount": "-25%",
     "available": true
   },
   {
@@ -1671,10 +1673,10 @@
     "image": "imagini/rationamentul.jpg",
     "score": "9.4/10",
     "category": "dezvoltare",
-    "price": "99,44 Lei",
+    "price": "83,74 Lei",
     "description": "Toată lumea se teme de proba de drept la INM. Nimeni nu îți spune că proba de logică te elimină din concurs înainte să ajungi acolo.",
     "oldPrice": "104,67 Lei",
-    "discount": "-5%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1757,10 +1759,10 @@
     "image": "imagini/carrie.jpg",
     "score": "9.4/10",
     "category": "beletristică",
-    "price": "42,03 Lei",
+    "price": "44,83 Lei",
     "description": "Stephen King a aruncat manuscrisul la gunoi. Soția lui l-a scos din coș. Doubleday a plătit 400.000 de dolari pe drepturile paperback. Peste 4 milioane de exemplare vândute în primii ani. Asta e povestea din spatele poveștii.",
     "oldPrice": "56,04 Lei",
-    "discount": "-25%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1772,10 +1774,10 @@
     "image": "imagini/shining.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "56,24 Lei",
+    "price": "59,99 Lei",
     "description": "Toată lumea cunoaște scena cu Jack Nicholson și toporul. Puțini știu că Stephen King consideră acea scenă o trădare. Puțini știu că în carte Jack Torrance nu e nebun de la început — e un om care luptă și pierde. Ce înseamnă asta pentru tine, ca cititor? Ce diferență face între o poveste de groază și o tragedie reală?",
     "oldPrice": "74,99 Lei",
-    "discount": "-25%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1787,10 +1789,10 @@
     "image": "imagini/cimitirul.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "56,24 Lei",
+    "price": "59,99 Lei",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
     "oldPrice": "74,99 Lei",
-    "discount": "-25%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1802,10 +1804,10 @@
     "image": "imagini/inchisoarea.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "29,99 Lei",
+    "price": "31,99 Lei",
     "description": "Cine primește un cec de 5.000 de dolari și nu-l încasează niciodată? Cine refuză 2,5 milioane ca să nu renunțe la o poveste? Și de ce tocmai povestea asta a ajuns filmul numărul 1 al tuturor timpurilor?",
     "oldPrice": "39,99 Lei",
-    "discount": "-25%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1817,10 +1819,10 @@
     "image": "imagini/culoarul.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "47,57 Lei",
+    "price": "50,74 Lei",
     "description": "Vrei o carte de Stephen King de Halloween? Alege „greșit”: ia-o pe asta. N-o să te sperie. O să te doară. Și o să-i ierți asta abia pe la pagina 400.",
     "oldPrice": "63,43 Lei",
-    "discount": "-25%",
+    "discount": "-20%",
     "available": true
   },
   {
@@ -1877,10 +1879,10 @@
     "image": "imagini/muncile.jpg",
     "score": "9.8/10",
     "category": "beletristică",
-    "price": "35,96 Lei",
+    "price": "38,07 Lei",
     "description": "Nu e Don Quijote. Nu are umorul lui. N-are nici vreun cavaler rătăcit. E cartea pe care Cervantes a pariat totul, în 1616, cu 4 zile înainte să moară.",
     "oldPrice": "4,23 Lei",
-    "discount": "15%",
+    "discount": "10%",
     "available": true
   }
 ]

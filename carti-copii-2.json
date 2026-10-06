@@ -15227,7 +15227,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ac67f28f5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20647/20646419-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "20,62 Lei"
+    "price": "16,50 Lei",
+    "oldPrice": "20,62 Lei",
+    "discount": "20%"
   },
   {
     "title": "Aventurile lui Huckleberry Finn - Mark Twain",
@@ -15342,30 +15344,6 @@
     "discount": "10%"
   },
   {
-    "title": "Chit si Ront si un naufragiu cu peripetii - Gundi Herget, Nikolai Renger",
-    "brand": "Nikolai Renger",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/chit-si-ront-si-un-naufragiu-cu-peripetii-gundi-herget-nikolai-renger/1254834?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fb8739069&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/1255/1254834-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "32,15 Lei",
-    "oldPrice": "33,84 Lei",
-    "discount": "5%"
-  },
-  {
-    "title": "Hotul din poiana iepurasilor - Walko",
-    "brand": "Walko",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/hotul-din-poiana-iepurasilor-walko/1194488?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=33c4c27b6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/1195/1194488-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "36,17 Lei",
-    "oldPrice": "38,07 Lei",
-    "discount": "5%"
-  },
-  {
     "title": "Gradinita coloreaza: Coco",
     "brand": "libris.ro",
     "sourceSite": "libris.ro",
@@ -15451,7 +15429,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d59628afe&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27425/27424474-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "47,58 Lei"
+    "price": "38,06 Lei",
+    "oldPrice": "47,58 Lei",
+    "discount": "20%"
   },
   {
     "title": "Eu si Marley - John Grogan",
@@ -15547,9 +15527,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d38d4f989&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/29158/29157051-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "38,40 Lei",
-    "oldPrice": "48,00 Lei",
-    "discount": "20%"
+    "price": "48,00 Lei"
   },
   {
     "title": "Recreatia mare - Mircea Santimbreanu",
@@ -15623,9 +15601,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d538a28cf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/625/624160-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "17,10 Lei",
+    "price": "15,30 Lei",
     "oldPrice": "18,00 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Ciclul vietii. O calatorie despre evolutia naturii - Gabby Dawnay, Margaux Samson Abadie",
@@ -15645,9 +15623,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5780caa65&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/35886/35885185-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "38,40 Lei",
-    "oldPrice": "48,00 Lei",
-    "discount": "20%"
+    "price": "48,00 Lei"
   },
   {
     "title": "Nicolaus Miazanoapte si Batalia cu Regele Cosmar. Seria Strajerii Copilariei Cartea 1 - Laura Geringer, William Joyce",
@@ -15729,7 +15705,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9c37b2231&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38245/38244318-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "47,58 Lei"
+    "price": "38,06 Lei",
+    "oldPrice": "47,58 Lei",
+    "discount": "20%"
   },
   {
     "title": "Ajutor, m-am transformat in profesorul meu. Cea mai tare excursie - Sonja Kaiblinger,  Anna Taube",
@@ -15759,9 +15737,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2cabf40eb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38425/38424694-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "25,65 Lei",
+    "price": "20,25 Lei",
     "oldPrice": "27,00 Lei",
-    "discount": "5%"
+    "discount": "25%"
   },
   {
     "title": "O fata numita bucurie - Jenny Valentine",
@@ -15781,9 +15759,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=00e1395ac&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/39621/39620931-1-small-1.jpg?ver=1788163039",
     "category": "carti-copii",
-    "price": "38,40 Lei",
-    "oldPrice": "48,00 Lei",
-    "discount": "20%"
+    "price": "48,00 Lei"
   },
   {
     "title": "Invatam sa numaram. Metode eficiente",
@@ -15855,9 +15831,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IXf4upwlS-vB&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/42435/42434273-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "7,60 Lei",
+    "price": "6,40 Lei",
     "oldPrice": "8,00 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Povesti la telefon - Gianni Rodari",
@@ -15974,16 +15950,6 @@
     "discount": "20%"
   },
   {
-    "title": "Soricelul Fursec si surpriza din gradina - Simona Epure",
-    "brand": "Simona Epure",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/soricelul-fursec-si-surpriza-din-gradina-simona-epure/33257133?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Igsi-YdX_bZ6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/33258/33257133-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "45,00 Lei"
-  },
-  {
     "title": "Tuck pentru totdeauna - Natalie Babbitt",
     "brand": "Natalie Babbitt",
     "sourceSite": "libris.ro",
@@ -16085,9 +16051,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lMSe5bY2SP0F&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44345/44344356-1-small-1.jpg?ver=1761653174",
     "category": "carti-copii",
-    "price": "38,40 Lei",
-    "oldPrice": "48,00 Lei",
-    "discount": "20%"
+    "price": "48,00 Lei"
   },
   {
     "title": "O bucla in timp - Madeleine L'Engle",
@@ -16297,9 +16261,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=D3mZxaqsu6Am&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38414/38413333-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "40,59 Lei",
-    "oldPrice": "50,74 Lei",
-    "discount": "20%"
+    "price": "50,74 Lei"
   },
   {
     "title": "Superfotbalistii. Misterul arbitrilor adormiti - Roberto Santiago",
@@ -16329,9 +16291,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=D71ASRywlnoQ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/47021/47020771-1-small-1.jpg?ver=1786099073",
     "category": "carti-copii",
-    "price": "33,60 Lei",
-    "oldPrice": "42,00 Lei",
-    "discount": "20%"
+    "price": "42,00 Lei"
   },
   {
     "title": "Cravata rosie - Ji-li Jiang",
@@ -16581,7 +16541,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b24d684b4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28243/28242970-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "62,38 Lei"
+    "price": "43,67 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "30%"
   },
   {
     "title": "Puzzle biblic: Povestiri despre eroi",
@@ -16623,7 +16585,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=215c0b275&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26911/26910331-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "36,48 Lei"
+    "price": "25,54 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "30%"
   },
   {
     "title": "Sunt imbatabil 8-9 ani",
@@ -16825,7 +16789,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0f75660cf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28553/28552286-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "41,23 Lei"
+    "price": "32,16 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "22%"
   },
   {
     "title": "Cat e ceasul? Descopera cum se masoara trecerea timpului - David A. Adler",
@@ -16835,7 +16801,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9bd09f888&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28817/28816613-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "30,66 Lei"
+    "price": "24,53 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cartea matematicii - Anna Weltman",
@@ -16887,9 +16855,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=afc74db80&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33138/33137055-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "35,15 Lei",
+    "price": "27,75 Lei",
     "oldPrice": "37,00 Lei",
-    "discount": "5%"
+    "discount": "25%"
   },
   {
     "title": "O ascunzatoare buna - Louis Slobodkin",
@@ -17119,9 +17087,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ztz6KprIiYRd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11825/11824226-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "16,98 Lei",
-    "oldPrice": "19,98 Lei",
-    "discount": "15%"
+    "price": "19,98 Lei"
   },
   {
     "title": "Calea regelui salbaticiei. Seria Trilogia Regele salbaticiei Vol.3 - Jonathan Rogers",
@@ -17297,7 +17263,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zDYsSw0mzVMc&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27309/27308659-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "31,62 Lei"
+    "price": "25,30 Lei",
+    "oldPrice": "31,62 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cantece pentru copii",
@@ -17307,7 +17275,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=95YendoAUS1e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38779/38778880-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "49,00 Lei"
+    "price": "39,20 Lei",
+    "oldPrice": "49,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Sunete de animale",
@@ -17317,7 +17287,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=OpThnt_X_Z0H&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38779/38778530-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "49,00 Lei"
+    "price": "39,20 Lei",
+    "oldPrice": "49,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cantece cu animale",
@@ -17327,7 +17299,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=92iqlzCx7kNv&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38779/38778523-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "49,00 Lei"
+    "price": "39,20 Lei",
+    "oldPrice": "49,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cum sa vorbesti si sa fii ascultat! - Sam Hutchinson",
@@ -17401,7 +17375,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=GdJ-AQxrZeXX&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/47849/47848731-1-small-1.jpg?ver=1787219652",
     "category": "carti-copii",
-    "price": "20,50 Lei"
+    "price": "16,40 Lei",
+    "oldPrice": "20,50 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cenusareasa. Povesti pentru cei foarte mici Ed.2026",
@@ -17411,7 +17387,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WFgpvZgjuIoc&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/47849/47848738-1-small-1.jpg?ver=1787215809",
     "category": "carti-copii",
-    "price": "20,50 Lei"
+    "price": "16,40 Lei",
+    "oldPrice": "20,50 Lei",
+    "discount": "20%"
   },
   {
     "title": "Alba-ca-Zapada. Povesti pentru cei foarte mici Ed.2026",
@@ -17421,7 +17399,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Y4339DxDbfNm&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/47849/47848745-1-small-1.jpg?ver=1787220179",
     "category": "carti-copii",
-    "price": "20,50 Lei"
+    "price": "16,40 Lei",
+    "oldPrice": "20,50 Lei",
+    "discount": "20%"
   },
   {
     "title": "Primele povesti cu animale",
@@ -17431,7 +17411,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lQQfcwpGvKBW&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/43799/43798230-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "31,61 Lei"
+    "price": "25,29 Lei",
+    "oldPrice": "31,61 Lei",
+    "discount": "20%"
   },
   {
     "title": "Mica Sirena. Povesti pentru cei foarte mici Ed.2026",
@@ -17441,7 +17423,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4YgrRXujphDd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/47849/47848668-1-small-1.jpg?ver=1787215131",
     "category": "carti-copii",
-    "price": "20,50 Lei"
+    "price": "16,40 Lei",
+    "oldPrice": "20,50 Lei",
+    "discount": "20%"
   },
   {
     "title": "Bunicul meu o ferma avea",
@@ -17451,7 +17435,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=rWHQ9ZpaM01k&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38779/38778579-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "25,90 Lei"
+    "price": "20,72 Lei",
+    "oldPrice": "25,90 Lei",
+    "discount": "20%"
   },
   {
     "title": "Rotile autobuzului",
@@ -17461,7 +17447,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=F_U35qf81yG7&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38779/38778649-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "25,90 Lei"
+    "price": "20,72 Lei",
+    "oldPrice": "25,90 Lei",
+    "discount": "20%"
   },
   {
     "title": "Primele povesti de seara",
@@ -17471,7 +17459,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LyVRV9_GouQU&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/43799/43798237-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "31,61 Lei"
+    "price": "25,29 Lei",
+    "oldPrice": "31,61 Lei",
+    "discount": "20%"
   },
   {
     "title": "Bebe invata. Atinge, pipaie, priveste. 1 2 3",
@@ -18843,9 +18833,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lnzbWq8WxbGs&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/373/372080-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "8,55 Lei",
+    "price": "7,20 Lei",
     "oldPrice": "9,00 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Cartea Junglei - Rudyard Kipling",
@@ -18855,7 +18845,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Y__aMAr3x1Tv&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48067/48066095-1-small-1.jpg?ver=1788420205",
     "category": "carti-copii",
-    "price": "39,00 Lei"
+    "price": "29,25 Lei",
+    "oldPrice": "39,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "Alice in Tara Minunilor - Lewis Carroll",
@@ -18865,9 +18857,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=G5QzfcE5hEFX&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33138/33137083-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "66,50 Lei",
+    "price": "52,50 Lei",
     "oldPrice": "70,00 Lei",
-    "discount": "5%"
+    "discount": "25%"
   },
   {
     "title": "Aventurile lui Tom Sawyer - Mark Twain",
@@ -18877,7 +18869,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2hYxTe5Gg3HU&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48067/48066060-1-small-1.jpg?ver=1788419737",
     "category": "carti-copii",
-    "price": "49,00 Lei"
+    "price": "36,75 Lei",
+    "oldPrice": "49,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "Pestele-Inger se simte furios - Katie Woolley, David Arumi",
@@ -18887,9 +18881,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HQjFqzX9CeVW&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28509/28508088-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "23,75 Lei",
+    "price": "18,75 Lei",
     "oldPrice": "25,00 Lei",
-    "discount": "5%"
+    "discount": "25%"
   },
   {
     "title": "Cele mai frumoase povesti - Hans Christian Andersen",
@@ -18899,9 +18893,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BTmuLnO7ci6P&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28509/28508158-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "71,25 Lei",
+    "price": "56,25 Lei",
     "oldPrice": "75,00 Lei",
-    "discount": "5%"
+    "discount": "25%"
   },
   {
     "title": "Colinde de Craciun. Carte cu sunete",
@@ -18911,7 +18905,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=22hE5_kgcoJO&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48069/48068853-1-small-1.jpg?ver=1788421946",
     "category": "carti-copii",
-    "price": "59,00 Lei"
+    "price": "47,20 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Limba franceza pentru clasa pregatitoare - Cristina Bolbose, Cristina Voican",
@@ -18921,9 +18917,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=DJRo52R6SIAb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/692/691403-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "19,00 Lei",
+    "price": "16,00 Lei",
     "oldPrice": "20,00 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Fise pentru activitati integrate pe proiecte tematice 5-6 ani - Elena Bolanu",
@@ -18972,16 +18968,6 @@
     "productUrl": "https://www.libris.ro/carte/cu-piticut-ne-dezvoltam-limbajul-si-comunicarea-3-4-ani-ed-2025-smaranda-maria/48136368?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ve2WfQ-7JS9p&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48137/48136368-1-small-1.jpg?ver=1788504681",
-    "category": "carti-copii",
-    "price": "15,00 Lei"
-  },
-  {
-    "title": "Joaca-te cu creionasul magic! 4-5 ani Ed.2026 - Gabriela Berbeceanu, Elena Ilie, Smaranda Maria Cioflica, Daniela Dosa",
-    "brand": "Gabriela Berbeceanu",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/joaca-te-cu-creionasul-magic-4-5-ani-ed-2026-gabriela-berbeceanu-elena-ilie/48136375?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=q9Z4LvkC-8px&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48137/48136375-1-small-1.jpg?ver=1788503743",
     "category": "carti-copii",
     "price": "15,00 Lei"
   },
@@ -19197,9 +19183,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IUU2PV2-7jGZ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1196/1195041-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "15,20 Lei",
-    "oldPrice": "17,88 Lei",
-    "discount": "15%"
+    "price": "17,88 Lei"
   },
   {
     "title": "Sofia Intai - Lectia de magie - Caiet de activitati. Grupa mica",
@@ -19257,9 +19241,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YJL6Nj7yXwvi&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11824/11823641-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "11,59 Lei",
+    "price": "12,69 Lei",
     "oldPrice": "13,64 Lei",
-    "discount": "15%"
+    "discount": "7%"
   },
   {
     "title": "Ma joc si invat: Culori. Activitati integrate 3-4 ani",
@@ -19281,9 +19265,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=gvNIYDwa038s&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11825/11824304-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "16,09 Lei",
+    "price": "17,60 Lei",
     "oldPrice": "18,93 Lei",
-    "discount": "15%"
+    "discount": "7%"
   },
   {
     "title": "Imi place la gradinita! Sa stiu mai mult. Activitati integrate 4-5 ani",
@@ -19293,9 +19277,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zTpikZOtWyZa&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11825/11824317-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "16,09 Lei",
+    "price": "17,60 Lei",
     "oldPrice": "18,93 Lei",
-    "discount": "15%"
+    "discount": "7%"
   },
   {
     "title": "Ma pregatesc pentru scoala! Exercitii grafice 5-6 ani",
@@ -19317,9 +19301,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=B6BjYA5zMPej&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11825/11824356-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "9,79 Lei",
-    "oldPrice": "11,52 Lei",
-    "discount": "15%"
+    "price": "11,52 Lei"
   },
   {
     "title": "Voi fi scolar! Invata cu mine! Exercitii grafice 5-6 ani",
@@ -109655,7 +109637,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=68402737a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1166/1165374-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "Nuvele - Ion Luca Caragiale",
@@ -109677,18 +109661,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ab4edc6b4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/905/904121-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "12,16 Lei"
-  },
-  {
-    "title": "Fram, ursul polar - Cezar Petrescu",
-    "brand": "Cezar Petrescu",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/fram-ursul-polar-cezar-petrescu/1258984?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=14ed6d921&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/1259/1258984-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "12,68 Lei",
-    "oldPrice": "15,85 Lei",
+    "price": "9,73 Lei",
+    "oldPrice": "12,16 Lei",
     "discount": "20%"
   },
   {
@@ -109699,7 +109673,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=06622e0d8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28244/28243117-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "62,38 Lei"
+    "price": "49,90 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "20%"
   },
   {
     "title": "Superdetectivii. O gaina in misiune secreta - Ann-Katrin Heger, Dominik Rupp",
@@ -109789,7 +109765,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0h9KSd8fP-G6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44976/44975952-1-small-1.jpg?ver=1765803285",
     "category": "carti-copii",
-    "price": "59,00 Lei"
+    "price": "47,20 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Primele poezii ale lui bebe",
@@ -109799,7 +109777,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FoMff5HP_lHM&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27309/27308652-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "31,62 Lei"
+    "price": "25,30 Lei",
+    "oldPrice": "31,62 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cantecele cu animale. Carte cu sunete",
@@ -109809,7 +109789,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=gCo0u0PA9OQT&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44976/44975945-1-small-1.jpg?ver=1765802650",
     "category": "carti-copii",
-    "price": "59,00 Lei"
+    "price": "47,20 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Primele povesti ale lui bebe",
@@ -109919,9 +109901,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=p2iNC3-G9lMh&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48139/48138972-1-small-1.jpg?ver=1788944776",
     "category": "carti-copii",
-    "price": "15,19 Lei",
-    "oldPrice": "17,87 Lei",
-    "discount": "15%"
+    "price": "17,87 Lei"
   },
   {
     "title": "Cine este Bau Bau? - Alexandru Peptanariu",
@@ -110290,18 +110270,6 @@
     "discount": "20%"
   },
   {
-    "title": "Colorez si desenez - Grupa mijlocie - Ramona Maria Leach, Gheorghita Dorobantu, Mihaela Faur, Claudia Mirela Talmaciu, Cristina Anamaria Visa",
-    "brand": "Claudia Mirela Talmaciu",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/colorez-si-desenez-grupa-mijlocie-ramona-maria-leach-gheorghita-dorobantu/48139735?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=mt5RFCVbuvy6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48140/48139735-1-small-1.jpg?ver=1788950349",
-    "category": "carti-copii",
-    "price": "11,98 Lei",
-    "oldPrice": "14,98 Lei",
-    "discount": "20%"
-  },
-  {
     "title": "Nemaipomenitele povesti ale Renului Rufi - Anastasia Popa",
     "brand": "Anastasia Popa",
     "sourceSite": "libris.ro",
@@ -110477,9 +110445,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=W9aj_srWSEWm&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/873/872421-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "10,69 Lei",
-    "oldPrice": "12,58 Lei",
-    "discount": "15%"
+    "price": "12,58 Lei"
   },
   {
     "title": "Calator prin univers. Carte gigant - Olguta Calin, Doina Cindea",
@@ -110492,18 +110458,6 @@
     "price": "33,74 Lei",
     "oldPrice": "42,18 Lei",
     "discount": "20%"
-  },
-  {
-    "title": "Ma joc si invat. Anotimpuri. Activitati integrate 3-4 ani",
-    "brand": "libris.ro",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/ma-joc-si-invat-anotimpuri-activitati-integrate-3-4-ani/10749434?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=XrevmWJQbwwY&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/10750/10749434-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "11,59 Lei",
-    "oldPrice": "13,64 Lei",
-    "discount": "15%"
   },
   {
     "title": "Ratusca cea urata (Carte gigant)",
@@ -110525,9 +110479,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2q8P-Ykl1KqX&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11824/11823628-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "9,79 Lei",
-    "oldPrice": "11,52 Lei",
-    "discount": "15%"
+    "price": "11,52 Lei"
   },
   {
     "title": "Ma pregatesc pentru scoala! Activitati matematice 5-6 ani",
@@ -110582,16 +110534,6 @@
     "price": "21,04 Lei"
   },
   {
-    "title": "Prietenul meu de noapte buna - Sonja Danowski",
-    "brand": "Sonja Danowski",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/prietenul-meu-de-noapte-buna-sonja-danowski/21195084?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=JjlTNezCpNTH&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/21196/21195084-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "71,00 Lei"
-  },
-  {
     "title": "Da-mi labuta, puiule! - Jane Chapman",
     "brand": "Jane Chapman",
     "sourceSite": "libris.ro",
@@ -110633,9 +110575,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CmC-KSu4mP8W&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48141/48140344-1-small-1.jpg?ver=1789026556",
     "category": "carti-copii",
-    "price": "15,19 Lei",
-    "oldPrice": "17,87 Lei",
-    "discount": "15%"
+    "price": "17,87 Lei"
   },
   {
     "title": "Sa stiu mai mult. Activitati integrate 3-4 ani",
@@ -110645,9 +110585,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HjAOKUBj8My9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48141/48140351-1-small-1.jpg?ver=1789028627",
     "category": "carti-copii",
-    "price": "15,19 Lei",
-    "oldPrice": "17,87 Lei",
-    "discount": "15%"
+    "price": "17,87 Lei"
   },
   {
     "title": "Cu numerele la joaca. Activitati 5 ani+",
@@ -111017,7 +110955,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PQYnsTXfwnIH&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20827/20826534-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "22,74 Lei"
+    "price": "18,19 Lei",
+    "oldPrice": "22,74 Lei",
+    "discount": "20%"
   },
   {
     "title": "Puzzle-uri matematice",
@@ -111027,7 +110967,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=q8GRokNNvH0l&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26957/26956202-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "Bunele maniere cu Cei trei purcelusi. Citire pe silabe",
@@ -111037,7 +110979,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lKwpP-VVemaa&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333845-1-small-1.jpg?ver=1789453508",
     "category": "carti-copii",
-    "price": "5,82 Lei"
+    "price": "4,66 Lei",
+    "oldPrice": "5,82 Lei",
+    "discount": "20%"
   },
   {
     "title": "Triopuzzle: Propozitii scurte 5 ani+",
@@ -111047,7 +110991,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=k-BkK5KRFon4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333866-1-small-1.jpg?ver=1789456431",
     "category": "carti-copii",
-    "price": "22,73 Lei"
+    "price": "18,18 Lei",
+    "oldPrice": "22,73 Lei",
+    "discount": "20%"
   },
   {
     "title": "Rezervorul fericirii - John Magee",
@@ -111057,7 +111003,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=odbqfFPbCpV9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333824-1-small-1.jpg?ver=1789457050",
     "category": "carti-copii",
-    "price": "27,00 Lei"
+    "price": "21,60 Lei",
+    "oldPrice": "27,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Bunele maniere cu Scufita Rosie. Citire pe silabe",
@@ -111067,7 +111015,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=F1YIdHJYTlFW&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333859-1-small-1.jpg?ver=1789454646",
     "category": "carti-copii",
-    "price": "5,82 Lei"
+    "price": "4,66 Lei",
+    "oldPrice": "5,82 Lei",
+    "discount": "20%"
   },
   {
     "title": "Bunele maniere cu Cenusareasa. Citire pe silabe",
@@ -111077,7 +111027,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RfqsllRa-hsv&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333852-1-small-1.jpg?ver=1789455907",
     "category": "carti-copii",
-    "price": "5,82 Lei"
+    "price": "4,66 Lei",
+    "oldPrice": "5,82 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cantecele in limbi straine. Cantecele copilariei cu sunete",
@@ -111087,7 +111039,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IRgknufzh-tQ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333488-1-small-1.jpg?ver=1789457561",
     "category": "carti-copii",
-    "price": "59,00 Lei"
+    "price": "47,20 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cantecele in limba engleza. Cantecele copilariei cu sunete",
@@ -111097,7 +111051,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8__IAaJNbAen&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333831-1-small-1.jpg?ver=1789458717",
     "category": "carti-copii",
-    "price": "59,00 Lei"
+    "price": "47,20 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Bunele maniere cu Alba-ca-Zapada. Citire pe silabe",
@@ -111107,7 +111063,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=D0t21c22zaNp&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333838-1-small-1.jpg?ver=1789452464",
     "category": "carti-copii",
-    "price": "5,82 Lei"
+    "price": "4,66 Lei",
+    "oldPrice": "5,82 Lei",
+    "discount": "20%"
   },
   {
     "title": "O zi cu doctorii din lumea animalelor - Sharon Rentta",
@@ -111117,7 +111075,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ChzqObYeZ1bL&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10799/10798720-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "O zi in gara animalelor - Sharon Rentta",
@@ -111127,7 +111087,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BgwIjeio37wC&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10799/10798714-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "O zi cu mecanicii din lumea animalelor - Sharon Rentta",
@@ -111137,7 +111099,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=oAnwGpMjnYlb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10799/10798715-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "Gata de scoala! Numere si operatii cu numere",
@@ -111147,7 +111111,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=__UXHMdPWG5p&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10905/10904654-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "25,90 Lei"
+    "price": "20,72 Lei",
+    "oldPrice": "25,90 Lei",
+    "discount": "20%"
   },
   {
     "title": "TrioPuzzle: Cuvinte cu rima 4 ani+",
@@ -111157,7 +111123,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZNXfqHmnO_7x&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20827/20826937-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "22,74 Lei"
+    "price": "18,19 Lei",
+    "oldPrice": "22,74 Lei",
+    "discount": "20%"
   },
   {
     "title": "O zi cu pompierii din lumea animalelor - Sharon Rentta",
@@ -111167,7 +111135,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CDB1vUYFgFXU&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10799/10798712-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "Lipim si coloram. Animale salbatice",
@@ -111187,7 +111157,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=v3dTUlbtPGtf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10905/10904650-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "25,90 Lei"
+    "price": "20,72 Lei",
+    "oldPrice": "25,90 Lei",
+    "discount": "20%"
   },
   {
     "title": "Insemnarile unei pustoaice Vol.10: Povestirile unei ingrijitoare de animale nu chiar atat de perfecte - Rachel Renee Russell",
@@ -111207,7 +111179,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Weho5Hj71U5G&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10799/10798721-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "TrioPuzzle: Ce urmeaza? 3 ani+",
@@ -111217,7 +111191,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xFCgYWxOrgN4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20827/20826911-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "22,74 Lei"
+    "price": "18,19 Lei",
+    "oldPrice": "22,74 Lei",
+    "discount": "20%"
   },
   {
     "title": "Fenomene explicate. Carti de joc Montessori pentru 6-12 ani",
@@ -111227,7 +111203,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lcSJPJ-_c5up&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24210/24209906-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "TrioPuzzle: Cuvinte din trei litere 4 ani+",
@@ -111237,7 +111215,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IEuiWCGDYE74&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20827/20826963-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "22,74 Lei"
+    "price": "18,19 Lei",
+    "oldPrice": "22,74 Lei",
+    "discount": "20%"
   },
   {
     "title": "TrioPuzzle: Citire pe silabe 4 ani+",
@@ -111247,7 +111227,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_qmTI8_b5nGA&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20827/20826924-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "22,74 Lei"
+    "price": "18,19 Lei",
+    "oldPrice": "22,74 Lei",
+    "discount": "20%"
   },
   {
     "title": "Sudoku",
@@ -111257,7 +111239,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=39qPzm2kZDz5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26957/26956230-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "Aventura - Jack London",
@@ -111536,16 +111520,6 @@
     "image": "https://www.libris.ro/img/pozeprod/48335/48334685-1-small-1.jpg?ver=1789546816",
     "category": "carti-copii",
     "price": "55,00 Lei"
-  },
-  {
-    "title": "Caietul prescolarului. Grupa mare - Smaranda Maria Cioflica, Daniela Dosa",
-    "brand": "Smaranda Maria Cioflica",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/caietul-prescolarului-grupa-mare-smaranda-maria-cioflica-daniela-dosa/48334706?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=mwI8R_kJxfTR&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48335/48334706-1-small-1.jpg?ver=1789561031",
-    "category": "carti-copii",
-    "price": "30,00 Lei"
   },
   {
     "title": "Lebada-de-vara. Enciclopedie pentru copii - Tudor Cozari",

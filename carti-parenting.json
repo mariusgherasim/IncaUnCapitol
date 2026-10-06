@@ -124,7 +124,7 @@
     "brand": "Isolina Ricci",
     "sourceSite": "carturesti.ro",
     "productUrl": "https://carturesti.ro/carte/acasa-la-mami-acasa-la-tati-cartea-copiilor-1153288444",
-    "affiliate": "https://carturesti.ro/carte/acasa-la-mami-acasa-la-tati-cartea-copiilor-1153288444",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=314ccce15&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
     "image": "https://cdn.dc5.ro/img-prod/1153288444-0.jpeg",
     "category": "carti-parenting",
     "price": "45,00 Lei"
@@ -2284,8 +2284,8 @@
     "brand": "Daniel J. Siegel, Tina Payne Bryson",
     "sourceSite": "carturesti.ro",
     "productUrl": "https://carturesti.ro/carte/inteligenta-parentala-451679",
-    "affiliate": "https://carturesti.ro/carte/inteligenta-parentala-451679",
-    "image": "https://cdn.dc5.ro/img-prod/451679-0.jpeg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1ec7c9f60&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/451679-6.gif",
     "category": "carti-parenting",
     "price": "48,00 Lei"
   },
@@ -2294,8 +2294,8 @@
     "brand": "John Gottman, Julie Schwartz Gottman",
     "sourceSite": "carturesti.ro",
     "productUrl": "https://carturesti.ro/carte/viata-in-doi-cand-suntem-trei-2326061",
-    "affiliate": "https://carturesti.ro/carte/viata-in-doi-cand-suntem-trei-2326061",
-    "image": "https://cdn.dc5.ro/img-prod/2326061-0.jpeg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c18a3ecff&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/2326061-1.jpeg",
     "category": "carti-parenting",
     "price": "42,00 Lei"
   },
@@ -4850,16 +4850,6 @@
     "price": "21,09 Lei"
   },
   {
-    "title": "Cele 7 obisnuinte ale adolescentilor extraordinar de eficace - Sean Covey, Stacy Curtis",
-    "brand": "Stacy Curtis",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/cele-7-obisnuinte-ale-adolescentilor-extraordinar-de-eficace-sean-covey-stacy/13211453?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a8ce435fe&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/13212/13211453-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "50,74 Lei"
-  },
-  {
     "title": "Cum sa inteleg emotiile copilului meu - Robert Zuili",
     "brand": "Robert Zuili",
     "sourceSite": "libris.ro",
@@ -5215,7 +5205,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=42eb05998&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10883/10882862-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "62,38 Lei"
+    "price": "48,66 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "22%"
   },
   {
     "title": "Invat cum sa invat la scoala - Andre Giordan",
@@ -5313,7 +5305,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bad79ff40&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1260/1259869-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "62,38 Lei"
+    "price": "48,66 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "22%"
   },
   {
     "title": "Cum cresc fetele? - Felicity Brooks",
@@ -5533,7 +5527,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4136cffaf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1255/1254301-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "62,38 Lei"
+    "price": "48,66 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "22%"
   },
   {
     "title": "Ghid pentru super parinti - Julia Girodroux, Benjamin Perrier",
@@ -5601,7 +5597,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=97096ff25&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1195/1194996-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "72,94 Lei"
+    "price": "56,89 Lei",
+    "oldPrice": "72,94 Lei",
+    "discount": "22%"
   },
   {
     "title": "Ce sa faci... cand esti foarte timid - Claire A.B. Freeland, Jacqueline B. Toner",
@@ -5707,7 +5705,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5042a8e8d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1071/1070984-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "CQ 3 Ani Inteligenta creativa",
@@ -5717,7 +5717,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5fe6e1f2c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1071/1070982-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "AQ 5 Ani Inteligenta adaptativa",
@@ -5727,7 +5729,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9274e007d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1071/1070980-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "AQ 3 Ani Inteligenta adaptativa",
@@ -5737,7 +5741,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1e336c092&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1071/1070978-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "AQ 4 Ani Inteligenta adaptativa",
@@ -5747,7 +5753,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0812ee3f6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1071/1070979-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "Ce sa faci... cand ai capatat obiceiuri proaste - Dawn Huebner",
@@ -5781,7 +5789,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9fdc45b67&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1073/1072062-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "51,81 Lei"
+    "price": "40,41 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "22%"
   },
   {
     "title": "IQ 3 Ani Inteligenta intelectuala",
@@ -5791,7 +5801,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5821fe780&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1071/1070974-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "Inteligenta emotionala a copiilor - Lawrence E. Shapiro",
@@ -6139,7 +6151,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d54c9897d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1073/1072079-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "62,38 Lei"
+    "price": "49,90 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "20%"
   },
   {
     "title": "Supernanny sfaturi practice si eficiente pentru educarea copilului - Jo Frost",
@@ -6779,9 +6793,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=aa1b8b6c5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27824/27823327-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "52,00 Lei",
+    "price": "61,75 Lei",
     "oldPrice": "65,00 Lei",
-    "discount": "20%"
+    "discount": "5%"
   },
   {
     "title": "Cum devenim parinti mai buni - Stanley Shapiro, Karen Skinulis, Richard Skinulis",
@@ -6871,7 +6885,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=48f97300d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28553/28552447-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "30,66 Lei"
+    "price": "23,91 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "22%"
   },
   {
     "title": "Copiii si oamenii mari: Cai pentru optimizarea dezvoltarii umane - Thea Ionescu",
@@ -7131,7 +7147,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=58b96dfa5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33489/33488819-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "30,66 Lei"
+    "price": "23,91 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "22%"
   },
   {
     "title": "Cum sa te apropii de copilul tau - Daniel J. Crawford",
@@ -7185,7 +7203,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ed468363f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33693/33692085-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "30,66 Lei"
+    "price": "23,91 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "22%"
   },
   {
     "title": "Invatacelul cel viteaz - Julie Bogart",
@@ -7425,7 +7445,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c38447f72&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33489/33488742-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "30,66 Lei"
+    "price": "23,91 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "22%"
   },
   {
     "title": "Self-Reg. Cum sa iti ajuti copilul sa iasa din cercul stresului - Stuart Shanker, Teresa Barker",
@@ -7507,7 +7529,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e01048ba4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1071/1070985-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "36,48 Lei"
+    "price": "29,18 Lei",
+    "oldPrice": "36,48 Lei",
+    "discount": "20%"
   },
   {
     "title": "Inteligenta parentala - Daniel J. Siegel, Tina Payne Bryson",
@@ -7561,7 +7585,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7a3f0c443&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36310/36309798-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "30,66 Lei"
+    "price": "24,53 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "20%"
   },
   {
     "title": "Somn usor. Solutii practice pentru copii care adorm fara lacrimi - Sarah Ockwell-Smith",
@@ -7635,7 +7661,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=606ccaa30&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36310/36309987-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "30,66 Lei"
+    "price": "24,53 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "20%"
   },
   {
     "title": "Mame pentru fetele noastre - Maggie Dent",
@@ -7667,7 +7695,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4bb9e36b4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36310/36309735-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "30,66 Lei"
+    "price": "24,53 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "20%"
   },
   {
     "title": "Copiii care am fost, parintii care suntem - Beatriz Cazurro",
@@ -7687,7 +7717,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a04ff1d4a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36310/36309770-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "30,66 Lei"
+    "price": "24,53 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "20%"
   },
   {
     "title": "Educatie fara lupte de putere - Susan Stiffelman",
@@ -7999,7 +8031,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=522368c94&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/825/824882-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "Fa-te auzit! - Scott Cooper",
@@ -8009,7 +8043,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cde54907f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/825/824881-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "Albumul anilor de gradinita",
@@ -8019,7 +8055,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4ec344c93&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21683/21682480-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "47,58 Lei"
+    "price": "37,11 Lei",
+    "oldPrice": "47,58 Lei",
+    "discount": "22%"
   },
   {
     "title": "Familii fericite - Beth Mosley",
@@ -8487,9 +8525,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bcb9f23da&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/42247/42246554-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "228,00 Lei",
+    "price": "192,00 Lei",
     "oldPrice": "240,00 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Cartea bebelusului Vol.1 - William Sears, Martha Sears, Robert Sears, James Sears",
@@ -8532,16 +8570,6 @@
     "image": "https://www.libris.ro/img/pozeprod/42367/42366296-1-small-1.jpg",
     "category": "carti-parenting",
     "price": "39,12 Lei"
-  },
-  {
-    "title": "Parenting cu har. Ghidul parintilor pentru a creste copii aproape perfecti - Gregory K. Popcak, Lisa Popcak",
-    "brand": "Gregory K. Popcak",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/parenting-cu-har-ghidul-parintilor-pentru-a-creste-copii-aproape-perfecti/42366681?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4661fa336&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/42367/42366681-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "83,52 Lei"
   },
   {
     "title": "Copilul autonom - William Stixrud, Ned Johnson",
@@ -8863,7 +8891,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xTjLzgKDEvoa&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44140/44139018-1-small-1.jpg?ver=1759488749",
     "category": "carti-parenting",
-    "price": "35,00 Lei"
+    "price": "28,00 Lei",
+    "oldPrice": "35,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Dislexia la copii, dificultate de invatare sau oportunitate? - Sorina Soescu",
@@ -9040,16 +9070,6 @@
     "image": "https://www.libris.ro/img/pozeprod/44344/44343656-1-small-1.jpg?ver=1761310229",
     "category": "carti-parenting",
     "price": "140,00 Lei"
-  },
-  {
-    "title": "100 de exercitii pentru corectarea vorbirii - Loredana Bejan, Ioana Ferent",
-    "brand": "Ioana Ferent",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/100-de-exercitii-pentru-corectarea-vorbirii-loredana-bejan-ioana-ferent/44343530?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2jKEtUoRpUdf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/44344/44343530-1-small-1.jpg?ver=1761556784",
-    "category": "carti-parenting",
-    "price": "45,00 Lei"
   },
   {
     "title": "Culegere de exercitii pentru recuperarea afaziei Vol.1+ Vol.2 - Alexandra Lavinia Rogozea",
@@ -9287,7 +9307,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hwn5cQ0J9_nZ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/825/824879-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "34,36 Lei"
+    "price": "27,49 Lei",
+    "oldPrice": "34,36 Lei",
+    "discount": "20%"
   },
   {
     "title": "Terapie nociva. Copiii care nu mai stiu sa creasca - Abigail Shrier",
@@ -9439,9 +9461,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UNghLb3Th_Wu&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/46316/46315934-1-small-1.jpg?ver=1775547658",
     "category": "carti-parenting",
-    "price": "67,20 Lei",
-    "oldPrice": "84,00 Lei",
-    "discount": "20%"
+    "price": "84,00 Lei"
   },
   {
     "title": "Agresorul, victima si spectatorii nu tocmai nevinovati - Barbara Coloroso",
@@ -11264,5 +11284,1121 @@
     "price": "38,17 Lei",
     "oldPrice": "40,18 Lei",
     "discount": "5%"
+  },
+  {
+    "title": "Nutritie si retete culinare pentru copii - Ioana Alexandra Picos",
+    "brand": "Ioana Alexandra Picos",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/nutritie-si-retete-culinare-pentru-copii-ioana-alexandra-picos/20824246?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f64b8326a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/20825/20824246-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "40,00 Lei"
+  },
+  {
+    "title": "Parenting in stil danez - Jessica Joelle Alexander, Camilla Semlov Andersson",
+    "brand": "Jessica Joelle Alexander",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/parenting-in-stil-danez-jessica-joelle-alexander-camilla-semlov-andersson/48572986?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Cjx5my1m-f0T&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48573/48572986-1-small-1.jpg?ver=1791177811",
+    "category": "carti-parenting",
+    "price": "58,00 Lei"
+  },
+  {
+    "title": "Sase Sasi In Sase Saci - Manual De Dictie - Carmen Ivanov",
+    "brand": "Carmen Ivanov",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/sase-sasi-in-sase-saci-manual-de-dictie-carmen-ivanov/929802?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MgPbqRIxbs6b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/930/929802-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "99,00 Lei"
+  },
+  {
+    "title": "EBook The seven medals of success - Ion-Ovidiu Panisoara",
+    "brand": "Ion-Ovidiu Panisoara",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-the-seven-medals-of-success-ion-ovidiu-panisoara/28508606?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=539e86be6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28509/28508606-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "14,40 Lei"
+  },
+  {
+    "title": "EBook Mama, nu te mai rasti la mine! Ramaneti iubitoare, in ciuda stresului si furiei - Jeannine Mik, Sandra Teml-Jetter",
+    "brand": "Jeannine Mik",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-mama-nu-te-mai-rasti-la-mine-ramaneti-iubitoare-in-ciuda-stresului-si/28488425?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6899e3eb2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28489/28488425-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "32,78 Lei"
+  },
+  {
+    "title": "EBook Vorbeste cu copilul tau - Gabriela Ciucurovschi",
+    "brand": "Gabriela Ciucurovschi",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-vorbeste-cu-copilul-tau-gabriela-ciucurovschi/33016872?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=749b170ce&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/33017/33016872-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "29,60 Lei"
+  },
+  {
+    "title": "EBook Parenting de la A la Z - Georgeta Panisoara",
+    "brand": "Georgeta Panisoara",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-parenting-de-la-a-la-z-georgeta-panisoara/28870429?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=06d06c0ba&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28871/28870429-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "47,52 Lei"
+  },
+  {
+    "title": "EBook Ce face un parinte grozav - Erica Reischer",
+    "brand": "Erica Reischer",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-ce-face-un-parinte-grozav-erica-reischer/28727797?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1ec77c211&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28728/28727797-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "32,78 Lei"
+  },
+  {
+    "title": "EBook Rusinea la copii. De unde le vine rusinea si cum ii putem ajuta sa tina capul sus - Betsy de Thierry",
+    "brand": "Betsy De Thierry",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-rusinea-la-copii-de-unde-le-vine-rusinea-si-cum-ii-putem-ajuta-sa-tina/24549154?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2d65ebd82&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/24550/24549154-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "24,49 Lei"
+  },
+  {
+    "title": "EBook Nu ne mai intelegem deloc! - Isabelle Filliozat",
+    "brand": "Isabelle Filliozat",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-nu-ne-mai-intelegem-deloc-isabelle-filliozat/29119363?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3498110eb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/29120/29119363-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "41,23 Lei"
+  },
+  {
+    "title": "EBook Cand obosesti sa mai fii parinte - Moira Mikolajczak, Isabelle Roskam",
+    "brand": "Moira Mikolajczak, Isabelle Roskam",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-cand-obosesti-sa-mai-fii-parinte-moira-mikolajczak-isabelle-roskam/29134784?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9a92d61d8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/29135/29134784-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "38,06 Lei"
+  },
+  {
+    "title": "EBook Ma exaspereaza! Cum sa intelegem ce se petrece in creierul copilului intre 6 si 11 ani - Isabelle Filliozat",
+    "brand": "Isabelle Filliozat",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-ma-exaspereaza-cum-sa-intelegem-ce-se-petrece-in-creierul-copilului-intre/24549182?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c52fabba7&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/24550/24549182-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "27,29 Lei"
+  },
+  {
+    "title": "EBook Ghid pentru intelegerea mintii copilului - Alistair Cooper",
+    "brand": "Alistair Cooper",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-ghid-pentru-intelegerea-mintii-copilului-alistair-cooper/28727650?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=96a91bfff&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28728/28727650-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "32,78 Lei"
+  },
+  {
+    "title": "EBook Anii de gradinita - Hedvig Montgomery",
+    "brand": "Hedvig Montgomery",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-anii-de-gradinita-hedvig-montgomery/28030023?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d8cd50943&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28031/28030023-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "10,58 Lei"
+  },
+  {
+    "title": "EBook Tata nu-i ca mama. Cum raspunde un tata la nevoile copilului mic - Josephine Schwarz-Gero",
+    "brand": "Josephine Schwarz Gero",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-tata-nu-i-ca-mama-cum-raspunde-un-tata-la-nevoile-copilului-mic-josephine/24549518?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0c861f311&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/24550/24549518-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "32,78 Lei"
+  },
+  {
+    "title": "EBook Cand mama e absenta. Suferinta in relatia mama-copil - Helene Romano",
+    "brand": "Helene Romano",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-cand-mama-e-absenta-suferinta-in-relatia-mama-copil-helene-romano/33692176?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0c67fc618&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/33693/33692176-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "46,52 Lei"
+  },
+  {
+    "title": "EBook Despre relatiile dintre parinti si copii - Lise Bourbeau",
+    "brand": "Lise Bourbeau",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-despre-relatiile-dintre-parinti-si-copii-lise-bourbeau/13295524?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a9cb0209e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/13296/13295524-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "13,32 Lei"
+  },
+  {
+    "title": "EBook La ce sa te astepti cand esti insarcinata - Heidi Murkoff",
+    "brand": "Heidi Murkoff",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-la-ce-sa-te-astepti-cand-esti-insarcinata-heidi-murkoff/33882212?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=acd07b85c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/33883/33882212-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "100,43 Lei"
+  },
+  {
+    "title": "EBook Copiii in fata ecranelor. Cum ii protejam - Anne-Lise Ducanda",
+    "brand": "Anne Lise Ducanda",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-copiii-in-fata-ecranelor-cum-ii-protejam-anne-lise-ducanda/35189364?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bfd7c135a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/35190/35189364-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "31,72 Lei"
+  },
+  {
+    "title": "EBook Dezvolta abilitatile sociale ale copilului tau - Keri K. Powers",
+    "brand": "Keri K. Powers",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-dezvolta-abilitatile-sociale-ale-copilului-tau-keri-k-powers/34816145?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9c296f781&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/34817/34816145-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "33,78 Lei"
+  },
+  {
+    "title": "EBook Disciplina cu suflet. Parintele. Guvernator, gradinar si ghid - Kim John Payne",
+    "brand": "Kim John Payne",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-disciplina-cu-suflet-parintele-guvernator-gradinar-si-ghid-kim-john-payne/34815956?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5dd446458&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/34816/34815956-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "46,52 Lei"
+  },
+  {
+    "title": "EBook Copii mai puternici decat bullyingul. Cum sa cresti un copil increzator, echilibrat si puternic - Stella O'Malley",
+    "brand": "Stella Omalley",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-copii-mai-puternici-decat-bullyingul-cum-sa-cresti-un-copil-increzator/35189357?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7a1282fb4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/35190/35189357-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "31,72 Lei"
+  },
+  {
+    "title": "EBook Frica si anxietatea copilului. Solutii practice pentru a-l ajuta sa le depaseasca - Genevieve Pelletier",
+    "brand": "Genevieve Pelletier",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-frica-si-anxietatea-copilului-solutii-practice-pentru-a-l-ajuta-sa-le/35189532?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=673d70d19&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/35190/35189532-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "31,72 Lei"
+  },
+  {
+    "title": "EBook 50 de moduri de a mentine copiii ocupati. Dezvaluirea jocului terapeutic - Team Harmony",
+    "brand": "Team Harmony",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-50-de-moduri-de-a-mentine-copiii-ocupati-dezvaluirea-jocului-terapeutic/36647233?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5efaee9a6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/36648/36647233-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "28,34 Lei"
+  },
+  {
+    "title": "EBook Metoda Good Inside. Bunatatea interioara a copilului tau - Becky Kennedy",
+    "brand": "Becky Kennedy",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-metoda-good-inside-bunatatea-interioara-a-copilului-tau-becky-kennedy/36648269?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d3e93c055&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/36649/36648269-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "46,52 Lei"
+  },
+  {
+    "title": "EBook Parintele constient - Shefali Tsabary",
+    "brand": "Shefali Tsabary",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-parintele-constient-shefali-tsabary/36280265?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f70ce4922&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/36281/36280265-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "41,23 Lei"
+  },
+  {
+    "title": "EBook Si tu poti fi Supernanny 1. Cum sa-ti cresti bine copilul - Irina Petrea",
+    "brand": "Irina Petrea",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-si-tu-poti-fi-supernanny-1-cum-sa-ti-cresti-bine-copilul-irina-petrea/37565262?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=934c5f62d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/37566/37565262-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "46,52 Lei"
+  },
+  {
+    "title": "EBook Copii obraznici? Asa ceva nu exista! - Kate Silverton",
+    "brand": "Kate Silverton",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-copii-obraznici-asa-ceva-nu-exista-kate-silverton/38382484?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=147d3cbdb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38383/38382484-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "49,69 Lei"
+  },
+  {
+    "title": "EBook Pro sau contra? Dispute mari in jurul copilariei mici - ce ne spune stiinta - Heloise Junier",
+    "brand": "Heloise Junier",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-pro-sau-contra-dispute-mari-in-jurul-copilariei-mici-ce-ne-spune-stiinta/38382491?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a437d9f9a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38383/38382491-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "41,23 Lei"
+  },
+  {
+    "title": "EBook Cine-i seful aici? Sfaturi pentru parintii copiilor-tirani - Marcel Rufo, Philippe Duverger",
+    "brand": "Philippe Duverger",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-cine-i-seful-aici-sfaturi-pentru-parintii-copiilor-tirani-marcel-rufo/38382463?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c5971e5ab&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38383/38382463-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "41,23 Lei"
+  },
+  {
+    "title": "EBook Activitati pentru incurajarea vorbirii si dezvoltarea limbajului. De la nastere pana la 3 ani - Simona Ionita",
+    "brand": "Simona Ionita",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-activitati-pentru-incurajarea-vorbirii-si-dezvoltarea-limbajului-de-la/38397401?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3cc416b53&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38398/38397401-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "37,00 Lei"
+  },
+  {
+    "title": "EBook Secrete si sinceritate - Simona Nicolaescu",
+    "brand": "Simona Nicolaescu",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-secrete-si-sinceritate-simona-nicolaescu/41205626?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=15ac53661&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/41206/41205626-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "46,52 Lei"
+  },
+  {
+    "title": "EBook Premiantii. Cum sa-ti feresti copiii de presiunea reusitei - Jennifer Breheny Wallace",
+    "brand": "Jennifer Breheny Wallace",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-premiantii-cum-sa-ti-feresti-copiii-de-presiunea-reusitei-jennifer/43928598?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=URy9OUUR6Bzt&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/43929/43928598-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "46,51 Lei"
+  },
+  {
+    "title": "EBook Destinatie. Copii fericiti. Ghid practic pentru a fi parinti mai buni - Susanna Isern",
+    "brand": "Susanna Isern",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-destinatie-copii-fericiti-ghid-practic-pentru-a-fi-parinti-mai-buni/44402267?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CBGOQFQz_i6H&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44403/44402267-1-small-1.jpg?ver=1761907101",
+    "category": "carti-parenting",
+    "price": "37,00 Lei"
+  },
+  {
+    "title": "EBook Lectii pentru fiul meu si pentru tine - Flavia Niculae",
+    "brand": "Flavia Niculae",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-lectii-pentru-fiul-meu-si-pentru-tine-flavia-niculae/44472218?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=yCEFz44n3uuw&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44473/44472218-1-small-1.jpg?ver=1762436277",
+    "category": "carti-parenting",
+    "price": "24,00 Lei"
+  },
+  {
+    "title": "EBook Cum sa fii un parinte mai bun. Ajuta-ti copilul sa invete din greseli - Jessica Lahey",
+    "brand": "Jessica Lahey",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-cum-sa-fii-un-parinte-mai-bun-ajuta-ti-copilul-sa-invete-din-greseli/44472757?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RB6TnNkrWE6E&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44473/44472757-1-small-1.jpg?ver=1762436285",
+    "category": "carti-parenting",
+    "price": "35,00 Lei"
+  },
+  {
+    "title": "EBook Copilul tau nu stie ce sa studieze? - Elena Ibanez",
+    "brand": "Elena Ibanez",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-copilul-tau-nu-stie-ce-sa-studieze-elena-ibanez/45542245?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LkFp48Rx6k6D&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/45543/45542245-1-small-1.jpg?ver=1770790948",
+    "category": "carti-parenting",
+    "price": "38,00 Lei"
+  },
+  {
+    "title": "EBook Cum sa crestem copii descurcareti - Jennifer Weaver, Heather Tedesco, Catherine McCarthy",
+    "brand": "Heather Tedesco",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-cum-sa-crestem-copii-descurcareti-jennifer-weaver-heather-tedesco/45684058?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=wzVQ9aHOJ2cw&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/45685/45684058-1-small-1.jpg?ver=1771933656",
+    "category": "carti-parenting",
+    "price": "55,00 Lei"
+  },
+  {
+    "title": "EBook Ghid pentru intelegerea si ingrijirea copiilor mici - Heloise Junier",
+    "brand": "Heloise Junier",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-ghid-pentru-intelegerea-si-ingrijirea-copiilor-mici-heloise-junier/45683932?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=DOOVbaTni90L&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/45684/45683932-1-small-1.jpg?ver=1771933652",
+    "category": "carti-parenting",
+    "price": "49,90 Lei"
+  },
+  {
+    "title": "EBook Accepta imperfectiunea. Ghid pentru parintele real - Diana Vijulie",
+    "brand": "Diana Vijulie",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-accepta-imperfectiunea-ghid-pentru-parintele-real-diana-vijulie/46607169?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LPqmBRB8SFn8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/46608/46607169-1-small-1.jpg?ver=1776857539",
+    "category": "carti-parenting",
+    "price": "22,00 Lei"
+  },
+  {
+    "title": "EBook Mama pentru prima data. Intrebari si raspunsuri despre cresterea copiilor mici - Kristin Pleines",
+    "brand": "Kristin Pleines",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/ebook/ebook-mama-pentru-prima-data-intrebari-si-raspunsuri-despre-cresterea-copiilor/48474846?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MBYEu3NaBu08&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48475/48474846-1-small-1.jpg?ver=1790148124",
+    "category": "carti-parenting",
+    "price": "44,00 Lei"
+  },
+  {
+    "title": "Când obosești să mai fii părinte..  Cum eviți burnoutul parental - Moïra  Mikolajczak",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/cand-obosesti-sa-mai-fii-parinte/10202/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6ea5f86b2&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-202.jpg",
+    "category": "carti-parenting",
+    "price": "14,00 Lei",
+    "oldPrice": "47,57 Lei",
+    "discount": "71%"
+  },
+  {
+    "title": "Copii obraznici? Așa ceva nu există! . Ghidul revoluționar pentru creșterea și educarea copiilor de la 0 la 5 ani - Kate Silverton",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/copii-obraznici-asa-ceva-nu-exista/10850/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5f7e2dcdd&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-3301.jpg",
+    "category": "carti-parenting",
+    "price": "31,19 Lei",
+    "oldPrice": "62,37 Lei",
+    "discount": "50%"
+  },
+  {
+    "title": "Imperativele adolescenței - Chris Simion - Mercurian",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/imperativele-adolescentei/10899/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dc8fef481&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-897.jpg",
+    "category": "carti-parenting",
+    "price": "14,00 Lei",
+    "oldPrice": "34,89 Lei",
+    "discount": "60%"
+  },
+  {
+    "title": "Ce să faci... când ţi-e frică să te bagi în pat. Ghid pentru copiii care adorm greu - Bonnie Matthews",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ce-sa-faci-cand-ti-e-frica-sa-te-bagi-in-pat-ghid-pentru-copiii-care-adorm-greu/11043/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=834f9d740&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1041.jpg",
+    "category": "carti-parenting",
+    "price": "33,30 Lei",
+    "oldPrice": "47,57 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Ce să faci... când te cuprinde frica. Ghid pentru copiii care vor să-și înfrângă fobiile - Dr. Claire A.B. Freeland",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ce-sa-faci-cand-te-cuprinde-frica-ghid-pentru-copiii-care-vor-sa-si-infranga-fobiile/11215/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=da5af466b&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1213.jpg",
+    "category": "carti-parenting",
+    "price": "33,30 Lei",
+    "oldPrice": "47,57 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Ce să faci când... mintea ţi se blochează. Ghid pentru copiii care se confruntă cu TOC (Tulburarea obsesiv-compulsivă) - Dawn Huebner",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ce-sa-faci-cand-mintea-ti-se-blocheaza-ghid-pentru-copiii-care-se-confrunta-cu-toc-tulburarea/11326/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b6f94da97&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1324.jpg",
+    "category": "carti-parenting",
+    "price": "33,30 Lei",
+    "oldPrice": "47,57 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Ce să faci... când nu e corect. Ghid pentru copiii care vor să facă faţă invidiei şi geloziei - Dawn Huebner",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ce-sa-faci-cand-nu-e-corect-ghid-pentru-copiii-care-vor-sa-faca-fata-invidiei-si-geloziei/11357/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a58db79e8&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1355.jpg",
+    "category": "carti-parenting",
+    "price": "25,90 Lei",
+    "oldPrice": "37,00 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Reţete de jocuri. De ce şi cum să te joci cu copilul tău - Lawrence J. Cohen",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/retete-de-jocuri-de-ce-si-cum-sa-te-joci-cu-copilul-tau/11387/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fe0019544&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1385.jpg",
+    "category": "carti-parenting",
+    "price": "36,26 Lei",
+    "oldPrice": "51,80 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Părintele eficient - Thomas Gordon",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/parintele-eficient/11432/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=15ad8d3bc&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1430.jpg",
+    "category": "carti-parenting",
+    "price": "25,90 Lei",
+    "oldPrice": "51,80 Lei",
+    "discount": "50%"
+  },
+  {
+    "title": "Ce să faci când ești foarte timid. Ghid pentru copiii care vor să scape  de anxietatea socială - Dr. Claire A.B. Freeland",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ce-sa-faci-cand-esti-foarte-timid-ghid-pentru-copiii-care-vor-sa-scape-de-anxietatea-sociala/11441/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4cc73f70b&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1439.jpg",
+    "category": "carti-parenting",
+    "price": "33,30 Lei",
+    "oldPrice": "47,57 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Ce să faci... când ai căpătat obiceiuri proaste. Un ghid destinat copiilor care nu reușesc să scape de rosul unghiilor și alte obiceiuri proaste",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ce-sa-faci-cand-ai-capatat-obiceiuri-proaste-un-ghid-destinat-copiilor-care-nu-reusesc-sa-scape-de/11451/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e2e878b27&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1449.jpg",
+    "category": "carti-parenting",
+    "price": "33,30 Lei",
+    "oldPrice": "47,57 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "MOG și bebelușul - Judith Kerr",
+    "brand": "Pandora M",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/mog-si-bebelusul/11675/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=21386292d&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1673.jpg",
+    "category": "carti-parenting",
+    "price": "25,90 Lei",
+    "oldPrice": "37,00 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Ce să faci... când îţi ieşi din fire.  Ghid pentru copiii care nu-şi pot stăpâni furia - Dawn Huebner",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ce-sa-faci-cand-iti-iesi-din-fire-ghid-pentru-copiii-care-nu-si-pot-stapani-furia/11686/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b60b7d96e&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1684.jpg",
+    "category": "carti-parenting",
+    "price": "33,30 Lei",
+    "oldPrice": "47,57 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Instrumentar de tehnici terapeutice creative. Cum lucrăm cu adolescenții și copiii cu traumă de dezvoltare - Karen  Treisman",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/instrumentar-de-tehnici-terapeutice-creative-cum-lucram-cu-adolescentii-si-copiii-cu-trauma-de/11689/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9e33a4b7c&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1687.jpg",
+    "category": "carti-parenting",
+    "price": "95,46 Lei",
+    "oldPrice": "136,37 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Părintele conştient. Cum să ne transformăm pe noi pentru a avea copii puternici - Shefali Tsabary",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/parintele-constient/11761/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f294b1385&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-4779.jpg",
+    "category": "carti-parenting",
+    "price": "43,66 Lei",
+    "oldPrice": "62,37 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Ce să faci când...Știrile de sperie. Un ghid pentru copiii care vor să înțeleagă evenimentele recente  - Dr. Jacqueline B.  Toner",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ce-sa-faci-cand-stirile-de-sperie-un-ghid-pentru-copiii-care-vor-sa-inteleaga-evenimentele-recente/11866/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=85bc52f1d&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1864.jpg",
+    "category": "carti-parenting",
+    "price": "33,30 Lei",
+    "oldPrice": "47,57 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Cartea pe care v‑ați fi dorit să o citească părinții voștri. (Copiii voștri se vor bucura că ați citit‑o) - Philippa  Perry",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/cartea-pe-care-v-ati-fi-dorit-sa-o-citeasca-parintii-vostri/11867/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c544fc6f9&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-6864.jpg",
+    "category": "carti-parenting",
+    "price": "43,66 Lei",
+    "oldPrice": "62,37 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Ghid pentru rezolvarea dificultăților psihice ale copiilor și adolescenților..  Anxietate, depresie, insomnie, dependență, anorexie, ADHD și autism",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ghid-pentru-rezolvarea-dificultatilor-psihice-ale-copiilor-si-adolescentilor/11889/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2fe45fa27&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1887.jpg",
+    "category": "carti-parenting",
+    "price": "43,66 Lei",
+    "oldPrice": "62,37 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "De-ale gurii. Carte de nutriție pentru copii și părinți - Iulian Tănase",
+    "brand": "Pandora M",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/de-ale-gurii-carte-de-nutritie-pentru-copii-si-parinti/12050/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c872c5fad&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-2048.jpg",
+    "category": "carti-parenting",
+    "price": "25,90 Lei",
+    "oldPrice": "51,80 Lei",
+    "discount": "50%"
+  },
+  {
+    "title": "Perfecționismul în copilărie și adolescență. O perspectivă a psihologiei dezvoltării - Gordon L. Flet",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/perfectionismul-in-copilarie-si-adolescenta/13323/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a87607d74&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-3331.jpg",
+    "category": "carti-parenting",
+    "price": "70,31 Lei",
+    "oldPrice": "100,43 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Cine-i șeful aici?. Sfaturi pentru părinții copiilor-tirani - Marcel Rufo",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/cine-i-seful-aici/13500/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3de352115&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-3744.jpg",
+    "category": "carti-parenting",
+    "price": "25,90 Lei",
+    "oldPrice": "51,80 Lei",
+    "discount": "50%"
+  },
+  {
+    "title": "Secrete și sinceritate. 100 de întrebări despre intimitate de la copii și adolescenți - Simona Nicolaescu",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/secrete-si-sinceritate/13624/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=60625c515&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-4140.jpg",
+    "category": "carti-parenting",
+    "price": "29,07 Lei",
+    "oldPrice": "58,14 Lei",
+    "discount": "50%"
+  },
+  {
+    "title": "Maturizează-te. Cum să devii părintele pe care merită să-l aibă copiii tăi - Gary John Bishop",
+    "brand": "Lifestyle Publishing",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/maturizeaza-te/13726/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e45966bf5&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-4645.jpg",
+    "category": "carti-parenting",
+    "price": "29,07 Lei",
+    "oldPrice": "58,14 Lei",
+    "discount": "50%"
+  },
+  {
+    "title": "Maturizează-te. Cum să devii părintele pe care merită să-l aibă copiii tăi - Audiobook - Gary John Bishop",
+    "brand": "Lifestyle Publishing",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/maturizeaza-te/13811/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ed94ddef1&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/square/cover-6054.jpg",
+    "category": "carti-parenting",
+    "price": "34,89 Lei",
+    "oldPrice": "58,14 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Părintele conştient. Cum să ne transformăm pe noi pentru a avea copii puternici - Audiobook - Dr. Shefali Tsabary",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/parintele-constient/13272/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=da240dc50&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/square/cover-5025.jpg",
+    "category": "carti-parenting",
+    "price": "37,43 Lei",
+    "oldPrice": "62,37 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Imperativele adolescenței - Audiobook - Chris Simion - Mercurian",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/imperativele-adolescentei/14316/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2Eh2CO0gTIxS&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/square/cover-7563.jpg",
+    "category": "carti-parenting",
+    "price": "20,94 Lei",
+    "oldPrice": "34,89 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Cartea pe care v‑ați fi dorit să o citească părinții voștri. (Copiii voștri se vor bucura că ați citit‑o) - Audiobook - Philippa  Perry",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/cartea-pe-care-v-ati-fi-dorit-sa-o-citeasca-parintii-vostri/14254/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ja4x_cyYhQ43&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/square/cover-7546.jpg",
+    "category": "carti-parenting",
+    "price": "37,43 Lei",
+    "oldPrice": "62,37 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Ghid pentru rezolvarea dificultăților psihice ale copiilor și adolescenților..  Anxietate, depresie, insomnie, dependență, anorexie, ADHD și autism  - Audiobook",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ghid-pentru-rezolvarea-dificultatilor-psihice-ale-copiilor-si-adolescentilor/14294/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0wpDKr1WXAmc&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/square/cover-7559.jpg",
+    "category": "carti-parenting",
+    "price": "37,43 Lei",
+    "oldPrice": "62,37 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Terapia schemelor pentru copii și adolescenți - Christof  Loose",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/terapia-schemelor-pentru-copii-si-adolescenti/11555/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jVnwu82IGi3j&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1553.jpg",
+    "category": "carti-parenting",
+    "price": "66,50 Lei",
+    "oldPrice": "95,00 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Pachet Parenting Conștient. Părintele conştient/Metoda Good Inside - Dr. Shefali Tsabary",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/pachet-parenting-constient/14584/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zGlorWun79XG&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-8294.jpg",
+    "category": "carti-parenting",
+    "price": "72,83 Lei",
+    "oldPrice": "121,37 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Pachet Ghid Complet Părinți. La ce să te aștepți când ești însărcinată/La ce să te aștepți în primul an de viață/La ce să te aștepți în al doilea an de viață",
+    "brand": "Lifestyle Publishing",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/pachet-ghid-complet-parinti/14587/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=W56Bofln7KpH&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-8297.jpg",
+    "category": "carti-parenting",
+    "price": "219,48 Lei",
+    "oldPrice": "365,80 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Pachet Parenting Creativ. Reţete de jocuri/Povestioare terapeutice înainte de culcare - Lawrence J. Cohen",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/pachet-parenting-creativ/14588/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=OjGtcf4DPWO5&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-8298.jpg",
+    "category": "carti-parenting",
+    "price": "49,69 Lei",
+    "oldPrice": "99,37 Lei",
+    "discount": "50%"
+  },
+  {
+    "title": "Pachet Dezvoltarea copilului și adolescenței. Psihologia copilului/Perfecționismul în copilărie/Dezvoltarea umană - Emil Verza",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/pachet-dezvoltarea-copilului-si-adolescentei/14750/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=V3CI7gi2KlKn&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-8627.jpg",
+    "category": "carti-parenting",
+    "price": "240,39 Lei",
+    "oldPrice": "400,65 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Pachet Prietenii clasice. Elefantul Elmer/MOG și bebelușul/Giganticul Hopa-țop - David McKee",
+    "brand": "Pandora M",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/pachet-prietenii-clasice/14826/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zEuKuDfDJmRb&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-8802.jpg",
+    "category": "carti-parenting",
+    "price": "70,20 Lei",
+    "oldPrice": "117,00 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Pachet Mog în familie. MOG, pisica uitucă/MOG în întuneric/MOG și bebelușul - Judith Kerr",
+    "brand": "Pandora M",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/pachet-mog-in-familie/14844/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=odmjIAujd_uK&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-8855.jpg",
+    "category": "carti-parenting",
+    "price": "71,68 Lei",
+    "oldPrice": "119,46 Lei",
+    "discount": "40%"
+  },
+  {
+    "title": "Conflicte care apropie. 13 discuții dificile pe care părinții nu trebuie să le evite - Erin Mitchell",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/conflicte-care-apropie/15026/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=JSJTxpMNKHWB&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-9388.jpg",
+    "category": "carti-parenting",
+    "price": "48,30 Lei",
+    "oldPrice": "69,00 Lei",
+    "discount": "30%"
+  },
+  {
+    "title": "Mamă pentru prima dată. Întrebări și răspunsuri despre creșterea copiilor mici - Kristin Pleines",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/mama-pentru-prima-data/15170/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=GUdESRGVNJkO&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-9824.jpg",
+    "category": "carti-parenting",
+    "price": "46,75 Lei",
+    "oldPrice": "55,00 Lei",
+    "discount": "15%"
+  },
+  {
+    "title": "Mă poți ajuta? Un ghid pentru părinți - A. H.  Brafman",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/ma-poti-ajuta-un-ghid-pentru-parinti/11771/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=p3PBDg63McCR&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1769.jpg",
+    "category": "carti-parenting",
+    "price": "10,35 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "75%"
+  },
+  {
+    "title": "Crescuți în puf. Discuții curajoase despre educația copiilor - Anca Nedelcu",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/crescuti-in-puf/15214/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hY4AD7bPWSqb&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-10080.jpg",
+    "category": "carti-parenting",
+    "price": "72,25 Lei",
+    "oldPrice": "85,00 Lei",
+    "discount": "15%"
+  },
+  {
+    "title": "Disciplină cu suflet..  Părintele – guvernator, grădinar și ghid - Kim John Payne",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/disciplina-cu-suflet/11538/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=47pciFg6ZS79&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-1536.jpg",
+    "category": "carti-parenting",
+    "price": "13,96 Lei",
+    "oldPrice": "58,14 Lei",
+    "discount": "76%"
+  },
+  {
+    "title": "Fericire moștenită. Cum pot părinții și copiii să vindece împreună traumele familiale. Metoda Generation-Code® - Sabine  Lück",
+    "brand": "Trei",
+    "sourceSite": "edituratrei.ro",
+    "productUrl": "https://www.edituratrei.ro/carte/fericire-mostenita/15232/",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ngyYn6SQZuvW&aff_code=676a7e7d9&campaign_unique=4dc37856e",
+    "image": "https://www.edituratrei.ro/thumbs/portrait/cover-10067.jpg",
+    "category": "carti-parenting",
+    "price": "55,25 Lei",
+    "oldPrice": "65,00 Lei",
+    "discount": "15%"
+  },
+  {
+    "title": "Deserturi raw pentru copii și părinți sănătoși",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/deserturi-raw-pentru-copii-si-parinti-sanatosi",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UhhYmHW7EDpB&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/deserturi_cop1_ed.3.jpg",
+    "category": "carti-parenting",
+    "price": "14,00 Lei",
+    "oldPrice": "46,67 Lei",
+    "discount": "70%"
+  },
+  {
+    "title": "Parenting conștient",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/parenting-constient",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hKMdSVU4bR-X&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/parenting_constient_coperta1.jpg",
+    "category": "carti-parenting",
+    "price": "13,43 Lei",
+    "oldPrice": "44,76 Lei",
+    "discount": "70%"
+  },
+  {
+    "title": "Cele cinci limbaje ale iubirii pentru adolescenți",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/cele-cinci-limbaje-ale-iubirii-pentru-adolescenti",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pHwUPHvg7juZ&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Cele cinci limbaje_adolescenti.jpg",
+    "category": "carti-parenting",
+    "price": "39,86 Lei",
+    "oldPrice": "53,15 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Parenting pozitiv",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/parenting-pozitiv",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xq5ibXpmlLVf&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Parenting pozitiv_coperta_OK_tipar.jpg",
+    "category": "carti-parenting",
+    "price": "30,00 Lei",
+    "oldPrice": "40,00 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Un părinte mai bun",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/un-parinte-mai-bun",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qDXpl8oDCSGO&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Coperta_Un Parinte mai bun_tipar.jpg",
+    "category": "carti-parenting",
+    "price": "28,57 Lei",
+    "oldPrice": "38,10 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Ghid esențial de parenting",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/ghid-esential-de-parenting",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9OeM_gyBfebg&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte noi/ghid_esential_parenting_cop1.jpg",
+    "category": "carti-parenting",
+    "price": "12,35 Lei",
+    "oldPrice": "45,71 Lei",
+    "discount": "73%"
+  },
+  {
+    "title": "Inteligența emoțională în educația copiilor",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/inteligenta-emotionala-in-educatia-copiilor",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KBDTlDGzhwWj&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Inteligenta emotionala in educatia copiilor.jpg",
+    "category": "carti-parenting",
+    "price": "32,14 Lei",
+    "oldPrice": "42,86 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Fițuici de parenting",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/fituici-de-parenting",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=mz2EEggx8ccN&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Fituici-de-parenting_coperta1.jpg",
+    "category": "carti-parenting",
+    "price": "42,86 Lei",
+    "oldPrice": "57,14 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Cele cinci limbaje ale iubirii pentru părinții copiilor cu dizabilități",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/cele-5-limbaje-ale-iubirii-pentru-parintii-copiilor-cu-dizabilitati",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=GzFgo4g89A7S&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Bucuria iubirii_coperta 1.jpg",
+    "category": "carti-parenting",
+    "price": "28,57 Lei",
+    "oldPrice": "38,10 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Parenting viral",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/parenting-viral",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PZISjGy_CB9d&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Parenting viral_coperta 1.jpg",
+    "category": "carti-parenting",
+    "price": "12,87 Lei",
+    "oldPrice": "47,62 Lei",
+    "discount": "73%"
+  },
+  {
+    "title": "Părinți. Tata",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/parinti-tata",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BuZoi7TiuJtw&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Scrisori remarcabile_TATA_Vol_2_coperta1.jpg",
+    "category": "carti-parenting",
+    "price": "14,29 Lei",
+    "oldPrice": "47,62 Lei",
+    "discount": "70%"
+  },
+  {
+    "title": "Părinți. Mama",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/parinti-mama",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=umnD8jWrmXAP&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Scrisori remarcabile_MAMA_Vol_1_coperta1.jpg",
+    "category": "carti-parenting",
+    "price": "14,29 Lei",
+    "oldPrice": "47,62 Lei",
+    "discount": "70%"
+  },
+  {
+    "title": "Părinți. Scrisori remarcabile",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/parinti-scrisori-remarcabile",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3dNyNbJVLNGZ&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/Coperte Pachete/Pachet_Scrisori.jpg",
+    "category": "carti-parenting",
+    "price": "95,24 Lei"
+  },
+  {
+    "title": "Cum să-i asculți pe adolescenți și cum să te faci ascultat",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/cum-sa-i-asculti-pe-adolescenti-si-cum-sa-te-faci-ascultat",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=H5-93-ia2W-T&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Cum sa-i asculti pe adolescenti_coperta 1.jpg",
+    "category": "carti-parenting",
+    "price": "38,57 Lei",
+    "oldPrice": "51,43 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Cum să-ți arăți iubirea față de copilul tău adult",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/cum-sa-ti-arati-iubirea-fata-de-copilul-tau-adult",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=sJ0PYjzQwGmd&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Cum sa-ți arati iubirea fata de copilul tau adult_coperta_1.jpg",
+    "category": "carti-parenting",
+    "price": "39,29 Lei",
+    "oldPrice": "52,38 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Nu ești un părinte de r*hat",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/nu-esti-un-parinte-de-r*hat",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dcydNx1LjGUm&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Nu esti un parinte de rahat_coperta 1.jpg",
+    "category": "carti-parenting",
+    "price": "39,29 Lei",
+    "oldPrice": "52,38 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Puterile nebănuite ale părinților",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/puterile-nebanuite-ale-parintilor",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pSnSASQ_FSgg&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/coperte/Puterile nebanuite ale parintilor_coperta1.jpg",
+    "category": "carti-parenting",
+    "price": "41,89 Lei",
+    "oldPrice": "55,86 Lei",
+    "discount": "25%"
+  },
+  {
+    "title": "Pachet „Părinți calmi, copii fericiți“",
+    "brand": "Curtea Veche Publishing",
+    "sourceSite": "curteaveche.ro",
+    "productUrl": "https://www.curteaveche.ro/pachet-parinti-calmi-copii-fericiti",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=h-rTNpEkxpot&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "image": "https://www.curteaveche.ro/image/catalog/Pachete/Pachet_14_Parinti_calmi_copii_fericiti.png",
+    "category": "carti-parenting",
+    "price": "134,86 Lei",
+    "oldPrice": "224,76 Lei",
+    "discount": "40%"
   }
 ]
