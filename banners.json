@@ -113,5 +113,75 @@
     "startDate": "2026-08-25",
     "endDate": "2026-10-10",
     "weight": 3
+  },
+  {
+    "id": "nemira-01",
+    "merchant": "nemira.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273005/original/273005.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=c98ce2092&aff_code=676a7e7d9&campaign_unique=9617003d6",
+    "alt": "nemira.ro — Toamna literară, -40% cu codul NEM40",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-01",
+    "weight": 3
+  },
+  {
+    "id": "nemira-02",
+    "merchant": "nemira.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273007/original/273007.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=104113148&aff_code=676a7e7d9&campaign_unique=9617003d6",
+    "alt": "nemira.ro — Toamna literară, -40% cu codul NEM40",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-01",
+    "weight": 3
+  },
+  {
+    "id": "nemira-03",
+    "merchant": "nemira.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273009/original/273009.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=f4fc26df7&aff_code=676a7e7d9&campaign_unique=9617003d6",
+    "alt": "nemira.ro — Toamna literară, -40% cu codul NEM40",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-01",
+    "weight": 3
+  },
+  {
+    "id": "nemira-04",
+    "merchant": "nemira.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273008/original/273008.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=044455a80&aff_code=676a7e7d9&campaign_unique=9617003d6",
+    "alt": "nemira.ro — Toamna literară, -40% cu codul NEM40",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-01",
+    "weight": 1
+  },
+  {
+    "id": "nemira-05",
+    "merchant": "nemira.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273010/original/273010.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=9e1334aba&aff_code=676a7e7d9&campaign_unique=9617003d6",
+    "alt": "nemira.ro — Toamna literară, -40% cu codul NEM40",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-01",
+    "weight": 1
   }
 ]
