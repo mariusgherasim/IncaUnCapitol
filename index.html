@@ -218,7 +218,7 @@ Vezi serviciile de copywriting și marketing digital.
      Pentru o campanie noua schimbi doar: eticheta (-50%), kicker,
      titlu, textul scurt si linkul butonului.
      ============================================================ -->
-<section class="promo-strip" aria-label="Reducerea săptămânii">
+<section class="promo-strip" aria-label="Reduceri active">
 <style>
 .promo-strip{padding:24px 0}
 .promo-strip .promo-card{display:flex;align-items:center;gap:22px;background:#fff;border:1px solid #e5e7eb;border-left:5px solid #c4122f;border-radius:10px;padding:16px 22px;box-shadow:0 2px 10px rgba(0,0,0,.04)}
@@ -230,6 +230,13 @@ Vezi serviciile de copywriting și marketing digital.
 .promo-strip .promo-sub{margin:0;font-size:.95rem;color:#4a5264;line-height:1.5}
 .promo-strip .promo-btn{flex:0 0 auto;display:inline-block;background:#c4122f;color:#fff;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:6px;white-space:nowrap}
 .promo-strip .promo-btn:hover{background:#a30e27}
+.promo-strip .promo-card + .promo-card{margin-top:12px}
+.promo-strip .promo-card.is-nemira{border-left-color:#b4471f}
+.promo-strip .is-nemira .promo-tag{background:#3b1f2b;color:#fff}
+.promo-strip .is-nemira .promo-tag small{color:#d9a23b}
+.promo-strip .is-nemira .promo-kicker{color:#b4471f}
+.promo-strip .is-nemira .promo-btn{background:#b4471f}
+.promo-strip .is-nemira .promo-btn:hover{background:#923913}
 @media (max-width:700px){
 .promo-strip .promo-card{flex-wrap:wrap;gap:14px;padding:16px}
 .promo-strip .promo-text{flex-basis:calc(100% - 100px)}
@@ -246,6 +253,21 @@ Vezi serviciile de copywriting și marketing digital.
 </div>
 <a class="promo-btn" href="book-half-librarie-net.html">Vezi selecția</a>
 </div>
+<!-- PROMO Nemira NEM40 — dispare automat dupa data din data-end -->
+<div class="promo-card is-nemira" data-end="2026-11-01T23:59:59+02:00">
+<div class="promo-tag" aria-hidden="true">-40%<small>cod NEM40</small></div>
+<div class="promo-text">
+<p class="promo-kicker">Toamna literară · nemira.ro · până pe 1 noiembrie</p>
+<h2 class="promo-title">-40% la cărțile Nemira cu codul NEM40</h2>
+<p class="promo-sub">Urzeala Tronurilor, 6 volume: 362,96 lei în loc de 604,94. Matt Haig, Dar Motan, noutăți. Transport gratuit peste 190 de lei.</p>
+</div>
+<a class="promo-btn" href="nemira-toamna-literara.html">Vezi oferta</a>
+</div>
+<script>
+document.querySelectorAll('.promo-card[data-end]').forEach(function (c) {
+  if (Date.now() > new Date(c.getAttribute('data-end')).getTime()) c.remove();
+});
+</script>
 </div>
 </section>
 
