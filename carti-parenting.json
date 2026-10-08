@@ -1537,7 +1537,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2637df62e&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
     "image": "https://cdn.dc5.ro/img-prod/1255594189-0.jpeg",
     "category": "carti-parenting",
-    "price": "80,00 Lei"
+    "price": "64,00 Lei"
   },
   {
     "title": "Somnul bebelusilor",
@@ -4024,8 +4024,8 @@
     "brand": "John Gray",
     "sourceSite": "carturesti.ro",
     "productUrl": "https://carturesti.ro/carte/copiii-sunt-din-rai-143173",
-    "affiliate": "https://carturesti.ro/carte/copiii-sunt-din-rai-143173",
-    "image": "https://cdn.dc5.ro/img-prod/143173-0.jpeg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ecd9149c1&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/9789736453526-1858009.jpg",
     "category": "carti-parenting",
     "price": "33,00 Lei"
   },
@@ -4034,7 +4034,7 @@
     "brand": "Maria Montessori",
     "sourceSite": "carturesti.ro",
     "productUrl": "https://carturesti.ro/carte/copilul-in-familie-282666",
-    "affiliate": "https://carturesti.ro/carte/copilul-in-familie-282666",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CRmAQDiAfgp_&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
     "image": "https://cdn.dc5.ro/img-prod/282666-0.jpeg",
     "category": "carti-parenting",
     "price": "29,00 Lei"
@@ -4520,18 +4520,6 @@
     "price": "15,00 Lei",
     "oldPrice": "41,23 Lei",
     "discount": "64%"
-  },
-  {
-    "title": "Victoria nu este totul! - Jennifer Moore-Mallinos",
-    "brand": "Jennifer Moore Mallinos",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/victoria-nu-este-totul-jennifer-moore-mallinos/21913360?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=16e9d4183&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/21914/21913360-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "28,13 Lei",
-    "oldPrice": "29,61 Lei",
-    "discount": "5%"
   },
   {
     "title": "Am hipoacuzie, dar nu este un obstacol - Jennifer Moore-Mallinos",
@@ -5078,18 +5066,6 @@
     "price": "30,04 Lei",
     "oldPrice": "31,62 Lei",
     "discount": "5%"
-  },
-  {
-    "title": "Jurnalul unui bebelus - Daniel N. Stern",
-    "brand": "Daniel N. Stern",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/jurnalul-unui-bebelus-daniel-n-stern/10908841?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=155f2b249&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/10909/10908841-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "14,76 Lei",
-    "oldPrice": "39,00 Lei",
-    "discount": "62%"
   },
   {
     "title": "Cu dragoste, pentru tine. Primul album al copilului meu",
@@ -5921,18 +5897,6 @@
     "category": "carti-parenting",
     "price": "39,90 Lei",
     "oldPrice": "42,00 Lei",
-    "discount": "5%"
-  },
-  {
-    "title": "Ce sa faci... cand iti iesi din fire - Dawn Huebner",
-    "brand": "Dawn Huebner",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/ce-sa-faci-cand-iti-iesi-din-fire-dawn-huebner/884077?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c4470a565&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/885/884077-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "45,20 Lei",
-    "oldPrice": "47,58 Lei",
     "discount": "5%"
   },
   {
@@ -12087,8 +12051,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=V3CI7gi2KlKn&aff_code=676a7e7d9&campaign_unique=4dc37856e",
     "image": "https://www.edituratrei.ro/thumbs/portrait/cover-8627.jpg",
     "category": "carti-parenting",
-    "price": "240,39 Lei",
-    "oldPrice": "400,65 Lei",
+    "price": "243,48 Lei",
+    "oldPrice": "405,80 Lei",
     "discount": "40%"
   },
   {
@@ -12400,5 +12364,117 @@
     "price": "134,86 Lei",
     "oldPrice": "224,76 Lei",
     "discount": "40%"
+  },
+  {
+    "title": "Psihanaliza basmelor - Bruno Bettelheim",
+    "brand": "Bruno Bettelheim",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/psihanaliza-basmelor-bruno-bettelheim/1194101?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=77aa66bf3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/1195/1194101-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "59,85 Lei",
+    "oldPrice": "63,00 Lei",
+    "discount": "5%"
+  },
+  {
+    "title": "Pornografia, maladia secolului XXI - Virgiliu Gheorghe",
+    "brand": "Virgiliu Gheorghe",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/pornografia-maladia-secolului-xxi-virgiliu-gheorghe/1256661?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f18eb6d01&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/1257/1256661-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "28,00 Lei"
+  },
+  {
+    "title": "Efectele televiziunii asupra mintii umane - Virgiliu Gheorghe",
+    "brand": "Virgiliu Gheorghe",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/efectele-televiziunii-asupra-mintii-umane-virgiliu-gheorghe/1256662?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=07242f712&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/1257/1256662-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "38,00 Lei"
+  },
+  {
+    "title": "Ajuta-ti copilul sa isi gestioneze starile. 101 moduri de a face fata sentimentelor puternice, inclusiv furiei - Louise Baty",
+    "brand": "Louise Baty",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/ajuta-ti-copilul-sa-isi-gestioneze-starile-101-moduri-de-a-face-fata/36309931?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=44c0c7c60&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/36310/36309931-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "30,66 Lei"
+  },
+  {
+    "title": "Bullies: Cum sa faci fata intimidarii? - Trevor Romain",
+    "brand": "Trevor Romain",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/bullies-cum-sa-faci-fata-intimidarii-trevor-romain/824878?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e37df2d25&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/825/824878-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "34,36 Lei"
+  },
+  {
+    "title": "Stiinta si razboiul sfarsitului lumii - Virgiliu Gheorghe",
+    "brand": "Virgiliu Gheorghe",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/stiinta-si-razboiul-sfarsitului-lumii-virgiliu-gheorghe/1192976?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=823d41c7e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/1193/1192976-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "30,00 Lei"
+  },
+  {
+    "title": "Revrajirea lumii - Virgiliu Gheorghe",
+    "brand": "Virgiliu Gheorghe",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/revrajirea-lumii-virgiliu-gheorghe/1192977?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f857d179d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/1193/1192977-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "28,00 Lei"
+  },
+  {
+    "title": "Culegere de exercitii si ilustratii pentru logopedie - Alexandra Lavinia Rogozea",
+    "brand": "Alexandra Lavinia Rogozea",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/culegere-de-exercitii-si-ilustratii-pentru-logopedie-alexandra-lavinia-rogozea/44343537?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WDFP0SzdXDr_&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44344/44343537-1-small-1.jpg?ver=1761556003",
+    "category": "carti-parenting",
+    "price": "160,00 Lei"
+  },
+  {
+    "title": "Ursuletul si emotiile lui - Laura Hardalau",
+    "brand": "Laura Hardalau",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/ursuletul-si-emotiile-lui-laura-hardalau/44343460?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5O6B4ohMNwzQ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44344/44343460-1-small-1.jpg?ver=1761308207",
+    "category": "carti-parenting",
+    "price": "37,00 Lei"
+  },
+  {
+    "title": "100 de exercitii pentru corectarea vorbirii - Loredana Bejan, Ioana Ferent",
+    "brand": "Loredana Bejan",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/100-de-exercitii-pentru-corectarea-vorbirii-loredana-bejan-ioana-ferent/44343530?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2jKEtUoRpUdf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44344/44343530-1-small-1.jpg?ver=1761556784",
+    "category": "carti-parenting",
+    "price": "45,00 Lei"
+  },
+  {
+    "title": "Carticica cu sunete - Laura Hardalau",
+    "brand": "Laura Hardalau",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/carticica-cu-sunete-laura-hardalau/44343642?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-09CuttWv3JJ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44344/44343642-1-small-1.jpg?ver=1761307027",
+    "category": "carti-parenting",
+    "price": "43,00 Lei"
   }
 ]

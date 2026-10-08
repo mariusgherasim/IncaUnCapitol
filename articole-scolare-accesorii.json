@@ -297,7 +297,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ac7fd6a20&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13320/13319847-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "29,00 Lei"
+    "price": "37,00 Lei"
   },
   {
     "title": "Semn de carte: Biserica Neagra. The Black Church",
@@ -61133,7 +61133,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xvoYH7GrXjOe&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/0/8/2/7/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "8,91 Lei"
+    "price": "10,18 Lei"
   },
   {
     "title": "Pix Jazz Noble Elegance K36 Yellow Gold",
@@ -61677,7 +61677,7 @@
     "sourceSite": "libris.ro",
     "productUrl": "https://www.libris.ro/produs/lampa-led-de-gat-hands-free-cu-2-surse-de-lumina/48574337?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-syS7yVbc2Qz&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48575/48574337-1-small-1.jpg?ver=1791201586",
+    "image": "https://www.libris.ro/img/pozeprod/48575/48574337-1-small-1.jpg?ver=1791201621",
     "category": "articole-scolare-accesorii",
     "price": "125,01 Lei"
   },
@@ -61689,7 +61689,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f2e08f8fc&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
     "image": "https://cdn.dc5.ro/img-prod/207306921-0.jpeg",
     "category": "articole-scolare-accesorii",
-    "price": "80,00 Lei"
+    "price": "40,00 Lei",
+    "oldPrice": "80,00 Lei",
+    "discount": "50%"
   },
   {
     "title": "Sapun in cutie metalica, 100 g - Mucha 2",
@@ -64718,6 +64720,66 @@
     "productUrl": "https://carturesti.ro/cosmetice/set-200-stickers-pentru-unghii-cute-animals-5125092696",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=eUtn7mO0-lp0&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
     "image": "https://cdn.dc5.ro/img-prod/5125092696-1.webp",
+    "category": "articole-scolare-accesorii",
+    "price": "18,00 Lei"
+  },
+  {
+    "title": "Portetichete chei set 8 buc",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/portetichete-chei-set-8-buc/48671427?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=z3lU78zjxa7Y&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "33,00 Lei"
+  },
+  {
+    "title": "Kit pentru unghii - Travel Kit",
+    "brand": "Kikkerland",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/kit-pentru-unghii-travel-kit-171704363",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=53bca87b1&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/171704363-0.jpeg",
+    "category": "articole-scolare-accesorii",
+    "price": "43,00 Lei"
+  },
+  {
+    "title": "Set tatuaje pentru copii - Create It! (mai multe culori, pret pe bucata)",
+    "brand": "Canenco",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/set-tatuaje-pentru-copii-create-it-mai-multe-culori-pret-pe-bucata-4418349071",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jU1x3T1o8WFT&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/4418349071-1.png",
+    "category": "articole-scolare-accesorii",
+    "price": "19,99 Lei"
+  },
+  {
+    "title": "Portfard - The Dybdahl - Passion Japon",
+    "brand": "Kiub",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/portfard-the-dybdahl-passion-japon-3938545766",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2V63xnQBwU9q&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/3938545766-0.jpeg",
+    "category": "articole-scolare-accesorii",
+    "price": "72,00 Lei"
+  },
+  {
+    "title": "Set 140 stickers unghii - Magic",
+    "brand": "Legami",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/set-140-stickers-unghii-magic-5125092702",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Oc2e8SyGDzzv&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/5125092702-0.png",
+    "category": "articole-scolare-accesorii",
+    "price": "18,00 Lei"
+  },
+  {
+    "title": "Set tatuaje temporare - Trick or Treat - Scar",
+    "brand": "Legami",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/set-tatuaje-temporare-trick-or-treat-scar-5420710639",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=X7RWwbkG0dCj&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/5420710639-9018121.png",
     "category": "articole-scolare-accesorii",
     "price": "18,00 Lei"
   }
