@@ -45579,7 +45579,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=iFqfd1pCGUsO&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/8/0/4/9/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "8,34 Lei"
+    "price": "9,05 Lei"
   },
   {
     "title": "Pioneze pentru panouri de pluta, 10 cutii",
@@ -61263,7 +61263,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4zyZ0Vvo6s3f&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/7/7/2/2/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "5,41 Lei"
+    "price": "5,81 Lei"
   },
   {
     "title": "Suport instrumente de scris, So many cats, plastic, M&amp;amp;G",
@@ -62716,18 +62716,6 @@
     "image": "https://cdn.dc5.ro/img-prod/2414362329-1.jpeg",
     "category": "articole-scolare-accesorii",
     "price": "25,00 Lei"
-  },
-  {
-    "title": "Portfard - Stars",
-    "brand": "Legami",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/portfard-stars-2074311188",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=af3627126&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/2074311188-1.jpeg",
-    "category": "articole-scolare-accesorii",
-    "price": "28,60 Lei",
-    "oldPrice": "44,00 Lei",
-    "discount": "35%"
   },
   {
     "title": "Set ingrijire personala - Sea Kelp Marine Spa",
@@ -64782,5 +64770,65 @@
     "image": "https://cdn.dc5.ro/img-prod/5420710639-9018121.png",
     "category": "articole-scolare-accesorii",
     "price": "18,00 Lei"
+  },
+  {
+    "title": "Semn de carte. Creioane",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-creioane/38175326?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1BKrmggsGjt0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38176/38175326-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "8,00 Lei"
+  },
+  {
+    "title": "Semn de carte. Pasari",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-pasari/38175438?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IMSJ_cj5GCq_&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38176/38175438-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "8,00 Lei"
+  },
+  {
+    "title": "Set 8 buc. Portetichete chei",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/set-8-buc-portetichete-chei/48671427?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=z3lU78zjxa7Y&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48672/48671427-1-small-1.jpg?ver=1791461275",
+    "category": "articole-scolare-accesorii",
+    "price": "33,00 Lei"
+  },
+  {
+    "title": "Semn de carte. Curcubeu cu buburuza",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-curcubeu-cu-buburuza/38175319?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Wvs1mLJm3VQ-&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38176/38175319-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "8,00 Lei"
+  },
+  {
+    "title": "Semn de carte. Feminitate: Emotii in culori",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/semn-de-carte-feminitate-emotii-in-culori/42309295?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=j66y1bc69aE3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/42310/42309295-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "8,00 Lei"
+  },
+  {
+    "title": "Oglinda compacta - Bug Art - Mai multe modele - Pret pe bucata",
+    "brand": "Kiub",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/oglinda-compacta-bug-art-mai-multe-modele-pret-pe-bucata-3938545493",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=h7J9sFGEMsGc&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/3938545493-0.jpeg",
+    "category": "articole-scolare-accesorii",
+    "price": "42,00 Lei"
   }
 ]
