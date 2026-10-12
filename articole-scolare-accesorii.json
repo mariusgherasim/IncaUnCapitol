@@ -61694,16 +61694,6 @@
     "discount": "50%"
   },
   {
-    "title": "Sapun in cutie metalica, 100 g - Mucha 2",
-    "brand": "La Savonnerie de Nyons",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/sapun-in-cutie-metalica-100-g-mucha-2-277035820",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5721a37ff&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/277035820-0.jpeg",
-    "category": "articole-scolare-accesorii",
-    "price": "39,00 Lei"
-  },
-  {
     "title": "Sapun in cutie metalica, 100 g - Mucha 1",
     "brand": "La Savonnerie de Nyons",
     "sourceSite": "carturesti.ro",
@@ -61862,16 +61852,6 @@
     "image": "https://cdn.dc5.ro/img-prod/563435767-0.jpeg",
     "category": "articole-scolare-accesorii",
     "price": "30,00 Lei"
-  },
-  {
-    "title": "Sapun in cutie metalica, 400 g - Mucha 3",
-    "brand": "La Savonnerie de Nyons",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/sapun-in-cutie-metalica-400-g-mucha-3-277035882",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c974ce379&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/277035882-1.jpeg",
-    "category": "articole-scolare-accesorii",
-    "price": "119,00 Lei"
   },
   {
     "title": "Kit ingrijire sprancene - On Point",
@@ -65030,5 +65010,15 @@
     "image": "https://cdn.dc5.ro/img-prod/108391143-0.jpeg",
     "category": "articole-scolare-accesorii",
     "price": "49,00 Lei"
+  },
+  {
+    "title": "Set 4 clips par - Clip Me Up! - Ghost + Pumpkin |",
+    "brand": "carturesti.ro",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/imbracaminte/set-4-clips-par-clip-me-up-ghost-pumpkin-5420710636",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=XkZDIvXk7n_f&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/5420710636-9018076.jpeg",
+    "category": "articole-scolare-accesorii",
+    "price": "35,00 Lei"
   }
 ]
