@@ -1178,19 +1178,8 @@ let genericCountdownIntervals = [];
 
 function createGenericProductCard(item){
 
-    const hasPreview = item.category === "muzica-film" && item.genre !== "Filme";
-
     return `
-        <div class="book-card${hasPreview ? " has-preview" : ""}">
-            ${hasPreview ? `<button
-                type="button"
-                class="preview-btn"
-                data-ean="${escapeHtml(item.ean || "")}"
-                data-artist="${escapeHtml(item.brand || "")}"
-                data-album="${escapeHtml(item.title)}"
-                aria-label="Ascultă 30 de secunde din ${escapeHtml(item.title)}"
-                title="Ascultă 30 de secunde"
-            >${PREVIEW_ICON_PLAY}</button>` : ""}
+        <div class="book-card">
             <img
                 src="${escapeHtml(item.image)}"
                 alt="${escapeHtml(item.title)}"
@@ -1206,7 +1195,6 @@ function createGenericProductCard(item){
                     <span class="new-price">${escapeHtml(item.price)}</span>
                     ${item.discount ? `<span class="discount">-${escapeHtml(item.discount)}</span>` : ""}
                 </div>
-                ${hasPreview ? `<p class="preview-credit" hidden></p>` : ""}
                 <a
                     href="${escapeHtml(item.affiliate)}"
                     target="_blank"
@@ -1238,8 +1226,6 @@ function renderGenericCatalogPage(){
 
     const start = (genericCatalogPage - 1) * GENERIC_CATALOG_PAGE_SIZE;
     const pageItems = genericCatalogFiltered.slice(start, start + GENERIC_CATALOG_PAGE_SIZE);
-
-    if (typeof stopPreview === "function" && previewActiveBtn) stopPreview();
 
     container.innerHTML =
         pageItems.length
@@ -1469,196 +1455,6 @@ function startGenericCountdowns(visibleItems){
 
 }
 
-/* ========================================
-   MOSTRE AUDIO DEEZER (pagina muzica-film.html)
-   — la clic pe difuzor se cauta albumul pe Deezer (intai dupa codul
-   de bare EAN, apoi dupa artist + album) si se reda fragmentul de
-   30 s al primei piese care are mostra. Fragmentul NU se descarca
-   si nu se stocheaza: se reda direct de pe serverele Deezer (regula
-   Deezer). Linkurile de mostra expira, de aceea se cer la fiecare
-   vizita, nu se salveaza in JSON. API-ul Deezer nu permite apeluri
-   directe din browser (CORS), asa ca folosim JSONP (output=jsonp).
-======================================== */
-
-const PREVIEW_ICON_PLAY = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05A4.47 4.47 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06A9 9 0 0 0 14 3.23z"/></svg>`;
-const PREVIEW_ICON_PAUSE = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>`;
-const PREVIEW_ICON_NONE = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M16.5 12A4.5 4.5 0 0 0 14 7.97v2.21l2.45 2.45c.03-.2.05-.41.05-.63zM19 12c0 .94-.2 1.82-.54 2.64l1.51 1.51A8.8 8.8 0 0 0 21 12a9 9 0 0 0-7-8.77v2.06A7 7 0 0 1 19 12zM4.27 3 3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a9 9 0 0 0 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4 9.91 6.09 12 8.18V4z"/></svg>`;
-
-// Logo-ul oficial Deezer (obligatoriu dupa regulile Deezer pentru aplicatiile care folosesc API-ul).
-// Fisierul se pune in imagini/; daca lipseste, se afiseaza textul „Deezer".
-const DEEZER_LOGO_SRC = "imagini/deezer-logo.png";
-const DEEZER_LOGO_HTML = `<img src="${DEEZER_LOGO_SRC}" alt="Deezer" class="deezer-logo" onerror="this.replaceWith(document.createTextNode('Deezer'))">`;
-
-const previewCache = new Map();   // cheie album -> { preview, link } sau null (negasit)
-let previewAudio = null;
-let previewActiveBtn = null;
-let jsonpCounter = 0;
-
-function deezerJsonp(path){
-
-    return new Promise((resolve, reject) => {
-
-        const cb = "__dz" + Date.now() + "_" + (jsonpCounter++);
-        const script = document.createElement("script");
-        const timer = setTimeout(() => { cleanup(); reject(new Error("timeout")); }, 8000);
-
-        function cleanup(){
-            clearTimeout(timer);
-            delete window[cb];
-            script.remove();
-        }
-
-        window[cb] = data => { cleanup(); resolve(data); };
-        script.onerror = () => { cleanup(); reject(new Error("network")); };
-        script.src = "https://api.deezer.com" + path + (path.includes("?") ? "&" : "?") + "output=jsonp&callback=" + cb;
-        document.head.appendChild(script);
-
-    });
-
-}
-
-function normText(s){
-    return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-}
-
-// „Concrete and Gold - Vinyl", „Wonderful Wonderful - Deluxe Edition (2 CD)" -> „Concrete and Gold", „Wonderful Wonderful"
-function cleanAlbumTitle(t){
-    return String(t || "")
-        .replace(/\s*[\(\[][^\)\]]*[\)\]]/g, "")
-        .split(/\s+-\s+(?=(vinyl|vinil|lp|cd|deluxe|limited|remaster|edition|editie|box|2lp|3lp|\d+\s*(cd|lp)))/i)[0]
-        .trim();
-}
-
-function firstPreview(tracks){
-    const t = (tracks || []).find(x => x && x.preview);
-    return t ? t.preview : "";
-}
-
-async function findDeezerPreview(btn){
-
-    const ean = btn.dataset.ean;
-    const artist = String(btn.dataset.artist || "").split(",")[0].trim();
-    const album = cleanAlbumTitle(btn.dataset.album);
-
-    // 1) dupa codul de bare: potrivire exacta a albumului
-    if (ean) {
-        const variante = [ean];
-        if (ean.length === 13 && ean.startsWith("0")) variante.push(ean.slice(1));
-        for (const upc of variante) {
-            try {
-                const a = await deezerJsonp("/album/upc:" + upc);
-                if (a && !a.error) {
-                    const preview = firstPreview(a.tracks && a.tracks.data);
-                    if (preview) return { preview, link: a.link, mod: "ean" };
-                }
-            } catch (e) { /* trecem la cautare */ }
-        }
-    }
-
-    // 2) dupa artist + album, acceptat doar daca albumul gasit chiar seamana
-    if (!album) return null;
-    const q = (artist ? `artist:"${artist}" ` : "") + `album:"${album}"`;
-    const r = await deezerJsonp("/search?limit=10&q=" + encodeURIComponent(q));
-    const na = normText(album);
-    const nArt = normText(artist).split(" ").filter(w => w.length > 2);
-    const hit = (r && r.data || []).find(t => {
-        if (!t.preview || !t.album) return false;
-        const ta = normText(t.album.title);
-        const albumOk = ta === na || ta.startsWith(na) || na.startsWith(ta);
-        const artistOk = !nArt.length || nArt.some(w => normText(t.artist && t.artist.name).includes(w));
-        return albumOk && artistOk;
-    });
-    return hit ? { preview: hit.preview, link: hit.album.link || hit.link, mod: "cautare" } : null;
-
-}
-
-function setPreviewState(btn, state){
-
-    btn.classList.remove("is-loading", "is-playing", "is-missing");
-    if (state) btn.classList.add("is-" + state);
-    btn.innerHTML = state === "playing" ? PREVIEW_ICON_PAUSE : state === "missing" ? PREVIEW_ICON_NONE : PREVIEW_ICON_PLAY;
-    btn.title =
-        state === "playing" ? "Oprește mostra" :
-        state === "missing" ? "Nu am găsit o mostră pe Deezer pentru acest album" :
-        state === "loading" ? "Se încarcă…" : "Ascultă 30 de secunde";
-    if (state === "missing") btn.disabled = true;
-
-}
-
-function stopPreview(){
-
-    if (previewAudio) previewAudio.pause();
-    if (previewActiveBtn) setPreviewState(previewActiveBtn, null);
-    previewActiveBtn = null;
-
-}
-
-async function togglePreview(btn){
-
-    if (btn === previewActiveBtn) {
-        stopPreview();
-        return;
-    }
-
-    stopPreview();
-
-    const key = btn.dataset.ean || (btn.dataset.artist + "|" + btn.dataset.album);
-    let found = previewCache.get(key);
-
-    if (found === undefined) {
-        setPreviewState(btn, "loading");
-        try {
-            found = await findDeezerPreview(btn);
-        } catch (e) {
-            found = undefined; // eroare de retea: nu memoram, se poate reincerca
-        }
-        if (found !== undefined) previewCache.set(key, found);
-        trackEvent("asculta_mostra", {
-            title: btn.dataset.album,
-            artist: btn.dataset.artist,
-            rezultat: found ? found.mod : (found === null ? "negasit" : "eroare")
-        });
-    }
-
-    if (!found) {
-        setPreviewState(btn, found === null ? "missing" : null);
-        return;
-    }
-
-    if (!previewAudio) {
-        previewAudio = new Audio();
-        previewAudio.addEventListener("ended", stopPreview);
-    }
-
-    previewAudio.src = found.preview;
-    previewActiveBtn = btn;
-    setPreviewState(btn, "playing");
-
-    const credit = btn.closest(".book-card").querySelector(".preview-credit");
-    if (credit && found.link) {
-        credit.innerHTML = `Mostră de 30 s oferită de <a href="${escapeHtml(found.link)}" target="_blank" rel="nofollow noopener" class="deezer-link">${DEEZER_LOGO_HTML}</a>`;
-        credit.hidden = false;
-    }
-
-    try {
-        await previewAudio.play();
-    } catch (e) {
-        stopPreview();
-    }
-
-}
-
-function initializePreviewDelegation(){
-
-    document.addEventListener("click", e => {
-        const btn = e.target.closest(".preview-btn");
-        if (!btn || btn.disabled) return;
-        e.preventDefault();
-        togglePreview(btn);
-    });
-
-}
-
 async function initGenericCatalogPage(){
 
     const container = document.getElementById("catalogContainer");
@@ -1694,7 +1490,6 @@ async function initGenericCatalogPage(){
 
         initializeGenericFilters();
         applyGenericFilters();
-        initializePreviewDelegation();
         initializeGenericCatalogSearch();
         initializeGenericPaginationDelegation();
 
