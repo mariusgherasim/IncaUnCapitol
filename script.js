@@ -1189,6 +1189,7 @@ function createGenericProductCard(item){
             <div class="book-content">
                 <h3 class="book-title">${escapeHtml(item.title)}</h3>
                 ${item.brand ? `<p class="book-author">${escapeHtml(item.brand)}</p>` : ""}
+                ${item.genre || item.vinyl ? `<p class="product-tags">${item.genre ? `<span class="product-tag">${escapeHtml(item.genre)}</span>` : ""}${item.vinyl ? `<span class="product-tag is-vinyl">Vinil</span>` : ""}</p>` : ""}
                 <div class="price-box">
                     ${item.oldPrice ? `<span class="old-price">${escapeHtml(item.oldPrice)}</span>` : ""}
                     <span class="new-price">${escapeHtml(item.price)}</span>
@@ -1299,6 +1300,30 @@ function initializeGenericPaginationDelegation(){
 
 }
 
+// Starea filtrelor de pe paginile de subcategorie: cautare + (optional)
+// filtru pe un camp (ex. genre la muzica-film.html) + (optional) „Doar vinil".
+// Filtrele apar doar daca #catalogContainer are data-filter-field.
+const genericFilterState = { search: "", value: "all", vinyl: false };
+
+function applyGenericFilters(){
+
+    const container = document.getElementById("catalogContainer");
+    const field = container ? container.dataset.filterField : "";
+    const q = genericFilterState.search;
+
+    genericCatalogFiltered = genericCatalogAll.filter(item =>
+        (!q ||
+            (item.title || "").toLowerCase().includes(q) ||
+            (item.brand || "").toLowerCase().includes(q)) &&
+        (!field || genericFilterState.value === "all" || item[field] === genericFilterState.value) &&
+        (!genericFilterState.vinyl || item.vinyl === true)
+    );
+
+    genericCatalogPage = 1;
+    renderGenericCatalogPage();
+
+}
+
 function initializeGenericCatalogSearch(){
 
     const input = document.getElementById("catalogSearchInput");
@@ -1307,17 +1332,77 @@ function initializeGenericCatalogSearch(){
 
     input.addEventListener("keyup", function(){
 
-        const value = this.value.toLowerCase();
-
-        genericCatalogFiltered = genericCatalogAll.filter(item =>
-            (item.title || "").toLowerCase().includes(value) ||
-            (item.brand || "").toLowerCase().includes(value)
-        );
-
-        genericCatalogPage = 1;
-        renderGenericCatalogPage();
+        genericFilterState.search = this.value.toLowerCase();
+        applyGenericFilters();
 
     });
+
+}
+
+// Butoanele de filtrare se construiesc din date (genurile existente, cu numarul
+// de produse), deci apar automat genuri noi venite din feed. Selectia ramane in
+// adresa paginii (?gen=Rock&vinil=1), ca sa poata fi trimisa ca link.
+function initializeGenericFilters(){
+
+    const container = document.getElementById("catalogContainer");
+    const box = document.getElementById("catalogFilters");
+    const field = container ? container.dataset.filterField : "";
+
+    if (!box || !field) return;
+
+    const counts = {};
+    genericCatalogAll.forEach(item => {
+        if (item[field]) counts[item[field]] = (counts[item[field]] || 0) + 1;
+    });
+
+    const last = ["Altele", "Filme"]; // la final, dupa genurile muzicale
+    const values = Object.keys(counts).sort((a, b) =>
+        (last.indexOf(a) - last.indexOf(b)) || (counts[b] - counts[a])
+    );
+    const nVinyl = genericCatalogAll.filter(i => i.vinyl === true).length;
+    const fmt = n => n.toLocaleString("ro-RO");
+
+    const params = new URLSearchParams(window.location.search);
+    const fromUrl = params.get("gen");
+    if (fromUrl && counts[fromUrl]) genericFilterState.value = fromUrl;
+    genericFilterState.vinyl = params.get("vinil") === "1" && nVinyl > 0;
+
+    let html = `<button type="button" data-filter-value="all">Toate <small>${fmt(genericCatalogAll.length)}</small></button>`;
+    values.forEach(v => {
+        html += `<button type="button" data-filter-value="${escapeHtml(v)}">${escapeHtml(v)} <small>${fmt(counts[v])}</small></button>`;
+    });
+    if (nVinyl) {
+        html += `<button type="button" class="filter-toggle" data-filter-vinyl="1" aria-pressed="false">Doar vinil <small>${fmt(nVinyl)}</small></button>`;
+    }
+    box.innerHTML = html;
+
+    const syncButtons = () => {
+        box.querySelectorAll("[data-filter-value]").forEach(b =>
+            b.classList.toggle("active", b.dataset.filterValue === genericFilterState.value)
+        );
+        const t = box.querySelector("[data-filter-vinyl]");
+        if (t) {
+            t.classList.toggle("active", genericFilterState.vinyl);
+            t.setAttribute("aria-pressed", String(genericFilterState.vinyl));
+        }
+        const p = new URLSearchParams(window.location.search);
+        genericFilterState.value === "all" ? p.delete("gen") : p.set("gen", genericFilterState.value);
+        genericFilterState.vinyl ? p.set("vinil", "1") : p.delete("vinil");
+        const qs = p.toString();
+        history.replaceState(null, "", window.location.pathname + (qs ? "?" + qs : ""));
+    };
+
+    box.addEventListener("click", e => {
+        const b = e.target.closest("button");
+        if (!b) return;
+        if (b.dataset.filterVinyl) genericFilterState.vinyl = !genericFilterState.vinyl;
+        else genericFilterState.value = b.dataset.filterValue;
+        syncButtons();
+        applyGenericFilters();
+        trackEvent("filtru_catalog", { valoare: genericFilterState.value, vinil: genericFilterState.vinyl });
+    });
+
+    syncButtons();
 
 }
 
@@ -1403,7 +1488,8 @@ async function initGenericCatalogPage(){
         genericCatalogAll = responses.flat();
         genericCatalogFiltered = genericCatalogAll;
 
-        renderGenericCatalogPage();
+        initializeGenericFilters();
+        applyGenericFilters();
         initializeGenericCatalogSearch();
         initializeGenericPaginationDelegation();
 

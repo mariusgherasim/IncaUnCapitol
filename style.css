@@ -118,6 +118,36 @@ a.book-card .book-title{color:var(--primary,#111827);}
 
 .filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px;}
 .filters button{background:#f3f4f6;border:none;padding:10px 16px;border-radius:30px;cursor:pointer;font-weight:600;}
+.filters button small{font-weight:400;color:var(--text-light);margin-left:4px;font-size:.78em;}
+.filters button.active{background:var(--secondary);color:#000;}
+.filters button.active small{color:#000;opacity:.7;}
+.filters .filter-toggle{background:#111827;color:#fff;}
+.filters .filter-toggle small{color:rgba(255,255,255,.7);}
+.filters .filter-toggle.active{background:var(--secondary);color:#000;}
+.product-tags{display:flex;flex-wrap:wrap;gap:6px;margin:-4px 0 10px;}
+.product-tag{font-size:.72rem;font-weight:700;background:#f3f4f6;color:#374151;padding:2px 8px;border-radius:20px;}
+.product-tag.is-vinyl{background:#111827;color:#fff;}
+
+/* ========================================
+ MUZICA SI FILM (sectiunea de pe homepage)
+ ======================================== */
+
+.music-section{background:#111827;color:#fff;}
+.music-section .section-title{color:#fff;}
+.music-section .section-subtitle{color:rgba(255,255,255,.7);}
+.music-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;}
+.music-card{display:flex;flex-direction:column;gap:4px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px;color:#fff;text-decoration:none;transition:.2s;}
+.music-card:hover{transform:translateY(-3px);border-color:var(--secondary);background:rgba(255,255,255,.1);}
+.music-card strong{font-size:1.05rem;}
+.music-card span{font-size:.82rem;color:rgba(255,255,255,.65);}
+.music-card.is-vinyl{background:var(--secondary);color:#000;border-color:var(--secondary);}
+.music-card.is-vinyl span{color:rgba(0,0,0,.7);}
+.music-all{text-align:center;margin-top:26px;}
+@media(max-width:768px){
+/* pe mobil, filtrele de gen stau pe un singur rand, cu scroll orizontal */
+#catalogFilters{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px;margin-bottom:20px;}
+#catalogFilters button{flex:0 0 auto;white-space:nowrap;}
+}
 
 .search-input{width:100%;padding:16px;border:1px solid var(--border); border-radius:10px;margin-bottom:25px;font-size:1rem;}
 
