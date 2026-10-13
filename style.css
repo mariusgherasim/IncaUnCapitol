@@ -143,6 +143,25 @@ a.book-card .book-title{color:var(--primary,#111827);}
 .music-card.is-vinyl{background:var(--secondary);color:#000;border-color:var(--secondary);}
 .music-card.is-vinyl span{color:rgba(0,0,0,.7);}
 .music-all{text-align:center;margin-top:26px;}
+
+/* Mostre audio Deezer pe cardurile de muzica */
+.book-card.has-preview{position:relative;}
+.preview-btn{position:absolute;top:12px;right:12px;z-index:2;width:46px;height:46px;border-radius:50%;border:none;display:flex;align-items:center;justify-content:center;background:#111827;color:#fff;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.25);transition:.2s;}
+.preview-btn:hover{background:var(--secondary);color:#000;transform:scale(1.06);}
+.preview-btn.is-playing{background:var(--secondary);color:#000;animation:preview-pulse 1.4s ease-in-out infinite;}
+.preview-btn.is-loading{opacity:.7;cursor:progress;animation:preview-spin 1s linear infinite;}
+.preview-btn.is-missing{background:#e5e7eb;color:#9ca3af;cursor:not-allowed;box-shadow:none;}
+@keyframes preview-pulse{0%,100%{box-shadow:0 0 0 0 rgba(245,158,11,.55);}50%{box-shadow:0 0 0 10px rgba(245,158,11,0);}}
+@keyframes preview-spin{to{transform:rotate(360deg);}}
+.preview-credit{font-size:.75rem;color:var(--text-light);margin:-10px 0 12px;}
+.preview-credit a{color:inherit;}
+.preview-credit,.deezer-note{display:flex;align-items:center;flex-wrap:wrap;gap:6px;}
+.deezer-note{justify-content:center;font-size:.85rem;color:var(--text-light);margin:0 0 22px;text-align:center;}
+.deezer-link{display:inline-flex;align-items:center;}
+.deezer-logo{display:block;height:20px;width:auto;}
+.deezer-note .deezer-logo{height:26px;}
+.book-card img.deezer-logo{width:auto!important;height:20px!important;padding:0!important;background:none;}
+@media(max-width:768px){.preview-btn{top:8px;right:8px;width:38px;height:38px;}.preview-btn svg{width:18px;height:18px;}}
 @media(max-width:768px){
 /* pe mobil, filtrele de gen stau pe un singur rand, cu scroll orizontal */
 #catalogFilters{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px;margin-bottom:20px;}
