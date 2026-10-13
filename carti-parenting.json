@@ -1447,7 +1447,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c3b713958&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
     "image": "https://cdn.dc5.ro/img-prod/254359779-1.jpeg",
     "category": "carti-parenting",
-    "price": "50,00 Lei"
+    "price": "25,00 Lei",
+    "oldPrice": "50,00 Lei",
+    "discount": "50%"
   },
   {
     "title": "Lasa-ma sa-ti aud glasul",
@@ -9530,16 +9532,6 @@
     "discount": "76%"
   },
   {
-    "title": "5 minute de logopedie pe zi Vol.2 - Ioana Alexandra Pascu",
-    "brand": "Ioana Alexandra Pascu",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/5-minute-de-logopedie-pe-zi-vol-2-ioana-alexandra-pascu/47017971?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1PxpEE8rT_Vy&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/47018/47017971-1-small-1.jpg?ver=1784790724",
-    "category": "carti-parenting",
-    "price": "64,50 Lei"
-  },
-  {
     "title": "Sunt un copil, deci simt unde sunt parintii mei - Bibi Schreuder",
     "brand": "Bibi Schreuder",
     "sourceSite": "libris.ro",
@@ -11921,9 +11913,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=da240dc50&aff_code=676a7e7d9&campaign_unique=4dc37856e",
     "image": "https://www.edituratrei.ro/thumbs/square/cover-5025.jpg",
     "category": "carti-parenting",
-    "price": "43,66 Lei",
+    "price": "37,43 Lei",
     "oldPrice": "62,37 Lei",
-    "discount": "30%"
+    "discount": "40%"
   },
   {
     "title": "Imperativele adolescenței - Audiobook - Chris Simion - Mercurian",
@@ -11945,9 +11937,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ja4x_cyYhQ43&aff_code=676a7e7d9&campaign_unique=4dc37856e",
     "image": "https://www.edituratrei.ro/thumbs/square/cover-7546.jpg",
     "category": "carti-parenting",
-    "price": "43,66 Lei",
+    "price": "37,43 Lei",
     "oldPrice": "62,37 Lei",
-    "discount": "30%"
+    "discount": "40%"
   },
   {
     "title": "Ghid pentru rezolvarea dificultăților psihice ale copiilor și adolescenților..  Anxietate, depresie, insomnie, dependență, anorexie, ADHD și autism  - Audiobook",
@@ -11957,9 +11949,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0wpDKr1WXAmc&aff_code=676a7e7d9&campaign_unique=4dc37856e",
     "image": "https://www.edituratrei.ro/thumbs/square/cover-7559.jpg",
     "category": "carti-parenting",
-    "price": "43,66 Lei",
+    "price": "37,43 Lei",
     "oldPrice": "62,37 Lei",
-    "discount": "30%"
+    "discount": "40%"
   },
   {
     "title": "Terapia schemelor pentru copii și adolescenți - Christof  Loose",
@@ -12113,9 +12105,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ngyYn6SQZuvW&aff_code=676a7e7d9&campaign_unique=4dc37856e",
     "image": "https://www.edituratrei.ro/thumbs/portrait/cover-10067.jpg",
     "category": "carti-parenting",
-    "price": "45,50 Lei",
+    "price": "55,25 Lei",
     "oldPrice": "65,00 Lei",
-    "discount": "30%"
+    "discount": "15%"
   },
   {
     "title": "Deserturi raw pentru copii și părinți sănătoși",
@@ -12496,5 +12488,45 @@
     "image": "https://www.libris.ro/img/pozeprod/45945/45944409-1-small-1.jpg?ver=1773829539",
     "category": "carti-parenting",
     "price": "49,89 Lei"
+  },
+  {
+    "title": "Pachet 2 volume: Povesti terapeutice pentru copii - Ioana Otoiu",
+    "brand": "Ioana Otoiu",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/pachet-2-volume-povesti-terapeutice-pentru-copii-ioana-otoiu/46315892?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=D_Pw_v_H4_JS&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/46316/46315892-1-small-1.jpg?ver=1775631709",
+    "category": "carti-parenting",
+    "price": "111,00 Lei"
+  },
+  {
+    "title": "Parenting coaching - otilia obrintetchi",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/parenting-coaching-otilia-obrintetchi/48672498?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=GEfckdPL7FZA&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "carti-parenting",
+    "price": "97,68 Lei"
+  },
+  {
+    "title": "Cand am renuntat, am devenit mama - andreea calavotti",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/cand-am-renuntat-am-devenit-mama-andreea-calavotti/48672666?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WHIt3ZIn2OEY&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "carti-parenting",
+    "price": "72,15 Lei"
+  },
+  {
+    "title": "Pachet 2 vol. povesti terapeutice pentru fricile copiilor - ioana otoiu",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/pachet-2-vol-povesti-terapeutice-pentru-fricile-copiilor-ioana-otoiu/48672883?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WeKVD1mznZYD&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "carti-parenting",
+    "price": "111,00 Lei"
   }
 ]

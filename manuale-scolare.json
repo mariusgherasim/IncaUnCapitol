@@ -3333,7 +3333,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a0e1453de&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20690/20689358-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "51,00 Lei"
+    "price": "53,00 Lei"
   },
   {
     "title": "Comunicare in limba romana - Clasa pregatitoare - Caiet - Mirela Mihaescu, Stefan Pacearca, Anita Dulman, Crenguta Alexe, Otilia Brebenel",
@@ -24447,7 +24447,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3c164bf2c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38390/38389764-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "34,89 Lei"
+    "price": "33,15 Lei",
+    "oldPrice": "34,89 Lei",
+    "discount": "5%"
   },
   {
     "title": "Gramatica limbii romane - Clasa 5 - Fise de lucru - Eliza-Mara Trofin",
@@ -24985,7 +24987,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=59f6aca44&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38399/38398220-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "30,00 Lei"
+    "price": "28,50 Lei",
+    "oldPrice": "30,00 Lei",
+    "discount": "5%"
   },
   {
     "title": "Informatica si TIC - Clasa 6 - Manual - Carmen Popescu, Diana Nicoleta Chirila-Plesa, Georgeta Antonia Rodica Craciunescu, Iulia-Gyongyi Lutaru, Cristina Elena Anton",
@@ -26723,7 +26727,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=745572dd3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38383/38382176-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "37,00 Lei"
+    "price": "40,00 Lei"
   },
   {
     "title": "Literatura pentru gimnaziu - Clasa 6 - Concepte operationale si exercitii - Irina-Roxana Georgescu, Delia-Monica Georgescu, Raluca-Diana Raducanu, Adriana Dudas-Vasile, Adriana Chioaru, Amalia Gabriela Serbu",
@@ -27869,8 +27873,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=22bf00019&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38426/38425247-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "71,82 Lei",
-    "oldPrice": "75,60 Lei",
+    "price": "73,06 Lei",
+    "oldPrice": "76,90 Lei",
     "discount": "5%"
   },
   {
@@ -46437,7 +46441,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8IaOKnKPEEDX&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/6/0/6/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,43 Lei"
+    "price": "47,56 Lei"
   },
   {
     "title": "Limba moderna 2. Limba franceza. Manual pentru clasa a VIII-a",
@@ -46977,7 +46981,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ApR8v6KRvNmP&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/3/8/3/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,24 Lei"
+    "price": "31,13 Lei"
   },
   {
     "title": "Conssiliere si orientare. Ghid de educatie pentru cariera",
