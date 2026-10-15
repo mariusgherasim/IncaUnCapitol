@@ -34437,7 +34437,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lCytfzJe55oL&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44218/44217481-1-small-1.jpg?ver=1760610133",
     "category": "manuale-scolare",
-    "price": "35,00 Lei"
+    "price": "33,25 Lei",
+    "oldPrice": "35,00 Lei",
+    "discount": "5%"
   },
   {
     "title": "Compunerea in 3 pasi - Margareta Onofrei",
@@ -34561,7 +34563,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=yfHW9Y9JKGsd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44218/44217390-1-small-1.jpg?ver=1760604592",
     "category": "manuale-scolare",
-    "price": "32,00 Lei"
+    "price": "30,40 Lei",
+    "oldPrice": "32,00 Lei",
+    "discount": "5%"
   },
   {
     "title": "Exercitii progresive standard de limba si literatura romana Ed.2 - Clasa 7 - Irina Haila, Anca Gradinaru",
@@ -36319,9 +36323,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=axCFhkx-1m3H&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/41880/41879586-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "32,64 Lei",
-    "oldPrice": "34,36 Lei",
-    "discount": "5%"
+    "price": "34,36 Lei"
   },
   {
     "title": "Caiet de vacanta. Matematica - Clasa 6 - Maria Zaharia",
@@ -45803,7 +45805,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BuV7Kx-eqseL&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/3/0/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "37,80 Lei"
+    "price": "42,00 Lei"
   },
   {
     "title": "Evaluare nationala. Clasa a II-a Teste pregatitoare dupa modelul M.E.C. Comunicare in limba romana (scris-citit). Matematica si explorarea mediului",
@@ -88953,7 +88955,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nyoHvVCzluHR&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/8/3/3/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "245,98 Lei"
+    "price": "244,97 Lei"
   },
   {
     "title": "Un cantec e inima mea. Cantece pentru copii (Carte + CD cadou)",
@@ -94973,7 +94975,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MuOc2PnFtSPC&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/8/6/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "42,29 Lei"
+    "price": "46,99 Lei"
   },
   {
     "title": "Bacalaureat. Limba si literatura romana. Eseuri si subiecte rezolvate",
