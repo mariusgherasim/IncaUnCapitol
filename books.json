@@ -142,9 +142,9 @@
     "author": "Daniel Goleman",
     "category": "dezvoltare",
     "score": "9.0 / 10",
-    "oldPrice": "75,24 Lei",
-    "price": "56,43 Lei",
-    "discount": "-25%",
+    "oldPrice": "83,51 Lei",
+    "price": "62,64 Lei",
+    "discount": "25%",
     "image": "imagini/emotiile-distructive.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UNc_puffuA9h&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/emotiile-distructive-ed-iv",
@@ -169,9 +169,9 @@
     "author": "Britt Frank",
     "category": "dezvoltare",
     "score": "9.0 / 10",
-    "oldPrice": "60,00 Lei",
-    "price": "45,00 Lei",
-    "discount": "-25%",
+    "oldPrice": "66,60 Lei",
+    "price": "49,95 Lei",
+    "discount": "25%",
     "image": "imagini/Blocajul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=w8pIx7OCe-cr&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blocajul",
@@ -223,9 +223,9 @@
     "author": "Gabor Maté",
     "category": "dezvoltare",
     "score": "9.6 / 10",
-    "oldPrice": "57,14 Lei",
-    "price": "42,86 Lei",
-    "discount": "-25%",
+    "oldPrice": "63,43 Lei",
+    "price": "47,57 Lei",
+    "discount": "25%",
     "image": "imagini/Cand_corpul_spune_nu.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jkBbmScIPsxE&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/cand-corpul-spune-nu",
@@ -335,14 +335,14 @@
     "author": "Jeff Wetzler",
     "category": "dezvoltare",
     "score": "9.3 / 10",
-    "oldPrice": "64,86 Lei",
-    "price": "48,65 Lei",
-    "discount": "-25%",
+    "oldPrice": "72,00 Lei",
+    "price": "54,00 Lei",
+    "discount": "25%",
     "image": "imagini/metoda-ask.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=H1fEitI90ezx",
     "productUrl": "https://www.curteaveche.ro/metoda-ask",
     "description": "Toată lumea vorbește despre comunicare deschisă. Nimeni nu explică de ce oamenii tac de fapt — chiar și când ar fi în interesul tuturor să vorbească. Această carte explică mecanismul tăcerii și cum îl desfaci.",
-    "available": false
+    "available": true
   },
   {
     "title": "Tată bogat, tată sărac. Educația financiară în familie",
@@ -508,9 +508,9 @@
     "author": "Dr. Robin Stern",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "oldPrice": "62,16 Lei",
-    "price": "46,62 Lei",
-    "discount": "-25%",
+    "oldPrice": "69,00 Lei",
+    "price": "51,75 Lei",
+    "discount": "25%",
     "image": "imagini/Gaslight_coperta.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=U5we8JClkGnh&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/efectul-gaslight",
@@ -553,14 +553,14 @@
     "author": "",
     "category": "",
     "score": "",
-    "oldPrice": "56,19 Lei",
-    "price": "40,54 Lei",
-    "discount": "-28%",
+    "oldPrice": "62,37 Lei",
+    "price": "45,00 Lei",
+    "discount": "28%",
     "image": "imagini/BlindDate.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KS7gh011iXSj&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-2",
     "description": "INDICIU NR. 1 o bunică pe care ți-ai dori-o INDICIU NR. 2 o lume care a dispărut într-o singură noapte INDICIU NR. 3 o casă care miroase a scorțișoară",
-    "available": false
+    "available": true
   },
   {
     "title": "Blind Date with a Book #4",
@@ -568,14 +568,14 @@
     "author": "",
     "category": "",
     "score": "",
-    "oldPrice": "36,19 Lei",
-    "price": "18,02 Lei",
-    "discount": "-50%",
+    "oldPrice": "40,17 Lei",
+    "price": "20,00 Lei",
+    "discount": "50%",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-04.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=K4Yl52FBks3q&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-4",
     "description": "INDICIU NR. 1 un bărbat care citește scrisorile altora  INDICIU NR. 2 o iubire scrisă în haiku-uri  INDICIU NR. 3 un final pe care n-o să-l ierți",
-    "available": false
+    "available": true
   },
   {
     "title": "Blind Date with a Book #8",
@@ -583,14 +583,14 @@
     "author": "",
     "category": "",
     "score": "",
-    "oldPrice": "52,38 Lei",
-    "price": "18,02 Lei",
-    "discount": "-66%",
+    "oldPrice": "58,14 Lei",
+    "price": "20,00 Lei",
+    "discount": "66%",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-08.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_l3huEqmNz-T&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-8",
     "description": "INDICIU NR. 1 o lume în care cărțile sunt interzise  INDICIU NR. 2 un funcționar care copiază literatura din amintire  INDICIU NR. 3 vizionară, înspăimântător de actuală",
-    "available": false
+    "available": true
   },
   {
     "title": "Blind Date with a Book #9",
@@ -598,14 +598,14 @@
     "author": "",
     "category": "",
     "score": "",
-    "oldPrice": "65,71 Lei",
-    "price": "31,53 Lei",
-    "discount": "-52%",
+    "oldPrice": "72,94 Lei",
+    "price": "35,00 Lei",
+    "discount": "52%",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-09.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zvdg0Ioz1YfC&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-9",
     "description": "INDICIU NR. 1 un fiu care își caută tatăl într-un sat de morți   INDICIU NR. 2 cartea care l-a învățat pe García Márquez să scrie  INDICIU NR. 3 130 de pagini care au schimbat literatura",
-    "available": false
+    "available": true
   },
   {
     "title": "Blind Date with a Book #13",
@@ -613,14 +613,14 @@
     "author": "",
     "category": "",
     "score": "",
-    "oldPrice": "52,38 Lei",
-    "price": "18,02 Lei",
-    "discount": "-66%",
+    "oldPrice": "58,14 Lei",
+    "price": "20,00 Lei",
+    "discount": "66%",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-13.png",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LB1Zz-zNU8qc&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-13",
     "description": "INDICIU NR. 1 o distopie în care bărbații sunt reeducați  INDICIU NR. 2 un manifest deghizat în roman INDICIU NR. 3 feminism cu colți",
-    "available": false
+    "available": true
   },
   {
     "title": "Blind Date with a Book #19",
@@ -628,14 +628,14 @@
     "author": "",
     "category": "",
     "score": "",
-    "oldPrice": "52,38 Lei",
-    "price": "36,04 Lei",
-    "discount": "-31%",
+    "oldPrice": "58,14 Lei",
+    "price": "40,00 Lei",
+    "discount": "31%",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-19.png",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2TbBpd7Wy9U-&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-19",
     "description": "INDICIU NR. 1 pentru cei cărora li s-a spus prea des „ești prea sensibil”. INDICIU NR. 2 vulnerabilitatea ca formă de curaj INDICIU NR. 3 manualul oamenilor care simt totul la maximum",
-    "available": false
+    "available": true
   },
   {
     "title": "Blind Date with a Book #5",
@@ -643,14 +643,14 @@
     "author": "",
     "category": "",
     "score": "",
-    "oldPrice": "62,16 Lei",
-    "price": "40,54 Lei",
-    "discount": "-35%",
+    "oldPrice": "69,00 Lei",
+    "price": "45,00 Lei",
+    "discount": "35%",
     "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-05.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Lv9ZbzbMkHAJ&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-5",
     "description": "INDICIU NR. 1 manipulare care te face să te îndoiești de propria minte INDICIU NR. 2 un termen intrat în vocabular pornind de la un film din 1944 INDICIU NR. 3 numele unei dureri fără rană",
-    "available": false
+    "available": true
   },
   {
     "title": "Liderul poți fi tu.",
@@ -797,9 +797,9 @@
     "author": "Barbara Oakley & Olav Schewe (Learn Like a Pro), David Robson (The Expectation Effect), Gloria Mark (Attention Span), Susan Magsamen & Ivy Ross (Your Brain on Art)",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "oldPrice": "261,72 Lei",
-    "price": "157,03 Lei",
-    "discount": "-40%",
+    "oldPrice": "290,51 Lei",
+    "price": "174,31 Lei",
+    "discount": "40%",
     "image": "imagini/altfel.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=i9H0ruaSwSL8&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/pachet-invata-cum-sa-inveti",
@@ -838,12 +838,12 @@
     "author": "Ray Bradbury",
     "category": "beletristică",
     "score": "9.9 / 10",
-    "price": "49,00 Lei",
+    "price": null,
     "image": "imagini/fahrenheit.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ys2jzPZup7zV&aff_code=676a7e7d9&campaign_unique=da1148931",
     "productUrl": "https://www.librarie.net/p/388284/nia=1693",
     "description": "9 zile. 9,80 dolari în monede de 10 cenți. Atât i-a luat lui Ray Bradbury să scrie prima variantă a uneia dintre cele mai vândute cărți din istorie — peste 10 milioane de exemplare, traduse în peste 33 de limbi. Câte idei importante amâni tu pentru că nu ai „condițiile perfecte”?",
-    "available": true
+    "available": false
   },
   {
     "title": "Jocul cu mărgele de sticlă",
@@ -899,7 +899,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=53064907b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "productUrl": "https://www.librarie.net/p/215695/nia=1693",
     "description": "Toată lumea îți spune că e o carte pentru copii. 140 de milioane de oameni au citit-o și au descoperit că e, de fapt, un diagnostic precis al vieții lor de adult.",
-    "available": true
+    "available": true,
+    "oldPrice": "10,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "1984",
@@ -1453,7 +1455,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=705e3b3ce",
     "productUrl": "https://www.libris.ro/carte/marii-initiati-ai-indiei-si-parintele-paisie-dionysios-farasiotis/10897466?utm_source=2parale&utm_medium=feed",
     "description": "De ce există lumea? Există Dumnezeu? Cine sunt eu? Ce se întâmplă după moarte? Sunt întrebările pe care le-ai pus, le-ai pus din nou, și ai primit fie răspunsuri vagi, fie sfatul să nu le mai pui. Un tânăr grec a decis că nu poate trăi fără răspunsuri reale. Că nu poate accepta „nu știm”. Că trebuie să verifice personal. La 25 de ani a plecat în India cu un caiet și o întrebare: ce e real din toată spiritualitatea lumii?",
-    "available": false
+    "available": true
   },
   {
     "title": "21 de lecții pentru secolul XXI",
@@ -1763,7 +1765,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=wld3aekypwZg",
     "productUrl": "https://www.libris.ro/carte/cimitirul-animalelor-stephen-king/11931749?utm_source=2parale&utm_medium=feed",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
-    "available": false
+    "available": true
   },
   {
     "title": "Închisoarea îngerilor",
