@@ -631,6 +631,8 @@ document.addEventListener(
     "DOMContentLoaded",
     async () => {
 
+        loadPromos(); // cardurile de promotie (promo.json) — nu asteptam, nu blocheaza restul
+
         await loadMonthlyBook();
 
         await loadBooks();
@@ -894,6 +896,12 @@ function initializeTrackingDelegation(){
                 merchant: link.dataset.merchant
             });
 
+        } else if (link.dataset.track === "promo") {
+
+            trackEvent("promo_click", {
+                promo: link.dataset.promo
+            });
+
         } else if (link.dataset.track === "rechizita") {
 
             trackEvent("click_cumpara_rechizita", {
@@ -1154,6 +1162,100 @@ async function loadBanner(){
     } catch (error) {
 
         console.error("Eroare încărcare banners.json:", error);
+
+    }
+
+}
+
+/* ========================================
+   CARDURI DE PROMOTIE (promo.json)
+   — carduri mici cu ofertele active, pe toate paginile care
+   incarca script.js. Pe homepage stau in .promo-mount; pe
+   celelalte pagini se insereaza automat sub header. Fiecare
+   card are pages ("all" / "home") si interval start/end
+   optional; dupa end dispare singur, fara alta modificare.
+======================================== */
+
+function isPromoActive(promo, now){
+
+    if (promo.start && now < new Date(promo.start).getTime()) return false;
+    if (promo.end && now > new Date(promo.end).getTime()) return false;
+    return true;
+
+}
+
+function createPromoCard(promo){
+
+    const style = [
+        promo.accent ? `--promo-accent:${promo.accent}` : "",
+        promo.tagBg ? `--promo-tag-bg:${promo.tagBg}` : "",
+        promo.tagColor ? `--promo-tag-color:${promo.tagColor}` : "",
+        promo.tagSmallColor ? `--promo-tag-small:${promo.tagSmallColor}` : ""
+    ].filter(Boolean).join(";");
+
+    const external = promo.external
+        ? ` target="_blank" rel="nofollow sponsored noopener"`
+        : "";
+
+    return `
+        <div class="promo-card"${style ? ` style="${escapeHtml(style)}"` : ""}>
+            <div class="promo-tag" aria-hidden="true">${escapeHtml(promo.tag)}${promo.tagSmall ? `<small>${escapeHtml(promo.tagSmall)}</small>` : ""}</div>
+            <div class="promo-text">
+                ${promo.kicker ? `<p class="promo-kicker">${escapeHtml(promo.kicker)}</p>` : ""}
+                <h2 class="promo-title">${escapeHtml(promo.title)}</h2>
+                ${promo.text ? `<p class="promo-sub">${escapeHtml(promo.text)}</p>` : ""}
+            </div>
+            <a class="promo-btn" href="${escapeHtml(promo.link)}"${external} data-track="promo" data-promo="${escapeHtml(promo.id || "")}">${escapeHtml(promo.button || "Vezi oferta")}</a>
+        </div>
+    `;
+
+}
+
+async function loadPromos(){
+
+    try {
+
+        const response = await fetch("promo.json?v=" + Date.now(), { cache: "no-store" });
+        const all = await response.json();
+
+        const mount = document.querySelector(".promo-mount");
+        const isHome = !!mount;
+        const now = Date.now();
+
+        const active = all.filter(p =>
+            p.title && p.link &&
+            (p.pages === "all" || (p.pages === "home" && isHome)) &&
+            isPromoActive(p, now)
+        );
+
+        if (!active.length) {
+            if (mount) {
+                const section = mount.closest(".promo-strip");
+                if (section) section.hidden = true;
+            }
+            return;
+        }
+
+        const html = active.map(createPromoCard).join("");
+
+        if (mount) {
+            mount.innerHTML = html;
+            return;
+        }
+
+        // pagini fara loc rezervat: sectiune noua imediat sub header
+        const header = document.querySelector("header");
+        if (!header) return;
+
+        const section = document.createElement("section");
+        section.className = "promo-strip promo-strip-auto";
+        section.setAttribute("aria-label", "Reduceri active");
+        section.innerHTML = `<div class="container">${html}</div>`;
+        header.insertAdjacentElement("afterend", section);
+
+    } catch (error) {
+
+        console.error("Eroare încărcare promo.json:", error);
 
     }
 

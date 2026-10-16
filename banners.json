@@ -183,5 +183,46 @@
     "startDate": "2026-10-01",
     "endDate": "2026-11-01",
     "weight": 1
+  },
+  {
+    "id": "bookzone-01",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273243/original/273243.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=0d6f7f8ea&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — Bookzone 2+1 gratis",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-18",
+    "weight": 3
+  },
+  {
+    "id": "bookzone-02",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273245/original/273245.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=e3377e93f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — Bookzone 2+1 gratis",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-18",
+    "weight": 2
+  },
+  {
+    "id": "bookzone-03",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273244/original/273244.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=4f225011d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — Bookzone 2+1 gratis",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-18",
+    "weight": 1
   }
 ]

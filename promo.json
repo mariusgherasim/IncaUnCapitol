@@ -1,0 +1,50 @@
+[
+  {
+    "_readme": "Cardurile de promotie mici, afisate de script.js. pages: \"all\" = pe toate paginile site-ului (sub header), \"home\" = doar pe pagina principala. start/end: data si ora (AAAA-LL-ZZTHH:MM:SS+03:00); cardul apare doar in interval si dispare singur dupa end. Ambele sunt optionale. link: pagina interna (ex. nemira-toamna-literara.html) sau link de afiliere 2Performant (external: true -> se deschide in tab nou, rel sponsored). Culori optionale: accent (bara din stanga, kicker, buton), tagBg / tagColor / tagSmallColor (eticheta rotita); tagSmall = textul mic de sub eticheta. Ordinea din fisier = ordinea pe pagina."
+  },
+  {
+    "id": "bookzone-2plus1",
+    "pages": "all",
+    "start": "2026-10-16T00:00:00+03:00",
+    "end": "2026-10-18T23:59:59+03:00",
+    "tag": "2+1",
+    "tagSmall": "gratis",
+    "kicker": "Weekend Bookzone · libris.ro · până duminică",
+    "title": "2+1 gratis la cărțile editurii Bookzone",
+    "text": "Pui în coș 3 cărți Bookzone și plătești doar 2. Oferta ține doar weekendul acesta, 16–18 octombrie.",
+    "button": "Vezi oferta",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=0d6f7f8ea&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "external": true,
+    "accent": "#0f766e",
+    "tagBg": "#0f766e",
+    "tagColor": "#ffffff",
+    "tagSmallColor": "#fde68a"
+  },
+  {
+    "id": "book-half",
+    "pages": "home",
+    "tag": "-50%",
+    "tagSmall": "minimum",
+    "kicker": "Reducerea săptămânii · librarie.net",
+    "title": "Book-Half: 1.217 cărți la jumătate de preț",
+    "text": "294 de titluri la -60% sau mai mult, 815 între 10 și 30 de lei. Tolkien, Márquez, Eco, cărți pentru copii.",
+    "button": "Vezi selecția",
+    "link": "book-half-librarie-net.html"
+  },
+  {
+    "id": "nemira-nem40",
+    "pages": "home",
+    "end": "2026-11-01T23:59:59+02:00",
+    "tag": "-40%",
+    "tagSmall": "cod NEM40",
+    "kicker": "Toamna literară · nemira.ro · până pe 1 noiembrie",
+    "title": "-40% la cărțile Nemira cu codul NEM40",
+    "text": "Urzeala Tronurilor, 6 volume: 362,96 lei în loc de 604,94. Matt Haig, Dar Motan, noutăți. Transport gratuit peste 190 de lei.",
+    "button": "Vezi oferta",
+    "link": "nemira-toamna-literara.html",
+    "accent": "#b4471f",
+    "tagBg": "#3b1f2b",
+    "tagColor": "#ffffff",
+    "tagSmallColor": "#d9a23b"
+  }
+]
