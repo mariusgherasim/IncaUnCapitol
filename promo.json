@@ -22,7 +22,7 @@
   },
   {
     "id": "book-half",
-    "pages": "home",
+    "pages": "all",
     "tag": "-50%",
     "tagSmall": "minimum",
     "kicker": "Reducerea săptămânii · librarie.net",
@@ -33,7 +33,7 @@
   },
   {
     "id": "nemira-nem40",
-    "pages": "home",
+    "pages": "all",
     "end": "2026-11-01T23:59:59+02:00",
     "tag": "-40%",
     "tagSmall": "cod NEM40",
