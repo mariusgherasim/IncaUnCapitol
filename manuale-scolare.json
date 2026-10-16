@@ -3559,8 +3559,8 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=60d43c360&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13320/13319652-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "12,06 Lei",
-    "oldPrice": "12,69 Lei",
+    "price": "15,07 Lei",
+    "oldPrice": "15,86 Lei",
     "discount": "5%"
   },
   {
@@ -13509,7 +13509,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6b2b3fd8e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26909/26908777-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "20,00 Lei"
+    "price": "21,00 Lei"
   },
   {
     "title": "Dictionar de paronime - Marian Buca, Mariana Cernicova",
@@ -27389,7 +27389,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a543f6988&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38411/38410505-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "42,00 Lei"
+    "price": "39,90 Lei",
+    "oldPrice": "42,00 Lei",
+    "discount": "5%"
   },
   {
     "title": "Religie. Cultul penticostal - Clasa 4 - Manual - Gheorghe Catana, Andrei Varasciuc, Carmen Marici, Elisabeta Dascalu",
@@ -29685,7 +29687,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=oU_DT6Jcqp0s&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/42450/42449407-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "58,15 Lei"
+    "price": "55,24 Lei",
+    "oldPrice": "58,15 Lei",
+    "discount": "5%"
   },
   {
     "title": "Lecturi suplimentare pentru ciclul primar - Clasele 0-4",
@@ -30605,7 +30609,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fmkCuAl9On0-&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/43633/43632449-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "46,00 Lei"
+    "price": "43,70 Lei",
+    "oldPrice": "46,00 Lei",
+    "discount": "5%"
   },
   {
     "title": "Matematica - Clasa 7 - Standard - Gheorghe Iurea, Adrian Zanoschi, Gabriel Popa",
@@ -36113,7 +36119,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CfkzYNO8uKBv&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/46030/46029893-1-small-1.jpg?ver=1774352212",
     "category": "manuale-scolare",
-    "price": "3,63 Lei"
+    "price": "6,00 Lei"
   },
   {
     "title": "Culegere de probleme de algebra - Clasele 9-12 - Gheorghe Adalbert Schneider",
@@ -41135,7 +41141,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=100db5570&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/7/9/7/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,52 Lei"
+    "price": "34,90 Lei"
   },
   {
     "title": "Anatomia si fiziologia omului. Teste grila pentru admiterea la facultatile de medicina dupa manualul Barrons",

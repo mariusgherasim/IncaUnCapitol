@@ -15261,7 +15261,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8d8d743e2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/12909/12908319-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "19,50 Lei"
+    "price": "16,57 Lei",
+    "oldPrice": "19,50 Lei",
+    "discount": "15%"
   },
   {
     "title": "Ce vad ochisorii mei? Acasa. Cauta si gaseste cu Montessori - Karine Surugue, Charline Picard",
@@ -15634,16 +15636,6 @@
     "image": "https://www.libris.ro/img/pozeprod/37950/37949723-1-small-1.jpg",
     "category": "carti-copii",
     "price": "18,00 Lei"
-  },
-  {
-    "title": "Prisaca - Tudor Arghezi",
-    "brand": "Tudor Arghezi",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/prisaca-tudor-arghezi/37867438?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=64c84d74e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/37868/37867438-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "28,50 Lei"
   },
   {
     "title": "Harry Potter si Ordinul Phoenix - J. K. Rowling",
@@ -17068,16 +17060,6 @@
     "price": "34,00 Lei"
   },
   {
-    "title": "Alfabetul magic - Silvia Ursache",
-    "brand": "Silvia Ursache",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/alfabetul-magic-silvia-ursache/11939419?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Dv7HTxCsn4P-&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/11940/11939419-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "27,49 Lei"
-  },
-  {
     "title": "Carte interactiva: Raspundel Istetel. Secretele marilor si oceanelor",
     "brand": "libris.ro",
     "sourceSite": "libris.ro",
@@ -17160,18 +17142,6 @@
     "image": "https://www.libris.ro/img/pozeprod/47013/47012749-1-small-1.jpg?ver=1782968869",
     "category": "carti-copii",
     "price": "37,00 Lei"
-  },
-  {
-    "title": "Primele cantecele ale lui bebe",
-    "brand": "Autor Anonim",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/primele-cantecele-ale-lui-bebe/27308659?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zDYsSw0mzVMc&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/27309/27308659-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "25,30 Lei",
-    "oldPrice": "31,62 Lei",
-    "discount": "20%"
   },
   {
     "title": "Cantece pentru copii",
@@ -19026,16 +18996,6 @@
     "price": "14,30 Lei",
     "oldPrice": "17,88 Lei",
     "discount": "20%"
-  },
-  {
-    "title": "Disney. Regatul de gheata - Ma joc si descopar - Caiet de activitati. Grupa mare",
-    "brand": "Silvia Borteanu",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/disney-regatul-de-gheata-ma-joc-si-descopar-caiet-de-activitati-grupa-mare/1195041?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IUU2PV2-7jGZ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/1196/1195041-1-small-1.jpg",
-    "category": "carti-copii",
-    "price": "17,88 Lei"
   },
   {
     "title": "Sofia Intai - Lectia de magie - Caiet de activitati. Grupa mica",
@@ -109083,18 +109043,6 @@
     "category": "carti-copii",
     "price": "12,60 Lei",
     "oldPrice": "15,75 Lei",
-    "discount": "20%"
-  },
-  {
-    "title": "Om si societate - Grupa mica - Caiet de activitati - Adriana Hamza, Luminita Florica Micu, Alina Elena Popovici, Claudia Rodica Plesa",
-    "brand": "Adriana Hamza",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/om-si-societate-grupa-mica-caiet-de-activitati-adriana-hamza-luminita-florica/48139679?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5ps95XkkWRii&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48140/48139679-1-small-1.jpg?ver=1788943989",
-    "category": "carti-copii",
-    "price": "11,98 Lei",
-    "oldPrice": "14,98 Lei",
     "discount": "20%"
   },
   {

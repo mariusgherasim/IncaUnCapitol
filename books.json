@@ -146,7 +146,7 @@
     "price": "56,43 Lei",
     "discount": "-25%",
     "image": "imagini/emotiile-distructive.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6-d5tBvRdVFu&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UNc_puffuA9h&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/emotiile-distructive-ed-iv",
     "description": "Ți s-a spus toată viața să îți controlezi emoțiile. Problema e că „control” înseamnă suprimare — iar suprimarea nu dispare. Se acumulează, se transformă și revine, de obicei în cel mai prost moment posibil.",
     "available": true
@@ -173,7 +173,7 @@
     "price": "45,00 Lei",
     "discount": "-25%",
     "image": "imagini/Blocajul.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RA_hlJ7h_KFR&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=w8pIx7OCe-cr&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blocajul",
     "description": "Nu ești leneș. Nu ești nemotivat. Ești blocat de un mecanism de supraviețuire pe care creierul tău l-a învățat să-l folosească împotriva ta.",
     "available": true
@@ -227,7 +227,7 @@
     "price": "42,86 Lei",
     "discount": "-25%",
     "image": "imagini/Cand_corpul_spune_nu.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TOpYgGsTyZVJ&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jkBbmScIPsxE&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/cand-corpul-spune-nu",
     "description": "Știi senzația că ești bine, că faci față, că „nu e cazul să te plângi”? Gabor Maté — medic cu zeci de ani în îngrijire paliativă — spune că exact asta e semnalul de alarmă pe care îl ignorăm cel mai des.",
     "available": true
@@ -512,7 +512,7 @@
     "price": "46,62 Lei",
     "discount": "-25%",
     "image": "imagini/Gaslight_coperta.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Q_xI0eIkU-fE&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=U5we8JClkGnh&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/efectul-gaslight",
     "offerEnds": "",
     "description": "În 2022, căutările pentru cuvântul «gaslighting» au crescut cu 1740%. Cartea care a popularizat termenul explică de ce te simți mereu vinovată.",
@@ -560,7 +560,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KS7gh011iXSj&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-2",
     "description": "INDICIU NR. 1 o bunică pe care ți-ai dori-o INDICIU NR. 2 o lume care a dispărut într-o singură noapte INDICIU NR. 3 o casă care miroase a scorțișoară",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #4",
@@ -575,7 +575,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=K4Yl52FBks3q&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-4",
     "description": "INDICIU NR. 1 un bărbat care citește scrisorile altora  INDICIU NR. 2 o iubire scrisă în haiku-uri  INDICIU NR. 3 un final pe care n-o să-l ierți",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #8",
@@ -590,7 +590,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_l3huEqmNz-T&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-8",
     "description": "INDICIU NR. 1 o lume în care cărțile sunt interzise  INDICIU NR. 2 un funcționar care copiază literatura din amintire  INDICIU NR. 3 vizionară, înspăimântător de actuală",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #9",
@@ -605,7 +605,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zvdg0Ioz1YfC&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-9",
     "description": "INDICIU NR. 1 un fiu care își caută tatăl într-un sat de morți   INDICIU NR. 2 cartea care l-a învățat pe García Márquez să scrie  INDICIU NR. 3 130 de pagini care au schimbat literatura",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #13",
@@ -620,7 +620,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LB1Zz-zNU8qc&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-13",
     "description": "INDICIU NR. 1 o distopie în care bărbații sunt reeducați  INDICIU NR. 2 un manifest deghizat în roman INDICIU NR. 3 feminism cu colți",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #19",
@@ -635,7 +635,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2TbBpd7Wy9U-&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-19",
     "description": "INDICIU NR. 1 pentru cei cărora li s-a spus prea des „ești prea sensibil”. INDICIU NR. 2 vulnerabilitatea ca formă de curaj INDICIU NR. 3 manualul oamenilor care simt totul la maximum",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #5",
@@ -650,7 +650,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Lv9ZbzbMkHAJ&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-5",
     "description": "INDICIU NR. 1 manipulare care te face să te îndoiești de propria minte INDICIU NR. 2 un termen intrat în vocabular pornind de la un film din 1944 INDICIU NR. 3 numele unei dureri fără rană",
-    "available": true
+    "available": false
   },
   {
     "title": "Liderul poți fi tu.",

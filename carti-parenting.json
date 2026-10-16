@@ -6364,18 +6364,6 @@
     "price": "31,00 Lei"
   },
   {
-    "title": "Copilul tau citeste - Oana Moraru",
-    "brand": "Oana Moraru",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/copilul-tau-citeste-oana-moraru/27793584?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b0a323ca4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/27794/27793584-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "64,60 Lei",
-    "oldPrice": "68,00 Lei",
-    "discount": "5%"
-  },
-  {
     "title": "Cum sa ne crestem fetele in secolul 21 - Steve Biddulph",
     "brand": "Steve Biddulph",
     "sourceSite": "libris.ro",
@@ -6405,7 +6393,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a177e34a8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28540/28539371-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "61,32 Lei"
+    "price": "61,31 Lei"
   },
   {
     "title": "Mame pentru baietii nostri. Ghidul mamelor de baieti - Maggie Dent",
@@ -9222,16 +9210,6 @@
     "image": "https://www.libris.ro/img/pozeprod/45685/45684177-1-small-1.jpg?ver=1772798984",
     "category": "carti-parenting",
     "price": "918,00 Lei"
-  },
-  {
-    "title": "Oul vorbaret. Palatograme - Laura Hardalau, Loredana Bejan",
-    "brand": "Loredana Bejan",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/oul-vorbaret-palatograme-laura-hardalau-loredana-bejan/45941945?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=uq2jeQfFXeCw&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/45942/45941945-1-small-1.jpg?ver=1773405128",
-    "category": "carti-parenting",
-    "price": "45,00 Lei"
   },
   {
     "title": "Bucuria de a invata - Aletha Solter",
@@ -12428,16 +12406,6 @@
     "price": "97,68 Lei"
   },
   {
-    "title": "Cand am renuntat, am devenit mama - andreea calavotti",
-    "brand": "libris.ro",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/cand-am-renuntat-am-devenit-mama-andreea-calavotti/48672666?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WHIt3ZIn2OEY&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48673/48672666-1-small-1.jpg?ver=1791879096",
-    "category": "carti-parenting",
-    "price": "72,15 Lei"
-  },
-  {
     "title": "Un nou membru al familiei",
     "brand": "Mihaela Ada Radu",
     "sourceSite": "grupdzc.ro",
@@ -14910,5 +14878,59 @@
     "image": "https://www.libris.ro/img/pozeprod/48674/48673107-1-small-1.jpg?ver=1791888047",
     "category": "carti-parenting",
     "price": "52,00 Lei"
+  },
+  {
+    "title": "Invata sa asculti - Elena Bonchis",
+    "brand": "Elena Bonchis",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/invata-sa-asculti-elena-bonchis/11623415?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4e16105f8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/11624/11623415-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "9,99 Lei",
+    "oldPrice": "36,96 Lei",
+    "discount": "73%"
+  },
+  {
+    "title": "Ghid de educatie digitala - Richard Culatta",
+    "brand": "Richard Culatta",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/ghid-de-educatie-digitala-richard-culatta/28980560?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=DSWLtB0YK6ui&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28981/28980560-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "9,99 Lei",
+    "oldPrice": "42,24 Lei",
+    "discount": "76%"
+  },
+  {
+    "title": "Cand am renuntat, am devenit mama - Andreea Galavotti",
+    "brand": "Andreea Galavotti",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/cand-am-renuntat-am-devenit-mama-andreea-galavotti/48672666?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WHIt3ZIn2OEY&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48673/48672666-1-small-1.jpg?ver=1791879096",
+    "category": "carti-parenting",
+    "price": "72,15 Lei"
+  },
+  {
+    "title": "Cum sa-ti cresti fiul intr-o lume fara modele - shefali tsabary",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/cum-sa-ti-cresti-fiul-intr-o-lume-fara-modele-shefali-tsabary/48751304?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=mtQSoipAmQHC&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "carti-parenting",
+    "price": "65,90 Lei"
+  },
+  {
+    "title": "Cum sa-ti cresti fiica intr-o lume care o judeca - shefali tsabary",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/cum-sa-ti-cresti-fiica-intr-o-lume-care-o-judeca-shefali-tsabary/48751311?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=NYVIya5isFQN&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "carti-parenting",
+    "price": "65,90 Lei"
   }
 ]

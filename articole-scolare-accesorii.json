@@ -17843,7 +17843,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=l9fR7Qeew8D9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/6/9/2/9/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "21,00 Lei"
+    "price": "26,00 Lei"
   },
   {
     "title": "Plastilina 12 culori pastel ECADA",
@@ -64668,16 +64668,6 @@
     "price": "18,00 Lei"
   },
   {
-    "title": "Set tatuaje temporare - Trick or Treat - Scar",
-    "brand": "Legami",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/set-tatuaje-temporare-trick-or-treat-scar-5420710639",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=X7RWwbkG0dCj&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/5420710639-9018121.png",
-    "category": "articole-scolare-accesorii",
-    "price": "18,00 Lei"
-  },
-  {
     "title": "Semn de carte. Creioane",
     "brand": "libris.ro",
     "sourceSite": "libris.ro",
@@ -65448,16 +65438,6 @@
     "price": "28,60 Lei",
     "oldPrice": "44,00 Lei",
     "discount": "35%"
-  },
-  {
-    "title": "Pila de unghii - Flori (mai multe modele, pret pe bucata)",
-    "brand": "Lesser & Pavey",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/pila-de-unghii-flori-mai-multe-modele-pret-pe-bucata-2103183381",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=815257f97&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/2103183381-0.jpeg",
-    "category": "articole-scolare-accesorii",
-    "price": "10,00 Lei"
   },
   {
     "title": "RUCSAC IS 53X50X27CM",
@@ -68928,5 +68908,35 @@
     "image": "https://cdn.dc5.ro/img-prod/3870715038-1.jpeg",
     "category": "articole-scolare-accesorii",
     "price": "46,00 Lei"
+  },
+  {
+    "title": "Lampa pentru citit: Extraterestru in costum",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/lampa-pentru-citit-extraterestru-in-costum/35976066?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ja-uo91lhSDg&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/35977/35976066-1-small-1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "72,00 Lei"
+  },
+  {
+    "title": "Portfard - Bufnite",
+    "brand": "Kiub",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/portfard-bufnite-3938545754",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=deGOpHq9iZY0&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/3938545754-0.jpeg",
+    "category": "articole-scolare-accesorii",
+    "price": "72,00 Lei"
+  },
+  {
+    "title": "Accesorii pentru ochi reutilizabile - Chill Out - Hearts",
+    "brand": "Legami",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/accesorii-pentru-ochi-reutilizabile-chill-out-hearts-1114145853",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=R69ipsHT6sZd&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/1114145853-1.jpeg",
+    "category": "articole-scolare-accesorii",
+    "price": "31,00 Lei"
   }
 ]
