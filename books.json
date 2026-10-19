@@ -339,10 +339,10 @@
     "price": "54,00 Lei",
     "discount": "25%",
     "image": "imagini/metoda-ask.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=H1fEitI90ezx",
-    "productUrl": "https://www.curteaveche.ro/metoda-ask",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=7VInD0tdVzwo",
+    "productUrl": "https://www.curteaveche.ro/p/metoda-ask",
     "description": "Toată lumea vorbește despre comunicare deschisă. Nimeni nu explică de ce oamenii tac de fapt — chiar și când ar fi în interesul tuturor să vorbească. Această carte explică mecanismul tăcerii și cum îl desfaci.",
-    "available": false
+    "available": true
   },
   {
     "title": "Tată bogat, tată sărac. Educația financiară în familie",
@@ -548,111 +548,6 @@
     "available": true
   },
   {
-    "title": "Blind Date with a Book #2",
-    "source": "curteaveche",
-    "author": "",
-    "category": "",
-    "score": "",
-    "oldPrice": "62,37 Lei",
-    "price": "45,00 Lei",
-    "discount": "28%",
-    "image": "imagini/BlindDate.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KS7gh011iXSj&aff_code=676a7e7d9&campaign_unique=f9db13aad",
-    "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-2",
-    "description": "INDICIU NR. 1 o bunică pe care ți-ai dori-o INDICIU NR. 2 o lume care a dispărut într-o singură noapte INDICIU NR. 3 o casă care miroase a scorțișoară",
-    "available": false
-  },
-  {
-    "title": "Blind Date with a Book #4",
-    "source": "curteaveche",
-    "author": "",
-    "category": "",
-    "score": "",
-    "oldPrice": "40,17 Lei",
-    "price": "20,00 Lei",
-    "discount": "50%",
-    "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-04.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=K4Yl52FBks3q&aff_code=676a7e7d9&campaign_unique=f9db13aad",
-    "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-4",
-    "description": "INDICIU NR. 1 un bărbat care citește scrisorile altora  INDICIU NR. 2 o iubire scrisă în haiku-uri  INDICIU NR. 3 un final pe care n-o să-l ierți",
-    "available": false
-  },
-  {
-    "title": "Blind Date with a Book #8",
-    "source": "curteaveche",
-    "author": "",
-    "category": "",
-    "score": "",
-    "oldPrice": "58,14 Lei",
-    "price": "20,00 Lei",
-    "discount": "66%",
-    "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-08.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_l3huEqmNz-T&aff_code=676a7e7d9&campaign_unique=f9db13aad",
-    "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-8",
-    "description": "INDICIU NR. 1 o lume în care cărțile sunt interzise  INDICIU NR. 2 un funcționar care copiază literatura din amintire  INDICIU NR. 3 vizionară, înspăimântător de actuală",
-    "available": false
-  },
-  {
-    "title": "Blind Date with a Book #9",
-    "source": "curteaveche",
-    "author": "",
-    "category": "",
-    "score": "",
-    "oldPrice": "72,94 Lei",
-    "price": "35,00 Lei",
-    "discount": "52%",
-    "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-09.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zvdg0Ioz1YfC&aff_code=676a7e7d9&campaign_unique=f9db13aad",
-    "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-9",
-    "description": "INDICIU NR. 1 un fiu care își caută tatăl într-un sat de morți   INDICIU NR. 2 cartea care l-a învățat pe García Márquez să scrie  INDICIU NR. 3 130 de pagini care au schimbat literatura",
-    "available": false
-  },
-  {
-    "title": "Blind Date with a Book #13",
-    "source": "curteaveche",
-    "author": "",
-    "category": "",
-    "score": "",
-    "oldPrice": "58,14 Lei",
-    "price": "20,00 Lei",
-    "discount": "66%",
-    "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-13.png",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LB1Zz-zNU8qc&aff_code=676a7e7d9&campaign_unique=f9db13aad",
-    "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-13",
-    "description": "INDICIU NR. 1 o distopie în care bărbații sunt reeducați  INDICIU NR. 2 un manifest deghizat în roman INDICIU NR. 3 feminism cu colți",
-    "available": false
-  },
-  {
-    "title": "Blind Date with a Book #19",
-    "source": "curteaveche",
-    "author": "",
-    "category": "",
-    "score": "",
-    "oldPrice": "58,14 Lei",
-    "price": "40,00 Lei",
-    "discount": "31%",
-    "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-19.png",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2TbBpd7Wy9U-&aff_code=676a7e7d9&campaign_unique=f9db13aad",
-    "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-19",
-    "description": "INDICIU NR. 1 pentru cei cărora li s-a spus prea des „ești prea sensibil”. INDICIU NR. 2 vulnerabilitatea ca formă de curaj INDICIU NR. 3 manualul oamenilor care simt totul la maximum",
-    "available": false
-  },
-  {
-    "title": "Blind Date with a Book #5",
-    "source": "curteaveche",
-    "author": "",
-    "category": "",
-    "score": "",
-    "oldPrice": "69,00 Lei",
-    "price": "45,00 Lei",
-    "discount": "35%",
-    "image": "https://www.curteaveche.ro/image/catalog/Blind Date with a Book/blind-date-with-a-book-05.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Lv9ZbzbMkHAJ&aff_code=676a7e7d9&campaign_unique=f9db13aad",
-    "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-5",
-    "description": "INDICIU NR. 1 manipulare care te face să te îndoiești de propria minte INDICIU NR. 2 un termen intrat în vocabular pornind de la un film din 1944 INDICIU NR. 3 numele unei dureri fără rană",
-    "available": false
-  },
-  {
     "title": "Liderul poți fi tu.",
     "source": "humanitas",
     "author": "Dale Carnegie",
@@ -732,11 +627,12 @@
     "author": "Dr. Jessamy Hibberd",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "price": "59,99 Lei",
+    "price": "65,00 Lei",
     "image": "https://www.libhumanitas.ro/media/catalog/product/s/i/sindromul-impostorului-jessamy-hibberd-.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=cfe72c96d",
     "productUrl": "https://www.libhumanitas.ro/sindromul-impostorului-jessamy-hibberd-a279728.html",
-    "description": "De ce oamenii cei mai competenți sunt și cei mai convinși că nu merită unde au ajuns?"
+    "description": "De ce oamenii cei mai competenți sunt și cei mai convinși că nu merită unde au ajuns?",
+    "available": true
   },
   {
     "title": "Chemarea tribului",
@@ -773,11 +669,12 @@
     "author": "Haruki Murakami",
     "category": "jurnale",
     "score": "9.7 / 10",
-    "price": "34,95 Lei",
+    "price": "39,95 Lei",
     "image": "imagini/autoportret.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=d0f3282e7",
     "productUrl": "https://www.libhumanitas.ro/autoportretul-scriitorului-ca-alergator-de-cursa-lunga-haruki-murakami-a280095.html",
-    "description": "213.290 de oameni au evaluat această carte pe Goodreads. 22.305 au scris și de ce. Câți dintre ei se așteptau la un jurnal de alergare și au primit, de fapt, o lecție de disciplină?"
+    "description": "213.290 de oameni au evaluat această carte pe Goodreads. 22.305 au scris și de ce. Câți dintre ei se așteptau la un jurnal de alergare și au primit, de fapt, o lecție de disciplină?",
+    "available": true
   },
   {
     "title": "De veghe în lanul de secară",
@@ -785,11 +682,12 @@
     "author": "J.D. SALINGER",
     "category": "beletristică",
     "score": "9.8 / 10",
-    "price": "45,00 Lei",
+    "price": "49,95 Lei",
     "image": "imagini/secara.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=fee20ea70",
     "productUrl": "https://www.libhumanitas.ro/de-veghe-in-lanul-de-secara-j-d-salinger-a267048.html",
-    "description": "65 de milioane de exemplare vândute din 1951 încoace. Un milion pe an, în fiecare an, inclusiv acum. Cum rămâne relevantă o carte scrisă acum 75 de ani? De ce o recunosc exact aceiași adolescenți, generație după generație? Și de ce n-a reușit nimeni s-o înlocuiască?"
+    "description": "65 de milioane de exemplare vândute din 1951 încoace. Un milion pe an, în fiecare an, inclusiv acum. Cum rămâne relevantă o carte scrisă acum 75 de ani? De ce o recunosc exact aceiași adolescenți, generație după generație? Și de ce n-a reușit nimeni s-o înlocuiască?",
+    "available": true
   },
   {
     "title": "Pachet „Învață cum să înveți“",
@@ -813,11 +711,12 @@
     "author": "Thomas Morus",
     "category": "beletristică",
     "score": "9.9 / 10",
-    "price": "20,00 Lei",
+    "price": "26,64 Lei",
     "image": "imagini/utopia.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9aab15f10&unique=cd4807352",
     "productUrl": "https://www.libhumanitas.ro/utopia-thomas-morus-a106749.html",
-    "description": "Un cuvânt inventat de un singur om, într-o singură carte, în 1516, e folosit azi — în 2026, 510 ani mai târziu — în aproape fiecare limbă de pe planetă. Cine a fost omul și de ce a ajuns să fie executat pentru felul în care gândea?"
+    "description": "Un cuvânt inventat de un singur om, într-o singură carte, în 1516, e folosit azi — în 2026, 510 ani mai târziu — în aproape fiecare limbă de pe planetă. Cine a fost omul și de ce a ajuns să fie executat pentru felul în care gândea?",
+    "available": true
   },
   {
     "title": "Maestrul și Margareta",
@@ -1359,17 +1258,17 @@
   {
     "title": "Ultimul dans al lui Charlot",
     "author": "Fabio Stassi",
-    "source": "",
-    "productUrl": "",
-    "affiliate": "",
+    "source": "printrecarti",
+    "productUrl": "https://www.printrecarti.ro/44274-fabio-stassi-ultimul-dans-al-lui-charlot.html",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f3492fc89&unique=WsdltYlaCZzH",
     "image": "imagini/Charlot.jpg",
     "score": "9.8/10",
     "category": "jurnale",
-    "price": "9,99 Lei",
+    "price": "10,40 Lei",
     "description": "Cum convingi Moartea să mai aștepte un an? Ce îi spui unui fiu când știi că s-ar putea să nu mai fii acolo când va crește? Ce rămâne dintr-o viață când nu mai poți filma, nu mai poți performa, nu mai ești decât un om bătrân cu amintiri? Chaplin și-a pus aceste întrebări. Noaptea de Crăciun. La 82 de ani.",
     "oldPrice": "",
     "discount": "",
-    "available": false
+    "available": true
   },
   {
     "title": "Procesul",
@@ -1495,17 +1394,17 @@
   {
     "title": "Hoțul de cărți",
     "author": "Markus Zusak",
-    "source": "",
-    "productUrl": "",
-    "affiliate": "",
+    "source": "libris",
+    "productUrl": "https://www.libris.ro/carte/hotul-de-carti-curaj-mai-presus-de-cuvinte-markus-zusak/45038273?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=qSa8g_48exO-",
     "image": "imagini/hotul.jpg",
     "score": "9.6/10",
     "category": "beletristică",
-    "price": "58,00 Lei",
-    "description": "",
-    "oldPrice": "",
-    "discount": "",
-    "available": false
+    "price": "42,40 Lei",
+    "description": "Cartea asta nu e pentru cine caută un roman confortabil despre război. E pentru cei care vor să vadă și partea Germaniei care ascundea evrei în subsol, nu doar pe cea care ardea cărți în piață.",
+    "oldPrice": "53,00 Lei",
+    "discount": "20%",
+    "available": true
   },
   {
     "title": "Întrebările sunt, de fapt, răspunsuri",
@@ -1750,18 +1649,18 @@
   },
   {
     "title": "Cimitirul animalelor",
-    "source": "libris",
+    "source": "printrecarti",
     "author": "Stephen King",
     "category": "beletristică",
     "score": "9.8/10",
-    "oldPrice": "74,99 Lei",
-    "price": "56,24 Lei",
-    "discount": "-25%",
+    "oldPrice": "",
+    "price": "40,00 Lei",
+    "discount": "",
     "image": "imagini/cimitirul.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=wld3aekypwZg",
-    "productUrl": "https://www.libris.ro/carte/cimitirul-animalelor-stephen-king/11931749?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f3492fc89&unique=9R77breLffwW",
+    "productUrl": "https://www.printrecarti.ro/58109-stephen-king-cimitirul-animalelor.html",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
-    "available": false
+    "available": true
   },
   {
     "title": "Închisoarea îngerilor",
@@ -1845,6 +1744,51 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1abebb0ca&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
     "productUrl": "https://carturesti.ro/carte/muncile-lui-persiles-si-ale-sigismundei-66223",
     "description": "Nu e Don Quijote. Nu are umorul lui. N-are nici vreun cavaler rătăcit. E cartea pe care Cervantes a pariat totul, în 1616, cu 4 zile înainte să moară.",
+    "available": true
+  },
+  {
+    "title": "Cele 12 pârghii ale succesului",
+    "source": "libris",
+    "author": "Stephen R. Covey",
+    "category": "dezvoltare",
+    "score": "9.8/10",
+    "oldPrice": "47,47 Lei",
+    "price": "42,72 Lei",
+    "discount": "10%",
+    "image": "imagini/cele 12 parghii.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=e3dc12f50",
+    "productUrl": "https://www.libris.ro/carte/cele-12-parghii-ale-succesului-stephen-r-covey/1164067?utm_source=2parale&utm_medium=feed",
+    "description": "Câți oameni din jurul tău au „reușit”? Câți dintre ei dorm liniștiți? Câți ar rămâne aceiași dacă le-ai lua titlul de pe ușă? Covey avea un nume pentru diferența asta.",
+    "available": true
+  },
+  {
+    "title": "Cele 7 deprinderi ale persoanelor eficace",
+    "source": "libris",
+    "author": "Stephen R. Covey",
+    "category": "dezvoltare",
+    "score": "9.8/10",
+    "oldPrice": "105,61 Lei",
+    "price": "95,05 Lei",
+    "discount": "10%",
+    "image": "imagini/cele 7 deprinderi.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=ef690acc6",
+    "productUrl": "https://www.libris.ro/carte/cele-7-deprinderi-ale-persoanelor-eficace-stephen-r-covey/1072663?utm_source=2parale&utm_medium=feed",
+    "description": "Anii ’90. Camp David. Președintele Statelor Unite citise aceeași carte de două ori și l-a chemat pe autor să-l învețe s-o aplice. Ce carte citește un președinte de două ori? Ce a găsit în ea? Și de ce stă încă necitită pe lista ta?",
+    "available": true
+  },
+  {
+    "title": "Etica liderului eficient sau conducerea bazată pe principii",
+    "source": "libris",
+    "author": "Stephen R. Covey",
+    "category": "dezvoltare",
+    "score": "9.8/10",
+    "oldPrice": "",
+    "price": "21,00 Lei",
+    "discount": "",
+    "image": "imagini/etica.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f3492fc89&unique=mEFKFNQGCSC0",
+    "productUrl": "https://www.printrecarti.ro/59160-stephen-r-covey-etica-liderului-eficient-sau-conducerea-bazata-pe-principii.html",
+    "description": "Sam Walton a deschis primul Walmart în 1962, în Rogers, Arkansas. Zeci de ani mai târziu, a recomandat o carte despre conducere scrisă de un profesor fără niciun magazin. De ce? Pentru că nu vorbea despre tehnici. Vorbea despre principii.",
     "available": true
   }
 ]
