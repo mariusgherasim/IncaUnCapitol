@@ -1231,9 +1231,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e6b40cc24&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26910/26909302-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "27,04 Lei",
+    "price": "27,63 Lei",
     "oldPrice": "29,08 Lei",
-    "discount": "7%"
+    "discount": "5%"
   },
   {
     "title": "Istorie - Clasa 4 - Manual - Bogdan Teodorescu, Flori Balanescu, Corina Andrei, Mihaela Iluta",
@@ -7091,9 +7091,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=669a5ca06&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1192/1191922-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "13,42 Lei",
-    "oldPrice": "14,43 Lei",
-    "discount": "7%"
+    "price": "14,43 Lei"
   },
   {
     "title": "Matematica - Clasa 4 Sem.1 - Caiet de pregatire - Liliana Briceag",
@@ -9259,9 +9257,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=885a99fdb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/933/932102-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "13,76 Lei",
+    "price": "14,06 Lei",
     "oldPrice": "14,80 Lei",
-    "discount": "7%"
+    "discount": "5%"
   },
   {
     "title": "Minutul de comunicare - Clasele 3 si 4 - Roxana Gheorghe, Stefan Pacearca, Camelia Burlan, Irina Negoita",
@@ -18271,9 +18269,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4d563aa45&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/354/353411-1-small-1.jpg?ver=1784890366",
     "category": "manuale-scolare",
-    "price": "74,40 Lei",
-    "oldPrice": "80,00 Lei",
-    "discount": "7%"
+    "price": "80,00 Lei"
   },
   {
     "title": "Aritmetica - Culegere - Clasa 3-4 - Dumitru D. Paraiala, Viorica Paraiala, Cristian-George Paraiala",
@@ -21437,7 +21433,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1f45ae2f6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/37073/37072644-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "6,09 Lei"
+    "price": "5,99 Lei"
   },
   {
     "title": "Team Together 3 Activity Book - Ines Avello, Michelle Mahony, Tessa Lochowski",
@@ -22713,7 +22709,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2f894fb5b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/37949/37948862-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "6,09 Lei"
+    "price": "5,99 Lei"
   },
   {
     "title": "Plansa. Harta generala a Romaniei",
@@ -25647,7 +25643,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=409a9d357&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38390/38389743-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "34,89 Lei"
+    "price": "33,15 Lei",
+    "oldPrice": "34,89 Lei",
+    "discount": "5%"
   },
   {
     "title": "Matematica. Exercitii, probleme, jocuri, teste de evaluare - Clasa 4 - Daniela Berechet, Gentiana Berechet",
@@ -25731,9 +25729,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1dd77d5b6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38399/38398430-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "59,85 Lei",
-    "oldPrice": "63,00 Lei",
-    "discount": "5%"
+    "price": "63,00 Lei"
   },
   {
     "title": "Matematica si explorarea mediului - Clasa 2 - Caiet de aplicatii - Adina Achim, Emanuela Patrichi, Laura Piros, Anca Veronica Taut",
@@ -26183,9 +26179,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f6b8f0f94&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38411/38410414-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "33,25 Lei",
-    "oldPrice": "35,00 Lei",
-    "discount": "5%"
+    "price": "35,00 Lei"
   },
   {
     "title": "Educatie muzicala - Clasa 6 - Manual - Mirela-Larisa Matei, Mariana Magdalena Comanita, Magda Nicoleta Badau",
@@ -30731,9 +30725,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5fBfMCoFUbUD&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/43698/43697689-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "33,25 Lei",
-    "oldPrice": "35,00 Lei",
-    "discount": "5%"
+    "price": "35,00 Lei"
   },
   {
     "title": "Chimie. Limba germana - Clasa 7 - Manual - Luminita Irinel Doicin, Silvia Girtan, Madalina Veronica Angelusiu",
@@ -34237,9 +34229,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-qwCrCS7osI4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44142/44141909-1-small-1.jpg?ver=1759913312",
     "category": "manuale-scolare",
-    "price": "23,25 Lei",
-    "oldPrice": "25,00 Lei",
-    "discount": "7%"
+    "price": "25,00 Lei"
   },
   {
     "title": "Matematica - Clasa 6 Partea 1 - Standard - Camelia-Maria Chindris, Nicolae Apetrei",
@@ -34787,9 +34777,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dWUcuKv2tmXi&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44404/44403436-1-small-1.jpg?ver=1762343083",
     "category": "manuale-scolare",
-    "price": "39,42 Lei",
+    "price": "33,20 Lei",
     "oldPrice": "41,50 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Matematica - Clasa 5 Partea 2 - Consolidare - Maria Zaharia, Dan Zaharia, Sorin Peligrad",
@@ -34947,7 +34937,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hGhDZKRBDDWH&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44479/44478308-1-small-1.jpg?ver=1763623519",
     "category": "manuale-scolare",
-    "price": "38,00 Lei"
+    "price": "36,10 Lei",
+    "oldPrice": "38,00 Lei",
+    "discount": "5%"
   },
   {
     "title": "Matematica - Clasa 8 Partea 2 - Initiere - Ion Tudor",
@@ -46531,7 +46523,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=m3oUytaKfBmS&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/6/1/6/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "58,50 Lei"
+    "price": "54,60 Lei"
   },
   {
     "title": "Pachet 3 carti Grupa mare: 1. Limba si comunicare; 2. Activitati matematice; 3. Cunoasterea mediului (editie 2025)",
@@ -94181,7 +94173,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-VDmVbYnOjKN&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/2/8/3/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,90 Lei"
+    "price": "23,90 Lei"
   },
   {
     "title": "Matematica. Aritmetica, geometrie. Clasa a VIII-a, partea I. Mate 2000 - Initiere (anul scolar 2026-2027)",
@@ -95281,7 +95273,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ga55h1m8pTMn&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/7/6/8/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,75 Lei"
+    "price": "35,00 Lei"
   },
   {
     "title": "Cainele din Baskerville",

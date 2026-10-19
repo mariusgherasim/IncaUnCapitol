@@ -142,9 +142,9 @@
     "author": "Daniel Goleman",
     "category": "dezvoltare",
     "score": "9.0 / 10",
-    "oldPrice": "83,51 Lei",
-    "price": "62,64 Lei",
-    "discount": "25%",
+    "oldPrice": "75,24 Lei",
+    "price": "56,43 Lei",
+    "discount": "-25%",
     "image": "imagini/emotiile-distructive.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UNc_puffuA9h&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/emotiile-distructive-ed-iv",
@@ -169,9 +169,9 @@
     "author": "Britt Frank",
     "category": "dezvoltare",
     "score": "9.0 / 10",
-    "oldPrice": "66,60 Lei",
-    "price": "49,95 Lei",
-    "discount": "25%",
+    "oldPrice": "60,00 Lei",
+    "price": "45,00 Lei",
+    "discount": "-25%",
     "image": "imagini/Blocajul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=w8pIx7OCe-cr&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blocajul",
@@ -223,9 +223,9 @@
     "author": "Gabor Maté",
     "category": "dezvoltare",
     "score": "9.6 / 10",
-    "oldPrice": "63,43 Lei",
-    "price": "47,57 Lei",
-    "discount": "25%",
+    "oldPrice": "57,14 Lei",
+    "price": "42,86 Lei",
+    "discount": "-25%",
     "image": "imagini/Cand_corpul_spune_nu.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jkBbmScIPsxE&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/cand-corpul-spune-nu",
@@ -296,8 +296,8 @@
     "category": "dezvoltare",
     "score": "9.3 / 10",
     "oldPrice": "69,00 Lei",
-    "price": "55,20 Lei",
-    "discount": "-20%",
+    "price": "65,55 Lei",
+    "discount": "-5%",
     "image": "imagini/Mindset_coperta.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f1f5f211a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "productUrl": "https://www.libris.ro/carte/mindset-carol-s-dweck/1164932?utm_source=2parale&utm_medium=feed",
@@ -342,7 +342,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f9db13aad&unique=H1fEitI90ezx",
     "productUrl": "https://www.curteaveche.ro/metoda-ask",
     "description": "Toată lumea vorbește despre comunicare deschisă. Nimeni nu explică de ce oamenii tac de fapt — chiar și când ar fi în interesul tuturor să vorbească. Această carte explică mecanismul tăcerii și cum îl desfaci.",
-    "available": true
+    "available": false
   },
   {
     "title": "Tată bogat, tată sărac. Educația financiară în familie",
@@ -508,9 +508,9 @@
     "author": "Dr. Robin Stern",
     "category": "dezvoltare",
     "score": "9.5 / 10",
-    "oldPrice": "69,00 Lei",
-    "price": "51,75 Lei",
-    "discount": "25%",
+    "oldPrice": "62,16 Lei",
+    "price": "46,62 Lei",
+    "discount": "-25%",
     "image": "imagini/Gaslight_coperta.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=U5we8JClkGnh&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/efectul-gaslight",
@@ -560,7 +560,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KS7gh011iXSj&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-2",
     "description": "INDICIU NR. 1 o bunică pe care ți-ai dori-o INDICIU NR. 2 o lume care a dispărut într-o singură noapte INDICIU NR. 3 o casă care miroase a scorțișoară",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #4",
@@ -575,7 +575,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=K4Yl52FBks3q&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-4",
     "description": "INDICIU NR. 1 un bărbat care citește scrisorile altora  INDICIU NR. 2 o iubire scrisă în haiku-uri  INDICIU NR. 3 un final pe care n-o să-l ierți",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #8",
@@ -590,7 +590,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_l3huEqmNz-T&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-8",
     "description": "INDICIU NR. 1 o lume în care cărțile sunt interzise  INDICIU NR. 2 un funcționar care copiază literatura din amintire  INDICIU NR. 3 vizionară, înspăimântător de actuală",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #9",
@@ -605,7 +605,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zvdg0Ioz1YfC&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-9",
     "description": "INDICIU NR. 1 un fiu care își caută tatăl într-un sat de morți   INDICIU NR. 2 cartea care l-a învățat pe García Márquez să scrie  INDICIU NR. 3 130 de pagini care au schimbat literatura",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #13",
@@ -620,7 +620,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LB1Zz-zNU8qc&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-13",
     "description": "INDICIU NR. 1 o distopie în care bărbații sunt reeducați  INDICIU NR. 2 un manifest deghizat în roman INDICIU NR. 3 feminism cu colți",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #19",
@@ -635,7 +635,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2TbBpd7Wy9U-&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-19",
     "description": "INDICIU NR. 1 pentru cei cărora li s-a spus prea des „ești prea sensibil”. INDICIU NR. 2 vulnerabilitatea ca formă de curaj INDICIU NR. 3 manualul oamenilor care simt totul la maximum",
-    "available": true
+    "available": false
   },
   {
     "title": "Blind Date with a Book #5",
@@ -650,7 +650,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Lv9ZbzbMkHAJ&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/blind-date-with-a-book-5",
     "description": "INDICIU NR. 1 manipulare care te face să te îndoiești de propria minte INDICIU NR. 2 un termen intrat în vocabular pornind de la un film din 1944 INDICIU NR. 3 numele unei dureri fără rană",
-    "available": true
+    "available": false
   },
   {
     "title": "Liderul poți fi tu.",
@@ -797,9 +797,9 @@
     "author": "Barbara Oakley & Olav Schewe (Learn Like a Pro), David Robson (The Expectation Effect), Gloria Mark (Attention Span), Susan Magsamen & Ivy Ross (Your Brain on Art)",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "oldPrice": "290,51 Lei",
-    "price": "174,31 Lei",
-    "discount": "40%",
+    "oldPrice": "261,72 Lei",
+    "price": "157,03 Lei",
+    "discount": "-40%",
     "image": "imagini/altfel.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=i9H0ruaSwSL8&aff_code=676a7e7d9&campaign_unique=f9db13aad",
     "productUrl": "https://www.curteaveche.ro/p/pachet-invata-cum-sa-inveti",
@@ -838,12 +838,12 @@
     "author": "Ray Bradbury",
     "category": "beletristică",
     "score": "9.9 / 10",
-    "price": null,
+    "price": "49,00 Lei",
     "image": "imagini/fahrenheit.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ys2jzPZup7zV&aff_code=676a7e7d9&campaign_unique=da1148931",
     "productUrl": "https://www.librarie.net/p/388284/nia=1693",
     "description": "9 zile. 9,80 dolari în monede de 10 cenți. Atât i-a luat lui Ray Bradbury să scrie prima variantă a uneia dintre cele mai vândute cărți din istorie — peste 10 milioane de exemplare, traduse în peste 33 de limbi. Câte idei importante amâni tu pentru că nu ai „condițiile perfecte”?",
-    "available": false
+    "available": true
   },
   {
     "title": "Jocul cu mărgele de sticlă",
@@ -899,9 +899,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=53064907b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "productUrl": "https://www.librarie.net/p/215695/nia=1693",
     "description": "Toată lumea îți spune că e o carte pentru copii. 140 de milioane de oameni au citit-o și au descoperit că e, de fapt, un diagnostic precis al vieții lor de adult.",
-    "available": true,
-    "oldPrice": "10,00 Lei",
-    "discount": "25%"
+    "available": true
   },
   {
     "title": "1984",
@@ -937,10 +935,10 @@
     "author": "Cella Serghi",
     "category": "beletristică",
     "score": "9.5 / 10",
-    "price": "34,00 Lei",
+    "price": "43,00 Lei",
     "image": "imagini/panza.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cecc67a6f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "productUrl": "https://www.libris.ro/carte/panza-de-paianjen-cella-serghi/24617355?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Rm9suIXMRcIR&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "productUrl": "https://www.libris.ro/carte/panza-de-paianjen-cella-serghi/45037545?utm_source=2parale&utm_medium=feed",
     "description": "Există cărți pe care le citești și te uiți în urmă. Nu la personaj — la tine. La deciziile luate din frică, la iubirile care nu s-au mai terminat bine, la momentele în care ai ales aparența în locul adevărului. Pânza de păianjen e una din acele cărți. Tocmai de asta e greu de uitat.",
     "available": true
   },
@@ -1056,16 +1054,14 @@
   },
   {
     "title": "Să ucizi o pasăre cîntătoare",
-    "source": "libris",
+    "source": "humanitas",
     "author": "Harper Lee",
     "category": "beletristică",
     "score": "9.1 / 10",
-    "oldPrice": "39,95 Lei",
-    "price": "35,96 Lei",
-    "discount": "-10%",
+    "price": "32,95 Lei",
     "image": "imagini/pasare.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=ba1f793af",
-    "productUrl": "https://www.libris.ro/carte/sa-ucizi-o-pasare-cintatoare-harper-lee/815605?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0064dfc47&aff_code=676a7e7d9&campaign_unique=9aab15f10",
+    "productUrl": "https://www.libhumanitas.ro/sa-ucizi-o-pasare-cintatoare-harper-lee-a103737.html",
     "description": "Câte decizii ai amânat pentru că „oricum nu schimb nimic”? De câte ori ai tăcut ca să nu deranjezi? De câte ori ai ales confortul în locul a ceea ce știai că e drept? Atticus Finch a apărat un om condamnat dinainte. Știa că va pierde. A apărat indiferent. O carte scrisă în 1960, în Alabama, îți explică astăzi ce înseamnă să ai coloană vertebrală.",
     "available": true
   },
@@ -1765,7 +1761,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=9a6f02fef&unique=wld3aekypwZg",
     "productUrl": "https://www.libris.ro/carte/cimitirul-animalelor-stephen-king/11931749?utm_source=2parale&utm_medium=feed",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
-    "available": true
+    "available": false
   },
   {
     "title": "Închisoarea îngerilor",

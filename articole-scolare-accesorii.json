@@ -62058,16 +62058,6 @@
     "price": "43,00 Lei"
   },
   {
-    "title": "Oglinda compacta - Nice to See You - Today I Choose Happiness",
-    "brand": "Legami",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/oglinda-compacta-nice-to-see-you-today-i-choose-happiness-1691651368",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bf494b147&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/1691651368-4.jpeg",
-    "category": "articole-scolare-accesorii",
-    "price": "26,00 Lei"
-  },
-  {
     "title": "Sapun - Daily Grind Soap - modele diferite",
     "brand": "Gentlemen's Hardware",
     "sourceSite": "carturesti.ro",
@@ -64218,16 +64208,6 @@
     "price": "199,00 Lei"
   },
   {
-    "title": "Pudra colorata pentru par - Hair Chalk Mermaid",
-    "brand": "Snails",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/pudra-colorata-pentru-par-hair-chalk-mermaid-1112261109",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TWvfTqXRdoji&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/1112261109-0.jpeg",
-    "category": "articole-scolare-accesorii",
-    "price": "40,99 Lei"
-  },
-  {
     "title": "Set de ingrijire corporala - Winter Wishes",
     "brand": "Scottish Fine Soaps",
     "sourceSite": "carturesti.ro",
@@ -64546,16 +64526,6 @@
     "image": "https://cdn.dc5.ro/img-prod/2650184382-1.jpeg",
     "category": "articole-scolare-accesorii",
     "price": "31,00 Lei"
-  },
-  {
-    "title": "Perie de par pliabila - Mai multe culori - Pret pe bucata",
-    "brand": "Depsche",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/perie-de-par-pliabila-mai-multe-culori-pret-pe-bucata-2520634374",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xnbYrTRFSjqH&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/2520634374-0.jpeg",
-    "category": "articole-scolare-accesorii",
-    "price": "27,00 Lei"
   },
   {
     "title": "Balsam de buze - Barbie Snails, pink",
@@ -68938,5 +68908,25 @@
     "image": "https://cdn.dc5.ro/img-prod/1114145853-1.jpeg",
     "category": "articole-scolare-accesorii",
     "price": "31,00 Lei"
+  },
+  {
+    "title": "Pisici pe carti - carnetel artist madalina niculae",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/pisici-pe-carti-carnetel-artist-madalina-niculae/48751969?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pIvkoUcCukXd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "37,00 Lei"
+  },
+  {
+    "title": "Magnolia - agenda artist madalina niculae",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/magnolia-agenda-artist-madalina-niculae/48751577?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bhyrmh8iOJfM&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "99,00 Lei"
   }
 ]
