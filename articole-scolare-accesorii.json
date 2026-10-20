@@ -62686,18 +62686,6 @@
     "price": "30,00 Lei"
   },
   {
-    "title": "Set ingrijire barba - Beard Buddy",
-    "brand": "Fizz Creations",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/set-ingrijire-barba-beard-buddy-2818028418",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=58aad65af&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/2818028418-0.jpeg",
-    "category": "articole-scolare-accesorii",
-    "price": "30,00 Lei",
-    "oldPrice": "60,00 Lei",
-    "discount": "50%"
-  },
-  {
     "title": "Portfard - Panda",
     "brand": "Legami",
     "sourceSite": "carturesti.ro",
@@ -64626,16 +64614,6 @@
     "image": "https://cdn.dc5.ro/img-prod/4418349071-1.png",
     "category": "articole-scolare-accesorii",
     "price": "19,99 Lei"
-  },
-  {
-    "title": "Set 140 stickers unghii - Magic",
-    "brand": "Legami",
-    "sourceSite": "carturesti.ro",
-    "productUrl": "https://carturesti.ro/cosmetice/set-140-stickers-unghii-magic-5125092702",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Oc2e8SyGDzzv&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "image": "https://cdn.dc5.ro/img-prod/5125092702-0.png",
-    "category": "articole-scolare-accesorii",
-    "price": "18,00 Lei"
   },
   {
     "title": "Semn de carte. Creioane",
@@ -68928,5 +68906,25 @@
     "image": "https://www.libris.ro/farapoza1.jpg",
     "category": "articole-scolare-accesorii",
     "price": "99,00 Lei"
+  },
+  {
+    "title": "Portfard - Japon",
+    "brand": "Kiub",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/portfard-japon-3938545760",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3WFu3akfW97s&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/3938545760-0.jpeg",
+    "category": "articole-scolare-accesorii",
+    "price": "72,00 Lei"
+  },
+  {
+    "title": "Set 150+ stickers unghii - Groovy",
+    "brand": "Legami",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/cosmetice/set-150-stickers-unghii-groovy-5125092699",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZyMsJ98HaVGl&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://cdn.dc5.ro/img-prod/5125092699-0.png",
+    "category": "articole-scolare-accesorii",
+    "price": "18,00 Lei"
   }
 ]

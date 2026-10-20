@@ -7403,9 +7403,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d9a52626e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1195/1194496-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "12,06 Lei",
+    "price": "10,15 Lei",
     "oldPrice": "12,69 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Comunicare in limba romana - Clasa 1 - Caiet - Nicoleta Ciobanu, Simona Dobrescu",
@@ -14683,7 +14683,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e494e7692&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/878/877479-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "32,77 Lei"
+    "price": "28,05 Lei",
+    "oldPrice": "33,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Informatica si TIC in lb. germana - Clasa 7 - Manual - Andrei Florea, Silviu-Eugen Sacuiu",
