@@ -3,6 +3,23 @@
     "_readme": "Cardurile de promotie mici, afisate de script.js. pages: \"all\" = pe toate paginile site-ului (sub header), \"home\" = doar pe pagina principala. start/end: data si ora (AAAA-LL-ZZTHH:MM:SS+03:00); cardul apare doar in interval si dispare singur dupa end. Ambele sunt optionale. link: pagina interna (ex. nemira-toamna-literara.html) sau link de afiliere 2Performant (external: true -> se deschide in tab nou, rel sponsored). Culori optionale: accent (bara din stanga, kicker, buton), tagBg / tagColor / tagSmallColor (eticheta rotita); tagSmall = textul mic de sub eticheta. Ordinea din fisier = ordinea pe pagina."
   },
   {
+    "id": "libris-happy-days",
+    "pages": "all",
+    "start": "2026-10-20T00:00:00+03:00",
+    "end": "2026-10-21T23:59:59+03:00",
+    "tag": "-86%",
+    "tagSmall": "Happy Days",
+    "kicker": "libris.ro · doar marți și miercuri, 20–21 octombrie",
+    "title": "Happy Days: cărți cu până la -86%",
+    "text": "1.849 de cărți cu cel puțin 50% reducere, 336 sub 10 lei. Biografii de 73 de lei la 9,99. Se termină miercuri la miezul nopții.",
+    "button": "Vezi selecția",
+    "link": "libris-happy-days.html",
+    "accent": "#c2410c",
+    "tagBg": "#FFD23F",
+    "tagColor": "#c4122f",
+    "tagSmallColor": "#1d2433"
+  },
+  {
     "id": "bookzone-2plus1",
     "pages": "all",
     "start": "2026-10-16T00:00:00+03:00",

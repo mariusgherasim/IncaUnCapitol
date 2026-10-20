@@ -224,5 +224,46 @@
     "startDate": "2026-10-16",
     "endDate": "2026-10-18",
     "weight": 1
+  },
+  {
+    "id": "libris-happy-days-01",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273350/original/273350.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=f7229c7e0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — Happy Days, reduceri de până la 86%",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-21",
+    "weight": 3
+  },
+  {
+    "id": "libris-happy-days-02",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273348/original/273348.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=64c93a553&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — Happy Days, reduceri de până la 86%",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-21",
+    "weight": 2
+  },
+  {
+    "id": "libris-happy-days-03",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273349/original/273349.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=0f344a450&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — Happy Days, reduceri de până la 86%",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-21",
+    "weight": 1
   }
 ]
