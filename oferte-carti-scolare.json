@@ -7,7 +7,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=772bf0357&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38421/38420368-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "48,00 Lei"
+    "price": "38,40 Lei",
+    "oldPrice": "48,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Doctorul Garin - Vladimir Sorokin",
@@ -17,9 +19,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e5a84c38b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36981/36980972-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,36 Lei",
+    "price": "69,36 Lei",
     "oldPrice": "86,70 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Maini cuminti. Tot ce e gresit si tot ce e frumos pe lume - Ana Dragu, Eduard Dragu",
@@ -51,7 +53,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e50803f34&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38393/38392389-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,00 Lei"
+    "price": "40,80 Lei",
+    "oldPrice": "51,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Taramul luminii - Yuko Tsushima",
@@ -61,7 +65,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=sinrnM4OauKV&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38176/38175921-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,00 Lei"
+    "price": "40,80 Lei",
+    "oldPrice": "51,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Solitaire - Alice Oseman",
@@ -105,9 +111,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f0b0e4127&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/37367/37366581-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "75,33 Lei",
+    "price": "63,43 Lei",
     "oldPrice": "79,29 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Urmasii virtutii si ai razbunarii",
@@ -127,7 +133,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ea457db8f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33491/33490961-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "157,51 Lei"
+    "price": "110,26 Lei",
+    "oldPrice": "157,51 Lei",
+    "discount": "30%"
   },
   {
     "title": "Retetele de Craciun ale lui Jamie Oliver - Jamie Oliver",
@@ -137,7 +145,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3b3784b0e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/12003/12002157-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "137,43 Lei"
+    "price": "109,94 Lei",
+    "oldPrice": "137,43 Lei",
+    "discount": "20%"
   },
   {
     "title": "Acid pentru copii. Memorii - Flea",
@@ -147,7 +157,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4994ef826&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21840/21839013-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Minunea - Emma Donoghue",
@@ -187,7 +199,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=T1xVYuV3s3Rd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/42441/42440300-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "52,00 Lei"
+    "price": "41,60 Lei",
+    "oldPrice": "52,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cum să ucizi",
@@ -629,7 +643,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6014fd61b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38176/38175473-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "59,00 Lei"
+    "price": "50,15 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Sa nu scrii asta! - Teagan Hunter",
@@ -639,7 +655,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bd55c80b7&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38176/38175466-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "59,00 Lei"
+    "price": "50,15 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Radio Silence - Alice Oseman",
@@ -837,9 +855,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=627dd2f43&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36649/36648892-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,78 Lei",
+    "price": "37,43 Lei",
     "oldPrice": "62,38 Lei",
-    "discount": "25%"
+    "discount": "40%"
   },
   {
     "title": "Din foarfeca si din condei - Juan Pablo Villalobos",
@@ -849,9 +867,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0080d1e06&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36649/36648192-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "28,55 Lei",
+    "price": "23,79 Lei",
     "oldPrice": "47,58 Lei",
-    "discount": "40%"
+    "discount": "50%"
   },
   {
     "title": "Capcana perfectiunii - Thomas Curran",
@@ -931,9 +949,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e6ee3db59&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36147/36146453-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,36 Lei",
+    "price": "69,36 Lei",
     "oldPrice": "86,70 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Cartea formei si a vidului - Ruth Ozeki",
@@ -943,9 +961,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=adcd33f11&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/36147/36146446-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "80,35 Lei",
+    "price": "67,66 Lei",
     "oldPrice": "84,58 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Lup roșu, negru leopard",
@@ -1025,9 +1043,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1d3e02d09&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/35462/35461594-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "39,64 Lei",
+    "price": "36,99 Lei",
     "oldPrice": "52,85 Lei",
-    "discount": "25%"
+    "discount": "30%"
   },
   {
     "title": "Empatie si sanatate mentala - Arthur J. Clark",
@@ -1157,9 +1175,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c5eb7e906&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/35288/35287371-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "55,50 Lei",
+    "price": "51,80 Lei",
     "oldPrice": "74,00 Lei",
-    "discount": "25%"
+    "discount": "30%"
   },
   {
     "title": "La vie en rose cu Clody Bertola - Ludmila Patlanjoglu",
@@ -1239,9 +1257,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=88b8279ac&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/35379/35378756-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "75,33 Lei",
+    "price": "63,43 Lei",
     "oldPrice": "79,29 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Piatra si umbra - Burhan Sonmez",
@@ -1355,9 +1373,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=30116fbe5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/35003/35002919-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "75,33 Lei",
+    "price": "63,43 Lei",
     "oldPrice": "79,29 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Baietii din cimitir - Aiden Thomas",
@@ -1367,7 +1385,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e2fbce048&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/35461/35460313-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "63,00 Lei"
+    "price": "50,40 Lei",
+    "oldPrice": "63,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Ce-ar fi fost daca... - Holly Miller",
@@ -1477,9 +1497,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=56aed4bd7&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/34730/34729086-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "55,24 Lei",
+    "price": "46,52 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Fortitude. Descopera secretele fortei interioare - Bruce Daisley",
@@ -1501,9 +1521,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b89bdb31c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/34458/34457304-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,22 Lei",
+    "price": "41,45 Lei",
     "oldPrice": "51,81 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Lucky - Marissa Stapley",
@@ -1525,7 +1545,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f842d9a7f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/34640/34639080-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "45,35 Lei"
+    "price": "34,01 Lei",
+    "oldPrice": "45,35 Lei",
+    "discount": "25%"
   },
   {
     "title": "Seoulmates",
@@ -1555,9 +1577,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=77454b88d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/34457/34456268-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "70,31 Lei",
+    "price": "37,01 Lei",
     "oldPrice": "74,01 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Un strop de ură",
@@ -1623,7 +1645,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=85d56830c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33978/33977398-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "72,94 Lei"
+    "price": "62,00 Lei",
+    "oldPrice": "72,94 Lei",
+    "discount": "15%"
   },
   {
     "title": "Pro sau contra?",
@@ -1665,7 +1689,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IKzs2TVb-Gdk&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33789/33788454-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "59,00 Lei"
+    "price": "50,15 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Dragoste prin sms. Numar gresit. Tip potrivit - Teagan Hunter",
@@ -1675,7 +1701,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e53800510&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33789/33788391-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "59,00 Lei"
+    "price": "50,15 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Nick si Charlie - Alice Oseman",
@@ -1797,9 +1825,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a2f4acd10&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33139/33138875-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "69,29 Lei",
+    "price": "58,35 Lei",
     "oldPrice": "72,94 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Acumulare - David Duchovny",
@@ -1809,9 +1837,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=80f1aa9f3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33257/33256363-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "55,24 Lei",
+    "price": "46,52 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Angajatii - Olga Ravn",
@@ -1945,7 +1973,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6a792e759&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33257/33256972-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Jiltul vulturului",
@@ -2075,9 +2105,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4ec85ebfe&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/29130/29129240-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "67,29 Lei",
+    "price": "56,66 Lei",
     "oldPrice": "70,83 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Femeile din Troia",
@@ -2249,7 +2279,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=69a761353&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/29010/29009701-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Insula sobolanilor si alte povestiri",
@@ -2293,9 +2325,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=90b88da25&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28980/28979174-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "73,31 Lei",
+    "price": "61,74 Lei",
     "oldPrice": "77,17 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "In zona cenusie - Adrian Owen",
@@ -2379,9 +2411,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=555e2d6d3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28895/28894509-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "75,33 Lei",
+    "price": "39,65 Lei",
     "oldPrice": "79,29 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "O super trista si adevarata poveste de iubire - Gary Shteyngart",
@@ -2391,9 +2423,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7b1503c82&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28895/28894481-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,05 Lei",
+    "price": "40,70 Lei",
     "oldPrice": "81,40 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "In cautarea copacului-mama. Sa descoperim intelepciunea padurii - Suzanne Simard",
@@ -2415,7 +2447,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c827b59d3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28866/28865473-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "60,27 Lei"
+    "price": "51,23 Lei",
+    "oldPrice": "60,27 Lei",
+    "discount": "15%"
   },
   {
     "title": "Mierea leului - David Grossman",
@@ -2473,9 +2507,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=397a5f008&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28870/28869470-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "59,26 Lei",
+    "price": "49,90 Lei",
     "oldPrice": "62,38 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Metazoare. Viata animala si nasterea mintii - Peter Godfrey-Smith",
@@ -2485,9 +2519,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3c64e979e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28841/28840721-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "20,00 Lei",
+    "price": "17,00 Lei",
     "oldPrice": "72,94 Lei",
-    "discount": "73%"
+    "discount": "77%"
   },
   {
     "title": "Elementele alegerii. De ce conteaza modul in care luam decizii - Eric J. Johnson",
@@ -2597,7 +2631,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=362bfb472&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28700/28699244-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "68,71 Lei"
+    "price": "58,40 Lei",
+    "oldPrice": "68,71 Lei",
+    "discount": "15%"
   },
   {
     "title": "Meduza fara varsta. Secretele naturii legate de longevitate",
@@ -2617,9 +2653,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d6e185f17&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28697/28696668-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "43,61 Lei",
+    "price": "29,07 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Cu 1% mai bun - Chris Nikic, Nik Nikic",
@@ -2629,7 +2665,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=abf80a5be&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28596/28595161-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Eliberare - Sandor Marai",
@@ -2639,7 +2677,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=05a10ad90&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28949/28948724-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "63,43 Lei"
+    "price": "50,74 Lei",
+    "oldPrice": "63,43 Lei",
+    "discount": "20%"
   },
   {
     "title": "Repetitiile",
@@ -2683,9 +2723,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=198f71826&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28633/28632114-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "39,17 Lei",
+    "price": "32,98 Lei",
     "oldPrice": "41,23 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "A fost odata un dulap",
@@ -2793,9 +2833,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4ccffc3b3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28540/28539350-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "55,24 Lei",
+    "price": "46,52 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Cum să accepți ceea ce nu poți schimba",
@@ -2815,7 +2855,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b37c6989d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28509/28508956-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "41,45 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "20%"
   },
   {
     "title": "Cei care cumpără stele",
@@ -2835,7 +2877,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5a7d8f80d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28510/28509152-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "89,86 Lei"
+    "price": "76,38 Lei",
+    "oldPrice": "89,86 Lei",
+    "discount": "15%"
   },
   {
     "title": "Generation P",
@@ -2867,7 +2911,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f88fd988d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28467/28466200-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "68,71 Lei"
+    "price": "51,53 Lei",
+    "oldPrice": "68,71 Lei",
+    "discount": "25%"
   },
   {
     "title": "Puterea conflictului. De ce suișurile și coborâșurile din relații reprezintă secretul construirii intimității, rezilienței și încrederii",
@@ -2887,7 +2933,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3cc890ad7&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28421/28420735-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,21 Lei"
+    "price": "30,61 Lei",
+    "oldPrice": "61,21 Lei",
+    "discount": "50%"
   },
   {
     "title": "O (foarte) scurtă istorie a vieții pe Pământ",
@@ -2917,9 +2965,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=629af2362&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28402/28401128-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "43,61 Lei",
+    "price": "29,07 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "De la idee la bani in arta si muzica - Randey W. Faulkner, Napoleon Hill Foundation",
@@ -2929,9 +2977,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d2e287bbb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28402/28401282-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "43,61 Lei",
+    "price": "29,07 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Thich Nhat Hanh. O viata traita constient - Celine Chadelat, Bernard Baudouin",
@@ -2941,9 +2989,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=525ecc00a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28402/28401268-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,78 Lei",
+    "price": "31,19 Lei",
     "oldPrice": "62,38 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Termină ce ai început. Lecții surprinzătoare din știința motivației",
@@ -3029,9 +3077,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7dd46135e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28317/28316260-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "20,00 Lei",
+    "price": "17,00 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "66%"
+    "discount": "71%"
   },
   {
     "title": "Domnul Președinte",
@@ -3051,9 +3099,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=77215d8b3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28356/28355817-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "89,39 Lei",
+    "price": "47,05 Lei",
     "oldPrice": "94,09 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Mama cainelui - Pavlos Matesis",
@@ -3063,9 +3111,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b3b655dc5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28356/28355922-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "75,33 Lei",
+    "price": "39,65 Lei",
     "oldPrice": "79,29 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Campul in flacari - Juan Rulfo",
@@ -3075,9 +3123,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e2191508b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28356/28355943-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "69,29 Lei",
+    "price": "58,35 Lei",
     "oldPrice": "72,94 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Human lost si alte proze scurte autobiografice - Osamu Dazai",
@@ -3087,7 +3135,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dd72519a1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/29134/29133972-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "37,00 Lei"
+    "price": "29,60 Lei",
+    "oldPrice": "37,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Specialistul în gelozie și alte povestiri",
@@ -3117,7 +3167,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7f9d0593a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28265/28264327-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "52,75 Lei"
+    "price": "39,56 Lei",
+    "oldPrice": "52,75 Lei",
+    "discount": "25%"
   },
   {
     "title": "O memorie exceptionala - Jim Karol, Michael Ross",
@@ -3127,9 +3179,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9864b2a6c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28221/28220143-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "45,99 Lei",
+    "price": "30,66 Lei",
     "oldPrice": "61,32 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Aptitudini de putere",
@@ -3149,9 +3201,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4b9892414&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28221/28220017-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "65,27 Lei",
+    "price": "34,35 Lei",
     "oldPrice": "68,71 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Pustiul din Pine Barrens. Un roman de suspans - Joyce Carol Oates",
@@ -3161,9 +3213,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ea4c6a9f0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28220/28219674-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "95,42 Lei",
+    "price": "80,35 Lei",
     "oldPrice": "100,44 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Fericit de unul singur - Elyakim Kislev",
@@ -3173,9 +3225,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ef35f9196&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28155/28154329-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,53 Lei",
+    "price": "34,35 Lei",
     "oldPrice": "68,71 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Femeia-urs - Karolina Ramqvist",
@@ -3197,7 +3249,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8d4619011&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28219/28218148-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Ultimul zbor",
@@ -3217,7 +3271,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4a750a643&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28154/28153706-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Sarutul femeii-paianjen - Manuel Puig",
@@ -3227,7 +3283,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=12Z-JQJHLDzd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/47021/47020148-1-small-1.jpg?ver=1785496922",
     "category": "oferte-carti-scolare",
-    "price": "59,00 Lei"
+    "price": "47,20 Lei",
+    "oldPrice": "59,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Pedro Paramo - Juan Rulfo",
@@ -3237,9 +3295,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8d6f82f8e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28128/28127176-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "69,29 Lei",
+    "price": "58,35 Lei",
     "oldPrice": "72,94 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Cartea orașelor",
@@ -3259,9 +3317,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=iN-fJPxx68NG&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28127/28126987-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "38,86 Lei",
+    "price": "25,91 Lei",
     "oldPrice": "51,81 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Lume frumoasa, unde esti - Sally Rooney",
@@ -3271,9 +3329,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AkrEbnW7yvab&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28127/28126777-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "85,37 Lei",
+    "price": "71,89 Lei",
     "oldPrice": "89,86 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Despre bunatatea inimii - Dalai Lama",
@@ -3283,9 +3341,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4eb58b999&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28127/28126455-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "43,61 Lei",
+    "price": "29,07 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Timp ca să crești",
@@ -3337,7 +3395,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=236230705&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28034/28033012-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Casa fara oglinzi - Tove Alsterdal",
@@ -3347,9 +3407,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b12c1b997&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28033/28032977-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "39,53 Lei",
+    "price": "37,21 Lei",
     "oldPrice": "46,51 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Oameni obisnuiti - Diana Evans",
@@ -3359,9 +3419,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=502b8e390&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28078/28077056-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "79,34 Lei",
+    "price": "66,82 Lei",
     "oldPrice": "83,52 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Noaptea oracolului",
@@ -3381,9 +3441,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8udfSSYhd4cY&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/43632/43631791-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "52,25 Lei",
+    "price": "44,00 Lei",
     "oldPrice": "55,00 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Bourdain. Biografia orala definitiva - Laurie Woolever",
@@ -3393,7 +3453,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b4f3e0ccc&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28030/28029001-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "79,29 Lei"
+    "price": "67,40 Lei",
+    "oldPrice": "79,29 Lei",
+    "discount": "15%"
   },
   {
     "title": "Puterea regretului. Cum să mergi înainte, privind în urmă",
@@ -3423,7 +3485,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=52c46a9da&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27985/27984341-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "26,43 Lei"
+    "price": "22,47 Lei",
+    "oldPrice": "26,43 Lei",
+    "discount": "15%"
   },
   {
     "title": "Homo Faber",
@@ -3453,9 +3517,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AG3g_MKKwZZa&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/42435/42434091-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "75,33 Lei",
+    "price": "63,43 Lei",
     "oldPrice": "79,29 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Café gourmand",
@@ -3497,7 +3561,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=074ae811a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27940/27939940-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "1000 de creieri",
@@ -3539,9 +3605,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e3c688b9a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27988/27987022-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "70,31 Lei",
+    "price": "59,21 Lei",
     "oldPrice": "74,01 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Întrebări frecvente despre univers",
@@ -3571,9 +3637,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7fbffbe80&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27893/27892235-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "20,00 Lei",
+    "price": "17,00 Lei",
     "oldPrice": "72,94 Lei",
-    "discount": "73%"
+    "discount": "77%"
   },
   {
     "title": "1+1>2",
@@ -3593,9 +3659,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=l1hEBwrnsyes&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27871/27870150-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "47,57 Lei",
+    "price": "31,71 Lei",
     "oldPrice": "63,43 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Insula lui Arturo",
@@ -3625,7 +3691,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=df0162e2d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27870/27869415-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "38,86 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "25%"
   },
   {
     "title": "Inventiile ocazionale - Elena Ferrante",
@@ -3677,9 +3745,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=510450128&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27797/27796846-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "75,33 Lei",
+    "price": "63,43 Lei",
     "oldPrice": "79,29 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Douasprezece si jumatate - Gary Vaynerchuk",
@@ -3689,7 +3757,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b0124079c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27794/27793549-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Doamna England - Stacey Halls",
@@ -3711,9 +3781,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e1efbb7ae&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27775/27774278-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "67,29 Lei",
+    "price": "60,21 Lei",
     "oldPrice": "70,83 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Exista iubiri fericite? - Guy Corneau",
@@ -3723,9 +3793,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=435e5c73f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27775/27774187-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "29,13 Lei",
+    "price": "26,06 Lei",
     "oldPrice": "30,66 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Viol",
@@ -3745,9 +3815,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=913773811&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27797/27796825-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "65,27 Lei",
+    "price": "34,35 Lei",
     "oldPrice": "68,71 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Jamie si petrecerea de vineri seara - Jamie Oliver",
@@ -3757,9 +3827,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=563a8e2af&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27775/27774383-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "110,21 Lei",
+    "price": "73,47 Lei",
     "oldPrice": "146,95 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Rețeaua împăratului",
@@ -3857,9 +3927,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=919cb0747&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27403/27402949-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "79,34 Lei",
+    "price": "66,82 Lei",
     "oldPrice": "83,52 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "The High 5 Habit. E timpul sa te bucuri de tine - Mel Robbins",
@@ -3869,7 +3939,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vlNOBdIiHnTY&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/45324/45323824-1-small-1.jpg?ver=1769061971",
     "category": "oferte-carti-scolare",
-    "price": "55,00 Lei"
+    "price": "44,00 Lei",
+    "oldPrice": "55,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Regăsirea sensului. Regândirea conceptelor de Dumnezeu, sex și moarte într-o lume care a luat-o razna",
@@ -3933,7 +4005,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7241b0780&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27333/27332221-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "60,27 Lei"
+    "price": "51,23 Lei",
+    "oldPrice": "60,27 Lei",
+    "discount": "15%"
   },
   {
     "title": "Principiul Oz - Roger Connors, Tom Smith, Craig Hickman",
@@ -3943,7 +4017,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a077beb9b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27333/27332228-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Accepta lupta. Traieste dupa regulile vietii - Zig Ziglar, Julie Ziglar Norman",
@@ -3953,9 +4029,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0f3ce8bd3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27333/27332921-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "43,61 Lei",
+    "price": "29,07 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Opt detectivi - Alex Pavesi",
@@ -3977,7 +4053,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=17d4e26da&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27289/27288870-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "58,15 Lei"
+    "price": "49,43 Lei",
+    "oldPrice": "58,15 Lei",
+    "discount": "15%"
   },
   {
     "title": "Orice viata arde - Jeremy England",
@@ -3987,7 +4065,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5dcbab010&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27253/27252575-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Vazand glasuri - Oliver Sacks",
@@ -4009,7 +4089,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6f2d3a288&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27253/27252358-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Orașul solitar",
@@ -4081,9 +4163,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=omvKtTLPUfF0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44081/44080365-1-small-1.jpg?ver=1759211199",
     "category": "oferte-carti-scolare",
-    "price": "59,47 Lei",
+    "price": "39,65 Lei",
     "oldPrice": "79,29 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Ciberiada - Stanislaw Lem",
@@ -4093,9 +4175,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cd68c2696&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27130/27129760-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "110,48 Lei",
+    "price": "58,15 Lei",
     "oldPrice": "116,29 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Belonging. Străvechiul cod al lui „împreună”",
@@ -4125,7 +4207,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=609ced1ae&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27131/27130607-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Casa Gucci - Sara Gay Forden",
@@ -4159,7 +4243,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ffef4f3f0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27081/27080102-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "41,45 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "20%"
   },
   {
     "title": "Surorile din Rezistenta",
@@ -4251,9 +4337,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1a25632f6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26956/26955383-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "21,09 Lei",
+    "price": "18,87 Lei",
     "oldPrice": "22,20 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Care e problema ta?",
@@ -4266,18 +4352,6 @@
     "price": "69,00 Lei"
   },
   {
-    "title": "Bureti de fag - Mihai Dutescu",
-    "brand": "Mihai Dutescu",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/bureti-de-fag-mihai-dutescu/26951421?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7e2191eef&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/26952/26951421-1-small-1.jpg",
-    "category": "oferte-carti-scolare",
-    "price": "20,61 Lei",
-    "oldPrice": "41,23 Lei",
-    "discount": "50%"
-  },
-  {
     "title": "Copacul cu bani - Chris Guillebeau",
     "brand": "Chris Guillebeau",
     "sourceSite": "libris.ro",
@@ -4285,7 +4359,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b6a8a06ac&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26928/26927943-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "58,15 Lei"
+    "price": "49,43 Lei",
+    "oldPrice": "58,15 Lei",
+    "discount": "15%"
   },
   {
     "title": "E doar in capul tau - Suzanne O'Sullivan",
@@ -4307,9 +4383,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=00a99d514&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26929/26928839-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "32,36 Lei",
+    "price": "30,46 Lei",
     "oldPrice": "38,07 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "7 feluri - Jamie Oliver",
@@ -4331,9 +4407,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=maEloo9W8hZv&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26865/26864971-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "44,40 Lei",
+    "price": "29,60 Lei",
     "oldPrice": "59,20 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Chimie sociala - Marissa King",
@@ -4343,7 +4419,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b324c43b6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26865/26864670-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "58,15 Lei"
+    "price": "49,43 Lei",
+    "oldPrice": "58,15 Lei",
+    "discount": "15%"
   },
   {
     "title": "Ghici cine urmează",
@@ -4375,7 +4453,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bc413b7ed&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24572/24571435-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Civilizații",
@@ -4417,7 +4497,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ff3687bda&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24527/24526838-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "47,58 Lei"
+    "price": "40,44 Lei",
+    "oldPrice": "47,58 Lei",
+    "discount": "15%"
   },
   {
     "title": "Cum sa combati un rasist - Adam Rutherford",
@@ -4449,9 +4531,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ff2ea21e2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24507/24506237-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,22 Lei",
+    "price": "42,29 Lei",
     "oldPrice": "52,86 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Panica - Lauren Oliver",
@@ -4505,7 +4587,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=aad70e963&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24376/24375092-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Liderul generos - Bob Burg, John David Mann",
@@ -4515,7 +4599,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4fb1acf4c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24376/24375085-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,18 Lei"
+    "price": "34,15 Lei",
+    "oldPrice": "40,18 Lei",
+    "discount": "15%"
   },
   {
     "title": "Taramul celor fara umbra - Hasan Ali Toptas",
@@ -4525,9 +4611,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7a5a883b4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24351/24350459-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "38,86 Lei",
+    "price": "25,91 Lei",
     "oldPrice": "51,81 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "După-amiaza unui faun",
@@ -4547,9 +4633,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ec98c7617&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24351/24350053-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "59,26 Lei",
+    "price": "49,90 Lei",
     "oldPrice": "62,38 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Elefantul din creier. Motivațiile noastre ascunse din viața de zi cu zi",
@@ -4717,7 +4803,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f29b1dfcf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21875/21874178-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "Amurgul Evului Mediu - Johan Huizinga",
@@ -4727,7 +4815,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vD7WuiGawLg2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/42438/42437213-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "94,09 Lei"
+    "price": "79,98 Lei",
+    "oldPrice": "94,09 Lei",
+    "discount": "15%"
   },
   {
     "title": "Să nu ne facem de râs în fața furnicilor",
@@ -4757,7 +4847,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=97f118a0b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21718/21717541-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Cele doua vieti ale Lydiei Bird - Josie Silver",
@@ -4767,9 +4859,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f5a29e3ea&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21599/21598474-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "39,64 Lei",
+    "price": "36,99 Lei",
     "oldPrice": "52,85 Lei",
-    "discount": "25%"
+    "discount": "30%"
   },
   {
     "title": "Holacratia - Brian J. Robertson",
@@ -4779,7 +4871,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9083cdb16&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21457/21456839-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Compasiunea si mintea umana - Paul Gilbert",
@@ -4789,9 +4883,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=18bac67e6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21684/21683767-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "53,12 Lei",
+    "price": "35,41 Lei",
     "oldPrice": "70,83 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Acest virus care ne sminteste - Bernard-Henri Levy",
@@ -4801,7 +4895,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dd0a79c47&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21293/21292727-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "29,61 Lei"
+    "price": "25,17 Lei",
+    "oldPrice": "29,61 Lei",
+    "discount": "15%"
   },
   {
     "title": "Marea de fier - China Mieville",
@@ -4863,7 +4959,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a8571c30a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21240/21239583-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "79,29 Lei"
+    "price": "67,40 Lei",
+    "oldPrice": "79,29 Lei",
+    "discount": "15%"
   },
   {
     "title": "Oamenii sunt idioti si o pot dovedi! - Larry Winget",
@@ -4873,7 +4971,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c11ec6e7f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21197/21196904-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Justitie divina - David Baldacci",
@@ -4883,9 +4983,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9171930e8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21195/21194772-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "30,56 Lei",
+    "price": "28,76 Lei",
     "oldPrice": "35,95 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Sotiile",
@@ -4937,7 +5037,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f21d9ea50&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21005/21004660-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "VEG: Preparate ușoare & delicioase pentru toti",
@@ -5011,7 +5113,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=407cd18a5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20871/20870864-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Companie de mare viteza -  Jason Jennings, Laurence Haughton",
@@ -5021,7 +5125,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c3325cc58&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20871/20870877-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,18 Lei"
+    "price": "34,15 Lei",
+    "oldPrice": "40,18 Lei",
+    "discount": "15%"
   },
   {
     "title": "Du-te cu el - Agnes Ledig",
@@ -5031,7 +5137,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9bdeab885&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20871/20870890-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Nu voi mai vedea lumea niciodata - Ahmet Altan",
@@ -5041,9 +5149,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=745c18ad3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20785/20784804-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,15 Lei",
+    "price": "29,60 Lei",
     "oldPrice": "37,00 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Eu: Elton John",
@@ -5093,9 +5201,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b7fd22db3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/19030/19029624-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "37,16 Lei",
+    "price": "33,25 Lei",
     "oldPrice": "39,12 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Thrive - Arianna Huffington",
@@ -5105,7 +5213,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f071aed29&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/19029/19028584-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Terra Insecta - Anne Sverdrup-Thygeson",
@@ -5127,9 +5237,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8923eaf40&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/19031/19030027-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "37,16 Lei",
+    "price": "33,25 Lei",
     "oldPrice": "39,12 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Creati pentru conexiune - Dr. Sue Johnson, Kenneth Sanderfer",
@@ -5139,7 +5249,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=430e557e6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13327/13326711-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Gata cu tampeniile. Nu te mai sabota, ia-ti viata in maini - Gary John Bishop",
@@ -5161,9 +5273,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FoEt3BLy6nca&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13311/13310058-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "89,39 Lei",
+    "price": "79,98 Lei",
     "oldPrice": "94,09 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Tribul. Despre intoarcerea acasa si apartenenta - Sebastian Junger",
@@ -5205,7 +5317,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a30acea6f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13289/13288478-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Jurnal pentru Stella",
@@ -5235,7 +5349,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f404b7fe9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13212/13211544-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "57,09 Lei"
+    "price": "48,53 Lei",
+    "oldPrice": "57,09 Lei",
+    "discount": "15%"
   },
   {
     "title": "De-a v-ați ascunselea",
@@ -5265,7 +5381,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=11fd4d95b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13142/13141032-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "125,80 Lei"
+    "price": "106,93 Lei",
+    "oldPrice": "125,80 Lei",
+    "discount": "15%"
   },
   {
     "title": "Cartea iluziilor - Paul Auster",
@@ -5295,9 +5413,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d9473fb4f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13182/13181306-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "34,89 Lei",
+    "price": "29,07 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "40%"
+    "discount": "50%"
   },
   {
     "title": "Lumi eterice",
@@ -5317,7 +5435,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cdda3306b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13047/13046808-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "La maturitate - Patricia Cohen",
@@ -5327,9 +5447,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6e5a028b8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27080/27079290-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "43,61 Lei",
+    "price": "29,07 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Strania viata a unui postas singuratic",
@@ -5429,9 +5549,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cb1f47a6d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/12158/12157208-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "55,24 Lei",
+    "price": "46,52 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Fericire spontana - Dr. Andrew Weil",
@@ -5441,9 +5561,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bfr2H9erf5xn&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27080/27079283-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,69 Lei",
+    "price": "23,79 Lei",
     "oldPrice": "47,58 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Vanatorii de umbre - Robert Kurson",
@@ -5493,9 +5613,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cda20884e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/12085/12084681-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "29,13 Lei",
+    "price": "26,06 Lei",
     "oldPrice": "30,66 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Pactul conjugal",
@@ -5535,9 +5655,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dfd061e7d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11745/11744900-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "43,61 Lei",
+    "price": "29,07 Lei",
     "oldPrice": "58,15 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Iubirea reala - Sharon Salzberg",
@@ -5547,9 +5667,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c82ab570c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11745/11744874-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,69 Lei",
+    "price": "23,79 Lei",
     "oldPrice": "47,58 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "O familie aproape normală",
@@ -5579,7 +5699,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a1e3bedda&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11055/11054880-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,51 Lei"
+    "price": "39,53 Lei",
+    "oldPrice": "46,51 Lei",
+    "discount": "15%"
   },
   {
     "title": "Cronici martiene - Ray Bradbury",
@@ -5599,19 +5721,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cfd404055&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11042/11041161-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
-  },
-  {
-    "title": "Vorbea cu patrupedele, cu pasarile si cu pestii - Konrad Lorenz",
-    "brand": "Konrad Lorenz",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/vorbea-cu-patrupedele-cu-pasarile-si-cu-pestii-konrad-lorenz/11038391?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ead5984b3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/11039/11038391-1-small-1.jpg",
-    "category": "oferte-carti-scolare",
-    "price": "29,13 Lei",
-    "oldPrice": "30,66 Lei",
-    "discount": "5%"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Codul pentru o minte extraordinara",
@@ -5661,7 +5773,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4fd50b92a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11008/11007902-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "Paradisurile artificiale",
@@ -5795,9 +5909,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1c98ffe31&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10901/10900509-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "42,18 Lei",
+    "price": "35,52 Lei",
     "oldPrice": "44,40 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Gandeste maret, actioneaza prudent - Jason Jennings",
@@ -5807,7 +5921,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=edc40468c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10900/10899178-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "Fiicele paznicului - Jean E. Pendziwol",
@@ -5817,9 +5933,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9095c3ad4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10900/10899377-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,94 Lei",
+    "price": "29,60 Lei",
     "oldPrice": "42,28 Lei",
-    "discount": "15%"
+    "discount": "30%"
   },
   {
     "title": "Zodiile - Carolyne Faulkner",
@@ -5861,7 +5977,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bc6913d86&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887859-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,51 Lei"
+    "price": "39,53 Lei",
+    "oldPrice": "46,51 Lei",
+    "discount": "15%"
   },
   {
     "title": "Tradatoarea Baru Cormoran - Seth Dickinson",
@@ -5891,7 +6009,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ed91eef08&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10892/10891084-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "121,57 Lei"
+    "price": "97,26 Lei",
+    "oldPrice": "121,57 Lei",
+    "discount": "20%"
   },
   {
     "title": "Fii fericit!",
@@ -6023,9 +6143,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7d22d44ff&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10886/10885004-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "57,26 Lei",
+    "price": "42,19 Lei",
     "oldPrice": "60,27 Lei",
-    "discount": "5%"
+    "discount": "30%"
   },
   {
     "title": "Xanax",
@@ -6075,7 +6195,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2d3fda9d8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10875/10874093-1-small-1.jpg?ver=1758692973",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Vanduta la 13 ani - Patricia McCormick",
@@ -6125,9 +6247,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7a240f82d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10868/10867446-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,44 Lei",
+    "price": "38,06 Lei",
     "oldPrice": "47,58 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Secretul Marelui Sigiliu - Steve Berry",
@@ -6137,9 +6259,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=359e0bf93&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10868/10867447-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,05 Lei",
+    "price": "32,98 Lei",
     "oldPrice": "41,23 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Pamantul iubit de zei",
@@ -6451,7 +6573,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5dc4e0a67&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1259/1258478-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "79,29 Lei"
+    "price": "67,40 Lei",
+    "oldPrice": "79,29 Lei",
+    "discount": "15%"
   },
   {
     "title": "Ziua in care am invatat sa traiesc - Laurent Gounelle",
@@ -6493,7 +6617,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a293b14da&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1255/1254163-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Cum sa-ti hranesti demonii - Tsultrim Allione",
@@ -6503,7 +6629,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=458e3989d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1255/1254161-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "45,46 Lei"
+    "price": "38,64 Lei",
+    "oldPrice": "45,46 Lei",
+    "discount": "15%"
   },
   {
     "title": "Inca aud muzica noastra in gand - Agnes Martin-Lugand",
@@ -6707,9 +6835,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9a92a411c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1192/1191393-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "25,17 Lei",
+    "price": "23,69 Lei",
     "oldPrice": "29,61 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Jumatate inocenta, jumatate inteleapta - Susie Orbach",
@@ -6731,7 +6859,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=de37f4e5d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1167/1166996-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,95 Lei"
+    "price": "28,76 Lei",
+    "oldPrice": "35,95 Lei",
+    "discount": "20%"
   },
   {
     "title": "Ramai insula mea de canabis - Victoria Serman",
@@ -6875,9 +7005,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fa3a5eea5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1166/1165069-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "29,13 Lei",
+    "price": "26,06 Lei",
     "oldPrice": "30,66 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Nisipuri miscatoare - Malin Persson Giolito",
@@ -6887,9 +7017,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1c69c6dc0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1165/1164898-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,43 Lei",
+    "price": "38,06 Lei",
     "oldPrice": "47,57 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Lumina in august - William Faulkner",
@@ -6929,7 +7059,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ac69f0d0d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1163/1162981-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Si soarele e o stea - Nicola Yoon",
@@ -7081,9 +7213,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9b7acfc63&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/926/925977-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "26,95 Lei",
+    "price": "25,37 Lei",
     "oldPrice": "31,71 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Cele o suta de mii de regate - N.K. Jemisin",
@@ -7115,9 +7247,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9b7f56301&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1058/1057608-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,43 Lei",
+    "price": "38,06 Lei",
     "oldPrice": "47,57 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Un barbat la singular - Christopher Isherwood",
@@ -7127,7 +7259,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=beec9c192&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1059/1058227-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "44,00 Lei"
+    "price": "35,20 Lei",
+    "oldPrice": "44,00 Lei",
+    "discount": "20%"
   },
   {
     "title": "Partaj - Horia Corches",
@@ -7187,21 +7321,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=32904fcb0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1002/1001592-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "17,97 Lei",
+    "price": "16,91 Lei",
     "oldPrice": "21,14 Lei",
-    "discount": "15%"
-  },
-  {
-    "title": "Vindecarea prin povesti - George W. Burns",
-    "brand": "George W. Burns",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/vindecarea-prin-povesti-george-w-burns/985209?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bb790a6f2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/986/985209-1-small-1.jpg",
-    "category": "oferte-carti-scolare",
-    "price": "15,54 Lei",
-    "oldPrice": "89,86 Lei",
-    "discount": "83%"
+    "discount": "20%"
   },
   {
     "title": "Comfort Food",
@@ -7387,7 +7509,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=z-CUtOhsAO7F&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/42451/42450114-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "41,45 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "20%"
   },
   {
     "title": "Jeff Bezos si epoca Amazon. The Everything Store - Brad Stone",
@@ -7397,7 +7521,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4b8648d99&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/831/830275-1-small-1.jpg?ver=1758693703",
     "category": "oferte-carti-scolare",
-    "price": "58,15 Lei"
+    "price": "49,43 Lei",
+    "oldPrice": "58,15 Lei",
+    "discount": "15%"
   },
   {
     "title": "Vanatorii de oameni - Jussi Adler Olsen",
@@ -7407,9 +7533,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=74bfbffb9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/820/819246-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "44,04 Lei",
+    "price": "31,09 Lei",
     "oldPrice": "51,81 Lei",
-    "discount": "15%"
+    "discount": "40%"
   },
   {
     "title": "Dosarul Golgota - Philipp Vandenberg",
@@ -7419,9 +7545,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=125562d64&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/819/819000-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "25,16 Lei",
+    "price": "23,68 Lei",
     "oldPrice": "29,60 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Zile si nopti",
@@ -7483,9 +7609,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=30cfc7aeb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/691/690462-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,43 Lei",
+    "price": "38,05 Lei",
     "oldPrice": "47,56 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Gateste in 15 minute cu Jamie - Jamie Oliver",
@@ -7495,9 +7621,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lQaftIQ_HNMQ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/691/690386-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "120,53 Lei",
+    "price": "101,50 Lei",
     "oldPrice": "126,87 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Supercreierul - Deepak Chopra, Rudolph E. Tanzi",
@@ -7519,7 +7645,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f65b4860d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/687/686219-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "52,86 Lei"
+    "price": "37,00 Lei",
+    "oldPrice": "52,86 Lei",
+    "discount": "30%"
   },
   {
     "title": "Orasul noptii - Dean Koontz",
@@ -7529,9 +7657,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=62521e329&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/630/629658-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "24,26 Lei",
+    "price": "22,83 Lei",
     "oldPrice": "28,54 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Fiul ratacitor - Dean Koontz",
@@ -7541,9 +7669,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a5c1d4e26&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/630/629657-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "25,16 Lei",
+    "price": "23,68 Lei",
     "oldPrice": "29,60 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Calea budismului tibetan. Sfârşitul suferinţei şi descoperirea fericirii",
@@ -7595,9 +7723,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pzWCS4uM5nGl&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/571/570343-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "58,25 Lei",
+    "price": "42,92 Lei",
     "oldPrice": "61,32 Lei",
-    "discount": "5%"
+    "discount": "30%"
   },
   {
     "title": "Iubeste revolutia! - Aleksandr Soljenitin",
@@ -7637,7 +7765,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=37a4eb3a0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/562/561462-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "95,14 Lei"
+    "price": "76,11 Lei",
+    "oldPrice": "95,14 Lei",
+    "discount": "20%"
   },
   {
     "title": "Vaduvele de joi seara - Claudia Pineiro",
@@ -7697,9 +7827,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d8bf77206&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/366/365384-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "21,57 Lei",
+    "price": "20,30 Lei",
     "oldPrice": "25,38 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "Cum se amelioreaza operele ratate? - Pierre Bayard",
@@ -7719,9 +7849,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8bad264e4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/324/323112-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "31,44 Lei",
+    "price": "29,59 Lei",
     "oldPrice": "36,99 Lei",
-    "discount": "15%"
+    "discount": "20%"
   },
   {
     "title": "In capatul laboratorului, pe stanga - Edouard Launet",
@@ -7893,9 +8023,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dd1e59806&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/318/317551-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "99,11 Lei",
+    "price": "66,08 Lei",
     "oldPrice": "132,15 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Ce ne spunem când nu ne vorbim",
@@ -7915,7 +8045,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7a33e1f71&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21718/21717528-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,18 Lei"
+    "price": "34,15 Lei",
+    "oldPrice": "40,18 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Nerostit - Neil Abramson",
@@ -7925,7 +8057,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cd5d6edb0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27080/27079094-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,47 Lei"
+    "price": "70,10 Lei",
+    "oldPrice": "82,47 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Nu degeaba ii spune munca! - Larry Winget",
@@ -7935,7 +8069,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a5c544cb0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27080/27079087-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Haihui pe Wall Street - Burton G. Malkiel",
@@ -7945,7 +8081,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4261e153f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26956/26955523-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "94,09 Lei"
+    "price": "79,98 Lei",
+    "oldPrice": "94,09 Lei",
+    "discount": "15%"
   },
   {
     "title": "Communication Skills. Profilurile comunicationale - Octavian Pantis",
@@ -7955,7 +8093,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1c1d1cfac&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26953/26952366-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Salt inainte - Steve Harvey",
@@ -7965,7 +8105,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=533a22992&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24375/24374889-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Opusul lui rasfat - Ron Lieber",
@@ -7975,7 +8117,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=999b7de2d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21837/21836595-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Stoic zi de zi - Ryan Holiday, Stephen Hanselman",
@@ -7985,7 +8129,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b460a855d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21837/21836192-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Afuristele bogate - Nicole Lapin",
@@ -7995,7 +8141,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=35fa26c2e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21718/21717021-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Efectul compus: Impulsioneaza-ti venitul, viata si succesul - Darren Hardy",
@@ -8005,7 +8153,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=03d442ced&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21420/21419399-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "48,63 Lei"
+    "price": "41,34 Lei",
+    "oldPrice": "48,63 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Oamenii sunt idioti si o pot dovedi! - Larry Winget",
@@ -8015,7 +8165,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a915c0d28&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21293/21292701-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Imbratiseaza-ti clientii - Jack Mitchell",
@@ -8025,7 +8177,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=09e6b01a6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21197/21196943-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Companie de mare viteza - Jason Jennings, Laurence Haughton",
@@ -8035,7 +8189,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4d5bd5855&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21197/21196956-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Sensul iubirii - Dr. Sue Johnson",
@@ -8045,7 +8201,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=41d6d3ddd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20527/20526845-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Creati pentru conexiune - Dr. Sue Johnson, Kenneth Sanderfer",
@@ -8055,7 +8213,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8a5110f47&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20527/20526858-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Magia din minte - U.S. Andersen",
@@ -8065,7 +8225,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1fc73d4b8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20527/20526832-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Secretul vanzarilor perene - Ryan Holiday",
@@ -8075,7 +8237,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5d1775962&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20527/20526819-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Mitul antreprenorial. Contractul - Michael E. Gerber",
@@ -8085,7 +8249,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=52c6128e4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13289/13288920-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,18 Lei"
+    "price": "34,15 Lei",
+    "oldPrice": "40,18 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Ziua de astazi conteaza: 12 practici zilnice care iti garanteaza succesul - John Maxwell",
@@ -8095,7 +8261,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bd91624b5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13289/13288907-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Obisnuinte noi, obisnuinte vechi - Jeremy Dean",
@@ -8105,7 +8273,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3f5930024&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13212/13211583-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Emergenta - Derek Rydall",
@@ -8115,7 +8285,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=03d41782a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13145/13144295-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Supranatural - Joe Dispenza",
@@ -8125,7 +8297,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=38101628a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13111/13110755-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "94,09 Lei"
+    "price": "79,98 Lei",
+    "oldPrice": "94,09 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Tractiune - Gino Wickman",
@@ -8135,7 +8309,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=14067ca07&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13111/13110742-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Efectul miliardului prin forte proprii - John Sviokla, Mitch Cohen",
@@ -8145,7 +8321,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6eee3a337&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13043/13042843-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Metamorfozele sufletului - Barbara de Angelis",
@@ -8155,7 +8333,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=14701df4c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13083/13082649-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,47 Lei"
+    "price": "70,10 Lei",
+    "oldPrice": "82,47 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Clubul 5 a.m. - Robin Sharma",
@@ -8165,7 +8345,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a72c45213&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11932/11931645-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Regula 10X - Grant Cardone",
@@ -8175,7 +8357,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b04edddbb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11042/11041159-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "60,27 Lei"
+    "price": "51,23 Lei",
+    "oldPrice": "60,27 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Trei cuvinte magice - Uell S. Andersen",
@@ -8185,7 +8369,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=85e1d1841&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11032/11031537-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Captivat - Nir Eyal",
@@ -8195,7 +8381,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=269bf634d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887857-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,51 Lei"
+    "price": "39,53 Lei",
+    "oldPrice": "46,51 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Zonele albastre - Dan Buettner",
@@ -8205,7 +8393,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=362f3d522&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887767-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Vaca mov - Seth Godin",
@@ -8215,7 +8405,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a773c7a8a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887766-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Poarta-te ca un om de succes, gandeste ca un om de succes - Steve Harvey",
@@ -8225,7 +8417,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=be5d1b0db&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887777-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,51 Lei"
+    "price": "39,53 Lei",
+    "oldPrice": "46,51 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Revolutia blockchain - Don Tapscott, Alex Tapscott",
@@ -8235,7 +8429,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cb6396914&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887750-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "101,49 Lei"
+    "price": "86,27 Lei",
+    "oldPrice": "101,49 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Performanta sub presiune - Hendrie Weisinger, J.P. Pawliw-Fry",
@@ -8245,7 +8441,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ab25931a5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887743-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,47 Lei"
+    "price": "70,10 Lei",
+    "oldPrice": "82,47 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Principiul lui Peter - Laurence J. Peter, Raymond Hull",
@@ -8255,7 +8453,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1bfe0ff94&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887745-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Padurea spanzuratilor - Liviu Rebreanu",
@@ -8265,7 +8465,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f68f01517&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887742-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. O abordare respectuoasa - Edgar H. Schein",
@@ -8275,7 +8477,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=49e439920&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887741-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "41,23 Lei"
+    "price": "35,05 Lei",
+    "oldPrice": "41,23 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Jocul ingerilor - Karen Kingsbury",
@@ -8285,7 +8489,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0551bec9a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887729-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Mitul antreprenorial - Michael E. Gerber",
@@ -8295,7 +8501,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=daab3491c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887736-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "58,15 Lei"
+    "price": "49,43 Lei",
+    "oldPrice": "58,15 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Hiperintuitivii - Heidi Sawyer",
@@ -8305,7 +8513,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e1514facf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887727-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Idei cu lipici - Chip Heath, Dan Heath",
@@ -8315,7 +8525,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ba9464ead&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887728-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Growth hacker in marketing - Ryan Holiday",
@@ -8325,7 +8537,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3dc0f8410&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887726-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "39,12 Lei"
+    "price": "33,25 Lei",
+    "oldPrice": "39,12 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Adam si Eva - Liviu Rebreanu",
@@ -8335,7 +8549,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=169dbd813&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887701-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "60,27 Lei"
+    "price": "51,23 Lei",
+    "oldPrice": "60,27 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Gata cu grasimea incapatanata! - Jorge Cruise",
@@ -8345,7 +8561,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5b30d7417&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887724-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Cele 4 lentile ale inovatiei - Rowan Gibson",
@@ -8355,7 +8573,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ec3b7611c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887709-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "67,66 Lei"
+    "price": "57,51 Lei",
+    "oldPrice": "67,66 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Cum sa-ti hranesti demonii - Tsultrim Allione",
@@ -8365,7 +8585,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=95203fc4f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887717-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Vorbeste ca la Ted - Carmine Gallo",
@@ -8375,7 +8597,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bd48d3921&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10904/10903076-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "66,60 Lei"
+    "price": "56,61 Lei",
+    "oldPrice": "66,60 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Procrastinarea intentionata. 5 permisiuni ca sa iti multiplici timpul - Rory Vaden",
@@ -8385,7 +8609,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=197a31fe2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10904/10903074-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Calea usoara catre succes - Marc Allen",
@@ -8395,7 +8621,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f0f6e400f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10881/10880380-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "66,60 Lei"
+    "price": "56,61 Lei",
+    "oldPrice": "66,60 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Solutia de tapotare - Jessica Ortner",
@@ -8405,7 +8633,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=19371fff0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10881/10880419-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "71,89 Lei"
+    "price": "61,11 Lei",
+    "oldPrice": "71,89 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook Viata in ritm de tenis - Horia Tecau",
@@ -8415,9 +8645,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e9b1149d9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10750/10749782-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,22 Lei",
+    "price": "41,45 Lei",
     "oldPrice": "51,81 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Audiobook Kiss that frog! - Brian Tracy, Christina Tracy Stein",
@@ -8427,9 +8657,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=135d03705&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10750/10749784-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,15 Lei",
+    "price": "29,60 Lei",
     "oldPrice": "37,00 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Audiobook: Cum sa ajungi la pacea interioara - Eckhart Tolle",
@@ -8439,9 +8669,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f2e03962a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1259/1258748-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,15 Lei",
+    "price": "29,60 Lei",
     "oldPrice": "37,00 Lei",
-    "discount": "5%"
+    "discount": "20%"
   },
   {
     "title": "Audiobook. Cartea de leadership - Anthony Gell",
@@ -8451,7 +8681,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=08275b2fb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1253/1252457-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "86,70 Lei"
+    "price": "73,69 Lei",
+    "oldPrice": "86,70 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Cum sa creezi o aplicatie de un miliard de dolari - George Berkowski",
@@ -8461,7 +8693,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=331622d81&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1255/1254156-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "101,49 Lei"
+    "price": "86,27 Lei",
+    "oldPrice": "101,49 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Secrete de la Capra Chicotitoare - Shann Nix Jones",
@@ -8471,7 +8705,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0a3826eaa&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1195/1194984-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Povesti - Ion Creanga",
@@ -8481,7 +8717,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9a256534f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071445-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,51 Lei"
+    "price": "39,53 Lei",
+    "oldPrice": "46,51 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Mara - Ioan Slavici",
@@ -8491,7 +8729,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c0fca0001&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071444-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "70,83 Lei"
+    "price": "60,21 Lei",
+    "oldPrice": "70,83 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Corigent la limba romana - Ion Minulescu",
@@ -8501,7 +8741,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=80ce05461&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071442-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "47,58 Lei"
+    "price": "40,44 Lei",
+    "oldPrice": "47,58 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Povesti cu iepuri si alte animale din jungla - Sanda Socoliuc",
@@ -8511,7 +8753,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f9200108c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071440-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "29,61 Lei"
+    "price": "25,17 Lei",
+    "oldPrice": "29,61 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Poarta-te ca o doamna, gandeste ca un barbat - Steve Harvey",
@@ -8521,7 +8765,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fcf611a90&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071437-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "58,15 Lei"
+    "price": "49,43 Lei",
+    "oldPrice": "58,15 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Chiar daca ti-e frica, actioneaza - Susan Jeffers",
@@ -8531,7 +8777,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=04263210d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071434-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Retelele de socializare explicate - Mark W. Schaefer",
@@ -8541,7 +8789,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f5a7ce525&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071431-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,51 Lei"
+    "price": "39,53 Lei",
+    "oldPrice": "46,51 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Manifest pentru motivatie - Brendon Burchard",
@@ -8551,7 +8801,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=22bb80685&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071427-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "63,43 Lei"
+    "price": "53,92 Lei",
+    "oldPrice": "63,43 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Manager 80/20 - Richard Koch",
@@ -8561,7 +8813,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7bab172f4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071423-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Traieste bine, cheltuieste mai putin - Ruth Soukup",
@@ -8571,7 +8825,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c14158808&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071421-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "57,09 Lei"
+    "price": "48,53 Lei",
+    "oldPrice": "57,09 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Principiile unei afaceri-star - Richard Koch",
@@ -8581,7 +8837,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5ad7bf26f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071418-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Vizualizarea creativa - Shakti Gawain",
@@ -8591,7 +8849,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e6cd753c9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071415-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "46,51 Lei"
+    "price": "39,53 Lei",
+    "oldPrice": "46,51 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Puterea lui NU - James Altucher, Claudia Azula Altucher",
@@ -8601,7 +8861,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b28b328cb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071414-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook: Cum sa castigi prieteni si sa influentezi oameni - Dale Carnegie",
@@ -8611,7 +8873,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=079cc0786&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1073/1072170-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "29,61 Lei"
+    "price": "25,17 Lei",
+    "oldPrice": "29,61 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Cele cinci secrete pe care trebuie sa le descoperi inainte de a muri - John Izzo",
@@ -8621,7 +8885,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a6f567297&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/987/986939-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Pitch de mare succes - Alexander Taub, Ellen Dasilva",
@@ -8631,7 +8897,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b556fa60b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/972/971636-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,47 Lei"
+    "price": "70,10 Lei",
+    "oldPrice": "82,47 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Principiile succesului - Jack Canfield",
@@ -8641,7 +8909,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=18f1b7f16&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/972/971633-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "135,31 Lei"
+    "price": "115,01 Lei",
+    "oldPrice": "135,31 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Carte Audio Putere nemarginita - Anthony Robbins",
@@ -8651,7 +8921,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2b864fe3a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/972/971630-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "103,60 Lei"
+    "price": "88,06 Lei",
+    "oldPrice": "103,60 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobok - SEO pas cu pas - Caimin Jones",
@@ -8661,7 +8933,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6a3ba2e1f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1036/1035870-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "39,12 Lei"
+    "price": "33,25 Lei",
+    "oldPrice": "39,12 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobok - Cum sa creezi afluenta - Deepak Chopra",
@@ -8671,7 +8945,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1fda3ab93&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1036/1035866-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "30,66 Lei"
+    "price": "26,06 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook - Duhul tau launtric - Harry W. Carpenter",
@@ -8681,7 +8957,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=afd894fac&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1036/1035864-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "71,89 Lei"
+    "price": "61,11 Lei",
+    "oldPrice": "71,89 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Lansarea - Jeff Walker",
@@ -8691,7 +8969,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b65cde3b4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1002/1001559-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "56,04 Lei"
+    "price": "47,63 Lei",
+    "oldPrice": "56,04 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Eu Sunt. Dorinte implinite: Meditatie - Dr. Wayne E. Dyer, James F. Twyman",
@@ -8701,7 +8981,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=191b4ccda&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/904/903608-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "23,26 Lei"
+    "price": "19,77 Lei",
+    "oldPrice": "23,26 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. O poveste magica - Frederick Van Rensselaer Dey",
@@ -8711,7 +8993,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=21adc40b8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/904/903605-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "20,10 Lei"
+    "price": "17,09 Lei",
+    "oldPrice": "20,10 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook CD - Levantul - Mircea Cartarescu",
@@ -8721,9 +9005,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=879ceee90&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/902/901291-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "115,12 Lei",
+    "price": "103,00 Lei",
     "oldPrice": "121,18 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Audiobook. 101 cai de a-ti transforma viata - Wayne W. Dyer",
@@ -8733,7 +9017,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2c616bc14&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/870/869077-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "23,26 Lei"
+    "price": "19,77 Lei",
+    "oldPrice": "23,26 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Cel mai mare secret dintre toate - Marc Allen",
@@ -8743,7 +9029,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=46f9f104c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/870/869075-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "30,66 Lei"
+    "price": "26,06 Lei",
+    "oldPrice": "30,66 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Daisy Miller - Henry James",
@@ -8753,9 +9041,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=996ffbace&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/841/840431-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "47,41 Lei",
+    "price": "42,41 Lei",
     "oldPrice": "49,90 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Audiobook Am sa te iubesc pana la sfarsitul lumii - Marius Tuca",
@@ -8785,9 +9073,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fded3482f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/360/359687-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "87,08 Lei",
+    "price": "77,91 Lei",
     "oldPrice": "91,66 Lei",
-    "discount": "5%"
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Fata de la Savoy - Hazel Gaynor",
@@ -8797,7 +9085,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5380eddad&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13043/13042856-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Taci si saruta-ma! - Rachel Gibson",
@@ -8807,7 +9097,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1f1791d45&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887758-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "60,27 Lei"
+    "price": "51,23 Lei",
+    "oldPrice": "60,27 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook: Daca fug - Terri Blackstock",
@@ -8817,7 +9109,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1468fac29&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1162/1161344-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "58,15 Lei"
+    "price": "49,43 Lei",
+    "oldPrice": "58,15 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Arta relatiilor - Dave Kerpen",
@@ -8827,7 +9121,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b9c951d54&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27253/27252491-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Holacratia - Brian J. Robertson",
@@ -8837,7 +9133,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a0aec947b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21420/21419386-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Uita de griji, incepe sa traiesti - Dale Carnegie",
@@ -8847,7 +9145,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5354f2418&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20871/20870903-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Munceste eficient - Carson Tate",
@@ -8857,7 +9157,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4e1155c19&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10904/10903079-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "67,66 Lei"
+    "price": "57,51 Lei",
+    "oldPrice": "67,66 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Big Data - Viktor Mayer-Schonberger, Kenneth Cukier",
@@ -8867,7 +9169,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4d2b10f6c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887702-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "66,60 Lei"
+    "price": "56,61 Lei",
+    "oldPrice": "66,60 Lei",
+    "discount": "15%"
   },
   {
     "title": "4 DVD Fabrica de bani Vol.2 - Marius Simion, Lorand Soares Szasz, Daniel Zarnescu, Pera Novacovici",
@@ -8887,7 +9191,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=358d2d2ec&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1166/1165227-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "70,83 Lei"
+    "price": "60,21 Lei",
+    "oldPrice": "70,83 Lei",
+    "discount": "15%"
   },
   {
     "title": "Cd Trezeste uriasul din tine - Anthony Robbins",
@@ -8897,7 +9203,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=407d1a6ad&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1002/1001555-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "141,66 Lei"
+    "price": "120,41 Lei",
+    "oldPrice": "141,66 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Puterea - Steve LeVine",
@@ -8907,7 +9215,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fa7ae0419&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/11032/11031540-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,47 Lei"
+    "price": "70,10 Lei",
+    "oldPrice": "82,47 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Graffitista - Fanny Andre",
@@ -8917,7 +9227,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=44f84779f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887725-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "67,66 Lei"
+    "price": "57,51 Lei",
+    "oldPrice": "67,66 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Tusa mame - Patrick Dennis",
@@ -8927,7 +9239,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1af6bd5a9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26884/26883290-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,47 Lei"
+    "price": "70,10 Lei",
+    "oldPrice": "82,47 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Finis - Jon Acuff",
@@ -8937,7 +9251,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e78871cd2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24505/24504585-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Multumesc ca ma convingi - Jay Heinrichs",
@@ -8947,7 +9263,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=96501585e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24505/24504578-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "103,60 Lei"
+    "price": "88,06 Lei",
+    "oldPrice": "103,60 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Acest virus care ne sminteste - Bernard-Henri Levy",
@@ -8957,7 +9275,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=19814933b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21420/21419412-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "40,18 Lei"
+    "price": "34,15 Lei",
+    "oldPrice": "40,18 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Du-te cu el - Agnes Ledig",
@@ -8967,7 +9287,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bffa731c6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20871/20870851-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. NU gandi! Redescopera-ti geniul creator - Erik Wahl",
@@ -8977,7 +9299,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4e629dcf9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887782-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Reinventatorii - Jason Jennings",
@@ -8987,7 +9311,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=50e1bc1cf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887749-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Nunta: rochia de mireasa - Rachel Hauck",
@@ -8997,7 +9323,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=db5399002&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887740-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Cum sa devii mai bun - Gretchen Rubin",
@@ -9007,7 +9335,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=54e1db2ab&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887716-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,47 Lei"
+    "price": "70,10 Lei",
+    "oldPrice": "82,47 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. 30 de lectii de viata - Karl Pillemer",
@@ -9017,7 +9347,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8c215298b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887679-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Go-giver - Bob Burg, John David Mann",
@@ -9027,9 +9359,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7ac38bfdf&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071429-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "36,16 Lei",
+    "price": "34,15 Lei",
     "oldPrice": "40,18 Lei",
-    "discount": "10%"
+    "discount": "15%"
   },
   {
     "title": "CD Tu esti solutia - Mark Victor Hansen, Bill Froehlich",
@@ -9039,7 +9371,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6ff538954&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1002/1001560-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "57,09 Lei"
+    "price": "48,53 Lei",
+    "oldPrice": "57,09 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Iubeste-i sau ii pierzi - Beverly Kaye, Sharon Jordan-Evans",
@@ -9049,7 +9383,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7106b3318&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/972/971640-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "80,35 Lei"
+    "price": "68,30 Lei",
+    "oldPrice": "80,35 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Daca ma gasesc - Terri Blackstock",
@@ -9059,7 +9395,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=395d1dd74&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26884/26883297-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Mami cea nemamoasa - Sarah Turner",
@@ -9069,7 +9407,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7fea3d3e7&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21197/21196917-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "49,69 Lei"
+    "price": "42,24 Lei",
+    "oldPrice": "49,69 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Nadejdea vindeca - Katherine Wolf, Jay Wolf",
@@ -9079,7 +9419,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=758299028&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/20870/20869369-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "50,74 Lei"
+    "price": "43,13 Lei",
+    "oldPrice": "50,74 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Secretul unui storyteller - Carmine Gallo",
@@ -9089,7 +9431,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=11005b8d3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/13186/13185206-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Mancarea: O poveste de dragoste - Jim Gaffigan",
@@ -9099,7 +9443,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8d4c79655&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887781-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "82,47 Lei"
+    "price": "70,10 Lei",
+    "oldPrice": "82,47 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Rezilienta - Eric Greitens",
@@ -9109,7 +9455,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4b6a65a48&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887763-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Semnalul de 3% - Jason Kelly",
@@ -9119,7 +9467,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d68c5bb99&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887757-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Casca de protectie - Jon Gordon",
@@ -9129,7 +9479,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=47f9e7a68&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887708-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "37,00 Lei"
+    "price": "31,45 Lei",
+    "oldPrice": "37,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Reinventarea - Jon Acuff",
@@ -9139,7 +9491,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1bce64db5&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887748-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Realimentare -  John La Puma",
@@ -9149,7 +9503,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=33a274b94&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887747-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. 4 ore - Corpul - Timothy Ferriss",
@@ -9159,7 +9515,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=33d2f5004&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887678-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "116,29 Lei"
+    "price": "98,85 Lei",
+    "oldPrice": "116,29 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Alege-te pe tine insuti. Povestile - James Altucher",
@@ -9169,7 +9527,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d42975ce1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887706-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Donna Alba - Gib I. Mihaescu",
@@ -9179,7 +9539,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=007530c8e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887720-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Intelepciunea evurilor - Dr. Wayne W. Dyer",
@@ -9189,7 +9551,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d85474868&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1255/1254162-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Drumul spre caracter - David Brooks",
@@ -9199,7 +9563,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b4cccb68a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1253/1252463-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Automatizarea clientilor - John Warrillow",
@@ -9209,7 +9575,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=87c3a5625&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1253/1252462-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "51,81 Lei"
+    "price": "44,04 Lei",
+    "oldPrice": "51,81 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Criza de leadership si leacul pietei libere - John A. Allison",
@@ -9219,7 +9587,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0c7e735ea&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1253/1252458-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook: Povestea neadevarata a vietii tale - Bryan Hubbard",
@@ -9229,7 +9599,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2cc45a4e9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1162/1161342-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "70,83 Lei"
+    "price": "60,21 Lei",
+    "oldPrice": "70,83 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook: 4 ore saptamana de lucru - Timothy Ferriss",
@@ -9239,7 +9611,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=31718350c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1162/1161340-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "94,09 Lei"
+    "price": "79,98 Lei",
+    "oldPrice": "94,09 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Viata ta nu este pentru tine - Seth Adam Smith",
@@ -9249,7 +9623,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6fc0c66da&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1073/1072898-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "35,95 Lei"
+    "price": "30,56 Lei",
+    "oldPrice": "35,95 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD 69 de poeme de dragoste - Leonard Ancuta",
@@ -9259,7 +9635,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=90bac092a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071422-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "34,89 Lei"
+    "price": "29,66 Lei",
+    "oldPrice": "34,89 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Walden sau viata in padure - Henry David Thoreau",
@@ -9269,7 +9647,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3a9581134&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071448-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "83,52 Lei"
+    "price": "70,99 Lei",
+    "oldPrice": "83,52 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Poieni plutitoare - Dan Iliescu",
@@ -9279,7 +9659,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fbdde3a8f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071439-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "29,61 Lei"
+    "price": "25,17 Lei",
+    "oldPrice": "29,61 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Lasa-ti viata sa vorbeasca! - Parker J. Palmer",
@@ -9289,7 +9671,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b630b5869&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071425-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "38,07 Lei"
+    "price": "32,36 Lei",
+    "oldPrice": "38,07 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Inima prospera - Julia Cameron, Emma Lively",
@@ -9299,7 +9683,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c719aba8a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1072/1071416-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "59,20 Lei"
+    "price": "50,32 Lei",
+    "oldPrice": "59,20 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook:  Metoda GTD. Arta productivitatii fara stres - David Allen",
@@ -9309,7 +9695,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5bf29716f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1163/1162011-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "99,37 Lei"
+    "price": "84,46 Lei",
+    "oldPrice": "99,37 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Scoala vietii - Jim Rogers",
@@ -9319,7 +9707,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fada0076b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1002/1001556-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "CD Reperul normalitatii - Chrisanna Northrup",
@@ -9329,7 +9719,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f8c9415b8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/980/979349-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "70,83 Lei"
+    "price": "60,21 Lei",
+    "oldPrice": "70,83 Lei",
+    "discount": "15%"
   },
   {
     "title": "2CD Tata este gras - Jim Gaffigan",
@@ -9339,7 +9731,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a0471f862&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/972/971634-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "DVD Cum sa scapi de datorii - Daniel Zarnescu",
@@ -9459,7 +9853,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6f709341f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27425/27424782-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Cele patru tendinte - Gretchen Rubin",
@@ -9469,7 +9865,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b8d687137&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27425/27424775-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "61,32 Lei"
+    "price": "52,12 Lei",
+    "oldPrice": "61,32 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Sergiu Cioiu in dialog cu dumneavoastra",
@@ -9489,7 +9887,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4a1c3eaf6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27425/27424551-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "81,40 Lei"
+    "price": "69,19 Lei",
+    "oldPrice": "81,40 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Virtutea nationalismului - Yoram Hazony",
@@ -9499,7 +9899,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7419d807c&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27425/27424558-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Audiobook. Un licar de speranta - Karen Kingsbury",
@@ -9509,7 +9911,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a516e3bb2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/27425/27424768-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "62,38 Lei"
+    "price": "53,02 Lei",
+    "oldPrice": "62,38 Lei",
+    "discount": "15%"
   },
   {
     "title": "Afacerile merg bine - Elsa Dorval Tofan",
@@ -9559,7 +9963,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=91171be35&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10888/10887760-1-small-1.jpg",
     "category": "oferte-carti-scolare",
-    "price": "59,20 Lei"
+    "price": "50,32 Lei",
+    "oldPrice": "59,20 Lei",
+    "discount": "15%"
   },
   {
     "title": "VINIL: Ce-am pierdut in foc - Mariana Enriquez",
