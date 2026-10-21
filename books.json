@@ -496,11 +496,13 @@
     "productUrl": "",
     "category": "beletristică",
     "score": "9.8 / 10",
-    "price": "51,80 Lei",
+    "price": "36,26 Lei",
     "image": "imagini/Elixirul viselor.jpg",
     "affiliate": "https://www.actsipoliton.ro/silvia-cinelli-elixirul-viselor-carte?tracking=69a17509d7810",
     "description": "Fiul cel mare a ales biserica. Al doilea n-avea nicio pregătire. Așa a ajuns Bitter Campari pe rafturile din toată lumea.",
-    "available": true
+    "available": true,
+    "oldPrice": "51,80 Lei",
+    "discount": "30%"
   },
   {
     "title": "Efectul Gaslight",
