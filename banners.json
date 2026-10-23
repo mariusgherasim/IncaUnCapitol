@@ -265,5 +265,46 @@
     "startDate": "2026-10-20",
     "endDate": "2026-10-21",
     "weight": 1
+  },
+  {
+    "id": "libris-macbook-01",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273440/original/273440.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=5b35a591b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — câștigă un MacBook Neo, 23–25 octombrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-25",
+    "weight": 3
+  },
+  {
+    "id": "libris-macbook-02",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273438/original/273438.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=cd03243c0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — câștigă un MacBook Neo, 23–25 octombrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-25",
+    "weight": 2
+  },
+  {
+    "id": "libris-macbook-03",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273439/original/273439.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=3cb56bfff&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro — câștigă un MacBook Neo, 23–25 octombrie",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-25",
+    "weight": 1
   }
 ]
