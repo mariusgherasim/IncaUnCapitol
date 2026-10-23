@@ -22575,9 +22575,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c69622a97&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/37241/37240294-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "62,00 Lei",
-    "oldPrice": "72,94 Lei",
-    "discount": "15%"
+    "price": "72,94 Lei"
   },
   {
     "title": "Secolul XX. Intre democratie si totalitarism. Teste grila de istorie - Marius Constantin",
@@ -24943,9 +24941,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5aec6861d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38394/38393467-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "37,20 Lei",
-    "oldPrice": "40,00 Lei",
-    "discount": "7%"
+    "price": "40,00 Lei"
   },
   {
     "title": "Comunicare in limba romana - Clasa pregatitoare - Partea 2 - Arina Damian",
@@ -26609,9 +26605,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f556233c4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38406/38405164-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "55,80 Lei",
-    "oldPrice": "60,00 Lei",
-    "discount": "7%"
+    "price": "60,00 Lei"
   },
   {
     "title": "Educatie Sociala - Clasa 7 - Manual - Adina Grigore, Cristina Ipate-Toma, Daniela Chirita, Georgeta-Mihaela Crivac, Gabriela-Carmen Diaconescu",
@@ -30965,9 +30959,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TchXt9gHtoZE&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/43633/43632435-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "36,10 Lei",
-    "oldPrice": "38,00 Lei",
-    "discount": "5%"
+    "price": "38,00 Lei"
   },
   {
     "title": "Matematica - Clasa 8 Partea 1 - Initiere - Ion Tudor",
@@ -89579,7 +89571,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nyoHvVCzluHR&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/8/3/3/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "243,98 Lei"
+    "price": "242,98 Lei"
   },
   {
     "title": "Un cantec e inima mea. Cantece pentru copii (Carte + CD cadou)",
@@ -91809,7 +91801,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZV0L5JHEspat&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/8/7/1/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "34,90 Lei"
+    "price": "36,90 Lei"
   },
   {
     "title": "Dezvoltare personala. Clasa I. Caiet de lucru",
@@ -100724,5 +100716,17 @@
     "image": "https://www.edituragama.ro/media/catalog/product/c/u/cum-sa-reusesti-fara-sa-tocesti-la-fizica-vol-2---coperta.jpg",
     "category": "manuale-scolare",
     "price": "59,00 Lei"
+  },
+  {
+    "title": "Balaureat 2027. Limba și literatura română. Ghid complet pentru competențe și proba scrisă",
+    "brand": "Editura Corint",
+    "sourceSite": "edituracorint.ro",
+    "productUrl": "https://edituracorint.ro/balaureat-2027-limba-si-literatura-romana-ghid-complet-pentru-competente-si-proba-scrisa.html",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cu3uIAJD2lFc&aff_code=676a7e7d9&campaign_unique=8dad9830f",
+    "image": "https://edituracorint.ro/pub/media/catalog/product/9/7/9786303614298.png",
+    "category": "manuale-scolare",
+    "price": "49,22 Lei",
+    "oldPrice": "57,90 Lei",
+    "discount": "15%"
   }
 ]

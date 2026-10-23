@@ -51103,7 +51103,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=oIceR_sh84pz&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/7/9/3/2/6/300x300.jpg",
     "category": "articole-scolare-jocuri",
-    "price": "81,00 Lei"
+    "price": "89,10 Lei"
   },
   {
     "title": "Joc educativ Agerino Sa descoperim Romania: Invatarea geografiei",
@@ -64172,16 +64172,6 @@
     "price": "159,99 Lei"
   },
   {
-    "title": "Toneta cu burgeri",
-    "brand": "LEGO",
-    "sourceSite": "brickplanet.ro",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HBEEb1501lTv&aff_code=676a7e7d9&campaign_unique=d374fe7ee",
-    "image": "https://www.brickplanet.ro/continut/produse/3xxx/3213/comparatoare/zoom/toneta-cu-burgeri_15333.jpg",
-    "category": "articole-scolare-jocuri",
-    "productUrl": "https://www.brickplanet.ro/lego-city-toneta-cu-burgeri-60404/",
-    "price": "99,99 Lei"
-  },
-  {
     "title": "Animalute de companie creative 3 in 1",
     "brand": "LEGO",
     "sourceSite": "brickplanet.ro",
@@ -64633,9 +64623,7 @@
     "image": "https://www.brickplanet.ro/continut/produse/0xxx/284/comparatoare/zoom/furgoneta-lego_1852.jpg",
     "category": "articole-scolare-jocuri",
     "productUrl": "https://www.brickplanet.ro/lego-city-furgoneta-lego-60500/",
-    "price": "111,99 Lei",
-    "oldPrice": "159,99 Lei",
-    "discount": "30%"
+    "price": "159,99 Lei"
   },
   {
     "title": "Motocicleta rapida a lui Mandalorian si Grogu",
@@ -64746,18 +64734,6 @@
     "category": "articole-scolare-jocuri",
     "productUrl": "https://www.brickplanet.ro/lego-ghiozdane-si-rechizite-rucsac-lego-signature-brick-2x2-negru-20318-0354/",
     "price": "429,99 Lei"
-  },
-  {
-    "title": "Aventura cu sania pe sine la castelul de gheata al Elsei",
-    "brand": "LEGO",
-    "sourceSite": "brickplanet.ro",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=kY_C7V_lnVhU&aff_code=676a7e7d9&campaign_unique=d374fe7ee",
-    "image": "https://www.brickplanet.ro/continut/produse/3xxx/3227/comparatoare/zoom/aventura-cu-sania-pe-sine-la-castelul-de-gheata-al-elsei_27764.jpg",
-    "category": "articole-scolare-jocuri",
-    "productUrl": "https://www.brickplanet.ro/lego-disney-aventura-cu-sania-pe-sine-la-castelul-de-gheata-al-elsei-43281/",
-    "price": "202,99 Lei",
-    "oldPrice": "264,99 Lei",
-    "discount": "23%"
   },
   {
     "title": "Excursie cu cortul",
@@ -66172,16 +66148,6 @@
     "category": "articole-scolare-jocuri",
     "productUrl": "https://www.brickplanet.ro/lego-cutii-depozitare-cutie-depozitare-lego-2-galben-40021732/",
     "price": "99,99 Lei"
-  },
-  {
-    "title": "Cutie depozitare LEGO 4 galben",
-    "brand": "LEGO",
-    "sourceSite": "brickplanet.ro",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YPxnaqCM5Yai&aff_code=676a7e7d9&campaign_unique=d374fe7ee",
-    "image": "https://www.brickplanet.ro/continut/produse/0xxx/797/comparatoare/zoom/cutie-depozitare-lego-4-galben_5376.jpg",
-    "category": "articole-scolare-jocuri",
-    "productUrl": "https://www.brickplanet.ro/lego-cutii-depozitare-cutie-depozitare-lego-4-galben-40031732/",
-    "price": "149,99 Lei"
   },
   {
     "title": "Cutie sandwich LEGO 2x4 albastru",
@@ -69724,16 +69690,6 @@
     "price": "264,99 Lei"
   },
   {
-    "title": "Editia de colectie Iron Man Mark 3",
-    "brand": "LEGO",
-    "sourceSite": "brickplanet.ro",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b7VKw4EZnIZB&aff_code=676a7e7d9&campaign_unique=d374fe7ee",
-    "image": "https://www.brickplanet.ro/continut/produse/0xxx/251/comparatoare/zoom/editia-de-colectie-iron-man-mark-3_1587.jpg",
-    "category": "articole-scolare-jocuri",
-    "productUrl": "https://www.brickplanet.ro/lego-marvel-editia-de-colectie-iron-man-mark-3-76344/",
-    "price": "699,99 Lei"
-  },
-  {
     "title": "Hagrid™ si Harry in fuga de pe Aleea Boschetelor",
     "brand": "LEGO",
     "sourceSite": "brickplanet.ro",
@@ -71193,9 +71149,7 @@
     "image": "https://www.brickplanet.ro/continut/produse/0xxx/96/comparatoare/zoom/buldoexcavator-galben_544.jpg",
     "category": "articole-scolare-jocuri",
     "productUrl": "https://www.brickplanet.ro/lego-city-buldoexcavator-galben-60480/",
-    "price": "118,99 Lei",
-    "oldPrice": "159,99 Lei",
-    "discount": "26%"
+    "price": "159,99 Lei"
   },
   {
     "title": "Corabie de pirati emblematica",
@@ -71412,16 +71366,6 @@
     "category": "articole-scolare-jocuri",
     "productUrl": "https://www.brickplanet.ro/lego-ghiozdane-si-rechizite-penar-cilindric-lego-minifigurine-rosu-20352-2623/",
     "price": "53,99 Lei"
-  },
-  {
-    "title": "Cutie pentru pranz LEGO Minifigurine Rosu",
-    "brand": "LEGO",
-    "sourceSite": "brickplanet.ro",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FgqUhE4Bwket&aff_code=676a7e7d9&campaign_unique=d374fe7ee",
-    "image": "https://www.brickplanet.ro/continut/produse/0xxx/63/comparatoare/zoom/cutie-pentru-pranz-lego-minifigurine-rosu_383.jpg",
-    "category": "articole-scolare-jocuri",
-    "productUrl": "https://www.brickplanet.ro/lego-ghiozdane-si-rechizite-cutie-pentru-pranz-lego-minifigurine-rosu-20284-2623/",
-    "price": "85,99 Lei"
   },
   {
     "title": "Sac sport LEGO Minifigurine Albastru",
@@ -72095,9 +72039,7 @@
     "image": "https://www.brickplanet.ro/continut/produse/0xxx/286/comparatoare/zoom/furgoneta-de-cartofi-prajiti_1867.jpg",
     "category": "articole-scolare-jocuri",
     "productUrl": "https://www.brickplanet.ro/lego-city-furgoneta-de-cartofi-prajiti-60488/",
-    "price": "69,99 Lei",
-    "oldPrice": "99,99 Lei",
-    "discount": "30%"
+    "price": "99,99 Lei"
   },
   {
     "title": "Ramuri de magnolie",
@@ -72228,16 +72170,6 @@
     "category": "articole-scolare-jocuri",
     "productUrl": "https://www.brickplanet.ro/lego-city-masini-de-curse-f1-williams-racing-si-haas-f1-60464/",
     "price": "99,99 Lei"
-  },
-  {
-    "title": "Cursa de viteza cu motocicleta lui Kai",
-    "brand": "brickplanet.ro",
-    "sourceSite": "brickplanet.ro",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=yOTRus55FxQg&aff_code=676a7e7d9&campaign_unique=d374fe7ee",
-    "image": "https://www.brickplanet.ro/continut/produse/0xxx/511/comparatoare/zoom/cursa-de-viteza-cu-motocicleta-lui-kai_3567.jpg",
-    "category": "articole-scolare-jocuri",
-    "productUrl": "https://www.brickplanet.ro/lego-ninjago-cursa-de-viteza-cu-motocicleta-lui-kai-71838/",
-    "price": "49,99 Lei"
   },
   {
     "title": "Plantute in ghiveci",
@@ -93540,16 +93472,6 @@
     "price": "159,99 Lei"
   },
   {
-    "title": "Masina de politie",
-    "brand": "LEGO",
-    "sourceSite": "brickplanet.ro",
-    "productUrl": "https://www.brickplanet.ro/masina-de-politie/",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=tibsvKGS68ux&aff_code=676a7e7d9&campaign_unique=d374fe7ee",
-    "image": "https://www.brickplanet.ro/continut/produse/3xxx/3193/comparatoare/zoom/masina-de-politie_10431.jpg",
-    "category": "articole-scolare-jocuri",
-    "price": "49,99 Lei"
-  },
-  {
     "title": "Pix cu gel LEGO  - Rosu",
     "brand": "LEGO",
     "sourceSite": "brickplanet.ro",
@@ -94740,16 +94662,6 @@
     "image": "https://www.brickplanet.ro/continut/produse/0xxx/403/comparatoare/zoom/distractie-la-locul-de-joaca-cu-blue-si-chloe_2751.jpg",
     "category": "articole-scolare-jocuri",
     "price": "99,99 Lei"
-  },
-  {
-    "title": "Ferrari FXX K",
-    "brand": "LEGO",
-    "sourceSite": "brickplanet.ro",
-    "productUrl": "https://www.brickplanet.ro/lego-technic-ferrari-fxx-k-42212/",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=L8JMnird3kfn&aff_code=676a7e7d9&campaign_unique=d374fe7ee",
-    "image": "https://www.brickplanet.ro/continut/produse/0xxx/396/comparatoare/zoom/ferrari-fxx-k_2688.jpg",
-    "category": "articole-scolare-jocuri",
-    "price": "319,99 Lei"
   },
   {
     "title": "Nava de lupta stelara V-19 Torrent",
