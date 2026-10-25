@@ -20,6 +20,23 @@
     "tagSmallColor": "#C4122F"
   },
   {
+    "id": "act-politon-librarie",
+    "pages": "all",
+    "start": "2026-10-23T00:00:00+03:00",
+    "end": "2026-12-23T23:59:59+02:00",
+    "tag": "-23%",
+    "tagSmall": "minimum",
+    "kicker": "librarie.net · ACT și Politon · până pe 23 decembrie",
+    "title": "Peste 600 de cărți ACT și Politon, cu minimum -23%",
+    "text": "Psihologia banilor, Profit First, Tony Robbins, Dale Carnegie, Stephen Covey. Reducerea se aplică direct pe site, fără cod.",
+    "button": "Vezi oferta",
+    "link": "act-politon-librarie-net.html",
+    "accent": "#1D2433",
+    "tagBg": "#F2B84B",
+    "tagColor": "#C4122F",
+    "tagSmallColor": "#1D2433"
+  },
+  {
     "id": "book-half",
     "pages": "all",
     "tag": "-50%",
