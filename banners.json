@@ -306,5 +306,46 @@
     "startDate": "2026-10-23",
     "endDate": "2026-10-25",
     "weight": 1
+  },
+  {
+    "id": "nemira-bf-01",
+    "merchant": "nemira.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273543/original/273543.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=39bf2a08e&aff_code=676a7e7d9&campaign_unique=9617003d6",
+    "alt": "nemira.ro: Black Friday, până la -90% + cod EXTRA20, 6–10 noiembrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-10",
+    "weight": 2
+  },
+  {
+    "id": "nemira-bf-02",
+    "merchant": "nemira.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273546/original/273546.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=9d7491907&aff_code=676a7e7d9&campaign_unique=9617003d6",
+    "alt": "nemira.ro: Black Friday, până la -90% + cod EXTRA20, 6–10 noiembrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-10",
+    "weight": 2
+  },
+  {
+    "id": "nemira-bf-03",
+    "merchant": "nemira.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273550/original/273550.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=8a53bdffc&aff_code=676a7e7d9&campaign_unique=9617003d6",
+    "alt": "nemira.ro: Black Friday, până la -90% + cod EXTRA20, 6–10 noiembrie",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-10",
+    "weight": 1
   }
 ]
