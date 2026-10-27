@@ -347,5 +347,32 @@
     "startDate": "2026-10-26",
     "endDate": "2026-11-10",
     "weight": 1
+  },
+  {
+    "id": "libris-viena-01",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273554/original/273554.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=3681d8a79&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "libris.ro: câștigă un city break la Târgul de Crăciun din Viena, 27–28 octombrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-10-27",
+    "endDate": "2026-10-28",
+    "weight": 3
+  },
+  {
+    "id": "libris-viena-02",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/273553/original/273553.JPG",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=cca8a81a9&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "Comandă pe libris.ro și poți câștiga un city break la Viena",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-10-27",
+    "endDate": "2026-10-28",
+    "weight": 1
   }
 ]

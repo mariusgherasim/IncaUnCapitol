@@ -3,6 +3,23 @@
     "_readme": "Cardurile de promotie mici, afisate de script.js. pages: \"all\" = pe toate paginile site-ului (sub header), \"home\" = doar pe pagina principala. start/end: data si ora (AAAA-LL-ZZTHH:MM:SS+03:00); cardul apare doar in interval si dispare singur dupa end. Ambele sunt optionale. link: pagina interna (ex. nemira-toamna-literara.html) sau link de afiliere 2Performant (external: true -> se deschide in tab nou, rel sponsored). Culori optionale: accent (bara din stanga, kicker, buton), tagBg / tagColor / tagSmallColor (eticheta rotita); tagSmall = textul mic de sub eticheta. Ordinea din fisier = ordinea pe pagina."
   },
   {
+    "id": "libris-city-break-viena",
+    "pages": "all",
+    "start": "2026-10-27T00:00:00+02:00",
+    "end": "2026-10-28T23:59:59+02:00",
+    "tag": "Viena",
+    "tagSmall": "city break 4*",
+    "kicker": "Concurs libris.ro · doar 27–28 octombrie",
+    "title": "O comandă pe libris.ro te poate duce la Târgul de Crăciun din Viena",
+    "text": "Comenzile plasate azi și mâine, până la miezul nopții, și livrate cu succes intră automat la tragerea pentru un city break de 4 stele. Fără cod, fără înscriere.",
+    "button": "Vezi concursul",
+    "link": "libris-city-break-viena.html",
+    "accent": "#1D2433",
+    "tagBg": "#E4E7EC",
+    "tagColor": "#1D2433",
+    "tagSmallColor": "#C4122F"
+  },
+  {
     "id": "nemira-black-friday",
     "pages": "all",
     "end": "2026-11-10T23:59:59+02:00",
