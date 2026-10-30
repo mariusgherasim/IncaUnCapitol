@@ -124648,5 +124648,17 @@
     "price": "51,60 Lei",
     "oldPrice": "64,50 Lei",
     "discount": "20%"
+  },
+  {
+    "title": "Regina Maria, niciodată departe",
+    "brand": "Editura Corint",
+    "sourceSite": "edituracorint.ro",
+    "productUrl": "https://edituracorint.ro/regina-maria-niciodata-departe.html",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c5d2kslktUWG&aff_code=676a7e7d9&campaign_unique=8dad9830f",
+    "image": "https://edituracorint.ro/pub/media/catalog/product/r/e/regina-maria-niciodata-departe-alina-baltac-corintjunior-01.jpg",
+    "category": "carti-copii",
+    "price": "46,48 Lei",
+    "oldPrice": "71,50 Lei",
+    "discount": "35%"
   }
 ]
