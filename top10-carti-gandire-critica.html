@@ -394,6 +394,19 @@ body {
 #mlb2-44026818.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p{color:rgba(255,255,255,.85)!important;font-size:14px!important;font-family:Arial,Helvetica,sans-serif!important}
 .ml-error input{border-color:red!important}
 
+
+/* ── REDUCERILE LUNII (din promo.json) ── */
+.promos { display:grid; grid-template-columns: repeat(2,1fr); gap:16px; margin-bottom:40px; }
+.promo { display:flex; gap:16px; align-items:center; text-decoration:none; color:var(--navy); background:#fff; border:1px solid #ddd6ca; border-left:5px solid var(--acc); border-radius:10px; padding:16px; transition: transform .15s, box-shadow .15s; }
+.promo:hover { transform: translateY(-2px); box-shadow:0 8px 18px rgba(11,31,74,.1); }
+.promo-tag { flex:0 0 auto; width:86px; text-align:center; font-family:'Courier New',monospace; font-weight:700; font-size:19px; line-height:1.1; padding:12px 6px; border-radius:8px; transform: rotate(-3deg); }
+.promo-tag small { display:block; font-size:10.5px; margin-top:4px; }
+.promo-body { display:flex; flex-direction:column; gap:3px; }
+.promo-kicker { font-size:10.5px; letter-spacing:1px; text-transform:uppercase; color:var(--acc); font-weight:700; }
+.promo-title { font-family:Georgia,serif; font-size:16px; line-height:1.3; }
+.promo-btn { font-size:13px; color:var(--red); font-weight:700; margin-top:4px; }
+@media (max-width: 680px) { .promos { grid-template-columns:1fr; } }
+
 /* ── FOOTER ── */
 footer {
   background: var(--navy);
@@ -798,6 +811,18 @@ footer a { color: rgba(255,255,255,.45); text-decoration: none; }
     </div>
   </article>
 
+  <!-- REDUCERILE LUNII (se citesc din promo.json, ca pe site) -->
+  <div id="promos-sec">
+    <div class="section-divider"><span>Reducerile lunii la cărți</span></div>
+    <div class="promos" id="promos">
+    <a class="promo" href="nemira-black-friday.html" data-start="" data-end="2026-11-10T23:59:59+02:00" style="--acc:#0B0A14"><span class="promo-tag" style="background:#F5C542;color:#0B0A14">-90%<small style="color:#C4122F">+ EXTRA20</small></span><span class="promo-body"><span class="promo-kicker">Black Friday Nemira · 6–10 noiembrie</span><span class="promo-title">Până la -90% la Nemira, plus încă -20% în coș cu EXTRA20</span><span class="promo-btn">Vezi oferta →</span></span></a>
+    <a class="promo" href="rao-books-librarie-net.html" data-start="2026-11-01T00:00:00+02:00" data-end="2026-12-31T23:59:59+02:00" style="--acc:#3A0F14"><span class="promo-tag" style="background:#E8B04B;color:#C4122F">-50%<small style="color:#3A0F14">minimum</small></span><span class="promo-body"><span class="promo-kicker">librarie.net · RAO Books · până pe 31 decembrie</span><span class="promo-title">Peste 1.300 de cărți RAO, la jumătate de preț sau mai puțin</span><span class="promo-btn">Vezi oferta →</span></span></a>
+    <a class="promo" href="cadouri-lego-brickplanet.html" data-start="" data-end="2026-12-24T23:59:59+02:00" style="--acc:#D01012"><span class="promo-tag" style="background:#FFCF00;color:#1D2433">LEGO®<small style="color:#D01012">de la 20 lei</small></span><span class="promo-body"><span class="promo-kicker">Ghid de cadouri · Moș Nicolae și Crăciun</span><span class="promo-title">Ce set LEGO® iei, la ce vârstă? 25 de seturi alese</span><span class="promo-btn">Vezi ghidul →</span></span></a>
+    <a class="promo" href="act-politon-librarie-net.html" data-start="2026-10-23T00:00:00+03:00" data-end="2026-12-23T23:59:59+02:00" style="--acc:#1D2433"><span class="promo-tag" style="background:#F2B84B;color:#C4122F">-23%<small style="color:#1D2433">minimum</small></span><span class="promo-body"><span class="promo-kicker">librarie.net · ACT și Politon · până pe 23 decembrie</span><span class="promo-title">Peste 600 de cărți ACT și Politon, cu minimum -23%</span><span class="promo-btn">Vezi oferta →</span></span></a>
+    <a class="promo" href="book-half-librarie-net.html" data-start="" data-end="" style="--acc:#C4122F"><span class="promo-tag" style="background:#E4E7EC;color:#1D2433">-50%<small style="color:#C4122F">minimum</small></span><span class="promo-body"><span class="promo-kicker">Reducerea săptămânii · librarie.net</span><span class="promo-title">Book-Half: 1.217 cărți la jumătate de preț</span><span class="promo-btn">Vezi selecția →</span></span></a>
+    </div>
+  </div>
+
   <!-- YOUTUBE CALLOUT -->
   <div class="youtube-card">
     <div class="youtube-icon">📺</div>
@@ -877,5 +902,34 @@ footer a { color: rgba(255,255,255,.45); text-decoration: none; }
   <span style="font-size:11px;">Linkurile de cumpărare sunt linkuri de afiliere 2Performant. Prețul plătit de tine este identic. ÎncăUnCapitol primește un comision mic din fiecare achiziție realizată prin aceste linkuri.</span>
 </footer>
 
+<script>
+(function () {
+  /* Cardurile de reduceri: se citesc din promo.json (aceleași ca pe site), ca să fie mereu la zi.
+     Dacă promo.json nu se încarcă, rămân cardurile scrise în pagină, ascunse automat după data de final. */
+  var box = document.getElementById('promos');
+  if (!box) return;
+  var now = Date.now();
+  function activ(p) {
+    return (!p.start || new Date(p.start).getTime() <= now) && (!p.end || new Date(p.end).getTime() >= now);
+  }
+  box.querySelectorAll('[data-end]').forEach(function (a) {
+    if (!activ({ start: a.getAttribute('data-start'), end: a.getAttribute('data-end') })) a.remove();
+  });
+  function esc(s) { return String(s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  fetch('promo.json?v=' + new Date().toISOString().slice(0, 10)).then(function (r) { return r.json(); }).then(function (list) {
+    var html = list.filter(function (p) { return p.id && activ(p); }).map(function (p) {
+      var ext = /^https?:/.test(p.link);
+      return '<a class="promo js-promo" data-id="' + esc(p.id) + '" href="' + esc(p.link) + '"' + (ext ? ' target="_blank" rel="nofollow sponsored noopener"' : '') + ' style="--acc:' + esc(p.accent || '#C4122F') + '">' +
+        '<span class="promo-tag" style="background:' + esc(p.tagBg || '#E4E7EC') + ';color:' + esc(p.tagColor || '#1D2433') + '">' + esc(p.tag) + '<small style="color:' + esc(p.tagSmallColor || '#C4122F') + '">' + esc(p.tagSmall) + '</small></span>' +
+        '<span class="promo-body"><span class="promo-kicker">' + esc(p.kicker) + '</span><span class="promo-title">' + esc(p.title) + '</span><span class="promo-btn">' + esc(p.button || 'Vezi oferta') + ' →</span></span></a>';
+    }).join('');
+    if (html) box.innerHTML = html;
+    box.querySelectorAll('.js-promo').forEach(function (a) {
+      a.addEventListener('click', function () { if (typeof gtag === 'function') gtag('event', 'promo_click', { promo: a.getAttribute('data-id'), pagina: document.body.getAttribute('data-pagina') }); });
+    });
+  }).catch(function () {});
+  if (!box.children.length) { var s = document.getElementById('promos-sec'); if (s) s.style.display = 'none'; }
+})();
+</script>
 </body>
 </html>

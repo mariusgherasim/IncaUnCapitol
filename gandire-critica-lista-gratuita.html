@@ -233,6 +233,19 @@ body {
 #mlb2-46096733.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p{color:#0B1F4A!important;font-size:14px!important;font-family:Arial,Helvetica,sans-serif!important}
 .ml-error input{border-color:red!important}
 
+.unlock-btn {
+  display: inline-block;
+  margin-top: 16px;
+  background: var(--gold);
+  color: var(--navy);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 26px;
+  border-radius: 8px;
+}
+.unlock-btn:hover { background: var(--gold-light); }
+
 .form-disclaimer {
   font-size: 11px;
   color: var(--gray);
@@ -314,7 +327,7 @@ footer strong { color: var(--gold); }
 <section class="form-section">
   <p class="form-eyebrow">📚 Selecție editorială · Gândire critică</p>
   <h2>Top 10 cărți despre gândire critică — cu linkuri către cărți, ca să le poți verifica și cumpăra ușor</h2>
-  <p>Lasă emailul tău și primești lista imediat în inbox.</p>
+  <p>Lasă emailul și lista se deschide imediat, aici. O primești și în inbox, ca s-o ai oricând la îndemână.</p>
 
   <!-- Preview cărți — primele 3 vizibile, restul blur -->
   <div class="books-preview">
@@ -369,7 +382,7 @@ footer strong { color: var(--gold); }
 
   </div><!-- /books-preview -->
 
-  <p class="unlock-label">🔓 Introdu emailul pentru a debloca lista completă cu linkuri</p>
+  <p class="unlock-label">🔓 Introdu emailul și lista completă, cu linkuri, se deschide pe loc</p>
 
   <!-- FORMULAR MAILERLITE EMBEDDED -->
   <div id="mlb2-46096733" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-46096733">
@@ -417,8 +430,9 @@ footer strong { color: var(--gold); }
         </div>
         <div class="ml-form-successBody row-success" style="display:none">
           <div class="ml-form-successContent">
-            <h4>Topul e pe drum! 📚</h4>
-            <p>Verifică-ți inboxul — îți trimitem acum Top 10 cărți despre gândire critică.</p>
+            <h4>Gata, lista e deblocată! 📚</h4>
+            <p>O deschizi chiar acum. Ți-am trimis-o și pe email, ca s-o găsești și mai târziu.</p>
+            <a class="unlock-btn" href="top10-carti-gandire-critica.html">Deschide Top 10 cărți →</a>
           </div>
         </div>
       </div>
@@ -430,7 +444,20 @@ footer strong { color: var(--gold); }
     var $=ml_jQuery||jQuery;
     $('.ml-subscribe-form-46096733 .row-success').show();
     $('.ml-subscribe-form-46096733 .row-form').hide();
+    // acces imediat: lista se deblocheaza pe loc (si ramane deblocata la revenire, pe acelasi browser)
+    try { localStorage.setItem('gandire_critica_lista', '1'); } catch (e) {}
+    document.querySelectorAll('.preview-blur').forEach(function (el) { el.classList.remove('preview-blur'); el.style.filter = ''; el.style.opacity = ''; });
+    if (typeof gtag === 'function') gtag('event', 'abonare_reusita', { campanie: 'gandire-critica-lista' });
   }
+  // cine s-a abonat deja de pe acest browser vede direct butonul spre lista
+  (function () {
+    var ok = false;
+    try { ok = localStorage.getItem('gandire_critica_lista') === '1'; } catch (e) {}
+    if (!ok) return;
+    var f = document.querySelector('.ml-subscribe-form-46096733 .row-form');
+    var s = document.querySelector('.ml-subscribe-form-46096733 .row-success');
+    if (f && s) { f.style.display = 'none'; s.style.display = 'block'; }
+  })();
   </script>
   <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519" type="text/javascript"></script>
   <script>fetch("https://assets.mailerlite.com/jsonp/1999265/forms/198972489088369761/takel")</script>
