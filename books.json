@@ -42,8 +42,8 @@
     "category": "dezvoltare",
     "score": "9.2 / 10",
     "oldPrice": "178,74",
-    "price": "160,86",
-    "discount": "10%",
+    "price": "89,37",
+    "discount": "50%",
     "image": "imagini/pachet-wim-hof.jpg",
     "affiliate": "https://www.actsipoliton.ro/pachet-carti-wim-hof?tracking=69a17509d7810",
     "description": "De câte ori ai ales confortul termic, cafeaua în plus, pastila pentru durere? Ce ar fi dacă corpul tău putea gestiona toate astea singur, fără niciun adaos?",
@@ -311,11 +311,13 @@
     "author": "David Marquet, Ray Dalio, Mike Michalowicz, Patrick Lencioni",
     "category": "leadership",
     "score": "9.8 / 10",
-    "price": "565,36",
+    "price": "282,68",
     "image": "imagini/Pachet_10_carti.jpg",
     "affiliate": "https://www.actsipoliton.ro/pachet-10-carti-de-leadership?tracking=69a17509d7810",
     "description": "Toată lumea îți spune că un lider bun știe toate răspunsurile. 10 dintre cele mai citate cărți de leadership din ultimii 20 de ani demonstrează exact contrariul.",
-    "available": true
+    "available": true,
+    "oldPrice": "565,36",
+    "discount": "50%"
   },
   {
     "title": "Nu scuzelor. Puterea autodisciplinei",
@@ -1271,17 +1273,17 @@
   },
   {
     "title": "Ultimul dans al lui Charlot",
-    "author": "Fabio Stassi",
     "source": "printrecarti",
-    "productUrl": "https://www.printrecarti.ro/44274-fabio-stassi-ultimul-dans-al-lui-charlot.html",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f3492fc89&unique=WsdltYlaCZzH",
-    "image": "imagini/Charlot.jpg",
-    "score": "9.8/10",
+    "author": "Fabio Stassi",
     "category": "jurnale",
+    "score": "9.8/10",
+    "oldPrice": "16,00 Lei",
     "price": "10,40 Lei",
+    "discount": "-35%",
+    "image": "imagini/Charlot.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f3492fc89&unique=WsdltYlaCZzH",
+    "productUrl": "https://www.printrecarti.ro/44274-fabio-stassi-ultimul-dans-al-lui-charlot.html",
     "description": "Cum convingi Moartea să mai aștepte un an? Ce îi spui unui fiu când știi că s-ar putea să nu mai fii acolo când va crește? Ce rămâne dintr-o viață când nu mai poți filma, nu mai poți performa, nu mai ești decât un om bătrân cu amintiri? Chaplin și-a pus aceste întrebări. Noaptea de Crăciun. La 82 de ani.",
-    "oldPrice": "",
-    "discount": "",
     "available": true
   },
   {
@@ -1684,7 +1686,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f3492fc89&unique=9R77breLffwW",
     "productUrl": "https://www.printrecarti.ro/58109-stephen-king-cimitirul-animalelor.html",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
-    "available": true
+    "available": false
   },
   {
     "title": "Închisoarea îngerilor",

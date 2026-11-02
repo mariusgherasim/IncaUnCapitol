@@ -16,8 +16,8 @@ C:\FOLDER DE LUCRU\PAUL MELINTE\SITE VANZARI - AFILIERE\site carti cu 3 fisiere
 
 **Pași, în fiecare zi:**
 
-1. Descarci cele 23 de feed-uri din 2Performant (lista în secțiunea 5) și le pui în folder. Nu le redenumești. Dacă există mai multe descărcări ale aceluiași feed (`feed_x.xml`, `feed_x_1.xml`), scriptul o ia automat pe cea mai nouă.
-2. (Din când în când, ex. o dată pe săptămână) actualizezi prețurile cărților ACT și Politon: `node update-prices.js` (secțiunea 8).
+1. Descarci feed-urile din 2Performant (lista în secțiunea 5, plus `feed_09200f7e9.xml` de la printrecarti, folosit doar pentru `books.json`) și **le copiezi în folderul site-ului**. Scriptul de descărcare le pune în `C:\FOLDER DE LUCRU\PAUL MELINTE\DESCARCARE AUTOMATA FEEDURI`; dacă nu le copiezi, sync-ul folosește feed-urile vechi și prețurile rămân neschimbate (s-a întâmplat pe 2.11.2026, cu feed-uri din 20.10). Verificare rapidă: `dir feed_*.xml` arată data fiecărui feed. Nu le redenumești. Dacă există mai multe descărcări ale aceluiași feed (`feed_x.xml`, `feed_x_1.xml`), scriptul o ia automat pe cea mai nouă.
+2. Actualizezi prețurile cărților **ACT și Politon și Humanitas** din `books.json` (le citește direct de pe site): `node update-prices.js` (secțiunea 8). Durează câteva minute.
 3. Rulezi sync-ul și urci fișierele JSON:
 
 ```
@@ -25,21 +25,38 @@ cd /d "C:\FOLDER DE LUCRU\PAUL MELINTE\SITE VANZARI - AFILIERE\site carti cu 3 f
 node --max-old-space-size=6000 sync-carti-feeds.cjs
 git add books.json carti-copii-1.json carti-copii-2.json carti-copii-3.json manuale-scolare.json manuale-scolare-2.json materii-suplimentare.json rechizite-papetarie.json articole-scolare-accesorii.json articole-scolare-jocuri.json oferte-carti-scolare.json carti-parenting.json muzica-film-1.json muzica-film-2.json
 git commit -m "Actualizare produse"
+git pull --rebase --autostash
+git push
+```
+
+Un singur fișier (ex. `monthly-book.json`, o pagină nouă):
+```
+git add monthly-book.json
+git commit -m "Actualizare cartea lunii"
+git pull --rebase --autostash
 git push
 ```
 
 4. Verifici la finalul rulării:
    - rândul fiecărui fișier: „X → Y produse | +noi | −dispărute”;
    - linia „📦 Mărimi”: toate fișierele sub 10.000 KB;
-   - avertismentele „⚠️”: feed lipsă, feed vechi, prag de siguranță depășit;
+   - avertismentele „⚠️”: feed lipsă, **feed vechi („e vechi de X ore” → copiezi feed-urile noi și rulezi din nou)**, prag de siguranță depășit;
+   - la `books.json`: „🙈 ascunsă” (carte dispărută), „⚠️ fără feed și fără scraper” (prețul nu se actualizează — trebuie mutată pe altă librărie);
    - dacă pragul de siguranță a fost depășit, scriptul afișează la final produsele dispărute și întreabă „Le scot? (da/nu)”. Verifici feed-ul manual și răspunzi. Cu `--scoate-tot` le scoate fără întrebare.
 
 **Reguli:**
 - **Niciodată `git add .` sau `git add *.json`.** Fișierele se numesc explicit, ca feed-urile, scriptul, `sync-report.json` și backup-urile să rămână doar local.
 - **Dacă `git push` e refuzat:** între timp s-a modificat ceva pe GitHub (ex. un fișier urcat direct de pe site). Rulezi `git pull --rebase --autostash`, apoi din nou `git push`.
   - Conflict la `books.json`: `git checkout --theirs books.json` (în timpul unui rebase, „theirs” = versiunea locală), verifici că are cărțile noi, apoi `git add books.json` și `git -c core.editor=true rebase --continue`.
-  - „untracked working tree files would be overwritten” (ex. poze urcate și pe GitHub, și în folder): muți pozele locale temporar într-un alt folder, apoi `git pull`.
+  - „untracked working tree files would be overwritten” (ex. poze urcate și pe GitHub, și în folder): muți pozele locale temporar pe Desktop, apoi reiei pull-ul. Exemplu (2.11.2026, `Malala.jpg`):
+    ```
+    move "imagini\Malala.jpg" "%USERPROFILE%\Desktop\"
+    git pull --rebase --autostash
+    git push
+    ```
+    Dacă eroarea apare cu altă poză, o muți și pe aceea și repeți pull-ul.
   - Dacă urci ceva direct pe GitHub, rulează `git pull` în folder înainte de următorul sync.
+- **Fișierele șterse doar local** (`CNAME`, `.github/workflows/static.yml`, `google5f466722dddce35e.html`) apar la `git status` ca „deleted”. Rămân așa intenționat (decizia utilizatorului, 26.10.2026); nu ajung pe GitHub cât timp fișierele se adaugă pe nume. De aceea **niciodată `git add .`, `git commit -a`** și nici butoanele „Stage All” / „Commit” din panoul Source Control al VS Code (la întrebarea VS Code „Git repositories were found… open?” → „Never”).
 - **Eroare „heap out of memory”:** pui `8000` în loc de `6000` (dacă PC-ul are 16 GB RAM). Feed-urile adunate au acum peste 700 MB.
 
 **Fără automatizare:** actualizarea se face doar manual (decizia utilizatorului, 14.10.2026). `actualizeaza-zilnic.bat`, `instaleaza-task-zilnic.bat` și `feed-urls.txt` au fost șterse pe 20.10.2026: nu puteau răspunde la întrebarea „da/nu” a sync-ului, nu rulau `update-prices.js` și căutau feed-urile în alt folder.
@@ -263,7 +280,8 @@ Două mecanisme îl actualizează:
 - dacă linkul duce la altă carte, apare „⚠️ link greșit” și se corectează;
 - dacă cartea lipsește sau e inactivă, se caută după titlu + autor în celelalte feed-uri (prioritate: autor confirmat, libris, preț minim) și se înlocuiesc `affiliate`, `productUrl`, `source`;
 - negăsită: la sursele cu feed complet primește `available:false` (ascunsă, revine automat); la librarie.net și carturesti rămâne neatinsă;
-- nu atinge actsipoliton și intrările fără link 2Performant.
+- nu atinge actsipoliton, humanitas (trec pe `update-prices.js`) și intrările fără link 2Performant; acestea din urmă sunt listate la final („fără feed și fără scraper”);
+- printrecarti (exemplar unic, la mâna a doua): verificat în `feed_09200f7e9.xml`; vândută → înlocuită cu o ediție nouă din alt feed sau ascunsă.
 
 **B. `update-prices.js` (LOCAL, manual, din când în când)** — scraping per carte. Workflow-ul `update-prices.yml` a fost șters din repo pe 16.10.2026 (ultima rulare automată: #132); din 20.10.2026 scriptul se rulează manual, local, **înainte de sync**:
 
@@ -272,7 +290,7 @@ npm install          ← o singură dată în folder (axios, cheerio, playwright
 node update-prices.js
 ```
 
-Apoi rulezi sync-ul și urci `books.json` ca de obicei. `node_modules\` nu se urcă (e în `.gitignore`). **Atinge DOAR sursele fără feed 2Performant** (`SURSE_FARA_FEED = ["actsipoliton"]`), ca să nu mai intre în conflict cu sync-ul; restul cărților sunt actualizate de sync. `rechizite.json` a fost scos din `DATA_FILES`. Sursă nouă fără feed = adaugi numele în `SURSE_FARA_FEED` + scraper în `lib/scrapers/`.
+Apoi rulezi sync-ul și urci `books.json` ca de obicei. `node_modules\` nu se urcă (e în `.gitignore`). **Atinge DOAR sursele fără feed 2Performant folosibil** (`SURSE_FARA_FEED = ["actsipoliton", "humanitas"]`; humanitas adăugat pe 2.11.2026, feed-ul libhumanitas fiind înghețat din 9.10). Dacă lipsește un scraper, afișează la final „⚠️ Nu există scraper în lib/scrapers pentru: …”, ca să nu mai intre în conflict cu sync-ul; restul cărților sunt actualizate de sync. `rechizite.json` a fost scos din `DATA_FILES`. Sursă nouă fără feed = adaugi numele în `SURSE_FARA_FEED` + scraper în `lib/scrapers/`.
 
 **Scraperele (`lib/scrapers/`):**
 
@@ -420,3 +438,9 @@ Distribuite direct pe social media și pe email; nu apar în meniu. Model comun:
 - [ ] Ștergerea secțiunii „Cărțile care m-au influențat cel mai mult” din `index.html` (se ocupă utilizatorul).
 - [ ] Ștergerea fișierelor nefolosite: `rechizite.json`, `generate-catalog-from-feeds.cjs`, `REMEMBER-feed-uri.md`.
 - [ ] **CSS (Comparison Shopping Service):** oportunitate de discutat (secțiunea 13).
+
+### books.json — cine actualizează ce (din 02.11.2026)
+- `sync-carti-feeds.cjs`: libris, curteaveche, edituratrei, librarienet, carturesti, cartepedia, nemira, corint, gama, grupdzc — din feeduri. ATENȚIE: feedurile trebuie copiate proaspete în folderul site-ului (avertisment „e vechi de X ore" / `sync-report.json` → `vechimeOre`).
+- `update-prices.js`: actsipoliton **și humanitas** (feedul 2Performant libhumanitas e înghețat: identic byte cu byte la 9.10, 14.10 și 20.10.2026). Sync-ul sare peste humanitas (`BOOKS_PE_SCRAPER`). Necesită scraperul `lib/scrapers` pentru humanitas; dacă lipsește, scriptul afișează „Nu există scraper…".
+- printrecarti (exemplar unic, la mâna a doua): sync-ul citește `feed_09200f7e9.xml` DOAR pentru books.json; cartea vândută → înlocuită cu ediție nouă din alt feed sau ascunsă (`available:false`). „Cimitirul animalelor" ascunsă manual pe 02.11.2026 (vândută; Nemira ed. 2019 inactivă).
+- Sync-ul listează acum cărțile „fără feed și fără scraper" (prețul lor nu se actualizează).
