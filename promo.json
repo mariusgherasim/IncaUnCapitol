@@ -3,23 +3,6 @@
     "_readme": "Cardurile de promotie mici, afisate de script.js. pages: \"all\" = pe toate paginile site-ului (sub header), \"home\" = doar pe pagina principala. start/end: data si ora (AAAA-LL-ZZTHH:MM:SS+03:00); cardul apare doar in interval si dispare singur dupa end. Ambele sunt optionale. link: pagina interna (ex. nemira-toamna-literara.html) sau link de afiliere 2Performant (external: true -> se deschide in tab nou, rel sponsored). Culori optionale: accent (bara din stanga, kicker, buton), tagBg / tagColor / tagSmallColor (eticheta rotita); tagSmall = textul mic de sub eticheta. Ordinea din fisier = ordinea pe pagina."
   },
   {
-    "id": "libris-city-break-viena",
-    "pages": "all",
-    "start": "2026-10-27T00:00:00+02:00",
-    "end": "2026-10-28T23:59:59+02:00",
-    "tag": "Viena",
-    "tagSmall": "city break 4*",
-    "kicker": "Concurs libris.ro · doar 27–28 octombrie",
-    "title": "O comandă pe libris.ro te poate duce la Târgul de Crăciun din Viena",
-    "text": "Comenzile plasate azi și mâine, până la miezul nopții, și livrate cu succes intră automat la tragerea pentru un city break de 4 stele. Fără cod, fără înscriere.",
-    "button": "Vezi concursul",
-    "link": "libris-city-break-viena.html",
-    "accent": "#1D2433",
-    "tagBg": "#E4E7EC",
-    "tagColor": "#1D2433",
-    "tagSmallColor": "#C4122F"
-  },
-  {
     "id": "nemira-black-friday",
     "pages": "all",
     "end": "2026-11-10T23:59:59+02:00",
@@ -34,6 +17,39 @@
     "tagBg": "#F5C542",
     "tagColor": "#0B0A14",
     "tagSmallColor": "#C4122F"
+  },
+  {
+    "id": "rao-books-librarie",
+    "pages": "all",
+    "start": "2026-11-01T00:00:00+02:00",
+    "end": "2026-12-31T23:59:59+02:00",
+    "tag": "-50%",
+    "tagSmall": "minimum",
+    "kicker": "librarie.net · RAO Books · până pe 31 decembrie",
+    "title": "Peste 1.300 de cărți RAO, la jumătate de preț sau mai puțin",
+    "text": "Ken Follett, Tolkien, Márquez, Dan Brown, Grisham, Geronimo Stilton. Reducerea se aplică direct pe site, fără cod.",
+    "button": "Vezi oferta",
+    "link": "rao-books-librarie-net.html",
+    "accent": "#3A0F14",
+    "tagBg": "#E8B04B",
+    "tagColor": "#C4122F",
+    "tagSmallColor": "#3A0F14"
+  },
+  {
+    "id": "cadouri-lego-brickplanet",
+    "pages": "all",
+    "end": "2026-12-24T23:59:59+02:00",
+    "tag": "LEGO®",
+    "tagSmall": "de la 20 lei",
+    "kicker": "Ghid de cadouri · Moș Nicolae și Crăciun",
+    "title": "Ce set LEGO® iei, la ce vârstă? 25 de seturi alese",
+    "text": "De la DUPLO pentru 1,5 ani la Technic și Botanicals pentru adulți. Livrare în 1–2 zile de la brickplanet.ro, transport gratuit peste 500 de lei.",
+    "button": "Vezi ghidul",
+    "link": "cadouri-lego-brickplanet.html",
+    "accent": "#D01012",
+    "tagBg": "#FFCF00",
+    "tagColor": "#1D2433",
+    "tagSmallColor": "#D01012"
   },
   {
     "id": "act-politon-librarie",
@@ -62,21 +78,5 @@
     "text": "294 de titluri la -60% sau mai mult, 815 între 10 și 30 de lei. Tolkien, Márquez, Eco, cărți pentru copii.",
     "button": "Vezi selecția",
     "link": "book-half-librarie-net.html"
-  },
-  {
-    "id": "nemira-nem40",
-    "pages": "all",
-    "end": "2026-11-01T23:59:59+02:00",
-    "tag": "-40%",
-    "tagSmall": "cod NEM40",
-    "kicker": "Toamna literară · nemira.ro · până pe 1 noiembrie",
-    "title": "-40% la cărțile Nemira cu codul NEM40",
-    "text": "Urzeala Tronurilor, 6 volume: 362,96 lei în loc de 604,94. Matt Haig, Dar Motan, noutăți. Transport gratuit peste 190 de lei.",
-    "button": "Vezi oferta",
-    "link": "nemira-toamna-literara.html",
-    "accent": "#b4471f",
-    "tagBg": "#3b1f2b",
-    "tagColor": "#ffffff",
-    "tagSmallColor": "#d9a23b"
   }
 ]
