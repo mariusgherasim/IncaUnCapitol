@@ -19,6 +19,22 @@
     "tagSmallColor": "#C4122F"
   },
   {
+    "id": "curtea-veche-black-friday",
+    "pages": "all",
+    "end": "2026-11-10T23:59:59+02:00",
+    "tag": "-50%",
+    "tagSmall": "până la -90%",
+    "kicker": "Black Friday Curtea Veche · 5–10 noiembrie",
+    "title": "Plătești jumătate. Citești tot.",
+    "text": "Toate titlurile Curtea Veche la preț întreg, la jumătate. Kiyosaki, Goleman, Gabor Maté, Brené Brown.",
+    "button": "Vezi oferta",
+    "link": "curtea-veche-black-friday.html",
+    "accent": "#1D2433",
+    "tagBg": "#FFFDF7",
+    "tagColor": "#C4122F",
+    "tagSmallColor": "#1D2433"
+  },
+  {
     "id": "rao-books-librarie",
     "pages": "all",
     "start": "2026-11-01T00:00:00+02:00",

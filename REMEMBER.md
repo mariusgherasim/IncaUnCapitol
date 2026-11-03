@@ -2,7 +2,7 @@
 
 Document unic de referință pentru site: ce conține, de unde vin produsele, cum se actualizează zilnic, ce s-a rezolvat și ce a rămas de făcut. Înlocuiește vechile `REMEMBER.md` și `REMEMBER-feed-uri.md`, care pot fi șterse.
 
-**Actualizat: 21 octombrie 2026.**
+**Actualizat: 3 noiembrie 2026.**
 
 ---
 
@@ -14,20 +14,31 @@ Toate fișierele de lucru stau pe calculator, în:
 C:\FOLDER DE LUCRU\PAUL MELINTE\SITE VANZARI - AFILIERE\site carti cu 3 fisiere
 ```
 
-**Pași, în fiecare zi:**
+**Pași, în fiecare zi (actualizarea prețurilor):**
 
-1. Descarci feed-urile din 2Performant (lista în secțiunea 5, plus `feed_09200f7e9.xml` de la printrecarti, folosit doar pentru `books.json`) și **le copiezi în folderul site-ului**. Scriptul de descărcare le pune în `C:\FOLDER DE LUCRU\PAUL MELINTE\DESCARCARE AUTOMATA FEEDURI`; dacă nu le copiezi, sync-ul folosește feed-urile vechi și prețurile rămân neschimbate (s-a întâmplat pe 2.11.2026, cu feed-uri din 20.10). Verificare rapidă: `dir feed_*.xml` arată data fiecărui feed. Nu le redenumești. Dacă există mai multe descărcări ale aceluiași feed (`feed_x.xml`, `feed_x_1.xml`), scriptul o ia automat pe cea mai nouă.
-2. Actualizezi prețurile cărților **ACT și Politon și Humanitas** din `books.json` (le citește direct de pe site): `node update-prices.js` (secțiunea 8). Durează câteva minute.
-3. Rulezi sync-ul și urci fișierele JSON:
+1. **Descarci feed-urile** din 2Performant (lista în secțiunea 5, plus `feed_09200f7e9.xml` de la printrecarti, folosit doar pentru `books.json`) și **le copiezi în folderul site-ului**. Scriptul de descărcare (`download_feeds.py` v3, 3.11.2026) le pune în `C:\FOLDER DE LUCRU\PAUL MELINTE\DESCARCARE AUTOMATA FEEDURI` **și le copiază automat în folderul site-ului** (`"copiaza_in"` în `sites.json`); la final afișează „🚨 Feed-uri NEACTUALIZATE de peste 36 de ore”. Dacă nu ajung în folderul site-ului, sync-ul folosește feed-urile vechi și prețurile rămân neschimbate (s-a întâmplat pe 2.11.2026, cu feed-uri din 20.10). Verificare: `dir feed_*.xml` arată data fiecărui feed. Nu le redenumești. Dacă există mai multe descărcări ale aceluiași feed (`feed_x.xml`, `feed_x_1.xml`), scriptul o ia automat pe cea mai nouă.
+2. **Rulezi cele două actualizări, una după alta** (ordinea nu contează, dar nu în același timp — amândouă scriu în `books.json`):
 
 ```
 cd /d "C:\FOLDER DE LUCRU\PAUL MELINTE\SITE VANZARI - AFILIERE\site carti cu 3 fisiere"
 node --max-old-space-size=6000 sync-carti-feeds.cjs
+node update-prices.js
+```
+
+   - **sync-ul** actualizează toate fișierele de catalog și cărțile din `books.json` cu link 2Performant (libris, Humanitas, Cărturești, librarie.net, Cartepedia, Trei, Curtea Veche, Nemira, Corint, Gama, grupdzc, printrecarti), inclusiv regula „cel mai bun preț” (secțiunea 8);
+   - **`update-prices.js`** actualizează doar cele 21 de cărți ACT și Politon din `books.json` (le citește direct de pe actsipoliton.ro; durează câteva minute). Prima dată în folder: `npm install`.
+   - Vrei să vezi întâi ce s-ar schimba, fără să salveze nimic? `node --max-old-space-size=6000 sync-carti-feeds.cjs --dry-run`.
+
+3. **Urci totul pe GitHub, o singură dată, la final:**
+
+```
 git add books.json carti-copii-1.json carti-copii-2.json carti-copii-3.json manuale-scolare.json manuale-scolare-2.json materii-suplimentare.json rechizite-papetarie.json articole-scolare-accesorii.json articole-scolare-jocuri.json oferte-carti-scolare.json carti-parenting.json muzica-film-1.json muzica-film-2.json
-git commit -m "Actualizare produse"
+git commit -m "Actualizare preturi"
 git pull --rebase --autostash
 git push
 ```
+
+Fișierele pe care sync-ul nu le-a schimbat sunt ignorate de git, așa că lista poate rămâne întreagă.
 
 Un singur fișier (ex. `monthly-book.json`, o pagină nouă):
 ```
@@ -37,12 +48,13 @@ git pull --rebase --autostash
 git push
 ```
 
-4. Verifici la finalul rulării:
+4. **Verifici la finalul sync-ului:**
    - rândul fiecărui fișier: „X → Y produse | +noi | −dispărute”;
    - linia „📦 Mărimi”: toate fișierele sub 10.000 KB;
    - avertismentele „⚠️”: feed lipsă, **feed vechi („e vechi de X ore” → copiezi feed-urile noi și rulezi din nou)**, prag de siguranță depășit;
-   - la `books.json`: „🙈 ascunsă” (carte dispărută), „⚠️ fără feed și fără scraper” (prețul nu se actualizează — trebuie mutată pe altă librărie);
+   - la `books.json`: rândul „129 cărți | actualizate X (preț schimbat: Y) …”; „💸 … (verifică ediția: …)” = carte mutată pe librăria mai ieftină (verifici din când în când că e aceeași carte); „🙈 ascunsă” = carte dispărută peste tot; „❔ negăsită” = rămasă neatinsă; „⚠️ fără feed și fără scraper” = prețul nu se actualizează;
    - dacă pragul de siguranță a fost depășit, scriptul afișează la final produsele dispărute și întreabă „Le scot? (da/nu)”. Verifici feed-ul manual și răspunzi. Cu `--scoate-tot` le scoate fără întrebare.
+   - **Ai scriptul nou?** `findstr /c:"BOOKS_CEL_MAI_BUN_PRET" sync-carti-feeds.cjs` trebuie să afișeze `BOOKS_CEL_MAI_BUN_PRET = true`.
 
 **Reguli:**
 - **Niciodată `git add .` sau `git add *.json`.** Fișierele se numesc explicit, ca feed-urile, scriptul, `sync-report.json` și backup-urile să rămână doar local.
@@ -163,10 +175,10 @@ Toate feed-urile de mai jos sunt citite. Toate actualizează prețul, linkul și
 
 | Feed | Magazin / conținut | Mărime |
 |---|---|---|
-| `feed_78ad15be7.xml` | libris, feed complet | ~160 MB |
-| `feed_30725b952.xml` | libris, cărți în română (inclus în cel complet) | ~120 MB |
-| `feed_0c722f7a4.xml` | libris, cărți pentru copii (inclus) | ~24 MB |
-| `feed_5d7d1b9bc.xml` | libris, accesorii și cadouri (inclus) | ~5 MB |
+| ~~`feed_78ad15be7.xml`~~ | libris, feed complet — **ȘTERS din 2Performant** (HTTP 404 din ~21.10.2026; ultima descărcare 21.10). Fișierul vechi, dacă e în folder, e citit doar pentru jocurile libris; scos din `sites.json` | ~160 MB |
+| `feed_30725b952.xml` | libris, „Cărți în română” (~52.000 de cărți) — **feedul principal libris** din 3.11.2026 | ~120 MB |
+| `feed_0c722f7a4.xml` | libris, cărți pentru copii | ~24 MB |
+| `feed_5d7d1b9bc.xml` | libris, accesorii și cadouri | ~13 MB |
 | `feed_23ed00784.xml` | libris, eBooks (doar parenting) | ~11 MB |
 | `feed_e82be0de9.xml` | libhumanitas, feed complet | ~70 MB |
 | `feed_bfb296a3b.xml` | cartepedia, cărți și jocuri în stoc | ~38 MB |
@@ -187,7 +199,9 @@ Toate feed-urile de mai jos sunt citite. Toate actualizează prețul, linkul și
 | `feed_8289d9f33.xml` | Editura Corint (edituracorint.ro), feed complet (~1.280 cărți) — adăugat 20.10.2026 | ~3 MB |
 | `feed_bd91e5f46.xml` | Editura Gama (edituragama.ro), feed complet (~1.320 produse pentru copii, ~970 active) — adăugat 21.10.2026 | ~2 MB |
 
-**Ignorat intenționat:** `feed_09200f7e9` (printrecarti.ro, anticariat — decizia utilizatorului).
+**Feed înghețat:** `feed_e82be0de9` (libhumanitas) e identic byte cu byte la descărcările din 9.10, 14.10, 20.10 și 3.11.2026 (70.930.365 bytes, MD5 `caa684b159fa…`), deși 2Performant îl arată „actualizat azi”. De aceea e în `BOOKS_FEED_INGHETAT` (secțiunea 8). Mesaj către 2Performant/Humanitas: de trimis (text în conversația din 3.11.2026). Când feedul se repară, scoți `"libhumanitas.ro"` din `BOOKS_FEED_INGHETAT`.
+
+**printrecarti** (`feed_09200f7e9`, anticariat): ignorat pentru catalog (decizia utilizatorului), citit **doar** pentru cărțile din `books.json` cu link printrecarti.
 
 **Coduri de campanie** (`campaign_unique` în linkurile de afiliere): libris `9a6f02fef`, librarie.net `da1148931`, carturesti `07b5f0fed`, cartepedia `6f33f2a39`, libhumanitas `9aab15f10`, curteaveche `f9db13aad`, nemira `9617003d6`, edituratrei `4dc37856e`, grupdzc `e06ef5ee2`, brickplanet `d374fe7ee`, edituracorint `8dad9830f`, edituragama `655dd2374`.
 
@@ -273,24 +287,25 @@ Identitatea unui produs e **linkul de produs** (URL fără parametri). La feed-u
 
 ## 8. `books.json` — catalogul principal
 
-Două mecanisme îl actualizează:
+Două mecanisme îl actualizează (vezi și „books.json — cine actualizează ce”, la finalul fișierului):
 
-**A. `sync-carti-feeds.cjs` (local, din 10.10.2026)** — doar `price`, `oldPrice`, `discount` („-X%”), păstrând linkul de afiliere:
+**A. `sync-carti-feeds.cjs` (local)** — toate cărțile cu link 2Performant: `price`, `oldPrice`, `discount` („-X%”); linkul se schimbă doar când cartea se mută pe altă librărie:
 - linkul se verifică după codul `unique=` din feed; dacă lipsește, dar același produs (`productUrl`) e în feed, linkul se reînnoiește;
 - dacă linkul duce la altă carte, apare „⚠️ link greșit” și se corectează;
 - dacă cartea lipsește sau e inactivă, se caută după titlu + autor în celelalte feed-uri (prioritate: autor confirmat, libris, preț minim) și se înlocuiesc `affiliate`, `productUrl`, `source`;
 - negăsită: la sursele cu feed complet primește `available:false` (ascunsă, revine automat); la librarie.net și carturesti rămâne neatinsă;
-- nu atinge actsipoliton, humanitas (trec pe `update-prices.js`) și intrările fără link 2Performant; acestea din urmă sunt listate la final („fără feed și fără scraper”);
+- nu atinge actsipoliton (trece pe `update-prices.js`) și intrările fără link 2Performant; acestea din urmă sunt listate la final („fără feed și fără scraper”);
+- **„cel mai bun preț” (din 3.11.2026):** fiecare carte e căutată în toate feedurile după titlu + autor; dacă e la o librărie cu peste 5% mai scumpă decât cea mai ieftină, trece pe librăria din banda „min + 5%” aflată cel mai sus în `PRIORITATE_LIBRARII`. Setări la începutul scriptului: `BOOKS_CEL_MAI_BUN_PRET`, `PRAG_BANDA_PRET = 0.05`, `PRIORITATE_LIBRARII` (ordine provizorie — **de stabilit de Marius**, ex. după comision), `BOOKS_FEED_INGHETAT = ["libhumanitas.ro"]`, `BOOKS_SCHIMBA_IMAGINEA = true` (coperta trece pe ediția nouă; cea veche rămâne în `imageOriginala`);
 - printrecarti (exemplar unic, la mâna a doua): verificat în `feed_09200f7e9.xml`; vândută → înlocuită cu o ediție nouă din alt feed sau ascunsă.
 
-**B. `update-prices.js` (LOCAL, manual, din când în când)** — scraping per carte. Workflow-ul `update-prices.yml` a fost șters din repo pe 16.10.2026 (ultima rulare automată: #132); din 20.10.2026 scriptul se rulează manual, local, **înainte de sync**:
+**B. `update-prices.js` (LOCAL, manual, din când în când)** — scraping per carte. Workflow-ul `update-prices.yml` a fost șters din repo pe 16.10.2026 (ultima rulare automată: #132); din 20.10.2026 scriptul se rulează manual, local, **înainte sau după sync** (nu în paralel):
 
 ```
 npm install          ← o singură dată în folder (axios, cheerio, playwright)
 node update-prices.js
 ```
 
-Apoi rulezi sync-ul și urci `books.json` ca de obicei. `node_modules\` nu se urcă (e în `.gitignore`). **Atinge DOAR sursele fără feed 2Performant folosibil** (`SURSE_FARA_FEED = ["actsipoliton", "humanitas"]`; humanitas adăugat pe 2.11.2026, feed-ul libhumanitas fiind înghețat din 9.10). Dacă lipsește un scraper, afișează la final „⚠️ Nu există scraper în lib/scrapers pentru: …”, ca să nu mai intre în conflict cu sync-ul; restul cărților sunt actualizate de sync. `rechizite.json` a fost scos din `DATA_FILES`. Sursă nouă fără feed = adaugi numele în `SURSE_FARA_FEED` + scraper în `lib/scrapers/`.
+Apoi urci `books.json` ca de obicei (secțiunea 1). `node_modules\` nu se urcă (e în `.gitignore`). **Atinge DOAR sursele fără feed 2Performant folosibil** (`SURSE_FARA_FEED = ["actsipoliton"]`; humanitas a fost adăugat pe 2.11 și scos pe 3.11.2026: libhumanitas.ro blochează scraperul, iar cărțile Humanitas trec prin regula „cel mai bun preț” din sync). Dacă lipsește un scraper, afișează la final „⚠️ Nu există scraper în lib/scrapers pentru: …”, ca să nu mai intre în conflict cu sync-ul; restul cărților sunt actualizate de sync. `rechizite.json` a fost scos din `DATA_FILES`. Sursă nouă fără feed = adaugi numele în `SURSE_FARA_FEED` + scraper în `lib/scrapers/`.
 
 **Scraperele (`lib/scrapers/`):**
 
@@ -300,7 +315,7 @@ Apoi rulezi sync-ul și urci `books.json` ca de obicei. `node_modules\` nu se ur
 | edituratrei | axios+cheerio, `.product-book-*` | |
 | curteaveche | axios+cheerio, `.price` / `.old--price` | |
 | bookzone | axios+cheerio | Google Ads interzis ca sursă la Bookzone |
-| humanitas | Playwright | pagină anti-bot „Doar un moment...”, retry |
+| humanitas | Playwright | pagină anti-bot „Doar un moment...”, retry — **nefolosit din 3.11.2026**: site-ul îl blochează la fiecare carte („Humanitas indisponibil temporar”) |
 | librarienet | axios+cheerio, `table.css_box_pret` | |
 | nemira | axios+cheerio, `meta[itemprop="price"]` | |
 | libris | axios+cheerio, `.pr-pret-redus` / `.pr-pret-intreg` | PRP ≠ preț vechi |
@@ -318,7 +333,7 @@ Sursă nouă = fișier nou în `lib/scrapers/` + o linie în `lib/scrapers/index
 - **Carduri de promoție** (din 16.10.2026, ca pe site-ul Beauty): definite în `promo.json`, afișate de `script.js` (`loadPromos()`) pe **toate paginile**. Pe homepage stau în `.promo-mount`, în locul primului slot de banner; pe celelalte pagini se inserează automat sub header (pe mobil fără textul lung).
   - Câmpuri: `id`, `pages` (`"all"` / `"home"`), `start` / `end` (ISO cu fus orar, ex. `2026-10-18T23:59:59+03:00`; cardul apare doar în interval), `tag`, `tagSmall`, `kicker`, `title`, `text`, `button`, `link`, `external` (link de afiliere → tab nou, `rel="sponsored"`), culori opționale `accent`, `tagBg`, `tagColor`, `tagSmallColor`. Ordinea din fișier = ordinea pe pagină.
   - GA4: `promo_click`. **Campanie nouă = modifici doar `promo.json`**, fără HTML.
-  - Acum (toate pe `"all"`): Black Friday Nemira (6–10.11), RAO Books @ librarie.net (până la 31.12.2026), ACT și Politon @ librarie.net (până la 23.12.2026), Book-Half (librarie.net), ghid cadouri LEGO BrickPlanet (până la 24.12). Scoase pe 1.11: MacBook, city break Viena, Nemira NEM40 (expirate).
+  - Acum (toate pe `"all"`): Black Friday Nemira (6–10.11), Black Friday Curtea Veche (5–10.11), RAO Books @ librarie.net (până la 31.12.2026), ACT și Politon @ librarie.net (până la 23.12.2026), Book-Half (librarie.net), ghid cadouri LEGO BrickPlanet (până la 24.12). Scoase pe 1.11: MacBook, city break Viena, Nemira NEM40 (expirate).
   - **Ora de iarnă:** din 25.10.2026, 04:00, fusul României e `+02:00`; datele de după trebuie scrise cu `+02:00`, nu `+03:00`.
 - **Bannere** (`banners.json`): `id`, `merchant`, `image`, `link`, `alt`, `channels` (`site`/`email`), `startDate`, `endDate`, `weight`. Rotație pe zi (hash pe dată) + la 2 minute cât pagina e deschisă. Înălțime maximă 250px (`BANNER_MAX_HEIGHT_PX`). Secțiunea se ascunde dacă nu e niciun banner activ. Eticheta „PUBLICITATE”, `rel="nofollow sponsored noopener"`, GA4 `banner_click`. Nu se mai pun pe site bannere mari.
 - **Catalog de cărți** (`books.json`) cu filtre pe categorie, căutare, paginare, countdown (`offerEnds`).
@@ -349,6 +364,7 @@ Distribuite direct pe social media și pe email; nu apar în meniu. Model comun:
 | `cadouri-lego-brickplanet.html` + `email-cadouri-lego.html` | ghid de cadouri LEGO pe vârste (BrickPlanet, fără campanie/cod; invitație generală 2P): 25 de seturi din feedul brickplanet (feed_3dd5a1fd2, 20.10) în 6 secțiuni (1,5–5 ani DUPLO; 5–8; 8–12; adolescenți/adulți; ghetuță sub 70 lei; calendare de Advent); prețuri orientative din feed (tăiate când old_price > price) cu notă în footer; avantaje magazin: livrare 1–2 zile, transport gratuit peste 500 lei, 4 rate Oney, PayPo 30 zile, fidelitate 3%, retur 30 zile, vouchere periodice 10–20%. Countdown dublu: până la Moș Nicolae (6.12), apoi până la Crăciun. Imagini: `imagini/og-cadouri-lego.jpg` + feed/story (social). Fără logo LEGO (doar text LEGO® + disclaimer marcă). Cifre: LEGO 2025 venituri 83,5 mld DKK (+12%), vânzări +16%, 860+ produse (comunicat LEGO, mar. 2026). Dacă BrickPlanet trimite cod/voucher, se adaugă pe pagină și în card | 2.11–24.12.2026 |
 | `eu-sunt-malala-ghid-gratuit.html` (opt-in) + `eu-sunt-malala-ghid-de-lectura.html` (ghidul, noindex) + `email-cartea-lunii-malala.html` | Cartea lunii noiembrie: „Eu sunt Malala” (libris, unique 25a11de5d). Lead magnet = ghid de lectură (cronologie, 5 idei, 10 întrebări, sfaturi pentru adolescenți, 5 cărți similare din books.json). Opt-in pe formularul MailerLite general 193716714758735700; după abonare, butonul „Deschide ghidul” apare imediat (fără automatizare). Cardurile de reduceri din ambele pagini se citesc **live din promo.json** (fallback: cardurile scrise în pagină, ascunse după `end`) → nu trebuie actualizate. În email, cardurile sunt statice (5 campanii la 2.11). OG: `imagini/og-malala-ghid.jpg`. Cifre: ~2 mil. ex. până în 2017 (Publishers Weekly), 40+ limbi, Nobel 2014 la 17 ani | 2.11.2026 → |
 | `gandire-critica-lista-gratuita.html` → `top10-carti-gandire-critica.html` | lead magnet gândire critică: din 2.11.2026 **acces imediat** după abonare (mesajul de succes MailerLite are butonul „Deschide Top 10 cărți →”, iar abonarea e ținută minte în browser, `localStorage`); formularul MailerLite 198972489088369761 + grupul 191544829491021196 și automatizarea cu emailul rămân neschimbate. Pagina Top 10 are acum secțiunea „Reducerile lunii”, citită live din promo.json. Atenție: prețurile din Top 10 sunt scrise de mână (vechi) | 2.11.2026 → |
+| `curtea-veche-black-friday.html` + `email-curtea-veche-black-friday.html` | Black Friday Curtea Veche „Plătești jumătate. Citești tot.”: titlurile la preț întreg -50%, unele până la -90%; quicklink spre curteaveche.ro (fără landing dedicat); 8 cărți din feed_0ab2094f6 (Kiyosaki, Goleman, Maté, Brené Brown, Hill, Oakley, Gaslight, Murphy), fără prețuri; elementul vizual = bon fiscal (din textele lor); 3 stări pre/live/ended (5.11 00:00 – 11.11 00:00 +02:00); bannere 2P: 851×315 (site+email), 1080×1080 (email), 1155×1445 și 564×1002 (social; 1155×1445 e și pe pagină). OG `imagini/og-curtea-veche-bf.jpg`. Cifre: Tată bogat, tată sărac 32+ mil. ex., 51 de limbi, 109 țări (Wikipedia). Bannerele WeTransfer (we.tl) nu au fost descărcate | 3.11–10.11.2026 |
 | `carti-parenting.html` | catalog parenting (șablonul generic) | permanentă |
 | `carti-gandire-critica.html`, `top10-carti-gandire-critica.html`, `gandire-critica-lista-gratuita.html` | săptămâna gândire critică + lead magnet | permanente |
 | `top10-carti-vara-2026.html` | top 10 vară | |
@@ -423,7 +439,11 @@ Distribuite direct pe social media și pe email; nu apar în meniu. Model comun:
 - [ ] **Cărturești:** de verificat dacă linkurile rechizite/accesorii/jocuri (`07b5f0fed`) mai funcționează.
 - [ ] **carti-parenting:** 295 de cărți Cărturești fără afiliere (quicklink sau scoatere).
 - [ ] **oferte-carti-scolare:** de revizuit titlul/rolul paginii; de verificat cele 86 de potriviri prin subtitlu.
-- [ ] **`books.json`:** de corectat autorul la „Elevul Dima dintr-a șaptea”; de verificat înlocuirile „Fahrenheit 451” (acum librarie.net) și „Stephen Hawking, o viață dedicată științei” (libhumanitas).
+- [ ] **`books.json`:** de corectat autorul la „Elevul Dima dintr-a șaptea”; de verificat înlocuirea „Fahrenheit 451” (acum librarie.net).
+- [ ] **libris jocuri:** feedul complet libris (`78ad15be7`) a fost șters; ~3.700 de jocuri/puzzle/LEGO libris nu mai sunt în niciun feed (rămân cu prețurile din 21.10 și nu se mai scot când dispar). De creat în 2Performant un feed libris cu Board games, Puzzle, Jucării, Educative, Creative, Lego etc.; codul nou → `sites.json` + `LIBRIS_JOCURI`/`FEEDS`/`REGULI` în sync.
+- [ ] **`PRIORITATE_LIBRARII`** în `sync-carti-feeds.cjs`: ordinea librăriilor (acum provizorie: libris, carturesti, librarie.net, cartepedia, libhumanitas, curteaveche, edituratrei, nemira, edituracorint, edituragama, grupdzc).
+- [ ] **Humanitas:** de trimis mesajul către 2Performant despre feedul înghețat (`feed_e82be0de9`).
+- [ ] **`books.json`, după „cel mai bun preț”:** de verificat câteva mutări pe altă ediție (ex. „Ferma animalelor” 28 → 10 lei, „Jurnalul fericirii” 84 → 45 lei, la libris).
 - [ ] **grupdzc:** verificare lunară a categoriilor noi din feed; ~25.000 de cărți pentru adulți nefolosite (posibilă secțiune nouă).
 - [ ] **Gama:** de verificat că pozele de pe edituragama.ro se afișează pe site.
 - [ ] **carti-parenting.html:** bannerul Cărturești „-20% cărți de parenting” (oferta 6675) e probabil expirat — de verificat și scos dacă nu mai funcționează.
@@ -441,8 +461,9 @@ Distribuite direct pe social media și pe email; nu apar în meniu. Model comun:
 - [ ] Ștergerea fișierelor nefolosite: `rechizite.json`, `generate-catalog-from-feeds.cjs`, `REMEMBER-feed-uri.md`.
 - [ ] **CSS (Comparison Shopping Service):** oportunitate de discutat (secțiunea 13).
 
-### books.json — cine actualizează ce (din 02.11.2026)
-- `sync-carti-feeds.cjs`: libris, curteaveche, edituratrei, librarienet, carturesti, cartepedia, nemira, corint, gama, grupdzc — din feeduri. ATENȚIE: feedurile trebuie copiate proaspete în folderul site-ului (avertisment „e vechi de X ore" / `sync-report.json` → `vechimeOre`).
-- `update-prices.js`: actsipoliton **și humanitas** (feedul 2Performant libhumanitas e înghețat: identic byte cu byte la 9.10, 14.10 și 20.10.2026). Sync-ul sare peste humanitas (`BOOKS_PE_SCRAPER`). Necesită scraperul `lib/scrapers` pentru humanitas; dacă lipsește, scriptul afișează „Nu există scraper…".
-- printrecarti (exemplar unic, la mâna a doua): sync-ul citește `feed_09200f7e9.xml` DOAR pentru books.json; cartea vândută → înlocuită cu ediție nouă din alt feed sau ascunsă (`available:false`). „Cimitirul animalelor" ascunsă manual pe 02.11.2026 (vândută; Nemira ed. 2019 inactivă).
-- Sync-ul listează acum cărțile „fără feed și fără scraper" (prețul lor nu se actualizează).
+### books.json — cine actualizează ce (din 03.11.2026)
+- `sync-carti-feeds.cjs` actualizează toate cărțile cu link 2Performant și aplică regula **„cel mai bun preț”** (`BOOKS_CEL_MAI_BUN_PRET = true`): fiecare carte e căutată în toate feedurile după titlu + autor confirmat; dacă oferta actuală e cu peste 5% (`PRAG_BANDA_PRET`) peste cea mai ieftină, cartea trece pe librăria din „bandă” (min + 5%) aflată cel mai sus în `PRIORITATE_LIBRARII` (ordinea o stabilește Marius — de completat). Oferta actuală în bandă → cartea rămâne (fără schimbări de la o zi la alta). Se exclud ebook-uri și audiobook-uri. La mutare se schimbă `source`, `affiliate`, `productUrl`, prețul și coperta (`BOOKS_SCHIMBA_IMAGINEA`; imaginea veche rămâne în `imageOriginala`). Raport: rândurile „💸 … (verifică ediția: …)”.
+- libhumanitas = `BOOKS_FEED_INGHETAT` (feedul e identic din 9.10.2026, iar libhumanitas.ro blochează scraperul — „Humanitas indisponibil temporar”). Oferta Humanitas nu e aleasă niciodată ca „mai ieftină”; o carte Humanitas pleacă pe altă librărie când alternativa nu e cu peste 5% mai scumpă (altfel rămâne, ex. Jurnalul Annei Frank). Test pe feedurile din 20.10: 13 din 20 de cărți Humanitas mutate, 34 de cărți în total.
+- `update-prices.js`: din nou doar actsipoliton (humanitas scos pe 03.11.2026).
+- printrecarti (exemplar unic, la mâna a doua): sync-ul citește `feed_09200f7e9.xml` DOAR pentru books.json; cartea vândută → înlocuită cu ediție nouă sau ascunsă. „Cimitirul animalelor” ascunsă pe 02.11.2026.
+- Feedurile trebuie copiate proaspete în folderul site-ului (avertismentul „e vechi de X ore”).

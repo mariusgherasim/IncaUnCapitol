@@ -374,5 +374,32 @@
     "startDate": "2026-10-27",
     "endDate": "2026-10-28",
     "weight": 1
+  },
+  {
+    "id": "curteaveche-bf-01",
+    "merchant": "curteaveche.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/274171/original/274171.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=a26b8930e&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "alt": "Black Friday Curtea Veche: Plătești jumătate. Citești tot. 5–10 noiembrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-03",
+    "endDate": "2026-11-10",
+    "weight": 2
+  },
+  {
+    "id": "curteaveche-bf-02",
+    "merchant": "curteaveche.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/274174/original/274174.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=fee891ea0&aff_code=676a7e7d9&campaign_unique=f9db13aad",
+    "alt": "Cărți cu până la 90% reducere la Curtea Veche",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-11-03",
+    "endDate": "2026-11-10",
+    "weight": 1
   }
 ]
