@@ -651,7 +651,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c4fa8fca1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28509/28508690-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "49,90 Lei"
+    "price": "37,42 Lei",
+    "oldPrice": "49,90 Lei",
+    "discount": "25%"
   },
   {
     "title": "Cablu magnetic agatat fotografii: Baloane cu aer",
@@ -2183,7 +2185,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3fe885d01&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/33139/33138623-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "21,00 Lei"
+    "price": "15,75 Lei",
+    "oldPrice": "21,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "Semn de carte din lemn: Mesaj despre carti",
@@ -7295,7 +7299,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b6b9c3aff&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/35378/35377622-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "15,00 Lei"
+    "price": "11,25 Lei",
+    "oldPrice": "15,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "Suport pentru chei: Musik Black",
@@ -10875,9 +10881,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=OLG1jBaNhaTj&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/44402/44401588-1-small-1.jpg?ver=1762254138",
     "category": "articole-scolare-accesorii",
-    "price": "13,60 Lei",
-    "oldPrice": "17,00 Lei",
-    "discount": "20%"
+    "price": "17,00 Lei"
   },
   {
     "title": "Jurnal: Make Memories",
@@ -11411,7 +11415,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b2_O3sKhkuXF&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28633/28632156-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "51,00 Lei"
+    "price": "43,35 Lei",
+    "oldPrice": "51,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Husa pentru carte: Forest",
@@ -13289,7 +13295,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b4LpLKfzrZ9P&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/46514/46513474-1-small-1.jpg?ver=1777284340",
     "category": "articole-scolare-accesorii",
-    "price": "229,00 Lei"
+    "price": "194,65 Lei",
+    "oldPrice": "229,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Termos mini: Sunrise Vibes",
@@ -17363,7 +17371,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6tcnZMaXOlCl&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/4/0/2/2/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "32,30 Lei"
+    "price": "30,40 Lei"
   },
   {
     "title": "Florilegium, agenda roz. Aici rasar idei",
@@ -18323,7 +18331,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PtFPXgqSib3s&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/7/8/4/7/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "9,36 Lei"
+    "price": "8,40 Lei"
   },
   {
     "title": "Caiet biologie spiralizat 32 file, format A4",
@@ -18543,7 +18551,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ogPNbiFnr7e9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/7/8/5/7/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "12,00 Lei"
+    "price": "8,40 Lei"
   },
   {
     "title": "Penar Lamonza Apollo 21X9X7 cm, 2 compartimente",
@@ -39609,7 +39617,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vo7BHHmE9wIF&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/0/0/8/3/9/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "27,36 Lei"
+    "price": "26,60 Lei"
   },
   {
     "title": "Set Geometrie Albastru Milan",
@@ -42993,7 +43001,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UY0dYEGUVHsU&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/7/8/5/5/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "9,36 Lei"
+    "price": "8,40 Lei"
   },
   {
     "title": "Penar echipat 31 piese, 2 clape, dimensiune 14 x 20.3 x 3.5 cm, motiv Cosmic Explorer",
@@ -43003,7 +43011,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CUDRtjWaxb17&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/3/0/1/5/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "57,32 Lei"
+    "price": "49,04 Lei"
   },
   {
     "title": "Angry Birds Stickere Puffy in relief",
@@ -43903,7 +43911,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=rlTO-27AOVCp&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/3/9/1/8/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "4,99 Lei"
+    "price": "3,27 Lei"
   },
   {
     "title": "Set 6 Pahare vin Cristal Bohemia Angela, 200 ml",
@@ -47033,7 +47041,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=H3xeKSLT03IM&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/7/8/5/1/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "9,36 Lei"
+    "price": "8,40 Lei"
   },
   {
     "title": "Pix Combinel DACO PX258, verde",
@@ -48493,7 +48501,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qgR3tCGLLqEG&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28402/28401947-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "61,00 Lei"
+    "price": "45,75 Lei",
+    "oldPrice": "61,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "Suport laptop: Travel",
@@ -55883,7 +55893,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c_rpYRlORZWg&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/1/4/9/6/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "61,06 Lei"
+    "price": "52,00 Lei"
   },
   {
     "title": "Stilou Lamy abc 009-black",
@@ -56833,7 +56843,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4429b99cb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/28509/28508774-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "130,00 Lei"
+    "price": "97,50 Lei",
+    "oldPrice": "130,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "Husa carte: Bookaroo. Verde",
@@ -57519,7 +57531,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_6Wv1j_nYbD0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/34362/34361915-1-small-1.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "130,00 Lei"
+    "price": "97,50 Lei",
+    "oldPrice": "130,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "Suport pentru carti: Maini. Verde",
@@ -64949,7 +64963,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=myPXp2NNNcE1&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48673/48672491-1-small-1.jpg?ver=1791808408",
     "category": "articole-scolare-accesorii",
-    "price": "65,00 Lei"
+    "price": "55,25 Lei",
+    "oldPrice": "65,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Agenda a4 nedatata verde activ ego",
@@ -70173,7 +70189,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=65fl7cSfPAOx&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/0/8/3/7/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "24,00 Lei"
+    "price": "17,14 Lei"
   },
   {
     "title": "Calendar de Perete A3, Pisici 2027",
@@ -71223,7 +71239,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lCZH24XW204l&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/0/6/6/8/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "55,96 Lei"
+    "price": "43,09 Lei"
   },
   {
     "title": "Nota de receptie cu TVA 11 coloane, autocopiativa, L03677",
@@ -75401,7 +75417,7 @@
     "sourceSite": "libris.ro",
     "productUrl": "https://www.libris.ro/produs/calendar-regal-2027-a-s-r-principele-radu/48905976?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QST3hBt-AKD2&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/farapoza1.jpg",
+    "image": "https://www.libris.ro/img/pozeprod/48906/48905976-1-small-1.jpg?ver=1793689307",
     "category": "articole-scolare-accesorii",
     "price": "149,00 Lei"
   },
@@ -75421,7 +75437,7 @@
     "sourceSite": "libris.ro",
     "productUrl": "https://www.libris.ro/produs/calendar-2027-magnetic-caini/48906928?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_uEf7wu8ZGeb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/farapoza1.jpg",
+    "image": "https://www.libris.ro/img/pozeprod/48907/48906928-1-small-1.jpg?ver=1793687245",
     "category": "articole-scolare-accesorii",
     "price": "6,90 Lei"
   },
@@ -75452,6 +75468,156 @@
     "productUrl": "https://www.libris.ro/produs/calendar-2027-wildlife-in-romania-12-file/48906963?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hGOfrH5MPbFk&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/farapoza1.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "17,90 Lei"
+  },
+  {
+    "title": "Accesorii Craft DACO - Sarma plusata dungata, AD521",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/509598/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cj1pDUfea9-A&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/0/9/5/9/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "6,00 Lei"
+  },
+  {
+    "title": "Agenda A4 datata Manager 2027, bordo",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/523187/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MQJ-MQfNykaI&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/3/1/8/7/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "28,10 Lei"
+  },
+  {
+    "title": "Calendar birou 2027 Triptic 6 coli - 3 luni/pagina",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/523043/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Xs0bTfCxjYwd&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/3/0/4/3/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "6,03 Lei"
+  },
+  {
+    "title": "Ascutitoare simpla cu rezervor, diverse modele, Shakky Maped",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/464150/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=wElslAQketf4&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/6/4/1/5/0/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "7,13 Lei"
+  },
+  {
+    "title": "Tolkien Calendar 2027 : The Hobbit 90th Anniversary",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/523069/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_5q2r0zAKyyi&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/3/0/6/9/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "73,19 Lei"
+  },
+  {
+    "title": "Mapa cu 30 folii DACO rosu",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/300906/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LFJQznFmi6cB&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/0/0/9/0/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "12,90 Lei"
+  },
+  {
+    "title": "Penar tip etui oval, dimensiune 21,5 x 9 x 5,5 cm, motiv Cute Animals Zebra",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/431698/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cXi5meId1ZXs&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/1/6/9/8/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "36,44 Lei"
+  },
+  {
+    "title": "Creion grafit B triunghiular sparkle bleu ocean metalizat 2023 Faber-Castell",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/491265/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=C3erRjnymoYo&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/9/1/2/6/5/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "8,00 Lei"
+  },
+  {
+    "title": "Calendar de Perete, A3 Triptic Lucios 2027",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/523056/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=uCOGIECuTQTX&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/3/0/5/6/300x300.jpg",
+    "category": "articole-scolare-accesorii",
+    "price": "12,70 Lei"
+  },
+  {
+    "title": "Cutie muzicala: Copac",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/cutie-muzicala-copac/48827590?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RPv4ilahYuwe&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48828/48827590-1-small-1.jpg?ver=1793609819",
+    "category": "articole-scolare-accesorii",
+    "price": "208,00 Lei"
+  },
+  {
+    "title": "Cutie muzicala: Visul unicornului",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/cutie-muzicala-visul-unicornului/48827604?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ab30pMli8C-6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48828/48827604-1-small-1.jpg?ver=1793609005",
+    "category": "articole-scolare-accesorii",
+    "price": "208,00 Lei"
+  },
+  {
+    "title": "Cutie muzicala: Gradina secreta",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/cutie-muzicala-gradina-secreta/48827639?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1BthbVT8el5z&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48828/48827639-1-small-1.jpg?ver=1793610883",
+    "category": "articole-scolare-accesorii",
+    "price": "358,00 Lei"
+  },
+  {
+    "title": "Calendar perete 2027.Castele faimoase A3",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/calendar-perete-2027-castele-faimoase-a3/48906970?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b8A5ObIvwXfk&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48907/48906970-1-small-1.jpg?ver=1793688263",
+    "category": "articole-scolare-accesorii",
+    "price": "17,90 Lei"
+  },
+  {
+    "title": "Calendar perete 2027. Cai A3",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/calendar-perete-2027-cai-a3/48906949?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_gudQE9d7e13&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48907/48906949-1-small-1.jpg?ver=1793688072",
+    "category": "articole-scolare-accesorii",
+    "price": "17,90 Lei"
+  },
+  {
+    "title": "Calendar perete 2027. Spiritual cu icoane",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/produs/calendar-perete-2027-spiritual-cu-icoane/48906977?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TCDYuSoVyDgd&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/48907/48906977-1-small-1.jpg?ver=1793688646",
     "category": "articole-scolare-accesorii",
     "price": "17,90 Lei"
   }

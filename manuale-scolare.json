@@ -11041,9 +11041,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9d8a8b407&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/353/352838-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "23,69 Lei",
+    "price": "21,06 Lei",
     "oldPrice": "26,32 Lei",
-    "discount": "10%"
+    "discount": "20%"
   },
   {
     "title": "Chimie - Clasa 12 C1 - Manual - Sanda Fatu, Cornelia Grecescu, Lia Cojocaru",
@@ -20683,7 +20683,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=06a92b468&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/34459/34458179-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "25,90 Lei"
+    "price": "26,90 Lei"
   },
   {
     "title": "Matematica si explorarea mediului - Clasa 2 - Manual - Adina Grigore, Claudia-Daniela Negritoiu, Augustina Anghel, Cristina Ipate-Toma",
@@ -24771,9 +24771,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a2a5df400&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/26911/26910093-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "46,78 Lei",
-    "oldPrice": "62,38 Lei",
-    "discount": "25%"
+    "price": "62,38 Lei"
   },
   {
     "title": "Aventuri matematice in castelul vrajitoarei - Clasa 1 - Corina Andrei, Constanta Balan",
@@ -25613,7 +25611,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=409a9d357&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38390/38389743-1-small-1.jpg",
     "category": "manuale-scolare",
-    "price": "34,89 Lei"
+    "price": "33,15 Lei",
+    "oldPrice": "34,89 Lei",
+    "discount": "5%"
   },
   {
     "title": "Matematica. Exercitii, probleme, jocuri, teste de evaluare - Clasa 4 - Daniela Berechet, Gentiana Berechet",
@@ -38337,7 +38337,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=61a08c4f7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/9/7/2/8/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,00 Lei"
+    "price": "19,60 Lei"
   },
   {
     "title": "Piramida Cunoasterii - Repere metodice in aplicarea curriculumului prescolar",
@@ -38377,7 +38377,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f0c074405&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/0/2/4/1/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,00 Lei"
+    "price": "19,60 Lei"
   },
   {
     "title": "Gazeta Matematica Junior nr. 86 (Septembrie-Octombrie 2019)",
@@ -38387,7 +38387,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0bb0c3fe8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/7/1/3/7/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,64 Lei"
+    "price": "3,38 Lei"
   },
   {
     "title": "Activitati pentru educatie timpurie. Fise de lucru pentru 2-3 ani",
@@ -38457,7 +38457,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3c0dee246&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/3/5/0/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "2,87 Lei"
+    "price": "2,67 Lei"
   },
   {
     "title": "Caiet de scriere. Invat sa scriu cifre",
@@ -38487,7 +38487,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=16b867bc5&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/1/7/7/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,64 Lei"
+    "price": "3,38 Lei"
   },
   {
     "title": "Gazeta Matematica Junior nr. 82 (Aprilie 2019)",
@@ -38497,7 +38497,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=de13a388d&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/5/2/2/1/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,64 Lei"
+    "price": "3,38 Lei"
   },
   {
     "title": "Citesc si scriu corect! Exercitii de citire si scriere Clasa I (editia a IV-a)",
@@ -38507,7 +38507,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=36dded8d7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/6/1/9/4/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,50 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Cartea mea de gramatica. Limba si literatura romana. Clasa a VII-a",
@@ -38557,7 +38557,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=173f1dbdc&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/5/0/2/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,50 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Abecedar. Manual pentru clasa I",
@@ -38577,7 +38577,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1d91aacff&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/5/9/7/4/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "11,25 Lei"
+    "price": "10,50 Lei"
   },
   {
     "title": "Caiet de scriere. Semne grafice. Matematica si explorarea mediului",
@@ -38617,7 +38617,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ec773d653&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/6/2/3/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,64 Lei"
+    "price": "3,38 Lei"
   },
   {
     "title": "Compuneri tematice pentru clasele III-V",
@@ -38647,7 +38647,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=aa8aedcb7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/6/1/7/2/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,00 Lei"
+    "price": "19,60 Lei"
   },
   {
     "title": "Chimie C1. Manual pentru clasa a XI-a",
@@ -38727,7 +38727,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a6e8bb9a8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/1/4/6/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "10,50 Lei"
+    "price": "9,80 Lei"
   },
   {
     "title": "ABCdarul distractiv. Atelier de lectura si creatie pentru clasa I",
@@ -38787,7 +38787,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=497294dd8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/4/8/1/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,64 Lei"
+    "price": "3,38 Lei"
   },
   {
     "title": "Matematica. Clasele 3-4",
@@ -38857,7 +38857,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=da6dd693b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/4/8/1/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,64 Lei"
+    "price": "3,38 Lei"
   },
   {
     "title": "Fise de recapitulare si evaluare finala pentru clasa I. Comunicare in limba romana. Matematica si explorarea mediului. Dezvoltare personala. Arte vizuale si abilitati practice (editie 2022)",
@@ -38917,7 +38917,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=32118c901&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/6/6/7/8/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,48 Lei"
+    "price": "14,27 Lei"
   },
   {
     "title": "Culegere de matematica pentru copii isteti. Clasa I",
@@ -38937,7 +38937,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=daae4446a&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/0/5/7/9/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "2,87 Lei"
+    "price": "2,67 Lei"
   },
   {
     "title": "Din tainele compunerii. Cum am reusit sa scriu compuneri. Clasele III-IV. Modele de compuneri (Editie adaugita)",
@@ -38977,7 +38977,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=65a3726be&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/6/1/7/2/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "16,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Metodica si evaluarea pentru examenele de titularizare si definitivare in invatamant﻿ (Editia a III-a adaugita si revizuita)",
@@ -39037,7 +39037,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=86609d323&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/7/4/4/7/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,00 Lei"
+    "price": "19,60 Lei"
   },
   {
     "title": "Exercitii de gramatica pentru clasele a III-a si a IV-a - Ghid practic de invatare a gramaticii limbii romane, pentru scolarii mici si parinti",
@@ -39097,7 +39097,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e950cbcc8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/5/1/0/5/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,95 Lei"
+    "price": "28,53 Lei"
   },
   {
     "title": "Romania. Atlas geografic scolar",
@@ -39157,7 +39157,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a3cf95299&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/9/0/4/8/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Ma pregatesc pentru concurs! Limba si literatura romana clasa a IV-a",
@@ -39167,7 +39167,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=06c7ff904&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/9/1/0/8/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Gramatica prin teste-grila - cu rezolvare completa si argumentata. Clasele V-VIII. Liceu",
@@ -39187,7 +39187,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5a8d77226&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/9/9/5/3/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Scriem si vorbim corect! Ortograme",
@@ -39207,7 +39207,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=586dd43c1&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/0/0/8/3/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,54 Lei"
+    "price": "25,32 Lei"
   },
   {
     "title": "Chimie pentru gimnaziu. Exercitii, probleme si jocuri",
@@ -39367,7 +39367,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1ccdac79e&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/2/6/9/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Aricel Voinicel - caiet de matematica si explorarea mediului, clasa pregatitoare",
@@ -39387,7 +39387,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f6661aa3a&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/5/0/6/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "17,94 Lei"
+    "price": "18,99 Lei"
   },
   {
     "title": "La iarba verde. Texte si exercitii pentru scolarii din clasa pregatitoare",
@@ -39417,7 +39417,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5233f3a96&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/5/1/0/4/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,52 Lei"
+    "price": "14,31 Lei"
   },
   {
     "title": "Matematica si explorarea mediului. Exercitii, probleme, jocuri, teste de evaluare. Clasa a 2-a",
@@ -39427,7 +39427,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=48be6c748&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/3/2/5/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Limba moderna engleza. Caiet de lucru pentru clasa a II-a",
@@ -39657,7 +39657,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9f984d652&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/2/8/1/4/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,95 Lei"
+    "price": "28,53 Lei"
   },
   {
     "title": "Admiterea la Facultatea de Medicina. Sinteze si grile de chimie organica. Teste generale de biologie si chimie organica",
@@ -39667,7 +39667,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=da373efee&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/2/3/1/6/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "67,41 Lei"
+    "price": "71,37 Lei"
   },
   {
     "title": "Metodica predarii limbii romane in invatamantul primar. Editia a VIII-a",
@@ -39797,7 +39797,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7e6905fd4&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/7/9/4/5/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,54 Lei"
+    "price": "25,32 Lei"
   },
   {
     "title": "Matematica. Clasa a VIII-a. Semestrul I. Clubul matematicienilor",
@@ -39817,7 +39817,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=81f4eff77&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/9/3/4/3/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "27,16 Lei"
+    "price": "23,28 Lei"
   },
   {
     "title": "Antrenament pentru performanta. Matematica si explorarea mediului. Exercitii si probleme.  Clasa a II-a",
@@ -39987,7 +39987,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ff4f8a784&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/4/1/9/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,44 Lei"
+    "price": "23,76 Lei"
   },
   {
     "title": "Matematica. Clasa a VII-a. Partea I. Clubul matematicienilor",
@@ -40167,7 +40167,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a1f957d3d&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/8/0/6/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "25,62 Lei"
+    "price": "21,96 Lei"
   },
   {
     "title": "Semne grafice 4-5 ani",
@@ -40177,7 +40177,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ff4309e55&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/8/1/8/6/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,00 Lei"
+    "price": "8,40 Lei"
   },
   {
     "title": "Cum sa scrii o compunere - tipuri si modele de compuneri pentru clasa a IV-a",
@@ -40197,7 +40197,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f5e21223a&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/8/1/8/6/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,00 Lei"
+    "price": "8,40 Lei"
   },
   {
     "title": "Limba engleza pentru clasa 3. Workbook",
@@ -40367,7 +40367,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3c440e431&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/1/7/7/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,66 Lei"
+    "price": "7,77 Lei"
   },
   {
     "title": "Culegere de limba si literatura romana - Clasa a III-a",
@@ -40497,7 +40497,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=64673877f&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/0/0/4/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Limba si literatura romana. Exercitii, fise de lucru, teste de evaluare. Clasa a III-a",
@@ -40507,7 +40507,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ddebdc7f0&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/0/0/4/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Limba si literatura romana. Exercitii, fise de lucru, teste de evaluare. Clasa a IV-a",
@@ -40517,7 +40517,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6ec5c1c13&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/0/0/4/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Literele alfabetului. Set 40 de planse didactice pentru clasa pregatitoare si pentru clasa I",
@@ -40707,7 +40707,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fc917d493&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/8/7/7/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,50 Lei"
+    "price": "21,00 Lei"
   },
   {
     "title": "Limba si literatura romana. Caietul elevului. Clasa a V-a",
@@ -40747,7 +40747,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5da99b616&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/0/1/9/3/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,00 Lei"
+    "price": "10,40 Lei"
   },
   {
     "title": "Fizica. Culegere de probleme propuse si rezolvate pentru clasa a X-a si bacalaureat. Avizata MEN",
@@ -40767,7 +40767,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=55a8d6ceb&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/9/4/1/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "25,16 Lei"
+    "price": "26,64 Lei"
   },
   {
     "title": "Limba moderna engleza. Clasa a IV-a",
@@ -40837,7 +40837,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4871551e6&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/1/7/9/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "25,16 Lei"
+    "price": "26,64 Lei"
   },
   {
     "title": "Reusesc mai mult. Teste de performanta. Comunicare in limba romana. Matematica. Clasa a II-a",
@@ -40847,7 +40847,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9d3bcbc4f&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/2/3/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,44 Lei"
+    "price": "23,76 Lei"
   },
   {
     "title": "1245 de probleme pentru micii matematicieni. Clasele I-IV + Brosura solutii, indicatii, raspunsuri",
@@ -40937,7 +40937,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=66458fea9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/6/5/3/2/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "54,60 Lei"
+    "price": "50,70 Lei"
   },
   {
     "title": "Cum e corect? Ghid practic de limba romana (conform DOOM3): fonetica, ortografie, lexic, morfologie, sintaxa, punctuatie",
@@ -40947,7 +40947,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d2a452f36&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/5/6/2/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "49,39 Lei"
+    "price": "52,29 Lei"
   },
   {
     "title": "Pedagogia jocului si a activitatilor ludice",
@@ -40957,7 +40957,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7a499967e&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/5/5/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "45,85 Lei"
+    "price": "42,58 Lei"
   },
   {
     "title": "Aladin si lampa fermecata. Carte de citit cu litere mari de tipar (format B5)",
@@ -41157,7 +41157,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7fcb35dc2&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/9/8/9/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "7,84 Lei"
+    "price": "7,04 Lei"
   },
   {
     "title": "Reusesc mai mult. Teste de performanta. Limba si literatura romana. Matematica. Clasa a III-a",
@@ -41167,7 +41167,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=490bdd602&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/8/4/1/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,44 Lei"
+    "price": "23,76 Lei"
   },
   {
     "title": "Didactica matematicii pentru invatamantul primar si prescolar",
@@ -41307,7 +41307,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d507ca27b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/5/7/9/0/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,96 Lei"
+    "price": "38,07 Lei"
   },
   {
     "title": "Lecturi suplimentare clasa a II-a",
@@ -41327,7 +41327,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=55662a073&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/7/8/4/6/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,50 Lei"
+    "price": "21,00 Lei"
   },
   {
     "title": "Gramatica limbii franceze cu exercitii",
@@ -41367,7 +41367,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=026d5a261&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/3/2/3/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,60 Lei"
+    "price": "24,70 Lei"
   },
   {
     "title": "Matematica. Manual pentru clasa a IX-a. Trunchi comun + curriculum diferentiat (TC + CD)",
@@ -41397,7 +41397,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=20ce742b7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/3/2/4/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "Economie. Manual pentru clasa a XI-a",
@@ -41417,7 +41417,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=43095d1d1&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/8/5/0/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "36,00 Lei"
+    "price": "33,60 Lei"
   },
   {
     "title": "Limba romana pentru admiterea la scolile de politie si de subofiteri de jandarmi. 1332 intrebari si raspunsuri",
@@ -41527,7 +41527,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=10f304578&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/3/7/4/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "10,50 Lei"
+    "price": "9,80 Lei"
   },
   {
     "title": "Clubul exploratorilor. O calatorie distractiva prin clasa pregatitoare. Fise de lucru pentru matematica si explorarea mediului",
@@ -41587,7 +41587,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=00173c6b8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/3/7/7/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Plansa alfabet",
@@ -41727,7 +41727,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d1a56af30&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/5/8/0/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "23,40 Lei"
+    "price": "22,10 Lei"
   },
   {
     "title": "Comunicare in limba romana. Manual pentru clasa I",
@@ -41787,7 +41787,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ed95eec82&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/5/4/0/2/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,60 Lei"
+    "price": "37,70 Lei"
   },
   {
     "title": "Ecologie. Manual pentru clasa a IX-a",
@@ -41907,7 +41907,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d0eb2ef90&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/3/9/7/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "53,27 Lei"
+    "price": "49,47 Lei"
   },
   {
     "title": "Matematica vesela. Caiet de jocuri logico-matematice, 6 ani +",
@@ -41947,7 +41947,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=99290d457&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/0/5/7/6/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,84 Lei"
+    "price": "26,78 Lei"
   },
   {
     "title": "Matematica si explorarea mediului clasa a II-a",
@@ -41957,7 +41957,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0cec40c9a&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/6/0/1/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,25 Lei"
+    "price": "35,70 Lei"
   },
   {
     "title": "Supereroi de jucat nr. 1 (pentru prescolari si scolari mici)",
@@ -42097,7 +42097,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fbe708ac9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/8/0/0/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,96 Lei"
+    "price": "38,07 Lei"
   },
   {
     "title": "Matematica si explorarea mediului. Fise de lucru. Clasa pregatitoare",
@@ -42127,7 +42127,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a967735a8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/0/4/6/0/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,08 Lei"
+    "price": "23,80 Lei"
   },
   {
     "title": "OLA in grupa mare. Caiet de lucru pentru prescolari, 5-6 ani (editie revizuita). Caiet 1",
@@ -42217,7 +42217,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8f5ad5558&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/9/2/2/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,44 Lei"
+    "price": "23,76 Lei"
   },
   {
     "title": "Automobile. Constructie, intretinere si reparare",
@@ -42387,7 +42387,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=61e3ae98b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/2/2/0/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "14,70 Lei"
+    "price": "13,65 Lei"
   },
   {
     "title": "Lecturi suplimentare clasa I",
@@ -42637,7 +42637,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8345774f0&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/1/2/4/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,49 Lei"
+    "price": "32,96 Lei"
   },
   {
     "title": "Istorie. Manual pentru clasa a XII-a",
@@ -42657,7 +42657,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b18fee545&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/1/5/2/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,73 Lei"
+    "price": "22,20 Lei"
   },
   {
     "title": "Matematica pentru excelenta. Clasa a VI-a. Clubul Matematicienilor",
@@ -42797,7 +42797,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=63e721e87&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/6/4/2/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Cu Elefantel, citesc si scriu corect! Clasa I",
@@ -42817,7 +42817,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=503de7f06&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/2/7/4/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Probleme rezolvate de fizica. Termodinamica",
@@ -42947,7 +42947,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=102135308&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/8/3/6/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,75 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Invatam alfabetul si cifrele",
@@ -43007,7 +43007,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e0d545ca8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/6/0/0/7/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Dezvoltarea competentelor emotionale si sociale la prescolari. Ghid practic pentru educatori",
@@ -43027,7 +43027,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2446ab10f&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/8/3/6/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,75 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Comunicare in limba romana. Manual clasa a II-a",
@@ -43037,7 +43037,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7ee402a0f&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/3/7/7/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,25 Lei"
+    "price": "35,70 Lei"
   },
   {
     "title": "Cartea completa a prescolarului 5-6 ani",
@@ -43107,7 +43107,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=eba04d960&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/5/8/6/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Limba engleza pentru clasa pregatitoare. Workbook",
@@ -43137,7 +43137,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fde798410&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/4/1/9/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,44 Lei"
+    "price": "23,76 Lei"
   },
   {
     "title": "Matematica - clasa a IX-a - Algebra. Geometrie. Trigonometrie - Sinteze de teorie. Exercitii si probleme",
@@ -43397,7 +43397,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c40fdcc9e&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/5/8/5/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Comunicare in limba moderna 1. Engleza. Caietul elevului. Clasa a II-a",
@@ -43517,7 +43517,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bd9ebd4ba&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/7/4/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "25,09 Lei"
+    "price": "22,14 Lei"
   },
   {
     "title": "Matematica. Manual pentru clasa a III-a. Varianta in limba maghiara",
@@ -43627,7 +43627,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a013f1a62&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/7/2/3/1/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,20 Lei"
+    "price": "25,35 Lei"
   },
   {
     "title": "Biologie BAC Teste pentru clasele a XI-a și a XII-a",
@@ -43677,7 +43677,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a76f8e541&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/8/9/0/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,89 Lei"
+    "price": "8,26 Lei"
   },
   {
     "title": "Limba moderna 1. Limba engleza. Caietul elevului. Clasa a VII-a. Think level 1, workbook",
@@ -43717,7 +43717,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f26219038&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/2/9/2/9/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,70 Lei"
+    "price": "20,37 Lei"
   },
   {
     "title": "Geografie. Bacalaureat. Teste (58 de teste cu modele de rezolvare)",
@@ -43817,7 +43817,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0e94df606&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/2/6/5/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Clubul exploratorilor. O calatorie distractiva spre cunoastere. Fise de lucru pentru matematica si explorarea mediului, clasa I",
@@ -43847,7 +43847,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3c73447df&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/2/6/5/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Pedagogie (editia a IV-a revazuta si adaugita)",
@@ -44117,7 +44117,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a52ba4cc7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/4/9/1/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "72,20 Lei"
+    "price": "57,76 Lei"
   },
   {
     "title": "Teste de antrenament pentru Concursul scolar national COMPER. Comunicare in limba romana. Matematica. Clasa pregatitoare",
@@ -44147,7 +44147,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=60d45e849&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/5/3/0/2/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "58,40 Lei"
+    "price": "61,83 Lei"
   },
   {
     "title": "Supercaietul meu de Comunicare. Fise de lucru pentru clasa a II-a",
@@ -44187,7 +44187,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3013f9f2d&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/6/5/0/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,60 Lei"
+    "price": "33,30 Lei"
   },
   {
     "title": "Supercaietul meu de Comunicare. Fise de lucru pentru clasa pregatitoare",
@@ -44277,7 +44277,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=df4e17e55&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/7/2/8/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,45 Lei"
+    "price": "33,30 Lei"
   },
   {
     "title": "Povestea literelor. Caiet de citire pentru clasa pregatitoare",
@@ -44307,7 +44307,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=70400998b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/7/5/3/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,24 Lei"
+    "price": "30,96 Lei"
   },
   {
     "title": "@vacantadevara.eu. Scrisorile verii. Caiet de vacanta pentru limba si literatura romana. Clasa a V-a",
@@ -44337,7 +44337,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=961f916b5&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/7/9/1/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "Pedagogia invatamantului primar si prescolar. Volumul II",
@@ -44447,7 +44447,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4IdHd2eC3sVk&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/9/5/1/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,50 Lei"
+    "price": "21,00 Lei"
   },
   {
     "title": "Sa aprofundam textele literare clasa a II-a",
@@ -44527,7 +44527,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=92H3sOcTHCmO&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/0/7/9/4/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Primii pasi la scoala. Hai sa facem adunari!",
@@ -44787,7 +44787,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=mncS9GLVS12b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/4/7/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,96 Lei"
+    "price": "38,07 Lei"
   },
   {
     "title": "Plansa. Gramatica - Clasa a V-a",
@@ -44817,7 +44817,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=04EBkvGhBBRx&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/9/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "2,03 Lei"
+    "price": "1,82 Lei"
   },
   {
     "title": "Plansa Ortograme 2 (format A4)",
@@ -44937,7 +44937,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=uocCGRqQ_CDH&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/9/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "2,03 Lei"
+    "price": "1,82 Lei"
   },
   {
     "title": "Plansa Ortograme 1 (format A4)",
@@ -44947,7 +44947,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jF5tOznbrZaD&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/9/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "2,03 Lei"
+    "price": "1,82 Lei"
   },
   {
     "title": "Al doilea razboi mondial. Atlas ilustrat. Batalii, arme, tehnica de razboi",
@@ -45047,7 +45047,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MqYDAInq43mI&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/5/9/5/7/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Istorie, Clasa a IV-a - Caiet de lucru",
@@ -45057,7 +45057,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nHPa2CNuGoih&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/2/6/9/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Litere de tipar pentru clasa pregatitoare. Caiet de scriere pentru limba romana",
@@ -45077,7 +45077,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=th0n3w6UH77b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/8/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,52 Lei"
+    "price": "8,54 Lei"
   },
   {
     "title": "Teste. Comunicare in limba romana. Matematica si explorarea mediului - Evaluare sumativa, concursuri scolare clasa I",
@@ -45257,7 +45257,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=aGbvHbOTJOWu&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/8/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,52 Lei"
+    "price": "8,54 Lei"
   },
   {
     "title": "Matematica. Culegere de exercitii si probleme. Teste de evaluare nationala. Clasa a VIII-a",
@@ -45297,7 +45297,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PGvem1WxpsI0&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/9/6/6/7/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,00 Lei"
+    "price": "8,40 Lei"
   },
   {
     "title": "Atlas de geografie a Romaniei pentru clasa a IV-a",
@@ -45317,7 +45317,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=r5kKo8AFqgRK&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/1/3/4/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "27,45 Lei"
+    "price": "21,96 Lei"
   },
   {
     "title": "Memorator gramatica pentru clasele 1-4",
@@ -45467,7 +45467,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TWPuWDtNk5zv&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/2/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Matematica. Aritmetica, algebra, geometrie. Clasa a VIII-a. Consolidare. Partea I (Editia a XIV-a, anul scolar 2025-2026)",
@@ -45487,7 +45487,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bbFGXW7rQbV9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/3/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,60 Lei"
+    "price": "32,40 Lei"
   },
   {
     "title": "Culegere de probleme de matematica pentru clasa a 7-a (editia 2025)",
@@ -45637,7 +45637,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=SS0wQ9oIbzCl&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/6/7/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,50 Lei"
+    "price": "21,00 Lei"
   },
   {
     "title": "Grammar Time 4 Student Book Pack New Edition (with acces code)",
@@ -45727,7 +45727,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RSpG-I-7arm0&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/9/4/8/9/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Comunicare in limba romana pentru clasa pregatitoare. Caiet de lucru",
@@ -45737,7 +45737,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=laYybT0VLra7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/9/4/6/2/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Set 3 Carti Gradinita nivel 3-4 ani: 1. Educarea limbajului; 2. Activitate matematica; 3. Cunoasterea mediului (editie 2025)",
@@ -45757,7 +45757,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ymj-JgoNXMoS&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/8/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "17,00 Lei"
+    "price": "18,00 Lei"
   },
   {
     "title": "Portocala si prietenii lui. Matematica si explorarea mediului. Caiet de lucru pentru clasa pregatitoare",
@@ -45767,7 +45767,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=JS5Mo3tZZwkz&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/8/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "17,00 Lei"
+    "price": "18,00 Lei"
   },
   {
     "title": "Matematica si explorarea mediului pentru clasa I. Caiet de lucru",
@@ -45797,7 +45797,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hSiRzx21gG8p&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/8/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "39,10 Lei"
+    "price": "41,40 Lei"
   },
   {
     "title": "Limba si literatura romana. Caiet de lucru pe unitati de invatare. Clasa a VI-a",
@@ -45857,7 +45857,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Fifi9VfYhaM8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/4/9/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "49,50 Lei"
+    "price": "48,40 Lei"
   },
   {
     "title": "Matematica. Clasa a IV-a. Caiet de lucru. Exercitii, probleme, probe de evaluare, notiuni teoretice",
@@ -45907,7 +45907,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HTJ4dfvi-jnF&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/9/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "39,10 Lei"
+    "price": "41,40 Lei"
   },
   {
     "title": "Teste pentru evaluarea nationala la finalul clasei a II-a. Comunicare in limba romana. Matematica si explorarea mediului",
@@ -45957,7 +45957,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ARrCe94T26KR&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/7/0/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "45,52 Lei"
+    "price": "36,30 Lei"
   },
   {
     "title": "Fizica. Manual pentru clasa a VII-a",
@@ -46007,7 +46007,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LLaHSbmATEsk&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/6/5/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "18,75 Lei"
+    "price": "17,50 Lei"
   },
   {
     "title": "Biologie. Manual pentru clasa a IX-a",
@@ -46037,7 +46037,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qbyOBkAEJ9AK&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/7/5/0/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "45,00 Lei"
+    "price": "40,50 Lei"
   },
   {
     "title": "Play English. Activity Book Level 4. Caiet de limba engleza pentru clasa a IV-a",
@@ -46117,7 +46117,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AaWiLVjl9YBS&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/2/9/9/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,82 Lei"
+    "price": "15,85 Lei"
   },
   {
     "title": "Biologie. Manual pentru clasa a XI-a",
@@ -46137,7 +46137,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fjdsQgrFfkEu&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/6/8/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "88,33 Lei"
+    "price": "77,94 Lei"
   },
   {
     "title": "Exploratori in clasa pregatitoare - caiet transdisciplinar pentru clasa pregatitoare. Caietul 1",
@@ -46237,7 +46237,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=C1k6WYTpOgtD&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/1/0/3/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Ghid pentru bacalaureat de nota 10 (zece). Biologie clasele IX-X (Biologie vegetala si animala). Sinteze, teste si rezolvari 2026",
@@ -46267,7 +46267,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6GZCdfgciwtz&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/2/0/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,68 Lei"
+    "price": "14,07 Lei"
   },
   {
     "title": "Matematica pentru clasa a IV-a",
@@ -46517,7 +46517,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=DMCbro5H1wbX&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/6/2/1/7/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "5,36 Lei"
+    "price": "5,67 Lei"
   },
   {
     "title": "Geografie fizica generala cu elemente de cosmologie",
@@ -46657,7 +46657,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WTWRSHbUgwF_&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/0/6/3/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "62,17 Lei"
+    "price": "65,91 Lei"
   },
   {
     "title": "Plansa. Sistemul solar",
@@ -46687,7 +46687,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QsLFC00MDIJc&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/0/6/9/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,60 Lei"
+    "price": "18,20 Lei"
   },
   {
     "title": "Compunerea in 3 pasi. Ghid de pregatire pentru Evaluarea Nationala de clasa a VIII-a",
@@ -46717,7 +46717,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jk4kiscpyEZd&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/1/1/7/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,75 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Probleme de aritmetica pentru elevii claselor a III-a, a IV-a si a V-a. 121 de teste pe modelul Concursului Alexandru Myller (editia a treia)",
@@ -46837,7 +46837,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AsnB0YH59hN5&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/6/5/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "14,40 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Biologie. Teste grila pentru admiterea la facultatile de medicina",
@@ -46887,7 +46887,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5ARaEPRX3gRp&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/0/4/8/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,00 Lei"
+    "price": "32,50 Lei"
   },
   {
     "title": "George in cautare de comori prin Cosmos",
@@ -46917,7 +46917,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=R5siJvj6Cjw_&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/3/9/6/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "34,00 Lei"
+    "price": "36,00 Lei"
   },
   {
     "title": "Scufita Rosie. Carte de colorat cu povesti scrisa cu litere mari de tipar",
@@ -47107,7 +47107,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bjCYGSwHYC4C&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/6/3/5/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "25,50 Lei"
+    "price": "27,00 Lei"
   },
   {
     "title": "Lectii de scriere. Invatam sa scriem alfabetul",
@@ -47197,7 +47197,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UltkZyShdY_T&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/0/7/2/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,60 Lei"
+    "price": "18,20 Lei"
   },
   {
     "title": "Lectii de scriere. Invatam sa scriem litere de tipar",
@@ -47487,7 +47487,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6XuaDN_tWYEf&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/1/7/9/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Ne pregatim pentru concursuri. Clasa a 3-a. Matematica. Limba romana. 25 de teste. 10 tipologii cu rezolvari complexe",
@@ -47547,7 +47547,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=P1v6F_ktyojQ&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/2/1/4/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "33,60 Lei"
+    "price": "31,20 Lei"
   },
   {
     "title": "Matematica. Modele de subiecte pentru simularea examenului de Evaluare Nationala clasa a VIII-a",
@@ -47687,7 +47687,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=wwBmXKZUxEmq&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/5/9/6/5/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Ne pregatim pentru gimnaziu. Pachet educational interdisciplinar pentru clasa a IV-a",
@@ -47857,7 +47857,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Svu3rJ5tlb2m&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/2/9/4/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,60 Lei"
+    "price": "18,20 Lei"
   },
   {
     "title": "Biologie. Teste de performanta pentru olimpiade si concursuri scolare de gimnaziu. Clasele V-VIII",
@@ -47867,7 +47867,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_aXYRxEaJnNv&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/2/7/2/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,25 Lei"
+    "price": "40,50 Lei"
   },
   {
     "title": "Matematica. Caiet de vacanta. Suport teoretic, exercitii si probleme aplicative. Clasa a V-a",
@@ -47877,7 +47877,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5JUVBza3r02Z&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/7/5/3/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,20 Lei"
+    "price": "30,92 Lei"
   },
   {
     "title": "Limba si literatura romana in scoala primara. Perspective complementare",
@@ -47887,7 +47887,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=URWUWz13GiqN&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/8/9/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "50,15 Lei"
+    "price": "47,20 Lei"
   },
   {
     "title": "Culegere de exercitii pentru comunicare in limba romana Jocul cuvintelor, clasa a II-a (editie 2015)",
@@ -47957,7 +47957,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TsYrHQZ6KrCO&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/8/4/8/2/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "11,25 Lei"
+    "price": "10,50 Lei"
   },
   {
     "title": "Pregatire pentru Evaluarea Nationala. Limba si comunicare. Limba romana. Clasa a II-a",
@@ -48017,7 +48017,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xGt-ErD9c42j&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/7/0/2/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,00 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "Economie - manual pentru ciclul superior al liceului - clasa a XI-a, toate filierele, profilurile si specializarile, precum si pentru clasa a 12-a, liceu tehnologic, ruta de profesionalizare progresiva prin socala de arte si meserii si anul de completare",
@@ -48147,7 +48147,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4Fh99nwAnpU7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/3/4/7/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,00 Lei"
+    "price": "28,00 Lei"
   },
   {
     "title": "Bacalaureat. Logica, argumentare si comunicare. Ghid complet de pregatire a examenului de Bacalaureat",
@@ -48157,7 +48157,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=uxLMMj8TjSfq&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/2/4/9/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,95 Lei"
+    "price": "28,54 Lei"
   },
   {
     "title": "Plansa figuri corpuri geometrice",
@@ -48247,7 +48247,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6kJNCKHtPlvs&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/9/2/8/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,12 Lei"
+    "price": "20,54 Lei"
   },
   {
     "title": "Jurnal de lectura, clasa a III-a (editia a doua)",
@@ -48307,7 +48307,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QBJ1N0cGPh65&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/6/3/9/6/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,52 Lei"
+    "price": "14,31 Lei"
   },
   {
     "title": "Matematica. Caiet de vacanta. Suport teoretic, exercitii si probleme aplicative. Clasa a VII-a",
@@ -48317,7 +48317,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Fs7sLUF1Gmmi&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/7/5/4/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "27,52 Lei"
+    "price": "30,96 Lei"
   },
   {
     "title": "Culegere de exercitii si probleme, pentru clasa a V-a",
@@ -48327,7 +48327,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=napSzKGYxbHx&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/3/0/7/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,73 Lei"
+    "price": "25,38 Lei"
   },
   {
     "title": "Evaluarea nationala la sfarsitul clasei a IV-a. Teste dupa modelul M.E. pentru limba si literatura romana si matematica",
@@ -48487,7 +48487,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5rlcCxX1DQ6C&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/9/2/0/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,86 Lei"
+    "price": "25,90 Lei"
   },
   {
     "title": "Teste grila de limba engleza - gramatica, vocabular - pentru admitere si bacalaureat (Academia de Politie, ASE, Facultatea de Limbi Straine)",
@@ -48757,7 +48757,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_32H5GVtUjvW&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/2/4/5/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "47,52 Lei"
+    "price": "46,46 Lei"
   },
   {
     "title": "Teste si probleme de chimie organica - Clasa a X-a",
@@ -48847,7 +48847,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=j6d8gTqKJd09&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/7/3/6/7/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "36,90 Lei"
+    "price": "30,75 Lei"
   },
   {
     "title": "Activitati de vacanta (clasa a II-a)",
@@ -48887,7 +48887,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9B-kbDvccbiQ&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/4/0/7/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,19 Lei"
+    "price": "7,35 Lei"
   },
   {
     "title": "Ce trebuie sa stiu la Istorie? Caiet de activitati. Trec in clasa a V-a",
@@ -49247,7 +49247,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=erHefsh2bKit&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/3/6/2/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "10,36 Lei"
+    "price": "9,62 Lei"
   },
   {
     "title": "Economie. Manual pentru clasa a IX-a, Scoala de Arte si Meserii",
@@ -49277,7 +49277,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7avVSPuJDTPN&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/3/2/3/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,60 Lei"
+    "price": "24,70 Lei"
   },
   {
     "title": "In vacanta cu o bicicleta. Caiet cu jocuri, exercitii si aplicatii pentru clasa a III-a",
@@ -49317,7 +49317,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=OKFobakjyDTw&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/2/9/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "20,00 Lei"
+    "price": "16,25 Lei"
   },
   {
     "title": "Vacanta in jurul lumii. Limba si literatura romana, clasa a VI-a",
@@ -49387,7 +49387,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IWXj5CfkIUmA&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/3/2/3/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,60 Lei"
+    "price": "24,70 Lei"
   },
   {
     "title": "Desenam pas cu pas. Carte de desen - 2",
@@ -49417,7 +49417,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=saqUYvLtfSER&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/5/7/6/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "In vacanta cu un licurici. Caiet cu jocuri, exercitii si aplicatii pentru clasa pregatitoare",
@@ -49457,7 +49457,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=eFeiKG4icPi5&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/3/8/2/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,25 Lei"
+    "price": "40,50 Lei"
   },
   {
     "title": "Set 11 planse, numerele 0-10",
@@ -49637,7 +49637,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=SrM4sgumV4_1&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/5/7/6/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "Motanul incaltat",
@@ -49877,7 +49877,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Gvm3xaX1K9bG&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/8/7/6/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,00 Lei"
+    "price": "19,60 Lei"
   },
   {
     "title": "Gazeta Matematica Junior. Nr. 158, iunie 2026 - Nr. 159, iulie-august 2026 (Bonus: Carte de lectura Castelul Fermecat)",
@@ -49887,7 +49887,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=wzdVEpjkrKhA&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/6/8/1/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "33,60 Lei"
+    "price": "31,20 Lei"
   },
   {
     "title": "Vacanta colorata. Caiet de activitati distractive (si un pic si instructive). Clasa a II-a",
@@ -50267,7 +50267,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AquqzZBIZDqG&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/7/0/2/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "Poveste de vacanta - La drum cu Vrajitorul din Oz. Caiet de lucru pentru vacanta de vara clasa a III-a",
@@ -50927,7 +50927,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_G3C-qao7rxu&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/8/3/6/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,75 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Consiliere si dezvoltare personala. Manual pentru clasa a VI-a",
@@ -51027,7 +51027,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=yovK7eJwEvj4&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/1/7/9/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Pachet mic pentru vacanta, clasa a V-a",
@@ -51257,7 +51257,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=rwi1li3IvcD7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/6/2/5/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,53 Lei"
+    "price": "25,31 Lei"
   },
   {
     "title": "Caiet de scriere litere de mana - clasa I",
@@ -51767,7 +51767,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Jr-tW5N4jInl&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/2/8/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,60 Lei"
+    "price": "11,05 Lei"
   },
   {
     "title": "Catehetica. Manual pentru facultatile de teologie",
@@ -51867,7 +51867,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=V3jJ1oxz_L1j&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/4/0/8/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,19 Lei"
+    "price": "7,35 Lei"
   },
   {
     "title": "Limba engleza. Studiu intensiv. Clasa a VI-a. Ghidul profesorului",
@@ -51887,7 +51887,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9j1l9vStrjHK&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/3/5/2/8/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,43 Lei"
+    "price": "10,66 Lei"
   },
   {
     "title": "Module de invatare. Aplicatii complexe pentru examene si olimpiade scolare. Limba si literatura romana. Clasa a VIII-a. Editia a II-a revizuita",
@@ -51897,7 +51897,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pnBy8hW9ibcr&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/8/2/6/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "43,13 Lei"
+    "price": "45,67 Lei"
   },
   {
     "title": "Exersez 10 minute pe zi! Clasa a IV-a. Gramatica - Partile de propozitie",
@@ -51977,7 +51977,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2iWEgH6KcVLF&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/4/0/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,19 Lei"
+    "price": "7,35 Lei"
   },
   {
     "title": "Exersez 10 minute pe zi!  Matematica clasa pregatitoare - Adunari si scaderi simple",
@@ -51987,7 +51987,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=GIDGC6fzZdk-&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/9/2/1/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,86 Lei"
+    "price": "25,90 Lei"
   },
   {
     "title": "Limba romana. Caiet de lucru pentru clasa a IV-a - Gramatica si compunere",
@@ -52147,7 +52147,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Bv1NzCNNxK3C&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/5/8/4/2/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,44 Lei"
+    "price": "23,76 Lei"
   },
   {
     "title": "Piese minuscule pentru copii, op. 16",
@@ -52217,7 +52217,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=SJtJrTeW7abs&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/9/4/3/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,16 Lei"
+    "price": "28,86 Lei"
   },
   {
     "title": "Istoria pentru elevii curiosi. Cetati si castele din Romania. Caiet de lectura si activitati",
@@ -52247,7 +52247,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=wMH6JIvnatbC&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/5/7/0/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,79 Lei"
+    "price": "24,05 Lei"
   },
   {
     "title": "Ora de matematica. Culegere pentru clasa a VI-a",
@@ -52477,7 +52477,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=joK1ZNCKfeFZ&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/6/6/7/8/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,52 Lei"
+    "price": "14,31 Lei"
   },
   {
     "title": "Limba moderna germana. Caietul elevului, Nivel A2.2 Arbeitsbuch",
@@ -52677,7 +52677,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xcu0IK57-FP3&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/9/9/7/9/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Lecturile istetilor. Antologie de texte literare, clasa a V-a",
@@ -61485,7 +61485,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6ad1b64a3&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/3/3/9/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Creionul Magic. Caiet de activitati. Grupa mica 3-4 ani",
@@ -61655,7 +61655,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8e7334965&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/1/0/3/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Limba moderna engleza. Caiet de lucru pentru clasa a III-a",
@@ -61675,7 +61675,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=43deb0df9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/9/7/1/2/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,97 Lei"
+    "price": "23,98 Lei"
   },
   {
     "title": "Limba moderna engleza. Caiet de lucru pentru clasa a IV-a",
@@ -61695,7 +61695,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=12436ff94&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/3/2/3/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "Ospatar. Manual pentru calificarea ospatar (chelner), vanzator in unitati de alimentatie publica, anul de completare",
@@ -61745,7 +61745,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c6a707f94&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/8/7/6/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,50 Lei"
+    "price": "18,20 Lei"
   },
   {
     "title": "Povestea literelor - Alfabetul din povesti. Jocuri educative si activitati distractive pentru clasa pregatitoare",
@@ -61905,7 +61905,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5cb7579d6&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/6/4/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,70 Lei"
+    "price": "28,53 Lei"
   },
   {
     "title": "Matematica si explorarea mediului. Manual pentru clasa I",
@@ -61985,7 +61985,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6f45ba961&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/1/5/2/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,73 Lei"
+    "price": "22,19 Lei"
   },
   {
     "title": "Proiectarea pas cu pas Grupa mare (Indrumator pentru cadrele didactice din invatamantul prescolar)",
@@ -62035,7 +62035,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7be744508&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/2/5/1/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "27,63 Lei"
+    "price": "27,02 Lei"
   },
   {
     "title": "Poftiti in trenuletul jocurilor. Jocuri didactice pentru prescolari",
@@ -62135,7 +62135,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5c5ba1dd1&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/6/0/0/7/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Teste pregatitoare pentru Evaluarea Nationala clasa a II-a. Comunicare in limba romana PIRLS si matematica si explorarea mediului TIMSS",
@@ -62235,7 +62235,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d396c83a3&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/3/9/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Matematica si explorarea mediului. Caiet de aplicatii pentru clasa a II-a",
@@ -62285,7 +62285,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a1c1fe152&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/6/8/5/0/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,44 Lei"
+    "price": "23,76 Lei"
   },
   {
     "title": "Invatam ortograme din povesti. Clasa a III-a",
@@ -62335,7 +62335,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=de5784a9b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/3/8/0/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "27,20 Lei"
+    "price": "22,10 Lei"
   },
   {
     "title": "Prima mea carte despre forme",
@@ -62385,7 +62385,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f250a2344&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/1/4/8/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "34,93 Lei"
+    "price": "27,90 Lei"
   },
   {
     "title": "Matematica si stiinte. Pentru pregatirea examenului de Evaluare Nationala. Clasa a VI-a",
@@ -62405,7 +62405,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a857e59b4&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/3/9/5/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,68 Lei"
+    "price": "14,07 Lei"
   },
   {
     "title": "Istorie. Manual pentru clasa a VII-a",
@@ -62445,7 +62445,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3ccfa4062&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/3/3/8/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "37,99 Lei"
+    "price": "34,19 Lei"
   },
   {
     "title": "Supercaietul meu de matematica si explorarea mediului. Fise de lucru pentru clasa a II-a",
@@ -62465,7 +62465,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=99e5e1161&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/5/4/8/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,49 Lei"
+    "price": "32,96 Lei"
   },
   {
     "title": "Evaluare nationala. Clasa a VI-a. Teste cu rezolvari",
@@ -62475,7 +62475,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cda59f7c4&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/7/9/1/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "Memorator si indrumar de matematica. Analiza matematica pentru liceu",
@@ -62585,7 +62585,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hVY8248drZNA&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/9/5/0/2/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Dezvoltare personala. Caiet de lucru + Portofoliu. Clasa a II-a",
@@ -62655,7 +62655,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=P06Lx_ogVZ-r&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/0/2/8/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "25,62 Lei"
+    "price": "21,96 Lei"
   },
   {
     "title": "Limba si literatura romana. Clasa a VI-a",
@@ -62675,7 +62675,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=gi4fWZ_CZBwG&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/7/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,52 Lei"
+    "price": "8,54 Lei"
   },
   {
     "title": "Sa dezlegam tainele comunicarii. Clasa a II-a. Partea a 2-a. L2AK2",
@@ -62705,7 +62705,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YrtS19F8wVqq&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/2/3/1/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Limba moderna engleza. Manual pentru clasa a III-a",
@@ -62825,7 +62825,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cpIUox3kNDfu&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/9/6/6/7/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "16,50 Lei"
+    "price": "15,40 Lei"
   },
   {
     "title": "Chimie. Manual pentru clasa a IX-a",
@@ -62835,7 +62835,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-Tn52g2VihV3&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/3/4/7/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "25,09 Lei"
+    "price": "22,14 Lei"
   },
   {
     "title": "Super Safari 3. Pupil's Book. Clasa pregatitoare",
@@ -63025,7 +63025,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2jQo-sCpW12w&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/9/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "39,10 Lei"
+    "price": "41,40 Lei"
   },
   {
     "title": "Exerseaza cu Aramis. Matematica si explorarea mediului. Fise de evaluare pentru clasa I",
@@ -63165,7 +63165,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=23nR2A7j8IFp&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/0/7/4/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "85,50 Lei"
+    "price": "80,10 Lei"
   },
   {
     "title": "Comunicare in limba romana - Clasa pregatitoare (Partea I + Partea a II-a)",
@@ -63195,7 +63195,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FnBe1Z-mwLWr&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/6/7/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,00 Lei"
+    "price": "28,00 Lei"
   },
   {
     "title": "201 Carte de activitati 6+",
@@ -63215,7 +63215,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UlqMZJiGTZ4U&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/4/9/0/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "62,91 Lei"
+    "price": "61,51 Lei"
   },
   {
     "title": "Teste-grila pentru admiterea la scolile de politie, jandarmerie si frontiera. Limba engleza legislatie specifica M.A.I. institutiile politice ale statului educatie civica si cetateneasca",
@@ -63255,7 +63255,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MN2PUjloKotW&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/7/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,52 Lei"
+    "price": "8,54 Lei"
   },
   {
     "title": "Matematica. Manual pentru clasa a VIII-a",
@@ -63415,7 +63415,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vAe0YxqQBt_Z&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/1/5/2/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,73 Lei"
+    "price": "22,20 Lei"
   },
   {
     "title": "Pasari domestice",
@@ -63435,7 +63435,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=tAWzca5e9oKt&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/1/1/6/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,25 Lei"
+    "price": "40,50 Lei"
   },
   {
     "title": "Descrierea minimala a limbii romane A1, A2, B1, B2",
@@ -63505,7 +63505,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zrUf9nNK-SWk&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/0/2/0/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Primii pasi in Matematica si Explorarea mediului. Clasa pregatitoare",
@@ -63695,7 +63695,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Qg864rAa3Sq2&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/6/2/5/3/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,73 Lei"
+    "price": "25,38 Lei"
   },
   {
     "title": "Evaluare nationala la finalul clasei a IV-a. Teste de antrenament. Limba si literatura romana. Matematica si Stiinte ale naturii",
@@ -64395,7 +64395,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_b2tJ7pkGTvi&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/4/6/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,46 Lei"
+    "price": "42,84 Lei"
   },
   {
     "title": "Maiestria invatarii. Ridicarea invatarii la rang de arta",
@@ -64445,7 +64445,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZWfhV4l75SFZ&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,52 Lei"
+    "price": "8,54 Lei"
   },
   {
     "title": "Enciclopedia corpului uman",
@@ -64595,7 +64595,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hyhOzxddovFx&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/5/8/0/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Numere complexe in geometrie",
@@ -65245,7 +65245,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TZ9AqYB4_E6w&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/1/0/2/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Limba moderna 1. Limba engleza. Caietul elevului pentru clasa a VIII-a",
@@ -65265,7 +65265,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2lKfGp6gWnyT&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/5/7/1/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,79 Lei"
+    "price": "24,05 Lei"
   },
   {
     "title": "Teoria probabilitatilor. Curs scurt si comentarii stiintifico-metodice",
@@ -65655,7 +65655,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=kMnAMef0zTNw&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/8/3/6/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,74 Lei"
+    "price": "31,49 Lei"
   },
   {
     "title": "Culegere pregatire pentru concursuri. Comunicare in limba romana pentru clasa I",
@@ -66555,7 +66555,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=108GGbqho3H7&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,40 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Matematica. Aritmetica, algebra, geometrie. Clasa a VII-a. Consolidare. Partea I (Anul scolar 2026-2027)",
@@ -66565,7 +66565,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=m56pGg92D6MO&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Dezvoltare personala. Clasa a II-a",
@@ -66785,7 +66785,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ACawG-2AJzl2&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,40 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Matematica. Aritmetica, algebra, geometrie. Clasa a VI-a. Consolidare. Partea I (anul scolar 2026-2027)",
@@ -66795,7 +66795,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=knZPfUy55FiW&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,39 Lei"
+    "price": "34,19 Lei"
   },
   {
     "title": "Matematica in gimnaziu. Clasele V-VIII. Exercitii si probleme alese pentru juniori",
@@ -67065,7 +67065,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CSSPmY3S8f6A&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/3/6/3/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "11,83 Lei"
+    "price": "10,99 Lei"
   },
   {
     "title": "Stiinte ale naturii. Caiet pentru clasa a III-a",
@@ -87237,7 +87237,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3944c8bf8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/5/3/5/7/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Literatura romana - Cartea definitiva. Pregatirea pentru bacalaureat",
@@ -87287,7 +87287,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=768106f53&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/5/2/5/8/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Comunicare in limba romana. Ma pregatesc pentru concurs! Clasa I",
@@ -87297,7 +87297,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=44a282baf&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/8/2/1/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "English for kids. Caiet de lucru pentru clasa I (editie 2020)",
@@ -87337,7 +87337,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dc3cc2d75&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/3/7/6/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Descoperim impreuna comunicarea in limba romana! Caiet de lucru clasa I",
@@ -87347,7 +87347,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e4bbafe2b&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/3/7/4/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Matematica si explorarea mediului. Caiet de lucru. Clasa I",
@@ -87447,7 +87447,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9b528a185&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/4/6/9/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,46 Lei"
+    "price": "42,84 Lei"
   },
   {
     "title": "Matematica si explorarea mediului. Caiet de lucru. Clasa a II-a",
@@ -87467,7 +87467,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b14af6dfd&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/8/5/1/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "24,50 Lei"
   },
   {
     "title": "Probleme rezolvate de fizica - Electricitate (2012)",
@@ -87767,7 +87767,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RfQvwaZRJozy&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/6/5/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "33,04 Lei"
+    "price": "26,34 Lei"
   },
   {
     "title": "Comunicare in limba romana. Manual pentru clasa I",
@@ -88507,7 +88507,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=V_E9ZJNNu8cb&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/5/7/1/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,79 Lei"
+    "price": "24,05 Lei"
   },
   {
     "title": "Fizica. Probleme pentru clasele VII-VIII",
@@ -88567,7 +88567,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=w6yl5KkQgzoo&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/3/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,00 Lei"
+    "price": "45,00 Lei"
   },
   {
     "title": "Evaluarea Nationala 2027. Matematica. Clasa a VIII-a",
@@ -88577,7 +88577,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ON9vf3JnNnAf&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/3/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,00 Lei"
+    "price": "45,00 Lei"
   },
   {
     "title": "Matematica. Teorie si exercitii, clasa a III-a",
@@ -88597,7 +88597,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pzY1n5C3odhh&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/3/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,80 Lei"
+    "price": "43,20 Lei"
   },
   {
     "title": "Stiinte ale naturii. Manual pentru clasa a IV-a",
@@ -88657,7 +88657,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=k31RiEnkhiKY&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/3/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,80 Lei"
+    "price": "43,20 Lei"
   },
   {
     "title": "Play English. Activity Book for kids Level P. Caiet de limba engleza pentru clasa pregatitoare",
@@ -88697,7 +88697,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lSpKqITglYC0&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/6/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,40 Lei"
+    "price": "14,30 Lei"
   },
   {
     "title": "Noul testament in talcuirea sfintilor parinti. Volumul IX: Epistolele sobornicesti",
@@ -88747,7 +88747,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Q_PKvVcidMd9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,45 Lei"
+    "price": "33,30 Lei"
   },
   {
     "title": "Evaluarea Nationala la finalul clasei a VI-a - 2027. Matematica si Stiinte",
@@ -88757,7 +88757,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4suZYo4_zKgN&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,44 Lei"
+    "price": "33,29 Lei"
   },
   {
     "title": "Comunicare in limba romana, pentru scolile si sectiile in limba de predare materna maghiara. Manual pentru clasa I",
@@ -88907,7 +88907,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=mGyMee5QmT7A&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Limba si literatura romana. Simulare pentru Evaluarea Nationala, clasa a VII-a. Modele de subiecte si sugestii de rezolvare (An scolar 2026-2027)",
@@ -88997,7 +88997,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ko54VPuXXFek&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/8/9/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,80 Lei"
+    "price": "32,40 Lei"
   },
   {
     "title": "Citim corect in clasa I - Exercitii de citire progresiva",
@@ -89117,7 +89117,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qubsxp-bePRo&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/3/9/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,29 Lei"
+    "price": "34,19 Lei"
   },
   {
     "title": "Exerseaza cu Aramis. Comunicare in limba romana. Fise de evaluare pentru clasa a II-a",
@@ -89167,7 +89167,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=c8lUqAzkvqOR&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/2/6/3/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "16,50 Lei"
+    "price": "15,40 Lei"
   },
   {
     "title": "Cei mai buni la Comunicare in limba romana! Mai mult decat o culegere, clasa I",
@@ -89287,7 +89287,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Kdjx2RwNceK9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/8/9/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,60 Lei"
+    "price": "32,40 Lei"
   },
   {
     "title": "Geografie. Bacalaureat. Teste (58 de teste). An scolar 2026-2027",
@@ -89337,7 +89337,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CVVj8BnCj0UN&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/1/5/0/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "36,00 Lei"
+    "price": "29,25 Lei"
   },
   {
     "title": "Colorez si desenez. Grupa mijlocie",
@@ -89967,7 +89967,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=VLCF8Pl7R16n&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/9/9/5/3/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Istorie - auxiliar clasa a IV-a (2016)",
@@ -90187,7 +90187,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZwZKP_V68aFw&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/1/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Motivate! English practice. Activity book. L 1. Lectia de engleza, clasa a VII-a (editie noua)",
@@ -90327,7 +90327,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5b19aaa51&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/3/3/9/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,67 Lei"
+    "price": "31,41 Lei"
   },
   {
     "title": "Memorator de psihologie pentru liceu (clasa a X-a)",
@@ -90357,7 +90357,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3478da28f&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/7/5/4/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,96 Lei"
+    "price": "38,07 Lei"
   },
   {
     "title": "Invatam sa scriem alfabetul. Caiet de scriere",
@@ -90497,7 +90497,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f95d229be&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/7/6/9/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "42,91 Lei"
+    "price": "39,85 Lei"
   },
   {
     "title": "Memorator Gramatica Gimnaziu",
@@ -90527,7 +90527,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e8e0c7462&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/1/1/8/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "51,00 Lei"
+    "price": "54,00 Lei"
   },
   {
     "title": "Curs de gramatica limba engleza Enterprise Grammar 1 Manualul elevului",
@@ -91057,7 +91057,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=VRsnleceeCVf&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/1/3/6/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "37,13 Lei"
+    "price": "33,32 Lei"
   },
   {
     "title": "Activitati cu autocolante la 3 ani",
@@ -91147,7 +91147,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ZIqj96UBB7KJ&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/8/9/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,69 Lei"
+    "price": "26,64 Lei"
   },
   {
     "title": "Matematica. Caietul elevului. Clasa a IV-a",
@@ -91187,7 +91187,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TK94jSFn2c6X&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/6/1/6/8/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Ma pregatesc pentru concursuri. Matematica pentru clasa a IV-a",
@@ -91237,7 +91237,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WrllwKSHLT1x&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/8/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "17,00 Lei"
+    "price": "18,00 Lei"
   },
   {
     "title": "Chimie. Caiet de lucru pentru clasa a VII-a",
@@ -91297,7 +91297,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=h87sukxD0IDt&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/8/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,75 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Limba romana, gramatica actualizata pentru elevi",
@@ -91307,7 +91307,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=EcW8GwjSZSrf&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/7/5/1/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "62,17 Lei"
+    "price": "65,91 Lei"
   },
   {
     "title": "Istorie. Manual pentru clasa a IV-a",
@@ -91337,7 +91337,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vZod-jviZ0fh&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/8/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,75 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Ma pregatesc pentru concursuri. Limba si literatura romana pentru clasele a III-a si a IV-a",
@@ -91397,7 +91397,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Sh8z924WBWOB&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/1/2/4/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,70 Lei"
+    "price": "24,75 Lei"
   },
   {
     "title": "Caietul meu de exercitii. Invat sa numar. 5-6 ani",
@@ -91427,7 +91427,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PJZP81WfatDj&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/5/6/3/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,00 Lei"
+    "price": "26,00 Lei"
   },
   {
     "title": "Limba romana. Teste-grila pentru admiterea in invatamantul superior",
@@ -91457,7 +91457,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0rUuuvXeYA8K&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/4/8/6/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Matematica. Olimpiade si concursuri scolare 2025. Clasele 4-6",
@@ -91467,7 +91467,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2cVVUDgIGFp2&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/4/9/9/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,00 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Caiet de lucru pentru pregatirea examenului de Bacalaureat. Aplicatii pe itemi/tipuri de exercitii. Limba si literatura romana pentru scolile si sectiile cu predare in limba maghiara. Clasa a XI-a. Toate filierele",
@@ -91707,7 +91707,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3IYiC8cw_5wj&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/3/6/1/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "10,36 Lei"
+    "price": "9,62 Lei"
   },
   {
     "title": "Gramatica limbii romane pentru clasa a III-a",
@@ -91907,7 +91907,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HtpjiQwyDc91&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/5/2/3/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,60 Lei"
+    "price": "18,20 Lei"
   },
   {
     "title": "Teorie si solfegii - Clasa a VI-a. Invatamant vocational, profil artistic, specializarea muzica",
@@ -91937,7 +91937,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=LhBJh0GRXSfD&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/4/0/8/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,19 Lei"
+    "price": "7,35 Lei"
   },
   {
     "title": "Semne grafice. Caiet de activitate independenta pentru clasa pregatitoare",
@@ -92557,7 +92557,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2Qg-bEGQxjMb&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/1/4/0/8/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,19 Lei"
+    "price": "7,35 Lei"
   },
   {
     "title": "Matematica. Aritmetica, geometrie. Clasa a VI-a. Mate 2000 - Standard",
@@ -92567,7 +92567,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WQWk-mRNqQfa&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/9/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "39,10 Lei"
+    "price": "41,40 Lei"
   },
   {
     "title": "Istorie. Manual pentru clasa a VII-a",
@@ -92597,7 +92597,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=gscJ63j9mUK8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/9/7/4/2/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,50 Lei"
+    "price": "35,75 Lei"
   },
   {
     "title": "Tipare textuale. Strategii de receptare si redactare. Clasa a VII-a",
@@ -93047,7 +93047,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=oN4jZVIgxCtD&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/7/4/9/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,96 Lei"
+    "price": "12,60 Lei"
   },
   {
     "title": "Istorie. Caietul elevului. Clasa a IV-a",
@@ -93077,7 +93077,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zgXJBSwfWls9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/6/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,40 Lei"
+    "price": "14,30 Lei"
   },
   {
     "title": "Arte vizuale si abilitati practice pentru clasa a II-a",
@@ -93087,7 +93087,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xn1BJIhzcsa4&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/1/0/3/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "16,50 Lei"
+    "price": "15,40 Lei"
   },
   {
     "title": "Exercitii grafice pentru prescolari si scolari mici",
@@ -93217,7 +93217,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=dzoDEHdhLuXy&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/6/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,40 Lei"
+    "price": "14,30 Lei"
   },
   {
     "title": "Literatura romana pentru elevi. Eseuri structurate. Proza. Volumul II. Editie revazuta si completata",
@@ -93287,7 +93287,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bORVtjJw1NOf&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/6/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,60 Lei"
+    "price": "11,70 Lei"
   },
   {
     "title": "Atlas geografic pentru micul explorator, clasa a IV-a",
@@ -93667,7 +93667,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=g6QwzHNQyltB&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/4/9/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Matematica si explorarea mediului. Clasa pregatitoare",
@@ -93897,7 +93897,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=60OkEwFvZSYX&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/3/7/7/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,75 Lei"
+    "price": "23,10 Lei"
   },
   {
     "title": "Firma de exercitiu. Modele si aplicatii pentru clasa a XII-a",
@@ -93967,7 +93967,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9THh0RDNuZM-&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/6/8/2/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,79 Lei"
+    "price": "24,05 Lei"
   },
   {
     "title": "Matematica si explorarea mediului. Clasa I. Partea I - (E2). Varianta EDP (Balan, Voinea, Andrei, Stan)",
@@ -94017,7 +94017,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2Hcy63Qk4WZ5&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/6/8/2/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,79 Lei"
+    "price": "24,05 Lei"
   },
   {
     "title": "Atlas scolar. Vietuitoare si medii de viata. Biologie. Clasa a V-a",
@@ -94037,7 +94037,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RVvclExU9rAu&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/6/8/2/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,79 Lei"
+    "price": "24,05 Lei"
   },
   {
     "title": "Geografiile simbolice",
@@ -94057,7 +94057,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zDrtCIemQawj&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/4/9/4/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Ma pregatesc pentru concursuri de matematica. Clasa I",
@@ -94077,7 +94077,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6YEvw1bevkKH&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Sa dezlegam tainele comunicarii. Clasa I. Partea 1. ABL1",
@@ -94387,7 +94387,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=vat-vBm4pusu&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/9/1/5/8/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "65,87 Lei"
+    "price": "61,17 Lei"
   },
   {
     "title": "Practica pedagogica in invatamantul prescolar. Caiet de seminar",
@@ -94507,7 +94507,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=yiei5QYhDBzH&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/0/7/7/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "37,50 Lei"
+    "price": "35,00 Lei"
   },
   {
     "title": "Probleme de matematica pentru clasa a VI-a",
@@ -94537,7 +94537,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=rsfjUDGmbtIz&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/0/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,29 Lei"
+    "price": "34,19 Lei"
   },
   {
     "title": "Evaluare Nationala 2027 Clasa a II-a. Exersez si reusesc! Pregatire pe parcursul intregului an scolar - Itemi dupa modelul testarilor PISA/PIRLS",
@@ -94617,7 +94617,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7jt-QoaOwSVS&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/3/4/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,64 Lei"
+    "price": "26,60 Lei"
   },
   {
     "title": "Invat literele alfabetului. Activitati prescolare 4-6 ani",
@@ -94737,7 +94737,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2LV3AjKGu46B&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/6/8/2/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,79 Lei"
+    "price": "24,05 Lei"
   },
   {
     "title": "Teste de biologie 2026 pentru admiterea in invatamantul universitar medical",
@@ -94997,7 +94997,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=P7t1XU8awUPC&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/6/8/2/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,79 Lei"
+    "price": "24,05 Lei"
   },
   {
     "title": "Academia Elementrix. Invatam cu Maticel. Caiet de activitati pentru matematica si explorarea mediului. Clasa I",
@@ -95017,7 +95017,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=54n2p74GIGD_&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/1/1/9/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,52 Lei"
+    "price": "14,31 Lei"
   },
   {
     "title": "Invat la gradinita. Explorarea mediului: 4-5 ani. Grupa mijlocie",
@@ -95057,7 +95057,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=B6m-AsQgoEUS&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/9/1/6/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "43,20 Lei"
+    "price": "35,10 Lei"
   },
   {
     "title": "Carnet de elev pentru liceu",
@@ -95167,7 +95167,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ga55h1m8pTMn&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/7/6/8/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,00 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Cainele din Baskerville",
@@ -100029,7 +100029,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a7061a44f&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/3/1/2/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,75 Lei"
+    "price": "31,50 Lei"
   },
   {
     "title": "Matematica - Clasa a XI-a M1 : Exercitii si probleme. Elemente de algebra liniara. Elemente de analiza matematica",
@@ -100089,7 +100089,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=785722cea&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/3/1/0/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "25,16 Lei"
+    "price": "26,64 Lei"
   },
   {
     "title": "Patinele de argint",
@@ -100159,7 +100159,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=901c2b559&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/3/2/8/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,00 Lei"
+    "price": "28,00 Lei"
   },
   {
     "title": "Scrie de la A la Z(et) literele de tipar din alfabet!",
@@ -100289,7 +100289,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cfd4b7d56&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/5/8/0/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "23,40 Lei"
+    "price": "22,10 Lei"
   },
   {
     "title": "Fizica. Probleme si teste pentru gimnaziu - Clasele VI-VIII",
@@ -100299,7 +100299,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b59a238bd&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/1/0/2/0/4/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "47,79 Lei"
+    "price": "38,10 Lei"
   },
   {
     "title": "Atlas geografic scolar (editie 2024)",
@@ -100309,7 +100309,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=137859a57&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/9/8/1/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "39,44 Lei"
+    "price": "34,80 Lei"
   },
   {
     "title": "Exercitii grafice, 5-6 ani (B5)",
@@ -100329,7 +100329,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=57f75b0fa&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/2/3/7/1/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "20,20 Lei"
+    "price": "18,13 Lei"
   },
   {
     "title": "Caietul meu de exersat: Cifrele",
@@ -100379,7 +100379,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=639f105a6&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/9/1/5/8/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "65,87 Lei"
+    "price": "61,17 Lei"
   },
   {
     "title": "Biologie. Atlas scolar. Functiile de relatie si de reproducere in lumea vie",
@@ -100409,7 +100409,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5e50abf41&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/7/1/9/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "45,00 Lei"
+    "price": "42,00 Lei"
   },
   {
     "title": "Dictionar de personaje literare pentru gimnaziu si liceu 135 de caracterizari",
@@ -100419,7 +100419,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=35a7dee21&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/7/6/8/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "70,14 Lei"
+    "price": "74,36 Lei"
   },
   {
     "title": "Caietul meu de exersat: Gandirea logica",
@@ -100519,7 +100519,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=OQgaCWQakQLL&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/1/8/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "9,52 Lei"
+    "price": "8,54 Lei"
   },
   {
     "title": "OLA in grupa mica. Caiet de lucru pentru prescolari, 3-4 ani (editie revizuita). Caiet 1",
@@ -100629,7 +100629,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MW1d9n-3RB55&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/3/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,60 Lei"
+    "price": "32,40 Lei"
   },
   {
     "title": "Doi detectivi zurlii. Jocuri educative si activitati integrate de invatare pentru clasa a II-a",
@@ -100669,7 +100669,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=cNzzdy_zA_e1&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/2/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Comunicare in limba moderna engleza. Clasa I",
@@ -100689,7 +100689,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YvdL-6qugkwG&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/0/7/7/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "36,00 Lei"
+    "price": "33,60 Lei"
   },
   {
     "title": "Teorie si solfegii - Clasa a IV-a. Invatamant vocational, profil artistic, specializarea muzica",
@@ -100799,7 +100799,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UPrS-8KfvTx9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/9/1/6/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,00 Lei"
+    "price": "32,50 Lei"
   },
   {
     "title": "Sa invatam matematica fara profesor. Clasa a X-a. Profil stiinte ale naturii",
@@ -100829,7 +100829,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2tcBYWHScDrQ&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/9/3/4/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "30,00 Lei"
+    "price": "28,00 Lei"
   },
   {
     "title": "Fizica. Manual pentru clasa a VI-a",
@@ -100849,7 +100849,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qk0YeVVCrLaE&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/9/2/1/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,86 Lei"
+    "price": "25,90 Lei"
   },
   {
     "title": "Chemie: 7. Klasse (Chimie. Manual pentru clasa a VII-a) - Limba Germana",
@@ -100909,7 +100909,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HSru6I0rbTE_&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/9/7/6/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,63 Lei"
+    "price": "27,97 Lei"
   },
   {
     "title": "Aniversarea broscutei. Texte si exercitii pentru scolarii din clasa pregatitoare",
@@ -100959,7 +100959,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-TQ1k1ofa59o&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/3/8/5/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,22 Lei"
+    "price": "34,30 Lei"
   },
   {
     "title": "Educatie tehnologica si aplicatii practice. Manual pentru clasa a V-a",
@@ -100989,7 +100989,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=75zGL75_TfGv&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/6/6/7/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,54 Lei"
+    "price": "25,32 Lei"
   },
   {
     "title": "Gazeta Matematica Junior nr. 152, Decembrie 2025 (Bonus: Carte de lectura Poveste de Craciun de Charles Dickens)",
@@ -100999,7 +100999,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=sSMaEjH_4d90&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/5/6/7/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,60 Lei"
+    "price": "18,20 Lei"
   },
   {
     "title": "Fise interactive pentru comunicare in limba romana - clasa pregatitoare",
@@ -101159,7 +101159,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Zxtm_ZlGAwhd&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/5/3/9/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "20,20 Lei"
+    "price": "18,13 Lei"
   },
   {
     "title": "Istoria romanilor. Atlas comentat",
@@ -101319,7 +101319,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=iG0zK5I_PVQS&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/6/5/5/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,45 Lei"
+    "price": "33,30 Lei"
   },
   {
     "title": "Limba si literatura romana. Manual pentru clasa a III-a",
@@ -101339,7 +101339,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=KRTBq8a7u1qT&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/7/4/6/4/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,66 Lei"
+    "price": "31,40 Lei"
   },
   {
     "title": "Matematica. Elemente de geometrie pentru clasele I-IV",
@@ -101359,7 +101359,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FkncOcXTmihn&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/8/8/8/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,44 Lei"
+    "price": "23,76 Lei"
   },
   {
     "title": "Balbaiala - colectie de aplicatii practice",
@@ -101389,7 +101389,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8XMz2Czx9Auf&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/2/9/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "20,00 Lei"
+    "price": "16,25 Lei"
   },
   {
     "title": "Biologie. Manual pentru clasa a VII-a",
@@ -101419,7 +101419,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=iQasXbqYwYmi&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/8/3/6/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,54 Lei"
+    "price": "25,32 Lei"
   },
   {
     "title": "Dictionar ilustrat de Matematica",
@@ -101429,7 +101429,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=sEi8qTP-Zs7H&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/9/2/9/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,49 Lei"
+    "price": "32,96 Lei"
   },
   {
     "title": "Matematica M2. Subiecte rezolvate. BAC 2023",
@@ -101619,7 +101619,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PxthAADiYhkk&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/6/5/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "18,75 Lei"
+    "price": "17,50 Lei"
   },
   {
     "title": "Limba moderna 2. Limba franceza. Clasa a VI-a",
@@ -101839,7 +101839,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=p80cVG2wgRmt&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/5/5/3/5/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,80 Lei"
+    "price": "15,84 Lei"
   },
   {
     "title": "Lecturi scolare. Clasa a III-a",
@@ -101979,7 +101979,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qwpx_Yaz8GTb&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/1/8/4/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "42,91 Lei"
+    "price": "39,85 Lei"
   },
   {
     "title": "Comunicare in limba romana. Culegere de exercitii. Clasa I",
@@ -102019,7 +102019,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=tgQl9VD-fAIB&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/1/0/3/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Educatie tehnologica si aplicatii practice. Caietul elevului pentru clasa a VI-a",
@@ -102029,7 +102029,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4FVHSfcJJhLW&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/4/7/1/1/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,83 Lei"
+    "price": "12,66 Lei"
   },
   {
     "title": "Parcours. Caiet de lucru pentru clasa a VII-a",
@@ -102169,7 +102169,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8MdM8dhMTAMg&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/9/9/5/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,61 Lei"
+    "price": "25,38 Lei"
   },
   {
     "title": "DOMENIUL STIINTE. Caiet activitati matematice +cunoasterea mediului, 4-5 ani",
@@ -102339,7 +102339,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hXx9Wzcs8lym&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/3/9/5/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,68 Lei"
+    "price": "14,07 Lei"
   },
   {
     "title": "Jurnalul lui Razvan - auxiliar pentru limba romana (clasa a III-a)",
@@ -102479,7 +102479,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=P7ENyeUWV1jI&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/6/0/7/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,25 Lei"
+    "price": "35,70 Lei"
   },
   {
     "title": "Comunicare in limba romana. Manual clasa I",
@@ -102489,7 +102489,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fDnVotw-jstG&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/3/7/4/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,25 Lei"
+    "price": "35,70 Lei"
   },
   {
     "title": "Joaca-te cu creionasul magic! Caiet de exercitii grafice, grupa mijlocie (4-5 ani)",
@@ -102529,7 +102529,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=SMU82M8KJtRJ&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/7/3/2/0/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "23,31 Lei"
+    "price": "19,98 Lei"
   },
   {
     "title": "Calatorie prin lumea textelor literare. Clasa a II-a. Partea 1 (CP). Caiet de lucru. Varianta editurii Cd Press",
@@ -102579,7 +102579,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5oro93qqCzru&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/3/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,80 Lei"
+    "price": "43,20 Lei"
   },
   {
     "title": "Sa dezlegam tainele comunicarii. Clasa a II-a. Partea a 2-a. L2ED2",
@@ -102599,7 +102599,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_khTDh5s-XJx&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/8/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,25 Lei"
+    "price": "22,50 Lei"
   },
   {
     "title": "Portocala si prietenii lui. Arte vizuale si abilitati practice. Activitati si jocuri distractive pentru clasa pregatitoare",
@@ -102639,7 +102639,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WHmyXjGQAHHS&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/3/9/0/4/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,49 Lei"
+    "price": "19,96 Lei"
   },
   {
     "title": "Geografie. Manual pentru clasa a IV-a",
@@ -102829,7 +102829,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Y7D6syuYttxd&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/3/8/3/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "85,50 Lei"
+    "price": "83,60 Lei"
   },
   {
     "title": "Evaluare clasa I. Comunicare in limba romana. Matematica si explorarea mediului",
@@ -103249,7 +103249,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=NZJtON3mpw-s&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/4/5/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,60 Lei"
+    "price": "18,20 Lei"
   },
   {
     "title": "Exersez semne grafice. Caiet practic pentru perfectionarea abilitatilor (5+ ani)",
@@ -103259,7 +103259,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=O9y0b-Cx7Xm4&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/9/4/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,30 Lei"
+    "price": "2,96 Lei"
   },
   {
     "title": "Comunicare in limba romana. Caietul elevului. Clasa a II-a",
@@ -103339,7 +103339,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=k2U1fDGAbUvv&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/9/4/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,30 Lei"
+    "price": "2,96 Lei"
   },
   {
     "title": "Set 3 carti Grafisme 5-6 ani: 1. ALA-Arte; 2. ALA-Stiinte; 3. ALA-Biblioteca (editie 2025)",
@@ -103359,7 +103359,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=aIrE_3C22-YG&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/9/4/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "3,30 Lei"
+    "price": "2,96 Lei"
   },
   {
     "title": "Limba moderna 1 engleza. Manual pentru clasa a VIII-a",
@@ -103449,7 +103449,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YBdmseTIX5cp&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/9/0/6/9/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,49 Lei"
+    "price": "32,96 Lei"
   },
   {
     "title": "Limba moderna Engleza. Fun Grammar. Clasa a III-a",
@@ -103589,7 +103589,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jjTZaw9OK9Jy&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/3/4/7/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,39 Lei"
+    "price": "34,29 Lei"
   },
   {
     "title": "Magyar nyelv es irodalom (anyanyelv) tankonyv a VI. osztaly szamara",
@@ -103639,7 +103639,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=44B1yjQ1Tffj&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/9/2/0/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,86 Lei"
+    "price": "25,90 Lei"
   },
   {
     "title": "Probleme de fizica. Clasa a IX-a",
@@ -103659,7 +103659,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6UhwSNlJGW9h&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/6/5/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "18,75 Lei"
+    "price": "17,50 Lei"
   },
   {
     "title": "Teste pentru Evaluarea Nationala. Comunicare in limba romana, matematica. Clasa a II-a",
@@ -103779,7 +103779,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-VvmocG_a0lL&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/1/5/4/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "36,00 Lei"
+    "price": "26,00 Lei"
   },
   {
     "title": "Alfi ne invata. Caiet de lucru pentru 4-5 ani, volumul II (saptamanile 18 - 33)",
@@ -103919,7 +103919,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=EbVT-ubES2EB&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/3/0/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "20,00 Lei"
+    "price": "16,25 Lei"
   },
   {
     "title": "Caietul meu de activitati integrate pe proiecte tematice - grupa mijlocie 4-5 ani",
@@ -103979,7 +103979,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AyH7JHGFKKgw&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/1/5/2/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "45,37 Lei"
+    "price": "36,30 Lei"
   },
   {
     "title": "Comunicare in limba moderna 1. Franceza clasa I",
@@ -104079,7 +104079,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=s9AQKVfvjXAr&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/9/2/2/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,86 Lei"
+    "price": "25,90 Lei"
   },
   {
     "title": "Carte activa. Explorez, aplic, rezolv! Culegere de probleme, teste si resurse pentru portofoliu. Clasa a VII-a, partea I",
@@ -104349,7 +104349,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=eN6Rl7yUkuV2&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/5/5/0/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,30 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Caietul elevului. Geografie clasa a IX-a. Geografie fizica",
@@ -104399,7 +104399,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=VKSZwFlV5wQs&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/9/0/1/1/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "22,47 Lei"
+    "price": "23,79 Lei"
   },
   {
     "title": "Manual de anestezie si terapie intensiva. Volumul I: Anestezie",
@@ -104409,7 +104409,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=VfMbmqcaVFUf&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/5/2/5/1/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "45,82 Lei"
+    "price": "43,50 Lei"
   },
   {
     "title": "Carte cu activitati Jocuri si Jucarii 3-4 ani",
@@ -104449,7 +104449,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=A8d49DW4Pvlp&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/4/9/7/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "70,30 Lei"
+    "price": "68,82 Lei"
   },
   {
     "title": "Fise de lucru de numarat (4-6 ani)",
@@ -104459,7 +104459,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=UuyMEV6mpBdJ&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/9/2/2/0/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,68 Lei"
+    "price": "14,07 Lei"
   },
   {
     "title": "Matematica si explorarea mediului cu Tina si Radu. Clasa pregatitoare",
@@ -104569,7 +104569,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=NaTj0m8jeoBX&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/2/0/6/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "60,06 Lei"
+    "price": "56,90 Lei"
   },
   {
     "title": "Psihologie educationala",
@@ -104659,7 +104659,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-ajGFcGdCbud&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/2/0/1/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "62,17 Lei"
+    "price": "65,91 Lei"
   },
   {
     "title": "Bazele matematicii. Teorie si exercitii (editie 2016)",
@@ -104669,7 +104669,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9o6QyxF3X8ht&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/4/7/8/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "35,02 Lei"
+    "price": "37,08 Lei"
   },
   {
     "title": "Matematica pas cu pas. Fise de lucru si evaluari. Nivelul 1, grupa mica 3-4 ani",
@@ -104699,7 +104699,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PIOyi73lQM17&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/9/7/7/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,00 Lei"
+    "price": "14,00 Lei"
   },
   {
     "title": "Ghiozdanelul cu litere 1. Auxiliar pentru clasa I",
@@ -104729,7 +104729,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7cuWI2IHeil_&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/1/1/6/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,14 Lei"
+    "price": "26,13 Lei"
   },
   {
     "title": "Invatam sa comunicam! Limba si literatura romana pentru clasa a III-a",
@@ -104849,7 +104849,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9_bdZN5YED4-&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/4/2/5/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "21,67 Lei"
+    "price": "17,34 Lei"
   },
   {
     "title": "Caietul elevului. Biologie, clasa a VI-a, Semestrul I",
@@ -104929,7 +104929,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Rul_wDuW5F4Y&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/0/8/7/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,45 Lei"
+    "price": "33,30 Lei"
   },
   {
     "title": "Culegere de jocuri didactice pentru citit-scris clasa a I-a",
@@ -105089,7 +105089,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zM7JpmGVgvx9&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/4/4/3/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "52,29 Lei"
+    "price": "51,13 Lei"
   },
   {
     "title": "Caietul meu de lectura Comper. Citesc.Inteleg.Descopar .Clasa a III-a",
@@ -105529,7 +105529,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=F8uWSuKGwxz6&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/2/9/9/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,34 Lei"
+    "price": "21,84 Lei"
   },
   {
     "title": "Magia povestilor. Antologie de texte literare clasa a IV-a",
@@ -105559,7 +105559,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=A6n0JvinPlJ3&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/2/6/9/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,60 Lei"
+    "price": "24,70 Lei"
   },
   {
     "title": "Sa invatam matematica fara profesor. Clasa a XI-a. Profil Tehnologic",
@@ -105819,7 +105819,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=84HasRMXo_yV&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/8/8/9/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "11,06 Lei"
+    "price": "10,27 Lei"
   },
   {
     "title": "Dinamica constructiilor -aplicatii rezolvate",
@@ -106289,7 +106289,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=GpJCAXg_spK-&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/7/3/7/5/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "32,39 Lei"
+    "price": "34,29 Lei"
   },
   {
     "title": "Inegalitati algebrice (2). De la initiere la performanta",
@@ -106439,7 +106439,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=z21-29jx1Z2w&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/8/2/1/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,52 Lei"
+    "price": "14,31 Lei"
   },
   {
     "title": "Animalele din padure se pregatesc pentru iernat. Mapa educativa",
@@ -106459,7 +106459,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pBpa_MYgRfDh&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/7/6/7/2/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,67 Lei"
+    "price": "24,77 Lei"
   },
   {
     "title": "Domeniul Stiinte - Cunoasterea mediului 5-6 ani. Activitati si exercitii pentru explorarea mediului inconjurator",
@@ -106479,7 +106479,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WpnmuXOORet8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/5/0/7/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "26,25 Lei"
+    "price": "21,00 Lei"
   },
   {
     "title": "Carte de colorat, 5-6 ani (B5) (editie 2021)",
@@ -106819,7 +106819,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=TGXAr2N6Idnu&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/3/9/5/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "13,11 Lei"
+    "price": "11,77 Lei"
   },
   {
     "title": "Analiza matematica. Culegere de probleme",
@@ -107459,7 +107459,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Ii4vwRXOP2Hn&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/8/4/8/5/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "17,60 Lei"
+    "price": "14,30 Lei"
   },
   {
     "title": "E-Didactica. Procesul de instruire in mediul online",
@@ -107469,7 +107469,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=EIrFbzVZyZzH&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/0/5/1/6/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "43,40 Lei"
+    "price": "40,30 Lei"
   },
   {
     "title": "Atlas de biologie scolar pentru gimnaziu",
@@ -107609,7 +107609,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=IcoeG5tas8Jh&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/1/1/9/7/9/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "17,94 Lei"
+    "price": "13,72 Lei"
   },
   {
     "title": "Domeniul Stiinte. Activitati Matematice - Grupa mijlocie. Sugestii pentru organizarea activitatilor instructiv-educative",
@@ -107629,7 +107629,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Id1JB9-wamRB&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/3/1/7/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "23,66 Lei"
+    "price": "21,97 Lei"
   },
   {
     "title": "Invatam Scaderea (Plansa)",
@@ -107649,7 +107649,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=geBHykCkt9w0&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/9/1/8/3/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,00 Lei"
+    "price": "17,10 Lei"
   },
   {
     "title": "Didactica domeniului experiential. Limba si comunicare",
@@ -107859,7 +107859,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_ZhWAD5JO7SS&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/3/9/5/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,68 Lei"
+    "price": "14,07 Lei"
   },
   {
     "title": "Geografie - caiet de lucru pentru clasa a IV-a. Descopera. Exerseaza. Aprofundeaza",
@@ -108109,7 +108109,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=uyAQw3FqBgpq&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/9/6/1/4/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "12,68 Lei"
+    "price": "11,83 Lei"
   },
   {
     "title": "30 de Piese pentru copii. Opus 27, pentru pian",
@@ -108429,7 +108429,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RndE-mK4XyOi&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/6/9/9/3/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,00 Lei"
+    "price": "24,00 Lei"
   },
   {
     "title": "Religie. Cultul ortodox. Manual de clasa a VIII-a",
@@ -108699,7 +108699,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5GauqYUE_ay0&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/2/3/2/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,89 Lei"
+    "price": "8,26 Lei"
   },
   {
     "title": "Povesti de Craciun",
@@ -108879,7 +108879,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5zRbclpT0c74&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/9/4/0/7/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,84 Lei"
+    "price": "26,78 Lei"
   },
   {
     "title": "Minecraft. Caiet de matematica 8-9 ani",
@@ -108889,7 +108889,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=soeHGNkvjd7a&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/2/7/0/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "19,60 Lei"
+    "price": "18,20 Lei"
   },
   {
     "title": "Chimie generala si anorganica. Volumul II",
@@ -109219,7 +109219,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6sXN4x-lh9O2&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/4/7/6/9/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "31,08 Lei"
+    "price": "28,86 Lei"
   },
   {
     "title": "Scrie si sterge! pentru prescolari mici - Gandire matematica. 32 fise de lucru refolosibile",
@@ -109329,7 +109329,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=THg7PKq8vIH2&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/6/2/2/3/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "11,85 Lei"
+    "price": "9,48 Lei"
   },
   {
     "title": "Invata Limba Engleza prin teatru. Manual optional pentru anul I si II de studiu",
@@ -109349,7 +109349,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=H8ZwwXAdEkQs&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/1/5/2/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,73 Lei"
+    "price": "22,20 Lei"
   },
   {
     "title": "Stiinte ale naturii. Caiet de activitati. Clasa a III-a",
@@ -109389,7 +109389,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=16_p6C74bJHo&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/3/7/8/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "38,00 Lei"
+    "price": "34,20 Lei"
   },
   {
     "title": "Fise de lucru diferentiate. Comunicare in limba romana. Clasa pregatitoare",
@@ -109449,7 +109449,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5k13vKakmtGn&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/3/7/7/6/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "37,99 Lei"
+    "price": "34,19 Lei"
   },
   {
     "title": "Religie. Cultul Romano-Catolic de limba romana. Manual pentru clasa a III-a",
@@ -109649,7 +109649,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BfhZ_mIygp82&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/7/7/2/2/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "16,08 Lei"
+    "price": "14,43 Lei"
   },
   {
     "title": "Pregatirea examenului de Bacalaureat in 30 de saptamani 2017. Matematica. M_mate-info",
@@ -109789,7 +109789,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=H59IplzyJgHi&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/1/0/0/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "1,98 Lei"
+    "price": "1,78 Lei"
   },
   {
     "title": "Pachet  Barrons Admitere la medicina (2 carti): 1. Barrons Anatomie si fiziologie umana pentru admitere la facultatile de medicina; 2. Anatomia si fiziologia omului. Teste grila pentru admiterea la facultatile de medicina dupa manualul Barrons",
@@ -109959,7 +109959,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=j1sYls6FId9N&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/6/8/3/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "41,32 Lei"
+    "price": "32,94 Lei"
   },
   {
     "title": "Teste-grila de tehnologie farmaceutica pentru admitere la rezidentiat (editia a II-a revazuta si adaugita)",
@@ -110079,7 +110079,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=gcwlgWrqpjXi&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/3/1/2/0/9/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "46,80 Lei"
+    "price": "39,00 Lei"
   },
   {
     "title": "De la senzatii la cunoastere. Considerente teoretice. Senzorialitatea, primul pas spre cunoastere. Cunoastere Dezvoltare Actiune. Jocuri senzoriale pentru prescolari. Elemente stiintifice si curiozitati",
@@ -111261,7 +111261,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fukKzM7X5sfY&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/1/7/6/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "8,66 Lei"
+    "price": "7,77 Lei"
   },
   {
     "title": "Bacalaureat. Limba si literatura romana. Prezentare schematica pentru proba scrisa",
@@ -111381,7 +111381,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_yVkE7V_6YQC&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/6/2/6/4/2/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "24,27 Lei"
+    "price": "19,32 Lei"
   },
   {
     "title": "Scrie si traseaza, la matematica exerseaza!",
@@ -111451,7 +111451,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pZlxGrYJdZ8z&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/2/8/9/3/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "29,53 Lei"
+    "price": "25,31 Lei"
   },
   {
     "title": "Micul campion. Teste pentru toate disciplinele. Clasa pregatitoare",
@@ -111711,7 +111711,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=XTUfVxW_lQQp&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/3/1/7/4/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,14 Lei"
+    "price": "26,13 Lei"
   },
   {
     "title": "Matematica - culegere pentru clasa a V-a",
@@ -111741,7 +111741,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CsrgV_dpboW8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/2/4/7/0/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "23,31 Lei"
+    "price": "19,98 Lei"
   },
   {
     "title": "Calatorie prin limba romana. Exercitii si teste. Evaluarea nationala - Clasa a IV-a",
@@ -111811,7 +111811,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zCvRyR50IbZa&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/0/0/4/7/8/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "40,00 Lei"
+    "price": "32,50 Lei"
   },
   {
     "title": "Stiinte ale naturii - Manual pentru clasa a III-a (semestrul I + semestrul al II-lea)",
@@ -111901,7 +111901,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=O3kJgBkTskRB&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/1/4/0/2/7/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "28,00 Lei"
+    "price": "22,75 Lei"
   },
   {
     "title": "Descopar culori si forme (3-5 ani)",
@@ -111911,7 +111911,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=sKjAlZgLKEW8&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/4/8/3/9/5/5/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "15,68 Lei"
+    "price": "14,07 Lei"
   },
   {
     "title": "Punguta cu doi bani. Carte de citit cu litere mari de tipar (format B5)",
@@ -111931,7 +111931,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=rQqNWoSnrGLz&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/5/2/0/9/0/1/300x300.jpg",
     "category": "manuale-scolare",
-    "price": "90,47 Lei"
+    "price": "95,92 Lei"
   },
   {
     "title": "Europa. Romania. Uniunea Europeana. Fise cu suport cartografic pentru portofoliu. Clasa a XII-a",
@@ -112142,5 +112142,465 @@
     "image": "https://www.librarie.net/coperti2/5/2/1/4/6/7/300x300.jpg",
     "category": "manuale-scolare",
     "price": "33,99 Lei"
+  },
+  {
+    "title": "Lecturi suplimentare clasa I. Bibliografie scolara recomandata",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/300958/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e3a2b23f0&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/0/0/9/5/8/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "9,51 Lei"
+  },
+  {
+    "title": "Educatie fizica si sportiva scolara. Ghid orientativ pentru titularizare, definitivat si gradul II",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/120699/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=93db71df7&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/2/0/6/9/9/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "61,30 Lei"
+  },
+  {
+    "title": "Manual de limba romana ca limba straina (RLS). Nivelul B2",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/419195/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fecc63095&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/1/9/1/9/5/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "115,20 Lei"
+  },
+  {
+    "title": "Ortograme. Caiet pentru exersare intensiva. Ortograme (clasele a II-a si a III-a)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/475394/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d06418291&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/7/5/3/9/4/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "18,13 Lei"
+  },
+  {
+    "title": "Exersez! Ortogramele (partea a II-a)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/281762/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=972ac9e15&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/8/1/7/6/2/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "7,77 Lei"
+  },
+  {
+    "title": "Matematica. Caiet de lucru",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/366956/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e99f7bbad&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/6/6/9/5/6/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "10,14 Lei"
+  },
+  {
+    "title": "Culegere de economie pentru admiterea la Facultatea de Drept. Editia a III-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/483492/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=5fa155f2a&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/8/3/4/9/2/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "60,46 Lei"
+  },
+  {
+    "title": "Activitati STEM: Matematica uimitoare",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/403393/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=u5jHI2QVvUwB&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/0/3/3/9/3/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "18,99 Lei"
+  },
+  {
+    "title": "Matematica. Culegere de exercitii si probleme pentru clasa a IV-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/196156/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4pdG5yMC-xxM&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/9/6/1/5/6/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "14,45 Lei"
+  },
+  {
+    "title": "Comunicare in limba romana pentru clasa I. Culegere de exercitii de aprofundare, evaluare, recuperare si dezvoltare. Auxiliar curricular",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/505077/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BjjJYxP43EyO&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/0/5/0/7/7/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "36,50 Lei"
+  },
+  {
+    "title": "Plansa Cifrele format A4",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/274462/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nSuKxA1FJzCf&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/7/4/4/6/2/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "2,94 Lei"
+  },
+  {
+    "title": "Limba si literatura romana. Auxiliarul elevului de liceu. Cu elemente de metodica aplicata. Clasa a X-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/381568/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=I6FgSd7SmPLA&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/8/1/5/6/8/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "72,20 Lei"
+  },
+  {
+    "title": "Limba moderna 1. Limba franceza. Clasa a VI-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/482461/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=t9iNv58s7vsv&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/8/2/4/6/1/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "60,50 Lei"
+  },
+  {
+    "title": "Limba romana. Manual scolar pentru clasa a V-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/437144/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1E8gGo_zEoc_&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/7/1/4/4/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "39,00 Lei"
+  },
+  {
+    "title": "Prin lumea povestilor. In asteptarea verii (Grupa mare)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/421857/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=2kAyf7BF9Hsc&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/2/1/8/5/7/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "23,00 Lei"
+  },
+  {
+    "title": "Caiet de matematica pentru clasa I",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/43564/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jV6wCr6wtin7&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/3/5/6/4/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "7,82 Lei"
+  },
+  {
+    "title": "Caiet de scriere. Clasa I. Partea I (dupa manualul CD Press)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/464482/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=-IdkCMdBOWbE&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/6/4/4/8/2/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "14,31 Lei"
+  },
+  {
+    "title": "Limba moderna germana. Nivel B1.1",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/481899/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=T_9Ws837uhB0&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/8/1/8/9/9/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "60,50 Lei"
+  },
+  {
+    "title": "Carte de colorat 2-3 ani",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/383408/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=OqOCO8RtNVXt&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/8/3/4/0/8/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "21,35 Lei"
+  },
+  {
+    "title": "Sa pregatim rapid orice concurs de matematica. Clasele III si IV",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/477354/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=rb5vwKCpOr3R&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/7/7/3/5/4/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "17,76 Lei"
+  },
+  {
+    "title": "Filosofie Tip B. Manual pentru clasa a XII-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/95501/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QfTBuvaT7drb&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/9/5/5/0/1/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "21,24 Lei"
+  },
+  {
+    "title": "Sa pregatim rapid orice concurs de matematica clasa a IV-a. Probleme de tip grila",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/295418/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=K1vSZhCKAwER&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/9/5/4/1/8/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "10,14 Lei"
+  },
+  {
+    "title": "Dictionar istoric",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/44635/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=y-G6iZ1pw7Nu&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/4/6/3/5/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "17,10 Lei"
+  },
+  {
+    "title": "Ma pregatesc pentru scoala. Invat despre cifre si numere (fise activitati) 5-6 ani",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/369968/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_uqcKCL-JwnN&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/6/9/9/6/8/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "18,78 Lei"
+  },
+  {
+    "title": "Tartarin din Tarascon",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/59937/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=C4zDcLdC_6Yt&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/9/9/3/7/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "7,00 Lei"
+  },
+  {
+    "title": "MAPA ELEVULUI - CLASA a III-a - STIINTELE NATURII - (sem. I + sem al II-lea)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/170927/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=86iiAyHaPZ11&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/7/0/9/2/7/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "13,43 Lei"
+  },
+  {
+    "title": "Evaluarea Nationala pentru clasa a VIII-a. Algebra, clasa a V-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/499270/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Vwb6rnn65pe3&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/9/9/2/7/0/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "30,00 Lei"
+  },
+  {
+    "title": "Flash Cards Algebra - Evaluarea Nationala clasa a VIII-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/517955/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CpR_gVya9hTL&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/1/7/9/5/5/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "79,38 Lei"
+  },
+  {
+    "title": "Domeniul Om si Societate, grupa mare. Sugestii pentru organizarea activitatilor instructiv-educative",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/521254/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=iYM7SeMD4bmS&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/5/2/1/2/5/4/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "13,50 Lei"
+  },
+  {
+    "title": "TEME DE MATEMATICA CLASA A VIII-A SEMESTRUL AL II-LEA",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/149454/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QbI8RKRo-aGG&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/4/9/4/5/4/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "7,54 Lei"
+  },
+  {
+    "title": "Evaluarea finala in gradinita 3-4 ani",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/291348/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=X-yMhm0A9e-A&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/9/1/3/4/8/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "9,48 Lei"
+  },
+  {
+    "title": "Singur pe lume",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/235995/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=wKdruHNWOV_Y&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/3/5/9/9/5/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "18,00 Lei"
+  },
+  {
+    "title": "Sociologie. Manual pentru clasa a  XI-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/18048/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ucESr-OBk1aC&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/8/0/4/8/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "17,94 Lei"
+  },
+  {
+    "title": "Dictionar ilustrat The Express Picture Dictionary for young learners. Caietul profesorului",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/494311/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7H9f-476UURZ&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/9/4/3/1/1/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "13,00 Lei"
+  },
+  {
+    "title": "Introducere in teoria grafurilor",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/447372/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6t0ScD-vp0bu&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/4/7/3/7/2/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "50,70 Lei"
+  },
+  {
+    "title": "Exceleaza la matematica. Clasa a 3-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/480205/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fmiTwhpLCUxg&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/8/0/2/0/5/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "21,10 Lei"
+  },
+  {
+    "title": "Teme de matematica pentru pregatirea la clasa si individuala a elevilor spre performanta in matematica, clasa a VIII-a 2012-2013 semestrul I",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/183399/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=k2htNDXfG_OR&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/1/8/3/3/9/9/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "9,62 Lei"
+  },
+  {
+    "title": "Arte vizuale si abilitati practice. Caiet de lucru pentru clasa a II-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/262276/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9TutNT7FEKj4&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/6/2/2/7/6/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "10,70 Lei"
+  },
+  {
+    "title": "Matematica. Manual M2 (cls. a XII-a)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/25295/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QisSTo1PHXCJ&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/5/2/9/5/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "42,25 Lei"
+  },
+  {
+    "title": "Sa invatam rapid matematica clasa a V-a",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/455344/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7K_GRYxgNlGP&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/4/5/5/3/4/4/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "27,96 Lei"
+  },
+  {
+    "title": "Istorie. Manual pentru clasa a IV-a in limba germana",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/372604/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=H7iJ-VFrWpBv&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/7/2/6/0/4/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "22,20 Lei"
+  },
+  {
+    "title": "Invat sa citesc si sa scriu. Caiet de lucru. Clasa I",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/263058/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FW95CJhVcxsP&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/2/6/3/0/5/8/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "27,77 Lei"
+  },
+  {
+    "title": "Ma pregatesc pentru scoala. Exercitii grafice (fise activitati) 5-6 ani",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/369971/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=93k4BEkNh5gE&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/6/9/9/7/1/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "16,08 Lei"
+  },
+  {
+    "title": "365 de jocuri educative pentru fetite (4 ani +)",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/368501/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=JCBo_BH9qQzR&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/6/8/5/0/1/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "38,06 Lei"
+  },
+  {
+    "title": "Pliant Verbul in limba franceza",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/379453/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YtN3wXBzJO7t&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/7/9/4/5/3/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "14,80 Lei"
+  },
+  {
+    "title": "Poftiti la serbare! Scenete pentru serbarile elevilor din clasele I-IV",
+    "brand": "librarie.net",
+    "sourceSite": "librarie.net",
+    "productUrl": "https://www.librarie.net/p/377821/nia=1693",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=205J3IH3U0QD&aff_code=676a7e7d9&campaign_unique=da1148931",
+    "image": "https://www.librarie.net/coperti2/3/7/7/8/2/1/300x300.jpg",
+    "category": "manuale-scolare",
+    "price": "9,50 Lei"
   }
 ]

@@ -4983,7 +4983,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4d03f1c48&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/34639/34638345-1-small-1.jpg",
     "category": "materii-suplimentare",
-    "price": "34,80 Lei"
+    "price": "27,84 Lei",
+    "oldPrice": "34,80 Lei",
+    "discount": "20%"
   },
   {
     "title": "Aspects. Student's Book. Easy eBook - Victoria Heward",
@@ -9505,7 +9507,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pByegbiMRE_r&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/34458/34457346-1-small-1.jpg",
     "category": "materii-suplimentare",
-    "price": "36,90 Lei"
+    "price": "29,52 Lei",
+    "oldPrice": "36,90 Lei",
+    "discount": "20%"
   },
   {
     "title": "Memomed 2026 - Dumitru Dobrescu, Simona Negres, Liliana Dobrescu, Ruxandra McKinnon",

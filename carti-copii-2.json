@@ -17145,9 +17145,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=92iqlzCx7kNv&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/38779/38778523-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "36,75 Lei",
-    "oldPrice": "49,00 Lei",
-    "discount": "25%"
+    "price": "49,00 Lei"
   },
   {
     "title": "Cum sa vorbesti si sa fii ascultat! - Sam Hutchinson",
@@ -17245,9 +17243,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Y4339DxDbfNm&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/47849/47848745-1-small-1.jpg?ver=1787220179",
     "category": "carti-copii",
-    "price": "15,38 Lei",
-    "oldPrice": "20,50 Lei",
-    "discount": "25%"
+    "price": "20,50 Lei"
   },
   {
     "title": "Primele povesti cu animale",
@@ -18947,9 +18943,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jjIY_veBH42A&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1196/1195040-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "14,30 Lei",
-    "oldPrice": "17,88 Lei",
-    "discount": "20%"
+    "price": "17,88 Lei"
   },
   {
     "title": "Sofia Intai - Lectia de magie - Caiet de activitati. Grupa mica",
@@ -18969,9 +18963,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bgA3TXKfn6ft&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/10750/10749436-1-small-1.jpg",
     "category": "carti-copii",
-    "price": "11,76 Lei",
-    "oldPrice": "14,70 Lei",
-    "discount": "20%"
+    "price": "14,70 Lei"
   },
   {
     "title": "Ma joc si invat. Activitati matematice 4-5 ani",
@@ -109583,9 +109575,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8__IAaJNbAen&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48334/48333831-1-small-1.jpg?ver=1789458717",
     "category": "carti-copii",
-    "price": "44,25 Lei",
-    "oldPrice": "59,00 Lei",
-    "discount": "25%"
+    "price": "59,00 Lei"
   },
   {
     "title": "Bunele maniere cu Alba-ca-Zapada. Citire pe silabe",
@@ -109781,7 +109771,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zmStpNZFpTmj&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48335/48334209-1-small-1.jpg?ver=1789462736",
     "category": "carti-copii",
-    "price": "69,00 Lei"
+    "price": "51,75 Lei",
+    "oldPrice": "69,00 Lei",
+    "discount": "25%"
   },
   {
     "title": "Invatatorii de Grija. Fiul flasnetarului - Alex Donovici",
