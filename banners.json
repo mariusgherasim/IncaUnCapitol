@@ -443,5 +443,32 @@
     "startDate": "2026-11-08",
     "endDate": "2026-11-08",
     "weight": 3
+  },
+  {
+    "id": "libris-bf-01",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/274246/original/274246.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=7aa4f957e&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "Black Friday libris.ro: -25% cu cuponul BF25, până pe 8 noiembrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-08",
+    "weight": 3
+  },
+  {
+    "id": "libris-bf-02",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/274244/original/274244.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=610f89ad3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "Black Friday libris.ro: -25% cu cuponul BF25",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-08",
+    "weight": 1
   }
 ]

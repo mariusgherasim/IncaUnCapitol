@@ -3,6 +3,23 @@
     "_readme": "Cardurile de promotie mici, afisate de script.js. pages: \"all\" = pe toate paginile site-ului (sub header), \"home\" = doar pe pagina principala. start/end: data si ora (AAAA-LL-ZZTHH:MM:SS+03:00); cardul apare doar in interval si dispare singur dupa end. Ambele sunt optionale. link: pagina interna (ex. nemira-toamna-literara.html) sau link de afiliere 2Performant (external: true -> se deschide in tab nou, rel sponsored). Culori optionale: accent (bara din stanga, kicker, buton), tagBg / tagColor / tagSmallColor (eticheta rotita); tagSmall = textul mic de sub eticheta. Ordinea din fisier = ordinea pe pagina."
   },
   {
+    "id": "libris-black-friday",
+    "pages": "all",
+    "start": "2026-11-05T18:00:00+02:00",
+    "end": "2026-11-08T23:59:59+02:00",
+    "tag": "-25%",
+    "tagSmall": "cod BF25",
+    "kicker": "Black Friday libris.ro · până duminică, 8 noiembrie, 23:59",
+    "title": "Black Friday la libris: -25% cu cuponul BF25",
+    "text": "Scrii BF25 în coș și primești -25%. Transport gratuit la comenzile de peste 90 de lei, cu livrare în România.",
+    "button": "Vezi cuponul",
+    "link": "libris-black-friday.html",
+    "accent": "#E3263B",
+    "tagBg": "#0E0E0E",
+    "tagColor": "#FFFFFF",
+    "tagSmallColor": "#E3263B"
+  },
+  {
     "id": "nemira-black-friday",
     "pages": "all",
     "end": "2026-11-10T23:59:59+02:00",
