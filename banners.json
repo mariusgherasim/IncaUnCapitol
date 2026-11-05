@@ -401,5 +401,47 @@
     "startDate": "2026-11-03",
     "endDate": "2026-11-10",
     "weight": 1
+  },
+  {
+    "id": "corint-bf-01",
+    "merchant": "edituracorint.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/corint-bf-site-vineri.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=8dad9830f&redirect_to=https%253A//edituracorint.ro/black-friday.html",
+    "alt": "Black Friday la Editura Corint începe vineri, 6–8 noiembrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-05",
+    "weight": 3
+  },
+  {
+    "id": "corint-bf-02",
+    "merchant": "edituracorint.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/corint-bf-site.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=8dad9830f&redirect_to=https%253A//edituracorint.ro/black-friday.html",
+    "alt": "Black Friday la Editura Corint, 6–8 noiembrie: istorie, ficțiune, cărți pentru copii",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "weight": 3
+  },
+  {
+    "id": "corint-bf-03",
+    "merchant": "edituracorint.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/corint-bf-site-duminica.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=8dad9830f&redirect_to=https%253A//edituracorint.ro/black-friday.html",
+    "alt": "Ultima zi de Black Friday la Editura Corint, până la 23:59",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-08",
+    "endDate": "2026-11-08",
+    "weight": 3
   }
 ]
