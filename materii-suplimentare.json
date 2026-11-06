@@ -6013,7 +6013,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=56c29abf3&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21756/21755423-1-small-1.jpg",
     "category": "materii-suplimentare",
-    "price": "42,30 Lei"
+    "price": "37,22 Lei",
+    "oldPrice": "42,30 Lei",
+    "discount": "12%"
   },
   {
     "title": "The Avengers. Level 2  + CD",
@@ -36009,9 +36011,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/d/i/dictionardecapcane.jpg",
     "category": "materii-suplimentare",
     "productUrl": "https://edituracorint.ro/dictionar-de-capcane-ale-limbii-romane-corint.html",
-    "price": "27,92 Lei",
+    "price": "17,45 Lei",
     "oldPrice": "34,90 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Enciclopedia științelor pentru copii",
@@ -36045,9 +36047,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/i/s/istoria_romaniei_mic_atlas_scolar.jpg",
     "category": "materii-suplimentare",
     "productUrl": "https://edituracorint.ro/istoria-romaniei-mic-atlas-scolar.html",
-    "price": "25,52 Lei",
+    "price": "15,95 Lei",
     "oldPrice": "31,90 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Atlas istoric Duby",
@@ -36081,9 +36083,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/v/o/vocabular_de_baza_in_imagini_-_franceza.jpg",
     "category": "materii-suplimentare",
     "productUrl": "https://edituracorint.ro/limba-franceza-vocabularul-de-baza-in-imagini.html",
-    "price": "37,20 Lei",
+    "price": "23,25 Lei",
     "oldPrice": "46,50 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Limba germană - Vocabularul de bază în imagini",
@@ -36093,9 +36095,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/v/o/vocabular_de_baza_in_imagini_-_germana.jpg",
     "category": "materii-suplimentare",
     "productUrl": "https://edituracorint.ro/limba-germana-vocabularul-de-baza-in-imagini.html",
-    "price": "34,90 Lei",
+    "price": "23,25 Lei",
     "oldPrice": "46,50 Lei",
-    "discount": "25%"
+    "discount": "50%"
   },
   {
     "title": "Limba engleză - Vocabularul de bază în imagini",
@@ -36105,9 +36107,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/v/o/vocabularul-de-baza-al-limbii-engleze-c1.jpg",
     "category": "materii-suplimentare",
     "productUrl": "https://edituracorint.ro/limba-engleza-vocabularul-de-baza-in-imagini.html",
-    "price": "34,80 Lei",
+    "price": "21,74 Lei",
     "oldPrice": "43,50 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Dicționar de informatică",
@@ -36117,9 +36119,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/d/i/dictionar_de_informatica_3.jpg",
     "category": "materii-suplimentare",
     "productUrl": "https://edituracorint.ro/dictionar-de-informatica.html",
-    "price": "27,92 Lei",
+    "price": "17,45 Lei",
     "oldPrice": "34,90 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Deutsche Sagenstrasse : Lese- und Arbeitsbuch",
@@ -36223,9 +36225,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/d/i/dictionar-selectiv-de-nume-de-botez-si-famlie_ilie-stefan_radulescu_corint-educational-01.jpg",
     "category": "materii-suplimentare",
     "productUrl": "https://edituracorint.ro/dictionar-selectiv-de-nume-de-botez-si-de-familie.html",
-    "price": "42,00 Lei",
+    "price": "26,25 Lei",
     "oldPrice": "52,50 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Istorie universală. Atlas şcolar ilustrat / Perovici",
@@ -36295,8 +36297,8 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/a/t/atlasul-animalelor_tom-velcovsky_corint-junior-01.jpg",
     "category": "materii-suplimentare",
     "productUrl": "https://edituracorint.ro/atlasul-animalelor.html",
-    "price": "74,80 Lei",
+    "price": "46,75 Lei",
     "oldPrice": "93,50 Lei",
-    "discount": "20%"
+    "discount": "50%"
   }
 ]

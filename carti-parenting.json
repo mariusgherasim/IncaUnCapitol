@@ -4554,18 +4554,6 @@
     "discount": "20%"
   },
   {
-    "title": "Liber sa inveti - Peter Gray",
-    "brand": "Peter Gray",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/liber-sa-inveti-peter-gray/21873125?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1f794600f&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/21874/21873125-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "44,20 Lei",
-    "oldPrice": "52,00 Lei",
-    "discount": "15%"
-  },
-  {
     "title": "Cum sa cresti un copil fericit, o aventura in familie - Marion McGuinness",
     "brand": "Marion Mcguinness",
     "sourceSite": "libris.ro",
@@ -6895,9 +6883,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=a54498055&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/18121/18120350-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "12,00 Lei",
+    "price": "15,00 Lei",
     "oldPrice": "41,23 Lei",
-    "discount": "71%"
+    "discount": "64%"
   },
   {
     "title": "Tot ce am mai drag - Einat Nathan",
@@ -14857,9 +14845,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/p/a/parentigul_pasnic.jpg",
     "category": "carti-parenting",
     "productUrl": "https://edituracorint.ro/parentingul-pasnic-cum-sa-ti-iubesti-copilul-fara-sa-l-controlezi.html",
-    "price": "27,92 Lei",
+    "price": "17,45 Lei",
     "oldPrice": "34,90 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Spune STOP stresului prenatal! Cum să dezvolţi potenţialul copilului tău",
@@ -14881,9 +14869,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/h/r/hraneste-l_sanatos_.jpg",
     "category": "carti-parenting",
     "productUrl": "https://edituracorint.ro/hraneste-l-sanatos-ghidurile-usborne-pentru-parinti.html",
-    "price": "27,92 Lei",
+    "price": "17,45 Lei",
     "oldPrice": "34,90 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Frica și anxietatea copilului. Soluții practice pentru a-l ajuta să le depășească",
@@ -14917,9 +14905,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/c/o/copiii-in-fata-ecranelor_anne-lise-ducanda_editura-corint-pentru-parinti-01.jpg",
     "category": "carti-parenting",
     "productUrl": "https://edituracorint.ro/copiii-in-fata-ecranelor-cum-ii-protejam.html",
-    "price": "55,92 Lei",
+    "price": "34,95 Lei",
     "oldPrice": "69,90 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Cum să fii un părinte mai bun. Ajută-ți copilul să învețe din greșeli",
@@ -14953,9 +14941,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/l/e/lectii-pentru-fiul-meu-si-pentru-tine-c1_1.jpg",
     "category": "carti-parenting",
     "productUrl": "https://edituracorint.ro/lectii-pentru-fiul-meu-si-pentru-tine-29-de-lectii-practice-pentru-o-viata-mai-buna.html",
-    "price": "32,72 Lei",
+    "price": "20,45 Lei",
     "oldPrice": "40,90 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Copilul tău nu ştie ce să studieze? Cum îl ajuţi să-şi aleagă locul de muncă perfect",
@@ -14965,9 +14953,9 @@
     "image": "https://edituracorint.ro/pub/media/catalog/product/c/o/copilul-tau-nu-stie-ce-sa-studieze_corint_parinti_01_1.jpg",
     "category": "carti-parenting",
     "productUrl": "https://edituracorint.ro/copilul-tau-nu-stie-ce-sa-studieze.html",
-    "price": "60,40 Lei",
+    "price": "37,75 Lei",
     "oldPrice": "75,50 Lei",
-    "discount": "20%"
+    "discount": "50%"
   },
   {
     "title": "Tu, copilul tau si scoala - Sir Ken Robinson, Lou Aronica",
@@ -15286,5 +15274,27 @@
     "image": "https://www.libris.ro/img/pozeprod/48907/48906893-1-small-1.jpg?ver=1793706253",
     "category": "carti-parenting",
     "price": "65,00 Lei"
+  },
+  {
+    "title": "Invata sa asculti - Elena Bonchis",
+    "brand": "Elena Bonchis",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/invata-sa-asculti-elena-bonchis/11623415?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4e16105f8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/11624/11623415-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "9,99 Lei",
+    "oldPrice": "36,96 Lei",
+    "discount": "73%"
+  },
+  {
+    "title": "Avertismentele adolescentei - Tiberiu Buzdugan",
+    "brand": "Tiberiu Buzdugan",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/avertismentele-adolescentei-tiberiu-buzdugan/318097?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=be6e512ce&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/319/318097-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "8,15 Lei"
   }
 ]
