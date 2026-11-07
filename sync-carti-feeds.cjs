@@ -11,7 +11,9 @@
 //      feed-ul e complet (vezi AUTORITATE mai jos) si doar daca feed-ul e prezent.
 //   4. Adauga produsele noi din feed, in fisierul potrivit categoriei (vezi REGULI).
 //   5. Elimina duplicatele (acelasi produs de doua ori, cu alt cod de afiliere).
-//   6. books.json: actualizeaza doar pretul / pretul vechi / reducerea, pastrand linkul de afiliere;
+//   6. books.json: actualizeaza doar pretul / pretul vechi / reducerea, pastrand linkul de afiliere
+//      + „cel mai bun pret": cartea trece pe libraria cu pret mai mic cu peste 5% (vezi BOOKS_CEL_MAI_BUN_PRET)
+//      (actsipoliton trece prin update-prices.js; printrecarti e verificat separat);
 //      daca linkul nu mai e in feed, cauta aceeasi carte (titlu + autor) in alt feed si inlocuieste linkul.
 //
 // Nu are nevoie de npm install — foloseste doar Node.js.
@@ -21,6 +23,11 @@
 //   node sync-carti-feeds.cjs                           (actualizeaza fisierele)
 //   node sync-carti-feeds.cjs --feeds=feeds --json=public\data
 //   node sync-carti-feeds.cjs --fara-adaugare           (doar actualizeaza/scoate, nu adauga)
+//   node sync-carti-feeds.cjs --scoate-tot              (scoate si produsele blocate de pragul de siguranta, fara intrebare)
+//
+// Prag de siguranta: daca dintr-un fisier ar disparea peste 25% din produsele unei surse, scriptul NU le scoate
+// direct. La final afiseaza lista si te INTREABA (da/nu) daca le scoate. Verifici feed-ul manual, apoi raspunzi.
+// La rularea automata (fara tastatura, ex. actualizeaza-zilnic.bat) raspunsul e „nu", in afara de --scoate-tot.
 //
 // Rulare zilnica automata: actualizeaza-zilnic.bat (+ instaleaza-task-zilnic.bat pentru Task Scheduler)
 //
@@ -40,6 +47,7 @@ const arg = (name, def) => {
 };
 const DRY_RUN = args.includes("--dry-run");
 const NO_ADD = args.includes("--fara-adaugare");
+const SCOATE_TOT = args.includes("--scoate-tot");
 const FEEDS_DIR = path.resolve(__dirname, arg("feeds", "."));
 const JSON_DIR = path.resolve(__dirname, arg("json", "."));
 const REPORT_PATH = path.join(__dirname, "sync-report.json");
@@ -59,13 +67,15 @@ const BACKUPURI_PASTRATE = 7;
 const SURSE_DEZACTIVATE = [];
 
 // Daca mai mult de acest procent din produsele unei surse ar fi scoase dintr-un fisier,
-// scoaterea se anuleaza pentru sursa respectiva (probabil feed gresit sau incomplet).
+// scoaterea se suspenda si la final scriptul te intreaba daca le scoate (vezi „Prag de siguranta" sus).
 const PRAG_SIGURANTA_SCOATERE = 0.25;
 
 // ---------- Feed-uri ----------
 // Fisier XML -> sursa. Codurile vin din linkul feed-ului 2Performant (feeds.2performant.com/feed/<cod>.xml)
 const FEEDS = {
-  "feed_78ad15be7.xml": { sursa: "libris.ro", descriere: "libris — feed complet (carti, copii, jocuri, accesorii, ebooks)" },
+  // Scoase pe 07.11.2026 (feed-urile nu mai exista in 2Performant; fisierele vechi din folder nu se mai citesc):
+  //   feed_78ad15be7 — libris complet (404 din 21.10.2026); jocurile libris vin acum din feed_5d7d1b9bc
+  //   feed_f23ec2538 — librarie.net Top 100 (inclus oricum in Top 10.000, feed_d399be9e5)
   "feed_bfb296a3b.xml": { sursa: "cartepedia.ro", descriere: "cartepedia — carti si jocuri in stoc" },
   "feed_dbcb0e675.xml": { sursa: "cartepedia.ro", descriere: "cartepedia — carti in stoc" },
   "feed_f70ce214f.xml": { sursa: "cartepedia.ro", descriere: "cartepedia — carti pentru copii in stoc" },
@@ -77,14 +87,16 @@ const FEEDS = {
   "feed_23ed00784.xml": { sursa: "libris.ro", descriere: "libris — eBooks" },
   "feed_30725b952.xml": { sursa: "libris.ro", descriere: "libris — Carti in Romana (inclus in feed-ul complet)" },
   "feed_0c722f7a4.xml": { sursa: "libris.ro", descriere: "libris — Carti pentru copii (inclus in feed-ul complet)" },
-  "feed_5d7d1b9bc.xml": { sursa: "libris.ro", descriere: "libris — Accesorii si cadouri (inclus in feed-ul complet)" },
-  "feed_f23ec2538.xml": { sursa: "librarie.net", descriere: "librarie.net — Top 100 (inclus in Top 10.000)" },
+  "feed_5d7d1b9bc.xml": { sursa: "libris.ro", descriere: "libris — Jocuri, accesorii si cadouri (~7.000 produse)" },
   "feed_7bd1c15b9.xml": { sursa: "edituratrei.ro", descriere: "Editura Trei" },
   "feed_0ab2094f6.xml": { sursa: "curteaveche.ro", descriere: "Curtea Veche" },
   "feed_5b10a2be9.xml": { sursa: "nemira.ro", descriere: "Nemira" },
   "feed_e82be0de9.xml": { sursa: "libhumanitas.ro", descriere: "libhumanitas — feed complet" },
   "feed_3dd5a1fd2.xml": { sursa: "brickplanet.ro", descriere: "brickplanet — seturi LEGO (feed redus: fara url, categorie, stoc)" },
   "feed_952ab47b2.xml": { sursa: "carturesti.ro", descriere: "carturesti — Muzica si film (CD, vinil, DVD)" },
+  "feed_0b61412e9.xml": { sursa: "grupdzc.ro", descriere: "grupdzc — feed complet (carti copii, scolare, jucarii, papetarie + multe irelevante)" },
+  "feed_8289d9f33.xml": { sursa: "edituracorint.ro", descriere: "Editura Corint — feed complet (~1.300 carti: scolare, copii, adulti)" },
+  "feed_bd91e5f46.xml": { sursa: "edituragama.ro", descriere: "Editura Gama — feed complet (~1.300 produse pentru copii: activitati, lectura, scoala, jocuri)" },
 };
 
 // Toate feed-urile de mai sus sunt citite: actualizeaza pretul si linkul oricarui produs existent pe care il contin.
@@ -102,7 +114,9 @@ const FEEDS = {
 const JSON_FILES = [
   "carti-copii-1.json",
   "carti-copii-2.json",
+  "carti-copii-3.json",
   "manuale-scolare.json",
+  "manuale-scolare-2.json",
   "materii-suplimentare.json",
   "rechizite-papetarie.json",
   "articole-scolare-accesorii.json",
@@ -119,30 +133,48 @@ const JSON_FILES = [
 // Surse neincluse aici (ex. libhumanitas.ro, libris in accesorii/jocuri) nu sunt atinse,
 // pentru ca feed-urile lor nu sunt incarcate.
 const CARTEPEDIA = ["feed_bfb296a3b.xml", "feed_dbcb0e675.xml", "feed_f70ce214f.xml", "feed_198b495ca.xml"];
+const GRUPDZC = ["feed_0b61412e9.xml"];
+const CORINT = ["feed_8289d9f33.xml"];
+// libris, din 03.11.2026: cele 4 feed-uri ramase acopera toate cartile (verificat pe 20.10: 0 carti pentru copii,
+// 0 agende/accesorii, 0 parenting lipsa fata de feed-ul complet sters).
+const LIBRIS = ["feed_30725b952.xml", "feed_0c722f7a4.xml", "feed_5d7d1b9bc.xml", "feed_23ed00784.xml"];
+// Jocurile si accesoriile libris: feed_5d7d1b9bc (verificat 07.11.2026: contine 3.584 din 3.762 de jocuri si
+// 1.594 din 2.230 de accesorii libris de pe site, cu aceleasi linkuri; restul nu se mai vand).
+const LIBRIS_JOCURI = ["feed_5d7d1b9bc.xml"];
+const FEED_VECHI_STIUT = []; // feed-uri fara avertismentul zilnic „e vechi de X ore"
+const GAMA = ["feed_bd91e5f46.xml"];
 const AUTORITATE = {
-  "carti-copii-1.json": { "libris.ro": ["feed_78ad15be7.xml"] },
-  "carti-copii-2.json": { "libris.ro": ["feed_78ad15be7.xml"], "cartepedia.ro": CARTEPEDIA },
-  "manuale-scolare.json": { "cartepedia.ro": CARTEPEDIA },
-  "materii-suplimentare.json": { "cartepedia.ro": CARTEPEDIA },
-  "rechizite-papetarie.json": { "carturesti.ro": ["feed_d861df8a1.xml"] },
-  "articole-scolare-accesorii.json": { "carturesti.ro": ["feed_d861df8a1.xml"] },
+  "carti-copii-1.json": { "libris.ro": LIBRIS },
+  "carti-copii-2.json": { "libris.ro": LIBRIS, "cartepedia.ro": CARTEPEDIA, "edituracorint.ro": CORINT, "edituragama.ro": GAMA },
+  "manuale-scolare.json": { "cartepedia.ro": CARTEPEDIA, "edituracorint.ro": CORINT, "edituragama.ro": GAMA },
+  "materii-suplimentare.json": { "cartepedia.ro": CARTEPEDIA, "grupdzc.ro": GRUPDZC, "edituracorint.ro": CORINT },
+  "rechizite-papetarie.json": { "carturesti.ro": ["feed_d861df8a1.xml"], "grupdzc.ro": GRUPDZC },
+  "articole-scolare-accesorii.json": { "carturesti.ro": ["feed_d861df8a1.xml"], "grupdzc.ro": GRUPDZC, "edituragama.ro": GAMA, "libris.ro": LIBRIS_JOCURI },
   "articole-scolare-jocuri.json": {
     "cartepedia.ro": CARTEPEDIA,
     "carturesti.ro": ["feed_d861df8a1.xml"],
-    "libris.ro": ["feed_78ad15be7.xml"],
+    "libris.ro": LIBRIS_JOCURI,
     "libhumanitas.ro": ["feed_e82be0de9.xml"],
     "brickplanet.ro": ["feed_3dd5a1fd2.xml"],
+    "grupdzc.ro": GRUPDZC,
+    "edituragama.ro": GAMA,
   },
   "oferte-carti-scolare.json": {
-    "libris.ro": ["feed_78ad15be7.xml"],
+    "libris.ro": LIBRIS,
     "libhumanitas.ro": ["feed_e82be0de9.xml"],
     "cartepedia.ro": CARTEPEDIA,
   },
   "carti-parenting.json": {
-    "libris.ro": ["feed_78ad15be7.xml"],
+    "libris.ro": LIBRIS,
     "libhumanitas.ro": ["feed_e82be0de9.xml"],
+    "grupdzc.ro": GRUPDZC,
+    "edituracorint.ro": CORINT,
+    "edituragama.ro": GAMA,
   },
   "muzica-film-1.json": { "carturesti.ro": ["feed_952ab47b2.xml"] },
+  // grupdzc: feed complet -> produsele disparute din feed se scot din toate fisierele unde apar
+  "carti-copii-3.json": { "grupdzc.ro": GRUPDZC },
+  "manuale-scolare-2.json": { "grupdzc.ro": GRUPDZC },
   "muzica-film-2.json": { "carturesti.ro": ["feed_952ab47b2.xml"] },
 };
 
@@ -162,6 +194,28 @@ const REGULI_CARTEPEDIA = {
   "Puzzle": "articole-scolare-jocuri.json",
 };
 const JOCURI = "articole-scolare-jocuri.json";
+// ---------- GRUPDZC (feed_0b61412e9) ----------
+// Feed generalist (56.000+ produse, 906 categorii). Intra pe site doar categoriile de mai jos,
+// verificate pe esantioane de titluri (14.10.2026). Restul (romane, religie, drept, medicina,
+// vesela, gradina, animale, cosmetice, decoratiuni de Craciun, gadgeturi) e ignorat intentionat.
+// Exclus la cererea utilizatorului: „Familie" (nu intra la parenting), cartile pentru adulti.
+const GRUPDZC_REGULI = [
+  ["manuale-scolare-2.json", /^(Carte Scolara|Pedagogie|Semestrul|Clasa|Abecedare|Fairyland|Teste|Admitere|Auxiliare|Lecturi scolare|Lecturi$|Bibliografie scolara|Culegeri|Marius Burtea|Carti de Lucretia|Bacalaureat|Evaluare|Pachete Evaluare|Comunicare in limba romana|Matematica si explorarea mediului|Domeniul|Activitati extracurriculare|Carti pentru Premii|Invatamant profesional)|Clas(a|ele) |Clasa \d|clasa /],
+  ["carti-parenting.json", /^Parenting$/],
+  ["carti-copii-3.json", /^(Carti pentru copii|Povesti pentru copii|Povesti|Carti de colorat|Carti ilustrate|Atlase si enciclopedii pentru copii|Legende si basme pentru copii|Poezii pentru copii|Carte de activitati|Carti cu sunete|Carti Montessori|Colinde si poezii|Carti educative|Harta Lumii pentru copii)$/],
+  ["materii-suplimentare.json", /^(Dictionare.*|Dictionar|Limba Engleza|Limba engleza|Limba Germana|Limba germana|Limba Franceza|Limba franceza|Carti de gramatica|Enciclopedii Dictionare si Atlase|Atlase.*|Atlas .*|Harta.*|Folio-Cartografie|Cugetari.*|Cultura generala)$/],
+  ["articole-scolare-accesorii.json", /^(Ghiozdane si genti|Rucsacuri|Penare|Semn de carte)$/],
+  ["rechizite-papetarie.json", /^(Caiete si coperti|Carioci si markere|Pixuri|Rollere|Creioane|Creioane colorate|Tempera si acuarele|Acuarele si pensule|Pensule si instrumente desen|Seturi pictura si desen|Hartie copiator.*|Cuburi hartie.*|Capsatoare.*|Perforatoare|Rezerve instrumente de scris|Blocuri de desen|Instrumente de geometrie|Plastilina|Nisip modelabil|Stilouri|Corectoare|Plicuri|Accesorii birou|Rechizite scolare|Rechizite|Hartie creponata|Hartie gumata|Tusuri.*|Registre si Repertoare|Dosare|Bibliorafturi|Etichete autoadezive|Ace .*|Accesorii pentru tabla|Diploma.*|Adezivi si benzi adezive|Suporturi documente|Margele|Mozaic|Lucru manual|Abtibilduri si stampile|Coloreaza accesorii|Deseneaza|Pictura|Arta si desen|Slime .*|File de protectie|Cutii arhivare.*)$/],
+  ["articole-scolare-jocuri.json", /^(Jucarii.*|Jucarie.*|LEGO.*|Accesorii LEGO|Puzzle.*|Jocuri.*|Joc .*|Papusi|Set de joaca pentru papusi|Casute de papusi.*|Haine si accesorii pentru papusi|Masinute.*|Masini de (lux|curse|interventie|constructii).*|Trenulete.*|Circuite si trenulete|Garaje si piste.*|Alte vehicule|Automachete|Minimodele|Motociclete de jucarie|Elicoptere.*|Figurine umane|Figurine|Dinozauri|Plusuri funny|Ursuleti de plus|Personaje din desene animate|Animale.*|Cai  ponei.*|Serpi.*|Super eroi|Lumi imaginare.*|Blastere Nerf.*|Seturi de asamblat|Cuburi jucarie|Labirint Lemn|Logica si Memorie|Forme si culori|Litere si limbaj|Experimente practice|Micul .*|Seturi de doctorat.*|Bucatarii copii|Carusele si proiectoare|Sunete si instrumente muzicale|Carti de joc|Mese fotbal.*|Casute si corturi copii|Triciclete si trotinete|Caini si pisici|La ferma|Ansambluri joaca)$/],
+];
+// Fisiere de carti: titlul „Carte - Autor" se imparte in titlu + autor (afisat sub titlu)
+const GRUPDZC_CARTI = ["manuale-scolare-2.json", "carti-copii-3.json", "materii-suplimentare.json", "carti-parenting.json"];
+function fisierGrupdzc(p) {
+  const c = String(p.category || "").trim();
+  const r = GRUPDZC_REGULI.find(([, rx]) => rx.test(c));
+  return r ? r[0] : null;
+}
+
 // ---------- MUZICA SI FILM ----------
 // Genurile din feed (<subcategory>) -> eticheta afisata pe site
 const GENURI_MUZICA = {
@@ -172,26 +226,115 @@ const GENURI_MUZICA = {
 };
 // Genurile care merg in muzica-film-1.json; restul (+ filmele) merg in muzica-film-2.json
 const GENURI_FISIER_1 = ["Rock", "Pop", "Alternative/Indie", "Folk/Country", "Rap/Hip-Hop", "R&B", "Electro", "Reggae", "Latin"];
+// Codul de bare (EAN) din <other_data> {"EAN":"..."} — folosit de mostrele audio Deezer de pe site
+function eanDinFeed(p) {
+  const m = String(p.other_data || "").match(/"EAN"\s*:\s*"(\d{8,14})"/);
+  return m ? m[1] : "";
+}
 function fisierMuzica(p) {
   return GENURI_FISIER_1.includes(p.subcategory) ? "muzica-film-1.json" : "muzica-film-2.json";
 }
 const ACCESORII = "articole-scolare-accesorii.json";
 const PARENTING = "carti-parenting.json";
+
+// ---------- EDITURA CORINT (feed_8289d9f33) ----------
+// Feed-ul nu are categorii utile (aproape toate „Cărţile noastre") si nici autor. Fisierul se alege asa:
+//   1. titlu de parenting (parinte, copilul tau, prenatal...)          -> carti-parenting.json
+//   2. titlu scolar (manual, caiet, clasa, bacalaureat, teste...)       -> manuale-scolare.json
+//   3. dictionar, atlas, vocabular, gramatica, limba straina, enciclopedie -> materii-suplimentare.json
+//   4. aceeasi carte (dupa titlu) in feed-urile celorlalte librarii: categoria lor decide
+//      (copii -> carti-copii-2.json, scolar -> manuale, parenting) — ex. libris „Carti Pentru Copii"
+//   5. negasita in alte feed-uri: copii doar daca descrierea o spune clar („varsta intre 5-9 ani", „cei mici")
+// Restul (romane, istorie, memorii, young adult romance) e ignorat intentionat, ca la grupdzc:
+// site-ul nu are (inca) o sectiune de carti pentru adulti. Verificat pe toate cele 1.278 de produse (20.10.2026).
+const CORINT_FOLD = (s) => decode(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const CORINT_PARENTING = /parent|\bparinte|\bparintii|\bparintilor|copilul tau|copilului\b|copiii in fata|prenatal|bebelus/;
+const CORINT_SCOLAR = /\b(manual|manualul|caiet|caietul|clasa|clasele|clasei|bacalaureat|evaluare|evaluarea|teste|test|auxiliar|culegere|admitere|olimpiad\w*|pregatire|fise|exercitii|probleme|formule|abecedar|bibliografie scolara|competente|trigonometri\w*|algebr\w*|geometri\w*|compendiu)\b/;
+const CORINT_MATERII = /dictionar|vocabular|\batlas|\batlasul|\blimba (engleza|germana|franceza|spaniola|italiana)|\blese\b|arbeitsbuch|gramatica|enciclopedi/;
+const CORINT_COPII_DESCRIERE = /varsta intre|\b\d{1,2}\s*[-–]\s*\d{1,2}\s*ani\b|cei mici|micii cititori|copiii vor|pentru copiii de|povesti ilustrate pentru copii|colectie de carti pentru copii|o poveste pentru copii/;
+// titlul fara diacritice, serie, editie, „cu autograf", „Pachet A + B" -> „A"
+function corintTitlu(t) {
+  return CORINT_FOLD(t)
+    .replace(/^pachet\s+/, "")
+    .split(/\s\+\s/)[0]
+    .split(/\s[-|]\s/)[0]
+    .replace(/\(.*?\)/g, " ")
+    .replace(/,?\s*(cu autograf|editie speciala|editia a [ivx]+-a|paperback|hardcover.*|hard cover|soft cover)\b.*$/, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+// categoria unei librarii -> tipul de pagina de pe site
+function corintTipCategorie(c) {
+  c = CORINT_FOLD(c).trim();
+  if (/parenting|cresterea cop/.test(c)) return "parenting";
+  if (/manual|auxiliar|scolar|clasa|clasele|semestrul|matematica|comunicare|evaluare|bacalaureat|lecturi/.test(c)) return "scolar";
+  if (/cop(ii|il)|povest|poezii pentru|adolescen|ilustrate/.test(c)) return "copii";
+  if (/dictionar|atlas|limbi straine|limba|enciclopedii|lexic/.test(c)) return "materii";
+  if (/^(carte|carti|diverse|libhumanitas|noutati|ebooks|audiobooks|carti in limbi straine|jocuri|)$/.test(c)) return null;
+  return "adulti";
+}
+// titlu -> categoriile aceleiasi carti la celelalte librarii (construit o singura data, la primul produs Corint)
+let corintCategoriiExterne = null;
+function fisierCorint(p) {
+  if (!corintCategoriiExterne) {
+    corintCategoriiExterne = new Map();
+    for (const din of index.values()) {
+      if (din.sursa === "edituracorint.ro") continue;
+      const t = corintTitlu(din.p.title);
+      if (t.length < 3) continue;
+      if (!corintCategoriiExterne.has(t)) corintCategoriiExterne.set(t, new Set());
+      corintCategoriiExterne.get(t).add(din.sursa + "|" + (din.p.category || ""));
+    }
+  }
+  const t = CORINT_FOLD(p.title);
+  if (CORINT_PARENTING.test(t) && !CORINT_SCOLAR.test(t)) return PARENTING;
+  if (CORINT_SCOLAR.test(t)) return "manuale-scolare.json";
+  if (CORINT_MATERII.test(t)) return "materii-suplimentare.json";
+  const voturi = { copii: 0, scolar: 0, adulti: 0, materii: 0, parenting: 0 };
+  for (const x of corintCategoriiExterne.get(corintTitlu(p.title)) || []) {
+    const tip = corintTipCategorie(x.split("|").slice(1).join("|"));
+    if (tip) voturi[tip]++;
+  }
+  if (voturi.parenting) return PARENTING;
+  if (voturi.copii && voturi.copii >= voturi.adulti) return "carti-copii-2.json";
+  if (voturi.scolar > voturi.adulti) return "manuale-scolare.json";
+  if (voturi.materii && voturi.materii >= voturi.adulti) return "materii-suplimentare.json";
+  if (!voturi.adulti && !voturi.copii && !voturi.scolar) {
+    const d = CORINT_FOLD(String(p.description || "").replace(/#html-body[^}]*\}/g, " ").replace(/<[^>]+>/g, " "));
+    if (CORINT_COPII_DESCRIERE.test(d)) return "carti-copii-2.json";
+  }
+  return null;
+}
+
+// ---------- EDITURA GAMA (feed_bd91e5f46) ----------
+// Editura de carti pentru copii. Categoria din feed e o cale („Carti cu activitati/Dezvoltarea inteligentei/MultiQ"),
+// iar fisierul se alege dupa ea (verificat pe toate cele 969 de produse active, 21.10.2026):
+//   Carti pentru scoala (Exersez!, Memorator, Teste de 10 minute, Evaluare nationala...) -> manuale-scolare.json
+//   Invatare prin joc (EduCard, EduFlash, Bingoletto, puzzle) si Tiki-Tan (jocuri Genius, lectii Montessori) -> jocuri
+//   .../Parenting/... si Montessori/Ghiduri Montessori (ghiduri pentru parinti) -> carti-parenting.json
+//   Jurnale, Jurnale cadou (albume, „Mami, te iubesc!") -> articole-scolare-accesorii.json
+//   restul (activitati, lectura, povesti, Montessori pentru copii, cultura generala, fictiune, colorat) -> carti-copii-2.json
+function fisierGama(p) {
+  const c = String(p.category || "").trim();
+  const top = c.split("/")[0].trim();
+  if (/\/Parenting|Ghiduri Montessori|pentru parinti/i.test(c)) return PARENTING;
+  if (top === "Carti pentru scoala") return "manuale-scolare.json";
+  if (top === "Invatare prin joc" || top === "Tiki-Tan") return JOCURI;
+  if (/^Jurnale/.test(top)) return ACCESORII;
+  return "carti-copii-2.json";
+}
+
 const REGULI = {
-  "feed_78ad15be7.xml": {
-    "Carti Pentru Copii": "carti-copii-1.json",
-    // jocuri si jucarii pentru copii (fara „Jocuri de societate pentru adulti" si fara „Figurine, Funko Pop")
-    "Board games": JOCURI,
+  "feed_23ed00784.xml": { "Parenting": PARENTING },
+  // libris, din 03.11.2026 (in locul feed-ului complet sters): carti pentru copii, parenting, accesorii
+  "feed_30725b952.xml": { "Carti Pentru Copii": "carti-copii-1.json", "Cresterea Copilului": PARENTING },
+  "feed_0c722f7a4.xml": { "Carti Pentru Copii": "carti-copii-1.json", "Parenting": PARENTING },
+  // libris jocuri (din 07.11.2026). Fara figurine, felicitari, decoratiuni, cani, muzica, tricouri, bijuterii, martisoare.
+  "feed_5d7d1b9bc.xml": {
+    "Jocuri pentru copii": JOCURI,
+    "Jocuri de societate": JOCURI,
     "Puzzle": JOCURI,
-    "Jucarii": JOCURI,
-    "Educative": JOCURI,
-    "Creative": JOCURI,
-    "Lego": JOCURI,
-    "Jocuri de calatorie": JOCURI,
-    "Roboti si Kituri de Constructie": JOCURI,
-    "Puzzle 3D Lemn": JOCURI,
-    "Kendama": JOCURI,
-    // accesorii
+    "LEGO": JOCURI,
     "Agende si jurnale": ACCESORII,
     "Diverse": ACCESORII,
     "Semne de carte": ACCESORII,
@@ -201,22 +344,13 @@ const REGULI = {
     "Termos, sticle apa, cani calatorie": ACCESORII,
     "Sacose de panza, Tote Bags": ACCESORII,
     "Calendare": ACCESORII,
-    // parenting
-    "Cresterea Copilului": PARENTING,
-    "Parenting": PARENTING, // ebookuri libris de parenting
   },
-  "feed_23ed00784.xml": { "Parenting": PARENTING },
   "feed_02a848b11.xml": {
     "Hobby, arta, DIY": "rechizite-papetarie.json",
     "ROD": "rechizite-papetarie.json",
     "Jocuri si Jucarii": JOCURI,
     "Jucarii": JOCURI,
     "Fashion": ACCESORII,
-  },
-  "feed_f23ec2538.xml": {
-    "Carte Școlară": "manuale-scolare.json",
-    "Diverse": ACCESORII,
-    "Jucării": JOCURI,
   },
   "feed_e82be0de9.xml": {
     "Board Games": JOCURI,
@@ -227,6 +361,12 @@ const REGULI = {
     "Creșterea copiilor": PARENTING,
     "Pedagogie & Științele educației": PARENTING,
   },
+  // grupdzc: 906 categorii -> fisierul se alege dupa categoria din feed (vezi fisierGrupdzc)
+  "feed_0b61412e9.xml": { "*": fisierGrupdzc },
+  // Editura Corint: fara categorii utile in feed -> fisierul se alege dupa titlu + librariile care vand aceeasi carte
+  "feed_8289d9f33.xml": { "*": fisierCorint },
+  // Editura Gama: carti pentru copii, impartite dupa calea de categorie din feed (vezi fisierGama)
+  "feed_bd91e5f46.xml": { "*": fisierGama },
   // Muzica si film (carturesti): impartit in 2 fisiere dupa gen, ca fiecare sa ramana sub limita de marime
   "feed_952ab47b2.xml": { "Muzica": fisierMuzica, "Film": "muzica-film-2.json" },
   // brickplanet: feed-ul nu are categorii -> toate produsele merg la jocuri ("*" = orice categorie)
@@ -361,6 +501,13 @@ function cheieFeed(p) {
   const u = (decode(p.aff_code || "").match(/[?&]unique=([^&]+)/) || [])[1];
   return u ? "2p/" + u : "";
 }
+// Cheie veche de rezerva (id din calea imaginii), pentru produsele adaugate cand feed-ul nu avea <url>.
+// Daca feed-ul primeste ulterior <url>, produsele vechi sunt recunoscute dupa aceasta cheie si trec pe url.
+function cheieImagine(p) {
+  const img = (p.image_urls || "").split(",")[0];
+  const bp = img.match(/brickplanet\.ro\/continut\/produse\/\w+\/(\d+)\//i);
+  return bp ? "brickplanet.ro/produs/" + bp[1] : "";
+}
 // Cheia unui produs din JSON: productUrl, sau productId pentru produsele din feed-uri fara url
 function cheieItem(it) {
   return it.productUrl ? cheie(it.productUrl) : it.productId || "";
@@ -417,8 +564,24 @@ function dinFeed(p, sursa, categorieSite) {
     if (brand && titlu.endsWith(" | " + brand)) titlu = titlu.slice(0, -(" | " + brand).length).trim();
     imagine = imagine.replace("https://carturesti.ro/img-prod/", "https://cdn.dc5.ro/img-prod/");
     if (!brand) brand = sursa;
+  } else if (sursa === "grupdzc.ro") {
+    // carti: „Titlu - Autor1, Autor2" -> titlu + autor; la jucarii/papetarie ramane brandul din feed
+    const esteCarte = GRUPDZC_CARTI.some((f) => f.replace(/(-\d+)?\.json$/, "") === categorieSite);
+    const i = titlu.lastIndexOf(" - ");
+    if (esteCarte && i > 0 && titlu.length - i < 90) {
+      brand = titlu.slice(i + 3).trim();
+      titlu = titlu.slice(0, i).trim();
+    }
+    if (!brand || brand === '""') brand = sursa;
   } else if (sursa === "brickplanet.ro") {
     if (!brand) brand = /LEGO/i.test(p.title + " " + (p.description || "")) ? "LEGO" : sursa;
+  } else if (sursa === "edituragama.ro") {
+    // feed-ul nu are autor/brand
+    brand = "Editura Gama";
+  } else if (sursa === "edituracorint.ro") {
+    // feed-ul nu are autor (<brand> = „CORINT"); unele titluri sunt scrise cu majuscule („TRIGONOMETRIA")
+    brand = "Editura Corint";
+    if (titlu === titlu.toUpperCase() && /[A-ZĂÂÎȘȚŞŢ]{4}/.test(titlu)) titlu = titlu.charAt(0) + titlu.slice(1).toLowerCase();
   } else {
     if (!brand || brand === "-") brand = sursa;
   }
@@ -442,6 +605,8 @@ function dinFeed(p, sursa, categorieSite) {
     // gen + format, folosite de filtrele de pe pagina muzica-film.html
     item.genre = p.category === "Film" ? "Filme" : GENURI_MUZICA[p.subcategory] || "Altele";
     if (p.category !== "Film" && (p.subcategory === "Vinil" || /\b(vinyl|vinil|LP)\b/i.test(p.title))) item.vinyl = true;
+    const ean = eanDinFeed(p);
+    if (ean) item.ean = ean;
   }
   aplicaPret(item, p);
   return item;
@@ -481,6 +646,9 @@ const avert = (msg) => {
 
 // 1. Citeste feed-urile
 const index = new Map(); // cheie -> { p, feed, sursa }
+const alias = new Map(); // cheie veche (productId) -> cheie noua (url), cand un feed primeste <url>
+// cauta un produs din JSON in feed-uri: dupa cheia lui sau, la produsele vechi, dupa alias
+const dinIndex = (it) => index.get(cheieItem(it)) || (alias.has(cheieItem(it)) ? index.get(alias.get(cheieItem(it))) : undefined);
 const incarcate = new Set();
 // Alege cea mai noua descarcare: feed_<cod>.xml, feed_<cod>_1.xml, feed_<cod> (2).xml ...
 function gasesteFeed(fisier) {
@@ -500,20 +668,48 @@ for (const [fisier, cfg] of Object.entries(FEEDS)) {
   }
   const produse = citesteFeed(cale);
   incarcate.add(fisier);
+  const mtime = fs.statSync(cale).mtimeMs;
   let active = 0;
   for (const p of produse) {
     const k = cheieFeed(p);
     if (!k) continue;
     if (p.product_active === "true") active++;
-    if (!index.has(k)) index.set(k, { p, feed: fisier, sursa: cfg.sursa, feeds: new Set([fisier]) });
-    else index.get(k).feeds.add(fisier);
+    if (!index.has(k)) index.set(k, { p, feed: fisier, sursa: cfg.sursa, feeds: new Set([fisier]), mtime });
+    else {
+      // acelasi produs in mai multe feed-uri (ex. libris complet + libris carti in romana):
+      // pretul se ia din feed-ul descarcat cel mai recent (03.11.2026: feed-ul complet libris vechi „bloca" preturile)
+      const ex = index.get(k);
+      ex.feeds.add(fisier);
+      if (mtime > ex.mtime + 60000 && ex.sursa === cfg.sursa) { ex.p = p; ex.feed = fisier; ex.mtime = mtime; }
+    }
+    const kVechi = p.url ? cheieImagine(p) : "";
+    if (kVechi && !alias.has(kVechi)) alias.set(kVechi, k);
+    // produse salvate cand feed-ul a venit fara <url> (cheie „2p/<cod unique>"): trec pe url cand url-ul apare
+    // (s-a intamplat la Corint pe 20.10.2026: o descarcare fara <url> si fara <old_price>)
+    const u2p = p.url ? (decode(p.aff_code || "").match(/[?&]unique=([^&]+)/) || [])[1] : "";
+    if (u2p && !alias.has("2p/" + u2p)) alias.set("2p/" + u2p, k);
   }
   raport.feeduri[fisier] = { descriere: cfg.descriere, produse: produse.length, active };
   raport.feeduri[fisier].fisierFolosit = path.basename(cale);
   const ore = (Date.now() - fs.statSync(cale).mtimeMs) / 3600000;
   raport.feeduri[fisier].vechimeOre = Math.round(ore);
-  if (ore > VECHIME_MAXIMA_ORE) avert(`${path.basename(cale)} e vechi de ${Math.round(ore)} ore — copiaza feed-ul nou din 2Performant.`);
+  if (FEED_VECHI_STIUT.includes(fisier)) console.log(`ℹ️  ${path.basename(cale)} (vechi de ${Math.round(ore / 24)} zile) — feed șters din 2Performant, folosit doar pentru jocurile libris`);
+  else if (ore > VECHIME_MAXIMA_ORE) avert(`${path.basename(cale)} e vechi de ${Math.round(ore)} ore — copiaza feed-ul nou din 2Performant.`);
   console.log(`📥 ${path.basename(cale)}: ${produse.length} produse (${active} active) — ${cfg.descriere}`);
+}
+{
+  // feed-uri ale aceleiasi surse descarcate la date diferite -> avertisment
+  const peSursa = {};
+  for (const [f, info] of Object.entries(raport.feeduri)) {
+    if (FEED_VECHI_STIUT.includes(f)) continue;
+    const sursa = FEEDS[f].sursa;
+    (peSursa[sursa] = peSursa[sursa] || []).push([info.fisierFolosit, info.vechimeOre]);
+  }
+  for (const [sursa, l] of Object.entries(peSursa)) {
+    const ore = l.map((x) => x[1]);
+    if (l.length > 1 && Math.max(...ore) - Math.min(...ore) > 24)
+      avert(`${sursa}: feed-uri descărcate la date diferite (${l.map((x) => x[0] + " " + x[1] + "h").join(", ")}) — descarcă-le pe toate din nou.`);
+  }
 }
 if (incarcate.size === 0) {
   console.error("❌ Niciun feed XML gasit in " + FEEDS_DIR);
@@ -538,6 +734,8 @@ for (const f of JSON_FILES) {
 // 3. Actualizeaza, scoate, deduplica
 const vazute = new Set(); // chei deja prezente in fisierele procesate
 const modificate = new Set();
+// scoateri suspendate de pragul de siguranta: { fisier, sursa, n, total, chei:Set, exemple:[] }
+const blocate = [];
 
 for (const f of JSON_FILES) {
   if (!date[f]) continue;
@@ -555,21 +753,41 @@ for (const f of JSON_FILES) {
     const feeduriSursa = autoritate[it.sourceSite];
     if (!feeduriSursa) continue;
     if (!feeduriSursa.every((x) => incarcate.has(x))) continue;
-    if (!index.has(cheieItem(it))) disparute[it.sourceSite] = (disparute[it.sourceSite] || 0) + 1;
+    if (!dinIndex(it)) disparute[it.sourceSite] = (disparute[it.sourceSite] || 0) + 1;
   }
   const scoatePeSursa = {};
   for (const [s, n] of Object.entries(disparute)) {
     const pondere = n / peSursa[s];
     r.scoaterePlanificata[s] = n;
     if (pondere > PRAG_SIGURANTA_SCOATERE) {
-      avert(`${f}: ${n} din ${peSursa[s]} produse ${s} (${Math.round(pondere * 100)}%) lipsesc din feed — peste pragul de siguranta, NU le scot. Verifica feed-ul.`);
+      avert(`${f}: ${n} din ${peSursa[s]} produse ${s} (${Math.round(pondere * 100)}%) lipsesc din feed — peste pragul de siguranta. Te intreb la final daca le scot.`);
+      const chei = new Set();
+      const exemple = [];
+      for (const it of initial) {
+        if (it.sourceSite !== s || dinIndex(it)) continue;
+        chei.add(it);
+        if (exemple.length < 5) exemple.push(it.title);
+      }
+      const feeduriSursa = autoritate[s];
+      const inFeed = feeduriSursa.reduce((t, x) => t + ((raport.feeduri[x] || {}).active || 0), 0);
+      blocate.push({ fisier: f, sursa: s, n, total: peSursa[s], inFeed, produse: chei, exemple });
     } else scoatePeSursa[s] = true;
   }
 
   const rezultat = [];
   r.dezactivateScoase = 0;
   for (const it of initial) {
-    const k = cheieItem(it);
+    let k = cheieItem(it);
+    // produs vechi fara url, iar feed-ul are acum url: trece pe url (cheia noua)
+    if (!index.has(k) && alias.has(k)) {
+      const din0 = index.get(alias.get(k));
+      if (din0 && din0.p.url) {
+        delete it.productId;
+        it.productUrl = din0.p.url;
+        k = alias.get(k);
+        r.trecutePeUrl = (r.trecutePeUrl || 0) + 1;
+      }
+    }
     if (SURSE_DEZACTIVATE.includes(it.sourceSite)) {
       r.dezactivateScoase++;
       continue;
@@ -591,6 +809,7 @@ for (const f of JSON_FILES) {
       let img = (din.p.image_urls || "").split(",")[0].trim();
       if (din.sursa === "carturesti.ro") img = img.replace("https://carturesti.ro/img-prod/", "https://cdn.dc5.ro/img-prod/");
       if (img) it.image = img;
+      if (/^muzica-film/.test(it.category) && !it.ean && eanDinFeed(din.p)) it.ean = eanDinFeed(din.p);
       if (JSON.stringify(it) !== inainte) r.actualizate++;
       if (it.price !== pretVechi) r.preturiSchimbate++;
     } else if (scoatePeSursa[it.sourceSite] && autoritate[it.sourceSite]) {
@@ -648,13 +867,55 @@ const SURSA_BOOKS = {
   carturesti: "carturesti.ro",
   cartepedia: "cartepedia.ro",
   nemira: "nemira.ro",
+  corint: "edituracorint.ro",
+  gama: "edituragama.ro",
 };
 const BOOKS_DIN_SURSA = Object.fromEntries(Object.entries(SURSA_BOOKS).map(([a, b]) => [b, a]));
 // Surse cu feed complet: o carte care lipseste peste tot e marcata available:false (ascunsa, revine automat).
 // La librarie.net (Top 10.000) si carturesti (feed partial) lipsa din feed nu inseamna link mort -> raman neatinse.
-const BOOKS_FEED_COMPLET = ["libris.ro", "libhumanitas.ro", "curteaveche.ro", "edituratrei.ro", "cartepedia.ro", "nemira.ro"];
+const BOOKS_FEED_COMPLET = ["libris.ro", "libhumanitas.ro", "curteaveche.ro", "edituratrei.ro", "cartepedia.ro", "nemira.ro", "edituracorint.ro", "edituragama.ro"];
 // Feed-uri din care NU se iau alternative (link expirat / ebook-uri)
 const BOOKS_FARA_ALTERNATIVE = ["feed_d861df8a1.xml", "feed_23ed00784.xml"];
+// ---------- books.json: CEL MAI BUN PRET (din 03.11.2026) ----------
+// La fiecare sync, fiecare carte din books.json (cu link 2Performant) e cautata in TOATE feed-urile,
+// dupa titlu + autor confirmat. Regula:
+//   1. se ia pretul cel mai mic gasit (min);
+//   2. „banda": ofertele cu pret <= min + PRAG_BANDA_PRET (5%) sunt considerate la fel de bune;
+//   3. daca oferta actuala e in banda, cartea RAMANE unde e (fara schimbari de link de la o zi la alta);
+//   4. altfel (oferta actuala e mai scumpa cu peste 5% sau nu mai exista), trece pe librăria din banda
+//      aflata cea mai sus in PRIORITATE_LIBRARII.
+// Se pastreaza titlul, imaginea, descrierea si scorul; se schimba source, affiliate, productUrl, pretul.
+// actsipoliton (program de afiliere propriu, fara 2Performant) nu e mutat.
+const BOOKS_CEL_MAI_BUN_PRET = true;
+const PRAG_BANDA_PRET = 0.05;
+// ORDINEA TA (prima = preferata). Librariile care lipsesc din lista vin la final.
+const PRIORITATE_LIBRARII = [
+  "libris.ro",
+  "carturesti.ro",
+  "librarie.net",
+  "cartepedia.ro",
+  "libhumanitas.ro",
+  "curteaveche.ro",
+  "edituratrei.ro",
+  "nemira.ro",
+  "edituracorint.ro",
+  "edituragama.ro",
+  "grupdzc.ro",
+];
+// Surse din books.json pe care sync-ul nu le atinge deloc (raman pe update-prices.js). Goala din 03.11.2026:
+// humanitas trece prin regula de mai sus (feed-ul libhumanitas e inghetat din 9.10.2026, iar site-ul blocheaza scraperul).
+const BOOKS_PE_SCRAPER = [];
+// Feed-uri cu preturi INGHETATE: oferta lor nu e aleasa ca „mai ieftina" (pretul din feed nu mai e real).
+// O carte deja la ei ramane acolo doar daca nu exista alta oferta.
+const BOOKS_FEED_INGHETAT = ["libhumanitas.ro"];
+// Cand cartea trece pe alta librarie/editie, coperta din books.json e inlocuita cu cea a produsului nou,
+// ca cititorul sa vada exact editia pe care o cumpara (false = pastreaza imaginea ta).
+const BOOKS_SCHIMBA_IMAGINEA = true;
+// printrecarti.ro (carti la mana a doua, exemplar unic): feed-ul e ignorat pentru catalog, dar e citit
+// DOAR pentru cartile din books.json cu link printrecarti. Cartea vanduta (lipsa/inactiva in feed) e inlocuita
+// cu aceeasi carte noua din alt feed, daca exista, altfel e ascunsa (available:false).
+const PRINTRECARTI_FEED = "feed_09200f7e9.xml";
+const PRINTRECARTI_CAMPANIE = "f3492fc89";
 
 function norm(s) {
   return decode(s || "")
@@ -695,6 +956,21 @@ function pretBook(it, p) {
     }
   }
 }
+const rangLibrarie = (s) => { const i = PRIORITATE_LIBRARII.indexOf(s); return i < 0 ? 99 : i; };
+// din lista de oferte: banda de pret (min + 5%), apoi ordinea din PRIORITATE_LIBRARII, apoi pretul
+function alegeDinBanda(lista) {
+  lista = lista.filter((c) => !BOOKS_FEED_INGHETAT.includes(c.din.sursa));
+  if (!lista.length) return null;
+  const min = Math.min(...lista.map((c) => parseFloat(c.din.p.price)));
+  const banda = lista.filter((c) => parseFloat(c.din.p.price) <= min * (1 + PRAG_BANDA_PRET) + 0.001);
+  banda.sort((a, b) => rangLibrarie(a.din.sursa) - rangLibrarie(b.din.sursa) || parseFloat(a.din.p.price) - parseFloat(b.din.p.price));
+  return banda[0];
+}
+function schimbaImaginea(it, p) {
+  if (!BOOKS_SCHIMBA_IMAGINEA) return;
+  const img = String(decode(p.image_urls || p.image || "")).split(",")[0].trim();
+  if (img && /^https?:/.test(img)) { if (!it.imageOriginala) it.imageOriginala = it.image; it.image = img; }
+}
 function reordoneaza(it) {
   const ordine = ["title", "source", "author", "category", "score", "oldPrice", "price", "discount", "image", "affiliate", "productUrl"];
   const nou = {};
@@ -722,6 +998,7 @@ if (books) {
     if (din.p.product_active !== "true" || !(parseFloat(din.p.price) > 0)) continue;
     if ([...din.feeds].every((f) => BOOKS_FARA_ALTERNATIVE.includes(f))) continue;
     if (/\/ebook|e-?book/i.test(din.p.url + " " + din.p.category)) continue;
+    if (/audio-?book|\baudio\b|\bcd\b|\bmp3\b/i.test(din.p.title + " " + din.p.url + " " + din.p.category)) continue;
     for (const v of variantaTitluFeed(din.p.title)) {
       if (!dupaTitlu.has(v)) dupaTitlu.set(v, []);
       dupaTitlu.get(v).push(din);
@@ -742,18 +1019,31 @@ if (books) {
     }
     let lista = [...cand.values()].filter((c) => c.autorOk || (c.tare && tFull.length >= 12));
     if (lista.some((c) => c.autorOk)) lista = lista.filter((c) => c.autorOk);
-    lista.sort(
-      (a, b) =>
-        (b.din.sursa === "libris.ro") - (a.din.sursa === "libris.ro") ||
-        parseFloat(a.din.p.price) - parseFloat(b.din.p.price)
-    );
-    return lista[0] || null;
+    return alegeDinBanda(lista);
+  };
+  // toate ofertele active pentru carte, DOAR cu autor confirmat (folosit la „cel mai bun pret")
+  const oferteConfirmate = (it) => {
+    const tFull = norm(it.title);
+    const tScurt = norm(String(it.title).split(/[:(]/)[0]);
+    const autori = numeAutori(it.author);
+    if (!autori.length) return [];
+    const vazut = new Set();
+    const out = [];
+    for (const t of [tFull, tScurt]) {
+      for (const din of dupaTitlu.get(t) || []) {
+        if (vazut.has(din)) continue;
+        vazut.add(din);
+        const hay = " " + norm([din.p.title, din.p.url, din.p.brand, din.p.other_data, din.p.custom_field2].join(" ")) + " ";
+        if (autori.some((a) => hay.includes(" " + a + " "))) out.push({ din, tare: t === tFull, autorOk: true });
+      }
+    }
+    return out;
   };
 
   const unic = (link) => ((decode(link || "").match(/[?&]unique=([^&]+)/) || [])[1] || "");
   const dupaUnic = new Map();
   for (const din of index.values()) if (din.p.aff_code) dupaUnic.set(unic(din.p.aff_code), din);
-  const CAMPANII = { "9a6f02fef": "libris.ro", da1148931: "librarie.net", "07b5f0fed": "carturesti.ro", "6f33f2a39": "cartepedia.ro", "9aab15f10": "libhumanitas.ro", f9db13aad: "curteaveche.ro", "9617003d6": "nemira.ro", "4dc37856e": "edituratrei.ro" };
+  const CAMPANII = { "9a6f02fef": "libris.ro", da1148931: "librarie.net", "07b5f0fed": "carturesti.ro", "6f33f2a39": "cartepedia.ro", "9aab15f10": "libhumanitas.ro", f9db13aad: "curteaveche.ro", "9617003d6": "nemira.ro", "4dc37856e": "edituratrei.ro", "8dad9830f": "edituracorint.ro", "655dd2374": "edituragama.ro" };
   // sursa reala: din productUrl / campania linkului (campul "source" poate fi gresit)
   const sursaReala = (it) => {
     const dom = cheie(it.productUrl || "").split("/")[0];
@@ -770,11 +1060,61 @@ if (books) {
   };
   rb.linkReinnoit = 0;
   rb.linkGresit = [];
+  rb.faraFeedTitluri = [];
+  rb.mutatePret = [];
+
+  // printrecarti: se citeste doar daca exista carti cu link printrecarti in books.json
+  let printre = null;
+  if (books.some((it) => String(it.affiliate || "").includes(PRINTRECARTI_CAMPANIE))) {
+    const cale = gasesteFeed(PRINTRECARTI_FEED);
+    if (cale) {
+      printre = new Map();
+      for (const p of citesteFeed(cale)) {
+        const u = unic(p.aff_code);
+        if (u) printre.set(u, { title: p.title, url: p.url, price: p.price, old_price: p.old_price, product_active: p.product_active });
+      }
+      const ore = (Date.now() - fs.statSync(cale).mtimeMs) / 3600000;
+      console.log(`📥 ${path.basename(cale)}: ${printre.size} produse — printrecarti (doar pentru books.json)`);
+      if (ore > VECHIME_MAXIMA_ORE) avert(`${path.basename(cale)} e vechi de ${Math.round(ore)} ore — copiaza feed-ul nou din 2Performant.`);
+    } else {
+      avert(`Lipseste ${PRINTRECARTI_FEED} (printrecarti) — cartile printrecarti din books.json nu se verifica.`);
+    }
+  }
 
   books = books.map((it) => {
+    // printrecarti (exemplar unic, la mana a doua)
+    if (String(it.affiliate || "").includes(PRINTRECARTI_CAMPANIE)) {
+      if (!printre) { rb.negasite.push(`${it.title} (printrecarti, feed lipsa)`); return it; }
+      const inainte = JSON.stringify(it);
+      const pretInainte = it.price;
+      const p = printre.get(unic(it.affiliate));
+      if (p && p.product_active === "true" && parseFloat(p.price) > 0) {
+        pretBook(it, p);
+        if (it.available === false) { it.available = true; rb.reactivate++; }
+      } else {
+        const alt = gasesteAlternativa(it);
+        if (alt) {
+          const d = alt.din;
+          rb.linkInlocuit.push({ titlu: it.title, deLa: "printrecarti", la: BOOKS_DIN_SURSA[d.sursa] || d.sursa, autorConfirmat: alt.autorOk, titluFeed: d.p.title, url: d.p.url });
+          it.source = BOOKS_DIN_SURSA[d.sursa] || d.sursa;
+          it.affiliate = d.p.aff_code.replace(/&amp;/g, "&");
+          it.productUrl = d.p.url;
+          pretBook(it, d.p);
+          if (it.available === false) { it.available = true; rb.reactivate++; }
+        } else {
+          if (it.available !== false) rb.ascunse.push(it.title + " (printrecarti: vândută, nicio ediție nouă în feeduri)");
+          it.available = false;
+        }
+      }
+      const nou = reordoneaza(it);
+      if (JSON.stringify(nou) !== inainte) rb.actualizate++;
+      if (nou.price !== pretInainte) rb.preturiSchimbate++;
+      return nou;
+    }
     const sursa = sursaReala(it);
-    if (!sursa || !String(it.affiliate || "").includes("2performant")) {
+    if (!sursa || BOOKS_PE_SCRAPER.includes(sursa) || !String(it.affiliate || "").includes("2performant")) {
       rb.faraFeed++;
+      rb.faraFeedTitluri.push(`${it.title} (${it.source})`);
       return it;
     }
     const inainte = JSON.stringify(it);
@@ -796,6 +1136,30 @@ if (books) {
       if (reinnoit && din.p.aff_code) { it.affiliate = din.p.aff_code.replace(/&amp;/g, "&"); rb.linkReinnoit++; }
       it.source = BOOKS_DIN_SURSA[din.sursa] || it.source;
       if (it.available === false) { it.available = true; rb.reactivate++; }
+      // cel mai bun pret: mutam cartea doar daca oferta actuala e cu peste 5% peste cea mai ieftina
+      if (BOOKS_CEL_MAI_BUN_PRET) {
+        const oferte = oferteConfirmate(it);
+        if (!oferte.some((o) => o.din === din)) oferte.push({ din, tare: true, autorOk: true });
+        const valide = oferte.filter((o) => !BOOKS_FEED_INGHETAT.includes(o.din.sursa));
+        const min = valide.length ? Math.min(...valide.map((o) => parseFloat(o.din.p.price))) : Infinity;
+        const actual = parseFloat(din.p.price);
+        // oferta din feed inghetat nu e de incredere: cartea pleaca de acolo cand alternativa nu e cu peste 5% mai scumpa
+        // (ex. „Jurnalul Annei Frank": 40,46 la Humanitas vs 59,00 la Cartepedia -> ramane la Humanitas)
+        const actualInghetat = BOOKS_FEED_INGHETAT.includes(din.sursa);
+        const mutam = actualInghetat ? min <= actual * (1 + PRAG_BANDA_PRET) + 0.001 : actual > min * (1 + PRAG_BANDA_PRET) + 0.001;
+        if (valide.length && mutam) {
+          const best = alegeDinBanda(oferte);
+          if (best && best.din !== din) {
+            const d = best.din;
+            rb.mutatePret.push({ titlu: it.title, deLa: BOOKS_DIN_SURSA[din.sursa] || din.sursa, la: BOOKS_DIN_SURSA[d.sursa] || d.sursa, pretVechi: actual, pretNou: parseFloat(d.p.price), titluFeed: d.p.title, url: d.p.url });
+            it.source = BOOKS_DIN_SURSA[d.sursa] || d.sursa;
+            it.affiliate = d.p.aff_code.replace(/&amp;/g, "&");
+            it.productUrl = d.p.url;
+            pretBook(it, d.p);
+            schimbaImaginea(it, d.p);
+          }
+        }
+      }
     } else {
       const alt = gasesteAlternativa(it);
       if (alt) {
@@ -805,6 +1169,7 @@ if (books) {
         it.affiliate = d.p.aff_code.replace(/&amp;/g, "&");
         it.productUrl = d.p.url;
         pretBook(it, d.p);
+        schimbaImaginea(it, d.p);
         if (it.available === false) { it.available = true; rb.reactivate++; }
       } else if (BOOKS_FEED_COMPLET.includes(sursa) && feedurileSurseiIncarcate(sursa)) {
         if (it.available !== false) rb.ascunse.push(it.title);
@@ -825,6 +1190,12 @@ if (books) {
   for (const x of rb.linkInlocuit) console.log(`   🔁 ${x.titlu}: ${x.deLa} → ${x.la}${x.autorConfirmat ? "" : " (autor neconfirmat — verifică)"}`);
   for (const x of rb.ascunse) console.log(`   🙈 ascunsă (nu mai e în niciun feed): ${x}`);
   for (const x of rb.linkGresit) console.log(`   ⚠️  link greșit în books.json: ${x}`);
+  for (const x of rb.negasite) console.log(`   ❔ negăsită în feed (neatinsă): ${x}`);
+  for (const x of rb.mutatePret) console.log(`   💸 ${x.titlu}: ${x.deLa} ${formatPret(x.pretVechi)} → ${x.la} ${formatPret(x.pretNou)} (verifică ediția: ${x.titluFeed})`);
+  if (rb.mutatePret.length) console.log(`   💸 ${rb.mutatePret.length} cărți mutate pe librăria mai ieftină (regula „cel mai bun preț", banda ${Math.round(PRAG_BANDA_PRET * 100)}%)`);
+  const faraScraper = rb.faraFeedTitluri.filter((t) => !/\(actsipoliton\)$/.test(t));
+  if (faraScraper.length) console.log(`   ⚠️  fără feed și fără scraper (prețul NU se actualizează): ${faraScraper.join("; ")}`);
+  console.log(`   ℹ️  actsipoliton (${rb.faraFeedTitluri.length - faraScraper.length} cărți) se actualizează cu: node update-prices.js`);
   if (rb.linkReinnoit) console.log(`   🔗 ${rb.linkReinnoit} linkuri reînnoite (același produs, cod de afiliere nou din feed)`);
   if (rb.actualizate && !DRY_RUN) {
     const stampB = new Date().toISOString().slice(0, 16).replace(/[-:T]/g, "").replace(/^(\d{8})/, "$1-");
@@ -840,6 +1211,45 @@ function feedurileSurseiIncarcate(sursa) {
   return f.length > 0 && f.some((x) => incarcate.has(x));
 }
 
+// 4c. Scoaterile suspendate de pragul de siguranta: intreaba utilizatorul
+function intreaba(intrebare) {
+  process.stdout.write(intrebare);
+  if (!process.stdin.isTTY) {
+    console.log("(fara tastatura — raspuns: nu)");
+    return "";
+  }
+  const buf = Buffer.alloc(256);
+  try {
+    const n = fs.readSync(0, buf, 0, 256, null);
+    return buf.toString("utf8", 0, n).trim().toLowerCase();
+  } catch (e) {
+    return "";
+  }
+}
+raport.scoateriSuspendate = [];
+if (blocate.length) {
+  console.log("\n" + "=".repeat(60));
+  console.log("⚠️  PRODUSE DISPARUTE DIN FEED, PESTE PRAGUL DE SIGURANTA (" + Math.round(PRAG_SIGURANTA_SCOATERE * 100) + "%)");
+  for (const b of blocate) {
+    console.log(`\n   ${b.fisier} — ${b.sursa}: ${b.n} din ${b.total} produse nu mai sunt in feed (feed-ul are acum ${b.inFeed} produse active).`);
+    console.log("   Exemple: " + b.exemple.map((t) => `„${t}"`).join(", "));
+  }
+  console.log("\n   Verifica feed-ul. Daca e corect, produsele de mai sus se scot de pe site.");
+  let raspuns = "";
+  if (DRY_RUN) console.log("   (DRY RUN — nu se scoate nimic)");
+  else if (SCOATE_TOT) { console.log("   --scoate-tot: le scot fara intrebare."); raspuns = "da"; }
+  else raspuns = intreaba("   Le scot? Scrie da sau nu si apasa Enter: ");
+  const da = /^(da|d|y|yes)$/.test(raspuns);
+  for (const b of blocate) {
+    raport.scoateriSuspendate.push({ fisier: b.fisier, sursa: b.sursa, produse: b.n, scoase: da });
+    if (!da) continue;
+    const inainte = date[b.fisier].length;
+    date[b.fisier] = date[b.fisier].filter((it) => !b.produse.has(it));
+    raport.fisiere[b.fisier].disparuteScoase += inainte - date[b.fisier].length;
+  }
+  console.log(da ? "   ✅ Scoase." : "   ⏭  Nu am scos nimic din acestea; restul actualizarii se salveaza normal.");
+}
+
 // 5. Salveaza
 const stamp = new Date().toISOString().slice(0, 16).replace(/[-:T]/g, "").replace(/^(\d{8})/, "$1-");
 const backupDir = path.join(__dirname, "backup-feed-sync", stamp);
@@ -850,7 +1260,8 @@ for (const f of Object.keys(raport.fisiere)) {
   const schimbat = r.actualizate || r.inactiveScoase || r.disparuteScoase || r.duplicateScoase || r.adaugate || r.dezactivateScoase;
   console.log(
     `${f}\n   ${r.initial} → ${r.final} produse | actualizate ${r.actualizate} (preț schimbat: ${r.preturiSchimbate}) | +${r.adaugate} noi | −${r.inactiveScoase} inactive | −${r.disparuteScoase} disparute | −${r.duplicateScoase} duplicate` +
-      (r.dezactivateScoase ? ` | −${r.dezactivateScoase} din surse dezactivate` : "")
+      (r.dezactivateScoase ? ` | −${r.dezactivateScoase} din surse dezactivate` : "") +
+      (r.trecutePeUrl ? ` | ${r.trecutePeUrl} trecute pe linkul nou de produs` : "")
   );
   if (!schimbat || DRY_RUN) continue;
   const cale = path.join(JSON_DIR, f);

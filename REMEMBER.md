@@ -175,10 +175,10 @@ Toate feed-urile de mai jos sunt citite. Toate actualizează prețul, linkul și
 
 | Feed | Magazin / conținut | Mărime |
 |---|---|---|
-| ~~`feed_78ad15be7.xml`~~ | libris, feed complet — **ȘTERS din 2Performant** (HTTP 404 din ~21.10.2026; ultima descărcare 21.10). Fișierul vechi, dacă e în folder, e citit doar pentru jocurile libris; scos din `sites.json` | ~160 MB |
+| ~~`feed_78ad15be7.xml`~~ | libris, feed complet — **ȘTERS din 2Performant** (HTTP 404 din ~21.10.2026). Din 07.11.2026 scos și din sincronizare: fișierul vechi nu se mai citește | — |
 | `feed_30725b952.xml` | libris, „Cărți în română” (~52.000 de cărți) — **feedul principal libris** din 3.11.2026 | ~120 MB |
 | `feed_0c722f7a4.xml` | libris, cărți pentru copii | ~24 MB |
-| `feed_5d7d1b9bc.xml` | libris, accesorii și cadouri | ~13 MB |
+| `feed_5d7d1b9bc.xml` | libris, jocuri, accesorii și cadouri (~7.000 de produse) — **din 07.11.2026 și sursa jocurilor libris** (`LIBRIS_JOCURI`). Produse noi: Jocuri pentru copii, Jocuri de societate, Puzzle, LEGO → jocuri; Agende, Diverse, Semne de carte, Huse, Lămpi, Bookends, Termosuri, Sacoșe, Calendare → accesorii. Fără figurine, felicitări, decorațiuni, căni, muzică, tricouri, bijuterii, mărțișoare | ~13 MB |
 | `feed_23ed00784.xml` | libris, eBooks (doar parenting) | ~11 MB |
 | `feed_e82be0de9.xml` | libhumanitas, feed complet | ~70 MB |
 | `feed_bfb296a3b.xml` | cartepedia, cărți și jocuri în stoc | ~38 MB |
@@ -186,7 +186,7 @@ Toate feed-urile de mai jos sunt citite. Toate actualizează prețul, linkul și
 | `feed_f70ce214f.xml` | cartepedia, cărți pentru copii în stoc | ~10 MB |
 | `feed_198b495ca.xml` | cartepedia, cărți educaționale în stoc | ~3 MB |
 | `feed_d399be9e5.xml` | librarie.net, Top 10.000 | ~3 MB |
-| `feed_f23ec2538.xml` | librarie.net, Top 100 (inclus în Top 10.000) | <1 MB |
+| ~~`feed_f23ec2538.xml`~~ | librarie.net, Top 100 — **scos din sincronizare pe 07.11.2026** (nu mai există; era inclus oricum în Top 10.000) | — |
 | `feed_d861df8a1.xml` | carturesti, Back to School 2026 (campanie încheiată, secțiunea 11) | ~9 MB |
 | `feed_6ea72c5a4.xml` | carturesti, „Carte în limba română” (15.000) | ~30 MB |
 | `feed_02a848b11.xml` | carturesti, 3.000 de produse hobby/jocuri/fashion | ~5 MB |
@@ -441,7 +441,7 @@ Distribuite direct pe social media și pe email; nu apar în meniu. Model comun:
 - [ ] **carti-parenting:** 295 de cărți Cărturești fără afiliere (quicklink sau scoatere).
 - [ ] **oferte-carti-scolare:** de revizuit titlul/rolul paginii; de verificat cele 86 de potriviri prin subtitlu.
 - [ ] **`books.json`:** de corectat autorul la „Elevul Dima dintr-a șaptea”; de verificat înlocuirea „Fahrenheit 451” (acum librarie.net).
-- [ ] **libris jocuri:** feedul complet libris (`78ad15be7`) a fost șters; ~3.700 de jocuri/puzzle/LEGO libris nu mai sunt în niciun feed (rămân cu prețurile din 21.10 și nu se mai scot când dispar). De creat în 2Performant un feed libris cu Board games, Puzzle, Jucării, Educative, Creative, Lego etc.; codul nou → `sites.json` + `LIBRIS_JOCURI`/`FEEDS`/`REGULI` în sync.
+- [x] **libris jocuri** (07.11.2026): rezolvat cu `feed_5d7d1b9bc`. Prima rulare (test pe datele de pe GitHub): jocuri −178 dispărute, +400 noi; accesorii +13 noi și 678 libris lipsă din feed (30%, mai ales ghiozdane, genți, pușculițe cu personaje) — peste prag, scriptul întreabă; utilizatorul a aprobat scoaterea („da”).
 - [ ] **`PRIORITATE_LIBRARII`** în `sync-carti-feeds.cjs`: ordinea librăriilor (acum provizorie: libris, carturesti, librarie.net, cartepedia, libhumanitas, curteaveche, edituratrei, nemira, edituracorint, edituragama, grupdzc).
 - [ ] **Humanitas:** de trimis mesajul către 2Performant despre feedul înghețat (`feed_e82be0de9`).
 - [ ] **`books.json`, după „cel mai bun preț”:** de verificat câteva mutări pe altă ediție (ex. „Ferma animalelor” 28 → 10 lei, „Jurnalul fericirii” 84 → 45 lei, la libris).
