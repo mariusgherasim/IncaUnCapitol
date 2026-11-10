@@ -3,3 +3,14 @@ feed_*.xml
 libris.xml
 *.xml
 !sitemap.xml
+EMAILURI/
+backup-feed-sync/
+fisiere utilizate socase de pe site/
+CONTEXT-HANDOFF.md
+*.pdf
+feed-urls.txt
+sync-report.json
+postari-*.md
+*.bat
+generate-carti-email.cjs
+test-scrapers.js
