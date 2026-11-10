@@ -373,3 +373,7 @@ font:inherit;
 .cookie-banner{padding:14px 16px;text-align:center;}
 .cookie-banner button{width:100%;}
 }
+
+/* Carduri cu imagine (sectiunea Rechizite din index.html) — 10.11.2026 */
+.category-card.has-image{overflow:hidden;padding-top:0;}
+.category-card .category-image{display:block;width:calc(100% + 52px);max-width:none;margin:0 -26px 18px;aspect-ratio:1200/630;height:auto;object-fit:cover;background:#f1f1f1;border-bottom:1px solid var(--border);}
