@@ -64,7 +64,13 @@ const BACKUPURI_PASTRATE = 7;
 
 // Surse dezactivate: produsele lor sunt scoase din TOATE fisierele si nu se mai adauga altele noi.
 // Ex.: ["carturesti.ro"] daca programul de afiliere Carturesti nu mai functioneaza.
-const SURSE_DEZACTIVATE = [];
+// 10.11.2026: Carturesti dezactivat — feed-urile lor nu mai functioneaza in 2Performant.
+// Efect: toate produsele carturesti dispar din fisierele de catalog (muzica-film-1/2 raman goale),
+// feed-urile carturesti nu se mai citesc (nici daca fisierele vechi mai sunt in folder),
+// iar cartile carturesti din books.json trec pe alta librarie (cel mai bun pret) sau, daca nu exista
+// in niciun alt feed, sunt ascunse (available:false). Ca sa reactivezi: scoate "carturesti.ro" de aici
+// si pune-l inapoi in PRIORITATE_LIBRARII.
+const SURSE_DEZACTIVATE = ["carturesti.ro"];
 
 // Daca mai mult de acest procent din produsele unei surse ar fi scoase dintr-un fisier,
 // scoaterea se suspenda si la final scriptul te intreaba daca le scoate (vezi „Prag de siguranta" sus).
@@ -661,6 +667,8 @@ function gasesteFeed(fisier) {
 }
 
 for (const [fisier, cfg] of Object.entries(FEEDS)) {
+  // sursa dezactivata: feed-ul nu se citeste (produsele ei nu mai pot fi alese nici ca alternativa in books.json)
+  if (SURSE_DEZACTIVATE.includes(cfg.sursa)) continue;
   const cale = gasesteFeed(fisier);
   if (!cale) {
     avert(`Lipseste ${fisier} (${cfg.descriere}) — produsele din aceasta sursa nu se actualizeaza si nu se scot.`);
@@ -891,7 +899,7 @@ const PRAG_BANDA_PRET = 0.05;
 // ORDINEA TA (prima = preferata). Librariile care lipsesc din lista vin la final.
 const PRIORITATE_LIBRARII = [
   "libris.ro",
-  "carturesti.ro",
+  // "carturesti.ro" — scos 10.11.2026 (sursa dezactivata, vezi SURSE_DEZACTIVATE)
   "librarie.net",
   "cartepedia.ro",
   "libhumanitas.ro",
@@ -1171,6 +1179,10 @@ if (books) {
         pretBook(it, d.p);
         schimbaImaginea(it, d.p);
         if (it.available === false) { it.available = true; rb.reactivate++; }
+      } else if (SURSE_DEZACTIVATE.includes(sursa)) {
+        // sursa dezactivata (ex. carturesti din 10.11.2026) si cartea nu e in niciun alt feed: o ascundem
+        if (it.available !== false) rb.ascunse.push(it.title + " (" + sursa + " dezactivat, nicio alta librarie in feeduri)");
+        it.available = false;
       } else if (BOOKS_FEED_COMPLET.includes(sursa) && feedurileSurseiIncarcate(sursa)) {
         if (it.available !== false) rb.ascunse.push(it.title);
         it.available = false;

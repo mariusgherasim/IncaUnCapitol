@@ -140,14 +140,16 @@
   },
   {
     "title": "Emoțiile distructive",
-    "source": "carturesti",
+    "source": "cartepedia",
     "author": "Daniel Goleman",
     "category": "dezvoltare",
     "score": "9.0 / 10",
-    "price": "62,00 Lei",
-    "image": "https://carturesti.ro/img-prod/9786065885752-2506532.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bd27acf44&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "productUrl": "https://carturesti.ro/carte/emotiile-distructive-206213",
+    "oldPrice": "83,51 Lei",
+    "price": "79,33 Lei",
+    "discount": "-5%",
+    "image": "https://static.cartepedia.ro/image/392136/imagine_url.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QEsX0hRPrtc6&aff_code=676a7e7d9&campaign_unique=6f33f2a39",
+    "productUrl": "https://www.cartepedia.ro/carte/emotiile-distructive-441358.html",
     "description": "Ți s-a spus toată viața să îți controlezi emoțiile. Problema e că „control” înseamnă suprimare — iar suprimarea nu dispare. Se acumulează, se transformă și revine, de obicei în cel mai prost moment posibil.",
     "available": true,
     "imageOriginala": "imagini/emotiile-distructive.jpg"
@@ -362,7 +364,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=dbf5b0053",
     "productUrl": "https://carturesti.ro/carte/tata-bogat-tata-sarac-1331451282",
     "description": "Ai stat 16 ani în școală. Ți-au predat matematică, geografie, literatură. Nimeni nu te-a învățat ce e un activ. Nimeni nu ți-a explicat de ce a doua zi după salariu tot nu ajunge. Și asta nu e din greșeală.",
-    "available": true
+    "available": false
   },
   {
     "title": "Pachet Gândire critică. Ce ne facem cu atâția proști?/Cum să gândești ca Socrate",
@@ -394,14 +396,16 @@
   },
   {
     "title": "Lebăda neagră",
-    "source": "carturesti",
+    "source": "libris",
     "author": "Nassim Nicholas Taleb",
     "category": "dezvoltare",
     "score": "9.8 / 10",
-    "price": "62,00 Lei",
-    "image": "https://carturesti.ro/img-prod/48140247-0.jpeg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=81fcf4cae&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "productUrl": "https://carturesti.ro/carte/lebada-neagra-48140247",
+    "oldPrice": "76,12 Lei",
+    "price": "72,31 Lei",
+    "discount": "-5%",
+    "image": "https://www.libris.ro/img/pozeprod/1257/1256351-1-small-1.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bff7e861a&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "productUrl": "https://www.libris.ro/carte/lebada-neagra-nassim-nicholas-taleb/1256351?utm_source=2parale&utm_medium=feed",
     "description": "3 milioane de exemplare vândute, 31 de limbi, 40 de săptămâni pe lista New York Times. Și totuși ideea ei centrală e simplă: nu știi ce nu știi.",
     "available": true,
     "imageOriginala": "imagini/lebada_neagra.jpg"
@@ -845,14 +849,14 @@
   },
   {
     "title": "Pânza de păianjen",
-    "source": "carturesti",
+    "source": "libris",
     "author": "Cella Serghi",
     "category": "beletristică",
     "score": "9.5 / 10",
-    "price": "34,00 Lei",
-    "image": "https://carturesti.ro/img-prod/720831023-1.jpeg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=05ac8f272&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "productUrl": "https://carturesti.ro/carte/panza-de-paianjen-720831023",
+    "price": "43,00 Lei",
+    "image": "https://www.libris.ro/img/pozeprod/45038/45037545-1-small-1.jpg?ver=1766146655",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Rm9suIXMRcIR&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "productUrl": "https://www.libris.ro/carte/panza-de-paianjen-cella-serghi/45037545?utm_source=2parale&utm_medium=feed",
     "description": "Există cărți pe care le citești și te uiți în urmă. Nu la personaj — la tine. La deciziile luate din frică, la iubirile care nu s-au mai terminat bine, la momentele în care ai ales aparența în locul adevărului. Pânza de păianjen e una din acele cărți. Tocmai de asta e greu de uitat.",
     "available": true,
     "imageOriginala": "imagini/panza.jpg"
@@ -1075,14 +1079,14 @@
   },
   {
     "title": "Femei",
-    "source": "carturesti",
+    "source": "grupdzc.ro",
     "author": "Charles Bukowski",
     "category": "beletristică",
     "score": "",
-    "price": "37,00 Lei",
-    "image": "https://carturesti.ro/img-prod/9789734624003-1905203.jpg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ffb923803&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "productUrl": "https://carturesti.ro/carte/femei-158585",
+    "price": "35,90 Lei",
+    "image": "https://grupdzc.ro/media/catalog/product/p/o/polirom_femei.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=f0c07297c&aff_code=676a7e7d9&campaign_unique=e06ef5ee2",
+    "productUrl": "https://grupdzc.ro/femei-charles-bukowski",
     "description": "Unii, îți vor spune că „Femei” e o carte despre sex și alcool. După 88.000 de recenzii și 33 de tiraje în 45 de ani, adevărul e altul: e poate cel mai sincer roman scris vreodată despre un bărbat căruia îi e frică să fie iubit. ",
     "available": true,
     "imageOriginala": "imagini/femei.jpg"
@@ -1098,7 +1102,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=00a8b8407",
     "productUrl": "https://carturesti.ro/carte/gripa-spaniola-din-1918-738334771",
     "description": "Știi câte cărți s-au scris despre Primul Război Mondial? Zeci de mii. Știi câte victime a făcut gripa spaniolă față de același război? De 5 ori mai multe. Între 50 și 100 de milioane de oameni morți în mai puțin de 2 ani, și totuși în manualele noastre apare ca o notă de subsol.",
-    "available": true
+    "available": false
   },
   {
     "title": "Splendida cetate a celor o mie de sori",
@@ -1125,7 +1129,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=07b5f0fed&unique=9ca5bb35b",
     "productUrl": "https://carturesti.ro/carte/salonul-rosu-saloanele-gotice-875422866",
     "description": "Un ziar suedez a numit cartea asta „murdărie” în 1879. Franz Kafka a numit-o „furie câștigată într-un pumn.” Knut Hamsun — laureat Nobel pentru Literatură — a spus că nu știe scriitori care să-l egaleze intelectual pe Strindberg. Cine avea dreptate? ",
-    "available": true
+    "available": false
   },
   {
     "title": "De la idee la bani",
@@ -1453,16 +1457,16 @@
   },
   {
     "title": "Întrebările sunt, de fapt, răspunsuri",
-    "source": "carturesti",
+    "source": "libris",
     "author": "Allan Pease",
     "category": "dezvoltare",
     "score": "9.4/10",
-    "oldPrice": "40,00 Lei",
-    "price": "20,00 Lei",
-    "discount": "-50%",
-    "image": "https://carturesti.ro/img-prod/40869768-0.jpeg",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=45ef2f6d3&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
-    "productUrl": "https://carturesti.ro/carte/intrebarile-sunt-de-fapt-raspunsuri-40869768",
+    "oldPrice": "41,23 Lei",
+    "price": "39,17 Lei",
+    "discount": "-5%",
+    "image": "https://www.libris.ro/img/pozeprod/1257/1256772-1-small-1.jpg",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=72132d675&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "productUrl": "https://www.libris.ro/carte/intrebarile-sunt-de-fapt-raspunsuri-allan-pease/1256772?utm_source=2parale&utm_medium=feed",
     "description": "Cărțile lui Allan Pease — același om care în 1991 a fost invitat la Kremlin să predea limbajul trupului unor politicieni printre care Vladimir Putin — au vândut peste 27 de milioane de exemplare în 55 de limbi. Această carte are 120 de pagini. O termini într-o după-amiază. Și schimbă modul în care vei purta orice conversație importantă pentru tot restul vieții.",
     "available": true,
     "imageOriginala": "imagini/raspunsuri.jpg"
@@ -1791,7 +1795,7 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1abebb0ca&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
     "productUrl": "https://carturesti.ro/carte/muncile-lui-persiles-si-ale-sigismundei-66223",
     "description": "Nu e Don Quijote. Nu are umorul lui. N-are nici vreun cavaler rătăcit. E cartea pe care Cervantes a pariat totul, în 1616, cu 4 zile înainte să moară.",
-    "available": true
+    "available": false
   },
   {
     "title": "Cele 12 pârghii ale succesului",
