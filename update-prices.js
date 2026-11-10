@@ -6,13 +6,21 @@ const { chromium } = require("playwright");
 const scrapers = require("./lib/scrapers");
 const { logError } = require("./lib/helpers");
 
-const ALLOWED_SOURCES = Object.keys(scrapers);
+// Din 20.10.2026 acest script actualizeaza DOAR cartile din books.json care vin de la surse
+// FARA feed 2Performant (acum: actsipoliton). Toate celelalte surse (libris, humanitas, curteaveche,
+// edituratrei, librarie.net, carturesti, cartepedia, nemira, corint) sunt actualizate local de
+// sync-carti-feeds.cjs, din feed-uri. Inainte, cele doua scripturi se contraziceau (ex. o carte
+// readusa de sync era ascunsa din nou aici). Sursa noua fara feed = o adaugi in lista de mai jos
+// (si scraper-ul ei in lib/scrapers/).
+// 03.11.2026: humanitas scos inapoi — libhumanitas.ro blocheaza scraperul („indisponibil temporar" la fiecare carte).
+// Cartile Humanitas sunt tratate acum de sync-carti-feeds.cjs (regula „cel mai bun pret": trec pe alta librarie
+// cand acolo sunt mai ieftine cu peste 5%).
+const SURSE_FARA_FEED = ["actsipoliton"];
+const ALLOWED_SOURCES = Object.keys(scrapers).filter((s) => SURSE_FARA_FEED.includes(s));
 
-// Fisierele de date procesate: catalogul de carti + cel de
-// rechizite/manuale/articole scolare. Ambele folosesc EXACT aceleasi
-// scrapere (lib/scrapers/) — logica de citire a pretului e generica,
-// nu conteaza daca produsul e o carte sau un ghiozdan.
-const DATA_FILES = ["books.json", "rechizite.json"];
+// rechizite.json nu mai e folosit de nicio pagina (produsele scolare stau acum in fisierele de catalog,
+// actualizate de sync) -> a fost scos din lista.
+const DATA_FILES = ["books.json"];
 
 async function updatePricesInFile(filePath, getBrowserContext) {
 
@@ -39,7 +47,7 @@ async function updatePricesInFile(filePath, getBrowserContext) {
 
         if (!ALLOWED_SOURCES.includes(item.source)) {
 
-            console.log("⏭ Ignor:", item.title);
+            // actualizata de sync-carti-feeds.cjs (local, din feed-uri) — nu o atingem aici
             continue;
 
         }
@@ -113,7 +121,9 @@ async function updatePrices() {
 
     }
 
-    console.log("\nToate prețurile au fost actualizate (cărți + rechizite).");
+    const lipsa = SURSE_FARA_FEED.filter((s) => !ALLOWED_SOURCES.includes(s));
+    if (lipsa.length) console.log(`\n⚠️  Nu există scraper în lib/scrapers pentru: ${lipsa.join(", ")} — prețurile lor NU s-au actualizat.`);
+    console.log(`\nPrețurile au fost actualizate pentru: ${ALLOWED_SOURCES.join(", ")}.`);
 
 }
 

@@ -1,0 +1,387 @@
+{
+  "data": "2026-11-10T08:24:53.873Z",
+  "dryRun": false,
+  "feeduri": {
+    "feed_bfb296a3b.xml": {
+      "descriere": "cartepedia — carti si jocuri in stoc",
+      "produse": 30693,
+      "active": 30693,
+      "fisierFolosit": "feed_bfb296a3b.xml",
+      "vechimeOre": 1
+    },
+    "feed_dbcb0e675.xml": {
+      "descriere": "cartepedia — carti in stoc",
+      "produse": 30078,
+      "active": 30078,
+      "fisierFolosit": "feed_dbcb0e675.xml",
+      "vechimeOre": 1
+    },
+    "feed_f70ce214f.xml": {
+      "descriere": "cartepedia — carti pentru copii in stoc",
+      "produse": 8349,
+      "active": 8349,
+      "fisierFolosit": "feed_f70ce214f.xml",
+      "vechimeOre": 1
+    },
+    "feed_198b495ca.xml": {
+      "descriere": "cartepedia — carti educationale in stoc",
+      "produse": 2066,
+      "active": 2066,
+      "fisierFolosit": "feed_198b495ca.xml",
+      "vechimeOre": 1
+    },
+    "feed_d399be9e5.xml": {
+      "descriere": "librarie.net — Top 10.000 produse",
+      "produse": 10000,
+      "active": 10000,
+      "fisierFolosit": "feed_d399be9e5.xml",
+      "vechimeOre": 1
+    },
+    "feed_23ed00784.xml": {
+      "descriere": "libris — eBooks",
+      "produse": 4942,
+      "active": 4942,
+      "fisierFolosit": "feed_23ed00784.xml",
+      "vechimeOre": 1
+    },
+    "feed_30725b952.xml": {
+      "descriere": "libris — Carti in Romana (inclus in feed-ul complet)",
+      "produse": 51231,
+      "active": 51231,
+      "fisierFolosit": "feed_30725b952.xml",
+      "vechimeOre": 19
+    },
+    "feed_0c722f7a4.xml": {
+      "descriere": "libris — Carti pentru copii (inclus in feed-ul complet)",
+      "produse": 13903,
+      "active": 13903,
+      "fisierFolosit": "feed_0c722f7a4.xml",
+      "vechimeOre": 1
+    },
+    "feed_5d7d1b9bc.xml": {
+      "descriere": "libris — Jocuri, accesorii si cadouri (~7.000 produse)",
+      "produse": 6895,
+      "active": 6895,
+      "fisierFolosit": "feed_5d7d1b9bc.xml",
+      "vechimeOre": 1
+    },
+    "feed_7bd1c15b9.xml": {
+      "descriere": "Editura Trei",
+      "produse": 1828,
+      "active": 1828,
+      "fisierFolosit": "feed_7bd1c15b9.xml",
+      "vechimeOre": 1
+    },
+    "feed_0ab2094f6.xml": {
+      "descriere": "Curtea Veche",
+      "produse": 1466,
+      "active": 1329,
+      "fisierFolosit": "feed_0ab2094f6.xml",
+      "vechimeOre": 1
+    },
+    "feed_5b10a2be9.xml": {
+      "descriere": "Nemira",
+      "produse": 2239,
+      "active": 693,
+      "fisierFolosit": "feed_5b10a2be9.xml",
+      "vechimeOre": 1
+    },
+    "feed_e82be0de9.xml": {
+      "descriere": "libhumanitas — feed complet",
+      "produse": 62751,
+      "active": 30559,
+      "fisierFolosit": "feed_e82be0de9.xml",
+      "vechimeOre": 1
+    },
+    "feed_3dd5a1fd2.xml": {
+      "descriere": "brickplanet — seturi LEGO (feed redus: fara url, categorie, stoc)",
+      "produse": 809,
+      "active": 809,
+      "fisierFolosit": "feed_3dd5a1fd2.xml",
+      "vechimeOre": 1
+    },
+    "feed_0b61412e9.xml": {
+      "descriere": "grupdzc — feed complet (carti copii, scolare, jucarii, papetarie + multe irelevante)",
+      "produse": 56725,
+      "active": 56725,
+      "fisierFolosit": "feed_0b61412e9.xml",
+      "vechimeOre": 1
+    },
+    "feed_8289d9f33.xml": {
+      "descriere": "Editura Corint — feed complet (~1.300 carti: scolare, copii, adulti)",
+      "produse": 1289,
+      "active": 1289,
+      "fisierFolosit": "feed_8289d9f33.xml",
+      "vechimeOre": 1
+    },
+    "feed_bd91e5f46.xml": {
+      "descriere": "Editura Gama — feed complet (~1.300 produse pentru copii: activitati, lectura, scoala, jocuri)",
+      "produse": 1322,
+      "active": 969,
+      "fisierFolosit": "feed_bd91e5f46.xml",
+      "vechimeOre": 1
+    }
+  },
+  "fisiere": {
+    "carti-copii-1.json": {
+      "initial": 13431,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 13431,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 0,
+      "marimeKB": 7594
+    },
+    "carti-copii-2.json": {
+      "initial": 11058,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 11058,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 0,
+      "marimeKB": 5837
+    },
+    "carti-copii-3.json": {
+      "initial": 9149,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 9149,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 0,
+      "marimeKB": 4537
+    },
+    "manuale-scolare.json": {
+      "initial": 10859,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 10859,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 0,
+      "marimeKB": 6076
+    },
+    "manuale-scolare-2.json": {
+      "initial": 9639,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 9639,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 0,
+      "marimeKB": 5382
+    },
+    "materii-suplimentare.json": {
+      "initial": 3483,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 3483,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 0,
+      "marimeKB": 1950
+    },
+    "rechizite-papetarie.json": {
+      "initial": 6394,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 966,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 5428,
+      "marimeKB": 500
+    },
+    "articole-scolare-accesorii.json": {
+      "initial": 6948,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 4768,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 2180,
+      "marimeKB": 2407
+    },
+    "articole-scolare-jocuri.json": {
+      "initial": 9780,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 8466,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 1314,
+      "marimeKB": 4299
+    },
+    "oferte-carti-scolare.json": {
+      "initial": 873,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 873,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 0,
+      "marimeKB": 490
+    },
+    "carti-parenting.json": {
+      "initial": 1437,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 1016,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 421,
+      "marimeKB": 589
+    },
+    "muzica-film-1.json": {
+      "initial": 10562,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 0,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 10562,
+      "marimeKB": 0
+    },
+    "muzica-film-2.json": {
+      "initial": 7430,
+      "actualizate": 0,
+      "preturiSchimbate": 0,
+      "inactiveScoase": 0,
+      "disparuteScoase": 0,
+      "duplicateScoase": 0,
+      "adaugate": 0,
+      "final": 0,
+      "scoaterePlanificata": {},
+      "dezactivateScoase": 7430,
+      "marimeKB": 0
+    }
+  },
+  "avertismente": [
+    "Lipseste feed_09200f7e9.xml (printrecarti) — cartile printrecarti din books.json nu se verifica."
+  ],
+  "books": {
+    "total": 129,
+    "actualizate": 9,
+    "preturiSchimbate": 5,
+    "linkInlocuit": [
+      {
+        "titlu": "Emoțiile distructive",
+        "deLa": "carturesti",
+        "la": "cartepedia",
+        "autorConfirmat": true,
+        "titluFeed": "Emoţiile distructive - Paperback brosat - Daniel Goleman - Curtea Veche",
+        "url": "https://www.cartepedia.ro/carte/emotiile-distructive-441358.html"
+      },
+      {
+        "titlu": "Lebăda neagră",
+        "deLa": "carturesti",
+        "la": "libris",
+        "autorConfirmat": true,
+        "titluFeed": "Lebada neagra - Nassim Nicholas Taleb",
+        "url": "https://www.libris.ro/carte/lebada-neagra-nassim-nicholas-taleb/1256351?utm_source=2parale&utm_medium=feed"
+      },
+      {
+        "titlu": "Pânza de păianjen",
+        "deLa": "carturesti",
+        "la": "libris",
+        "autorConfirmat": true,
+        "titluFeed": "Panza de paianjen - Cella Serghi",
+        "url": "https://www.libris.ro/carte/panza-de-paianjen-cella-serghi/45037545?utm_source=2parale&utm_medium=feed"
+      },
+      {
+        "titlu": "Femei",
+        "deLa": "carturesti",
+        "la": "grupdzc.ro",
+        "autorConfirmat": true,
+        "titluFeed": "Femei - Charles Bukowski",
+        "url": "https://grupdzc.ro/femei-charles-bukowski"
+      },
+      {
+        "titlu": "Întrebările sunt, de fapt, răspunsuri",
+        "deLa": "carturesti",
+        "la": "libris",
+        "autorConfirmat": true,
+        "titluFeed": "Intrebarile sunt de fapt raspunsuri - Allan Pease",
+        "url": "https://www.libris.ro/carte/intrebarile-sunt-de-fapt-raspunsuri-allan-pease/1256772?utm_source=2parale&utm_medium=feed"
+      }
+    ],
+    "ascunse": [
+      "Tată bogat, tată sărac. Educația financiară în familie (carturesti.ro dezactivat, nicio alta librarie in feeduri)",
+      "Gripa spaniolă din 1918 (carturesti.ro dezactivat, nicio alta librarie in feeduri)",
+      "Salonul Roșu (carturesti.ro dezactivat, nicio alta librarie in feeduri)",
+      "Muncile lui PERSILES și ale SIGISMUNDEI (carturesti.ro dezactivat, nicio alta librarie in feeduri)"
+    ],
+    "reactivate": 0,
+    "faraFeed": 21,
+    "negasite": [
+      "Fahrenheit 451 (librarienet)",
+      "Ultimul dans al lui Charlot (printrecarti, feed lipsa)",
+      "Cimitirul animalelor (printrecarti, feed lipsa)"
+    ],
+    "linkReinnoit": 0,
+    "linkGresit": [],
+    "faraFeedTitluri": [
+      "Principii: Jurnalul tău călăuzitor (actsipoliton)",
+      "Arta de a-ți cheltui banii: Alegeri simple pentru o viață mai bogată (actsipoliton)",
+      "Inamicul este egoul (actsipoliton)",
+      "Pachet cărți Wim Hof (actsipoliton)",
+      "Psihologia banilor: Lecții nemuritoare despre avuție, lăcomie și fericire (actsipoliton)",
+      "Avantajul AI: Strategii de vânzări pentru descătușarea puterii AI, ca să economisești timp, să vinzi mai mult și să zdrobești concurența (actsipoliton)",
+      "Putere nemărginită. Descoperă știința împlinirii personale! (actsipoliton)",
+      "Banii. Stăpânește jocul: 7 pași simpli spre libertate financiară. (actsipoliton)",
+      "Sfântul Graal al investițiilor: cei mai mari investitori ai lumii își dezvăluie strategiile supreme pentru dobândirea libertății financiare (actsipoliton)",
+      "Anatomia scuzelor: Cine ai fi fără scuzele tale? Ghid practic pentru cei care știu că între mâine și niciodată nu e mare diferență (actsipoliton)",
+      "Metoda Wim Hof: Activează-ți întregul potențial uman (actsipoliton)",
+      "Manager 80/20. Zece metode pentru a deveni un lider grozav. (actsipoliton)",
+      "4 ore-Săptămana de lucru. (actsipoliton)",
+      "Mică filosofie a siestei (actsipoliton)",
+      "Pachet 10 cărți de leadership (actsipoliton)",
+      "Nu scuzelor. Puterea autodisciplinei (actsipoliton)",
+      "Tu eşti placebo (actsipoliton)",
+      "Instrumentele titanilor: tacticile, rutinele și obiceiurile miliardarilor, figurilor publice și artiștilor de talie mondială (actsipoliton)",
+      "În căutarea lui Dumnezeu și a Guinness: O biografie a berii care a schimbat lumea (actsipoliton)",
+      "Elixirul viselor: Povestea familiei Campari (actsipoliton)",
+      "Smarter: 10 lecții pentru o viață mai productivă și mai puțin stresantă (actsipoliton)"
+    ],
+    "mutatePret": [],
+    "salvat": true
+  },
+  "scoateriSuspendate": []
+}

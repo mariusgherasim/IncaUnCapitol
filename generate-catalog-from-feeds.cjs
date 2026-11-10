@@ -532,6 +532,19 @@ function main() {
         const mergedItems = Array.from(itemsByLink.values());
         const newUniqueItems = items.filter(i => !existingItems.some(e => e.affiliate === i.affiliate));
 
+        // Curatare finala pe TOATE produsele (nu doar cele procesate azi) —
+        // produsele pastrate dintr-o rulare mai veche, de dinainte sa existe
+        // fix-ul de brand "-", nu treceau niciodata prin buildProduct() din
+        // nou, deci ramaneau cu defectul vechi la nesfarsit. Aici se prind
+        // indiferent de cand au fost adaugate.
+        mergedItems.forEach(item => {
+
+            if ((item.brand || "").trim() === "-") {
+                item.brand = item.sourceSite || "";
+            }
+
+        });
+
         const outputPath = path.join(OUTPUT_DIR, `${bucket}.json`);
 
         fs.writeFileSync(outputPath, JSON.stringify(mergedItems, null, 2));

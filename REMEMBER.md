@@ -468,3 +468,12 @@ Distribuite direct pe social media și pe email; nu apar în meniu. Model comun:
 - `update-prices.js`: din nou doar actsipoliton (humanitas scos pe 03.11.2026).
 - printrecarti (exemplar unic, la mâna a doua): sync-ul citește `feed_09200f7e9.xml` DOAR pentru books.json; cartea vândută → înlocuită cu ediție nouă sau ascunsă. „Cimitirul animalelor” ascunsă pe 02.11.2026.
 - Feedurile trebuie copiate proaspete în folderul site-ului (avertismentul „e vechi de X ore”).
+
+## Footer: BusinessLeague + SAL ANPC (10.11.2026)
+- Pe toate paginile, în footer: insigna **BusinessLeague · Affiliate Marketing Partner** (→ https://businessleague.com/, `imagini/businessleague-logo.png`) și pictograma oficială **SAL ANPC** (→ https://reclamatiisal.anpc.ro/).
+- `imagini/sal-badge.png` a fost înlocuit: înainte era plăcuța pătrată „Telefonul consumatorului” (CJPC Neamț, 2000 x 2000), turtită la 250 x 50. Acum e pictograma SAL de pe https://www.anpc.ro/download/sal/SAL-PICTOGRAMA.png (500 x 124, afișată la 250 px).
+- Paginile principale (12, cu `style.css`): blocul `.footer-sal` conține ambele insigne; stilurile în `style.css` (versiunea urcată la `?v=20261110`).
+- Paginile de campanie și ghidurile (16 cu link text ANPC + 4 topuri fără ANPC): bloc `.footer-badges` cu stiluri inline, imediat sub linkurile din footer.
+- **Pagină nouă de campanie** = copiezi blocul `.footer-badges` dintr-o pagină existentă (ex. `libris-black-friday.html`).
+- SOL nu se mai pune: platforma europeană a fost desființată (Ordinul ANPC 270/2026).
+
