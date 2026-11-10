@@ -1,3 +1,5 @@
 node_modules/
 feed_*.xml
 libris.xml
+*.xml
+!sitemap.xml
