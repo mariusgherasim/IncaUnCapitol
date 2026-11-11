@@ -377,3 +377,14 @@ font:inherit;
 /* Carduri cu imagine (sectiunea Rechizite din index.html) — 10.11.2026 */
 .category-card.has-image{overflow:hidden;padding-top:0;}
 .category-card .category-image{display:block;width:calc(100% + 52px);max-width:none;margin:0 -26px 18px;aspect-ratio:1200/630;height:auto;object-fit:cover;background:#f1f1f1;border-bottom:1px solid var(--border);}
+
+/* Sectiunea Beletristica de pe homepage (carduri pe genuri) — 11.11.2026 */
+.genre-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;}
+@media(max-width:768px){.genre-grid{grid-template-columns:repeat(2,1fr);gap:10px;}.genre-card{padding:14px;}}
+.genre-card{display:flex;flex-direction:column;gap:4px;background:#fff;border:1px solid var(--border);border-radius:14px;padding:18px;color:var(--primary);text-decoration:none;transition:.2s;box-shadow:var(--shadow);}
+.genre-card:hover{transform:translateY(-3px);border-color:var(--secondary);}
+.genre-card strong{font-size:1.05rem;}
+.genre-card span{font-size:.82rem;color:var(--text-light);}
+.genre-card.is-main{background:var(--secondary);border-color:var(--secondary);color:#000;}
+.genre-card.is-main span{color:rgba(0,0,0,.7);}
+.genre-all{text-align:center;margin-top:26px;}

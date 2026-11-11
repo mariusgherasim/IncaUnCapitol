@@ -1557,11 +1557,101 @@ function startGenericCountdowns(visibleItems){
 
 }
 
+
+// ============================================================
+// CATALOG PE GENURI CU MANIFEST (din 11.11.2026) — carti-beletristica.html
+// #catalogContainer are data-manifest="carti-adulti.json": lista genurilor,
+// fiecare cu fisierele lui. Se descarca DOAR genul ales (nu tot catalogul de
+// ~33 MB). Genul ramane in adresa paginii (?gen=Istorie), ca la muzica.
+// Cautarea cauta in genul incarcat.
+// ============================================================
+
+const manifestCache = {};
+
+async function initManifestCatalog(container){
+
+    const box = document.getElementById("catalogFilters");
+    const fmt = n => Number(n).toLocaleString("ro-RO");
+
+    let manifest;
+    try {
+        manifest = await fetch(container.dataset.manifest + "?v=" + Date.now(), { cache: "no-store" }).then(r => r.json());
+    } catch (error) {
+        console.error("Eroare încărcare manifest:", error);
+        container.innerHTML = `<p class="load-error">Catalogul nu a putut fi încărcat momentan.</p>`;
+        return;
+    }
+
+    const genuri = (manifest.genuri || []).filter(g => g.carti > 0);
+    if (!genuri.length) {
+        container.innerHTML = `<p class="load-error">Catalogul se actualizează. Revino în curând.</p>`;
+        return;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    let curent = genuri.find(g => g.gen === params.get("gen")) || genuri[0];
+
+    if (box) {
+        box.innerHTML = genuri.map(g =>
+            `<button type="button" data-gen="${escapeHtml(g.gen)}">${escapeHtml(g.gen)} <small>${fmt(g.carti)}</small></button>`
+        ).join("");
+    }
+
+    const syncButtons = () => {
+        if (box) box.querySelectorAll("[data-gen]").forEach(b => b.classList.toggle("active", b.dataset.gen === curent.gen));
+        const p = new URLSearchParams(window.location.search);
+        p.set("gen", curent.gen);
+        history.replaceState(null, "", window.location.pathname + "?" + p.toString());
+    };
+
+    const incarca = async (g) => {
+        syncButtons();
+        container.innerHTML = `<p class="load-info">Se încarcă ${fmt(g.carti)} de cărți din „${escapeHtml(g.gen)}"…</p>`;
+        const pag = document.getElementById("catalogPagination");
+        if (pag) pag.innerHTML = "";
+        try {
+            if (!manifestCache[g.gen]) {
+                const parti = await Promise.all(g.fisiere.map(f =>
+                    fetch(f + "?v=" + encodeURIComponent(manifest.generat || ""), { cache: "no-cache" }).then(r => r.json())
+                ));
+                manifestCache[g.gen] = parti.flat();
+            }
+            if (g !== curent) return; // între timp s-a ales alt gen
+            genericCatalogAll = manifestCache[g.gen];
+            genericFilterState.value = "all";
+            applyGenericFilters();
+        } catch (error) {
+            console.error("Eroare încărcare gen:", error);
+            container.innerHTML = `<p class="load-error">Genul „${escapeHtml(g.gen)}" nu a putut fi încărcat. Încearcă din nou.</p>`;
+        }
+    };
+
+    if (box) {
+        box.addEventListener("click", e => {
+            const b = e.target.closest("[data-gen]");
+            if (!b) return;
+            const g = genuri.find(x => x.gen === b.dataset.gen);
+            if (!g || g === curent) return;
+            curent = g;
+            incarca(g);
+            trackEvent("filtru_catalog", { valoare: g.gen, pagina: "carti-adulti" });
+        });
+    }
+
+    initializeGenericCatalogSearch();
+    initializeGenericPaginationDelegation();
+    await incarca(curent);
+
+}
+
 async function initGenericCatalogPage(){
 
     const container = document.getElementById("catalogContainer");
 
     if (!container) return;
+
+    // catalog pe genuri (carti-beletristica.html): se incarca doar genul ales
+    if (container.dataset.manifest) return initManifestCatalog(container);
 
     // Unele cataloage (ex. carti-copii, prea mare pentru limita de
     // 25MB per fisier de pe GitHub) sunt impartite in mai multe

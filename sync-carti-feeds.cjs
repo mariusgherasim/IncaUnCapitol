@@ -70,7 +70,8 @@ const BACKUPURI_PASTRATE = 7;
 // iar cartile carturesti din books.json trec pe alta librarie (cel mai bun pret) sau, daca nu exista
 // in niciun alt feed, sunt ascunse (available:false). Ca sa reactivezi: scoate "carturesti.ro" de aici
 // si pune-l inapoi in PRIORITATE_LIBRARII.
-const SURSE_DEZACTIVATE = ["carturesti.ro"];
+// 11.11.2026: Humanitas dezactivat — feed-ul avea preturi inghetate din 9.10.2026 si a fost scos de la descarcare.
+const SURSE_DEZACTIVATE = ["carturesti.ro", "libhumanitas.ro"];
 
 // Daca mai mult de acest procent din produsele unei surse ar fi scoase dintr-un fisier,
 // scoaterea se suspenda si la final scriptul te intreaba daca le scoate (vezi „Prag de siguranta" sus).
@@ -103,6 +104,8 @@ const FEEDS = {
   "feed_0b61412e9.xml": { sursa: "grupdzc.ro", descriere: "grupdzc — feed complet (carti copii, scolare, jucarii, papetarie + multe irelevante)" },
   "feed_8289d9f33.xml": { sursa: "edituracorint.ro", descriere: "Editura Corint — feed complet (~1.300 carti: scolare, copii, adulti)" },
   "feed_bd91e5f46.xml": { sursa: "edituragama.ro", descriere: "Editura Gama — feed complet (~1.300 produse pentru copii: activitati, lectura, scoala, jocuri)" },
+  // 11.11.2026: librex.ro (campania 3085d2457), ~4.700 carti. Feed-ul nu are autor (<brand> = editura).
+  "feed_e0aae345e.xml": { sursa: "librex.ro", descriere: "librex — feed complet (~4.700 carti: copii, beletristica, spiritualitate, istorie)" },
 };
 
 // Toate feed-urile de mai sus sunt citite: actualizeaza pretul si linkul oricarui produs existent pe care il contin.
@@ -149,11 +152,12 @@ const LIBRIS = ["feed_30725b952.xml", "feed_0c722f7a4.xml", "feed_5d7d1b9bc.xml"
 const LIBRIS_JOCURI = ["feed_5d7d1b9bc.xml"];
 const FEED_VECHI_STIUT = []; // feed-uri fara avertismentul zilnic „e vechi de X ore"
 const GAMA = ["feed_bd91e5f46.xml"];
+const LIBREX = ["feed_e0aae345e.xml"];
 const AUTORITATE = {
   "carti-copii-1.json": { "libris.ro": LIBRIS },
   "carti-copii-2.json": { "libris.ro": LIBRIS, "cartepedia.ro": CARTEPEDIA, "edituracorint.ro": CORINT, "edituragama.ro": GAMA },
   "manuale-scolare.json": { "cartepedia.ro": CARTEPEDIA, "edituracorint.ro": CORINT, "edituragama.ro": GAMA },
-  "materii-suplimentare.json": { "cartepedia.ro": CARTEPEDIA, "grupdzc.ro": GRUPDZC, "edituracorint.ro": CORINT },
+  "materii-suplimentare.json": { "cartepedia.ro": CARTEPEDIA, "grupdzc.ro": GRUPDZC, "edituracorint.ro": CORINT, "librex.ro": LIBREX },
   "rechizite-papetarie.json": { "carturesti.ro": ["feed_d861df8a1.xml"], "grupdzc.ro": GRUPDZC },
   "articole-scolare-accesorii.json": { "carturesti.ro": ["feed_d861df8a1.xml"], "grupdzc.ro": GRUPDZC, "edituragama.ro": GAMA, "libris.ro": LIBRIS_JOCURI },
   "articole-scolare-jocuri.json": {
@@ -164,6 +168,7 @@ const AUTORITATE = {
     "brickplanet.ro": ["feed_3dd5a1fd2.xml"],
     "grupdzc.ro": GRUPDZC,
     "edituragama.ro": GAMA,
+    "librex.ro": LIBREX,
   },
   "oferte-carti-scolare.json": {
     "libris.ro": LIBRIS,
@@ -176,11 +181,12 @@ const AUTORITATE = {
     "grupdzc.ro": GRUPDZC,
     "edituracorint.ro": CORINT,
     "edituragama.ro": GAMA,
+    "librex.ro": LIBREX,
   },
   "muzica-film-1.json": { "carturesti.ro": ["feed_952ab47b2.xml"] },
   // grupdzc: feed complet -> produsele disparute din feed se scot din toate fisierele unde apar
-  "carti-copii-3.json": { "grupdzc.ro": GRUPDZC },
-  "manuale-scolare-2.json": { "grupdzc.ro": GRUPDZC },
+  "carti-copii-3.json": { "grupdzc.ro": GRUPDZC, "librex.ro": LIBREX },
+  "manuale-scolare-2.json": { "grupdzc.ro": GRUPDZC, "librex.ro": LIBREX },
   "muzica-film-2.json": { "carturesti.ro": ["feed_952ab47b2.xml"] },
 };
 
@@ -200,6 +206,142 @@ const REGULI_CARTEPEDIA = {
   "Puzzle": "articole-scolare-jocuri.json",
 };
 const JOCURI = "articole-scolare-jocuri.json";
+// ---------- CATALOG CARTI PENTRU ADULTI (pagina carti-beletristica.html, din 11.11.2026) ----------
+// Reconstruit DE LA ZERO la fiecare sync (pasul 4d), din toate feed-urile de mai jos:
+//   - o singura carte pe titlu (aceeasi carte la mai multe librarii -> ramane oferta cea mai ieftina);
+//   - fiecare carte primeste un gen (din categoria feed-ului; daca librăria nu are categorii, genul se ia
+//     de la aceeasi carte gasita intr-un feed care are, altfel „Alte titluri");
+//   - cate un fisier pe gen: carti-adulti-<gen>.json (impartit in -1, -2... peste ADULTI_MAX_KB),
+//     plus carti-adulti.json = lista genurilor, fisierelor si numarului de carti (citita de pagina);
+//   - cartile care sunt deja pe site in alte categorii (copii, manuale, parenting, materii) nu intra.
+// Exclus: Humanitas (feed cu preturi inghetate din 9.10.2026), audiobook, ebook, reviste, carti in maghiara.
+const ADULTI_PREFIX = "carti-adulti";
+const ADULTI_MAX_KB = 7000;
+const ALTE = "Alte titluri";
+const GENURI_ORDINE = ["Beletristică", "Dezvoltare personală", "Psihologie", "Spiritualitate și religie", "Istorie", "Biografii și memorii", "Business, economie și drept", "Științe umaniste și artă", "Sănătate", "Hobby, călătorii și bucătărie", ALTE];
+const GEN_SLUG = {
+  "Beletristică": "beletristica", "Dezvoltare personală": "dezvoltare-personala", "Psihologie": "psihologie",
+  "Spiritualitate și religie": "spiritualitate-religie", "Istorie": "istorie", "Biografii și memorii": "biografii-memorii",
+  "Business, economie și drept": "business-economie-drept", "Științe umaniste și artă": "stiinte-umaniste-arta",
+  "Sănătate": "sanatate", "Hobby, călătorii și bucătărie": "hobby-calatorii-bucatarie", [ALTE]: "alte-titluri",
+};
+// libris (feed_30725b952): <category>
+const ADULTI_LIBRIS = {
+  "Beletristica": "Beletristică", "Umor": "Beletristică",
+  "Dezvoltare Personala": "Dezvoltare personală",
+  "Religie": "Spiritualitate și religie", "Spiritualitate Ezoterism": "Spiritualitate și religie",
+  "Biografii Memorii Jurnale": "Biografii și memorii",
+  "Afaceri Economie": "Business, economie și drept", "Drept": "Business, economie și drept",
+  "Stiinte Umaniste": "Științe umaniste și artă", "Arta Arhitectura Design": "Științe umaniste și artă",
+  "Stiinta Si Tehnica": "Științe umaniste și artă", "It Computere": "Științe umaniste și artă", "Cultura Generala": "Științe umaniste și artă",
+  "Sanatate": "Sănătate", "Medicina Si Farmacie": "Sănătate",
+  "Hobby Practic": "Hobby, călătorii și bucătărie", "Calatorii Ghiduri Harti": "Hobby, călătorii și bucătărie", "Gastronomie": "Hobby, călătorii și bucătărie",
+};
+// cartepedia: doar doua categorii pentru adulti
+const ADULTI_CARTEPEDIA = { "Cărți Ficțiune": "Beletristică", "Cărți Non-ficțiune": ALTE };
+// librex (feed_e0aae345e): <category> = ultima subcategorie
+const GENURI_LIBREX = {
+  "Beletristică": ["Fictiune", "Carti de dragoste", "Literatura Contemporana", "Literatura Romana", "Thriller", "Fantasy", "Literatura Universala", "Eseuri", "Poezie", "Science-Fiction", "Carti politiste", "Roman Romanesc", "Drama", "Critica Literara", "Roman Strain", "Teatru", "Beletristica", "Roman istoric", "Aventuri", "Franta si scriitori francezi"],
+  "Dezvoltare personală": ["Carti dezvoltare personala", "Dezvoltare Personala si Motivationale", "Relatii de cuplu"],
+  "Psihologie": ["Psihoterapie", "Psihologie", "Psihologie aplicata", "Psihanaliza", "Neuropsihologie", "Psihologia femeii", "Psihologie si comunicare", "Personalitate"],
+  "Spiritualitate și religie": ["Carti dezvoltare spirituala", "Carti de religie", "Carti Spiritualitate - Ezoterism", "Carti de astrologie", "Minte Corp", "Fenomene Paranormale"],
+  "Istorie": ["Istorie generala", "Istoria romanilor", "Dezvaluiri", "Istorii secrete", "Istorie", "Centenarul Marii Uniri"],
+  "Biografii și memorii": ["Biografii", "Memorii", "Jurnale", "Biografii Memorii Jurnale"],
+  "Sănătate": ["Carti Nutritie & Alimentatie", "Carti medicina alternativa", "Carti de sanatate", "Boli", "Carti dieta", "Carti despre sanatatea mintala", "Sanatatea femeii", "Imbatranire", "Carti tratamente naturiste", "Fitness", "Medicina", "Specialitati Medicale", "Specialitati Fundamentale", "Alergologie"],
+  "Business, economie și drept": ["Educatie financiara", "Carti Leadership", "Cariera", "Marketing", "Carti advertising", "Carti de antreprenoriat", "Carti de management", "Carti despre Comunicare & business", "Carti de economie", "Carti despre coaching", "Carti de Drept"],
+  "Științe umaniste și artă": ["Filozofie", "Stiinta Tehnica", "Carti de stiinta si tehnica", "Carti de sociologie", "Carti de Matematica", "Litere Filologie", "Carti Genetica Biologie", "Geografie Topografie", "Politica", "Muzica", "Arhitectura", "Fotografie"],
+  "Hobby, călătorii și bucătărie": ["Carti de bucate", "Carti Lifestyle", "Carti de colorat adulti", "Albume Romania", "Enciclopedii Geografice", "Legislatie Rutiera"],
+};
+const ADULTI_LIBREX = Object.fromEntries(Object.entries(GENURI_LIBREX).flatMap(([gen, cats]) => cats.map((c) => [c, gen])));
+// categoriile de promotie librex fara gen (Black Friday, 2 + 1 Gratis...) -> ALTE; cardurile cadou si accesoriile -> nu intra
+const LIBREX_FARA_GEN = /^(Black Friday|2 \+ 1 Gratis|Pachete BF|Recomandari Librex|Noutati Carti|50% reducere la carti|Indragostit De Citit|Grupul Editorial TREI|500cu50|Pachete speciale|Marea Lichidare de stoc|ZiuaCartii|Femei care citesc|Carti pentru Cadou|Carti)$/;
+// Curtea Veche: primul nivel din <custom_field3> („Carti Beletristică > ...")
+const ADULTI_CURTEAVECHE = {
+  "Carti Beletristică": "Beletristică", "Cărți de Poezii": "Beletristică",
+  "Carti Antreprenoriat": "Business, economie și drept", "Carieră": "Business, economie și drept", "Leadership": "Business, economie și drept", "Productivitate": "Business, economie și drept", "BNR": "Business, economie și drept",
+  "Spiritualitate": "Spiritualitate și religie", "Memorialistică": "Biografii și memorii",
+  "Cărți Regale": "Istorie", "Politică Românească": "Istorie", "Istoria Ideilor": "Științe umaniste și artă",
+  "Neuroștiințe": "Psihologie", "Mental Health": "Psihologie",
+  "Îmbunătățește-ți relația": "Dezvoltare personală", "Reinventare Personală": "Dezvoltare personală", "Self-Help": "Dezvoltare personală",
+  "Despre corp": "Sănătate", "Nutriție": "Sănătate", "Rețete": "Hobby, călătorii și bucătărie", "Fotografie": "Hobby, călătorii și bucătărie",
+};
+// Gen dupa cuvintele din titlu — doar pentru cartile fara gen (ALTE) si pentru „Științe umaniste" de la libris
+// (libris pune istoria, psihologia si filozofia in aceeasi categorie). Titlul e comparat fara diacritice.
+const GEN_DIN_TITLU = [
+  ["Psihologie", /\b(psiholog\w*|psihoterap\w*|psihanaliz\w*|terapi\w*|anxiet\w*|depresi\w*|trauma\w*|narcis\w*|emoti\w*|creier\w*|neuro\w*|mintii|mintea|inteligenta emotionala|atasament\w*|personalitat\w*|comportament\w*|subconstient\w*)\b/],
+  ["Istorie", /\b(istori\w*|razboi\w*|imperi\w*|regel\w*|regina|regi|dinasti\w*|comunis\w*|securitat\w*|holocaust\w*|revolut\w*|nazis\w*|cruciad\w*|medieval\w*|antichitat\w*|romanilor|domnitor\w*|feudal\w*|gulag\w*|bizant\w*|otoman\w*)\b/],
+  ["Business, economie și drept", /\b(bani|banii|banilor|bogat\w*|investit\w*|bursa|afacer\w*|antreprenor\w*|leadership\w*|lider\w*|manag\w*|marketing|vanzar\w*|negocier\w*|economi\w*|financ\w*|startup|cariera|drept\w*|juridic\w*|cod(ul)? (civil|penal|fiscal|muncii))\b/],
+  ["Sănătate", /\b(sanatat\w*|dieta|diete|nutriti\w*|aliment\w*|boli|boala|bolilor|vindec\w*|medic\w*|cancer|diabet\w*|inim\w*|somn\w*|longevitat\w*|detox\w*|imunit\w*|hormon\w*|intestin\w*)\b/],
+  ["Spiritualitate și religie", /\b(dumnezeu\w*|rugaciun\w*|biblie\w*|biblic\w*|credint\w*|ortodox\w*|crestin\w*|sfant\w*|sfinti\w*|evanghel\w*|isus|hristos|spiritual\w*|meditati\w*|budis\w*|karma|parintele|duhovnic\w*|staret\w*|cuvios\w*|suflet\w*|ingeri|angel\w*|astrolog\w*|zodi\w*|ezoter\w*)\b/],
+  ["Dezvoltare personală", /\b(obicei\w*|succes\w*|motivati\w*|fericir\w*|incredere\w*|productivit\w*|disciplin\w*|stoic\w*|mindset|mindfulness|dezvoltare personala|relati(a|e|i|ile) de cuplu|comunicare|autocunoaster\w*|vointa)\b/],
+  ["Hobby, călătorii și bucătărie", /\b(retet\w*|bucatari\w*|gatit\w*|prajitur\w*|deserturi|ghid turistic|calatori\w*|gradinar\w*|tricotat|crosetat|fotografi\w*)\b/],
+  ["Biografii și memorii", /\b(biografi\w*|memorii|jurnal(ul)?|autobiografi\w*|amintiri)\b/],
+];
+const faraDiacritice = (t) => decode(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+function genDupaTitlu(titlu, genActual) {
+  const t = faraDiacritice(titlu);
+  const permise = genActual === "Științe umaniste și artă" ? ["Psihologie", "Istorie"] : null;
+  const r = GEN_DIN_TITLU.find(([gen, rx]) => (!permise || permise.includes(gen)) && rx.test(t));
+  return r ? r[0] : genActual;
+}
+// grupdzc: categoriile pentru adulti (regex pe <category>) -> gen. Completat dupa verificarea feed-ului.
+const ADULTI_GRUPDZC = [
+  // verificat pe titluri, 11.11.2026; exclus: „Prajituri", „Pizza", „Finger food", „Cocktail" (ustensile de bucatarie),
+  // „Literatura" (lecturi in germana), „Diverse", „Altele", „Carti erse" (amestec), tot ce e scolar sau pentru copii
+  [/^(Romane|Proza ersa|Fictiune|Romantice|Poezie|Literatura universala|Literatura Universala|Literatura romana|Literatura Romana|Politiste|Thriller|Antologie|Science Fiction|Beletristica|Piese de teatru scenarii|Aventura|Bestseller)$/, "Beletristică"],
+  [/^(Religie|Spiritualitate)$/, "Spiritualitate și religie"],
+  [/^Memorialistica$/, "Biografii și memorii"],
+  [/^(Carti dezvoltare personala|Dezvoltare personala|Motivational)$/, "Dezvoltare personală"],
+  [/^(Istorie|Tratat)$/, "Istorie"],
+  [/^(Psihologie|Psihoterapie|Psihiatrie)$/, "Psihologie"],
+  [/^(Afaceri|Management|Economie generala|Marketing si Comert|Finante si banci|Economie politica|Contabilitate|Stiinte Economice|Statistica|General|Administratie publica|Procedura|Practica Judiciara|Cod Civil|Codul Penal|Codul|Drept Civil|Drept Penal|Drept financiar si fiscal|Drept   Juridice   Legislatie|Carti drept (international|administrativ|constitutional))$/, "Business, economie și drept"],
+  [/^(Arta|Filologie|Stiinte Politice|Sociologie|Filosofie|Partituri si carti muzicale|Istorie si critica literara|Stiinte Umaniste|Stiinte Exacte|Astronomie|Folclor|Proza eseistica|Non-fiction)$/, "Științe umaniste și artă"],
+  [/^(Alimentatie si nutritie|Naturista|Stomatologie|Anatomie|Atlas anatomie|Medicina Generala|Medicina Interna|Farmacologie|Cardiologie|Pediatrie|Chirurgie|Neurologie|Obstretica si Ginecologie|Dermatologie|Ortopedie|Carti medicale)$/, "Sănătate"],
+  [/^(Gastronomie|Calatorie|Sfaturi Practice|Turism si Mediu|Agricultura|VREAU PERMIS AUTO)$/, "Hobby, călătorii și bucătărie"],
+];
+// Feed-uri fara categorii de carti pentru adulti: toate cartile active intra (gen de la aceeasi carte din alt feed, altfel ALTE)
+const ADULTI_FARA_CATEGORII = ["feed_d399be9e5.xml", "feed_7bd1c15b9.xml", "feed_5b10a2be9.xml"];
+// librarie.net: doar categoria „Cărți" (restul e scolar, jucarii, diverse)
+const ADULTI_LIBRARIENET = /^Cărți$/;
+
+// ---------- LIBREX (feed_e0aae345e) — <category> = ultima subcategorie din feed ----------
+const LIBREX_COPII = "carti-copii-3.json";
+const REGULI_LIBREX = {
+  "Carti educative": LIBREX_COPII,
+  "Carti de povesti": LIBREX_COPII,
+  "Literatura pentru copii": LIBREX_COPII,
+  "Bookurii pentru copii": LIBREX_COPII,
+  "Carti pentru copii si bebelusi": LIBREX_COPII,
+  "Carti cu activitati si jocuri pentru copii": LIBREX_COPII,
+  "Carti de colorat": LIBREX_COPII,
+  "Carti de Craciun": LIBREX_COPII,
+  "Carti cu Abtibilduri": LIBREX_COPII,
+  "Carti cu sunete": LIBREX_COPII,
+  "Enciclopedii pentru copii": LIBREX_COPII,
+  "Legende si mituri": LIBREX_COPII,
+  "Carti Puzzle": LIBREX_COPII,
+  "Carti cu Animale": LIBREX_COPII,
+  "Basme": LIBREX_COPII,
+  "Carti cu poezii": LIBREX_COPII,
+  "Fabule": LIBREX_COPII,
+  "Dictionare pentru copii": LIBREX_COPII,
+  "Carti pentru adolescenti": LIBREX_COPII,
+  "Manuale si auxiliare scolare": "manuale-scolare-2.json",
+  "Back to school": "manuale-scolare-2.json",
+  "Atlase": "materii-suplimentare.json",
+  "Enciclopedii": "materii-suplimentare.json",
+  "Dictionare Tematice": "materii-suplimentare.json",
+  "Franceza": "materii-suplimentare.json",
+  "Germana": "materii-suplimentare.json",
+  "Carti Parenting": "carti-parenting.json",
+  "Psihologia copilului": "carti-parenting.json",
+  "Mama si copilul": "carti-parenting.json",
+  "Pedagogie": "carti-parenting.json",
+  "Jocuri puzzle copii": JOCURI,
+  "Jocuri de societate": JOCURI,
+  "Jucarii educative": JOCURI,
+  // tot restul (beletristica, istorie, psihologie...) intra in catalogul de adulti (pasul 4d), nu aici
+};
 // ---------- GRUPDZC (feed_0b61412e9) ----------
 // Feed generalist (56.000+ produse, 906 categorii). Intra pe site doar categoriile de mai jos,
 // verificate pe esantioane de titluri (14.10.2026). Restul (romane, religie, drept, medicina,
@@ -377,6 +519,10 @@ const REGULI = {
   "feed_952ab47b2.xml": { "Muzica": fisierMuzica, "Film": "muzica-film-2.json" },
   // brickplanet: feed-ul nu are categorii -> toate produsele merg la jocuri ("*" = orice categorie)
   "feed_3dd5a1fd2.xml": { "*": JOCURI },
+  // librex (din 11.11.2026): doar categoriile potrivite site-ului. Beletristica, spiritualitate, istorie,
+  // psihologie, sanatate etc. NU intra in catalog — sunt folosite doar ca alternative de pret in books.json.
+  // Ignorate si categoriile de promotie fara gen (Black Friday, 2 + 1 Gratis, Pachete BF, Recomandari Librex...).
+  "feed_e0aae345e.xml": REGULI_LIBREX,
   "feed_bfb296a3b.xml": REGULI_CARTEPEDIA,
   "feed_dbcb0e675.xml": REGULI_CARTEPEDIA,
   "feed_f70ce214f.xml": REGULI_CARTEPEDIA,
@@ -579,6 +725,9 @@ function dinFeed(p, sursa, categorieSite) {
       titlu = titlu.slice(0, i).trim();
     }
     if (!brand || brand === '""') brand = sursa;
+  } else if (sursa === "librex.ro") {
+    // feed fara autor: <brand> e editura -> „Editura X"
+    brand = brand && brand !== "-" ? (/^editura\b/i.test(brand) ? brand : "Editura " + brand) : sursa;
   } else if (sursa === "brickplanet.ro") {
     if (!brand) brand = /LEGO/i.test(p.title + " " + (p.description || "")) ? "LEGO" : sursa;
   } else if (sursa === "edituragama.ro") {
@@ -877,11 +1026,12 @@ const SURSA_BOOKS = {
   nemira: "nemira.ro",
   corint: "edituracorint.ro",
   gama: "edituragama.ro",
+  librex: "librex.ro",
 };
 const BOOKS_DIN_SURSA = Object.fromEntries(Object.entries(SURSA_BOOKS).map(([a, b]) => [b, a]));
 // Surse cu feed complet: o carte care lipseste peste tot e marcata available:false (ascunsa, revine automat).
 // La librarie.net (Top 10.000) si carturesti (feed partial) lipsa din feed nu inseamna link mort -> raman neatinse.
-const BOOKS_FEED_COMPLET = ["libris.ro", "libhumanitas.ro", "curteaveche.ro", "edituratrei.ro", "cartepedia.ro", "nemira.ro", "edituracorint.ro", "edituragama.ro"];
+const BOOKS_FEED_COMPLET = ["libris.ro", "libhumanitas.ro", "curteaveche.ro", "edituratrei.ro", "cartepedia.ro", "nemira.ro", "edituracorint.ro", "edituragama.ro", "librex.ro"];
 // Feed-uri din care NU se iau alternative (link expirat / ebook-uri)
 const BOOKS_FARA_ALTERNATIVE = ["feed_d861df8a1.xml", "feed_23ed00784.xml"];
 // ---------- books.json: CEL MAI BUN PRET (din 03.11.2026) ----------
@@ -902,13 +1052,14 @@ const PRIORITATE_LIBRARII = [
   // "carturesti.ro" — scos 10.11.2026 (sursa dezactivata, vezi SURSE_DEZACTIVATE)
   "librarie.net",
   "cartepedia.ro",
-  "libhumanitas.ro",
+  // "libhumanitas.ro" — scos 11.11.2026 (sursa dezactivata)
   "curteaveche.ro",
   "edituratrei.ro",
   "nemira.ro",
   "edituracorint.ro",
   "edituragama.ro",
   "grupdzc.ro",
+  "librex.ro", // adaugat 11.11.2026 — muta-l mai sus daca vrei sa-l preferi la preturi egale
 ];
 // Surse din books.json pe care sync-ul nu le atinge deloc (raman pe update-prices.js). Goala din 03.11.2026:
 // humanitas trece prin regula de mai sus (feed-ul libhumanitas e inghetat din 9.10.2026, iar site-ul blocheaza scraperul).
@@ -1051,7 +1202,7 @@ if (books) {
   const unic = (link) => ((decode(link || "").match(/[?&]unique=([^&]+)/) || [])[1] || "");
   const dupaUnic = new Map();
   for (const din of index.values()) if (din.p.aff_code) dupaUnic.set(unic(din.p.aff_code), din);
-  const CAMPANII = { "9a6f02fef": "libris.ro", da1148931: "librarie.net", "07b5f0fed": "carturesti.ro", "6f33f2a39": "cartepedia.ro", "9aab15f10": "libhumanitas.ro", f9db13aad: "curteaveche.ro", "9617003d6": "nemira.ro", "4dc37856e": "edituratrei.ro", "8dad9830f": "edituracorint.ro", "655dd2374": "edituragama.ro" };
+  const CAMPANII = { "9a6f02fef": "libris.ro", da1148931: "librarie.net", "07b5f0fed": "carturesti.ro", "6f33f2a39": "cartepedia.ro", "9aab15f10": "libhumanitas.ro", f9db13aad: "curteaveche.ro", "9617003d6": "nemira.ro", "4dc37856e": "edituratrei.ro", "8dad9830f": "edituracorint.ro", "655dd2374": "edituragama.ro", "3085d2457": "librex.ro" };
   // sursa reala: din productUrl / campania linkului (campul "source" poate fi gresit)
   const sursaReala = (it) => {
     const dom = cheie(it.productUrl || "").split("/")[0];
@@ -1260,6 +1411,113 @@ if (blocate.length) {
     raport.fisiere[b.fisier].disparuteScoase += inainte - date[b.fisier].length;
   }
   console.log(da ? "   ✅ Scoase." : "   ⏭  Nu am scos nimic din acestea; restul actualizarii se salveaza normal.");
+}
+
+// 4d. Catalogul de carti pentru adulti (reconstruit de la zero, vezi ADULTI_* mai sus)
+function genAdulti(feed, p) {
+  const c = String(p.category || "").trim();
+  if (feed === "feed_30725b952.xml") return ADULTI_LIBRIS[c] || null;
+  if (CARTEPEDIA.includes(feed)) return ADULTI_CARTEPEDIA[c] || null;
+  if (feed === "feed_e0aae345e.xml") {
+    if (REGULI_LIBREX[c]) return null; // e deja pe site, la copii/manuale/parenting/materii/jocuri
+    if (ADULTI_LIBREX[c]) return ADULTI_LIBREX[c];
+    return LIBREX_FARA_GEN.test(c) ? ALTE : null;
+  }
+  if (feed === "feed_0ab2094f6.xml") {
+    const top = String(p.custom_field3 || "").split(">")[0].trim();
+    return ADULTI_CURTEAVECHE[top] || null;
+  }
+  if (feed === "feed_0b61412e9.xml") {
+    const r = ADULTI_GRUPDZC.find(([rx]) => rx.test(c));
+    return r ? r[1] : null;
+  }
+  if (feed === "feed_d399be9e5.xml") return ADULTI_LIBRARIENET.test(c) ? ALTE : null;
+  if (ADULTI_FARA_CATEGORII.includes(feed)) return ALTE;
+  return null;
+}
+const raportAdulti = { carti: 0, oferte: 0, genuri: {}, fisiere: {}, salvat: false };
+{
+  // titlurile deja prezente pe site (copii, manuale, parenting, materii...) nu se repeta in catalogul de adulti
+  const peSite = new Set();
+  for (const f of Object.keys(date)) for (const it of date[f] || []) if (it && it.title) peSite.add(norm(it.title));
+  const grupuri = new Map(); // titlu normalizat -> { oferta, gen }
+  for (const din of index.values()) {
+    const p = din.p;
+    if (p.product_active !== "true" || !(parseFloat(p.price) > 0)) continue;
+    if (SURSE_DEZACTIVATE.includes(din.sursa) || din.sursa === "libhumanitas.ro") continue;
+    if (/audio-?book|e-?book|\bcd\b|\bmp3\b/i.test(p.title + " " + p.url + " " + p.category)) continue;
+    let gen = null;
+    for (const feed of din.feeds) {
+      gen = genAdulti(feed, p);
+      if (gen) break;
+    }
+    if (!gen) continue;
+    const item = dinFeed(p, din.sursa, ADULTI_PREFIX);
+    // „Titlu - Autor" (libris, grupdzc) -> titlu + autor; autorul din alte campuri la cartepedia/Trei
+    const i = item.title.lastIndexOf(" - ");
+    if (i > 0 && item.title.length - i < 90 && (din.sursa === "libris.ro" || din.sursa === "grupdzc.ro")) {
+      item.brand = item.title.slice(i + 3).trim();
+      item.title = item.title.slice(0, i).trim();
+    }
+    if (din.sursa === "edituratrei.ro" && p.custom_field2) item.brand = p.custom_field2.trim();
+    const k = norm(item.title);
+    if (!k || peSite.has(k)) continue;
+    raportAdulti.oferte++;
+    const pret = parseFloat(p.price);
+    const g = grupuri.get(k);
+    if (!g) {
+      grupuri.set(k, { item, pret, gen });
+      continue;
+    }
+    // genul: primul gen „adevarat" gasit (nu ALTE); oferta: cea mai ieftina
+    if (g.gen === ALTE && gen !== ALTE) g.gen = gen;
+    if (pret < g.pret) {
+      // pastreaza autorul daca oferta noua are doar editura/librăria ca „brand"
+      if (/^(Editura |Nemira$|Curtea Veche|cartepedia\.ro$|librarie\.net$|librex\.ro$)/.test(item.brand) && !/^(Editura |Nemira$|Curtea Veche|cartepedia\.ro$|librarie\.net$|librex\.ro$)/.test(g.item.brand)) item.brand = g.item.brand;
+      g.item = item;
+      g.pret = pret;
+    }
+  }
+  const peGen = new Map(GENURI_ORDINE.map((gn) => [gn, []]));
+  for (const g of grupuri.values()) {
+    if (g.gen === ALTE || g.gen === "Științe umaniste și artă") g.gen = genDupaTitlu(g.item.title, g.gen);
+    g.item.genre = g.gen;
+    peGen.get(g.gen).push(g.item);
+  }
+  const manifest = { generat: new Date().toISOString(), total: 0, genuri: [] };
+  const deScris = [];
+  for (const [gen, lista] of peGen) {
+    if (!lista.length) continue;
+    lista.sort((a, b) => (parseInt(b.discount) || 0) - (parseInt(a.discount) || 0) || a.title.localeCompare(b.title, "ro"));
+    const slug = GEN_SLUG[gen];
+    const kb = Buffer.byteLength(JSON.stringify(lista)) / 1024;
+    const bucati = Math.max(1, Math.ceil(kb / ADULTI_MAX_KB));
+    const marime = Math.ceil(lista.length / bucati);
+    const fisiere = [];
+    for (let b = 0; b < bucati; b++) {
+      const nume = `${ADULTI_PREFIX}-${slug}${bucati > 1 ? "-" + (b + 1) : ""}.json`;
+      deScris.push([nume, lista.slice(b * marime, (b + 1) * marime)]);
+      fisiere.push(nume);
+    }
+    manifest.genuri.push({ gen, slug, carti: lista.length, fisiere });
+    manifest.total += lista.length;
+    raportAdulti.genuri[gen] = lista.length;
+  }
+  raportAdulti.carti = manifest.total;
+  console.log(`\ncarti-adulti (catalog nou, reconstruit): ${manifest.total} carti unice din ${raportAdulti.oferte} oferte`);
+  for (const gn of manifest.genuri) console.log(`   ${gn.gen}: ${gn.carti} (${gn.fisiere.join(", ")})`);
+  if (!DRY_RUN) {
+    // sterge fisierele vechi de gen (ex. un gen impartit ieri in 2 si azi in 1)
+    for (const f of fs.readdirSync(JSON_DIR)) if (new RegExp("^" + ADULTI_PREFIX + "-.+\\.json$").test(f) && !deScris.some(([n]) => n === f)) fs.unlinkSync(path.join(JSON_DIR, f));
+    for (const [nume, lista] of deScris) {
+      const text = JSON.stringify(lista) + "\n";
+      fs.writeFileSync(path.join(JSON_DIR, nume), text, "utf8");
+      raportAdulti.fisiere[nume] = Math.round(Buffer.byteLength(text) / 1024);
+    }
+    fs.writeFileSync(path.join(JSON_DIR, ADULTI_PREFIX + ".json"), JSON.stringify(manifest, null, 2) + "\n", "utf8");
+    raportAdulti.salvat = true;
+  }
+  raport.adulti = raportAdulti;
 }
 
 // 5. Salveaza
