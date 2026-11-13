@@ -273,9 +273,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=802ff8c33&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/24349/24348072-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "42,75 Lei",
+    "price": "22,50 Lei",
     "oldPrice": "45,00 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Parenting pentru succes. Cum sa ne crestem copiii bine - Madeline Levine",
@@ -1163,9 +1163,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=33980c083&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/1256/1255750-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "39,90 Lei",
+    "price": "21,00 Lei",
     "oldPrice": "42,00 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Doua camine, o copilarie - Robert E. Emery",
@@ -5679,7 +5679,7 @@
     "sourceSite": "edituratrei.ro",
     "productUrl": "https://www.edituratrei.ro/carte/parintele-constient/13272/",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=da240dc50&aff_code=676a7e7d9&campaign_unique=4dc37856e",
-    "image": "https://www.edituratrei.ro/thumbs/square/cover-5025.jpg",
+    "image": "https://www.edituratrei.ro/thumbs/square/cover-10369.jpg",
     "category": "carti-parenting",
     "price": "37,43 Lei",
     "oldPrice": "62,37 Lei",
@@ -9121,9 +9121,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fc5235089&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/21343/21342543-1-small-1.jpg",
     "category": "carti-parenting",
-    "price": "60,80 Lei",
+    "price": "32,00 Lei",
     "oldPrice": "64,00 Lei",
-    "discount": "5%"
+    "discount": "50%"
   },
   {
     "title": "Rivalitatea dintre frati - Adele Faber, Elaine Mazlish",
@@ -10142,5 +10142,15 @@
     "price": "36,47 Lei",
     "oldPrice": "72,94 Lei",
     "discount": "50%"
+  },
+  {
+    "title": "Sunt un copil, deci simt unde sunt parintii mei - Bibi Schreuder",
+    "brand": "Bibi Schreuder",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/sunt-un-copil-deci-simt-unde-sunt-parintii-mei-bibi-schreuder/47018447?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qi_9KASk08U0&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/47019/47018447-1-small-1.jpg?ver=1785242408",
+    "category": "carti-parenting",
+    "price": "140,00 Lei"
   }
 ]
