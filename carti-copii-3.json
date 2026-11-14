@@ -114476,5 +114476,29 @@
     "price": "89,80 Lei",
     "oldPrice": "224,49 Lei",
     "discount": "60%"
+  },
+  {
+    "title": "Pachet Povesti nemuritoare. Set de 12 volume",
+    "brand": "Editura Cuantic",
+    "sourceSite": "librex.ro",
+    "productUrl": "https://www.librex.ro/pachet-povesti-nemuritoare-set-de-12-volume-9786306653171.html",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qkdwSmkCm_vx&aff_code=676a7e7d9&campaign_unique=3085d2457",
+    "image": "https://cdn13.avanticart.ro/librex.ro/pictures/products/1000/pachet-povesti-nemuritoare-set-de-12-volume-9786306653171-68949.jpeg",
+    "category": "carti-copii",
+    "price": "199,00 Lei",
+    "oldPrice": "269,90 Lei",
+    "discount": "26%"
+  },
+  {
+    "title": "Pachet Cassandra Clare. Set 2 carti",
+    "brand": "Editura Librex Publishing",
+    "sourceSite": "librex.ro",
+    "productUrl": "https://www.librex.ro/pachet-cassandra-clare-set-2-carti.html",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6VECHg6NtX4I&aff_code=676a7e7d9&campaign_unique=3085d2457",
+    "image": "https://cdn20.avanticart.ro/librex.ro/pictures/products/1000/pachet-cassandra-clare-set-2-carti-25492.jpeg",
+    "category": "carti-copii",
+    "price": "73,92 Lei",
+    "oldPrice": "184,79 Lei",
+    "discount": "60%"
   }
 ]
