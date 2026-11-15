@@ -94315,7 +94315,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=kHcDctoKHlQB&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/48335/48334272-1-small-1.jpg?ver=1789459346",
     "category": "carti-copii",
-    "price": "48,48 Lei"
+    "price": "46,06 Lei",
+    "oldPrice": "48,48 Lei",
+    "discount": "5%"
   },
   {
     "title": "O lume fara printi. Seria Scoala pentru Bine si Rau. Vol.2 - Soman Chainani",
