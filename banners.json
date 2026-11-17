@@ -442,5 +442,32 @@
     "startDate": "2026-11-05",
     "endDate": "2026-11-08",
     "weight": 1
+  },
+  {
+    "id": "libris-mos-nicolae-01",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/274763/original/274763.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=9da530814&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "Moș Nicolae la libris.ro: cărți, jocuri și accesorii la reducere, 17–19 noiembrie",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-17",
+    "endDate": "2026-11-19",
+    "weight": 3
+  },
+  {
+    "id": "libris-mos-nicolae-02",
+    "merchant": "libris.ro",
+    "image": "https://img.2performant.com/system/paperclip/banner_pictures/pics/274761/original/274761.png",
+    "link": "https://event.2performant.com/events/click?ad_type=banner&unique=dfff47f76&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "alt": "Moș Nicolae la libris.ro, până la -83%",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-11-17",
+    "endDate": "2026-11-19",
+    "weight": 1
   }
 ]
