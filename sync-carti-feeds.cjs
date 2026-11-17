@@ -71,7 +71,9 @@ const BACKUPURI_PASTRATE = 7;
 // in niciun alt feed, sunt ascunse (available:false). Ca sa reactivezi: scoate "carturesti.ro" de aici
 // si pune-l inapoi in PRIORITATE_LIBRARII.
 // 11.11.2026: Humanitas dezactivat — feed-ul avea preturi inghetate din 9.10.2026 si a fost scos de la descarcare.
-const SURSE_DEZACTIVATE = ["carturesti.ro", "libhumanitas.ro"];
+// 17.11.2026: Librex dezactivat — programul de afiliere librex.ro se inchide pe 16.12.2026 (uneltele devin inactive);
+// feed-ul e0aae345e scos de la descarcare. Regulile librex (REGULI_LIBREX, GENURI_LIBREX etc.) raman in cod, inactive.
+const SURSE_DEZACTIVATE = ["carturesti.ro", "libhumanitas.ro", "librex.ro"];
 
 // Daca mai mult de acest procent din produsele unei surse ar fi scoase dintr-un fisier,
 // scoaterea se suspenda si la final scriptul te intreaba daca le scoate (vezi „Prag de siguranta" sus).
@@ -1059,7 +1061,7 @@ const PRIORITATE_LIBRARII = [
   "edituracorint.ro",
   "edituragama.ro",
   "grupdzc.ro",
-  "librex.ro", // adaugat 11.11.2026 — muta-l mai sus daca vrei sa-l preferi la preturi egale
+  // "librex.ro" — adaugat 11.11.2026, scos 17.11.2026 (sursa dezactivata, programul se inchide pe 16.12.2026)
 ];
 // Surse din books.json pe care sync-ul nu le atinge deloc (raman pe update-prices.js). Goala din 03.11.2026:
 // humanitas trece prin regula de mai sus (feed-ul libhumanitas e inghetat din 9.10.2026, iar site-ul blocheaza scraperul).
