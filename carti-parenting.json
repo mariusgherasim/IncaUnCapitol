@@ -226,18 +226,6 @@
     "discount": "20%"
   },
   {
-    "title": "Adio, tristete... Salut, bucurie! - Ana Serna, Henar Inigo",
-    "brand": "Ana Serna",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/adio-tristete-salut-bucurie-ana-serna-henar-inigo/24350025?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ee3817e33&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/24351/24350025-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "27,07 Lei",
-    "oldPrice": "33,84 Lei",
-    "discount": "20%"
-  },
-  {
     "title": "Adio, pesimism... Salut, optimism! - Ana Serna, Henar Inigo",
     "brand": "Henar Inigo",
     "sourceSite": "libris.ro",
@@ -3246,16 +3234,6 @@
     "discount": "15%"
   },
   {
-    "title": "Parenting. Cum sa crestem copii inteligenti emotional - John Gottman, Joan DeClaire",
-    "brand": "Joan Declaire",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/parenting-cum-sa-crestem-copii-inteligenti-emotional-john-gottman-joan-declaire/10872245?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d13837e59&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/10873/10872245-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "44,40 Lei"
-  },
-  {
     "title": "Parentaj sensibil si inteligent - Daniel J. Siegel, Mary Hartzell",
     "brand": "Daniel J. Siegel",
     "sourceSite": "libris.ro",
@@ -4971,9 +4949,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jI0I0xrwRUT-&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
     "image": "https://www.libris.ro/img/pozeprod/47013/47012574-1-small-1.jpg?ver=1782973632",
     "category": "carti-parenting",
-    "price": "39,99 Lei",
+    "price": "34,99 Lei",
     "oldPrice": "49,99 Lei",
-    "discount": "20%"
+    "discount": "30%"
   },
   {
     "title": "Vreau sa inteleg. Si eu pot! La fel ca tine, pot face aproape orice! - Jennifer Moore-Mallinos",
@@ -8886,18 +8864,6 @@
     "price": "111,00 Lei"
   },
   {
-    "title": "Cum cresc baietii? Pubertatea pe intelesul tuturor - Alex Frith, Felicity Brooks",
-    "brand": "Felicity Brooks",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/cum-cresc-baietii-pubertatea-pe-intelesul-tuturor-alex-frith-felicity-brooks/48673107?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=AC2v4Brx9WxQ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48674/48673107-1-small-1.jpg?ver=1791888047",
-    "category": "carti-parenting",
-    "price": "41,60 Lei",
-    "oldPrice": "52,00 Lei",
-    "discount": "20%"
-  },
-  {
     "title": "Cand am renuntat, am devenit mama - Andreea Galavotti",
     "brand": "Andreea Galavotti",
     "sourceSite": "libris.ro",
@@ -9506,5 +9472,85 @@
     "price": "57,80 Lei",
     "oldPrice": "68,00 Lei",
     "discount": "15%"
+  },
+  {
+    "title": "Copilul tau competent - Jesper Juul",
+    "brand": "Jesper Juul",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/copilul-tau-competent-jesper-juul/1194099?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=617a43210&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/1195/1194099-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "39,90 Lei",
+    "oldPrice": "42,00 Lei",
+    "discount": "5%"
+  },
+  {
+    "title": "Parenting de la A la Z - Georgeta Panisoara",
+    "brand": "Georgeta Panisoara",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/parenting-de-la-a-la-z-georgeta-panisoara/27404433?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ddc21975d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/27405/27404433-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "65,24 Lei",
+    "oldPrice": "68,67 Lei",
+    "discount": "5%"
+  },
+  {
+    "title": "Parinti binevoitori, copii receptivi - Laurence Dudek",
+    "brand": "Laurence Dudek",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/parinti-binevoitori-copii-receptivi-laurence-dudek/27940472?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=e8407ca5d&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/27941/27940472-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "14,76 Lei",
+    "oldPrice": "45,00 Lei",
+    "discount": "67%"
+  },
+  {
+    "title": "Cele 5 pietre de temelie ale familiei - Jesper Juul",
+    "brand": "Jesper Juul",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/cele-5-pietre-de-temelie-ale-familiei-jesper-juul/33138385?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=abb8a071b&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/33139/33138385-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "34,00 Lei"
+  },
+  {
+    "title": "Manual de psihologie clinica pre- si postnatala - Elena Otilia Vladislav",
+    "brand": "Elena Otilia Vladislav",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/manual-de-psihologie-clinica-pre-si-postnatala-elena-otilia-vladislav/29163736?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=b2b98d868&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/29164/29163736-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "72,94 Lei"
+  },
+  {
+    "title": "Cel de-al doilea copil - Sarah Ockwell-Smith",
+    "brand": "Sarah Ockwell Smith",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/cel-de-al-doilea-copil-sarah-ockwell-smith/35002331?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=addf80459&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/35003/35002331-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "33,60 Lei",
+    "oldPrice": "42,00 Lei",
+    "discount": "20%"
+  },
+  {
+    "title": "Ghid de educatie digitala - Richard Culatta",
+    "brand": "Richard Culatta",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/ghid-de-educatie-digitala-richard-culatta/28980560?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=DSWLtB0YK6ui&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/28981/28980560-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "9,99 Lei",
+    "oldPrice": "42,24 Lei",
+    "discount": "76%"
   }
 ]
