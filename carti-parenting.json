@@ -558,18 +558,6 @@
     "discount": "20%"
   },
   {
-    "title": "Retete sanatoase pentru micutii gurmanzi - Annabel Karmel",
-    "brand": "Annabel Karmel",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/retete-sanatoase-pentru-micutii-gurmanzi-annabel-karmel/13300867?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6beabd807&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/13301/13300867-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "43,99 Lei",
-    "oldPrice": "54,99 Lei",
-    "discount": "20%"
-  },
-  {
     "title": "Mai bun decat parintii tai - Janet G. Woititz",
     "brand": "Janet G. Woititz",
     "sourceSite": "libris.ro",
@@ -9552,5 +9540,75 @@
     "price": "9,99 Lei",
     "oldPrice": "42,24 Lei",
     "discount": "76%"
+  },
+  {
+    "title": "Vine bebe: Jurnal de sarcina. 20 carduri amintire. Green Leaves",
+    "brand": "libris.ro",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/vine-bebe-jurnal-de-sarcina-20-carduri-amintire-green-leaves/38391094?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=d6b6f5637&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/38392/38391094-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "48,39 Lei"
+  },
+  {
+    "title": "Paletar logopedic - Loredana Bejan, Laura Hardalau",
+    "brand": "Loredana Bejan",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/paletar-logopedic-loredana-bejan-laura-hardalau/44343572?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=86Mw8j0mp6tE&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44344/44343572-1-small-1.jpg?ver=1761553324",
+    "category": "carti-parenting",
+    "price": "70,00 Lei"
+  },
+  {
+    "title": "Kit pentru dezvoltarea atentiei si a memoriei - Loredana Bejan",
+    "brand": "Loredana Bejan",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/kit-pentru-dezvoltarea-atentiei-si-a-memoriei-loredana-bejan/44343467?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Yj1ArpIYdJkP&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44344/44343467-1-small-1.jpg?ver=1761308203",
+    "category": "carti-parenting",
+    "price": "70,00 Lei"
+  },
+  {
+    "title": "Kit de evaluare logopedica - Laura Hardalau, Loredana Bejan",
+    "brand": "Laura Hardalau",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/kit-de-evaluare-logopedica-laura-hardalau-loredana-bejan/44343656?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BAeD9ztS7-VQ&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44344/44343656-1-small-1.jpg?ver=1761310229",
+    "category": "carti-parenting",
+    "price": "140,00 Lei"
+  },
+  {
+    "title": "Intrebarea DE CE? Joc logopedic - Alexandra Lavinia Rogozea, Olaru Ionut Robert",
+    "brand": "Olaru Ionut Robert",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/intrebarea-de-ce-joc-logopedic-alexandra-lavinia-rogozea-olaru-ionut-robert/44343775?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nvJkFMJxKvB8&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/44344/44343775-1-small-1.jpg?ver=1761552664",
+    "category": "carti-parenting",
+    "price": "60,00 Lei"
+  },
+  {
+    "title": "Evaluarea auzului fonematic - Laura Hardalau",
+    "brand": "Laura Hardalau",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/evaluarea-auzului-fonematic-laura-hardalau/45684226?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=i0PblwFHED-i&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/45685/45684226-1-small-1.jpg?ver=1772804079",
+    "category": "carti-parenting",
+    "price": "65,00 Lei"
+  },
+  {
+    "title": "Oul vorbaret. Palatograme - Laura Hardalau, Loredana Bejan",
+    "brand": "Loredana Bejan",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/oul-vorbaret-palatograme-laura-hardalau-loredana-bejan/45941945?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=uq2jeQfFXeCw&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/45942/45941945-1-small-1.jpg?ver=1773405128",
+    "category": "carti-parenting",
+    "price": "45,00 Lei"
   }
 ]

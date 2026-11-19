@@ -570,7 +570,7 @@
     "productUrl": "https://www.libris.ro/carte/alchimistul-editie-aniversara-paulo-coelho/45156832?utm_source=2parale&utm_medium=feed",
     "offerEnds": "",
     "description": "Alchimistul nu e pentru cei care vor un roman complicat. E pentru cei care au uitat să-și mai asculte inima și au nevoie de un motiv să se oprească din fugă.",
-    "available": false
+    "available": true
   },
   {
     "title": "Smarter: 10 lecții pentru o viață mai productivă și mai puțin stresantă",
@@ -1756,14 +1756,12 @@
     "author": "Stephen King",
     "category": "beletristică",
     "score": "9.8/10",
-    "oldPrice": "",
     "price": "40,00 Lei",
-    "discount": "",
     "image": "imagini/cimitirul.jpg",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&aff_code=676a7e7d9&campaign_unique=f3492fc89&unique=9R77breLffwW",
     "productUrl": "https://www.printrecarti.ro/58109-stephen-king-cimitirul-animalelor.html",
     "description": "Nu fantomele te sperie în cartea asta. Te sperie întrebarea pe care ți-o pune: dacă ai putea să-l aduci înapoi pe cel pe care l-ai pierdut, ai face-o? Chiar dacă n-ar mai fi el?",
-    "available": false
+    "available": true
   },
   {
     "title": "Închisoarea îngerilor",
