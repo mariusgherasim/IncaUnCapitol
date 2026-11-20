@@ -180,6 +180,7 @@ const AUTORITATE = {
   },
   "carti-parenting.json": {
     "libris.ro": LIBRIS,
+    "carturesti.ro": ["feed_6ea72c5a4.xml"], // din 20.11.2026
     "libhumanitas.ro": ["feed_e82be0de9.xml"],
     "grupdzc.ro": GRUPDZC,
     "edituracorint.ro": CORINT,
@@ -475,6 +476,28 @@ function fisierGama(p) {
   return "carti-copii-2.json";
 }
 
+// ---------- CARTURESTI carte (feed_6ea72c5a4) — doar PARENTING (din 20.11.2026) ----------
+// Feed-ul nu are categorie de parenting: <category> = „Carte" / „Carte copii & adolescenti", iar <subcategory> = gen.
+// Restul cartilor Carturesti NU intra in catalog (sunt folosite doar ca alternative de pret in books.json).
+// Regula: subcategorie de dezvoltare personala / psihologie / medicina + titlu de parenting
+// (parinte, copilul tau, bebelus, sarcina, mama, Montessori...). Titlul fara „ | Autor".
+// Cartile deja prezente la parenting de la alta librarie (acelasi titlu) nu se mai adauga o data.
+// Verificat pe feed-ul din 10.11.2026: ~75 de carti (Parintele eficient, Parenting pozitiv, Copiii nostri...).
+const CARTURESTI_PARENTING_SUB = ["Sanatate, dezvoltare personala", "Psihologie", "Medicina"];
+const CARTURESTI_PARENTING = /parent|\bparinte|\bparintii|\bparintilor|copilul tau|copilul meu|copilului\b|copiii nostri|educarea copiilor|cresterea copil|prenatal|bebelus|sarcin|insarcinat|\bmama\b|\bmame\b|mamica|montessori/;
+const CARTURESTI_NU_PARENTING = /copilul(ui)? interior|parintii (nostri|tai)|vindece parintii|judiciar|hipnoterap|psihoterap/;
+let titluriParenting = null;
+function fisierCarturestiCarte(p) {
+  if (!CARTURESTI_PARENTING_SUB.includes(decode(p.subcategory || "").trim())) return null;
+  const t = CORINT_FOLD(String(p.title || "").split(" | ")[0]);
+  if (!CARTURESTI_PARENTING.test(t) || CARTURESTI_NU_PARENTING.test(t)) return null;
+  if (!titluriParenting) titluriParenting = new Set((date[PARENTING] || []).map((it) => corintTitlu(it.title)));
+  const k = corintTitlu(p.title);
+  if (titluriParenting.has(k)) return null;
+  titluriParenting.add(k);
+  return PARENTING;
+}
+
 const REGULI = {
   "feed_23ed00784.xml": { "Parenting": PARENTING },
   // libris, din 03.11.2026 (in locul feed-ului complet sters): carti pentru copii, parenting, accesorii
@@ -536,6 +559,8 @@ const REGULI = {
     "Jucării": "articole-scolare-jocuri.json",
     "Carte Școlară": "manuale-scolare.json",
   },
+  // Carturesti carte: doar parenting (vezi fisierCarturestiCarte)
+  "feed_6ea72c5a4.xml": { "*": fisierCarturestiCarte },
   "feed_d861df8a1.xml": {
     "Papetarie, birotica": "rechizite-papetarie.json",
     "Hobby, arta, DIY": "rechizite-papetarie.json",
@@ -709,6 +734,15 @@ function dinFeed(p, sursa, categorieSite) {
     // „Album | Artist" -> titlu = album, brand = artist (in feed, <brand> e casa de discuri)
     const i = titlu.indexOf(" | ");
     if (i > 0) {
+      brand = titlu.slice(i + 3).trim();
+      titlu = titlu.slice(0, i).trim();
+    }
+    if (!brand) brand = sursa;
+    imagine = imagine.replace("https://carturesti.ro/img-prod/", "https://cdn.dc5.ro/img-prod/");
+  } else if (sursa === "carturesti.ro" && categorieSite === "carti-parenting") {
+    // carti (din 20.11.2026): „Titlu | Autor" -> titlu + autor (in feed, <brand> e editura)
+    const i = titlu.indexOf(" | ");
+    if (i > 0 && titlu.slice(i + 3).trim()) {
       brand = titlu.slice(i + 3).trim();
       titlu = titlu.slice(0, i).trim();
     }
