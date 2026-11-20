@@ -73,7 +73,8 @@ const BACKUPURI_PASTRATE = 7;
 // 11.11.2026: Humanitas dezactivat — feed-ul avea preturi inghetate din 9.10.2026 si a fost scos de la descarcare.
 // 17.11.2026: Librex dezactivat — programul de afiliere librex.ro se inchide pe 16.12.2026 (uneltele devin inactive);
 // feed-ul e0aae345e scos de la descarcare. Regulile librex (REGULI_LIBREX, GENURI_LIBREX etc.) raman in cod, inactive.
-const SURSE_DEZACTIVATE = ["carturesti.ro", "libhumanitas.ro", "librex.ro"];
+// 20.11.2026: Carturesti REACTIVAT — feed-urile au revenit active in 2Performant (scos din lista de mai jos, pus inapoi in PRIORITATE_LIBRARII).
+const SURSE_DEZACTIVATE = ["libhumanitas.ro", "librex.ro"];
 
 // Daca mai mult de acest procent din produsele unei surse ar fi scoase dintr-un fisier,
 // scoaterea se suspenda si la final scriptul te intreaba daca le scoate (vezi „Prag de siguranta" sus).
@@ -1051,7 +1052,7 @@ const PRAG_BANDA_PRET = 0.05;
 // ORDINEA TA (prima = preferata). Librariile care lipsesc din lista vin la final.
 const PRIORITATE_LIBRARII = [
   "libris.ro",
-  // "carturesti.ro" — scos 10.11.2026 (sursa dezactivata, vezi SURSE_DEZACTIVATE)
+  "carturesti.ro", // scos 10.11.2026, reactivat 20.11.2026 (feed-urile au revenit)
   "librarie.net",
   "cartepedia.ro",
   // "libhumanitas.ro" — scos 11.11.2026 (sursa dezactivata)
