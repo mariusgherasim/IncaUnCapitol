@@ -810,18 +810,6 @@
     "discount": "5%"
   },
   {
-    "title": "Cum sa le vorbim copiilor astfel incat sa ne asculte - Joanna Faber, Julie King",
-    "brand": "Joanna Faber",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/cum-sa-le-vorbim-copiilor-astfel-incat-sa-ne-asculte-joanna-faber-julie-king/10888963?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=03f33a9b6&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/10889/10888963-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "62,27 Lei",
-    "oldPrice": "65,55 Lei",
-    "discount": "5%"
-  },
-  {
     "title": "La ce sa te astepti in al doilea an de viata - Heidi Murkoff",
     "brand": "Heidi Murkoff",
     "sourceSite": "libris.ro",
@@ -9652,5 +9640,15 @@
     "image": "https://cdn.dc5.ro/img-prod/60795-0.jpeg",
     "category": "carti-parenting",
     "price": "22,00 Lei"
+  },
+  {
+    "title": "Psihologia adolescentului de la 11 la 15 ani - Pierre Galimard",
+    "brand": "Pierre Galimard",
+    "sourceSite": "libris.ro",
+    "productUrl": "https://www.libris.ro/carte/psihologia-adolescentului-de-la-11-la-15-ani-pierre-galimard/1191308?utm_source=2parale&utm_medium=feed",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=03s8vCA8tZOH&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
+    "image": "https://www.libris.ro/img/pozeprod/1192/1191308-1-small-1.jpg",
+    "category": "carti-parenting",
+    "price": "33,84 Lei"
   }
 ]
