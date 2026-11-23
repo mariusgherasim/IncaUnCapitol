@@ -388,3 +388,19 @@ font:inherit;
 .genre-card.is-main{background:var(--secondary);border-color:var(--secondary);color:#000;}
 .genre-card.is-main span{color:rgba(0,0,0,.7);}
 .genre-all{text-align:center;margin-top:26px;}
+
+/* Rubrica „Fapte, nu impresii” pe homepage: link în meniu + card compact — 23.11.2026 */
+.nav-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
+.nav-link{color:var(--primary);font-weight:700;text-decoration:none;font-size:clamp(0.75rem,2vw,0.95rem);border-bottom:2px solid var(--secondary);padding-bottom:2px;}
+.fapte-strip{padding:28px 0;}
+.fapte-card{display:flex;gap:22px;align-items:center;background:#0B1F4A;color:#fff;border-radius:14px;padding:20px 24px;text-decoration:none;box-shadow:var(--shadow);}
+.fapte-card:hover{transform:translateY(-2px);}
+.fapte-stamp{flex:none;color:#ff6b5b;border:3px solid #ff6b5b;border-radius:8px;padding:2px 12px;font-weight:900;font-size:1.3rem;letter-spacing:1px;transform:rotate(-6deg);}
+.fapte-body{display:flex;flex-direction:column;gap:4px;min-width:0;}
+.fapte-kicker{color:#C89B3C;font-size:.8rem;font-weight:700;}
+.fapte-title{font-family:Georgia,serif;font-size:1.3rem;line-height:1.2;}
+.fapte-desc{font-size:.9rem;color:rgba(255,255,255,.75);}
+.fapte-btn{color:#e8b84b;font-weight:700;font-size:.9rem;margin-top:4px;}
+.fapte-all{text-align:center;margin-top:10px;font-size:.9rem;}
+.fapte-all a{color:var(--text-light);}
+@media(max-width:768px){header nav{flex-direction:column;gap:12px;}.nav-actions{flex-direction:column;gap:10px;}.fapte-card{flex-direction:column;align-items:flex-start;padding:18px;}}

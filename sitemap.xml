@@ -23,4 +23,25 @@
     <priority>0.3</priority>
   </url>
 
+  <url>
+    <loc>https://carti.gherasimmarius.com/fapte-nu-impresii/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://carti.gherasimmarius.com/fapte-nu-impresii/loteria-vaccinurilor.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://carti.gherasimmarius.com/fapte-nu-impresii/cum-verificam.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
 </urlset>
