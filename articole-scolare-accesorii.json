@@ -4166,16 +4166,6 @@
     "price": "80,00 Lei"
   },
   {
-    "title": "Suport lateral carti: City Lights",
-    "brand": "libris.ro",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/produs/suport-lateral-carti-city-lights/38099614?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=7a1927a96&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/38100/38099614-1-small-1.jpg",
-    "category": "articole-scolare-accesorii",
-    "price": "154,00 Lei"
-  },
-  {
     "title": "Mini Suport pentru carte: Pisica",
     "brand": "libris.ro",
     "sourceSite": "libris.ro",
@@ -31826,16 +31816,6 @@
     "price": "105,00 Lei"
   },
   {
-    "title": "Sacosa panza: Y'all need to read more books",
-    "brand": "libris.ro",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/produs/sacosa-panza-y-all-need-to-read-more-books/42431025?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=6b7ace446&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/42432/42431025-1-small-1.jpg",
-    "category": "articole-scolare-accesorii",
-    "price": "39,90 Lei"
-  },
-  {
     "title": "Sacosa panza: Coc, carte si flori",
     "brand": "libris.ro",
     "sourceSite": "libris.ro",
@@ -48204,16 +48184,6 @@
     "image": "https://www.librarie.net/coperti2/2/9/2/2/4/4/300x300.jpg",
     "category": "articole-scolare-accesorii",
     "price": "5,98 Lei"
-  },
-  {
-    "title": "Jurnal secret + pix. Zana",
-    "brand": "libris.ro",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/produs/jurnal-secret-pix-zana/38391563?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=be8b31d54&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/38392/38391563-1-small-1.jpg",
-    "category": "articole-scolare-accesorii",
-    "price": "20,00 Lei"
   },
   {
     "title": "Husa pentru carte: Univers colorat",
@@ -70687,9 +70657,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/373792",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ebc092925&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/7/3/7/9/2/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id373792.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "2,96 Lei"
+    "price": "2,96 Lei",
+    "oldPrice": "3,30 Lei",
+    "discount": "10%"
   },
   {
     "title": "Pix Pensan My Tech 0.7 mm, 2240A, albastru",
@@ -70751,7 +70723,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/169464",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ccb802e6b&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/1/6/9/4/6/4/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id169464.jpg",
     "category": "articole-scolare-accesorii",
     "price": "2,35 Lei"
   },
@@ -70891,9 +70863,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/370661",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=aadf19633&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/7/0/6/6/1/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id370661.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "4,41 Lei"
+    "price": "4,41 Lei",
+    "oldPrice": "4,80 Lei",
+    "discount": "8%"
   },
   {
     "title": "Caiet spira A4, 200 file, matematica",
@@ -70933,7 +70907,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/477325",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=184acd779&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/7/7/3/2/5/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id477325.jpg",
     "category": "articole-scolare-accesorii",
     "price": "5,70 Lei"
   },
@@ -71015,9 +70989,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/486125",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Tvvdmd_sUMjn&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/8/6/1/2/5/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id486125.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "8,50 Lei"
+    "price": "8,50 Lei",
+    "oldPrice": "10,20 Lei",
+    "discount": "17%"
   },
   {
     "title": "Caiet A4 80 file matematica, spira, coperta plastic, ECADA, culoare albastru",
@@ -71085,7 +71061,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/400972",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=4_cv2OeZmGBo&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/0/0/9/7/2/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id400972.jpg",
     "category": "articole-scolare-accesorii",
     "price": "13,00 Lei"
   },
@@ -71105,9 +71081,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/463564",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=StyRWCpYJ9k3&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/6/3/5/6/4/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id463564.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "10,11 Lei"
+    "price": "10,11 Lei",
+    "oldPrice": "10,30 Lei",
+    "discount": "2%"
   },
   {
     "title": "Cerneala 4001, culoare albastru royal, calimara 62,5 ml",
@@ -71189,7 +71167,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/510199",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Mjvz5SVwtmI-&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/1/0/1/9/9/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id510199.jpg",
     "category": "articole-scolare-accesorii",
     "price": "33,20 Lei"
   },
@@ -71211,9 +71189,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/486124",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=bo9wfCSFyCjM&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/8/6/1/2/4/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id486124.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "8,50 Lei"
+    "price": "8,50 Lei",
+    "oldPrice": "10,20 Lei",
+    "discount": "17%"
   },
   {
     "title": "AGRAFE CAPSATOR NR.10 1000 BUCATI/CUTIE HERLITZ",
@@ -71251,9 +71231,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/463343",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=QIaDz-EaHX_s&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/6/3/3/4/3/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id463343.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "1,65 Lei"
+    "price": "1,65 Lei",
+    "oldPrice": "2,10 Lei",
+    "discount": "21%"
   },
   {
     "title": "Etichete scolare 83 x 53 mm 30 bucati/set",
@@ -71483,9 +71465,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/433341",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=lN-sA2FEAe5S&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/3/3/3/4/1/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id433341.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "22,35 Lei"
+    "price": "22,35 Lei",
+    "oldPrice": "24,30 Lei",
+    "discount": "8%"
   },
   {
     "title": "Structura Substantelor - Atomul - Plansa didactica A4",
@@ -71725,9 +71709,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/169864",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MWtf0gWImAYG&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/1/6/9/8/6/4/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id169864.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "6,47 Lei"
+    "price": "6,47 Lei",
+    "oldPrice": "6,80 Lei",
+    "discount": "5%"
   },
   {
     "title": "Corpul uman. Postere educative",
@@ -71769,9 +71755,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/517422",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=0JPZceLAvIUk&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/1/7/4/2/2/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id517422.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "14,20 Lei"
+    "price": "14,20 Lei",
+    "oldPrice": "15,00 Lei",
+    "discount": "5%"
   },
   {
     "title": "Plic C6 Autoadeziv set 100 bucati DACO PC680",
@@ -71799,9 +71787,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/437636",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9JhH7dLkHzJ2&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/3/7/6/3/6/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id437636.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "39,39 Lei"
+    "price": "39,39 Lei",
+    "oldPrice": "46,62 Lei",
+    "discount": "16%"
   },
   {
     "title": "Pix Reco Schneider albastru 0.4 mm",
@@ -71829,9 +71819,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/300817",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=tWkeLfzmmw_A&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/0/0/8/1/7/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id300817.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "2,01 Lei"
+    "price": "2,01 Lei",
+    "oldPrice": "2,40 Lei",
+    "discount": "16%"
   },
   {
     "title": "Creion cu guma Flexibil HB, 12 buc/cutie",
@@ -71851,7 +71843,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/485435",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=T7d5UVoQRKpV&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/8/5/4/3/5/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id485435.jpg",
     "category": "articole-scolare-accesorii",
     "price": "4,00 Lei"
   },
@@ -71911,7 +71903,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/175611",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qhcc3g0Fq7zW&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/1/7/5/6/1/1/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id175611.jpg",
     "category": "articole-scolare-accesorii",
     "price": "2,90 Lei"
   },
@@ -71931,7 +71923,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/437452",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=ylAfUJd6KCQM&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/3/7/4/5/2/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id437452.jpg",
     "category": "articole-scolare-accesorii",
     "price": "2,30 Lei"
   },
@@ -71991,9 +71983,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/486148",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=RZPH2V1hIKOs&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/8/6/1/4/8/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id486148.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "2,54 Lei"
+    "price": "2,54 Lei",
+    "oldPrice": "3,00 Lei",
+    "discount": "15%"
   },
   {
     "title": "Fineliner 96, varf 0,4 mm, albastru",
@@ -72033,7 +72027,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/300887",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=g68lbvj-Q79w&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/0/0/8/8/7/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id300887.jpg",
     "category": "articole-scolare-accesorii",
     "price": "3,10 Lei"
   },
@@ -72153,9 +72147,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/299952",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fsYAxaczo3Bl&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/2/9/9/9/5/2/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id299952.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "25,05 Lei"
+    "price": "25,05 Lei",
+    "oldPrice": "33,40 Lei",
+    "discount": "25%"
   },
   {
     "title": "Caiet A4 80 file coperta plastic Atinge Excelenta dictando, culori pentru baieti (gri/negru/albastru/verde/turcoaz)",
@@ -72383,9 +72379,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/413102",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=CndnS12yrAP1&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/1/3/1/0/2/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id413102.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "0,90 Lei"
+    "price": "0,90 Lei",
+    "oldPrice": "1,40 Lei",
+    "discount": "36%"
   },
   {
     "title": "Stilou retractabil Writech M corp violet cu cutie cadou si 5 patroane cerneala albastre",
@@ -72445,9 +72443,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/378286",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WQtWFWNJrXax&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/7/8/2/8/6/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id378286.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "4,61 Lei"
+    "price": "4,61 Lei",
+    "oldPrice": "6,50 Lei",
+    "discount": "29%"
   },
   {
     "title": "Pix Schneider Suprimo albastru",
@@ -72671,7 +72671,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/375106",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YAkpf3sSYaXn&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/7/5/1/0/6/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id375106.jpg",
     "category": "articole-scolare-accesorii",
     "price": "13,30 Lei"
   },
@@ -73133,7 +73133,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/520965",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=fmAKOzSTRE8Q&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/0/9/6/5/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id520965.jpg",
     "category": "articole-scolare-accesorii",
     "price": "21,09 Lei"
   },
@@ -73223,9 +73223,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/452724",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=_3KjqnEJfSCZ&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/5/2/7/2/4/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id452724.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "1,71 Lei"
+    "price": "1,71 Lei",
+    "oldPrice": "2,60 Lei",
+    "discount": "34%"
   },
   {
     "title": "Stilou retractabil Writech corp albastru cu cutie cadou si 5 patroane cerneala albastre",
@@ -73253,9 +73255,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/372431",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=YRyteb1LiBtd&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/7/2/4/3/1/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id372431.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "23,31 Lei"
+    "price": "23,31 Lei",
+    "oldPrice": "34,80 Lei",
+    "discount": "33%"
   },
   {
     "title": "Rezerva marker tabla magnetica RZ231R rosu DACO",
@@ -73319,9 +73323,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/521028",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=oXFL4EQXH6oc&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/1/0/2/8/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id521028.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "5,54 Lei"
+    "price": "5,54 Lei",
+    "oldPrice": "7,10 Lei",
+    "discount": "22%"
   },
   {
     "title": "Capse numarul 10, 1000 bucati/cutie M&G",
@@ -73391,9 +73397,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/521148",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=MQvuQeEeRtcW&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/1/1/4/8/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id521148.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "3,58 Lei"
+    "price": "3,58 Lei",
+    "oldPrice": "4,58 Lei",
+    "discount": "22%"
   },
   {
     "title": "Kunst Rigla Metalica 30 Cm",
@@ -73483,7 +73491,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/522108",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=hNPZ8c6ONcnB&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/2/1/0/8/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id522108.jpg",
     "category": "articole-scolare-accesorii",
     "price": "15,47 Lei"
   },
@@ -73527,7 +73535,9 @@
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=sb8qOSGzPird&aff_code=676a7e7d9&campaign_unique=da1148931",
     "image": "https://www.librarie.net/coperti2/2/8/2/0/5/8/300x300.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "1,98 Lei"
+    "price": "1,98 Lei",
+    "oldPrice": "2,30 Lei",
+    "discount": "14%"
   },
   {
     "title": "Calendar de perete. Pisici, 12 file, 2027",
@@ -73575,9 +73585,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/312448",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=K4bEikoYqjl3&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/1/2/4/4/8/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id312448.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "25,14 Lei"
+    "price": "25,14 Lei",
+    "oldPrice": "27,90 Lei",
+    "discount": "10%"
   },
   {
     "title": "Calendar de buzunar, imagini pisici 2027",
@@ -73595,9 +73607,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/425104",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=BwcicWGy7a-e&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/2/5/1/0/4/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id425104.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "5,55 Lei"
+    "price": "5,55 Lei",
+    "oldPrice": "9,20 Lei",
+    "discount": "40%"
   },
   {
     "title": "Ascutitoare M&G, metalica cu o gaura, diverse culori",
@@ -73617,7 +73631,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/480765",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WfyrdV0zxWg4&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/4/8/0/7/6/5/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id480765.jpg",
     "category": "articole-scolare-accesorii",
     "price": "4,00 Lei"
   },
@@ -73637,7 +73651,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/523106",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=jbO4MpjwBgUh&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/3/1/0/6/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id523106.jpg",
     "category": "articole-scolare-accesorii",
     "price": "8,60 Lei"
   },
@@ -73647,7 +73661,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/523363",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=nQWTh8oNaAhx&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/3/3/6/3/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id523363.jpg",
     "category": "articole-scolare-accesorii",
     "price": "7,50 Lei"
   },
@@ -73677,7 +73691,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/523400",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=WTW8D2n4OkpJ&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/3/4/0/0/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id523400.jpg",
     "category": "articole-scolare-accesorii",
     "price": "7,00 Lei"
   },
@@ -73767,9 +73781,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/282032",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=9GGXsUJ45BI7&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/2/8/2/0/3/2/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id282032.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "1,11 Lei"
+    "price": "1,11 Lei",
+    "oldPrice": "1,90 Lei",
+    "discount": "42%"
   },
   {
     "title": "Calendar de perete. Caini si pisici, 6 file, 2027",
@@ -73809,9 +73825,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/521179",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=PlXEDJ31UiB3&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/1/1/7/9/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id521179.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "6,60 Lei"
+    "price": "6,60 Lei",
+    "oldPrice": "8,47 Lei",
+    "discount": "22%"
   },
   {
     "title": "Calendar de perete. Flori, 16 file, A4, 2027",
@@ -73849,7 +73867,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/523403",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=q0dhi8jXMQTm&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/3/4/0/3/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id523403.jpg",
     "category": "articole-scolare-accesorii",
     "price": "7,00 Lei"
   },
@@ -74083,9 +74101,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/374958",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=HXyoU5z2caO1&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/7/4/9/5/8/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id374958.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "2,60 Lei"
+    "price": "2,60 Lei",
+    "oldPrice": "2,90 Lei",
+    "discount": "10%"
   },
   {
     "title": "Calendar de Birou, Triptic de Lux 2027",
@@ -74153,7 +74173,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/523663",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=mOI1ipJu8U3s&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/3/6/6/3/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id523663.jpg",
     "category": "articole-scolare-accesorii",
     "price": "11,70 Lei"
   },
@@ -74333,7 +74353,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/168589",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=FKTJlp2c61bq&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/1/6/8/5/8/9/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id168589.jpg",
     "category": "articole-scolare-accesorii",
     "price": "6,50 Lei"
   },
@@ -74373,7 +74393,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/375443",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=65AVHBnZqjpI&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/7/5/4/4/3/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id375443.jpg",
     "category": "articole-scolare-accesorii",
     "price": "4,00 Lei"
   },
@@ -74383,7 +74403,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/300890",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=zMGelBLui1GA&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/0/0/8/9/0/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id300890.jpg",
     "category": "articole-scolare-accesorii",
     "price": "6,50 Lei"
   },
@@ -74583,9 +74603,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/372212",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=pxRnYoiFoMoa&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/7/2/2/1/2/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id372212.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "4,74 Lei"
+    "price": "4,74 Lei",
+    "oldPrice": "7,40 Lei",
+    "discount": "36%"
   },
   {
     "title": "Pix Schneider Essential, albastru",
@@ -74683,7 +74705,7 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/523090",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=Eb5g_IlLSD9J&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/5/2/3/0/9/0/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id523090.jpg",
     "category": "articole-scolare-accesorii",
     "price": "13,60 Lei"
   },
@@ -74745,9 +74767,11 @@
     "sourceSite": "librarie.net",
     "productUrl": "https://www.librarie.net/p/301200",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=qFjSWPRh6HHc&aff_code=676a7e7d9&campaign_unique=da1148931",
-    "image": "https://www.librarie.net/coperti2/3/0/1/2/0/0/300x300.jpg",
+    "image": "https://www.librarie.net/coperta/id301200.jpg",
     "category": "articole-scolare-accesorii",
-    "price": "1,57 Lei"
+    "price": "1,57 Lei",
+    "oldPrice": "2,40 Lei",
+    "discount": "35%"
   },
   {
     "title": "Calendar Condimente 12 File 2027",
@@ -75359,7 +75383,7 @@
     "sourceSite": "libris.ro",
     "productUrl": "https://www.libris.ro/produs/husa-pentru-carte-marocco/48978629?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=i4fwEzD302nL&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48979/48978629-1-small-1.jpg?ver=1795504325",
+    "image": "https://www.libris.ro/img/pozeprod/48979/48978629-1-small-1.jpg?ver=1795525348",
     "category": "articole-scolare-accesorii",
     "price": "51,00 Lei"
   },
@@ -75369,7 +75393,7 @@
     "sourceSite": "libris.ro",
     "productUrl": "https://www.libris.ro/produs/husa-pentru-carte-bufnite/48978622?utm_source=2parale&utm_medium=feed",
     "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=xCy4EAYdk_pc&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/48979/48978622-1-small-1.jpg?ver=1795504295",
+    "image": "https://www.libris.ro/img/pozeprod/48979/48978622-1-small-1.jpg?ver=1795525363",
     "category": "articole-scolare-accesorii",
     "price": "51,00 Lei"
   },

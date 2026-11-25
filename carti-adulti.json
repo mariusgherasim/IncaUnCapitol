@@ -1,11 +1,11 @@
 {
-  "generat": "2026-11-24T14:13:44.373Z",
-  "total": 55533,
+  "generat": "2026-11-25T09:23:42.627Z",
+  "total": 55782,
   "genuri": [
     {
       "gen": "Beletristică",
       "slug": "beletristica",
-      "carti": 19957,
+      "carti": 19953,
       "fisiere": [
         "carti-adulti-beletristica-1.json",
         "carti-adulti-beletristica-2.json"
@@ -14,7 +14,7 @@
     {
       "gen": "Dezvoltare personală",
       "slug": "dezvoltare-personala",
-      "carti": 2052,
+      "carti": 2045,
       "fisiere": [
         "carti-adulti-dezvoltare-personala.json"
       ]
@@ -22,7 +22,7 @@
     {
       "gen": "Psihologie",
       "slug": "psihologie",
-      "carti": 1064,
+      "carti": 1062,
       "fisiere": [
         "carti-adulti-psihologie.json"
       ]
@@ -30,7 +30,7 @@
     {
       "gen": "Spiritualitate și religie",
       "slug": "spiritualitate-religie",
-      "carti": 7249,
+      "carti": 7233,
       "fisiere": [
         "carti-adulti-spiritualitate-religie.json"
       ]
@@ -46,7 +46,7 @@
     {
       "gen": "Biografii și memorii",
       "slug": "biografii-memorii",
-      "carti": 2904,
+      "carti": 2892,
       "fisiere": [
         "carti-adulti-biografii-memorii.json"
       ]
@@ -54,7 +54,7 @@
     {
       "gen": "Business, economie și drept",
       "slug": "business-economie-drept",
-      "carti": 4229,
+      "carti": 4228,
       "fisiere": [
         "carti-adulti-business-economie-drept.json"
       ]
@@ -62,7 +62,7 @@
     {
       "gen": "Științe umaniste și artă",
       "slug": "stiinte-umaniste-arta",
-      "carti": 5531,
+      "carti": 5527,
       "fisiere": [
         "carti-adulti-stiinte-umaniste-arta.json"
       ]
@@ -70,7 +70,7 @@
     {
       "gen": "Sănătate",
       "slug": "sanatate",
-      "carti": 1703,
+      "carti": 1702,
       "fisiere": [
         "carti-adulti-sanatate.json"
       ]
@@ -78,7 +78,7 @@
     {
       "gen": "Hobby, călătorii și bucătărie",
       "slug": "hobby-calatorii-bucatarie",
-      "carti": 2253,
+      "carti": 2257,
       "fisiere": [
         "carti-adulti-hobby-calatorii-bucatarie.json"
       ]
@@ -86,7 +86,7 @@
     {
       "gen": "Alte titluri",
       "slug": "alte-titluri",
-      "carti": 6850,
+      "carti": 7142,
       "fisiere": [
         "carti-adulti-alte-titluri.json"
       ]
