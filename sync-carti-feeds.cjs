@@ -90,7 +90,9 @@ const FEEDS = {
   "feed_dbcb0e675.xml": { sursa: "cartepedia.ro", descriere: "cartepedia — carti in stoc" },
   "feed_f70ce214f.xml": { sursa: "cartepedia.ro", descriere: "cartepedia — carti pentru copii in stoc" },
   "feed_198b495ca.xml": { sursa: "cartepedia.ro", descriere: "cartepedia — carti educationale in stoc" },
-  "feed_d399be9e5.xml": { sursa: "librarie.net", descriere: "librarie.net — Top 10.000 produse" },
+  // 28.11.2026: feed-ul librarie.net combina 3 surse (Top 10.000 + Top 100 + Jocuri si Jucarii), cu <category> pe doua niveluri
+  // („Cărți > Fictiune", „Jucării > LEGO") si autorul in campurile custom ({"autor":"..."}) / other_data ({"autori":[...]})
+  "feed_d399be9e5.xml": { sursa: "librarie.net", descriere: "librarie.net — Top 10.000 + Top 100 + Jocuri si Jucarii" },
   "feed_d861df8a1.xml": { sursa: "carturesti.ro", descriere: "carturesti — Back to School 2026" },
   "feed_6ea72c5a4.xml": { sursa: "carturesti.ro", descriere: "carturesti — Carte in limba romana (15.000 carti)" },
   "feed_02a848b11.xml": { sursa: "carturesti.ro", descriere: "carturesti — 3.000 produse (hobby/arta, jocuri, fashion)" },
@@ -109,6 +111,9 @@ const FEEDS = {
   "feed_bd91e5f46.xml": { sursa: "edituragama.ro", descriere: "Editura Gama — feed complet (~1.300 produse pentru copii: activitati, lectura, scoala, jocuri)" },
   // 11.11.2026: librex.ro (campania 3085d2457), ~4.700 carti. Feed-ul nu are autor (<brand> = editura).
   "feed_e0aae345e.xml": { sursa: "librex.ro", descriere: "librex — feed complet (~4.700 carti: copii, beletristica, spiritualitate, istorie)" },
+  // 24.11.2026: doua magazine noi
+  "feed_1a007f7e0.xml": { sursa: "cartigeniale.ro", descriere: "cartigeniale — carti pentru copii (~240) + cateva jocuri" },
+  "feed_02d7ff039.xml": { sursa: "bestseller.ro", descriere: "bestseller.ro (Editura Bestseller) — ~220 carti: dezvoltare personala, clasici, biografii, parenting, in engleza" },
 };
 
 // Toate feed-urile de mai sus sunt citite: actualizeaza pretul si linkul oricarui produs existent pe care il contin.
@@ -156,11 +161,13 @@ const LIBRIS_JOCURI = ["feed_5d7d1b9bc.xml"];
 const FEED_VECHI_STIUT = []; // feed-uri fara avertismentul zilnic „e vechi de X ore"
 const GAMA = ["feed_bd91e5f46.xml"];
 const LIBREX = ["feed_e0aae345e.xml"];
+const CARTIGENIALE = ["feed_1a007f7e0.xml"];
+const BESTSELLER = ["feed_02d7ff039.xml"];
 const AUTORITATE = {
   "carti-copii-1.json": { "libris.ro": LIBRIS },
-  "carti-copii-2.json": { "libris.ro": LIBRIS, "cartepedia.ro": CARTEPEDIA, "edituracorint.ro": CORINT, "edituragama.ro": GAMA },
+  "carti-copii-2.json": { "libris.ro": LIBRIS, "cartepedia.ro": CARTEPEDIA, "edituracorint.ro": CORINT, "edituragama.ro": GAMA, "cartigeniale.ro": CARTIGENIALE, "bestseller.ro": BESTSELLER },
   "manuale-scolare.json": { "cartepedia.ro": CARTEPEDIA, "edituracorint.ro": CORINT, "edituragama.ro": GAMA },
-  "materii-suplimentare.json": { "cartepedia.ro": CARTEPEDIA, "grupdzc.ro": GRUPDZC, "edituracorint.ro": CORINT, "librex.ro": LIBREX },
+  "materii-suplimentare.json": { "cartepedia.ro": CARTEPEDIA, "grupdzc.ro": GRUPDZC, "edituracorint.ro": CORINT, "librex.ro": LIBREX, "bestseller.ro": BESTSELLER },
   "rechizite-papetarie.json": { "carturesti.ro": ["feed_d861df8a1.xml"], "grupdzc.ro": GRUPDZC },
   "articole-scolare-accesorii.json": { "carturesti.ro": ["feed_d861df8a1.xml"], "grupdzc.ro": GRUPDZC, "edituragama.ro": GAMA, "libris.ro": LIBRIS_JOCURI },
   "articole-scolare-jocuri.json": {
@@ -172,6 +179,7 @@ const AUTORITATE = {
     "grupdzc.ro": GRUPDZC,
     "edituragama.ro": GAMA,
     "librex.ro": LIBREX,
+    "cartigeniale.ro": CARTIGENIALE,
   },
   "oferte-carti-scolare.json": {
     "libris.ro": LIBRIS,
@@ -186,6 +194,7 @@ const AUTORITATE = {
     "edituracorint.ro": CORINT,
     "edituragama.ro": GAMA,
     "librex.ro": LIBREX,
+    "bestseller.ro": BESTSELLER,
   },
   "muzica-film-1.json": { "carturesti.ro": ["feed_952ab47b2.xml"] },
   // grupdzc: feed complet -> produsele disparute din feed se scot din toate fisierele unde apar
@@ -304,9 +313,61 @@ const ADULTI_GRUPDZC = [
   [/^(Gastronomie|Calatorie|Sfaturi Practice|Turism si Mediu|Agricultura|VREAU PERMIS AUTO)$/, "Hobby, călătorii și bucătărie"],
 ];
 // Feed-uri fara categorii de carti pentru adulti: toate cartile active intra (gen de la aceeasi carte din alt feed, altfel ALTE)
-const ADULTI_FARA_CATEGORII = ["feed_d399be9e5.xml", "feed_7bd1c15b9.xml", "feed_5b10a2be9.xml"];
-// librarie.net: doar categoria „Cărți" (restul e scolar, jucarii, diverse)
-const ADULTI_LIBRARIENET = /^Cărți$/;
+const ADULTI_FARA_CATEGORII = ["feed_7bd1c15b9.xml", "feed_5b10a2be9.xml"];
+// librarie.net (din 28.11.2026, categorii pe doua niveluri): „Cărți > <gen>" -> gen; „Cărți" simplu si „Cărți > Diverse" -> ALTE.
+// Nu intra: carti in limbi straine, invatare limbi straine, dictionare (merg la materii), audiobooks.
+const ADULTI_LIBRARIENET = {
+  "Fictiune": "Beletristică", "Dezvoltare Personala": "Dezvoltare personală", "Religie": "Spiritualitate și religie",
+  "Istorie": "Istorie", "Psihologie": "Psihologie", "Sanatate & Diete": "Sănătate",
+  "Drept": "Business, economie și drept", "Afaceri & Finante": "Business, economie și drept",
+  "Biografii & Memorialistica": "Biografii și memorii",
+  "Filosofie & Logica": "Științe umaniste și artă", "Stiinta & Tehnica": "Științe umaniste și artă", "Arta & Fotografie": "Științe umaniste și artă",
+  "Sociologie": "Științe umaniste și artă", "Politica": "Științe umaniste și artă", "Stiintele Naturii": "Științe umaniste și artă",
+  "Calculatoare & IT": "Științe umaniste și artă", "Comunicare": "Științe umaniste și artă",
+  "Casa & Gradina": "Hobby, călătorii și bucătărie", "Harti": "Hobby, călătorii și bucătărie",
+  "Diverse": ALTE,
+};
+const LIBRARIENET_FARA_ADULTI = /^(Carti in Limbi Straine|Invatare Limbi Straine|Dictionare & Ghiduri & Enciclopedii|Audiobooks.*)$/;
+function genLibrarieNet(p) {
+  const [top, sub] = decode(p.category || "").split(" > ").map((x) => x.trim());
+  if (top !== "Cărți") return null;
+  if (!sub) return ALTE;
+  if (LIBRARIENET_FARA_ADULTI.test(sub)) return null;
+  return ADULTI_LIBRARIENET[sub] || ALTE;
+}
+// librarie.net: produse noi pe site (din 28.11.2026), dupa <category> „Nivel1 > Nivel2"
+//   Jucării > * (fara jocuri video)                         -> jocuri
+//   Carte Școlară > Diplome                                 -> rechizite (diplome si medalii)
+//   Carte Școlară > *                                       -> manuale-scolare.json
+//   Diverse > Birotica & Papetarie / Pentru scoala          -> rechizite
+//   Diverse > Arts & Crafts / Cadouri / Copii si adolescenti -> accesorii
+//   Cărți > Invatare Limbi Straine / Dictionare...          -> materii-suplimentare.json
+//   restul (carti pentru adulti -> catalogul de adulti; pahare, igiena, auto, electronice -> nu intra)
+function fisierLibrarieNet(p) {
+  const [top, sub = ""] = decode(p.category || "").split(" > ").map((x) => x.trim());
+  if (top === "Jucării") return /^Gaming/.test(sub) ? null : JOCURI;
+  if (top === "Carte Școlară") return sub === "Diplome" ? "rechizite-papetarie.json" : "manuale-scolare.json";
+  if (top === "Diverse") {
+    if (/^(Birotica & Papetarie|Pentru scoala)$/.test(sub)) return "rechizite-papetarie.json";
+    if (/^(Arts & Crafts|Cadouri|Copii si adolescenti)$/.test(sub)) return ACCESORII;
+    return null;
+  }
+  if (top === "Cărți" && /^(Invatare Limbi Straine|Dictionare & Ghiduri & Enciclopedii)$/.test(sub)) return "materii-suplimentare.json";
+  return null;
+}
+// autorul din campurile custom ({"autor":"..."}, oricare din custom_field1..4) sau din other_data ({"autori":[...]})
+function autorLibrarieNet(p) {
+  for (const f of ["custom_field1", "custom_field2", "custom_field3", "custom_field4", "other_data"]) {
+    const v = String(p[f] || "").trim();
+    if (!v.startsWith("{")) continue;
+    try {
+      const o = JSON.parse(v);
+      if (o.autor) return String(o.autor).trim();
+      if (Array.isArray(o.autori) && o.autori.length) return o.autori.join(", ").trim();
+    } catch (e) {}
+  }
+  return "";
+}
 
 // ---------- LIBREX (feed_e0aae345e) — <category> = ultima subcategorie din feed ----------
 const LIBREX_COPII = "carti-copii-3.json";
@@ -498,6 +559,50 @@ function fisierCarturestiCarte(p) {
   return PARENTING;
 }
 
+// ---------- CARTIGENIALE (feed_1a007f7e0, din 24.11.2026) ----------
+// Magazin de carti pentru copii. <category> = cale cu varste / serii („Cărți pentru copii > 3-6 ani > 6-9 ani",
+// „Crăciun > 3-6 ani", „Harry Potter > 12-14 ani"...). Fara autor: <brand> = editura.
+//   „Jocuri..." (Ticket to Ride, Dixit, jetoane, puzzle de colorat cu apa, carti de activitati pentru calatorii) -> jocuri
+//   carti de colorat „pentru adulti" -> nu intra
+//   restul (toate carti pentru copii, pe varste)                                -> carti-copii-2.json
+function fisierCartigeniale(p) {
+  const c = decode(p.category || "").trim();
+  if (/pentru adul/i.test(p.title || "")) return null;
+  if (/^Jocuri\b/.test(c)) return JOCURI;
+  return "carti-copii-2.json";
+}
+
+// ---------- BESTSELLER.RO (feed_02d7ff039, din 24.11.2026) ----------
+// Magazinul Editurii Bestseller. Titlul e „Titlu - Autor" (<brand> = „Bestseller"). Pe site intra:
+//   carti in engleza (categoria „Cărți în Engleză>..." sau titlu „(Ediție în Limba Engleză)") -> materii-suplimentare.json
+//   „Cărți>Parenting și Educația Copilului"                                             -> carti-parenting.json
+//   „Cărți pentru Copii"                                                                -> carti-copii-2.json
+//   restul (dezvoltare personala, clasici, biografii, istorie, fotbal...) -> catalogul pentru adulti (pasul 4d, ADULTI_BESTSELLER)
+// Nu intra nicaieri: seturile/pachetele de carti si cartile in maghiara.
+const BESTSELLER_NU = /^Cărți>Seturi de cărți$|magyar|Túléltem|Jószerencse|Orvos voltam/;
+function bestsellerExclus(p) {
+  return BESTSELLER_NU.test(decode(p.category || "").trim()) || BESTSELLER_NU.test(p.title || "");
+}
+function fisierBestseller(p) {
+  const c = decode(p.category || "").trim();
+  if (bestsellerExclus(p)) return null;
+  if (/^Cărți în Engleză>/.test(c) || /Limba Englez/i.test(p.title || "")) return "materii-suplimentare.json";
+  if (c === "Cărți>Parenting și Educația Copilului") return PARENTING;
+  if (c === "Cărți pentru Copii") return "carti-copii-2.json";
+  return null;
+}
+const ADULTI_BESTSELLER = {
+  "Cărți>Dezvoltare Personală, Business": "Dezvoltare personală", "Dezvoltare Personală": "Dezvoltare personală",
+  "Cărți>Familie și Educație Parentală": "Dezvoltare personală",
+  "Literatura Artistică>Literatura Universală": "Beletristică", "Literatura Artistică>Literatura Română": "Beletristică",
+  "Literatura Artistică>Romane de dragoste": "Beletristică", "Literatura Artistică>Thrillere și Suspans": "Beletristică",
+  "Literatura Artistică>Literatură pentru adolescenți": "Beletristică", "Cărți>Poezie": "Beletristică",
+  "Cărți>Biografii și Memorii": "Biografii și memorii", "Cărți>Sport și Fotbal": "Biografii și memorii",
+  "Cărți>Istorie": "Istorie", "Cărți>Alimentație și Sănătate": "Sănătate",
+  // categorii de promotie, fara gen: genul se ia dupa titlu (GEN_DIN_TITLU) sau de la aceeasi carte din alt feed
+  "BLACK FRIDAY (50-70%)": ALTE, "Top 100 Cărți – Test": ALTE, "Noutăți": ALTE,
+};
+
 const REGULI = {
   "feed_23ed00784.xml": { "Parenting": PARENTING },
   // libris, din 03.11.2026 (in locul feed-ului complet sters): carti pentru copii, parenting, accesorii
@@ -553,12 +658,11 @@ const REGULI = {
   "feed_dbcb0e675.xml": REGULI_CARTEPEDIA,
   "feed_f70ce214f.xml": REGULI_CARTEPEDIA,
   "feed_198b495ca.xml": REGULI_CARTEPEDIA,
-  "feed_d399be9e5.xml": {
-    "Diverse": "articole-scolare-accesorii.json",
-    "Arts & Crafts": "articole-scolare-accesorii.json",
-    "Jucării": "articole-scolare-jocuri.json",
-    "Carte Școlară": "manuale-scolare.json",
-  },
+  // librarie.net (din 28.11.2026: categorii pe doua niveluri, vezi fisierLibrarieNet)
+  "feed_d399be9e5.xml": { "*": fisierLibrarieNet },
+  // cartigeniale + bestseller (din 24.11.2026)
+  "feed_1a007f7e0.xml": { "*": fisierCartigeniale },
+  "feed_02d7ff039.xml": { "*": fisierBestseller },
   // Carturesti carte: doar parenting (vezi fisierCarturestiCarte)
   "feed_6ea72c5a4.xml": { "*": fisierCarturestiCarte },
   "feed_d861df8a1.xml": {
@@ -765,6 +869,27 @@ function dinFeed(p, sursa, categorieSite) {
   } else if (sursa === "librex.ro") {
     // feed fara autor: <brand> e editura -> „Editura X"
     brand = brand && brand !== "-" ? (/^editura\b/i.test(brand) ? brand : "Editura " + brand) : sursa;
+  } else if (sursa === "cartigeniale.ro") {
+    // fara autor: <brand> = editura („DPH, Editura DPH", „Portocala Albastră", „Univers") -> „Editura X"
+    brand = brand.split(",").pop().trim();
+    if (!brand || /^cartigeniale$/i.test(brand)) brand = "cartigeniale.ro";
+    else if (!/^editura\b/i.test(brand)) brand = "Editura " + brand;
+  } else if (sursa === "bestseller.ro") {
+    // „Titlu - Autor (Ediție în Limba Engleză)" -> titlu „Titlu (în limba engleză)", autor „Autor"
+    let extra = "";
+    const i = titlu.lastIndexOf(" - ");
+    let autor = i > 0 ? titlu.slice(i + 3).trim() : "";
+    const par = autor.match(/\s*\((Ediți[ae][^)]*|Bonus[^)]*)\)\s*$/i);
+    if (par) { autor = autor.slice(0, par.index).trim(); extra = /englez/i.test(par[1]) ? " (în limba engleză)" : ""; }
+    if (autor && autor.length < 60 && !/^(Colecți|Ediți|Unicul|Traducere)/i.test(autor)) {
+      titlu = titlu.slice(0, i).trim() + extra;
+      brand = autor;
+    } else brand = "Editura Bestseller";
+  } else if (sursa === "librarie.net") {
+    // din 28.11.2026: autorul din campurile custom; fara autor (jucarii, papetarie) ramane brandul / editura din feed
+    const autor = autorLibrarieNet(p);
+    if (autor) brand = autor;
+    else if (!brand || brand === "-") brand = sursa;
   } else if (sursa === "brickplanet.ro") {
     if (!brand) brand = /LEGO/i.test(p.title + " " + (p.description || "")) ? "LEGO" : sursa;
   } else if (sursa === "edituragama.ro") {
@@ -1064,11 +1189,13 @@ const SURSA_BOOKS = {
   corint: "edituracorint.ro",
   gama: "edituragama.ro",
   librex: "librex.ro",
+  cartigeniale: "cartigeniale.ro",
+  bestseller: "bestseller.ro",
 };
 const BOOKS_DIN_SURSA = Object.fromEntries(Object.entries(SURSA_BOOKS).map(([a, b]) => [b, a]));
 // Surse cu feed complet: o carte care lipseste peste tot e marcata available:false (ascunsa, revine automat).
 // La librarie.net (Top 10.000) si carturesti (feed partial) lipsa din feed nu inseamna link mort -> raman neatinse.
-const BOOKS_FEED_COMPLET = ["libris.ro", "libhumanitas.ro", "curteaveche.ro", "edituratrei.ro", "cartepedia.ro", "nemira.ro", "edituracorint.ro", "edituragama.ro", "librex.ro"];
+const BOOKS_FEED_COMPLET = ["libris.ro", "libhumanitas.ro", "curteaveche.ro", "edituratrei.ro", "cartepedia.ro", "nemira.ro", "edituracorint.ro", "edituragama.ro", "librex.ro", "cartigeniale.ro", "bestseller.ro"];
 // Feed-uri din care NU se iau alternative (link expirat / ebook-uri)
 const BOOKS_FARA_ALTERNATIVE = ["feed_d861df8a1.xml", "feed_23ed00784.xml"];
 // ---------- books.json: CEL MAI BUN PRET (din 03.11.2026) ----------
@@ -1096,6 +1223,8 @@ const PRIORITATE_LIBRARII = [
   "edituracorint.ro",
   "edituragama.ro",
   "grupdzc.ro",
+  "cartigeniale.ro", // adaugat 24.11.2026
+  "bestseller.ro", // adaugat 24.11.2026
   // "librex.ro" — adaugat 11.11.2026, scos 17.11.2026 (sursa dezactivata, programul se inchide pe 16.12.2026)
 ];
 // Surse din books.json pe care sync-ul nu le atinge deloc (raman pe update-prices.js). Goala din 03.11.2026:
@@ -1239,7 +1368,7 @@ if (books) {
   const unic = (link) => ((decode(link || "").match(/[?&]unique=([^&]+)/) || [])[1] || "");
   const dupaUnic = new Map();
   for (const din of index.values()) if (din.p.aff_code) dupaUnic.set(unic(din.p.aff_code), din);
-  const CAMPANII = { "9a6f02fef": "libris.ro", da1148931: "librarie.net", "07b5f0fed": "carturesti.ro", "6f33f2a39": "cartepedia.ro", "9aab15f10": "libhumanitas.ro", f9db13aad: "curteaveche.ro", "9617003d6": "nemira.ro", "4dc37856e": "edituratrei.ro", "8dad9830f": "edituracorint.ro", "655dd2374": "edituragama.ro", "3085d2457": "librex.ro" };
+  const CAMPANII = { "9a6f02fef": "libris.ro", da1148931: "librarie.net", "07b5f0fed": "carturesti.ro", "6f33f2a39": "cartepedia.ro", "9aab15f10": "libhumanitas.ro", f9db13aad: "curteaveche.ro", "9617003d6": "nemira.ro", "4dc37856e": "edituratrei.ro", "8dad9830f": "edituracorint.ro", "655dd2374": "edituragama.ro", "3085d2457": "librex.ro", "1c039548b": "cartigeniale.ro", bcc03a204: "bestseller.ro" };
   // sursa reala: din productUrl / campania linkului (campul "source" poate fi gresit)
   const sursaReala = (it) => {
     const dom = cheie(it.productUrl || "").split("/")[0];
@@ -1468,7 +1597,8 @@ function genAdulti(feed, p) {
     const r = ADULTI_GRUPDZC.find(([rx]) => rx.test(c));
     return r ? r[1] : null;
   }
-  if (feed === "feed_d399be9e5.xml") return ADULTI_LIBRARIENET.test(c) ? ALTE : null;
+  if (feed === "feed_d399be9e5.xml") return genLibrarieNet(p);
+  if (feed === "feed_02d7ff039.xml") return bestsellerExclus(p) || fisierBestseller(p) ? null : ADULTI_BESTSELLER[c] || null;
   if (ADULTI_FARA_CATEGORII.includes(feed)) return ALTE;
   return null;
 }
@@ -1510,7 +1640,7 @@ const raportAdulti = { carti: 0, oferte: 0, genuri: {}, fisiere: {}, salvat: fal
     if (g.gen === ALTE && gen !== ALTE) g.gen = gen;
     if (pret < g.pret) {
       // pastreaza autorul daca oferta noua are doar editura/librăria ca „brand"
-      if (/^(Editura |Nemira$|Curtea Veche|cartepedia\.ro$|librarie\.net$|librex\.ro$)/.test(item.brand) && !/^(Editura |Nemira$|Curtea Veche|cartepedia\.ro$|librarie\.net$|librex\.ro$)/.test(g.item.brand)) item.brand = g.item.brand;
+      if (/^(Editura |Nemira$|Curtea Veche|cartepedia\.ro$|librarie\.net$|librex\.ro$|bestseller\.ro$)/.test(item.brand) && !/^(Editura |Nemira$|Curtea Veche|cartepedia\.ro$|librarie\.net$|librex\.ro$|bestseller\.ro$)/.test(g.item.brand)) item.brand = g.item.brand;
       g.item = item;
       g.pret = pret;
     }
