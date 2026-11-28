@@ -469,5 +469,128 @@
     "startDate": "2026-11-17",
     "endDate": "2026-11-19",
     "weight": 1
+  },
+  {
+    "id": "carturesti-targ-01",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-targ-970x250.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/offer/targul-carturestilor-2026-6764",
+    "alt": "Târgul Cărtureștilor: locul de întâlnire al cadourilor (aproape) perfecte",
+    "channels": [
+      "site"
+    ],
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-24",
+    "weight": 3
+  },
+  {
+    "id": "carturesti-targ-02",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-targ-1200x628.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/offer/targul-carturestilor-2026-6764",
+    "alt": "Târgul Cărtureștilor: cadouri de Crăciun pe carturesti.ro",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-24",
+    "weight": 3
+  },
+  {
+    "id": "carturesti-advent-01",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-advent-1200x628.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/p/advent-calendar",
+    "alt": "Calendarul Advent Cărturești: 25 de bucurii festive de deschis până la Crăciun, la precomandă",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-30",
+    "weight": 3
+  },
+  {
+    "id": "carturesti-advent-02",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-advent-1200x1200.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/p/advent-calendar",
+    "alt": "Calendarul Advent Cărturești: cea mai frumoasă numărătoare inversă a anului",
+    "channels": [
+      "email"
+    ],
+    "startDate": "2026-12-01",
+    "endDate": "2026-12-24",
+    "weight": 2
+  },
+  {
+    "id": "carturesti-craciun-vinil",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-craciun-vinil.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/offer/targul-carturestilor-2026-6764",
+    "alt": "Cărturești de Crăciun: produsele din categoria Vinil, cu livrare rapidă",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-24",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-craciun-board-games",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-craciun-board-games.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/offer/targul-carturestilor-2026-6764",
+    "alt": "Cărturești de Crăciun: produsele din categoria Board games, cu livrare rapidă",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-24",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-craciun-jocuri",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-craciun-jocuri.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/offer/targul-carturestilor-2026-6764",
+    "alt": "Cărturești de Crăciun: produsele din categoria Jocuri și jucării, cu livrare rapidă",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-24",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-craciun-copii",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-craciun-copii.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/offer/targul-carturestilor-2026-6764",
+    "alt": "Cărturești de Crăciun: produsele din categoria Carte pentru copii și adolescenți, cu livrare rapidă",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-24",
+    "weight": 1
+  },
+  {
+    "id": "carturesti-craciun-carte",
+    "merchant": "carturesti.ro",
+    "image": "https://carti.gherasimmarius.com/imagini/carturesti-craciun-carte.jpg",
+    "link": "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=676a7e7d9&unique=07b5f0fed&redirect_to=https%253A//carturesti.ro/offer/targul-carturestilor-2026-6764",
+    "alt": "Cărturești de Crăciun: produsele din categoria Carte, cu livrare rapidă",
+    "channels": [
+      "site",
+      "email"
+    ],
+    "startDate": "2026-11-28",
+    "endDate": "2026-12-24",
+    "weight": 1
   }
 ]
