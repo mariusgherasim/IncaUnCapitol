@@ -2180,18 +2180,6 @@
     "discount": "5%"
   },
   {
-    "title": "Succesul incepe in copilarie - Tovah P. Klein",
-    "brand": "Tovah P. Klein",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/succesul-incepe-in-copilarie-tovah-p-klein/27773291?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=3eec0c6cb&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/27774/27773291-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "47,48 Lei",
-    "oldPrice": "52,75 Lei",
-    "discount": "10%"
-  },
-  {
     "title": "Mamele bune au ganduri infricosatoare - Karen Kleiman, Molly McIntyre",
     "brand": "Molly Mcintyre",
     "sourceSite": "libris.ro",
@@ -2776,16 +2764,6 @@
     "price": "47,00 Lei"
   },
   {
-    "title": "Inteligenta parentala - Daniel J. Siegel, Tina Payne Bryson",
-    "brand": "Tina Payne Bryson",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/inteligenta-parentala-daniel-j-siegel-tina-payne-bryson/1072685?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=8b81cdb46&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/1073/1072685-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "47,58 Lei"
-  },
-  {
     "title": "Miracolul baietilor - Michael Gurian",
     "brand": "Michael Gurian",
     "sourceSite": "libris.ro",
@@ -3364,16 +3342,6 @@
     "image": "https://www.libris.ro/img/pozeprod/38417/38416294-1-small-1.jpg",
     "category": "carti-parenting",
     "price": "52,86 Lei"
-  },
-  {
-    "title": "Povesti terapeutice si activitati psihoeducative pentru copii - Andreea Ciocalteu",
-    "brand": "Andreea Ciocalteu",
-    "sourceSite": "libris.ro",
-    "productUrl": "https://www.libris.ro/carte/povesti-terapeutice-si-activitati-psihoeducative-pentru-copii-andreea-ciocalteu/38315284?utm_source=2parale&utm_medium=feed",
-    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=794b0eee4&aff_code=676a7e7d9&campaign_unique=9a6f02fef",
-    "image": "https://www.libris.ro/img/pozeprod/38316/38315284-1-small-1.jpg",
-    "category": "carti-parenting",
-    "price": "40,00 Lei"
   },
   {
     "title": "Bunele maniere pentru copii in 365 de zile Ed.2024 - Sheryl Eberly, Caroline Eberly",
@@ -9738,5 +9706,15 @@
     "price": "9,49 Lei",
     "oldPrice": "9,99 Lei",
     "discount": "5%"
+  },
+  {
+    "title": "Inteligenta parentala",
+    "brand": "Daniel J. Siegel, Tina Payne Bryson",
+    "sourceSite": "carturesti.ro",
+    "productUrl": "https://carturesti.ro/carte/inteligenta-parentala-451679",
+    "affiliate": "https://event.2performant.com/events/click?ad_type=product_store&unique=1ec7c9f60&aff_code=676a7e7d9&campaign_unique=07b5f0fed",
+    "image": "https://product-images.dc5.ro/451679-6.gif",
+    "category": "carti-parenting",
+    "price": "48,00 Lei"
   }
 ]
